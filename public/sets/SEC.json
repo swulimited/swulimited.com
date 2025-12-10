@@ -1,0 +1,3397 @@
+[
+  {
+    "id": "SEC-001",
+    "set": "SEC",
+    "number": 1,
+    "type": "leader",
+    "rarity": "special",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Chancellor Palpatine",
+    "title": "How Liberty Dies",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/001.png"
+  },
+  {
+    "id": "SEC-002",
+    "set": "SEC",
+    "number": 2,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Jabba the Hutt",
+    "title": "Wonderful Human Being",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/002.png"
+  },
+  {
+    "id": "SEC-003",
+    "set": "SEC",
+    "number": 3,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Lama Su",
+    "title": "We Modified Their Genetics",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/003.png"
+  },
+  {
+    "id": "SEC-004",
+    "set": "SEC",
+    "number": 4,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Leia Organa",
+    "title": "Of A Secret Bloodline",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/004.png"
+  },
+  {
+    "id": "SEC-005",
+    "set": "SEC",
+    "number": 5,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Satine Kryze",
+    "title": "Standing on Principles",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/005.png"
+  },
+  {
+    "id": "SEC-006",
+    "set": "SEC",
+    "number": 6,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Colonel Yularen",
+    "title": "This is Why We Plan",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/006.png"
+  },
+  {
+    "id": "SEC-007",
+    "set": "SEC",
+    "number": 7,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Dryden Vos",
+    "title": "I Never Ask Twice",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/007.png"
+  },
+  {
+    "id": "SEC-008",
+    "set": "SEC",
+    "number": 8,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Bail Organa",
+    "title": "Doing Everything He Can",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/008.png"
+  },
+  {
+    "id": "SEC-009",
+    "set": "SEC",
+    "number": 9,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Mon Mothma",
+    "title": "Forming a Coalition",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/009.png"
+  },
+  {
+    "id": "SEC-010",
+    "set": "SEC",
+    "number": 10,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Dedra Meero",
+    "title": "Not Wasting Time",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/010.png"
+  },
+  {
+    "id": "SEC-011",
+    "set": "SEC",
+    "number": 11,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Governor Pryce",
+    "title": "Tyrant of Lothal",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/011.png"
+  },
+  {
+    "id": "SEC-012",
+    "set": "SEC",
+    "number": 12,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Cassian Andor",
+    "title": "Climb!",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/012.png"
+  },
+  {
+    "id": "SEC-013",
+    "set": "SEC",
+    "number": 13,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Luthen Rael",
+    "title": "Don't You Want to Fight For Real?",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/013.png"
+  },
+  {
+    "id": "SEC-014",
+    "set": "SEC",
+    "number": 14,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Sly Moore",
+    "title": "Cipher in the Dark",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/014.png"
+  },
+  {
+    "id": "SEC-015",
+    "set": "SEC",
+    "number": 15,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "C-3P0",
+    "title": "Human-Cyborg Relations",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/015.png"
+  },
+  {
+    "id": "SEC-016",
+    "set": "SEC",
+    "number": 16,
+    "type": "leader",
+    "rarity": "special",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Padmé Amidala",
+    "title": "What Do You Have to Hide?",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/016.png"
+  },
+  {
+    "id": "SEC-017",
+    "set": "SEC",
+    "number": 17,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Sabé",
+    "title": "Queen's Shadow",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/017.png"
+  },
+  {
+    "id": "SEC-018",
+    "set": "SEC",
+    "number": 18,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "cunning"
+    ],
+    "name": "DJ",
+    "title": "Need a Lift?",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/018.png"
+  },
+  {
+    "id": "SEC-019",
+    "set": "SEC",
+    "number": 19,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Rix Road",
+    "title": "Ferrix",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/019.png"
+  },
+  {
+    "id": "SEC-020",
+    "set": "SEC",
+    "number": 20,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Uscru Entertainment District",
+    "title": "Coruscant",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/020.png"
+  },
+  {
+    "id": "SEC-021",
+    "set": "SEC",
+    "number": 21,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Republic City",
+    "title": "Hosnian Prime",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/021.png"
+  },
+  {
+    "id": "SEC-022",
+    "set": "SEC",
+    "number": 22,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Senate Rotunda",
+    "title": "Coruscant",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/022.png"
+  },
+  {
+    "id": "SEC-023",
+    "set": "SEC",
+    "number": 23,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Imperial Prison Complex",
+    "title": "Narona 5",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/023.png"
+  },
+  {
+    "id": "SEC-024",
+    "set": "SEC",
+    "number": 24,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Naval Intelligence HQ",
+    "title": "Coruscant",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/024.png"
+  },
+  {
+    "id": "SEC-025",
+    "set": "SEC",
+    "number": 25,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Amnesty Housing",
+    "title": "Coruscant",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/025.png"
+  },
+  {
+    "id": "SEC-026",
+    "set": "SEC",
+    "number": 26,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Mount Tantiss",
+    "title": "Wayland",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/026.png"
+  },
+  {
+    "id": "SEC-027",
+    "set": "SEC",
+    "number": 27,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "The Chancellor's Shuttle",
+    "title": "Grim Harbinger",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/027.png"
+  },
+  {
+    "id": "SEC-028",
+    "set": "SEC",
+    "number": 28,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Trayus Acolyte",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/028.png"
+  },
+  {
+    "id": "SEC-029",
+    "set": "SEC",
+    "number": 29,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Zam Wesell",
+    "title": "Inconspicuous Assassin",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/029.png"
+  },
+  {
+    "id": "SEC-030",
+    "set": "SEC",
+    "number": 30,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Death Trooper",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/030.png"
+  },
+  {
+    "id": "SEC-031",
+    "set": "SEC",
+    "number": 31,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Nute Gunray",
+    "title": "Escaping Justice",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/031.png"
+  },
+  {
+    "id": "SEC-032",
+    "set": "SEC",
+    "number": 32,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Kylo Ren's Command Shuttle",
+    "title": "Icon of Authority",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/032.png"
+  },
+  {
+    "id": "SEC-033",
+    "set": "SEC",
+    "number": 33,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Sly Moore",
+    "title": "Witness to Power",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/033.png"
+  },
+  {
+    "id": "SEC-034",
+    "set": "SEC",
+    "number": 34,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Cad Bane",
+    "title": "Impressed Now?",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/034.png"
+  },
+  {
+    "id": "SEC-035",
+    "set": "SEC",
+    "number": 35,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Darth Sion",
+    "title": "Lord of Pain",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/035.png"
+  },
+  {
+    "id": "SEC-036",
+    "set": "SEC",
+    "number": 36,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Dogmatic Shock Squad",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/036.png"
+  },
+  {
+    "id": "SEC-037",
+    "set": "SEC",
+    "number": 37,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Cantwell Arrestor Cruiser",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/037.png"
+  },
+  {
+    "id": "SEC-038",
+    "set": "SEC",
+    "number": 38,
+    "type": "upgrade",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Condemn",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/038.png"
+  },
+  {
+    "id": "SEC-039",
+    "set": "SEC",
+    "number": 39,
+    "type": "upgrade",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Creditor's Claim",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/039.png"
+  },
+  {
+    "id": "SEC-040",
+    "set": "SEC",
+    "number": 40,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Emergency Powers",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/040.png"
+  },
+  {
+    "id": "SEC-041",
+    "set": "SEC",
+    "number": 41,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Populist Advisor",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/041.png"
+  },
+  {
+    "id": "SEC-042",
+    "set": "SEC",
+    "number": 42,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Cassian Andor",
+    "title": "Lay Low",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/042.png"
+  },
+  {
+    "id": "SEC-043",
+    "set": "SEC",
+    "number": 43,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Chandrilan Sponsor",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/043.png"
+  },
+  {
+    "id": "SEC-044",
+    "set": "SEC",
+    "number": 44,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Populist Champion",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/044.png"
+  },
+  {
+    "id": "SEC-045",
+    "set": "SEC",
+    "number": 45,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Senator Chuchi",
+    "title": "Voice for the Voiceless",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/045.png"
+  },
+  {
+    "id": "SEC-046",
+    "set": "SEC",
+    "number": 46,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Galen Erso",
+    "title": "You'll Never Win",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/046.png"
+  },
+  {
+    "id": "SEC-047",
+    "set": "SEC",
+    "number": 47,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Coronet",
+    "title": "Stately Vessel",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/047.png"
+  },
+  {
+    "id": "SEC-048",
+    "set": "SEC",
+    "number": 48,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Captain Rex",
+    "title": "Into the Firefight",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/048.png"
+  },
+  {
+    "id": "SEC-049",
+    "set": "SEC",
+    "number": 49,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Jade Squadron Patrol",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/049.png"
+  },
+  {
+    "id": "SEC-050",
+    "set": "SEC",
+    "number": 50,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Vigil",
+    "title": "Securing the Future",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/050.png"
+  },
+  {
+    "id": "SEC-051",
+    "set": "SEC",
+    "number": 51,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Bo-Katan Kryze",
+    "title": "Alone",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/051.png"
+  },
+  {
+    "id": "SEC-052",
+    "set": "SEC",
+    "number": 52,
+    "type": "upgrade",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Diplomatic Immunity",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/052.png"
+  },
+  {
+    "id": "SEC-053",
+    "set": "SEC",
+    "number": 53,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "One in a Million",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/053.png"
+  },
+  {
+    "id": "SEC-054",
+    "set": "SEC",
+    "number": 54,
+    "type": "upgrade",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "vigilance"
+    ],
+    "name": "Exiled from the Force",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/054.png"
+  },
+  {
+    "id": "SEC-055",
+    "set": "SEC",
+    "number": 55,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Dhani Pilgrim",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/055.png"
+  },
+  {
+    "id": "SEC-056",
+    "set": "SEC",
+    "number": 56,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Escape Pod",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/056.png"
+  },
+  {
+    "id": "SEC-057",
+    "set": "SEC",
+    "number": 57,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Lobot",
+    "title": "Cloud City Coordinator",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/057.png"
+  },
+  {
+    "id": "SEC-058",
+    "set": "SEC",
+    "number": 58,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Lost Jedi",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/058.png"
+  },
+  {
+    "id": "SEC-059",
+    "set": "SEC",
+    "number": 59,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Senate Warden",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/059.png"
+  },
+  {
+    "id": "SEC-060",
+    "set": "SEC",
+    "number": 60,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Defense Fleet X-Wing",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/060.png"
+  },
+  {
+    "id": "SEC-061",
+    "set": "SEC",
+    "number": 61,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Willrow Hood",
+    "title": "On the Run",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/061.png"
+  },
+  {
+    "id": "SEC-062",
+    "set": "SEC",
+    "number": 62,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Bardottan Ornithopter",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/062.png"
+  },
+  {
+    "id": "SEC-063",
+    "set": "SEC",
+    "number": 63,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Rotunda Senate Guards",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/063.png"
+  },
+  {
+    "id": "SEC-064",
+    "set": "SEC",
+    "number": 64,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Congress of Malastare",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/064.png"
+  },
+  {
+    "id": "SEC-065",
+    "set": "SEC",
+    "number": 65,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Nala Se",
+    "title": "Chief Medical Scientist",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/065.png"
+  },
+  {
+    "id": "SEC-066",
+    "set": "SEC",
+    "number": 66,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Alderaanian Envoys",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/066.png"
+  },
+  {
+    "id": "SEC-067",
+    "set": "SEC",
+    "number": 67,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Umbaran Mobile Cannon",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/067.png"
+  },
+  {
+    "id": "SEC-068",
+    "set": "SEC",
+    "number": 68,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Lando Calrissian",
+    "title": "Trust Me",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/068.png"
+  },
+  {
+    "id": "SEC-069",
+    "set": "SEC",
+    "number": 69,
+    "type": "upgrade",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Nimble Prowess",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/069.png"
+  },
+  {
+    "id": "SEC-070",
+    "set": "SEC",
+    "number": 70,
+    "type": "upgrade",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Armor of Fortune",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/070.png"
+  },
+  {
+    "id": "SEC-071",
+    "set": "SEC",
+    "number": 71,
+    "type": "upgrade",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Disciples' Devotion",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/071.png"
+  },
+  {
+    "id": "SEC-072",
+    "set": "SEC",
+    "number": 72,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Scour the Archives",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/072.png"
+  },
+  {
+    "id": "SEC-073",
+    "set": "SEC",
+    "number": 73,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "The Eye of Aldhani",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/073.png"
+  },
+  {
+    "id": "SEC-074",
+    "set": "SEC",
+    "number": 74,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Relief Request",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/074.png"
+  },
+  {
+    "id": "SEC-075",
+    "set": "SEC",
+    "number": 75,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Knowledge and Defense",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/075.png"
+  },
+  {
+    "id": "SEC-076",
+    "set": "SEC",
+    "number": 76,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Charged with Murder",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/076.png"
+  },
+  {
+    "id": "SEC-077",
+    "set": "SEC",
+    "number": 77,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Retaliation",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/077.png"
+  },
+  {
+    "id": "SEC-078",
+    "set": "SEC",
+    "number": 78,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Hyperspace Disaster",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/078.png"
+  },
+  {
+    "id": "SEC-079",
+    "set": "SEC",
+    "number": 79,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Corrupt Politician",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/079.png"
+  },
+  {
+    "id": "SEC-080",
+    "set": "SEC",
+    "number": 80,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Imperial Dark Trooper",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/080.png"
+  },
+  {
+    "id": "SEC-081",
+    "set": "SEC",
+    "number": 81,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Major Partagaz",
+    "title": "Healthcare Provider",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/081.png"
+  },
+  {
+    "id": "SEC-082",
+    "set": "SEC",
+    "number": 82,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Chancellor Palpatine",
+    "title": "I Am the Senate",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/082.png"
+  },
+  {
+    "id": "SEC-083",
+    "set": "SEC",
+    "number": 83,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "ISB Shuttle",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/083.png"
+  },
+  {
+    "id": "SEC-084",
+    "set": "SEC",
+    "number": 84,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Mas Amedda",
+    "title": "Accomplice to Power",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/084.png"
+  },
+  {
+    "id": "SEC-085",
+    "set": "SEC",
+    "number": 85,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Vice Admiral Rampart",
+    "title": "On Schedule",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/085.png"
+  },
+  {
+    "id": "SEC-086",
+    "set": "SEC",
+    "number": 86,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Cruel Commandos",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/086.png"
+  },
+  {
+    "id": "SEC-087",
+    "set": "SEC",
+    "number": 87,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Dedra Meero",
+    "title": "With Verifiable Data",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/087.png"
+  },
+  {
+    "id": "SEC-088",
+    "set": "SEC",
+    "number": 88,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "First Light",
+    "title": "Threatening Elegance",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/088.png"
+  },
+  {
+    "id": "SEC-089",
+    "set": "SEC",
+    "number": 89,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "PreMor Personnel Carrier",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/089.png"
+  },
+  {
+    "id": "SEC-090",
+    "set": "SEC",
+    "number": 90,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Director Krennic",
+    "title": "I Lose Nothing But Time",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/090.png"
+  },
+  {
+    "id": "SEC-091",
+    "set": "SEC",
+    "number": 91,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Corporate Warmongering",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/091.png"
+  },
+  {
+    "id": "SEC-092",
+    "set": "SEC",
+    "number": 92,
+    "type": "event",
+    "rarity": "special",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "I Am the Senate",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/092.png"
+  },
+  {
+    "id": "SEC-093",
+    "set": "SEC",
+    "number": 93,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "C-3P0",
+    "title": "Anything I Might Do?",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/093.png"
+  },
+  {
+    "id": "SEC-094",
+    "set": "SEC",
+    "number": 94,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Mina Bonteri",
+    "title": "Stop This War",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/094.png"
+  },
+  {
+    "id": "SEC-095",
+    "set": "SEC",
+    "number": 95,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Theed Security",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/095.png"
+  },
+  {
+    "id": "SEC-096",
+    "set": "SEC",
+    "number": 96,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Ahsoka Tano",
+    "title": "I Learned it From You",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/096.png"
+  },
+  {
+    "id": "SEC-097",
+    "set": "SEC",
+    "number": 97,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Beloved Orator",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/097.png"
+  },
+  {
+    "id": "SEC-098",
+    "set": "SEC",
+    "number": 98,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Captain Typho",
+    "title": "All Necessary Precautions",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/098.png"
+  },
+  {
+    "id": "SEC-099",
+    "set": "SEC",
+    "number": 99,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Naboo Royal Starship",
+    "title": "Fit For A Queen",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/099.png"
+  },
+  {
+    "id": "SEC-100",
+    "set": "SEC",
+    "number": 100,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Dressellian Commandos",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/100.png"
+  },
+  {
+    "id": "SEC-101",
+    "set": "SEC",
+    "number": 101,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Queen Amidala",
+    "title": "Championing Her People",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/101.png"
+  },
+  {
+    "id": "SEC-102",
+    "set": "SEC",
+    "number": 102,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Renowned Dignitaries",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/102.png"
+  },
+  {
+    "id": "SEC-103",
+    "set": "SEC",
+    "number": 103,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Mon Mothma",
+    "title": "Clinging to Hope",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/103.png"
+  },
+  {
+    "id": "SEC-104",
+    "set": "SEC",
+    "number": 104,
+    "type": "upgrade",
+    "rarity": "legendary",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Figure of Unity",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/104.png"
+  },
+  {
+    "id": "SEC-105",
+    "set": "SEC",
+    "number": 105,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Renewed Friendship",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/105.png"
+  },
+  {
+    "id": "SEC-106",
+    "set": "SEC",
+    "number": 106,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Dismantle the Conspiracy",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/106.png"
+  },
+  {
+    "id": "SEC-107",
+    "set": "SEC",
+    "number": 107,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "command"
+    ],
+    "name": "Chancellor Valorum",
+    "title": "Civil Servant",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/107.png"
+  },
+  {
+    "id": "SEC-108",
+    "set": "SEC",
+    "number": 108,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Senator's Aide",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/108.png"
+  },
+  {
+    "id": "SEC-109",
+    "set": "SEC",
+    "number": 109,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Diplomatic Envoy",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/109.png"
+  },
+  {
+    "id": "SEC-110",
+    "set": "SEC",
+    "number": 110,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "GNK Power Droid",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/110.png"
+  },
+  {
+    "id": "SEC-111",
+    "set": "SEC",
+    "number": 111,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command"
+    ],
+    "name": "Jar Jar Binks",
+    "title": "Mesa Propose",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/111.png"
+  },
+  {
+    "id": "SEC-112",
+    "set": "SEC",
+    "number": 112,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command"
+    ],
+    "name": "Orn Free Taa",
+    "title": "Political Power Broker",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/112.png"
+  },
+  {
+    "id": "SEC-113",
+    "set": "SEC",
+    "number": 113,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Daro Commando",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/113.png"
+  },
+  {
+    "id": "SEC-114",
+    "set": "SEC",
+    "number": 114,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command"
+    ],
+    "name": "Kino Loy",
+    "title": "You Answer to Me",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/114.png"
+  },
+  {
+    "id": "SEC-115",
+    "set": "SEC",
+    "number": 115,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command"
+    ],
+    "name": "Taylander Shuttle",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/115.png"
+  },
+  {
+    "id": "SEC-116",
+    "set": "SEC",
+    "number": 116,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Nubian Star Skiff",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/116.png"
+  },
+  {
+    "id": "SEC-117",
+    "set": "SEC",
+    "number": 117,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Consular's Cruiser",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/117.png"
+  },
+  {
+    "id": "SEC-118",
+    "set": "SEC",
+    "number": 118,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Raxian Assembly",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/118.png"
+  },
+  {
+    "id": "SEC-119",
+    "set": "SEC",
+    "number": 119,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command"
+    ],
+    "name": "Crucible",
+    "title": "Centuries of Wisdom",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/119.png"
+  },
+  {
+    "id": "SEC-120",
+    "set": "SEC",
+    "number": 120,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Naboo Security Force",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/120.png"
+  },
+  {
+    "id": "SEC-121",
+    "set": "SEC",
+    "number": 121,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Shadow Crawler",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/121.png"
+  },
+  {
+    "id": "SEC-122",
+    "set": "SEC",
+    "number": 122,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "command"
+    ],
+    "name": "Vuutun Palaa",
+    "title": "Droid Control Ship",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/122.png"
+  },
+  {
+    "id": "SEC-123",
+    "set": "SEC",
+    "number": 123,
+    "type": "upgrade",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Unveiled Might",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/123.png"
+  },
+  {
+    "id": "SEC-124",
+    "set": "SEC",
+    "number": 124,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Budget Scheming",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/124.png"
+  },
+  {
+    "id": "SEC-125",
+    "set": "SEC",
+    "number": 125,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Reconnaissance",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/125.png"
+  },
+  {
+    "id": "SEC-126",
+    "set": "SEC",
+    "number": 126,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "command"
+    ],
+    "name": "Trade Route Taxation",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/126.png"
+  },
+  {
+    "id": "SEC-127",
+    "set": "SEC",
+    "number": 127,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "command"
+    ],
+    "name": "Charged with Corruption",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/127.png"
+  },
+  {
+    "id": "SEC-128",
+    "set": "SEC",
+    "number": 128,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "command"
+    ],
+    "name": "Convene the Senate",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/128.png"
+  },
+  {
+    "id": "SEC-129",
+    "set": "SEC",
+    "number": 129,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "With Thunderous Applause",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/129.png"
+  },
+  {
+    "id": "SEC-130",
+    "set": "SEC",
+    "number": 130,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Ferrix Uprising",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/130.png"
+  },
+  {
+    "id": "SEC-131",
+    "set": "SEC",
+    "number": 131,
+    "type": "event",
+    "rarity": "legendary",
+    "aspects": [
+      "command"
+    ],
+    "name": "Let's Talk",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/131.png"
+  },
+  {
+    "id": "SEC-132",
+    "set": "SEC",
+    "number": 132,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Imperial Occupier",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/132.png"
+  },
+  {
+    "id": "SEC-133",
+    "set": "SEC",
+    "number": 133,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Syril Karn",
+    "title": "Where is He?",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/133.png"
+  },
+  {
+    "id": "SEC-134",
+    "set": "SEC",
+    "number": 134,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Hunting Assassin Droid",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/134.png"
+  },
+  {
+    "id": "SEC-135",
+    "set": "SEC",
+    "number": 135,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Muckraker Crab Droid",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/135.png"
+  },
+  {
+    "id": "SEC-136",
+    "set": "SEC",
+    "number": 136,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Arihnda Pryce",
+    "title": "On the Road to Power",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/136.png"
+  },
+  {
+    "id": "SEC-137",
+    "set": "SEC",
+    "number": 137,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Dryden Vos",
+    "title": "I Get All Worked Up",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/137.png"
+  },
+  {
+    "id": "SEC-138",
+    "set": "SEC",
+    "number": 138,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Enforcer Squadron",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/138.png"
+  },
+  {
+    "id": "SEC-139",
+    "set": "SEC",
+    "number": 139,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Miraj Scintel",
+    "title": "The Weak Deserve to Kneel",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/139.png"
+  },
+  {
+    "id": "SEC-140",
+    "set": "SEC",
+    "number": 140,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Hondo Ohnaka",
+    "title": "You Better Hurry",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/140.png"
+  },
+  {
+    "id": "SEC-141",
+    "set": "SEC",
+    "number": 141,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "The Galleon",
+    "title": "Marauding Pirate Ship",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/141.png"
+  },
+  {
+    "id": "SEC-142",
+    "set": "SEC",
+    "number": 142,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Fulminatrix",
+    "title": "Fleet Killer",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/142.png"
+  },
+  {
+    "id": "SEC-143",
+    "set": "SEC",
+    "number": 143,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "The Elite Squad",
+    "title": "Neutralizing Insurgents",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/143.png"
+  },
+  {
+    "id": "SEC-144",
+    "set": "SEC",
+    "number": 144,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Tempest Assault",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/144.png"
+  },
+  {
+    "id": "SEC-145",
+    "set": "SEC",
+    "number": 145,
+    "type": "event",
+    "rarity": "legendary",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Confidence in Victory",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/145.png"
+  },
+  {
+    "id": "SEC-146",
+    "set": "SEC",
+    "number": 146,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Rebellious Functionary",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/146.png"
+  },
+  {
+    "id": "SEC-147",
+    "set": "SEC",
+    "number": 147,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Chopper",
+    "title": "War Hero",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/147.png"
+  },
+  {
+    "id": "SEC-148",
+    "set": "SEC",
+    "number": 148,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Karis Nemik",
+    "title": "Freedom is a Pure Idea",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/148.png"
+  },
+  {
+    "id": "SEC-149",
+    "set": "SEC",
+    "number": 149,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Kaydel Connix",
+    "title": "For Our Survival",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/149.png"
+  },
+  {
+    "id": "SEC-150",
+    "set": "SEC",
+    "number": 150,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Valiant Commando",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/150.png"
+  },
+  {
+    "id": "SEC-151",
+    "set": "SEC",
+    "number": 151,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Kazuda Xiono",
+    "title": "I'm Not A Spy",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/151.png"
+  },
+  {
+    "id": "SEC-152",
+    "set": "SEC",
+    "number": 152,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Strike Force X-Wing",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/152.png"
+  },
+  {
+    "id": "SEC-153",
+    "set": "SEC",
+    "number": 153,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Luthen's Haulcraft",
+    "title": "Countermeasures Armed",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/153.png"
+  },
+  {
+    "id": "SEC-154",
+    "set": "SEC",
+    "number": 154,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Inner Rim Coalition",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/154.png"
+  },
+  {
+    "id": "SEC-155",
+    "set": "SEC",
+    "number": 155,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Alexsandr Kallus",
+    "title": "With New Purpose",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/155.png"
+  },
+  {
+    "id": "SEC-156",
+    "set": "SEC",
+    "number": 156,
+    "type": "upgrade",
+    "rarity": "legendary",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Nemik's Manifesto",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/156.png"
+  },
+  {
+    "id": "SEC-157",
+    "set": "SEC",
+    "number": 157,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "One Way Out",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/157.png"
+  },
+  {
+    "id": "SEC-158",
+    "set": "SEC",
+    "number": 158,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Oppression Breeds Rebellion",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/158.png"
+  },
+  {
+    "id": "SEC-159",
+    "set": "SEC",
+    "number": 159,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "aggression"
+    ],
+    "name": "Chairman Papanoida",
+    "title": "Undaunted Diplomat",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/159.png"
+  },
+  {
+    "id": "SEC-160",
+    "set": "SEC",
+    "number": 160,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Reckless Rebel",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/160.png"
+  },
+  {
+    "id": "SEC-161",
+    "set": "SEC",
+    "number": 161,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Contraband Starhopper",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/161.png"
+  },
+  {
+    "id": "SEC-162",
+    "set": "SEC",
+    "number": 162,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Crosshair",
+    "title": "Filled With Doubt",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/162.png"
+  },
+  {
+    "id": "SEC-163",
+    "set": "SEC",
+    "number": 163,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Outer Rim Constable",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/163.png"
+  },
+  {
+    "id": "SEC-164",
+    "set": "SEC",
+    "number": 164,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Warrior of Clan Ordo",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/164.png"
+  },
+  {
+    "id": "SEC-165",
+    "set": "SEC",
+    "number": 165,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Academy Disciplinarian",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/165.png"
+  },
+  {
+    "id": "SEC-166",
+    "set": "SEC",
+    "number": 166,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Republic Aurek Starfighter",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/166.png"
+  },
+  {
+    "id": "SEC-167",
+    "set": "SEC",
+    "number": 167,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Coruscant Undercity Police",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/167.png"
+  },
+  {
+    "id": "SEC-168",
+    "set": "SEC",
+    "number": 168,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Ziton Moj",
+    "title": "Black Sun Bully",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/168.png"
+  },
+  {
+    "id": "SEC-169",
+    "set": "SEC",
+    "number": 169,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "AAT Incinerator",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/169.png"
+  },
+  {
+    "id": "SEC-170",
+    "set": "SEC",
+    "number": 170,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Corellian Hounds",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/170.png"
+  },
+  {
+    "id": "SEC-171",
+    "set": "SEC",
+    "number": 171,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Punishing One",
+    "title": "Takes No Prisoners",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/171.png"
+  },
+  {
+    "id": "SEC-172",
+    "set": "SEC",
+    "number": 172,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Cinta Kaz",
+    "title": "The Struggle Comes First",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/172.png"
+  },
+  {
+    "id": "SEC-173",
+    "set": "SEC",
+    "number": 173,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Republic War Walker",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/173.png"
+  },
+  {
+    "id": "SEC-174",
+    "set": "SEC",
+    "number": 174,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Saw Gerrera's U-Wing",
+    "title": "Breaking the Rules",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/174.png"
+  },
+  {
+    "id": "SEC-175",
+    "set": "SEC",
+    "number": 175,
+    "type": "upgrade",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Ambition's Reward",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/175.png"
+  },
+  {
+    "id": "SEC-176",
+    "set": "SEC",
+    "number": 176,
+    "type": "upgrade",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Sudden Ferocity",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/176.png"
+  },
+  {
+    "id": "SEC-177",
+    "set": "SEC",
+    "number": 177,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "It's Not Over Yet",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/177.png"
+  },
+  {
+    "id": "SEC-178",
+    "set": "SEC",
+    "number": 178,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Pursue the Lead",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/178.png"
+  },
+  {
+    "id": "SEC-179",
+    "set": "SEC",
+    "number": 179,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Aggressive Negotiations",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/179.png"
+  },
+  {
+    "id": "SEC-180",
+    "set": "SEC",
+    "number": 180,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Let's Call It War",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/180.png"
+  },
+  {
+    "id": "SEC-181",
+    "set": "SEC",
+    "number": 181,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Unauthorized Investigation",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/181.png"
+  },
+  {
+    "id": "SEC-182",
+    "set": "SEC",
+    "number": 182,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Charged with Treason",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/182.png"
+  },
+  {
+    "id": "SEC-183",
+    "set": "SEC",
+    "number": 183,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Topple the Summit",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/183.png"
+  },
+  {
+    "id": "SEC-184",
+    "set": "SEC",
+    "number": 184,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "ISB Agent",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/184.png"
+  },
+  {
+    "id": "SEC-185",
+    "set": "SEC",
+    "number": 185,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Screeching TIE Fighter",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/185.png"
+  },
+  {
+    "id": "SEC-186",
+    "set": "SEC",
+    "number": 186,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Garindan",
+    "title": "Information Broker",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/186.png"
+  },
+  {
+    "id": "SEC-187",
+    "set": "SEC",
+    "number": 187,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "General Grievous",
+    "title": "Scuttling to Safety",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/187.png"
+  },
+  {
+    "id": "SEC-188",
+    "set": "SEC",
+    "number": 188,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Darth Traya",
+    "title": "Lord of Betrayal",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/188.png"
+  },
+  {
+    "id": "SEC-189",
+    "set": "SEC",
+    "number": 189,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Lurking Snub Fighter",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/189.png"
+  },
+  {
+    "id": "SEC-190",
+    "set": "SEC",
+    "number": 190,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Soulless One",
+    "title": "Swift and Agile",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/190.png"
+  },
+  {
+    "id": "SEC-191",
+    "set": "SEC",
+    "number": 191,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Trade Federation Delegates",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/191.png"
+  },
+  {
+    "id": "SEC-192",
+    "set": "SEC",
+    "number": 192,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Grand Moff Tarkin",
+    "title": "Taking Krennic's Achievement",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/192.png"
+  },
+  {
+    "id": "SEC-193",
+    "set": "SEC",
+    "number": 193,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Grand Admiral Thrawn",
+    "title": "Grand Schemer",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/193.png"
+  },
+  {
+    "id": "SEC-194",
+    "set": "SEC",
+    "number": 194,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Fully Armed and Operational",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/194.png"
+  },
+  {
+    "id": "SEC-195",
+    "set": "SEC",
+    "number": 195,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Arrest",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/195.png"
+  },
+  {
+    "id": "SEC-196",
+    "set": "SEC",
+    "number": 196,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "No One Ever Knew",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/196.png"
+  },
+  {
+    "id": "SEC-197",
+    "set": "SEC",
+    "number": 197,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Furtive Handmaiden",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/197.png"
+  },
+  {
+    "id": "SEC-198",
+    "set": "SEC",
+    "number": 198,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Bail Organa",
+    "title": "Responding to Catastrophe",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/198.png"
+  },
+  {
+    "id": "SEC-199",
+    "set": "SEC",
+    "number": 199,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Bravo Squadron Fighter",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/199.png"
+  },
+  {
+    "id": "SEC-200",
+    "set": "SEC",
+    "number": 200,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Junior Senator",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/200.png"
+  },
+  {
+    "id": "SEC-201",
+    "set": "SEC",
+    "number": 201,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Anakin Skywalker",
+    "title": "Secret Husband",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/201.png"
+  },
+  {
+    "id": "SEC-202",
+    "set": "SEC",
+    "number": 202,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Rebel Propagandist",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/202.png"
+  },
+  {
+    "id": "SEC-203",
+    "set": "SEC",
+    "number": 203,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Tala Durith",
+    "title": "I Can Get You Inside",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/203.png"
+  },
+  {
+    "id": "SEC-204",
+    "set": "SEC",
+    "number": 204,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Blue Ace",
+    "title": "Colorful Racer",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/204.png"
+  },
+  {
+    "id": "SEC-205",
+    "set": "SEC",
+    "number": 205,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Obi-Wan Kenobi",
+    "title": "Finding What Doesn't Exist",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/205.png"
+  },
+  {
+    "id": "SEC-206",
+    "set": "SEC",
+    "number": 206,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Emissaries from Ryloth",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/206.png"
+  },
+  {
+    "id": "SEC-207",
+    "set": "SEC",
+    "number": 207,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Lightmaker",
+    "title": "I Have An Idea",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/207.png"
+  },
+  {
+    "id": "SEC-208",
+    "set": "SEC",
+    "number": 208,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Hunter",
+    "title": "Extraordinary Tracker",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/208.png"
+  },
+  {
+    "id": "SEC-209",
+    "set": "SEC",
+    "number": 209,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "The Mandalorian",
+    "title": "Cleaning Up Nevarro",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/209.png"
+  },
+  {
+    "id": "SEC-210",
+    "set": "SEC",
+    "number": 210,
+    "type": "upgrade",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Stolen Starpath Unit",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/210.png"
+  },
+  {
+    "id": "SEC-211",
+    "set": "SEC",
+    "number": 211,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Faith in Your Friends",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/211.png"
+  },
+  {
+    "id": "SEC-212",
+    "set": "SEC",
+    "number": 212,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "cunning"
+    ],
+    "name": "Libertine",
+    "title": "Under New Ownership",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/212.png"
+  },
+  {
+    "id": "SEC-213",
+    "set": "SEC",
+    "number": 213,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "A-Wing",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/213.png"
+  },
+  {
+    "id": "SEC-214",
+    "set": "SEC",
+    "number": 214,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Skyhopper Canyon Runner",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/214.png"
+  },
+  {
+    "id": "SEC-215",
+    "set": "SEC",
+    "number": 215,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Emissary's Sheathipede",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/215.png"
+  },
+  {
+    "id": "SEC-216",
+    "set": "SEC",
+    "number": 216,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Regulations Bureaucrat",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/216.png"
+  },
+  {
+    "id": "SEC-217",
+    "set": "SEC",
+    "number": 217,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Zenuas Shadow Fighter",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/217.png"
+  },
+  {
+    "id": "SEC-218",
+    "set": "SEC",
+    "number": 218,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Cikatro Vizago",
+    "title": "Business is What Matters",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/218.png"
+  },
+  {
+    "id": "SEC-219",
+    "set": "SEC",
+    "number": 219,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Ebon Hawk",
+    "title": "Cause and Effect",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/219.png"
+  },
+  {
+    "id": "SEC-220",
+    "set": "SEC",
+    "number": 220,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Hired Splicer",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/220.png"
+  },
+  {
+    "id": "SEC-221",
+    "set": "SEC",
+    "number": 221,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Unruly Astromech",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/221.png"
+  },
+  {
+    "id": "SEC-222",
+    "set": "SEC",
+    "number": 222,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Loan Shark",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/222.png"
+  },
+  {
+    "id": "SEC-223",
+    "set": "SEC",
+    "number": 223,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Duchess's Investigators",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/223.png"
+  },
+  {
+    "id": "SEC-224",
+    "set": "SEC",
+    "number": 224,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Vel Sartha",
+    "title": "One Path, One Choice",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/224.png"
+  },
+  {
+    "id": "SEC-225",
+    "set": "SEC",
+    "number": 225,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Synara San",
+    "title": "Harboring a Secret",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/225.png"
+  },
+  {
+    "id": "SEC-226",
+    "set": "SEC",
+    "number": 226,
+    "type": "upgrade",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Sneaking Suspicion",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/226.png"
+  },
+  {
+    "id": "SEC-227",
+    "set": "SEC",
+    "number": 227,
+    "type": "upgrade",
+    "rarity": "rare",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Special Modifications",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/227.png"
+  },
+  {
+    "id": "SEC-228",
+    "set": "SEC",
+    "number": 228,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Accelerate Our Plans",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/228.png"
+  },
+  {
+    "id": "SEC-229",
+    "set": "SEC",
+    "number": 229,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Catch Unawares",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/229.png"
+  },
+  {
+    "id": "SEC-230",
+    "set": "SEC",
+    "number": 230,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Charged with Espionage",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/230.png"
+  },
+  {
+    "id": "SEC-231",
+    "set": "SEC",
+    "number": 231,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Implicate",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/231.png"
+  },
+  {
+    "id": "SEC-232",
+    "set": "SEC",
+    "number": 232,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Kreia's Whispers",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/232.png"
+  },
+  {
+    "id": "SEC-233",
+    "set": "SEC",
+    "number": 233,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Beguile",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/233.png"
+  },
+  {
+    "id": "SEC-234",
+    "set": "SEC",
+    "number": 234,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Bog Down in Procedure",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/234.png"
+  },
+  {
+    "id": "SEC-235",
+    "set": "SEC",
+    "number": 235,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "The Wrong Ride",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/235.png"
+  },
+  {
+    "id": "SEC-236",
+    "set": "SEC",
+    "number": 236,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Undercover Operation",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/236.png"
+  },
+  {
+    "id": "SEC-237",
+    "set": "SEC",
+    "number": 237,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Supreme Council Aide",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/237.png"
+  },
+  {
+    "id": "SEC-238",
+    "set": "SEC",
+    "number": 238,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Sith Assassin",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/238.png"
+  },
+  {
+    "id": "SEC-239",
+    "set": "SEC",
+    "number": 239,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Viper Probe Droid",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/239.png"
+  },
+  {
+    "id": "SEC-240",
+    "set": "SEC",
+    "number": 240,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Hutt Cartel Starfighter",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/240.png"
+  },
+  {
+    "id": "SEC-241",
+    "set": "SEC",
+    "number": 241,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Political Bully",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/241.png"
+  },
+  {
+    "id": "SEC-242",
+    "set": "SEC",
+    "number": 242,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Elia Kane",
+    "title": "False Convert",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/242.png"
+  },
+  {
+    "id": "SEC-243",
+    "set": "SEC",
+    "number": 243,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "FN Trooper Corps",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/243.png"
+  },
+  {
+    "id": "SEC-244",
+    "set": "SEC",
+    "number": 244,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Darth Nihilus",
+    "title": "Lord of Hunger",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/244.png"
+  },
+  {
+    "id": "SEC-245",
+    "set": "SEC",
+    "number": 245,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "When Has Become Now",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/245.png"
+  },
+  {
+    "id": "SEC-246",
+    "set": "SEC",
+    "number": 246,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Contempt for Culture",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/246.png"
+  },
+  {
+    "id": "SEC-247",
+    "set": "SEC",
+    "number": 247,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Evil is Everywhere",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/247.png"
+  },
+  {
+    "id": "SEC-248",
+    "set": "SEC",
+    "number": 248,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "B2EM0",
+    "title": "That's Two Lies",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/248.png"
+  },
+  {
+    "id": "SEC-249",
+    "set": "SEC",
+    "number": 249,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "High Command Councilor",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/249.png"
+  },
+  {
+    "id": "SEC-250",
+    "set": "SEC",
+    "number": 250,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Rebel Pathfinder",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/250.png"
+  },
+  {
+    "id": "SEC-251",
+    "set": "SEC",
+    "number": 251,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Crait Veteran",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/251.png"
+  },
+  {
+    "id": "SEC-252",
+    "set": "SEC",
+    "number": 252,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Maarva Andor",
+    "title": "We've Been Sleeping",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/252.png"
+  },
+  {
+    "id": "SEC-253",
+    "set": "SEC",
+    "number": 253,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Covert Operative",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/253.png"
+  },
+  {
+    "id": "SEC-254",
+    "set": "SEC",
+    "number": 254,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Heroic ARC-170",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/254.png"
+  },
+  {
+    "id": "SEC-255",
+    "set": "SEC",
+    "number": 255,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Remote Escort Tank",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/255.png"
+  },
+  {
+    "id": "SEC-256",
+    "set": "SEC",
+    "number": 256,
+    "type": "upgrade",
+    "rarity": "rare",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Moral Authority",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/256.png"
+  },
+  {
+    "id": "SEC-257",
+    "set": "SEC",
+    "number": 257,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Restore Freedom",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/257.png"
+  },
+  {
+    "id": "SEC-258",
+    "set": "SEC",
+    "number": 258,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Grassroots Resistance",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/258.png"
+  },
+  {
+    "id": "SEC-259",
+    "set": "SEC",
+    "number": 259,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [],
+    "name": "ASP Laborer",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/259.png"
+  },
+  {
+    "id": "SEC-260",
+    "set": "SEC",
+    "number": 260,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [],
+    "name": "Inspector's Shuttle",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/260.png"
+  },
+  {
+    "id": "SEC-261",
+    "set": "SEC",
+    "number": 261,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [],
+    "name": "Inspiring Senator",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/261.png"
+  },
+  {
+    "id": "SEC-262",
+    "set": "SEC",
+    "number": 262,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [],
+    "name": "Ando Commission",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/262.png"
+  },
+  {
+    "id": "SEC-263",
+    "set": "SEC",
+    "number": 263,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [],
+    "name": "Assassin Probe",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/263.png"
+  },
+  {
+    "id": "SEC-264",
+    "set": "SEC",
+    "number": 264,
+    "type": "upgrade",
+    "rarity": "common",
+    "aspects": [],
+    "name": "Clandestine Connections",
+    "art": "https://cdn.swu-db.com/images/cards/SEC/264.png"
+  }
+]

@@ -1,0 +1,3377 @@
+[
+  {
+    "id": "LOF-001",
+    "set": "LOF",
+    "number": 1,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Kylo Ren",
+    "title": "We're Not Done Yet",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/001.png"
+  },
+  {
+    "id": "LOF-002",
+    "set": "LOF",
+    "number": 2,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Mother Talzin",
+    "title": "Power Through Magick",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/002.png"
+  },
+  {
+    "id": "LOF-003",
+    "set": "LOF",
+    "number": 3,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Ahsoka Tano",
+    "title": "Fighting For Peace",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/003.png"
+  },
+  {
+    "id": "LOF-004",
+    "set": "LOF",
+    "number": 4,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Kanan Jarrus",
+    "title": "Help Us Survive",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/004.png"
+  },
+  {
+    "id": "LOF-005",
+    "set": "LOF",
+    "number": 5,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Morgan Elsbeth",
+    "title": "Following the Call",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/005.png"
+  },
+  {
+    "id": "LOF-006",
+    "set": "LOF",
+    "number": 6,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Supreme Leader Snoke",
+    "title": "In the Seat of Power",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/006.png"
+  },
+  {
+    "id": "LOF-007",
+    "set": "LOF",
+    "number": 7,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Avar Kriss",
+    "title": "Marshal of Starlight",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/007.png"
+  },
+  {
+    "id": "LOF-008",
+    "set": "LOF",
+    "number": 8,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Obi-Wan Kenobi",
+    "title": "Courage Makes Heroes",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/008.png"
+  },
+  {
+    "id": "LOF-009",
+    "set": "LOF",
+    "number": 9,
+    "type": "leader",
+    "rarity": "special",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Darth Maul",
+    "title": "Sith Revealed",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/009.png"
+  },
+  {
+    "id": "LOF-010",
+    "set": "LOF",
+    "number": 10,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Third Sister",
+    "title": "Seething With Ambition",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/010.png"
+  },
+  {
+    "id": "LOF-011",
+    "set": "LOF",
+    "number": 11,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Kit Fisto",
+    "title": "Focused Jedi Master",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/011.png"
+  },
+  {
+    "id": "LOF-012",
+    "set": "LOF",
+    "number": 12,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Rey",
+    "title": "Nobody",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/012.png"
+  },
+  {
+    "id": "LOF-013",
+    "set": "LOF",
+    "number": 13,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Barriss Offee",
+    "title": "We Have Become Villains",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/013.png"
+  },
+  {
+    "id": "LOF-014",
+    "set": "LOF",
+    "number": 14,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Grand Inquisitor",
+    "title": "Stories Travel Quickly",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/014.png"
+  },
+  {
+    "id": "LOF-015",
+    "set": "LOF",
+    "number": 15,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Cal Kestis",
+    "title": "I Can't Keep Hiding",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/015.png"
+  },
+  {
+    "id": "LOF-016",
+    "set": "LOF",
+    "number": 16,
+    "type": "leader",
+    "rarity": "special",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Qui-Gon Jinn",
+    "title": "Student of the Living Force",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/016.png"
+  },
+  {
+    "id": "LOF-017",
+    "set": "LOF",
+    "number": 17,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Darth Revan",
+    "title": "Scourge of the Old Republic",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/017.png"
+  },
+  {
+    "id": "LOF-018",
+    "set": "LOF",
+    "number": 18,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Anakin Skywalker",
+    "title": "Tempted by the Dark Side",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/018.png"
+  },
+  {
+    "id": "LOF-019",
+    "set": "LOF",
+    "number": 19,
+    "type": "base",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Vergence Temple",
+    "title": "Lothal",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/019.png"
+  },
+  {
+    "id": "LOF-020",
+    "set": "LOF",
+    "number": 20,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Nightsister Lair",
+    "title": "Dathomir",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/020.png"
+  },
+  {
+    "id": "LOF-021",
+    "set": "LOF",
+    "number": 21,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Shadowed Undercity",
+    "title": "Coruscant",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/021.png"
+  },
+  {
+    "id": "LOF-022",
+    "set": "LOF",
+    "number": 22,
+    "type": "base",
+    "rarity": "rare",
+    "aspects": [
+      "command"
+    ],
+    "name": "Mystic Monastery",
+    "title": "Mortis",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/022.png"
+  },
+  {
+    "id": "LOF-023",
+    "set": "LOF",
+    "number": 23,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Jedi Temple",
+    "title": "Coruscant",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/023.png"
+  },
+  {
+    "id": "LOF-024",
+    "set": "LOF",
+    "number": 24,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Starlight Temple",
+    "title": "Starlight Beacon",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/024.png"
+  },
+  {
+    "id": "LOF-025",
+    "set": "LOF",
+    "number": 25,
+    "type": "base",
+    "rarity": "rare",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Temple of Destruction",
+    "title": "Malachor",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/025.png"
+  },
+  {
+    "id": "LOF-026",
+    "set": "LOF",
+    "number": 26,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Fortress Vader",
+    "title": "Mustafar",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/026.png"
+  },
+  {
+    "id": "LOF-027",
+    "set": "LOF",
+    "number": 27,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Strangled Cliffs",
+    "title": "Dathomir",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/027.png"
+  },
+  {
+    "id": "LOF-028",
+    "set": "LOF",
+    "number": 28,
+    "type": "base",
+    "rarity": "rare",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Tomb of Eilram",
+    "title": "Zeffo",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/028.png"
+  },
+  {
+    "id": "LOF-029",
+    "set": "LOF",
+    "number": 29,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Crystal Caves",
+    "title": "Ilum",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/029.png"
+  },
+  {
+    "id": "LOF-030",
+    "set": "LOF",
+    "number": 30,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "The Holy City",
+    "title": "Jedha",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/030.png"
+  },
+  {
+    "id": "LOF-031",
+    "set": "LOF",
+    "number": 31,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Karis",
+    "title": "We Don't Like Strangers",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/031.png"
+  },
+  {
+    "id": "LOF-032",
+    "set": "LOF",
+    "number": 32,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Magistrate's Scout",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/032.png"
+  },
+  {
+    "id": "LOF-033",
+    "set": "LOF",
+    "number": 33,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Nameless Terror",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/033.png"
+  },
+  {
+    "id": "LOF-034",
+    "set": "LOF",
+    "number": 34,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Supremacy TIE/sf",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/034.png"
+  },
+  {
+    "id": "LOF-035",
+    "set": "LOF",
+    "number": 35,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Talzin's Assassin",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/035.png"
+  },
+  {
+    "id": "LOF-036",
+    "set": "LOF",
+    "number": 36,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Old Daka",
+    "title": "Oldest and Wisest",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/036.png"
+  },
+  {
+    "id": "LOF-037",
+    "set": "LOF",
+    "number": 37,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Darth Vader",
+    "title": "Twilight of the Apprentice",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/037.png"
+  },
+  {
+    "id": "LOF-038",
+    "set": "LOF",
+    "number": 38,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Pong Krell",
+    "title": "It's Treason, Then",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/038.png"
+  },
+  {
+    "id": "LOF-039",
+    "set": "LOF",
+    "number": 39,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Darth Sidious",
+    "title": "The Phantom Menace",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/039.png"
+  },
+  {
+    "id": "LOF-040",
+    "set": "LOF",
+    "number": 40,
+    "type": "upgrade",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Kylo Ren's Lightsaber",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/040.png"
+  },
+  {
+    "id": "LOF-041",
+    "set": "LOF",
+    "number": 41,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Drain Essence",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/041.png"
+  },
+  {
+    "id": "LOF-042",
+    "set": "LOF",
+    "number": 42,
+    "type": "event",
+    "rarity": "legendary",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Always Two",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/042.png"
+  },
+  {
+    "id": "LOF-043",
+    "set": "LOF",
+    "number": 43,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "The Tragedy of Plagueis",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/043.png"
+  },
+  {
+    "id": "LOF-044",
+    "set": "LOF",
+    "number": 44,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Loth-Wolf",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/044.png"
+  },
+  {
+    "id": "LOF-045",
+    "set": "LOF",
+    "number": 45,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Yaddle",
+    "title": "A Chance to Make Things Right",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/045.png"
+  },
+  {
+    "id": "LOF-046",
+    "set": "LOF",
+    "number": 46,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Ezra Bridger",
+    "title": "Attuned With Life",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/046.png"
+  },
+  {
+    "id": "LOF-047",
+    "set": "LOF",
+    "number": 47,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "T-6 Shuttle 1974",
+    "title": "Stay Close",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/047.png"
+  },
+  {
+    "id": "LOF-048",
+    "set": "LOF",
+    "number": 48,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Itinerant Warrior",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/048.png"
+  },
+  {
+    "id": "LOF-049",
+    "set": "LOF",
+    "number": 49,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Jedi Guardian",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/049.png"
+  },
+  {
+    "id": "LOF-050",
+    "set": "LOF",
+    "number": 50,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Plo Koon",
+    "title": "I Don't Believe in Chance",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/050.png"
+  },
+  {
+    "id": "LOF-051",
+    "set": "LOF",
+    "number": 51,
+    "type": "upgrade",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Jedi Holocron",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/051.png"
+  },
+  {
+    "id": "LOF-052",
+    "set": "LOF",
+    "number": 52,
+    "type": "upgrade",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Jedi Trials",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/052.png"
+  },
+  {
+    "id": "LOF-053",
+    "set": "LOF",
+    "number": 53,
+    "type": "upgrade",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Heirloom Lightsaber",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/053.png"
+  },
+  {
+    "id": "LOF-054",
+    "set": "LOF",
+    "number": 54,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Calm in the Storm",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/054.png"
+  },
+  {
+    "id": "LOF-055",
+    "set": "LOF",
+    "number": 55,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "vigilance"
+    ],
+    "name": "Dume",
+    "title": "Redeem the Future",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/055.png"
+  },
+  {
+    "id": "LOF-056",
+    "set": "LOF",
+    "number": 56,
+    "type": "upgrade",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "vigilance"
+    ],
+    "name": "Size Matters Not",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/056.png"
+  },
+  {
+    "id": "LOF-057",
+    "set": "LOF",
+    "number": 57,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Owen Lars",
+    "title": "Devoted Uncle",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/057.png"
+  },
+  {
+    "id": "LOF-058",
+    "set": "LOF",
+    "number": 58,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Guardian of the Whills",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/058.png"
+  },
+  {
+    "id": "LOF-059",
+    "set": "LOF",
+    "number": 59,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Nightsister Warrior",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/059.png"
+  },
+  {
+    "id": "LOF-060",
+    "set": "LOF",
+    "number": 60,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Padawan Starfighter",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/060.png"
+  },
+  {
+    "id": "LOF-061",
+    "set": "LOF",
+    "number": 61,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Secretive Sage",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/061.png"
+  },
+  {
+    "id": "LOF-062",
+    "set": "LOF",
+    "number": 62,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Axe Woves",
+    "title": "Accomplished Warrior",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/062.png"
+  },
+  {
+    "id": "LOF-063",
+    "set": "LOF",
+    "number": 63,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Oggdo Bogdo",
+    "title": "Bogano Brute",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/063.png"
+  },
+  {
+    "id": "LOF-064",
+    "set": "LOF",
+    "number": 64,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Tauntaun",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/064.png"
+  },
+  {
+    "id": "LOF-065",
+    "set": "LOF",
+    "number": 65,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Watto",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/065.png"
+  },
+  {
+    "id": "LOF-066",
+    "set": "LOF",
+    "number": 66,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Awakened Specters",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/066.png"
+  },
+  {
+    "id": "LOF-067",
+    "set": "LOF",
+    "number": 67,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Chirrut Îmwe",
+    "title": "Blind, but not Deaf",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/067.png"
+  },
+  {
+    "id": "LOF-068",
+    "set": "LOF",
+    "number": 68,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Luthen Rael",
+    "title": "Masquerading Antiquarian",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/068.png"
+  },
+  {
+    "id": "LOF-069",
+    "set": "LOF",
+    "number": 69,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Graceful Purrgil",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/069.png"
+  },
+  {
+    "id": "LOF-070",
+    "set": "LOF",
+    "number": 70,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Anakin Skywalker",
+    "title": "Champion of Mortis",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/070.png"
+  },
+  {
+    "id": "LOF-071",
+    "set": "LOF",
+    "number": 71,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Grappling Guardian",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/071.png"
+  },
+  {
+    "id": "LOF-072",
+    "set": "LOF",
+    "number": 72,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Priestesses of the Force",
+    "title": "Eternal",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/072.png"
+  },
+  {
+    "id": "LOF-073",
+    "set": "LOF",
+    "number": 73,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Mythosaur",
+    "title": "Folklore Awakened",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/073.png"
+  },
+  {
+    "id": "LOF-074",
+    "set": "LOF",
+    "number": 74,
+    "type": "upgrade",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Bolstered Endurance",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/074.png"
+  },
+  {
+    "id": "LOF-075",
+    "set": "LOF",
+    "number": 75,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Cure Wounds",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/075.png"
+  },
+  {
+    "id": "LOF-076",
+    "set": "LOF",
+    "number": 76,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Soresu Stance",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/076.png"
+  },
+  {
+    "id": "LOF-077",
+    "set": "LOF",
+    "number": 77,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Crushing Blow",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/077.png"
+  },
+  {
+    "id": "LOF-078",
+    "set": "LOF",
+    "number": 78,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Whirlwind of Power",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/078.png"
+  },
+  {
+    "id": "LOF-079",
+    "set": "LOF",
+    "number": 79,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Shatterpoint",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/079.png"
+  },
+  {
+    "id": "LOF-080",
+    "set": "LOF",
+    "number": 80,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Exegol Patroller",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/080.png"
+  },
+  {
+    "id": "LOF-081",
+    "set": "LOF",
+    "number": 81,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Sith Legionnaire",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/081.png"
+  },
+  {
+    "id": "LOF-082",
+    "set": "LOF",
+    "number": 82,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Vaneé",
+    "title": "I Live to Serve",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/082.png"
+  },
+  {
+    "id": "LOF-083",
+    "set": "LOF",
+    "number": 83,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Captain Enoch",
+    "title": "Captain of the Guard",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/083.png"
+  },
+  {
+    "id": "LOF-084",
+    "set": "LOF",
+    "number": 84,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Knight of Ren",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/084.png"
+  },
+  {
+    "id": "LOF-085",
+    "set": "LOF",
+    "number": 85,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Praetorian Guard",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/085.png"
+  },
+  {
+    "id": "LOF-086",
+    "set": "LOF",
+    "number": 86,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Drengir Spawn",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/086.png"
+  },
+  {
+    "id": "LOF-087",
+    "set": "LOF",
+    "number": 87,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Eighth Brother",
+    "title": "Hunt Together",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/087.png"
+  },
+  {
+    "id": "LOF-088",
+    "set": "LOF",
+    "number": 88,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Eye of Sion",
+    "title": "To Peridea",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/088.png"
+  },
+  {
+    "id": "LOF-089",
+    "set": "LOF",
+    "number": 89,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Supremacy",
+    "title": "Of Unimaginable Size",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/089.png"
+  },
+  {
+    "id": "LOF-090",
+    "set": "LOF",
+    "number": 90,
+    "type": "upgrade",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Inquisitor's Lightsaber",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/090.png"
+  },
+  {
+    "id": "LOF-091",
+    "set": "LOF",
+    "number": 91,
+    "type": "upgrade",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Craving Power",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/091.png"
+  },
+  {
+    "id": "LOF-092",
+    "set": "LOF",
+    "number": 92,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Point Rain Reclaimer",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/092.png"
+  },
+  {
+    "id": "LOF-093",
+    "set": "LOF",
+    "number": 93,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Gungi",
+    "title": "Finding Himself",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/093.png"
+  },
+  {
+    "id": "LOF-094",
+    "set": "LOF",
+    "number": 94,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Jedi Consular",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/094.png"
+  },
+  {
+    "id": "LOF-095",
+    "set": "LOF",
+    "number": 95,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Lor San Tekka",
+    "title": "Secret Keeper",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/095.png"
+  },
+  {
+    "id": "LOF-096",
+    "set": "LOF",
+    "number": 96,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Obi-Wan Kenobi",
+    "title": "Protective Padawan",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/096.png"
+  },
+  {
+    "id": "LOF-097",
+    "set": "LOF",
+    "number": 97,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Eeth Koth",
+    "title": "Spiritual Warrior",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/097.png"
+  },
+  {
+    "id": "LOF-098",
+    "set": "LOF",
+    "number": 98,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Leia Organa",
+    "title": "Extraordinary",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/098.png"
+  },
+  {
+    "id": "LOF-099",
+    "set": "LOF",
+    "number": 99,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Paladin Training Corvette",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/099.png"
+  },
+  {
+    "id": "LOF-100",
+    "set": "LOF",
+    "number": 100,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Kelleran Beq",
+    "title": "The Sabered Hand",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/100.png"
+  },
+  {
+    "id": "LOF-101",
+    "set": "LOF",
+    "number": 101,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Yoda",
+    "title": "My Ally is the Force",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/101.png"
+  },
+  {
+    "id": "LOF-102",
+    "set": "LOF",
+    "number": 102,
+    "type": "upgrade",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Yoda's Lightsaber",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/102.png"
+  },
+  {
+    "id": "LOF-103",
+    "set": "LOF",
+    "number": 103,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Following the Path",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/103.png"
+  },
+  {
+    "id": "LOF-104",
+    "set": "LOF",
+    "number": 104,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Luminous Beings",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/104.png"
+  },
+  {
+    "id": "LOF-105",
+    "set": "LOF",
+    "number": 105,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "command",
+      "command"
+    ],
+    "name": "Oppo Rancisis",
+    "title": "Ancient Councilor",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/105.png"
+  },
+  {
+    "id": "LOF-106",
+    "set": "LOF",
+    "number": 106,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "command"
+    ],
+    "name": "Acclamator Assault Ship",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/106.png"
+  },
+  {
+    "id": "LOF-107",
+    "set": "LOF",
+    "number": 107,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Village Tender",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/107.png"
+  },
+  {
+    "id": "LOF-108",
+    "set": "LOF",
+    "number": 108,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command"
+    ],
+    "name": "Malakili",
+    "title": "Loving Rancor Keeper",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/108.png"
+  },
+  {
+    "id": "LOF-109",
+    "set": "LOF",
+    "number": 109,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Mynock",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/109.png"
+  },
+  {
+    "id": "LOF-110",
+    "set": "LOF",
+    "number": 110,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Hive Defense Wing",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/110.png"
+  },
+  {
+    "id": "LOF-111",
+    "set": "LOF",
+    "number": 111,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command"
+    ],
+    "name": "Maz Kanata",
+    "title": "The Light Guides",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/111.png"
+  },
+  {
+    "id": "LOF-112",
+    "set": "LOF",
+    "number": 112,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Outer Rim Mystic",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/112.png"
+  },
+  {
+    "id": "LOF-113",
+    "set": "LOF",
+    "number": 113,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Jedi Temple Guards",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/113.png"
+  },
+  {
+    "id": "LOF-114",
+    "set": "LOF",
+    "number": 114,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Kaadu",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/114.png"
+  },
+  {
+    "id": "LOF-115",
+    "set": "LOF",
+    "number": 115,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command"
+    ],
+    "name": "Dagoyan Master",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/115.png"
+  },
+  {
+    "id": "LOF-116",
+    "set": "LOF",
+    "number": 116,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Relic Scavenger",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/116.png"
+  },
+  {
+    "id": "LOF-117",
+    "set": "LOF",
+    "number": 117,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command"
+    ],
+    "name": "Sifo-Dyas",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/117.png"
+  },
+  {
+    "id": "LOF-118",
+    "set": "LOF",
+    "number": 118,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Terentatek",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/118.png"
+  },
+  {
+    "id": "LOF-119",
+    "set": "LOF",
+    "number": 119,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Hyperspace Wayfarer",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/119.png"
+  },
+  {
+    "id": "LOF-120",
+    "set": "LOF",
+    "number": 120,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Trident Assault Ship",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/120.png"
+  },
+  {
+    "id": "LOF-121",
+    "set": "LOF",
+    "number": 121,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command"
+    ],
+    "name": "The Purrgil King",
+    "title": "Leading the Journey",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/121.png"
+  },
+  {
+    "id": "LOF-122",
+    "set": "LOF",
+    "number": 122,
+    "type": "upgrade",
+    "rarity": "uncommon",
+    "aspects": [
+      "command"
+    ],
+    "name": "Pillio Star Compass",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/122.png"
+  },
+  {
+    "id": "LOF-123",
+    "set": "LOF",
+    "number": 123,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "command"
+    ],
+    "name": "Directed by the Force",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/123.png"
+  },
+  {
+    "id": "LOF-124",
+    "set": "LOF",
+    "number": 124,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "command"
+    ],
+    "name": "Niman Strike",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/124.png"
+  },
+  {
+    "id": "LOF-125",
+    "set": "LOF",
+    "number": 125,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "command"
+    ],
+    "name": "The Burden of Masters",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/125.png"
+  },
+  {
+    "id": "LOF-126",
+    "set": "LOF",
+    "number": 126,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Overpower",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/126.png"
+  },
+  {
+    "id": "LOF-127",
+    "set": "LOF",
+    "number": 127,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "command"
+    ],
+    "name": "Rampage",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/127.png"
+  },
+  {
+    "id": "LOF-128",
+    "set": "LOF",
+    "number": 128,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Protect the Pod",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/128.png"
+  },
+  {
+    "id": "LOF-129",
+    "set": "LOF",
+    "number": 129,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Acolyte of the Beyond",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/129.png"
+  },
+  {
+    "id": "LOF-130",
+    "set": "LOF",
+    "number": 130,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "HK-47",
+    "title": "Exclamation: Die, Meatbag!",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/130.png"
+  },
+  {
+    "id": "LOF-131",
+    "set": "LOF",
+    "number": 131,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Strikeship",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/131.png"
+  },
+  {
+    "id": "LOF-132",
+    "set": "LOF",
+    "number": 132,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Grand Inquisitor",
+    "title": "You're Right to Be Afraid",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/132.png"
+  },
+  {
+    "id": "LOF-133",
+    "set": "LOF",
+    "number": 133,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Purge Trooper",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/133.png"
+  },
+  {
+    "id": "LOF-134",
+    "set": "LOF",
+    "number": 134,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Heavy Missile Gunship",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/134.png"
+  },
+  {
+    "id": "LOF-135",
+    "set": "LOF",
+    "number": 135,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Scythe",
+    "title": "Intimidating Silhouette",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/135.png"
+  },
+  {
+    "id": "LOF-136",
+    "set": "LOF",
+    "number": 136,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Thralls of the Coven",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/136.png"
+  },
+  {
+    "id": "LOF-137",
+    "set": "LOF",
+    "number": 137,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Savage Opress",
+    "title": "Imbued With Hate",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/137.png"
+  },
+  {
+    "id": "LOF-138",
+    "set": "LOF",
+    "number": 138,
+    "type": "upgrade",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Sith Holocron",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/138.png"
+  },
+  {
+    "id": "LOF-139",
+    "set": "LOF",
+    "number": 139,
+    "type": "upgrade",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Battle Fury",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/139.png"
+  },
+  {
+    "id": "LOF-140",
+    "set": "LOF",
+    "number": 140,
+    "type": "upgrade",
+    "rarity": "special",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Darth Maul's Lightsaber",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/140.png"
+  },
+  {
+    "id": "LOF-141",
+    "set": "LOF",
+    "number": 141,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Death Field",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/141.png"
+  },
+  {
+    "id": "LOF-142",
+    "set": "LOF",
+    "number": 142,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Adi Gallia",
+    "title": "Stern and Focused",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/142.png"
+  },
+  {
+    "id": "LOF-143",
+    "set": "LOF",
+    "number": 143,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Attuned Fyrnock",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/143.png"
+  },
+  {
+    "id": "LOF-144",
+    "set": "LOF",
+    "number": 144,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Jedi Starfighter",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/144.png"
+  },
+  {
+    "id": "LOF-145",
+    "set": "LOF",
+    "number": 145,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Jedi Knight",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/145.png"
+  },
+  {
+    "id": "LOF-146",
+    "set": "LOF",
+    "number": 146,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Ki-Adi-Mundi",
+    "title": "We Must Push On",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/146.png"
+  },
+  {
+    "id": "LOF-147",
+    "set": "LOF",
+    "number": 147,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Kit Fisto's Aethersprite",
+    "title": "Good Hunting",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/147.png"
+  },
+  {
+    "id": "LOF-148",
+    "set": "LOF",
+    "number": 148,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Rey",
+    "title": "With Palpatine's Power",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/148.png"
+  },
+  {
+    "id": "LOF-149",
+    "set": "LOF",
+    "number": 149,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Mace Windu",
+    "title": "Leaping into Action",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/149.png"
+  },
+  {
+    "id": "LOF-150",
+    "set": "LOF",
+    "number": 150,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Cin Drallig",
+    "title": "Esteemed Blademaster",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/150.png"
+  },
+  {
+    "id": "LOF-151",
+    "set": "LOF",
+    "number": 151,
+    "type": "upgrade",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Knight's Saber",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/151.png"
+  },
+  {
+    "id": "LOF-152",
+    "set": "LOF",
+    "number": 152,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Focus Determines Reality",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/152.png"
+  },
+  {
+    "id": "LOF-153",
+    "set": "LOF",
+    "number": 153,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "aggression"
+    ],
+    "name": "Paz Vizsla",
+    "title": "Unyielding Warrior",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/153.png"
+  },
+  {
+    "id": "LOF-154",
+    "set": "LOF",
+    "number": 154,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Witch of the Mist",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/154.png"
+  },
+  {
+    "id": "LOF-155",
+    "set": "LOF",
+    "number": 155,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "DRK-1 Probe Droid",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/155.png"
+  },
+  {
+    "id": "LOF-156",
+    "set": "LOF",
+    "number": 156,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Infused Brawler ",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/156.png"
+  },
+  {
+    "id": "LOF-157",
+    "set": "LOF",
+    "number": 157,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Cartel Interceptor",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/157.png"
+  },
+  {
+    "id": "LOF-158",
+    "set": "LOF",
+    "number": 158,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Hyena Bomber",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/158.png"
+  },
+  {
+    "id": "LOF-159",
+    "set": "LOF",
+    "number": 159,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Jedi In Hiding",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/159.png"
+  },
+  {
+    "id": "LOF-160",
+    "set": "LOF",
+    "number": 160,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Merrin",
+    "title": "Alone with the Dead",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/160.png"
+  },
+  {
+    "id": "LOF-161",
+    "set": "LOF",
+    "number": 161,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Tuk'ata",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/161.png"
+  },
+  {
+    "id": "LOF-162",
+    "set": "LOF",
+    "number": 162,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Hunting Nexu",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/162.png"
+  },
+  {
+    "id": "LOF-163",
+    "set": "LOF",
+    "number": 163,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Quinlan Vos",
+    "title": "Dark Disciple",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/163.png"
+  },
+  {
+    "id": "LOF-164",
+    "set": "LOF",
+    "number": 164,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Wampa",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/164.png"
+  },
+  {
+    "id": "LOF-165",
+    "set": "LOF",
+    "number": 165,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Asajj Ventress",
+    "title": "Harden Your Heart",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/165.png"
+  },
+  {
+    "id": "LOF-166",
+    "set": "LOF",
+    "number": 166,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Blockade Runner",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/166.png"
+  },
+  {
+    "id": "LOF-167",
+    "set": "LOF",
+    "number": 167,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Saesee Tiin",
+    "title": "Courageous Warrior",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/167.png"
+  },
+  {
+    "id": "LOF-168",
+    "set": "LOF",
+    "number": 168,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Ravenous Rathtar",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/168.png"
+  },
+  {
+    "id": "LOF-169",
+    "set": "LOF",
+    "number": 169,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Invasion Control Ship",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/169.png"
+  },
+  {
+    "id": "LOF-170",
+    "set": "LOF",
+    "number": 170,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Bendu",
+    "title": "Do You Fear the Storm?",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/170.png"
+  },
+  {
+    "id": "LOF-171",
+    "set": "LOF",
+    "number": 171,
+    "type": "upgrade",
+    "rarity": "rare",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Heavy Blaster Cannon",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/171.png"
+  },
+  {
+    "id": "LOF-172",
+    "set": "LOF",
+    "number": 172,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Sorcerous Blast",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/172.png"
+  },
+  {
+    "id": "LOF-173",
+    "set": "LOF",
+    "number": 173,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Unleash Rage",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/173.png"
+  },
+  {
+    "id": "LOF-174",
+    "set": "LOF",
+    "number": 174,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Ataru Onslaught",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/174.png"
+  },
+  {
+    "id": "LOF-175",
+    "set": "LOF",
+    "number": 175,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Do or Do Not",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/175.png"
+  },
+  {
+    "id": "LOF-176",
+    "set": "LOF",
+    "number": 176,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Lightsaber Throw",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/176.png"
+  },
+  {
+    "id": "LOF-177",
+    "set": "LOF",
+    "number": 177,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Time of Crisis",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/177.png"
+  },
+  {
+    "id": "LOF-178",
+    "set": "LOF",
+    "number": 178,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Adept of Anger",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/178.png"
+  },
+  {
+    "id": "LOF-179",
+    "set": "LOF",
+    "number": 179,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Aurra Sing",
+    "title": "Patient and Deadly",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/179.png"
+  },
+  {
+    "id": "LOF-180",
+    "set": "LOF",
+    "number": 180,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Deceptive Shade",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/180.png"
+  },
+  {
+    "id": "LOF-181",
+    "set": "LOF",
+    "number": 181,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Banking Clan Shuttle",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/181.png"
+  },
+  {
+    "id": "LOF-182",
+    "set": "LOF",
+    "number": 182,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Nihil Marauder",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/182.png"
+  },
+  {
+    "id": "LOF-183",
+    "set": "LOF",
+    "number": 183,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Shin Hati",
+    "title": "Overeager Apprentice",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/183.png"
+  },
+  {
+    "id": "LOF-184",
+    "set": "LOF",
+    "number": 184,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Second Sister",
+    "title": "Seeking the Holocron",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/184.png"
+  },
+  {
+    "id": "LOF-185",
+    "set": "LOF",
+    "number": 185,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Baylan Skoll",
+    "title": "Enigmatic Master",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/185.png"
+  },
+  {
+    "id": "LOF-186",
+    "set": "LOF",
+    "number": 186,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Marchion Ro",
+    "title": "Eye of the Nihil",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/186.png"
+  },
+  {
+    "id": "LOF-187",
+    "set": "LOF",
+    "number": 187,
+    "type": "upgrade",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Corrupted Saber",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/187.png"
+  },
+  {
+    "id": "LOF-188",
+    "set": "LOF",
+    "number": 188,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "As I Have Foreseen",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/188.png"
+  },
+  {
+    "id": "LOF-189",
+    "set": "LOF",
+    "number": 189,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Liberated by Darkness",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/189.png"
+  },
+  {
+    "id": "LOF-190",
+    "set": "LOF",
+    "number": 190,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Anakin Skywalker",
+    "title": "Force Prodigy",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/190.png"
+  },
+  {
+    "id": "LOF-191",
+    "set": "LOF",
+    "number": 191,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "BD-1",
+    "title": "Beep Boo Boo Bweep",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/191.png"
+  },
+  {
+    "id": "LOF-192",
+    "set": "LOF",
+    "number": 192,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "N-1 Starfighter",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/192.png"
+  },
+  {
+    "id": "LOF-193",
+    "set": "LOF",
+    "number": 193,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Youngling Padawan",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/193.png"
+  },
+  {
+    "id": "LOF-194",
+    "set": "LOF",
+    "number": 194,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "J-Type Nubian Starship",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/194.png"
+  },
+  {
+    "id": "LOF-195",
+    "set": "LOF",
+    "number": 195,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Vernestra Rwoh",
+    "title": "Precocious Knight",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/195.png"
+  },
+  {
+    "id": "LOF-196",
+    "set": "LOF",
+    "number": 196,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Jedi Sentinel",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/196.png"
+  },
+  {
+    "id": "LOF-197",
+    "set": "LOF",
+    "number": 197,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Qui-Gon Jinn's Aethersprite",
+    "title": "Guided by the Force",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/197.png"
+  },
+  {
+    "id": "LOF-198",
+    "set": "LOF",
+    "number": 198,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Stinger Mantis",
+    "title": "Where Are We Going?",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/198.png"
+  },
+  {
+    "id": "LOF-199",
+    "set": "LOF",
+    "number": 199,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Depa Billaba",
+    "title": "A Higher Purpose",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/199.png"
+  },
+  {
+    "id": "LOF-200",
+    "set": "LOF",
+    "number": 200,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Qui-Gon Jinn",
+    "title": "The Negotiations will be Short",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/200.png"
+  },
+  {
+    "id": "LOF-201",
+    "set": "LOF",
+    "number": 201,
+    "type": "upgrade",
+    "rarity": "special",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Qui-Gon Jinn's Lightsaber",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/201.png"
+  },
+  {
+    "id": "LOF-202",
+    "set": "LOF",
+    "number": 202,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Mind Trick",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/202.png"
+  },
+  {
+    "id": "LOF-203",
+    "set": "LOF",
+    "number": 203,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Premonition of Doom",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/203.png"
+  },
+  {
+    "id": "LOF-204",
+    "set": "LOF",
+    "number": 204,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "cunning",
+      "cunning"
+    ],
+    "name": "Zuckuss",
+    "title": "The Findsman",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/204.png"
+  },
+  {
+    "id": "LOF-205",
+    "set": "LOF",
+    "number": 205,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "cunning"
+    ],
+    "name": "Force Speed",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/205.png"
+  },
+  {
+    "id": "LOF-206",
+    "set": "LOF",
+    "number": 206,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Babu Frik",
+    "title": "Heyyy!",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/206.png"
+  },
+  {
+    "id": "LOF-207",
+    "set": "LOF",
+    "number": 207,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Loth-Cat",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/207.png"
+  },
+  {
+    "id": "LOF-208",
+    "set": "LOF",
+    "number": 208,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Mysterious Hermit",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/208.png"
+  },
+  {
+    "id": "LOF-209",
+    "set": "LOF",
+    "number": 209,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Tusken Tracker",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/209.png"
+  },
+  {
+    "id": "LOF-210",
+    "set": "LOF",
+    "number": 210,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Charging Phillak",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/210.png"
+  },
+  {
+    "id": "LOF-211",
+    "set": "LOF",
+    "number": 211,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Dooku",
+    "title": "It is Too Late",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/211.png"
+  },
+  {
+    "id": "LOF-212",
+    "set": "LOF",
+    "number": 212,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Life Wind Sage",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/212.png"
+  },
+  {
+    "id": "LOF-213",
+    "set": "LOF",
+    "number": 213,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "The Legacy Run",
+    "title": "Doomed Debris",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/213.png"
+  },
+  {
+    "id": "LOF-214",
+    "set": "LOF",
+    "number": 214,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Sorcerers of Tund",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/214.png"
+  },
+  {
+    "id": "LOF-215",
+    "set": "LOF",
+    "number": 215,
+    "type": "upgrade",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Ascension Cable",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/215.png"
+  },
+  {
+    "id": "LOF-216",
+    "set": "LOF",
+    "number": 216,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Disturbance in the Force",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/216.png"
+  },
+  {
+    "id": "LOF-217",
+    "set": "LOF",
+    "number": 217,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Force Slow",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/217.png"
+  },
+  {
+    "id": "LOF-218",
+    "set": "LOF",
+    "number": 218,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Impossible Escape",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/218.png"
+  },
+  {
+    "id": "LOF-219",
+    "set": "LOF",
+    "number": 219,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Psychometry",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/219.png"
+  },
+  {
+    "id": "LOF-220",
+    "set": "LOF",
+    "number": 220,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Shien Flurry",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/220.png"
+  },
+  {
+    "id": "LOF-221",
+    "set": "LOF",
+    "number": 221,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Trust Your Instincts",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/221.png"
+  },
+  {
+    "id": "LOF-222",
+    "set": "LOF",
+    "number": 222,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "A Precarious Predicament",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/222.png"
+  },
+  {
+    "id": "LOF-223",
+    "set": "LOF",
+    "number": 223,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Force Illusion",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/223.png"
+  },
+  {
+    "id": "LOF-224",
+    "set": "LOF",
+    "number": 224,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Pounce",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/224.png"
+  },
+  {
+    "id": "LOF-225",
+    "set": "LOF",
+    "number": 225,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Three Lessons",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/225.png"
+  },
+  {
+    "id": "LOF-226",
+    "set": "LOF",
+    "number": 226,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Tip the Scale",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/226.png"
+  },
+  {
+    "id": "LOF-227",
+    "set": "LOF",
+    "number": 227,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "The Will of the Force",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/227.png"
+  },
+  {
+    "id": "LOF-228",
+    "set": "LOF",
+    "number": 228,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Forged Starfighter",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/228.png"
+  },
+  {
+    "id": "LOF-229",
+    "set": "LOF",
+    "number": 229,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Kylo Ren",
+    "title": "I Know Your Story",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/229.png"
+  },
+  {
+    "id": "LOF-230",
+    "set": "LOF",
+    "number": 230,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Fallen Jedi",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/230.png"
+  },
+  {
+    "id": "LOF-231",
+    "set": "LOF",
+    "number": 231,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Darth Tyranus",
+    "title": "Servant of Sidious",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/231.png"
+  },
+  {
+    "id": "LOF-232",
+    "set": "LOF",
+    "number": 232,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Sandtrooper Cavalry",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/232.png"
+  },
+  {
+    "id": "LOF-233",
+    "set": "LOF",
+    "number": 233,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Scimitar",
+    "title": "Sith Infiltrator",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/233.png"
+  },
+  {
+    "id": "LOF-234",
+    "set": "LOF",
+    "number": 234,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Darth Malak",
+    "title": "Covetous Apprentice",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/234.png"
+  },
+  {
+    "id": "LOF-235",
+    "set": "LOF",
+    "number": 235,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "HK-87 Assassin Droid",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/235.png"
+  },
+  {
+    "id": "LOF-236",
+    "set": "LOF",
+    "number": 236,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Army of the Dead",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/236.png"
+  },
+  {
+    "id": "LOF-237",
+    "set": "LOF",
+    "number": 237,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "The Son",
+    "title": "Embodiment of Darkness",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/237.png"
+  },
+  {
+    "id": "LOF-238",
+    "set": "LOF",
+    "number": 238,
+    "type": "upgrade",
+    "rarity": "rare",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Darth Revan's Lightsaber",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/238.png"
+  },
+  {
+    "id": "LOF-239",
+    "set": "LOF",
+    "number": 239,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Consumed by the Dark Side",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/239.png"
+  },
+  {
+    "id": "LOF-240",
+    "set": "LOF",
+    "number": 240,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Flight of the Inquisitor",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/240.png"
+  },
+  {
+    "id": "LOF-241",
+    "set": "LOF",
+    "number": 241,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "In the Shadows",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/241.png"
+  },
+  {
+    "id": "LOF-242",
+    "set": "LOF",
+    "number": 242,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Refugee of The Path",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/242.png"
+  },
+  {
+    "id": "LOF-243",
+    "set": "LOF",
+    "number": 243,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Caretaker Matron",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/243.png"
+  },
+  {
+    "id": "LOF-244",
+    "set": "LOF",
+    "number": 244,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Jedi Vector",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/244.png"
+  },
+  {
+    "id": "LOF-245",
+    "set": "LOF",
+    "number": 245,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Vulptex",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/245.png"
+  },
+  {
+    "id": "LOF-246",
+    "set": "LOF",
+    "number": 246,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Grogu",
+    "title": "Mysterious Child",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/246.png"
+  },
+  {
+    "id": "LOF-247",
+    "set": "LOF",
+    "number": 247,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Gungan Warrior",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/247.png"
+  },
+  {
+    "id": "LOF-248",
+    "set": "LOF",
+    "number": 248,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Jocasta Nu",
+    "title": "The Gift of Knowledge",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/248.png"
+  },
+  {
+    "id": "LOF-249",
+    "set": "LOF",
+    "number": 249,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Luke Skywalker",
+    "title": "A Hero's Beginning",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/249.png"
+  },
+  {
+    "id": "LOF-250",
+    "set": "LOF",
+    "number": 250,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Medical Frigate",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/250.png"
+  },
+  {
+    "id": "LOF-251",
+    "set": "LOF",
+    "number": 251,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Blue Squadron Assault Wing",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/251.png"
+  },
+  {
+    "id": "LOF-252",
+    "set": "LOF",
+    "number": 252,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "The Daughter",
+    "title": "Embodiment of Light",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/252.png"
+  },
+  {
+    "id": "LOF-253",
+    "set": "LOF",
+    "number": 253,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Longbeam Cruiser",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/253.png"
+  },
+  {
+    "id": "LOF-254",
+    "set": "LOF",
+    "number": 254,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [],
+    "name": "Porg",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/254.png"
+  },
+  {
+    "id": "LOF-255",
+    "set": "LOF",
+    "number": 255,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [],
+    "name": "Curious Flock",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/255.png"
+  },
+  {
+    "id": "LOF-256",
+    "set": "LOF",
+    "number": 256,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [],
+    "name": "Gifted Urchin",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/256.png"
+  },
+  {
+    "id": "LOF-257",
+    "set": "LOF",
+    "number": 257,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [],
+    "name": "Kowakian Monkey-Lizard",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/257.png"
+  },
+  {
+    "id": "LOF-258",
+    "set": "LOF",
+    "number": 258,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [],
+    "name": "Peli Motto",
+    "title": "I Should Charge You More",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/258.png"
+  },
+  {
+    "id": "LOF-259",
+    "set": "LOF",
+    "number": 259,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [],
+    "name": "Ravening Gundark",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/259.png"
+  },
+  {
+    "id": "LOF-260",
+    "set": "LOF",
+    "number": 260,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [],
+    "name": "The Father",
+    "title": "Maintaining Balance",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/260.png"
+  },
+  {
+    "id": "LOF-261",
+    "set": "LOF",
+    "number": 261,
+    "type": "upgrade",
+    "rarity": "legendary",
+    "aspects": [],
+    "name": "Constructed Lightsaber",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/261.png"
+  },
+  {
+    "id": "LOF-262",
+    "set": "LOF",
+    "number": 262,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [],
+    "name": "Go Into Hiding",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/262.png"
+  },
+  {
+    "id": "LOF-263",
+    "set": "LOF",
+    "number": 263,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [],
+    "name": "Last Words",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/263.png"
+  },
+  {
+    "id": "LOF-264",
+    "set": "LOF",
+    "number": 264,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [],
+    "name": "It's Worse",
+    "art": "https://cdn.swu-db.com/images/cards/LOF/264.png"
+  }
+]
