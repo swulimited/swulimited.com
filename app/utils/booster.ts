@@ -55,17 +55,21 @@ export async function fetchSetCards(setId: string): Promise<Card[]> {
  * @returns An array of 16 Card objects.
  */
 export function generateBoosterPack(allCards: Card[]): Card[] {
-    // Filter out tokens and special rarity cards (starter exclusives)
-    const validCards = allCards.filter(c => c.type !== 'token' && c.rarity !== 'special');
-
     const setId = allCards.length > 0 ? allCards[0]?.set : '';
 
-    const leaders = validCards.filter(c => c.type === 'leader');
-    const bases = validCards.filter(c => c.type === 'base');
+    // Filter out tokens. We keep Special cards because they can appear in the final slot.
+    const nonTokenCards = allCards.filter(c => c.type !== 'token');
 
-    // Standard pool: Non-leader, Non-base
-    // This is the default pool for Commons, Uncommons, and the "Foil" slot
-    const standardPool = validCards.filter(c => c.type !== 'leader' && c.type !== 'base');
+    const leaders = nonTokenCards.filter(c => c.type === 'leader');
+    const bases = nonTokenCards.filter(c => c.type === 'base');
+
+    // Standard pool for main slots: Non-Leader, Non-Base, Non-Special
+    // "Standard pool" excludes Leaders, Bases, Tokens, and "Special" rarity cards.
+    const standardPool = nonTokenCards.filter(c =>
+        c.type !== 'leader' &&
+        c.type !== 'base' &&
+        c.rarity !== 'special'
+    );
 
     const commons = standardPool.filter(c => c.rarity === 'common');
     const uncommons = standardPool.filter(c => c.rarity === 'uncommon');
@@ -79,8 +83,9 @@ export function generateBoosterPack(allCards: Card[]): Card[] {
         raresAndLegendaries = [...raresAndLegendaries, ...rareBases];
     }
 
-    // The "foil" slot is any rarity from the standard pool (Non-Leader, Non-Base)
-    const anyRarityPool = standardPool;
+    // The "foil" slot is any rarity (including Special), except you will not find a base in this slot.
+    // So we use nonTokenCards, exclude leaders and bases.
+    const anyRarityPool = nonTokenCards.filter(c => c.type !== 'leader' && c.type !== 'base');
 
     const pack: Card[] = [];
 
@@ -108,7 +113,7 @@ export function generateBoosterPack(allCards: Card[]): Card[] {
     // 5. 1 Rare or Legendary (potentially including Rare Bases in LOF)
     pack.push(getRandomItem(raresAndLegendaries));
 
-    // 6. 1 Any Rarity (Standard pool only - no bases, no leaders)
+    // 6. 1 Any Rarity (Standard pool + Special, no bases, no leaders)
     pack.push(getRandomItem(anyRarityPool));
 
     return pack;
@@ -167,5 +172,5 @@ function getRandomItem<T>(items: T[]): T {
         throw new Error('Cannot pick random item from empty list');
     }
     const index = Math.floor(Math.random() * items.length);
-    return items[index];
+    return items[index]!;
 }

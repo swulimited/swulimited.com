@@ -82,4 +82,5 @@ There are special rules for some sets:
 - in LOF there is no rare base in the base slot, only common bases
 - in LOF you may find a rare base in the rare/legendary slot
 
-The final card in a pack can be of any rarity, except you will not find a base in this slot.
+The final card in a pack can be of any rarity (including Special),
+except you will not find a base in this slot.
