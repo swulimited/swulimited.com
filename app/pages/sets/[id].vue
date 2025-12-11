@@ -281,8 +281,8 @@ const combinedAspects = computed(() => {
                     class="w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 text-left outline-none focus:ring-2 focus:ring-swu-primary/50"
                     :class="[
                         currentStep === step.id 
-                            ? 'bg-swu-primary text-white shadow-md shadow-swu-primary/20 scale-[1.02]' 
-                            : 'text-gray-400 hover:text-white hover:bg-white/5'
+                            ? 'bg-swu-primary/10 text-swu-primary border border-swu-primary/50 shadow-[0_0_10px_rgba(32,192,232,0.15)]' 
+                            : 'text-gray-400 hover:text-white hover:bg-white/5 border border-transparent'
                     ]"
                 >
                     <span class="text-xl">{{ step.icon }}</span>
