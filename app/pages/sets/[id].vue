@@ -163,6 +163,17 @@ const toggleBase = (uniqueId: string) => {
   }
 }
 
+const selectAll = () => {
+  const newSet = new Set(selectedCardIds.value)
+  cards.value.forEach(card => newSet.add(card.uniqueId))
+  selectedCardIds.value = newSet
+}
+
+const resetOptions = () => {
+  selectedCardIds.value = new Set()
+  sortBy.value = 'cost'
+}
+
 watch([selectedLeaderId, selectedBaseId], () => {
   showOutOfAspect.value = false
   selectedCardIds.value.clear()
@@ -372,30 +383,47 @@ const combinedAspects = computed(() => {
                         </div>
                         
                         <div class="flex items-center gap-4">
-                            <div class="flex items-center bg-swu-900 rounded-lg border border-swu-800 p-1">
+                            <div class="flex items-center gap-2 mr-2">
                                 <button 
-                                    @click="sortBy = 'number'"
-                                    class="px-3 py-1 rounded text-xs font-medium transition-colors"
-                                    :class="sortBy === 'number' ? 'bg-swu-primary text-white shadow' : 'text-gray-400 hover:text-gray-300'"
+                                    @click="selectAll" 
+                                    class="px-3 py-1.5 rounded-lg text-xs font-medium bg-swu-800 hover:bg-swu-700 text-white transition-colors border border-swu-700"
                                 >
-                                    Number
+                                    Select All
                                 </button>
                                 <button 
-                                    @click="sortBy = 'cost'"
-                                    class="px-3 py-1 rounded text-xs font-medium transition-colors"
-                                    :class="sortBy === 'cost' ? 'bg-swu-primary text-white shadow' : 'text-gray-400 hover:text-gray-300'"
+                                    @click="resetOptions" 
+                                    class="px-3 py-1.5 rounded-lg text-xs font-medium bg-red-500/10 hover:bg-red-500/20 text-red-400 hover:text-red-300 transition-colors border border-red-500/20"
                                 >
-                                    Cost
+                                    Reset
                                 </button>
                             </div>
+                            <div class="flex items-center gap-2">
+                                <span class="text-xs text-gray-400 font-medium">Sort by:</span>
+                                <div class="flex items-center bg-swu-900 rounded-lg border border-swu-800 p-1">
+                                    <button 
+                                        @click="sortBy = 'number'"
+                                        class="px-3 py-1.5 rounded-lg text-xs font-medium transition-colors"
+                                        :class="sortBy === 'number' ? 'bg-swu-primary text-white shadow' : 'text-gray-400 hover:text-gray-300'"
+                                    >
+                                        Card
+                                    </button>
+                                    <button 
+                                        @click="sortBy = 'cost'"
+                                        class="px-3 py-1.5 rounded-lg text-xs font-medium transition-colors"
+                                        :class="sortBy === 'cost' ? 'bg-swu-primary text-white shadow' : 'text-gray-400 hover:text-gray-300'"
+                                    >
+                                        Cost
+                                    </button>
+                                </div>
+                            </div>
 
-                            <label class="flex items-center space-x-3 cursor-pointer group select-none bg-swu-900 px-4 py-2 rounded-lg border border-swu-800 hover:border-swu-700 transition-colors">
+                            <label class="flex items-center space-x-3 cursor-pointer group select-none bg-swu-900 px-3 py-1.5 rounded-lg border border-swu-800 hover:border-swu-700 transition-colors">
                                 <input 
                                 type="checkbox" 
                                 v-model="showOutOfAspect" 
-                                class="w-5 h-5 rounded border-gray-600 bg-gray-800 text-swu-primary focus:ring-swu-primary focus:ring-offset-gray-900"
+                                class="w-4 h-4 rounded border-gray-600 bg-gray-800 text-swu-primary focus:ring-swu-primary focus:ring-offset-gray-900"
                                 >
-                                <span class="text-gray-300 group-hover:text-white transition-colors text-sm">Show all cards</span>
+                                <span class="text-gray-300 group-hover:text-white transition-colors text-xs font-medium">Show all cards</span>
                             </label>
                         </div>
                     </div>
