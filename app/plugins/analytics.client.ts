@@ -10,19 +10,24 @@ export default defineNuxtPlugin(() => {
 
         if (document.getElementById('ga-script')) return
 
-        const script = document.createElement('script')
-        script.async = true
-        script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`
-        script.id = 'ga-script'
-        document.head.appendChild(script)
-
-        window.dataLayer = window.dataLayer || []
-        function gtag(...args: any[]) {
-            window.dataLayer.push(args)
+        const { googleAnalyticsId } = useRuntimeConfig().public;
+        function gtag() {
+            window.dataLayer.push(arguments);
         }
-        window.gtag = gtag
-        gtag('js', new Date())
-        gtag('config', measurementId)
+
+        window.dataLayer = window.dataLayer || [];
+
+        gtag("js", new Date());
+        gtag("config", googleAnalyticsId);
+
+        useHead({
+            script: [
+                {
+                src: `https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`,
+                async: true,
+                },
+            ],
+        });
         console.log('Google Analytics initialized with ID:', measurementId)
     }
 
