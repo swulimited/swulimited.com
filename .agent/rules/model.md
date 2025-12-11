@@ -62,3 +62,23 @@ A card belongs to a card set.
 
 The card id is built using the set and the number, following this pattern: <set> + "-" + <number>.
 If the number value is less than 100, pad it with a leading '0'.
+
+Use the card number when sorting cards.
+
+# Booster pack
+
+Attributes:
+- set (Card set)
+- cards (Card array)
+
+Each booster pack contains exactly 16 cards.
+Among those 16, the first one is guaranteed to be a leader card, and the second card is guaranteed to be a base.
+That leaves 14 cards remaining that are pulled from the pool of “standard” (non-leader, non-base, non-token) cards.
+
+Outside of the cards that are exclusive to starter decks, the cards in this game are divided into four rarities: Common, Uncommon, Rare, and Legendary. In each booster pack, you will find 9 Common cards, 3 Uncommon cards, and 1 Rare or Legendary card.
+
+There are special rules for some sets:
+- in LOF there is no rare base in the base slot, only common bases
+- in LOF you may find a rare base in the rare/legendary slot
+
+The final card in a pack can be of any rarity, except you will not find a base in this slot.

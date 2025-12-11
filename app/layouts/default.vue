@@ -3,7 +3,7 @@
   <div class="min-h-screen bg-swu-950 text-slate-200 flex flex-col font-sans selection:bg-swu-primary selection:text-white">
     <!-- Navigation Bar -->
     <header class="sticky top-0 z-40 w-full backdrop-blur-lg bg-swu-950/80 border-b border-swu-primary/20 shadow-lg shadow-swu-900/50">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 items-center justify-between">
           <!-- Logo Section -->
           <div class="flex items-center gap-2">
@@ -54,7 +54,7 @@
         <div class="absolute top-[20%] right-[10%] w-[30rem] h-[30rem] rounded-full bg-swu-primary/10 blur-3xl mix-blend-screen"></div>
       </div>
 
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <slot />
       </div>
     </main>
@@ -62,7 +62,7 @@
     <!-- Footer -->
     <footer class="border-t border-swu-primary/20 bg-swu-950 py-8 relative">
     <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-swu-primary/50 to-transparent opacity-50"></div>
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
         <p class="text-xs text-slate-500">
           &copy; {{ new Date().getFullYear() }} swusealed.net. Fan-made tool. Not affiliated with Star Wars Unlimited.
         </p>
