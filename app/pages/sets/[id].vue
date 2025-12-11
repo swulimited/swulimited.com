@@ -393,7 +393,7 @@ const combinedAspects = computed(() => {
                     <div
                         v-for="card in leaders"
                         :key="card.uniqueId"
-                        class="card relative group rounded-xl overflow-hidden border border-swu-800/50 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:opacity-100 cursor-pointer aspect-[3.5/2.5] bg-swu-900"
+                        class="card relative group rounded-xl overflow-hidden border border-swu-800/50 shadow-lg transition-all duration-300 card-hover-scale cursor-pointer aspect-[3.5/2.5] bg-swu-900"
                         :class="{ 
                             'card-is-selected opacity-100': selectedLeaderId === card.uniqueId,
                             'faded-unselected': selectedLeaderId !== card.uniqueId
@@ -428,7 +428,7 @@ const combinedAspects = computed(() => {
                     <div
                         v-for="card in bases"
                         :key="card.uniqueId"
-                        class="card relative group rounded-xl overflow-hidden border border-swu-800/50 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:opacity-100 cursor-pointer aspect-[3.5/2.5] bg-swu-900"
+                        class="card relative group rounded-xl overflow-hidden border border-swu-800/50 shadow-lg transition-all duration-300 card-hover-scale cursor-pointer aspect-[3.5/2.5] bg-swu-900"
                         :class="{ 
                             'card-is-selected opacity-100': selectedBaseId === card.uniqueId,
                             'faded-unselected': selectedBaseId !== card.uniqueId
@@ -527,7 +527,7 @@ const combinedAspects = computed(() => {
                         <div
                             v-for="card in cards"
                             :key="card.uniqueId"
-                            class="card relative group rounded-lg overflow-hidden border border-swu-800 shadow-md transition-all duration-200 hover:scale-105 cursor-pointer aspect-[2.5/3.5] bg-swu-900"
+                            class="card relative group rounded-lg overflow-hidden border border-swu-800 shadow-md transition-all duration-200 deck-card-hover-scale cursor-pointer aspect-[2.5/3.5] bg-swu-900"
                             :class="{ 
                                 'card-is-selected opacity-100': selectedCardIds.has(card.uniqueId),
                                 'faded-unselected': !selectedCardIds.has(card.uniqueId)
@@ -593,6 +593,12 @@ aside::-webkit-scrollbar {
     }
     .faded-unselected:hover {
         opacity: 1;
+    }
+    .card-hover-scale:hover {
+        transform: scale(1.02);
+    }
+    .deck-card-hover-scale:hover {
+        transform: scale(1.05);
     }
 }
 
