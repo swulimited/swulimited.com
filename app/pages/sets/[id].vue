@@ -440,6 +440,7 @@ const combinedAspects = computed(() => {
                             @mouseleave="hoveredCard = null"
                             @click="toggleCard(card.uniqueId)"
                         >
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
                             <img
                             :src="card.art"
                             :alt="card.name"
