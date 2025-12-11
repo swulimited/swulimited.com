@@ -2,11 +2,6 @@
 const route = useRoute()
 const setId = computed(() => (route.params.id as string).toUpperCase())
 
-
-
-
-
-
 const { data: rawCards, error, status } = await useAsyncData(
   `sealed-pool-${setId.value}`,
   () => generateSealedPool(setId.value),
@@ -51,8 +46,6 @@ const cards = computed(() => {
     if (!card.aspects || card.aspects.length === 0) return true
     
     // Check if we have enough aspect icons for the card
-    // Clone the available aspects to consume them as we match
-    // actually, we just need to check counts.
     const needed = new Map<string, number>()
     for (const a of card.aspects) {
       needed.set(a, (needed.get(a) || 0) + 1)
@@ -122,6 +115,9 @@ const showPopup = (card: any, event: MouseEvent) => {
   if (top < 10) top = 10
   if (top + popupHeight > window.innerHeight) top = window.innerHeight - popupHeight - 10
   
+  // Ensure we don't cover the cursor/element if flipped
+  if (left < 0) left = 20;
+
   popupPosition.value = { top, left }
 
 }
@@ -160,150 +156,262 @@ watch([selectedLeaderId, selectedBaseId], () => {
   showOutOfAspect.value = false
   selectedCardIds.value.clear()
 })
+
+// --- Navigation Logic ---
+const currentStep = ref(1)
+const steps = [
+  { id: 1, label: 'Choose Leader', icon: '👑' },
+  { id: 2, label: 'Choose Base', icon: '🏰' },
+  { id: 3, label: 'Build Deck', icon: '🃏' }
+]
+
+const setStep = (stepId: number) => {
+    currentStep.value = stepId
+}
+
+const LAYOUT_ORDER = ['vigilance', 'command', 'aggression', 'cunning', 'villainy', 'heroism'];
+
+const combinedAspects = computed(() => {
+    const aspects = new Set<string>();
+    
+    if (selectedLeader.value?.aspects) {
+        selectedLeader.value.aspects.forEach((a: string) => aspects.add(a));
+    }
+    
+    if (selectedBase.value?.aspects) {
+        selectedBase.value.aspects.forEach((a: string) => aspects.add(a));
+    }
+    
+    return Array.from(aspects).sort((a, b) => {
+        return LAYOUT_ORDER.indexOf(a) - LAYOUT_ORDER.indexOf(b);
+    });
+});
 </script>
 
 <template>
-  <div class="space-y-8">
+  <div class="flex flex-col md:flex-row gap-8 min-h-[calc(100vh-8rem)]">
+    
+    <!-- Sidebar Navigation -->
+    <aside class="md:w-64 flex-shrink-0">
+        <div class="sticky top-24 bg-swu-900/50 backdrop-blur-sm rounded-xl border border-swu-primary/20 p-4 shadow-lg">
+            <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-4 px-2">Setup</h3>
+            <nav class="space-y-2">
+                <button 
+                    v-for="step in steps" 
+                    :key="step.id"
+                    @click="setStep(step.id)"
+                    class="w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 text-left outline-none focus:ring-2 focus:ring-swu-primary/50"
+                    :class="[
+                        currentStep === step.id 
+                            ? 'bg-swu-primary text-white shadow-md shadow-swu-primary/20 scale-[1.02]' 
+                            : 'text-gray-400 hover:text-white hover:bg-white/5'
+                    ]"
+                >
+                    <span class="text-xl">{{ step.icon }}</span>
+                    <span class="font-medium text-sm">{{ step.label }}</span>
+                    
+                    <!-- Status Indicators -->
+                    <div class="ml-auto flex items-center" v-if="step.id === 1 && selectedLeaderId">
+                        <span class="h-2 w-2 rounded-full bg-green-500 block shadow-[0_0_8px_rgba(74,222,128,0.5)]"></span>
+                    </div>
+                    <div class="ml-auto flex items-center" v-if="step.id === 2 && selectedBaseId">
+                        <span class="h-2 w-2 rounded-full bg-green-500 block shadow-[0_0_8px_rgba(74,222,128,0.5)]"></span>
+                    </div>
+                     <div class="ml-auto text-xs font-mono text-gray-500" v-if="step.id === 3">
+                        {{ selectedCardIds.size }}/30+
+                    </div>
+                </button>
+            </nav>
 
+            <div v-if="selectedLeader || selectedBase" class="mt-8 pt-6 border-t border-white/10 px-2 space-y-4">
+                <div class="space-y-1" v-if="selectedLeader">
+                    <p class="text-[10px] text-gray-500 uppercase font-bold tracking-wider">Leader</p>
+                    <p class="text-sm font-medium text-white truncate" :title="selectedLeader.name">{{ selectedLeader.name }}</p>
+                </div>
+                <div class="space-y-1" v-if="selectedBase">
+                     <p class="text-[10px] text-gray-500 uppercase font-bold tracking-wider">Base</p>
+                    <p class="text-sm font-medium text-white truncate" :title="selectedBase.name">{{ selectedBase.name }}</p>
+                </div>
 
-    <!-- Loading Skeleton -->
-    <div v-if="status === 'pending'" class="space-y-8">
-      <!-- Leaders Skeleton -->
-      <div>
-         <h2 class="text-2xl font-bold text-gray-100 mb-4">Select a Leader</h2>
-         <div class="flex flex-wrap gap-8 justify-start">
-            <div
-              v-for="n in 6"
-              :key="`leader-skeleton-${n}`"
-              class="rounded-lg overflow-hidden border border-swu-800 shadow-md bg-swu-800 animate-pulse w-full max-w-[300px] aspect-[3.5/2.5]"
-            ></div>
-         </div>
-      </div>
-
-      <!-- Bases Skeleton -->
-      <div>
-         <h2 class="text-2xl font-bold text-gray-100 mb-4">Select a Base</h2>
-         <div class="flex flex-wrap gap-8 justify-start">
-            <div
-              v-for="n in 6"
-              :key="`base-skeleton-${n}`"
-              class="rounded-lg overflow-hidden border border-swu-800 shadow-md bg-swu-800 animate-pulse w-full max-w-[300px] aspect-[3.5/2.5]"
-            ></div>
-         </div>
-      </div>
-
-      <!-- Cards Skeleton -->
-      <div>
-        <h2 class="text-2xl font-bold text-gray-100 mb-4">Select your Cards</h2>
-        <div class="grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-8">
-          <div
-            v-for="n in 12"
-            :key="`card-skeleton-${n}`"
-            class="rounded-lg overflow-hidden border border-swu-800 shadow-md bg-swu-800 animate-pulse w-full aspect-[2.5/3.5]"
-          ></div>
+                <div v-if="combinedAspects.length > 0" class="space-y-2">
+                    <p class="text-[10px] text-gray-500 uppercase font-bold tracking-wider">Aspects</p>
+                    <div class="flex flex-wrap gap-2">
+                         <div 
+                            v-for="aspect in combinedAspects" 
+                            :key="aspect"
+                            :title="aspect"
+                         >
+                            <img :src="`/images/aspect-${aspect}.png`" :alt="aspect" class="w-8 h-8 object-contain" />
+                         </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <div class="flex-1 min-w-0">
+        <!-- Loading Skeleton -->
+        <div v-if="status === 'pending'" class="space-y-8">
+            <div class="animate-pulse flex flex-col gap-4">
+                <div class="h-8 bg-swu-800 rounded w-1/3"></div>
+                <div class="grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] gap-6">
+                    <div v-for="n in 6" :key="n" class="aspect-[2.5/3.5] bg-swu-800 rounded-lg"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Error State -->
+        <div v-else-if="error" class="text-center py-12">
+            <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-red-500/10 text-red-500 mb-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
+                </svg>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">Failed to load cards</h3>
+            <p class="text-gray-400">Unable to generate the sealed pool for this set.</p>
+        </div>
+
+        <!-- Content Steps -->
+        <div v-else>
+            
+            <!-- Step 1: Leaders -->
+            <div v-show="currentStep === 1">
+                <header class="mb-6">
+                    <h2 class="text-3xl font-bold text-white mb-2">Select your Leader</h2>
+                    <p class="text-gray-400">Choose the simulated leader for this sealed event.</p>
+                </header>
+
+                <div v-if="leaders && leaders.length > 0" class="grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-6">
+                    <div
+                        v-for="card in leaders"
+                        :key="card.uniqueId"
+                        class="card relative group rounded-xl overflow-hidden border border-swu-800/50 shadow-lg transition-all duration-300 hover:scale-[1.02] cursor-pointer aspect-[3.5/2.5] bg-swu-900"
+                        :class="{ 'card-is-selected ring-2 ring-swu-primary border-swu-primary shadow-swu-primary/20': selectedLeaderId === card.uniqueId }"
+                        @click="toggleLeader(card.uniqueId)"
+                    >
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                        <img
+                        :src="card.art"
+                        :alt="card.name"
+                        loading="lazy"
+                        class="w-full h-full object-cover"
+                        />
+
+                    </div>
+                </div>
+                 <div v-else class="text-center text-slate-400 py-12 bg-white/5 rounded-xl border border-white/5">
+                    No leaders found in your pool.
+                </div>
+            </div>
+
+            <!-- Step 2: Bases -->
+            <div v-show="currentStep === 2">
+                <header class="mb-6">
+                    <h2 class="text-3xl font-bold text-white mb-2">Select your Base</h2>
+                    <p class="text-gray-400">Choose a base to determine your starting resources.</p>
+                </header>
+
+                <div v-if="bases && bases.length > 0" class="grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-6">
+                    <div
+                        v-for="card in bases"
+                        :key="card.uniqueId"
+                         class="card relative group rounded-xl overflow-hidden border border-swu-800/50 shadow-lg transition-all duration-300 hover:scale-[1.02] cursor-pointer aspect-[3.5/2.5] bg-swu-900"
+                        :class="{ 'card-is-selected ring-2 ring-swu-primary border-swu-primary shadow-swu-primary/20': selectedBaseId === card.uniqueId }"
+                        @click="toggleBase(card.uniqueId)"
+                    >
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                        <img
+                        :src="card.art"
+                        :alt="card.name"
+                        loading="lazy"
+                        class="w-full h-full object-cover"
+                        />
+
+                    </div>
+                </div>
+                 <div v-else class="text-center text-slate-400 py-12 bg-white/5 rounded-xl border border-white/5">
+                    No bases found in your pool.
+                </div>
+            </div>
+
+            <!-- Step 3: Deck Building -->
+            <div v-show="currentStep === 3">
+                <div v-if="!selectedLeaderId || !selectedBaseId" class="flex flex-col items-center justify-center py-20 text-center bg-swu-900/50 rounded-2xl border border-dashed border-swu-700">
+                    <div class="bg-swu-800 rounded-full p-4 mb-4">
+                        <span class="text-4xl">🚧</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-2">Setup Required</h3>
+                    <p class="text-gray-400 max-w-md mb-6">Please select both a Leader and a Base to reveal your compatible card pool.</p>
+                    <div class="flex gap-4">
+                        <button @click="currentStep = 1" class="px-4 py-2 bg-swu-primary hover:bg-swu-primary/90 text-white rounded-lg transition-colors">
+                            Select Leader
+                        </button>
+                        <button @click="currentStep = 2" class="px-4 py-2 bg-swu-800 hover:bg-swu-700 text-white rounded-lg transition-colors">
+                            Select Base
+                        </button>
+                    </div>
+                </div>
+
+                <div v-else>
+                    <div class="flex flex-wrap items-center justify-between mb-6 gap-4 sticky top-0 z-30 bg-swu-950/95 backdrop-blur -mx-2 px-2 border-b border-white/5">
+                        <div>
+                             <h2 class="text-3xl font-bold text-white">Build your Deck</h2>
+                             <p class="text-gray-400 text-sm">Select at least 30 cards. Current: <span :class="selectedCardIds.size >= 30 ? 'text-green-400' : 'text-amber-400'">{{ selectedCardIds.size }}</span></p>
+                        </div>
+                        
+                        <label class="flex items-center space-x-3 cursor-pointer group select-none bg-swu-900 px-4 py-2 rounded-lg border border-swu-800 hover:border-swu-700 transition-colors">
+                            <input 
+                            type="checkbox" 
+                            v-model="showOutOfAspect" 
+                            class="w-5 h-5 rounded border-gray-600 bg-gray-800 text-swu-primary focus:ring-swu-primary focus:ring-offset-gray-900"
+                            >
+                            <span class="text-gray-300 group-hover:text-white transition-colors text-sm">Show all cards</span>
+                        </label>
+                    </div>
+
+                    <div v-if="cards && cards.length > 0" class="grid grid-cols-[repeat(auto-fill,minmax(160px,1fr))] gap-4 pb-20">
+                        <div
+                            v-for="card in cards"
+                            :key="card.uniqueId"
+                            class="card relative group rounded-lg overflow-hidden border border-swu-800 shadow-md transition-all duration-200 hover:scale-105 cursor-pointer aspect-[2.5/3.5] bg-swu-900"
+                            :class="{ 
+                                'card-is-selected': selectedCardIds.has(card.uniqueId)
+                            }"
+                            @mouseenter="showPopup(card, $event)"
+                            @mouseleave="hoveredCard = null"
+                            @click="toggleCard(card.uniqueId)"
+                        >
+                            <img
+                            :src="card.art"
+                            :alt="card.name"
+                            loading="lazy"
+                            class="w-full h-full object-cover"
+                            />
+                            
+
+                        </div>
+                    </div>
+                     <div v-else class="text-center text-slate-400 py-20">
+                        No compatible cards found. Try enabling "Show all cards".
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
-
-    <!-- Error State -->
-    <div v-else-if="error" class="text-center text-red-500">
-      Unable to load cards for this set.
-    </div>
-
-    <div v-else class="space-y-8">
-      <!-- Leaders Layout -->
-      <div v-if="leaders && leaders.length > 0">
-        <h2 class="text-2xl font-bold text-gray-100 mb-4">Select a Leader</h2>
-        <div class="flex flex-wrap gap-8 justify-start">
-          <div
-            v-for="card in leaders"
-            :key="card.uniqueId"
-            class="card relative group rounded-lg overflow-hidden border shadow-md transition-transform hover:scale-105 cursor-pointer w-full max-w-[300px] aspect-[3.5/2.5] bg-swu-900"
-            :class="{ 'card-is-selected': selectedLeaderId === card.uniqueId }"
-            @click="toggleLeader(card.uniqueId)"
-          >
-            <img
-              :src="card.art"
-              :alt="card.name"
-              loading="lazy"
-              class="w-full h-full object-cover"
-            />
-          </div>
-        </div>
-      </div>
-
-      <!-- Bases Layout -->
-      <div v-if="bases && bases.length > 0">
-        <h2 class="text-2xl font-bold text-gray-100 mb-4">Select a Base</h2>
-        <div class="flex flex-wrap gap-8 justify-start">
-          <div
-            v-for="card in bases"
-            :key="card.uniqueId"
-            class="card relative group rounded-lg overflow-hidden border shadow-md transition-transform hover:scale-105 cursor-pointer w-full max-w-[300px] aspect-[3.5/2.5] bg-swu-900"
-            :class="{ 'card-is-selected': selectedBaseId === card.uniqueId }"
-            @click="toggleBase(card.uniqueId)"
-          >
-            <img
-              :src="card.art"
-              :alt="card.name"
-              loading="lazy"
-              class="w-full h-full object-cover"
-            />
-          </div>
-        </div>
-      </div>
-
-      <!-- Other Cards Layout -->
-      <div v-if="poolCards && poolCards.length > 0 && selectedLeaderId && selectedBaseId">
-        <div class="flex flex-wrap items-center justify-between mb-4 gap-4">
-          <h2 class="text-2xl font-bold text-gray-100">Select your Cards</h2>
-          
-          <label class="flex items-center space-x-2 cursor-pointer group select-none">
-            <input 
-              type="checkbox" 
-              v-model="showOutOfAspect" 
-              class="w-5 h-5 rounded border-gray-600 bg-gray-800 text-swu-primary focus:ring-swu-primary focus:ring-offset-gray-900"
-            >
-            <span class="text-gray-300 group-hover:text-white transition-colors">Show out of aspect cards</span>
-          </label>
-        </div>
-        <div class="grid grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-8 transition-all duration-300">
-          <div
-            v-for="card in cards"
-            :key="card.uniqueId"
-            class="card relative group rounded-lg overflow-hidden border shadow-md transition-transform hover:scale-105 cursor-pointer w-full aspect-[2.5/3.5] bg-swu-900"
-            :class="{ 'card-is-selected': selectedCardIds.has(card.uniqueId) }"
-            @mouseenter="showPopup(card, $event)"
-            @mouseleave="hoveredCard = null"
-            @click="toggleCard(card.uniqueId)"
-            >
-            <img
-              :src="card.art"
-              :alt="card.name"
-              loading="lazy"
-              class="w-full h-full object-cover"
-            />
-          </div>
-        </div>
-      </div>
-
-      <!-- Empty State -->
-      <div v-if="(!cards || cards.length === 0) && (!leaders || leaders.length === 0)" class="text-center text-slate-400">
-        No cards found for this set.
-      </div>
-    </div>
-
+    
     <!-- Hover Popup -->
     <div
       v-if="hoveredCard"
       class="fixed z-50 pointer-events-none transition-all duration-150 ease-out"
       :style="{ top: `${popupPosition.top}px`, left: `${popupPosition.left}px` }"
     >
-      <div class="relative shadow-2xl rounded-3xl overflow-hidden border-2 border-slate-700 bg-swu-900">
+      <div class="relative shadow-2xl rounded-2xl overflow-hidden border border-swu-primary/30 bg-swu-900 elevation-high">
         <img
           :src="hoveredCard.art"
           :alt="hoveredCard.name"
-          class="w-[300px] object-contain"
+          class="w-[320px] object-contain"
         />
       </div>
     </div>
@@ -311,19 +419,16 @@ watch([selectedLeaderId, selectedBaseId], () => {
 </template>
 
 <style scoped>
-.card {
-  @apply border-swu-800;
+.elevation-high {
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 }
 
-.card:hover {
-  @apply border-swu-primary ring-2 ring-swu-primary/50;
+/* Custom Scrollbar for sidebar if needed */
+aside::-webkit-scrollbar {
+    display: none;
 }
 
 .card-is-selected {
-  @apply ring-4 ring-swu-accent border-swu-accent shadow-[0_0_15px_rgba(137,179,230,0.5)];
-}
-
-.card-is-selected:hover {
-  @apply border-swu-accent ring-4 ring-swu-accent;
+    @apply ring-2 ring-swu-primary border-swu-primary shadow-[0_0_15px_rgba(32,192,232,0.5)];
 }
 </style>
