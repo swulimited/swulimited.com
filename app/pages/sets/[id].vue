@@ -400,7 +400,7 @@ const combinedAspects = computed(() => {
                         }"
                         @click="toggleLeader(card.uniqueId)"
                     >
-                        <div class="absolute bottom-2 right-2 bg-black/80 backdrop-blur text-white text-xs font-bold px-2 py-1 rounded border border-white/20 z-20 shadow-lg">
+                        <div class="absolute top-1/2 left-2 -translate-y-1/2 bg-black/80 backdrop-blur text-white text-xs font-bold px-2 py-1 rounded border border-white/20 z-20 shadow-lg">
                             {{ getCompatibility(card) }}%
                         </div>
                         <img
@@ -435,7 +435,7 @@ const combinedAspects = computed(() => {
                         }"
                         @click="toggleBase(card.uniqueId)"
                     >
-                        <div class="absolute bottom-2 right-2 bg-black/80 backdrop-blur text-white text-xs font-bold px-2 py-1 rounded border border-white/20 z-20 shadow-lg">
+                        <div class="absolute top-1/2 left-2 -translate-y-1/2 bg-black/80 backdrop-blur text-white text-xs font-bold px-2 py-1 rounded border border-white/20 z-20 shadow-lg">
                             {{ getCompatibility(card) }}%
                         </div>
                         <img
