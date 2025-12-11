@@ -183,17 +183,17 @@ const setStep = (stepId: number) => {
 const LAYOUT_ORDER = ['vigilance', 'command', 'aggression', 'cunning', 'villainy', 'heroism'];
 
 const combinedAspects = computed(() => {
-    const aspects = new Set<string>();
+    const aspects: string[] = [];
     
     if (selectedLeader.value?.aspects) {
-        selectedLeader.value.aspects.forEach((a: string) => aspects.add(a));
+        selectedLeader.value.aspects.forEach((a: string) => aspects.push(a));
     }
     
     if (selectedBase.value?.aspects) {
-        selectedBase.value.aspects.forEach((a: string) => aspects.add(a));
+        selectedBase.value.aspects.forEach((a: string) => aspects.push(a));
     }
     
-    return Array.from(aspects).sort((a, b) => {
+    return aspects.sort((a, b) => {
         return LAYOUT_ORDER.indexOf(a) - LAYOUT_ORDER.indexOf(b);
     });
 });
@@ -248,8 +248,8 @@ const combinedAspects = computed(() => {
                     <p class="text-[10px] text-gray-500 uppercase font-bold tracking-wider">Aspects</p>
                     <div class="flex flex-wrap gap-2">
                          <div 
-                            v-for="aspect in combinedAspects" 
-                            :key="aspect"
+                            v-for="(aspect, index) in combinedAspects" 
+                            :key="`${aspect}-${index}`"
                             :title="aspect"
                          >
                             <img :src="`/images/aspect-${aspect}.png`" :alt="aspect" class="w-8 h-8 object-contain" />
@@ -290,7 +290,7 @@ const combinedAspects = computed(() => {
             <div v-show="currentStep === 1">
                 <header class="mb-6">
                     <h2 class="text-3xl font-bold text-white mb-2">Select your Leader</h2>
-                    <p class="text-gray-400">Choose the simulated leader for this sealed event.</p>
+                    <p class="text-gray-400 text-sm">Choose the simulated leader for this sealed event.</p>
                 </header>
 
                 <div v-if="leaders && leaders.length > 0" class="grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-6">
@@ -320,7 +320,7 @@ const combinedAspects = computed(() => {
             <div v-show="currentStep === 2">
                 <header class="mb-6">
                     <h2 class="text-3xl font-bold text-white mb-2">Select your Base</h2>
-                    <p class="text-gray-400">Choose a base to determine your starting resources.</p>
+                    <p class="text-gray-400 text-sm">Choose the simulated base for this sealed event.</p>
                 </header>
 
                 <div v-if="bases && bases.length > 0" class="grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-6">
@@ -367,7 +367,7 @@ const combinedAspects = computed(() => {
                 <div v-else>
                     <div class="flex flex-wrap items-center justify-between mb-6 gap-4 sticky top-0 z-30 bg-swu-950/95 backdrop-blur -mx-2 px-2 border-b border-white/5">
                         <div>
-                             <h2 class="text-3xl font-bold text-white">Build your Deck</h2>
+                             <h2 class="text-3xl font-bold text-white mb-2">Build your Deck</h2>
                              <p class="text-gray-400 text-sm">Select at least 30 cards. Current: <span :class="selectedCardIds.size >= 30 ? 'text-green-400' : 'text-amber-400'">{{ selectedCardIds.size }}</span></p>
                         </div>
                         
