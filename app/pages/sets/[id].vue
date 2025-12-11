@@ -392,11 +392,13 @@ const combinedAspects = computed(() => {
                     <div
                         v-for="card in leaders"
                         :key="card.uniqueId"
-                        class="card relative group rounded-xl overflow-hidden border border-swu-800/50 shadow-lg transition-all duration-300 hover:scale-[1.02] cursor-pointer aspect-[3.5/2.5] bg-swu-900"
-                        :class="{ 'card-is-selected ring-2 ring-swu-primary border-swu-primary shadow-swu-primary/20': selectedLeaderId === card.uniqueId }"
+                        class="card relative group rounded-xl overflow-hidden border border-swu-800/50 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:opacity-100 cursor-pointer aspect-[3.5/2.5] bg-swu-900"
+                        :class="{ 
+                            'card-is-selected opacity-100': selectedLeaderId === card.uniqueId,
+                            'opacity-50': selectedLeaderId !== card.uniqueId
+                        }"
                         @click="toggleLeader(card.uniqueId)"
                     >
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
                         <div class="absolute top-2 right-2 bg-black/80 backdrop-blur text-white text-xs font-bold px-2 py-1 rounded border border-white/20 z-20 shadow-lg">
                             {{ getCompatibility(card) }}%
                         </div>
@@ -425,11 +427,13 @@ const combinedAspects = computed(() => {
                     <div
                         v-for="card in bases"
                         :key="card.uniqueId"
-                         class="card relative group rounded-xl overflow-hidden border border-swu-800/50 shadow-lg transition-all duration-300 hover:scale-[1.02] cursor-pointer aspect-[3.5/2.5] bg-swu-900"
-                        :class="{ 'card-is-selected ring-2 ring-swu-primary border-swu-primary shadow-swu-primary/20': selectedBaseId === card.uniqueId }"
+                        class="card relative group rounded-xl overflow-hidden border border-swu-800/50 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:opacity-100 cursor-pointer aspect-[3.5/2.5] bg-swu-900"
+                        :class="{ 
+                            'card-is-selected opacity-100': selectedBaseId === card.uniqueId,
+                            'opacity-50': selectedBaseId !== card.uniqueId
+                        }"
                         @click="toggleBase(card.uniqueId)"
                     >
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
                         <div class="absolute top-2 right-2 bg-black/80 backdrop-blur text-white text-xs font-bold px-2 py-1 rounded border border-white/20 z-20 shadow-lg">
                             {{ getCompatibility(card) }}%
                         </div>
@@ -524,13 +528,13 @@ const combinedAspects = computed(() => {
                             :key="card.uniqueId"
                             class="card relative group rounded-lg overflow-hidden border border-swu-800 shadow-md transition-all duration-200 hover:scale-105 cursor-pointer aspect-[2.5/3.5] bg-swu-900"
                             :class="{ 
-                                'card-is-selected': selectedCardIds.has(card.uniqueId)
+                                'card-is-selected opacity-100': selectedCardIds.has(card.uniqueId),
+                                'opacity-50': !selectedCardIds.has(card.uniqueId)
                             }"
                             @mouseenter="showPopup(card, $event)"
                             @mouseleave="hoveredCard = null"
                             @click="toggleCard(card.uniqueId)"
                         >
-                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
                             <img
                             :src="card.art"
                             :alt="card.name"
@@ -578,7 +582,7 @@ aside::-webkit-scrollbar {
 }
 
 .card-is-selected {
-    @apply ring-2 ring-swu-primary border-swu-primary shadow-[0_0_15px_rgba(32,192,232,0.5)];
+    @apply ring-1 ring-gray-600 border-gray-600 shadow-md;
 }
 
 .fade-slide-enter-active,
