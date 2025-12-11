@@ -63,12 +63,18 @@
     <footer class="border-t border-swu-primary/20 bg-swu-950 py-8 relative">
     <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-swu-primary/50 to-transparent opacity-50"></div>
       <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p class="text-xs text-slate-500">
-          &copy; {{ new Date().getFullYear() }} swusealed.net. Fan-made tool. Not affiliated with Star Wars Unlimited.
-        </p>
+        <div class="flex flex-col gap-2">
+          <p class="text-xs text-slate-500">
+            &copy; {{ new Date().getFullYear() }} swusealed.net. Fan-made tool. 
+          </p>
+          <p class="text-xs text-slate-500 max-w-3xl">
+            The information presented on this site about Star Wars Unlimited, both literal and graphical, is copyrighted by Fantasy Flight Games and Lucasfilm Ltd. 
+            This website is not produced, endorsed, supported, or affiliated with Fantasy Flight Games and/or Lucasfilm Ltd.
+            All card images and symbols are property of their respective owners.
+          </p>
+        </div>
         <div class="flex gap-4 text-xs text-slate-500">
-          <a href="#" class="hover:text-white transition-colors">Terms</a>
-          <a href="#" class="hover:text-white transition-colors">Privacy</a>
+          <NuxtLink to="/about" class="hover:text-white transition-colors">About</NuxtLink>
         </div>
       </div>
     </footer>
