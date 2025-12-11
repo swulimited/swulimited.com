@@ -82,8 +82,10 @@ There are special rules for some sets:
 - in LOF there is no rare base in the base slot, only common bases
 - in LOF you may find a rare base in the rare/legendary slot
 
-The final card in a pack can be of any rarity (including Special),
+The final card in a pack can be of any rarity,
 except you will not find a base in this slot.
+You can also find a Special card in the final slot.
+You will never find a Leader in the final slot.
 
 Leaders from the starter decks are excluded from regular booster packs:
 - for LOF: LOF-009 and LOF-016

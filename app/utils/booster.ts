@@ -48,9 +48,10 @@ export async function fetchSetCards(setId: string): Promise<Card[]> {
  * - 9 Commons (Standard pool)
  * - 3 Uncommons (Standard pool)
  * - 1 Rare or Legendary (Standard pool)
- * - 1 Any rarity (Standard pool)
+ * - 1 Any rarity (Standard pool + Special, no Bases)
  * 
- * "Standard pool" excludes Leaders, Bases, Tokens, and "Special" rarity cards.
+ * Ensures no duplicate cards (by ID) within a single pack.
+ * 
  * @param allCards The full list of cards from which to generate the booster.
  * @returns An array of 16 Card objects.
  */
@@ -58,82 +59,78 @@ export function generateBoosterPack(allCards: Card[]): Card[] {
     const setId = allCards.length > 0 ? allCards[0]?.set : '';
 
     // Define excluded leaders (Starter Deck leaders)
+    // These should never appear in booster packs.
     const excludedLeaderIds = new Set([
         'LOF-009', 'LOF-016',
         'SEC-001', 'SEC-016'
     ]);
 
-    // Filter out cards that should never appear in packs
-    // 1. Tokens
-    // 2. Excluded Leaders
+    // Global availability filter
+    // 1. Exclude tokens
+    // 2. Exclude starter leaders
     const availableCards = allCards.filter(c =>
         c.type !== 'token' &&
         !excludedLeaderIds.has(c.id)
     );
 
-    const leaders = availableCards.filter(c => c.type === 'leader');
-    const bases = availableCards.filter(c => c.type === 'base');
+    const pack: Card[] = [];
+    const packCardIds = new Set<string>();
 
-    // Standard pool for main slots: Non-Leader, Non-Base, Non-Special
+    // Helper to add cards to pack and track IDs
+    const addCardsToPack = (cards: Card[]) => {
+        cards.forEach(c => {
+            pack.push(c);
+            packCardIds.add(c.id);
+        });
+    };
+
+    // 1. Leader Slot (1 card)
+    const leaders = availableCards.filter(c => c.type === 'leader');
+    addCardsToPack(getUniqueRandomCards(leaders, 1, packCardIds));
+
+    // 2. Base Slot (1 card)
+    let basePool = availableCards.filter(c => c.type === 'base');
+    // Special Rule for LOF: Base slot only contains Common Bases
+    if (setId === 'LOF') {
+        basePool = basePool.filter(c => c.rarity === 'common');
+    }
+    addCardsToPack(getUniqueRandomCards(basePool, 1, packCardIds));
+
+    // Define Standard Pool for main slots
+    // Excludes: Leaders, Bases, and Special rarity
     const standardPool = availableCards.filter(c =>
         c.type !== 'leader' &&
         c.type !== 'base' &&
         c.rarity !== 'special'
     );
 
+    // 3. Common Slots (9 cards)
     const commons = standardPool.filter(c => c.rarity === 'common');
-    const uncommons = standardPool.filter(c => c.rarity === 'uncommon');
+    addCardsToPack(getUniqueRandomCards(commons, 9, packCardIds));
 
-    // Default Rare/Legendary pool (Standard cards only)
-    let raresAndLegendaries = standardPool.filter(c => c.rarity === 'rare' || c.rarity === 'legendary');
+    // 4. Uncommon Slots (3 cards)
+    const uncommons = standardPool.filter(c => c.rarity === 'uncommon');
+    addCardsToPack(getUniqueRandomCards(uncommons, 3, packCardIds));
+
+    // 5. Rare/Legendary Slot (1 card)
+    let rareLegPool = standardPool.filter(c => c.rarity === 'rare' || c.rarity === 'legendary');
 
     // Special Rule for LOF: Rare Bases can appear in the Rare/Legendary slot
     if (setId === 'LOF') {
-        const rareBases = bases.filter(c => c.rarity === 'rare' || c.rarity === 'legendary');
-        raresAndLegendaries = [...raresAndLegendaries, ...rareBases];
+        const rareBases = availableCards.filter(c =>
+            c.type === 'base' &&
+            (c.rarity === 'rare' || c.rarity === 'legendary')
+        );
+        rareLegPool = [...rareLegPool, ...rareBases];
     }
+    addCardsToPack(getUniqueRandomCards(rareLegPool, 1, packCardIds));
 
-    // The "foil" slot is any rarity (including Special), except you will not find a base in this slot.
-    // It can include Leaders (non-excluded ones), but not Bases.
-    const anyRarityPool = availableCards.filter(c => c.type !== 'base');
-
-    const pack: Card[] = [];
-
-    // 1. Leader
-    if (leaders.length > 0) {
-        pack.push(getRandomItem(leaders));
-    }
-
-    // 2. Base
-    let basePool = bases;
-    // Special Rule for LOF: Base slot only contains Common Bases
-    if (setId === 'LOF') {
-        basePool = bases.filter(c => c.rarity === 'common');
-    }
-
-    if (basePool.length > 0) {
-        pack.push(getRandomItem(basePool));
-    }
-
-    // 3. 9 Commons
-    for (let i = 0; i < 9; i++) {
-        if (commons.length > 0) pack.push(getRandomItem(commons));
-    }
-
-    // 4. 3 Uncommons
-    for (let i = 0; i < 3; i++) {
-        if (uncommons.length > 0) pack.push(getRandomItem(uncommons));
-    }
-
-    // 5. 1 Rare or Legendary (potentially including Rare Bases in LOF)
-    if (raresAndLegendaries.length > 0) {
-        pack.push(getRandomItem(raresAndLegendaries));
-    }
-
-    // 6. 1 Any Rarity (Standard pool + Special, no bases. Includes leaders.)
-    if (anyRarityPool.length > 0) {
-        pack.push(getRandomItem(anyRarityPool));
-    }
+    // 6. Foil / Wildcard Slot (1 card)
+    // Can be any rarity (including Special).
+    // Rule: "Except you will not find a base or leader in this slot"
+    // Also implicit: no excluded leaders (handled by availableCards), no tokens.
+    const foilPool = availableCards.filter(c => c.type !== 'base' && c.type !== 'leader');
+    addCardsToPack(getUniqueRandomCards(foilPool, 1, packCardIds));
 
     return pack;
 }
@@ -186,10 +183,25 @@ export async function generateSealedPool(setId: string): Promise<Card[]> {
     return [...poolWithoutCommonBases, ...uniqueCommonBases];
 }
 
-function getRandomItem<T>(items: T[]): T {
-    if (items.length === 0) {
-        throw new Error('Cannot pick random item from empty list');
+/**
+ * Selects 'count' random unique cards from 'pool', excluding any IDs in 'excludeIds'.
+ */
+function getUniqueRandomCards(pool: Card[], count: number, excludeIds: Set<string>): Card[] {
+    // 1. Filter candidates that are not already in the pack
+    const candidates = pool.filter(c => !excludeIds.has(c.id));
+
+    if (candidates.length === 0) return [];
+
+    // 2. Fisher-Yates Shuffle
+    // We clone the candidates array to avoid modifying the filtered list reference (though filter creates new one)
+    const shuffled = [...candidates];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        const temp = shuffled[i]!;
+        shuffled[i] = shuffled[j]!;
+        shuffled[j] = temp;
     }
-    const index = Math.floor(Math.random() * items.length);
-    return items[index]!;
+
+    // 3. Take the top 'count' items
+    return shuffled.slice(0, count);
 }
