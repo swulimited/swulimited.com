@@ -4,7 +4,7 @@ trigger: always_on
 
 App overview
 
-The app is named "swulimited.net".
+The app is named "swulimited.com".
 The purpose of this app is to provide a web UI to simulate a sealed event for the trading card game
 Star Wars Unlimited.
 

@@ -1,75 +1,32 @@
-# Nuxt Minimal Starter
+# swulimited.com
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A simple app to simulate a sealed event for the trading card game **Star Wars Unlimited**.
 
-## Setup
+![App Screenshot](app.png)
 
-Make sure to install dependencies:
+## Features
+
+- **Booster Pack Simulation**: Simulates opening 6 booster packs (16 cards each) following official rarity and slot distribution rules.
+- **Deck Building**: Interactive interface to build a sealed deck with a minimum of 30 cards.
+- **Set Support**: Includes logic for different sets (e.g., LOF, SEC) with specific card rules.
+- **Export**: Copy your deck to clipboard in a JSON format compatible with [swudb.com](https://swudb.com).
+
+## Tech Stack
+
+- [Nuxt 4](https://nuxt.com)
+- [Tailwind CSS](https://tailwindcss.com)
+- Hosted on GitHub Pages
+
+## Getting Started
 
 ```bash
-# npm
+# Install dependencies
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# Start development server
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## License
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Apache License 2.0
