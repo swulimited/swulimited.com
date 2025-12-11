@@ -1,10 +1,10 @@
 
 <template>
   <div class="flex flex-col items-center justify-center py-10 text-center">
-    <div class="flex flex-col md:flex-row gap-10 items-center justify-center mt-4">
+    <div class="flex flex-row gap-4 md:gap-10 items-center justify-center mt-4">
       <NuxtLink 
         to="/sets/LOF"
-        class="group relative block w-48 md:w-60 transition-transform duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-swu-primary/50 rounded-xl"
+        class="group relative block w-36 md:w-52 transition-transform duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-swu-primary/50 rounded-xl"
       >
         <img 
           src="/images/LOF-cover.jpg" 
@@ -15,7 +15,7 @@
 
       <NuxtLink 
         to="/sets/SEC"
-        class="group relative block w-48 md:w-60 transition-transform duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-swu-accent/50 rounded-xl"
+        class="group relative block w-36 md:w-52 transition-transform duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-swu-accent/50 rounded-xl"
       >
         <img 
           src="/images/SEC-cover.jpg" 
