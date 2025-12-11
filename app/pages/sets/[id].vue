@@ -200,34 +200,44 @@ watch([selectedLeaderId, selectedBaseId], () => {
 const isCopied = ref(false)
 
 const copyDeck = async () => {
+    if (!selectedLeader.value || !selectedBase.value) return
+
+    const deckName = `${selectedLeader.value.name} - ${selectedBase.value.name}`
+    const leaderId = selectedLeader.value.id.replace('-', '_')
+    const baseId = selectedBase.value.id.replace('-', '_')
+
+    // Get selected cards
     const deckList = processedCards.value.filter(c => selectedCardIds.value.has(c.uniqueId))
     
-    const lines = []
-    if (selectedLeader.value) lines.push(`1 ${selectedLeader.value.name}`)
-    if (selectedBase.value) lines.push(`1 ${selectedBase.value.name}`)
-    if (lines.length) lines.push('') 
-
-    // Group cards by name
-    const groups = new Map<string, { count: number, card: any }>()
+    // Group by ID to get counts
+    const cardCounts = new Map<string, number>()
     for (const card of deckList) {
-        if (!groups.has(card.name)) {
-            groups.set(card.name, { count: 0, card })
-        }
-        groups.get(card.name)!.count++
+        const id = card.id.replace('-', '_')
+        cardCounts.set(id, (cardCounts.get(id) || 0) + 1)
     }
-    
-    const sortedGroups = Array.from(groups.values()).sort((a, b) => {
-        const costDiff = (a.card.cost || 0) - (b.card.cost || 0)
-        if (costDiff !== 0) return costDiff
-        return a.card.name.localeCompare(b.card.name)
-    })
-    
-    for (const group of sortedGroups) {
-        lines.push(`${group.count} ${group.card.name}`)
+
+    const deck = []
+    for (const [id, count] of cardCounts) {
+        deck.push({ id, count })
+    }
+
+    const exportData = {
+        metadata: {
+            name: deckName
+        },
+        leader: {
+            id: leaderId,
+            count: 1
+        },
+        base: {
+            id: baseId,
+            count: 1
+        },
+        deck: deck
     }
 
     try {
-        await navigator.clipboard.writeText(lines.join('\n'))
+        await navigator.clipboard.writeText(JSON.stringify(exportData, null, 2))
         isCopied.value = true
         setTimeout(() => isCopied.value = false, 2000)
     } catch (e) {
