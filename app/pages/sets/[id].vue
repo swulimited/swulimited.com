@@ -105,6 +105,7 @@ const hoveredCard = ref<Card | null>(null)
 const popupPosition = ref({ top: 0, left: 0 })
 
 const showPopup = (card: any, event: MouseEvent) => {
+  if (window.matchMedia('(hover: none)').matches) return
   hoveredCard.value = card
   const el = event.currentTarget as HTMLElement
   const rect = el.getBoundingClientRect()
