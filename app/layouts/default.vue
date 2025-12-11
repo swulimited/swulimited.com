@@ -22,14 +22,14 @@
               active-class="opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary"
               class="rounded-md px-2 py-1 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10 transition-all duration-300"
             >
-              <img src="/images/LOF-logo.png" alt="LOF" class="h-8 w-auto" />
+              <img src="/images/LOF-logo.png" alt="Legends of the Force" class="h-8 w-auto" />
             </NuxtLink>
             <NuxtLink 
               to="/sets/SEC" 
               active-class="opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary"
               class="rounded-md px-2 py-1 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10 transition-all duration-300"
             >
-              <img src="/images/SEC-logo.png" alt="SEC" class="h-8 w-auto" />
+              <img src="/images/SEC-logo.png" alt="Secrets of Power" class="h-8 w-auto" />
             </NuxtLink>
           </nav>
 

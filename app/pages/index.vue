@@ -8,7 +8,7 @@
       >
         <img 
           src="/images/LOF-cover.jpg" 
-          alt="LOF Set" 
+          alt="Legends of the Force" 
           class="w-full h-auto rounded-xl shadow-lg group-hover:shadow-2xl transition-shadow duration-300 border-2 border-transparent group-hover:border-swu-primary"
         />
       </NuxtLink>
@@ -19,7 +19,7 @@
       >
         <img 
           src="/images/SEC-cover.jpg" 
-          alt="SEC Set" 
+          alt="Secrets of Power" 
           class="w-full h-auto rounded-xl shadow-lg group-hover:shadow-2xl transition-shadow duration-300 border-2 border-transparent group-hover:border-swu-accent"
         />
       </NuxtLink>
