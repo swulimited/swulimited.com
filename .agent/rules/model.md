@@ -84,3 +84,8 @@ There are special rules for some sets:
 
 The final card in a pack can be of any rarity (including Special),
 except you will not find a base in this slot.
+
+Leaders from the starter decks are excluded from regular booster packs:
+- for LOF: LOF-009 and LOF-016
+- for SEC: SEC-001 and SEC-016
+You can never find those leaders in booters packs.

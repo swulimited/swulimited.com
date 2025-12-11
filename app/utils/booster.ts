@@ -57,15 +57,25 @@ export async function fetchSetCards(setId: string): Promise<Card[]> {
 export function generateBoosterPack(allCards: Card[]): Card[] {
     const setId = allCards.length > 0 ? allCards[0]?.set : '';
 
-    // Filter out tokens. We keep Special cards because they can appear in the final slot.
-    const nonTokenCards = allCards.filter(c => c.type !== 'token');
+    // Define excluded leaders (Starter Deck leaders)
+    const excludedLeaderIds = new Set([
+        'LOF-009', 'LOF-016',
+        'SEC-001', 'SEC-016'
+    ]);
 
-    const leaders = nonTokenCards.filter(c => c.type === 'leader');
-    const bases = nonTokenCards.filter(c => c.type === 'base');
+    // Filter out cards that should never appear in packs
+    // 1. Tokens
+    // 2. Excluded Leaders
+    const availableCards = allCards.filter(c =>
+        c.type !== 'token' &&
+        !excludedLeaderIds.has(c.id)
+    );
+
+    const leaders = availableCards.filter(c => c.type === 'leader');
+    const bases = availableCards.filter(c => c.type === 'base');
 
     // Standard pool for main slots: Non-Leader, Non-Base, Non-Special
-    // "Standard pool" excludes Leaders, Bases, Tokens, and "Special" rarity cards.
-    const standardPool = nonTokenCards.filter(c =>
+    const standardPool = availableCards.filter(c =>
         c.type !== 'leader' &&
         c.type !== 'base' &&
         c.rarity !== 'special'
@@ -84,13 +94,15 @@ export function generateBoosterPack(allCards: Card[]): Card[] {
     }
 
     // The "foil" slot is any rarity (including Special), except you will not find a base in this slot.
-    // So we use nonTokenCards, exclude leaders and bases.
-    const anyRarityPool = nonTokenCards.filter(c => c.type !== 'leader' && c.type !== 'base');
+    // It can include Leaders (non-excluded ones), but not Bases.
+    const anyRarityPool = availableCards.filter(c => c.type !== 'base');
 
     const pack: Card[] = [];
 
     // 1. Leader
-    pack.push(getRandomItem(leaders));
+    if (leaders.length > 0) {
+        pack.push(getRandomItem(leaders));
+    }
 
     // 2. Base
     let basePool = bases;
@@ -98,23 +110,30 @@ export function generateBoosterPack(allCards: Card[]): Card[] {
     if (setId === 'LOF') {
         basePool = bases.filter(c => c.rarity === 'common');
     }
-    pack.push(getRandomItem(basePool));
+
+    if (basePool.length > 0) {
+        pack.push(getRandomItem(basePool));
+    }
 
     // 3. 9 Commons
     for (let i = 0; i < 9; i++) {
-        pack.push(getRandomItem(commons));
+        if (commons.length > 0) pack.push(getRandomItem(commons));
     }
 
     // 4. 3 Uncommons
     for (let i = 0; i < 3; i++) {
-        pack.push(getRandomItem(uncommons));
+        if (uncommons.length > 0) pack.push(getRandomItem(uncommons));
     }
 
     // 5. 1 Rare or Legendary (potentially including Rare Bases in LOF)
-    pack.push(getRandomItem(raresAndLegendaries));
+    if (raresAndLegendaries.length > 0) {
+        pack.push(getRandomItem(raresAndLegendaries));
+    }
 
-    // 6. 1 Any Rarity (Standard pool + Special, no bases, no leaders)
-    pack.push(getRandomItem(anyRarityPool));
+    // 6. 1 Any Rarity (Standard pool + Special, no bases. Includes leaders.)
+    if (anyRarityPool.length > 0) {
+        pack.push(getRandomItem(anyRarityPool));
+    }
 
     return pack;
 }
