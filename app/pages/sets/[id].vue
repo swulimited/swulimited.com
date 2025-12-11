@@ -17,29 +17,28 @@ const processedCards = computed(() => {
   }))
 })
 
-const sortBy = ref<'number' | 'cost'>('cost')
+const sortBy = ref<'number' | 'cost'>('number')
 
 const poolCards = computed(() => {
   const cards = processedCards.value
     .filter(card => card.type !== 'leader' && card.type !== 'base')
-    
+
   return cards.sort((a, b) => {
     if (sortBy.value === 'cost') {
-        const costA = a.cost ?? 0
-        const costB = b.cost ?? 0
-        if (costA !== costB) return costA - costB
+      const costA = a.cost ?? 0
+      const costB = b.cost ?? 0
+      if (costA !== costB) return costA - costB
     }
     return a.number - b.number
   })
 })
 
-const showOutOfAspect = ref(false)
-
 const selectedLeader = computed(() => leaders.value.find(l => l.uniqueId === selectedLeaderId.value))
 const selectedBase = computed(() => bases.value.find(b => b.uniqueId === selectedBaseId.value))
 
 const cards = computed(() => {
-  if (showOutOfAspect.value) {
+  // Show all cards by default if neither leader nor base is selected
+  if (!selectedLeader.value && !selectedBase.value) {
     return poolCards.value
   }
 
@@ -54,7 +53,7 @@ const cards = computed(() => {
   return poolCards.value.filter(card => {
     // Neutral cards (no aspects) are always compatible
     if (!card.aspects || card.aspects.length === 0) return true
-    
+
     // Check if we have enough aspect icons for the card
     const needed = new Map<string, number>()
     for (const a of card.aspects) {
@@ -68,13 +67,13 @@ const cards = computed(() => {
     if (selectedBase.value?.aspects) {
       selectedBase.value.aspects.forEach((a: string) => available.set(a, (available.get(a) || 0) + 1))
     }
-    
+
     for (const [aspect, count] of needed) {
       if ((available.get(aspect) || 0) < count) {
         return false // Not enough icons of this aspect
       }
     }
-    
+
     return true
   })
 })
@@ -102,64 +101,56 @@ interface Card {
 }
 
 const hoveredCard = ref<Card | null>(null)
-const popupPosition = ref({ top: 0, left: 0 })
+const popupPosition = ref({ top: 0, left: 0, width: 300, height: 420 })
 
 const showPopup = (card: any, event: MouseEvent) => {
   if (window.matchMedia('(hover: none)').matches) return
   hoveredCard.value = card
   const el = event.currentTarget as HTMLElement
   const rect = el.getBoundingClientRect()
-  
-  // Card aspect ratio is roughly 2.5/3.5
-  // Popup width 300px -> Height ~ 420px
-  const popupHeight = 300 * (3.5/2.5)
-  
+
+  const isLandscape = card.type === 'leader' || card.type === 'base'
+  // Standard card aspect ratio is 2.5:3.5 (width:height). So height = width * (3.5/2.5).
+  // Landscape card aspect ratio is 3.5:2.5 (width:height). So height = width * (2.5/3.5).
+  const ratio = isLandscape ? (2.5 / 3.5) : (3.5 / 2.5) // height / width
+  // Popup width is consistent, height varies
+  const popupWidth = isLandscape ? 450 : 300
+  const popupHeight = popupWidth * ratio
+
   let left = rect.right + 20
-  // Center vertically relative to the card
+  // Center vertically relative to the card/list item
   let top = rect.top + (rect.height / 2) - (popupHeight / 2)
-  
+
   // Flip to left if not enough space on right
-  if (left + 300 > window.innerWidth) {
-    left = rect.left - 320
+  if (left + popupWidth > window.innerWidth) {
+    left = rect.left - (popupWidth + 20)
   }
-  
+
   // Keep within vertical viewport bounds
   if (top < 10) top = 10
   if (top + popupHeight > window.innerHeight) top = window.innerHeight - popupHeight - 10
-  
+
   // Ensure we don't cover the cursor/element if flipped
   if (left < 0) left = 20;
 
-  popupPosition.value = { top, left }
+  popupPosition.value = { top, left, width: popupWidth, height: popupHeight }
 
 }
 
-const getCompatibility = (candidate: any) => {
-  if (!poolCards.value || poolCards.value.length === 0) return 0
 
-  const candidateAspects = candidate.aspects || []
-  // Rule 1: If leader/base has no aspect, it is compatible with any card
-  if (candidateAspects.length === 0) return 100
-
-  const matchCount = poolCards.value.filter(card => {
-    const cardAspects = card.aspects || []
-    // Rule 2: If a card has no aspect, it is compatible with any leader/base
-    if (cardAspects.length === 0) return true
-    
-    return cardAspects.some(a => candidateAspects.includes(a))
-  }).length
-
-  return Math.round((matchCount / poolCards.value.length) * 100)
-}
 
 const selectedCardIds = ref<Set<string>>(new Set())
 
 const toggleCard = (uniqueId: string) => {
-  if (selectedCardIds.value.has(uniqueId)) {
-    selectedCardIds.value.delete(uniqueId)
+  if (!selectedLeaderId.value || !selectedBaseId.value) return
+
+  const newSet = new Set(selectedCardIds.value)
+  if (newSet.has(uniqueId)) {
+    newSet.delete(uniqueId)
   } else {
-    selectedCardIds.value.add(uniqueId)
+    newSet.add(uniqueId)
   }
+  selectedCardIds.value = newSet
 }
 
 const selectedLeaderId = ref<string | null>(null)
@@ -182,391 +173,301 @@ const toggleBase = (uniqueId: string) => {
   }
 }
 
-const selectAll = () => {
-  const newSet = new Set(selectedCardIds.value)
-  cards.value.forEach(card => newSet.add(card.uniqueId))
-  selectedCardIds.value = newSet
-}
-
 const resetOptions = () => {
+  selectedLeaderId.value = null
+  selectedBaseId.value = null
   selectedCardIds.value = new Set()
-  sortBy.value = 'cost'
+  sortBy.value = 'number'
+  window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
-watch([selectedLeaderId, selectedBaseId], () => {
-  showOutOfAspect.value = false
-  selectedCardIds.value.clear()
+// Automatically switch to sort by cost when both leader and base are selected
+watch([selectedLeaderId, selectedBaseId], ([newLeader, newBase]) => {
+  if (newLeader && newBase) {
+    sortBy.value = 'cost'
+  } else {
+    sortBy.value = 'number'
+  }
 })
+
+// Watch for changes in the displayed card list (initial load or filter change)
+watch(cards, (newCards) => {
+  const newSet = new Set<string>()
+  newCards.forEach(card => newSet.add(card.uniqueId))
+  selectedCardIds.value = newSet
+}, { immediate: true })
 
 const isCopied = ref(false)
 
 const copyDeck = async () => {
-    if (!selectedLeader.value || !selectedBase.value) return
+  if (!selectedLeader.value || !selectedBase.value) return
 
-    const deckName = `${selectedLeader.value.name} - ${selectedBase.value.name}`
-    const leaderId = selectedLeader.value.id.replace('-', '_')
-    const baseId = selectedBase.value.id.replace('-', '_')
+  const deckName = `${selectedLeader.value.name} - ${selectedBase.value.name}`
+  const leaderId = selectedLeader.value.id.replace('-', '_')
+  const baseId = selectedBase.value.id.replace('-', '_')
 
-    // Get selected cards
-    const deckList = processedCards.value.filter(c => selectedCardIds.value.has(c.uniqueId))
-    
-    // Group by ID to get counts
-    const cardCounts = new Map<string, number>()
-    for (const card of deckList) {
-        const id = card.id.replace('-', '_')
-        cardCounts.set(id, (cardCounts.get(id) || 0) + 1)
-    }
+  // Get selected cards
+  const deckList = processedCards.value.filter(c => selectedCardIds.value.has(c.uniqueId))
 
-    const deck = []
-    for (const [id, count] of cardCounts) {
-        deck.push({ id, count })
-    }
+  // Group by ID to get counts
+  const cardCounts = new Map<string, number>()
+  for (const card of deckList) {
+    const id = card.id.replace('-', '_')
+    cardCounts.set(id, (cardCounts.get(id) || 0) + 1)
+  }
 
-    const exportData = {
-        metadata: {
-            name: deckName
-        },
-        leader: {
-            id: leaderId,
-            count: 1
-        },
-        base: {
-            id: baseId,
-            count: 1
-        },
-        deck: deck
-    }
+  const deck = []
+  for (const [id, count] of cardCounts) {
+    deck.push({ id, count })
+  }
 
-    try {
-        await navigator.clipboard.writeText(JSON.stringify(exportData, null, 2))
-        isCopied.value = true
-        setTimeout(() => isCopied.value = false, 2000)
-    } catch (e) {
-        console.error('Clipboard failed', e)
-    }
+  const exportData = {
+    metadata: {
+      name: deckName
+    },
+    leader: {
+      id: leaderId,
+      count: 1
+    },
+    base: {
+      id: baseId,
+      count: 1
+    },
+    deck: deck
+  }
+
+  try {
+    await navigator.clipboard.writeText(JSON.stringify(exportData, null, 2))
+    isCopied.value = true
+    setTimeout(() => isCopied.value = false, 2000)
+  } catch (e) {
+    console.error('Clipboard failed', e)
+  }
 }
 
-// --- Navigation Logic ---
-const currentStep = ref(1)
-const steps = [
-  { id: 1, label: 'Choose Leader', icon: '👑' },
-  { id: 2, label: 'Choose Base', icon: '🏰' },
-  { id: 3, label: 'Build Deck', icon: '🃏' }
-]
 
-const setStep = (stepId: number) => {
-    currentStep.value = stepId
+const mouseX = ref(0)
+const mouseY = ref(0)
+const updateMousePos = (e: MouseEvent) => {
+  mouseX.value = e.clientX
+  mouseY.value = e.clientY
 }
 
-const LAYOUT_ORDER = ['vigilance', 'command', 'aggression', 'cunning', 'villainy', 'heroism'];
+let scrollTimeout: any
+const handleScroll = () => {
+  if (hoveredCard.value) {
+    hoveredCard.value = null
+  }
 
-const combinedAspects = computed(() => {
-    const aspects: string[] = [];
-    
-    if (selectedLeader.value?.aspects) {
-        selectedLeader.value.aspects.forEach((a: string) => aspects.push(a));
+  clearTimeout(scrollTimeout)
+  scrollTimeout = setTimeout(() => {
+    const el = document.elementFromPoint(mouseX.value, mouseY.value)
+    if (!el) return
+
+    const cardEl = el.closest('[data-unique-id]') as HTMLElement
+    if (cardEl) {
+      const uniqueId = cardEl.getAttribute('data-unique-id')
+      const card = processedCards.value.find(c => c.uniqueId === uniqueId)
+      if (card) {
+        showPopup(card, { currentTarget: cardEl } as any)
+      }
     }
-    
-    if (selectedBase.value?.aspects) {
-        selectedBase.value.aspects.forEach((a: string) => aspects.push(a));
-    }
-    
-    return aspects.sort((a, b) => {
-        return LAYOUT_ORDER.indexOf(a) - LAYOUT_ORDER.indexOf(b);
-    });
-});
+  }, 100)
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll, { passive: true })
+  window.addEventListener('mousemove', updateMousePos, { passive: true })
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
+  window.removeEventListener('mousemove', updateMousePos)
+  clearTimeout(scrollTimeout)
+})
+
 </script>
 
 <template>
-  <div class="flex flex-col md:flex-row gap-8 min-h-[calc(100vh-8rem)]">
-    
-    <!-- Sidebar Navigation -->
-    <aside class="md:w-64 flex-shrink-0">
-        <div class="sticky top-24 bg-swu-900/50 backdrop-blur-sm rounded-xl border border-swu-primary/20 p-4 shadow-lg">
-            <h3 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-4 px-2">Setup</h3>
-            <nav class="space-y-2">
-                <button 
-                    v-for="step in steps" 
-                    :key="step.id"
-                    @click="setStep(step.id)"
-                    class="w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 text-left outline-none focus:ring-2 focus:ring-swu-primary/50"
-                    :class="[
-                        currentStep === step.id 
-                            ? 'bg-swu-primary/10 text-swu-primary border border-swu-primary/50 shadow-[0_0_10px_rgba(32,192,232,0.15)]' 
-                            : 'text-gray-400 hover:text-white hover:bg-white/5 border border-transparent'
-                    ]"
-                >
-                    <span class="text-xl">{{ step.icon }}</span>
-                    <span class="font-medium text-sm">{{ step.label }}</span>
-                    
-                    <!-- Status Indicators -->
-                    <div class="ml-auto flex items-center" v-if="step.id === 1 && selectedLeaderId">
-                        <span class="h-2 w-2 rounded-full bg-green-500 block shadow-[0_0_8px_rgba(74,222,128,0.5)]"></span>
-                    </div>
-                    <div class="ml-auto flex items-center" v-if="step.id === 2 && selectedBaseId">
-                        <span class="h-2 w-2 rounded-full bg-green-500 block shadow-[0_0_8px_rgba(74,222,128,0.5)]"></span>
-                    </div>
-                     <div class="ml-auto text-xs font-mono text-gray-500" v-if="step.id === 3">
-                        {{ selectedCardIds.size }}/30+
-                    </div>
-                </button>
-            </nav>
+  <div class="flex flex-col md:flex-row gap-6 min-h-[calc(100vh-8rem)] -mt-8 pt-4">
 
-            <div v-if="selectedLeader || selectedBase" class="mt-8 pt-6 border-t border-white/10 px-2 space-y-4">
-                <div class="space-y-1" v-if="selectedLeader">
-                    <p class="text-[10px] text-gray-500 uppercase font-bold tracking-wider">Leader</p>
-                    <p class="text-sm font-medium text-white truncate" :title="selectedLeader.name">{{ selectedLeader.name }}</p>
-                </div>
-                <div class="space-y-1" v-if="selectedBase">
-                     <p class="text-[10px] text-gray-500 uppercase font-bold tracking-wider">Base</p>
-                    <p class="text-sm font-medium text-white truncate" :title="selectedBase.name">{{ selectedBase.name }}</p>
-                </div>
+    <!-- Permanent Sidebar: Leaders & Bases -->
+    <aside class="md:w-80 flex-shrink-0 relative mt-4">
+      <div
+        class="sticky top-24 max-h-[calc(100vh-5rem)] overflow-y-auto bg-swu-900/50 backdrop-blur-sm rounded-xl border border-swu-primary/20 p-4 shadow-lg custom-scrollbar">
 
-                <div v-if="combinedAspects.length > 0" class="space-y-2">
-                    <p class="text-[10px] text-gray-500 uppercase font-bold tracking-wider">Aspects</p>
-                    <div class="flex flex-wrap gap-2">
-                         <div 
-                            v-for="(aspect, index) in combinedAspects" 
-                            :key="`${aspect}-${index}`"
-                            :title="aspect"
-                         >
-                            <img :src="`/images/aspect-${aspect}.png`" :alt="aspect" class="w-8 h-8 object-contain" />
-                         </div>
-                    </div>
+        <!-- Leaders Section -->
+        <div class="mb-6">
+          <div class="flex items-center justify-between mb-3 px-1">
+            <h3 class="text-xs font-semibold text-swu-primary uppercase tracking-wider">Leaders</h3>
+          </div>
+
+          <div v-if="leaders && leaders.length > 0" class="space-y-1">
+            <div v-for="card in leaders" :key="card.uniqueId" :data-unique-id="card.uniqueId"
+              class="flex items-center justify-between p-2 rounded-lg cursor-pointer transition-all duration-200 border border-transparent"
+              :class="[
+                selectedLeaderId === card.uniqueId
+                  ? 'bg-swu-primary/20 text-white border-swu-primary/50 shadow-sm'
+                  : 'text-gray-400 hover:bg-white/5 hover:text-white hover:border-white/10'
+              ]" @click="toggleLeader(card.uniqueId)" @mouseenter="showPopup(card, $event)"
+              @mouseleave="hoveredCard = null">
+              <div class="flex items-center gap-3 overflow-hidden flex-1 min-w-0">
+                <span class="truncate text-sm font-medium">{{ card.name }}</span>
+              </div>
+
+              <div class="flex items-center gap-1 flex-shrink-0 ml-2">
+                <div v-for="aspect in card.aspects" :key="aspect" :title="aspect">
+                  <img :src="`/images/aspect-${aspect}.png`" :alt="aspect" class="w-6 h-6 object-contain" />
                 </div>
+              </div>
             </div>
-
-            <!-- Export Button -->
-            <Transition name="fade-slide">
-                <div v-if="selectedLeaderId && selectedBaseId && selectedCardIds.size >= 30" class="mt-6 pt-6 border-t border-white/10">
-                    <button 
-                        @click="copyDeck"
-                        class="w-full flex items-center justify-center gap-2 px-4 py-3 bg-swu-primary hover:bg-swu-primary/90 text-white rounded-lg font-bold transition-all shadow-lg shadow-swu-primary/20 hover:scale-[1.02] active:scale-95"
-                    >
-                        <svg v-if="!isCopied" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5" />
-                        </svg>
-                        <svg v-else xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 animate-bounce">
-                           <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                        </svg>
-                        {{ isCopied ? 'Copied!' : 'Copy Deck' }}
-                    </button>
-                </div>
-            </Transition>
+          </div>
+          <div v-else class="text-xs text-gray-500 py-4 text-center">No leaders found</div>
         </div>
+
+        <!-- Bases Section -->
+        <div>
+          <div class="flex items-center justify-between mb-3 px-1">
+            <h3 class="text-xs font-semibold text-swu-primary uppercase tracking-wider">Bases</h3>
+          </div>
+
+          <div v-if="bases && bases.length > 0" class="space-y-1">
+            <div v-for="card in bases" :key="card.uniqueId" :data-unique-id="card.uniqueId"
+              class="flex items-center justify-between p-2 rounded-lg cursor-pointer transition-all duration-200 border border-transparent"
+              :class="[
+                selectedBaseId === card.uniqueId
+                  ? 'bg-swu-primary/20 text-white border-swu-primary/50 shadow-sm'
+                  : 'text-gray-400 hover:bg-white/5 hover:text-white hover:border-white/10'
+              ]" @click="toggleBase(card.uniqueId)" @mouseenter="showPopup(card, $event)"
+              @mouseleave="hoveredCard = null">
+              <div class="flex items-center gap-3 overflow-hidden flex-1 min-w-0">
+                <span class="truncate text-sm font-medium">{{ card.name }}</span>
+              </div>
+
+              <div class="flex items-center gap-1 flex-shrink-0 ml-2">
+                <div v-for="aspect in card.aspects" :key="aspect" :title="aspect">
+                  <img :src="`/images/aspect-${aspect}.png`" :alt="aspect" class="w-6 h-6 object-contain" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div v-else class="text-xs text-gray-500 py-4 text-center">No bases found</div>
+        </div>
+
+      </div>
     </aside>
 
-    <!-- Main Content Area -->
+    <!-- Main Content Area: Deck Building -->
     <div class="flex-1 min-w-0">
-        <!-- Loading Skeleton -->
-        <div v-if="status === 'pending'" class="space-y-8">
-            <div class="animate-pulse flex flex-col gap-4">
-                <div class="h-8 bg-swu-800 rounded w-1/3"></div>
-                <div class="grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))] gap-6">
-                    <div v-for="n in 6" :key="n" class="aspect-[2.5/3.5] bg-swu-800 rounded-lg"></div>
-                </div>
-            </div>
+      <!-- Loading -->
+      <div v-if="status === 'pending'" class="space-y-8">
+        <div class="animate-pulse flex flex-col gap-4">
+          <div class="h-8 bg-swu-800 rounded w-1/3"></div>
+          <div class="grid grid-cols-[repeat(auto-fill,minmax(160px,1fr))] gap-4">
+            <div v-for="n in 12" :key="n" class="aspect-[2.5/3.5] bg-swu-800 rounded-lg"></div>
+          </div>
         </div>
+      </div>
 
-        <!-- Error State -->
-        <div v-else-if="error" class="text-center py-12">
-            <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-red-500/10 text-red-500 mb-4">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
+      <!-- Error -->
+      <div v-else-if="error" class="text-center py-12">
+        <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-red-500/10 text-red-500 mb-4">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-8 h-8">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold text-white mb-2">Failed to load cards</h3>
+        <p class="text-gray-400">Unable to generate the sealed pool for this set.</p>
+      </div>
+
+      <!-- Cards Deck -->
+      <div v-else>
+        <div
+          class="flex flex-wrap items-center justify-end mb-2 gap-4 sticky top-20 z-30 pointer-events-none -mx-2 px-2 py-3">
+
+          <div
+            class="flex flex-wrap items-center gap-3 pointer-events-auto bg-swu-900/80 backdrop-blur rounded-xl p-2 border border-white/5 shadow-2xl">
+            <!-- Copy Deck Button -->
+            <Transition name="horizontal-slide">
+              <button v-if="selectedLeaderId && selectedBaseId && selectedCardIds.size >= 30" @click="copyDeck"
+                class="h-8 flex items-center gap-2 px-3 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg font-bold text-xs transition-all shadow-lg hover:scale-105 active:scale-95">
+                <svg v-if="!isCopied" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                  stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5" />
                 </svg>
+                <svg v-else xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-4 h-4 animate-bounce">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                </svg>
+                {{ isCopied ? 'Copied!' : '.json' }}
+              </button>
+            </Transition>
+
+            <Transition name="horizontal-slide">
+              <div v-if="selectedLeaderId && selectedBaseId" class="flex items-center gap-3">
+                <div class="font-mono font-bold text-xs text-white flex items-center h-8">
+                  {{ selectedCardIds.size }} / {{ cards.length }}
+                </div>
+                <div class="w-px h-4 bg-white/10"></div>
+              </div>
+            </Transition>
+
+            <div class="flex items-center bg-swu-900 rounded-lg border border-swu-800 p-0.5 h-8">
+              <button @click="sortBy = 'number'"
+                class="h-full px-2 rounded-md text-[10px] font-medium transition-colors flex items-center"
+                :class="sortBy === 'number' ? 'bg-swu-primary text-white shadow' : 'text-gray-400 hover:text-gray-300'">
+                NUM
+              </button>
+              <button @click="sortBy = 'cost'"
+                class="h-full px-2 rounded-md text-[10px] font-medium transition-colors flex items-center"
+                :class="sortBy === 'cost' ? 'bg-swu-primary text-white shadow' : 'text-gray-400 hover:text-gray-300'">
+                COST
+              </button>
             </div>
-            <h3 class="text-xl font-bold text-white mb-2">Failed to load cards</h3>
-            <p class="text-gray-400">Unable to generate the sealed pool for this set.</p>
+
+            <div class="w-px h-4 bg-white/10"></div>
+
+            <button @click="resetOptions" :disabled="!selectedLeaderId && !selectedBaseId"
+              class="h-8 flex items-center px-3 rounded-lg text-xs font-medium transition-colors border" :class="(!selectedLeaderId && !selectedBaseId)
+                ? 'opacity-50 cursor-not-allowed border-white/5 text-gray-500 bg-white/5'
+                : 'bg-red-500/10 hover:bg-red-500/20 text-red-400 hover:text-red-300 border-red-500/20'"
+              title="Reset Selection">
+              Reset
+            </button>
+
+          </div>
         </div>
 
-        <!-- Content Steps -->
-        <div v-else>
-            
-            <!-- Step 1: Leaders -->
-            <div v-show="currentStep === 1">
-                <header class="mb-6">
-                    <h2 class="text-3xl font-bold text-white mb-2">Select your Leader</h2>
-                    <p class="text-gray-400 text-sm">Choose the simulated leader for this sealed event.</p>
-                </header>
-
-                <div v-if="leaders && leaders.length > 0" class="grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-6">
-                    <div
-                        v-for="card in leaders"
-                        :key="card.uniqueId"
-                        class="card relative group rounded-xl overflow-hidden border border-swu-800/50 shadow-lg transition-all duration-300 card-hover-scale cursor-pointer aspect-[3.5/2.5] bg-swu-900"
-                        :class="{ 
-                            'card-is-selected opacity-100': selectedLeaderId === card.uniqueId,
-                            'faded-unselected': selectedLeaderId !== card.uniqueId
-                        }"
-                        @click="toggleLeader(card.uniqueId)"
-                    >
-                        <div class="absolute top-1/2 left-2 -translate-y-1/2 bg-black/80 backdrop-blur text-white text-xs font-bold px-2 py-1 rounded border border-white/20 z-20 shadow-lg">
-                            {{ getCompatibility(card) }}%
-                        </div>
-                        <img
-                        :src="card.art"
-                        :alt="card.name"
-                        loading="lazy"
-                        class="w-full h-full object-cover"
-                        />
-
-                    </div>
-                </div>
-                 <div v-else class="text-center text-slate-400 py-12 bg-white/5 rounded-xl border border-white/5">
-                    No leaders found in your pool.
-                </div>
-            </div>
-
-            <!-- Step 2: Bases -->
-            <div v-show="currentStep === 2">
-                <header class="mb-6">
-                    <h2 class="text-3xl font-bold text-white mb-2">Select your Base</h2>
-                    <p class="text-gray-400 text-sm">Choose the simulated base for this sealed event.</p>
-                </header>
-
-                <div v-if="bases && bases.length > 0" class="grid grid-cols-[repeat(auto-fill,minmax(240px,1fr))] gap-6">
-                    <div
-                        v-for="card in bases"
-                        :key="card.uniqueId"
-                        class="card relative group rounded-xl overflow-hidden border border-swu-800/50 shadow-lg transition-all duration-300 card-hover-scale cursor-pointer aspect-[3.5/2.5] bg-swu-900"
-                        :class="{ 
-                            'card-is-selected opacity-100': selectedBaseId === card.uniqueId,
-                            'faded-unselected': selectedBaseId !== card.uniqueId
-                        }"
-                        @click="toggleBase(card.uniqueId)"
-                    >
-                        <div class="absolute top-1/2 left-2 -translate-y-1/2 bg-black/80 backdrop-blur text-white text-xs font-bold px-2 py-1 rounded border border-white/20 z-20 shadow-lg">
-                            {{ getCompatibility(card) }}%
-                        </div>
-                        <img
-                        :src="card.art"
-                        :alt="card.name"
-                        loading="lazy"
-                        class="w-full h-full object-cover"
-                        />
-
-                    </div>
-                </div>
-                 <div v-else class="text-center text-slate-400 py-12 bg-white/5 rounded-xl border border-white/5">
-                    No bases found in your pool.
-                </div>
-            </div>
-
-            <!-- Step 3: Deck Building -->
-            <div v-show="currentStep === 3">
-                <div v-if="!selectedLeaderId || !selectedBaseId" class="flex flex-col items-center justify-center py-20 text-center bg-swu-900/50 rounded-2xl border border-dashed border-swu-700">
-                    <div class="bg-swu-800 rounded-full p-4 mb-4">
-                        <span class="text-4xl">🚧</span>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mb-2">Setup Required</h3>
-                    <p class="text-gray-400 max-w-md mb-6">Please select both a Leader and a Base to reveal your compatible card pool.</p>
-                    <div class="flex gap-4">
-                        <button @click="currentStep = 1" class="px-4 py-2 bg-swu-primary hover:bg-swu-primary/90 text-white rounded-lg transition-colors">
-                            Select Leader
-                        </button>
-                        <button @click="currentStep = 2" class="px-4 py-2 bg-swu-800 hover:bg-swu-700 text-white rounded-lg transition-colors">
-                            Select Base
-                        </button>
-                    </div>
-                </div>
-
-                <div v-else>
-                    <div class="flex flex-wrap items-center justify-between mb-6 gap-4 sticky top-0 z-30 bg-swu-950/95 backdrop-blur -mx-2 px-2 border-b border-white/5">
-                        <div>
-                             <h2 class="text-3xl font-bold text-white mb-2">Build your Deck</h2>
-                             <p class="text-gray-400 text-sm">Select at least 30 cards. Current: <span :class="selectedCardIds.size >= 30 ? 'text-green-400' : 'text-amber-400'">{{ selectedCardIds.size }}</span></p>
-                        </div>
-                        
-                        <div class="flex items-center gap-4">
-                            <div class="flex items-center gap-2 mr-2">
-                                <button 
-                                    @click="selectAll" 
-                                    class="px-3 py-1.5 rounded-lg text-xs font-medium bg-swu-800 hover:bg-swu-700 text-white transition-colors border border-swu-700"
-                                >
-                                    Select All
-                                </button>
-                                <button 
-                                    @click="resetOptions" 
-                                    class="px-3 py-1.5 rounded-lg text-xs font-medium bg-red-500/10 hover:bg-red-500/20 text-red-400 hover:text-red-300 transition-colors border border-red-500/20"
-                                >
-                                    Reset
-                                </button>
-                            </div>
-                            <div class="flex items-center gap-2">
-                                <span class="text-xs text-gray-400 font-medium">Sort by:</span>
-                                <div class="flex items-center bg-swu-900 rounded-lg border border-swu-800 p-1">
-                                    <button 
-                                        @click="sortBy = 'number'"
-                                        class="px-3 py-1.5 rounded-lg text-xs font-medium transition-colors"
-                                        :class="sortBy === 'number' ? 'bg-swu-primary text-white shadow' : 'text-gray-400 hover:text-gray-300'"
-                                    >
-                                        Card
-                                    </button>
-                                    <button 
-                                        @click="sortBy = 'cost'"
-                                        class="px-3 py-1.5 rounded-lg text-xs font-medium transition-colors"
-                                        :class="sortBy === 'cost' ? 'bg-swu-primary text-white shadow' : 'text-gray-400 hover:text-gray-300'"
-                                    >
-                                        Cost
-                                    </button>
-                                </div>
-                            </div>
-
-                            <label class="flex items-center space-x-3 cursor-pointer group select-none bg-swu-900 px-3 py-1.5 rounded-lg border border-swu-800 hover:border-swu-700 transition-colors">
-                                <input 
-                                type="checkbox" 
-                                v-model="showOutOfAspect" 
-                                class="w-4 h-4 rounded border-gray-600 bg-gray-800 text-swu-primary focus:ring-swu-primary focus:ring-offset-gray-900"
-                                >
-                                <span class="text-gray-300 group-hover:text-white transition-colors text-xs font-medium">Show all cards</span>
-                            </label>
-                        </div>
-                    </div>
-
-                    <div v-if="cards && cards.length > 0" class="grid grid-cols-[repeat(auto-fill,minmax(160px,1fr))] gap-4 pb-20">
-                        <div
-                            v-for="card in cards"
-                            :key="card.uniqueId"
-                            class="card relative group rounded-lg overflow-hidden border border-swu-800 shadow-md transition-all duration-200 deck-card-hover-scale cursor-pointer aspect-[2.5/3.5] bg-swu-900"
-                            :class="{ 
-                                'card-is-selected opacity-100': selectedCardIds.has(card.uniqueId),
-                                'faded-unselected': !selectedCardIds.has(card.uniqueId)
-                            }"
-                            @mouseenter="showPopup(card, $event)"
-                            @mouseleave="hoveredCard = null"
-                            @click="toggleCard(card.uniqueId)"
-                        >
-                            <img
-                            :src="card.art"
-                            :alt="card.name"
-                            loading="lazy"
-                            class="w-full h-full object-cover"
-                            />
-                            
-
-                        </div>
-                    </div>
-                     <div v-else class="text-center text-slate-400 py-20">
-                        No compatible cards found. Try enabling "Show all cards".
-                    </div>
-                </div>
-            </div>
-
+        <div v-if="cards && cards.length > 0" class="grid grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-4 pb-20">
+          <div v-for="card in cards" :key="card.uniqueId" :data-unique-id="card.uniqueId"
+            class="relative group rounded-2xl overflow-hidden border border-white/10 shadow-md transition-transform duration-200 deck-card-hover-scale aspect-[2.5/3.5] bg-swu-900"
+            :class="[
+              selectedCardIds.has(card.uniqueId)
+                ? 'opacity-100 shadow-lg scale-[1.02]'
+                : 'opacity-40 grayscale',
+              (selectedLeaderId && selectedBaseId) ? 'cursor-pointer' : 'cursor-not-allowed'
+            ]" @mouseenter="showPopup(card, $event)" @mouseleave="hoveredCard = null"
+            @click="toggleCard(card.uniqueId)">
+            <img :src="card.art" :alt="card.name" loading="lazy" class="w-full h-full object-cover" />
+          </div>
         </div>
+        <div v-else class="text-center text-slate-400 py-20 flex flex-col items-center">
+          <div class="mb-4 text-4xl opacity-50">🃏</div>
+          <p class="text-lg">No compatible cards available.</p>
+        </div>
+      </div>
     </div>
-    
+
     <!-- Hover Popup -->
-    <div
-      v-if="hoveredCard"
-      class="fixed z-50 pointer-events-none transition-all duration-150 ease-out"
-      :style="{ top: `${popupPosition.top}px`, left: `${popupPosition.left}px` }"
-    >
-      <div class="relative shadow-2xl rounded-2xl overflow-hidden border border-swu-primary/30 bg-swu-900 elevation-high">
-        <img
-          :src="hoveredCard.art"
-          :alt="hoveredCard.name"
-          class="w-[320px] object-contain"
-        />
+    <div v-if="hoveredCard" class="fixed z-50 pointer-events-none transition-all duration-150 ease-out"
+      :style="{ top: `${popupPosition.top}px`, left: `${popupPosition.left}px` }">
+      <div
+        class="relative shadow-2xl rounded-2xl overflow-hidden border border-swu-primary/30 bg-swu-900 elevation-high">
+        <img :src="hoveredCard.art" :alt="hoveredCard.name" class="object-contain"
+          :style="{ width: `${popupPosition.width}px`, height: `${popupPosition.height}px` }" />
       </div>
     </div>
   </div>
@@ -574,49 +475,54 @@ const combinedAspects = computed(() => {
 
 <style scoped>
 .elevation-high {
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 }
 
-/* Custom Scrollbar for sidebar if needed */
-aside::-webkit-scrollbar {
-    display: none;
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
 }
 
-.card-is-selected {
-    @apply ring-1 ring-gray-600 border-gray-600 shadow-md;
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+
 
 @media (hover: hover) {
-    .faded-unselected {
-        opacity: 0.5;
-        transition: opacity 0.3s;
-    }
-    .faded-unselected:hover {
-        opacity: 1;
-    }
-    .card-hover-scale:hover {
-        transform: scale(1.02);
-    }
-    .deck-card-hover-scale:hover {
-        transform: scale(1.05);
-    }
+
+
+  .deck-card-hover-scale:hover {
+    transform: scale(1.05);
+  }
 }
 
-.fade-slide-enter-active,
-.fade-slide-leave-active {
-  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-  max-height: 200px;
+.horizontal-slide-enter-active,
+.horizontal-slide-leave-active {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  max-width: 300px;
   opacity: 1;
   overflow: hidden;
 }
 
-.fade-slide-enter-from,
-.fade-slide-leave-to {
+.horizontal-slide-enter-from,
+.horizontal-slide-leave-to {
   opacity: 0;
-  max-height: 0;
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-  border-color: transparent;
-  transform: translateY(10px);
+  max-width: 0;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  transform: translateX(-10px);
 }
 </style>
