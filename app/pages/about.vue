@@ -25,7 +25,7 @@
         <p class="text-slate-300 leading-relaxed">
           This project is built by <a href="https://github.com/alexandreroman" target="_blank" class="text-swu-primary hover:text-white font-bold transition-colors underline decoration-swu-primary/30 hover:decoration-swu-primary">NotAlex</a>, a Star Wars Unlimited player.
           My goal is to provide a smooth and beautiful interface for the community to enjoy and improve their game.
-          Feel free to reach out and contribute: <a href="https://github.com/alexandreroman/swulimited" target="_blank" class="text-swu-primary hover:text-white font-bold transition-colors underline decoration-swu-primary/30 hover:decoration-swu-primary">the code is open source</a>!
+          Feel free to reach out and contribute: <a href="https://github.com/swulimited/swulimited.com" target="_blank" class="text-swu-primary hover:text-white font-bold transition-colors underline decoration-swu-primary/30 hover:decoration-swu-primary">the code is open source</a>!
         </p>
       </div>
     </div>
