@@ -12,5 +12,10 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/png', href: '/favicon.png' }
       ]
     }
+  },
+  runtimeConfig: {
+    public: {
+      googleAnalyticsId: 'G-WWBPWFQLPX'
+    }
   }
 })

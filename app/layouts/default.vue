@@ -78,5 +78,6 @@
         </div>
       </div>
     </footer>
+    <ConsentBanner />
   </div>
 </template>
