@@ -18,14 +18,14 @@
           <nav class="hidden md:flex gap-4 items-center">
 
             <NuxtLink 
-              to="/sets/lof" 
+              to="/sets/LOF" 
               active-class="opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary"
               class="rounded-md px-2 py-1 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10 transition-all duration-300"
             >
               <img src="/images/LOF-logo.png" alt="LOF" class="h-8 w-auto" />
             </NuxtLink>
             <NuxtLink 
-              to="/sets/sec" 
+              to="/sets/SEC" 
               active-class="opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary"
               class="rounded-md px-2 py-1 opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10 transition-all duration-300"
             >

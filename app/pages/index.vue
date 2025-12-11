@@ -3,7 +3,7 @@
   <div class="flex flex-col items-center justify-center py-10 text-center">
     <div class="flex flex-col md:flex-row gap-6 items-center justify-center mt-4">
       <NuxtLink 
-        to="/sets/lof"
+        to="/sets/LOF"
         class="group relative block w-56 md:w-72 transition-transform duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-swu-primary/50 rounded-xl"
       >
         <img 
@@ -14,7 +14,7 @@
       </NuxtLink>
 
       <NuxtLink 
-        to="/sets/sec"
+        to="/sets/SEC"
         class="group relative block w-56 md:w-72 transition-transform duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-swu-accent/50 rounded-xl"
       >
         <img 
