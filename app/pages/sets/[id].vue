@@ -395,7 +395,7 @@ const combinedAspects = computed(() => {
                         class="card relative group rounded-xl overflow-hidden border border-swu-800/50 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:opacity-100 cursor-pointer aspect-[3.5/2.5] bg-swu-900"
                         :class="{ 
                             'card-is-selected opacity-100': selectedLeaderId === card.uniqueId,
-                            'opacity-50': selectedLeaderId !== card.uniqueId
+                            'faded-unselected': selectedLeaderId !== card.uniqueId
                         }"
                         @click="toggleLeader(card.uniqueId)"
                     >
@@ -430,7 +430,7 @@ const combinedAspects = computed(() => {
                         class="card relative group rounded-xl overflow-hidden border border-swu-800/50 shadow-lg transition-all duration-300 hover:scale-[1.02] hover:opacity-100 cursor-pointer aspect-[3.5/2.5] bg-swu-900"
                         :class="{ 
                             'card-is-selected opacity-100': selectedBaseId === card.uniqueId,
-                            'opacity-50': selectedBaseId !== card.uniqueId
+                            'faded-unselected': selectedBaseId !== card.uniqueId
                         }"
                         @click="toggleBase(card.uniqueId)"
                     >
@@ -529,7 +529,7 @@ const combinedAspects = computed(() => {
                             class="card relative group rounded-lg overflow-hidden border border-swu-800 shadow-md transition-all duration-200 hover:scale-105 cursor-pointer aspect-[2.5/3.5] bg-swu-900"
                             :class="{ 
                                 'card-is-selected opacity-100': selectedCardIds.has(card.uniqueId),
-                                'opacity-50': !selectedCardIds.has(card.uniqueId)
+                                'faded-unselected': !selectedCardIds.has(card.uniqueId)
                             }"
                             @mouseenter="showPopup(card, $event)"
                             @mouseleave="hoveredCard = null"
@@ -583,6 +583,16 @@ aside::-webkit-scrollbar {
 
 .card-is-selected {
     @apply ring-1 ring-gray-600 border-gray-600 shadow-md;
+}
+
+@media (hover: hover) {
+    .faded-unselected {
+        opacity: 0.5;
+        transition: opacity 0.3s;
+    }
+    .faded-unselected:hover {
+        opacity: 1;
+    }
 }
 
 .fade-slide-enter-active,
