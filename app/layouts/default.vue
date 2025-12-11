@@ -1,4 +1,14 @@
 
+<script setup lang="ts">
+const isMobileMenuOpen = ref(false)
+const route = useRoute()
+
+// Close menu when route changes
+watch(() => route.path, () => {
+  isMobileMenuOpen.value = false
+})
+</script>
+
 <template>
   <div class="min-h-screen bg-swu-950 text-slate-200 flex flex-col font-sans selection:bg-swu-primary selection:text-white">
     <!-- Navigation Bar -->
@@ -33,17 +43,55 @@
             </NuxtLink>
           </nav>
 
-          <!-- Mobile Menu Button (Placeholder) -->
+          <!-- Mobile Menu Button -->
           <div class="flex ml-auto md:hidden">
-            <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-slate-400 hover:text-white">
-              <span class="sr-only">Open main menu</span>
-              <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <button 
+              type="button" 
+              class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-slate-400 hover:text-white transition-colors"
+              @click="isMobileMenuOpen = !isMobileMenuOpen"
+            >
+              <span class="sr-only">Toggle main menu</span>
+              <!-- Hamburger Icon -->
+              <svg v-if="!isMobileMenuOpen" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              <!-- Close Icon -->
+              <svg v-else class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
           </div>
         </div>
       </div>
+
+      <!-- Mobile Menu Dropdown -->
+      <transition
+        enter-active-class="transition duration-200 ease-out"
+        enter-from-class="transform -translate-y-2 opacity-0"
+        enter-to-class="transform translate-y-0 opacity-100"
+        leave-active-class="transition duration-150 ease-in"
+        leave-from-class="transform translate-y-0 opacity-100"
+        leave-to-class="transform -translate-y-2 opacity-0"
+      >
+        <div v-if="isMobileMenuOpen" class="md:hidden border-t border-swu-primary/10 bg-swu-950/95 backdrop-blur-xl">
+          <div class="space-y-1 px-4 pb-3 pt-2">
+            <NuxtLink 
+              to="/sets/LOF" 
+              class="flex items-center gap-3 p-3 rounded-lg hover:bg-swu-primary/10 transition-colors"
+              active-class="bg-swu-primary/10 ring-1 ring-swu-primary/50"
+            >
+               <img src="/images/LOF-logo.png" alt="Legends of the Force" class="h-8 w-auto" />
+            </NuxtLink>
+            <NuxtLink 
+              to="/sets/SEC" 
+              class="flex items-center gap-3 p-3 rounded-lg hover:bg-swu-primary/10 transition-colors"
+              active-class="bg-swu-primary/10 ring-1 ring-swu-primary/50"
+            >
+               <img src="/images/SEC-logo.png" alt="Secrets of Power" class="h-8 w-auto" />
+            </NuxtLink>
+          </div>
+        </div>
+      </transition>
     </header>
 
     <!-- Main Content Area -->
