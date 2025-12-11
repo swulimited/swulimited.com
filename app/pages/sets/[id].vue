@@ -197,6 +197,44 @@ watch([selectedLeaderId, selectedBaseId], () => {
   selectedCardIds.value.clear()
 })
 
+const isCopied = ref(false)
+
+const copyDeck = async () => {
+    const deckList = processedCards.value.filter(c => selectedCardIds.value.has(c.uniqueId))
+    
+    const lines = []
+    if (selectedLeader.value) lines.push(`1 ${selectedLeader.value.name}`)
+    if (selectedBase.value) lines.push(`1 ${selectedBase.value.name}`)
+    if (lines.length) lines.push('') 
+
+    // Group cards by name
+    const groups = new Map<string, { count: number, card: any }>()
+    for (const card of deckList) {
+        if (!groups.has(card.name)) {
+            groups.set(card.name, { count: 0, card })
+        }
+        groups.get(card.name)!.count++
+    }
+    
+    const sortedGroups = Array.from(groups.values()).sort((a, b) => {
+        const costDiff = (a.card.cost || 0) - (b.card.cost || 0)
+        if (costDiff !== 0) return costDiff
+        return a.card.name.localeCompare(b.card.name)
+    })
+    
+    for (const group of sortedGroups) {
+        lines.push(`${group.count} ${group.card.name}`)
+    }
+
+    try {
+        await navigator.clipboard.writeText(lines.join('\n'))
+        isCopied.value = true
+        setTimeout(() => isCopied.value = false, 2000)
+    } catch (e) {
+        console.error('Clipboard failed', e)
+    }
+}
+
 // --- Navigation Logic ---
 const currentStep = ref(1)
 const steps = [
@@ -286,6 +324,24 @@ const combinedAspects = computed(() => {
                     </div>
                 </div>
             </div>
+
+            <!-- Export Button -->
+            <Transition name="fade-slide">
+                <div v-if="selectedLeaderId && selectedBaseId && selectedCardIds.size >= 30" class="mt-6 pt-6 border-t border-white/10">
+                    <button 
+                        @click="copyDeck"
+                        class="w-full flex items-center justify-center gap-2 px-4 py-3 bg-swu-primary hover:bg-swu-primary/90 text-white rounded-lg font-bold transition-all shadow-lg shadow-swu-primary/20 hover:scale-[1.02] active:scale-95"
+                    >
+                        <svg v-if="!isCopied" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5" />
+                        </svg>
+                        <svg v-else xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 animate-bounce">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                        </svg>
+                        {{ isCopied ? 'Copied!' : 'Copy Deck' }}
+                    </button>
+                </div>
+            </Transition>
         </div>
     </aside>
 
@@ -513,5 +569,23 @@ aside::-webkit-scrollbar {
 
 .card-is-selected {
     @apply ring-2 ring-swu-primary border-swu-primary shadow-[0_0_15px_rgba(32,192,232,0.5)];
+}
+
+.fade-slide-enter-active,
+.fade-slide-leave-active {
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  max-height: 200px;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.fade-slide-enter-from,
+.fade-slide-leave-to {
+  opacity: 0;
+  max-height: 0;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  border-color: transparent;
+  transform: translateY(10px);
 }
 </style>
