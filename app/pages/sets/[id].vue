@@ -133,6 +133,24 @@ const showPopup = (card: any, event: MouseEvent) => {
 
 }
 
+const getCompatibility = (candidate: any) => {
+  if (!poolCards.value || poolCards.value.length === 0) return 0
+
+  const candidateAspects = candidate.aspects || []
+  // Rule 1: If leader/base has no aspect, it is compatible with any card
+  if (candidateAspects.length === 0) return 100
+
+  const matchCount = poolCards.value.filter(card => {
+    const cardAspects = card.aspects || []
+    // Rule 2: If a card has no aspect, it is compatible with any leader/base
+    if (cardAspects.length === 0) return true
+    
+    return cardAspects.some(a => candidateAspects.includes(a))
+  }).length
+
+  return Math.round((matchCount / poolCards.value.length) * 100)
+}
+
 const selectedCardIds = ref<Set<string>>(new Set())
 
 const toggleCard = (uniqueId: string) => {
@@ -313,6 +331,9 @@ const combinedAspects = computed(() => {
                         @click="toggleLeader(card.uniqueId)"
                     >
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                        <div class="absolute top-2 right-2 bg-black/80 backdrop-blur text-white text-xs font-bold px-2 py-1 rounded border border-white/20 z-20 shadow-lg">
+                            {{ getCompatibility(card) }}%
+                        </div>
                         <img
                         :src="card.art"
                         :alt="card.name"
@@ -343,6 +364,9 @@ const combinedAspects = computed(() => {
                         @click="toggleBase(card.uniqueId)"
                     >
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                        <div class="absolute top-2 right-2 bg-black/80 backdrop-blur text-white text-xs font-bold px-2 py-1 rounded border border-white/20 z-20 shadow-lg">
+                            {{ getCompatibility(card) }}%
+                        </div>
                         <img
                         :src="card.art"
                         :alt="card.name"
