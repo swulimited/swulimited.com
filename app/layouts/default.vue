@@ -9,7 +9,7 @@
           <div class="flex items-center gap-2">
             <img src="/images/logo.png" alt="SWU-Sealed Logo" class="h-10 w-auto rounded-lg shadow-md shadow-swu-primary/20" />
             <NuxtLink to="/" class="text-xl font-bold tracking-tight text-white hover:text-swu-primary transition-colors duration-200">
-              swusealed.net
+              swulimited.com
             </NuxtLink>
             
           </div>
@@ -65,7 +65,7 @@
       <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
         <div class="flex flex-col gap-2">
           <p class="text-xs text-slate-500">
-            &copy; {{ new Date().getFullYear() }} swusealed.net. Fan-made tool. 
+            &copy; {{ new Date().getFullYear() }} swulimited.com. Fan-made tool. 
           </p>
           <p class="text-xs text-slate-500 max-w-3xl">
             The information presented on this site about Star Wars Unlimited, both literal and graphical, is copyrighted by Fantasy Flight Games and Lucasfilm Ltd. 
