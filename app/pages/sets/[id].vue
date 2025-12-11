@@ -17,10 +17,20 @@ const processedCards = computed(() => {
   }))
 })
 
+const sortBy = ref<'number' | 'cost'>('cost')
+
 const poolCards = computed(() => {
-  return processedCards.value
+  const cards = processedCards.value
     .filter(card => card.type !== 'leader' && card.type !== 'base')
-    .sort((a, b) => a.number - b.number)
+    
+  return cards.sort((a, b) => {
+    if (sortBy.value === 'cost') {
+        const costA = a.cost ?? 0
+        const costB = b.cost ?? 0
+        if (costA !== costB) return costA - costB
+    }
+    return a.number - b.number
+  })
 })
 
 const showOutOfAspect = ref(false)
@@ -87,6 +97,7 @@ interface Card {
   name: string
   art: string
   aspects: string[]
+  cost?: number
   [key: string]: any
 }
 
@@ -360,14 +371,33 @@ const combinedAspects = computed(() => {
                              <p class="text-gray-400 text-sm">Select at least 30 cards. Current: <span :class="selectedCardIds.size >= 30 ? 'text-green-400' : 'text-amber-400'">{{ selectedCardIds.size }}</span></p>
                         </div>
                         
-                        <label class="flex items-center space-x-3 cursor-pointer group select-none bg-swu-900 px-4 py-2 rounded-lg border border-swu-800 hover:border-swu-700 transition-colors">
-                            <input 
-                            type="checkbox" 
-                            v-model="showOutOfAspect" 
-                            class="w-5 h-5 rounded border-gray-600 bg-gray-800 text-swu-primary focus:ring-swu-primary focus:ring-offset-gray-900"
-                            >
-                            <span class="text-gray-300 group-hover:text-white transition-colors text-sm">Show all cards</span>
-                        </label>
+                        <div class="flex items-center gap-4">
+                            <div class="flex items-center bg-swu-900 rounded-lg border border-swu-800 p-1">
+                                <button 
+                                    @click="sortBy = 'number'"
+                                    class="px-3 py-1 rounded text-xs font-medium transition-colors"
+                                    :class="sortBy === 'number' ? 'bg-swu-primary text-white shadow' : 'text-gray-400 hover:text-gray-300'"
+                                >
+                                    Number
+                                </button>
+                                <button 
+                                    @click="sortBy = 'cost'"
+                                    class="px-3 py-1 rounded text-xs font-medium transition-colors"
+                                    :class="sortBy === 'cost' ? 'bg-swu-primary text-white shadow' : 'text-gray-400 hover:text-gray-300'"
+                                >
+                                    Cost
+                                </button>
+                            </div>
+
+                            <label class="flex items-center space-x-3 cursor-pointer group select-none bg-swu-900 px-4 py-2 rounded-lg border border-swu-800 hover:border-swu-700 transition-colors">
+                                <input 
+                                type="checkbox" 
+                                v-model="showOutOfAspect" 
+                                class="w-5 h-5 rounded border-gray-600 bg-gray-800 text-swu-primary focus:ring-swu-primary focus:ring-offset-gray-900"
+                                >
+                                <span class="text-gray-300 group-hover:text-white transition-colors text-sm">Show all cards</span>
+                            </label>
+                        </div>
                     </div>
 
                     <div v-if="cards && cards.length > 0" class="grid grid-cols-[repeat(auto-fill,minmax(160px,1fr))] gap-4 pb-20">

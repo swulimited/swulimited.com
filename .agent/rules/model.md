@@ -51,6 +51,7 @@ Attributes:
 - id (string)
 - set (Card set)
 - number (number)
+- cost (number)
 - type (Card type)
 - rarity (Card rarity)
 - aspects (array of Card aspect)
