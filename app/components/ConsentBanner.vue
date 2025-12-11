@@ -58,7 +58,7 @@
 import { ref, onMounted } from 'vue'
 
 const isOpen = ref(false)
-const { $enableAnalytics } = useNuxtApp() as any
+const nuxtApp = useNuxtApp()
 
 onMounted(() => {
   const consent = localStorage.getItem('cookie_consent')
@@ -73,6 +73,7 @@ onMounted(() => {
 function accept() {
   localStorage.setItem('cookie_consent', 'true')
   isOpen.value = false
+  const { $enableAnalytics } = nuxtApp as any
   if ($enableAnalytics) $enableAnalytics()
 }
 

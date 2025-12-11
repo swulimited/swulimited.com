@@ -23,6 +23,7 @@ export default defineNuxtPlugin(() => {
         window.gtag = gtag
         gtag('js', new Date())
         gtag('config', measurementId)
+        console.log('Google Analytics initialized with ID:', measurementId)
     }
 
     if (import.meta.client) {
