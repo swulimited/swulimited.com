@@ -301,16 +301,16 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="flex flex-col md:flex-row gap-6 min-h-[calc(100vh-8rem)] -mt-8 pt-4">
+  <div class="flex flex-col md:flex-row gap-6 min-h-[calc(100vh-8rem)] -mt-8 pt-1">
 
     <!-- Permanent Sidebar: Leaders & Bases -->
     <aside class="md:w-80 flex-shrink-0 relative mt-4">
       <div
-        class="sticky top-24 max-h-[calc(100vh-5rem)] overflow-y-auto bg-swu-900/50 backdrop-blur-sm rounded-xl border border-swu-primary/20 p-4 shadow-lg custom-scrollbar">
+        class="sticky top-20 max-h-[calc(100vh-5rem)] overflow-y-auto bg-swu-900/50 backdrop-blur-sm rounded-xl border border-swu-primary/20 p-4 shadow-lg custom-scrollbar">
 
 
         <!-- Reroll Section -->
-        <div class="mb-6 pb-6 border-b border-white/10">
+        <div class="mb-6">
           <button @click="regeneratePool"
             class="w-full flex items-center justify-center gap-2 py-2.5 px-4 bg-white/5 hover:bg-swu-primary hover:shadow-lg hover:shadow-swu-primary/30 text-gray-300 hover:text-white border border-white/10 hover:border-swu-primary/50 rounded-xl transition-all duration-300 group overflow-hidden relative">
             <span
@@ -413,7 +413,7 @@ onUnmounted(() => {
       <!-- Cards Deck -->
       <div v-else>
         <div
-          class="flex flex-wrap items-center justify-end mb-2 gap-4 sticky top-20 z-30 pointer-events-none -mx-2 px-2 py-3">
+          class="flex flex-wrap items-center justify-end mb-2 gap-4 sticky top-[4.5rem] z-30 pointer-events-none -mx-2 px-2 md:pt-3 pt-0 pb-3">
 
           <div
             class="flex flex-wrap items-center gap-3 pointer-events-auto bg-swu-900/80 backdrop-blur rounded-xl p-2 border border-white/5 shadow-2xl">

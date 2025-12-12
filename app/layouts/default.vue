@@ -14,7 +14,7 @@ watch(() => route.path, () => {
     <!-- Navigation Bar -->
     <header
       class="sticky top-0 z-40 w-full backdrop-blur-lg bg-swu-950/80 border-b border-swu-primary/20 shadow-lg shadow-swu-900/50">
-      <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="w-full px-6">
         <div class="flex h-16 items-center justify-between">
           <!-- Logo Section -->
           <div class="flex items-center gap-2">
@@ -101,7 +101,7 @@ watch(() => route.path, () => {
         </div>
       </div>
 
-      <div class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div class="w-full px-6 py-8">
         <slot />
       </div>
     </main>
@@ -112,7 +112,7 @@ watch(() => route.path, () => {
         class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-swu-primary/50 to-transparent opacity-50">
       </div>
       <div
-        class="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        class="w-full px-4 flex flex-col md:flex-row justify-between items-center gap-4">
         <div class="flex flex-col gap-2">
           <p class="text-xs text-slate-500">
             &copy; {{ new Date().getFullYear() }} swulimited.com. Fan-made tool.
