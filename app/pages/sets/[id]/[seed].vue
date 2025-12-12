@@ -1,14 +1,26 @@
 <script setup lang="ts">
 const route = useRoute()
+const router = useRouter()
 const setId = computed(() => (route.params.id as string).toUpperCase())
 
+// 1. Determine the seed from the route param
+// This computed property automatically updates when the route param changes
+const seed = computed(() => route.params.seed as string)
+
 const { data: rawCards, error, status } = await useAsyncData(
-  `sealed-pool-${setId.value}`,
-  () => generateSealedPool(setId.value),
+  `sealed-pool-${setId.value}-${seed.value}`,
+  () => generateSealedPool(setId.value, seed.value),
   {
-    lazy: true
+    lazy: true,
+    watch: [seed]
   }
 )
+
+const regeneratePool = () => {
+  const newSeed = Math.random().toString(36).substring(7)
+  router.push(`/sets/${setId.value}/${newSeed}`)
+  resetOptions()
+}
 
 const processedCards = computed(() => {
   return (rawCards.value || []).map((card, index) => ({
@@ -295,6 +307,22 @@ onUnmounted(() => {
     <aside class="md:w-80 flex-shrink-0 relative mt-4">
       <div
         class="sticky top-24 max-h-[calc(100vh-5rem)] overflow-y-auto bg-swu-900/50 backdrop-blur-sm rounded-xl border border-swu-primary/20 p-4 shadow-lg custom-scrollbar">
+
+
+        <!-- Reroll Section -->
+        <div class="mb-6 pb-6 border-b border-white/10">
+          <button @click="regeneratePool"
+            class="w-full flex items-center justify-center gap-2 py-2.5 px-4 bg-white/5 hover:bg-swu-primary hover:shadow-lg hover:shadow-swu-primary/30 text-gray-300 hover:text-white border border-white/10 hover:border-swu-primary/50 rounded-xl transition-all duration-300 group overflow-hidden relative">
+            <span
+              class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent translate-x-[-200%] group-hover:animate-[shimmer_1.5s_infinite]"></span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-5 h-5 group-hover:rotate-180 transition-transform duration-500">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
+            </svg>
+            <span class="font-bold text-sm tracking-wide">New Pool</span>
+          </button>
+        </div>
 
         <!-- Leaders Section -->
         <div class="mb-6">

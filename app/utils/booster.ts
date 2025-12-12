@@ -1,3 +1,4 @@
+import seedrandom from 'seedrandom';
 
 export type CardSet = 'LOF' | 'SEC';
 
@@ -53,9 +54,10 @@ export async function fetchSetCards(setId: string): Promise<Card[]> {
  * Ensures no duplicate cards (by ID) within a single pack.
  * 
  * @param allCards The full list of cards from which to generate the booster.
+ * @param rng The random number generator to use.
  * @returns An array of 16 Card objects.
  */
-export function generateBoosterPack(allCards: Card[]): Card[] {
+export function generateBoosterPack(allCards: Card[], rng: seedrandom.PRNG): Card[] {
     const setId = allCards.length > 0 ? allCards[0]?.set : '';
 
     // Define excluded leaders (Starter Deck leaders)
@@ -86,7 +88,7 @@ export function generateBoosterPack(allCards: Card[]): Card[] {
 
     // 1. Leader Slot (1 card)
     const leaders = availableCards.filter(c => c.type === 'leader');
-    addCardsToPack(getUniqueRandomCards(leaders, 1, packCardIds));
+    addCardsToPack(getUniqueRandomCards(leaders, 1, packCardIds, rng));
 
     // 2. Base Slot (1 card)
     let basePool = availableCards.filter(c => c.type === 'base');
@@ -94,7 +96,7 @@ export function generateBoosterPack(allCards: Card[]): Card[] {
     if (setId === 'LOF') {
         basePool = basePool.filter(c => c.rarity === 'common');
     }
-    addCardsToPack(getUniqueRandomCards(basePool, 1, packCardIds));
+    addCardsToPack(getUniqueRandomCards(basePool, 1, packCardIds, rng));
 
     // Define Standard Pool for main slots
     // Excludes: Leaders, Bases, and Special rarity
@@ -106,11 +108,11 @@ export function generateBoosterPack(allCards: Card[]): Card[] {
 
     // 3. Common Slots (9 cards)
     const commons = standardPool.filter(c => c.rarity === 'common');
-    addCardsToPack(getUniqueRandomCards(commons, 9, packCardIds));
+    addCardsToPack(getUniqueRandomCards(commons, 9, packCardIds, rng));
 
     // 4. Uncommon Slots (3 cards)
     const uncommons = standardPool.filter(c => c.rarity === 'uncommon');
-    addCardsToPack(getUniqueRandomCards(uncommons, 3, packCardIds));
+    addCardsToPack(getUniqueRandomCards(uncommons, 3, packCardIds, rng));
 
     // 5. Rare/Legendary Slot (1 card)
     let rareLegPool = standardPool.filter(c => c.rarity === 'rare' || c.rarity === 'legendary');
@@ -123,14 +125,14 @@ export function generateBoosterPack(allCards: Card[]): Card[] {
         );
         rareLegPool = [...rareLegPool, ...rareBases];
     }
-    addCardsToPack(getUniqueRandomCards(rareLegPool, 1, packCardIds));
+    addCardsToPack(getUniqueRandomCards(rareLegPool, 1, packCardIds, rng));
 
     // 6. Foil / Wildcard Slot (1 card)
     // Can be any rarity (including Special).
     // Rule: "Except you will not find a base or leader in this slot"
     // Also implicit: no excluded leaders (handled by availableCards), no tokens.
     const foilPool = availableCards.filter(c => c.type !== 'base' && c.type !== 'leader');
-    addCardsToPack(getUniqueRandomCards(foilPool, 1, packCardIds));
+    addCardsToPack(getUniqueRandomCards(foilPool, 1, packCardIds, rng));
 
     return pack;
 }
@@ -138,9 +140,10 @@ export function generateBoosterPack(allCards: Card[]): Card[] {
 /**
  * Generates a sealed pool from 6 booster packs.
  * @param setId The set ID (e.g., 'LOF').
+ * @param seed Optional seed for reproducible generation.
  * @returns A promise that resolves to a flat list of cards from 6 boosters.
  */
-export async function generateSealedPool(setId: string): Promise<Card[]> {
+export async function generateSealedPool(setId: string, seed?: string): Promise<Card[]> {
     const allCards = await fetchSetCards(setId);
 
     if (allCards.length === 0) {
@@ -148,9 +151,13 @@ export async function generateSealedPool(setId: string): Promise<Card[]> {
         return [];
     }
 
+    // If no seed is provided, use a random one
+    const rngSeed = seed || Math.random().toString(36).substring(7);
+    const rng = seedrandom(rngSeed);
+
     const rawPool: Card[] = [];
     for (let i = 0; i < 6; i++) {
-        const booster = generateBoosterPack(allCards);
+        const booster = generateBoosterPack(allCards, rng);
         rawPool.push(...booster);
     }
 
@@ -186,7 +193,7 @@ export async function generateSealedPool(setId: string): Promise<Card[]> {
 /**
  * Selects 'count' random unique cards from 'pool', excluding any IDs in 'excludeIds'.
  */
-function getUniqueRandomCards(pool: Card[], count: number, excludeIds: Set<string>): Card[] {
+function getUniqueRandomCards(pool: Card[], count: number, excludeIds: Set<string>, rng: seedrandom.PRNG): Card[] {
     // 1. Filter candidates that are not already in the pack
     const candidates = pool.filter(c => !excludeIds.has(c.id));
 
@@ -196,7 +203,7 @@ function getUniqueRandomCards(pool: Card[], count: number, excludeIds: Set<strin
     // We clone the candidates array to avoid modifying the filtered list reference (though filter creates new one)
     const shuffled = [...candidates];
     for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
+        const j = Math.floor(rng() * (i + 1));
         const temp = shuffled[i]!;
         shuffled[i] = shuffled[j]!;
         shuffled[j] = temp;
