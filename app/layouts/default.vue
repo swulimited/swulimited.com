@@ -101,7 +101,7 @@ watch(() => route.path, () => {
         </div>
       </div>
 
-      <div class="w-full px-6 py-8">
+      <div class="w-full px-6" :class="route.path === '/' ? 'py-2' : 'py-8'">
         <slot />
       </div>
     </main>
@@ -111,8 +111,7 @@ watch(() => route.path, () => {
       <div
         class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-swu-primary/50 to-transparent opacity-50">
       </div>
-      <div
-        class="w-full px-4 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div class="w-full px-4 flex flex-col md:flex-row justify-between items-center gap-4">
         <div class="flex flex-col gap-2">
           <p class="text-xs text-slate-500">
             &copy; {{ new Date().getFullYear() }} swulimited.com. Fan-made tool.
