@@ -331,9 +331,9 @@ onUnmounted(() => {
   <div class="flex flex-col md:flex-row gap-6 min-h-[calc(100vh-8rem)] -mt-8 pt-1">
 
     <!-- Permanent Sidebar: Leaders & Bases -->
-    <aside class="md:w-80 flex-shrink-0 relative mt-4">
+    <aside class="md:w-80 flex-shrink-0 relative mt-5">
       <div @scroll.passive="handleScroll"
-        class="sticky top-20 max-h-[calc(100vh-5rem)] overflow-y-auto bg-swu-900/50 backdrop-blur-sm rounded-xl border border-swu-primary/20 p-4 shadow-lg custom-scrollbar">
+        class="sticky top-[5.5rem] max-h-[calc(100vh-5.5rem)] overflow-y-auto bg-swu-900/50 backdrop-blur-sm rounded-xl border border-swu-primary/20 p-4 shadow-lg custom-scrollbar">
 
 
         <!-- Reroll & Copy Section -->
