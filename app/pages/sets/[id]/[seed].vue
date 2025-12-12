@@ -456,7 +456,7 @@ onUnmounted(() => {
       <!-- Cards Deck -->
       <div v-else>
         <div
-          class="flex flex-wrap items-center justify-end mb-2 gap-4 sticky top-[4.5rem] z-30 pointer-events-none -mx-2 px-2 md:pt-3 pt-0 pb-3">
+          class="flex flex-wrap items-center justify-end mb-2 gap-4 sticky top-[5rem] z-30 pointer-events-none -mx-2 px-2 md:pt-2 pt-0 md:pb-5 pb-4">
 
           <div
             class="flex flex-wrap items-center gap-3 pointer-events-auto bg-swu-900/80 backdrop-blur rounded-xl p-2 border border-white/5 shadow-2xl">
