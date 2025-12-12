@@ -1,4 +1,32 @@
 <script setup lang="ts">
+import {
+  Chart as ChartJS,
+  Title,
+  Tooltip,
+  Legend,
+  BarElement,
+  CategoryScale,
+  LinearScale,
+  ArcElement
+} from 'chart.js'
+import { Bar, Pie } from 'vue-chartjs'
+
+ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement)
+
+interface Card {
+  id: string
+  uniqueId: string
+  name: string
+  title?: string
+  art: string
+  aspects: string[]
+  cost?: number
+  number: number
+  type: string
+  rarity: string
+  arena?: string
+  [key: string]: any
+}
 const route = useRoute()
 const router = useRouter()
 const setId = computed(() => (route.params.id as string).toUpperCase())
@@ -26,8 +54,8 @@ const regeneratePool = () => {
   resetOptions()
 }
 
-const processedCards = computed(() => {
-  return (rawCards.value || []).map((card, index) => ({
+const processedCards = computed<Card[]>(() => {
+  return (rawCards.value || []).map((card: any, index: number) => ({
     ...card,
     uniqueId: `${card.id}-${index}`
   }))
@@ -41,6 +69,10 @@ const poolCards = computed(() => {
 
   return cards.sort((a, b) => {
     if (sortBy.value === 'cost') {
+      const arenaA = a.arena || 'z'
+      const arenaB = b.arena || 'z'
+      if (arenaA !== arenaB) return arenaA.localeCompare(arenaB)
+
       const costA = a.cost ?? 0
       const costB = b.cost ?? 0
       if (costA !== costB) return costA - costB
@@ -106,15 +138,6 @@ const bases = computed(() => {
     .sort((a, b) => a.number - b.number)
 })
 
-interface Card {
-  id: string
-  uniqueId: string
-  name: string
-  art: string
-  aspects: string[]
-  cost?: number
-  [key: string]: any
-}
 
 const hoveredCard = ref<Card | null>(null)
 const popupPosition = ref({ top: 0, left: 0, width: 300, height: 420 })
@@ -284,6 +307,261 @@ const copyPoolLink = async () => {
   }
 }
 
+const showStats = ref(false)
+
+const statsByCostAndType = computed(() => {
+  const selected = processedCards.value.filter(c => selectedCardIds.value.has(c.uniqueId))
+  const data = {
+    unit: Array(8).fill(0),
+    event: Array(8).fill(0),
+    upgrade: Array(8).fill(0)
+  }
+
+  selected.forEach(card => {
+    let cost = card.cost ?? 0
+    if (cost > 7) cost = 7
+
+    if (card.type === 'unit') {
+      data.unit[cost]++
+    } else if (card.type === 'event') {
+      data.event[cost]++
+    } else if (card.type === 'upgrade') {
+      data.upgrade[cost]++
+    }
+  })
+
+  return data
+})
+
+const arenaStats = computed(() => {
+  const selected = processedCards.value.filter(c => selectedCardIds.value.has(c.uniqueId))
+  const units = selected.filter(c => c.type === 'unit')
+
+  const space = units.filter(u => u.arena === 'space').length
+  const ground = units.filter(u => u.arena === 'ground').length
+
+  return { space, ground }
+})
+
+const traitStats = computed(() => {
+  const selected = processedCards.value.filter(c => selectedCardIds.value.has(c.uniqueId))
+  const traits = new Map<string, number>()
+
+  selected.forEach(card => {
+    if (card.traits) {
+      card.traits.forEach((trait: string) => {
+        traits.set(trait, (traits.get(trait) || 0) + 1)
+      })
+    }
+  })
+
+  // Sort by count descending and take top 10
+  return Array.from(traits.entries())
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 10)
+})
+
+const aspectStats = computed(() => {
+  const selected = processedCards.value.filter(c => selectedCardIds.value.has(c.uniqueId))
+  const aspects = new Map<string, number>()
+
+  selected.forEach(card => {
+    if (card.aspects) {
+      card.aspects.forEach((aspect: string) => {
+        aspects.set(aspect, (aspects.get(aspect) || 0) + 1)
+      })
+    }
+  })
+
+  return Array.from(aspects.entries()).sort((a, b) => b[1] - a[1])
+})
+
+const chartData = computed(() => {
+  return {
+    labels: ['Cost 0', 'Cost 1', 'Cost 2', 'Cost 3', 'Cost 4', 'Cost 5', 'Cost 6', 'Cost 7+'],
+    datasets: [
+      {
+        label: 'Units',
+        backgroundColor: '#60a5fa',
+        data: statsByCostAndType.value.unit,
+        stack: 'total'
+      },
+      {
+        label: 'Events',
+        backgroundColor: '#2563eb',
+        data: statsByCostAndType.value.event,
+        stack: 'total'
+      },
+      {
+        label: 'Upgrades',
+        backgroundColor: '#1e3a8a',
+        data: statsByCostAndType.value.upgrade,
+        stack: 'total'
+      }
+    ]
+  }
+})
+
+const arenaChartData = computed(() => {
+  return {
+    labels: ['Ground', 'Space'],
+    datasets: [
+      {
+        backgroundColor: ['#60a5fa', '#1e3a8a'],
+        borderColor: ['#3b82f6', '#172554'],
+        borderWidth: 1,
+        data: [arenaStats.value.ground, arenaStats.value.space]
+      }
+    ]
+  }
+})
+
+const traitChartData = computed(() => {
+  return {
+    labels: traitStats.value.map(s => s[0]),
+    datasets: [
+      {
+        label: 'Count',
+        backgroundColor: '#6694ce',
+        borderColor: '#6694ce',
+        borderWidth: 1,
+        borderRadius: 4,
+        data: traitStats.value.map(s => s[1])
+      }
+    ]
+  }
+})
+
+
+const chartOptions = {
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: {
+    legend: {
+      display: true,
+      labels: {
+        color: '#9ca3af',
+        usePointStyle: true,
+        boxWidth: 8
+      }
+    },
+    tooltip: {
+      titleColor: '#fff',
+      bodyColor: '#fff',
+      backgroundColor: 'rgba(0, 0, 0, 0.9)',
+      displayColors: false,
+      callbacks: {
+        title: () => '',
+        label: (context: any) => ` ${context.raw}`
+      }
+    }
+  },
+  scales: {
+    y: {
+      stacked: true,
+      beginAtZero: true,
+      ticks: {
+        stepSize: 1,
+        color: '#9ca3af',
+        font: {
+          family: 'monospace'
+        }
+      },
+      grid: {
+        color: 'rgba(255, 255, 255, 0.1)'
+      }
+    },
+    x: {
+      stacked: true,
+      ticks: {
+        color: '#e5e7eb',
+        font: {
+          weight: 'bold' as const
+        }
+      },
+      grid: {
+        display: false
+      }
+    }
+  }
+}
+
+const arenaChartOptions = {
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: {
+    legend: {
+      display: true,
+      position: 'bottom' as const,
+      labels: {
+        color: '#9ca3af',
+        usePointStyle: true,
+        padding: 20
+      }
+    },
+    tooltip: {
+      titleColor: '#fff',
+      bodyColor: '#fff',
+      backgroundColor: 'rgba(0, 0, 0, 0.9)',
+      displayColors: false,
+      callbacks: {
+        title: () => '',
+        label: (context: any) => ` ${context.raw}`
+      }
+    }
+  }
+}
+
+const traitChartOptions = {
+  responsive: true,
+  maintainAspectRatio: false,
+  indexAxis: 'y' as const,
+  plugins: {
+    legend: {
+      display: false
+    },
+    tooltip: {
+      titleColor: '#fff',
+      bodyColor: '#fff',
+      backgroundColor: 'rgba(0, 0, 0, 0.9)',
+      displayColors: false,
+      callbacks: {
+        title: () => '',
+        label: (context: any) => ` ${context.raw}`
+      }
+    }
+  },
+  scales: {
+    x: {
+      beginAtZero: true,
+      ticks: {
+        stepSize: 1,
+        color: '#9ca3af',
+        font: {
+          family: 'monospace'
+        }
+      },
+      grid: {
+        color: 'rgba(255, 255, 255, 0.1)'
+      }
+    },
+    y: {
+      ticks: {
+        color: '#e5e7eb',
+        autoSkip: false,
+        font: {
+          size: 10,
+          weight: 'bold' as const
+        }
+      },
+      grid: {
+        display: false
+      }
+    }
+  }
+}
+
+
 
 const mouseX = ref(0)
 const mouseY = ref(0)
@@ -314,12 +592,20 @@ const handleScroll = () => {
   }, 100)
 }
 
+const handleKeydown = (e: KeyboardEvent) => {
+  if (e.key === 'Escape' && showStats.value) {
+    showStats.value = false
+  }
+}
+
 onMounted(() => {
+  window.addEventListener('keydown', handleKeydown)
   window.addEventListener('scroll', handleScroll, { passive: true })
   window.addEventListener('mousemove', updateMousePos, { passive: true })
 })
 
 onUnmounted(() => {
+  window.removeEventListener('keydown', handleKeydown)
   window.removeEventListener('scroll', handleScroll)
   window.removeEventListener('mousemove', updateMousePos)
   clearTimeout(scrollTimeout)
@@ -483,6 +769,17 @@ onUnmounted(() => {
                   {{ selectedCardIds.size }} / {{ cards.length }}
                 </div>
                 <div class="w-px h-4 bg-white/10"></div>
+
+                <button @click="showStats = !showStats"
+                  class="h-8 w-8 flex items-center justify-center rounded text-gray-400 hover:text-white hover:bg-white/10 transition-colors"
+                  :class="{ 'text-swu-primary bg-white/10': showStats }" title="Deck Statistics">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-5 h-5">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+                  </svg>
+                </button>
+                <div class="w-px h-4 bg-white/10"></div>
               </div>
             </Transition>
 
@@ -540,10 +837,93 @@ onUnmounted(() => {
           :style="{ width: `${popupPosition.width}px`, height: `${popupPosition.height}px` }" />
       </div>
     </div>
+
+    <!-- Stats Overlay -->
+    <Transition name="fade">
+      <div v-if="showStats"
+        class="fixed inset-0 z-[60] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4"
+        @click.self="showStats = false">
+        <div
+          class="bg-swu-900 border border-swu-primary/30 rounded-2xl p-6 shadow-2xl w-full max-w-4xl flex flex-col relative elevation-high max-h-[90vh] overflow-y-auto">
+          <button @click="showStats = false"
+            class="absolute top-4 right-4 text-gray-400 hover:text-white hover:bg-white/10 p-1 rounded-full transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+          </button>
+          <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-6 h-6 text-swu-primary">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
+            </svg>
+            Deck Statistics
+          </h3>
+          <div class="flex flex-col md:flex-row gap-8">
+            <div class="flex-1 flex flex-col min-h-[300px]">
+              <h4 class="text-sm font-semibold text-gray-400 mb-4 uppercase tracking-wide text-center flex-shrink-0">
+                Cost Curve</h4>
+              <div class="flex-1 relative min-h-0 w-full">
+                <Bar :data="chartData" :options="chartOptions" />
+              </div>
+            </div>
+
+            <div class="flex-1 flex flex-col min-h-[300px]">
+              <h4 class="text-sm font-semibold text-gray-400 mb-4 uppercase tracking-wide text-center flex-shrink-0">
+                Top Traits
+              </h4>
+              <div class="flex-1 relative min-h-0 w-full">
+                <Bar :data="traitChartData" :options="traitChartOptions" />
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 md:h-[200px]">
+            <div class="flex flex-col h-[200px] md:h-full max-h-[200px]">
+              <h4 class="text-sm font-semibold text-gray-400 mb-4 uppercase tracking-wide text-center flex-shrink-0">
+                Arena Breakdown
+              </h4>
+              <div class="flex-1 relative min-h-0 w-full">
+                <Pie :data="arenaChartData" :options="arenaChartOptions" />
+              </div>
+            </div>
+
+            <div class="flex flex-col h-[200px] md:h-full">
+              <h4 class="text-sm font-semibold text-gray-400 mb-4 uppercase tracking-wide text-center flex-shrink-0">
+                Aspects
+              </h4>
+              <div class="flex-1 relative min-h-0 w-full flex justify-center overflow-y-auto custom-scrollbar">
+                <div class="w-full max-w-xs space-y-2">
+                  <div v-for="[aspect, count] in aspectStats" :key="aspect"
+                    class="flex items-center justify-between p-2 rounded-lg bg-white/5 border border-white/5 hover:bg-white/10 transition-colors select-none cursor-default">
+                    <div class="flex items-center gap-3">
+                      <img :src="`/images/aspect-${aspect}.png`" :alt="aspect" class="w-6 h-6 object-contain" />
+                      <span class="text-sm font-medium capitalize text-gray-200">{{ aspect }}</span>
+                    </div>
+                    <span class="text-sm font-bold text-swu-primary">{{ count }}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Transition>
   </div>
 </template>
 
 <style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
 .elevation-high {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
 }
