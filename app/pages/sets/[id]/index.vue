@@ -6,6 +6,13 @@ const router = useRouter()
 onMounted(() => {
     const seed = Math.random().toString(36).substring(7)
     const setId = route.params.id as string
+
+    if (['SEC', 'LOF'].includes(setId.toUpperCase())) {
+        useSeoMeta({
+            robots: 'noindex, nofollow'
+        })
+    }
+
     router.replace(`/sets/${setId}/${seed}`)
 })
 </script>

@@ -1,2 +1,3 @@
 User-Agent: *
-Disallow:
+Disallow: /sets/SEC
+Disallow: /sets/LOF

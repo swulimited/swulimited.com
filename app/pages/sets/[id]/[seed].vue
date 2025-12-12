@@ -7,6 +7,10 @@ const setId = computed(() => (route.params.id as string).toUpperCase())
 // This computed property automatically updates when the route param changes
 const seed = computed(() => route.params.seed as string)
 
+useSeoMeta({
+  robots: () => ['SEC', 'LOF'].includes(setId.value) ? 'noindex, nofollow' : 'index, follow'
+})
+
 const { data: rawCards, error, status } = await useAsyncData(
   `sealed-pool-${setId.value}-${seed.value}`,
   () => generateSealedPool(setId.value, seed.value),
