@@ -64,6 +64,7 @@ Attributes:
 - aspects (array of Card aspect)
 - name (string)
 - title (string, nullable)
+- traits (array of string, null if empty)
 - art (string)
 
 A card belongs to a card set.

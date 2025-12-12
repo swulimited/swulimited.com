@@ -13,7 +13,11 @@
     "title": "How Liberty Dies",
     "art": "https://cdn.swu-db.com/images/cards/SEC/001.png",
     "cost": 7,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-002",
@@ -29,7 +33,11 @@
     "title": "Wonderful Human Being",
     "art": "https://cdn.swu-db.com/images/cards/SEC/002.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "UNDERWORLD",
+      "HUTT"
+    ]
   },
   {
     "id": "SEC-003",
@@ -45,7 +53,11 @@
     "title": "We Modified Their Genetics",
     "art": "https://cdn.swu-db.com/images/cards/SEC/003.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "KAMINOAN",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-004",
@@ -61,7 +73,11 @@
     "title": "Of A Secret Bloodline",
     "art": "https://cdn.swu-db.com/images/cards/SEC/004.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "NEW REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-005",
@@ -77,7 +93,11 @@
     "title": "Standing on Principles",
     "art": "https://cdn.swu-db.com/images/cards/SEC/005.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "MANDALORIAN",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-006",
@@ -93,7 +113,11 @@
     "title": "This is Why We Plan",
     "art": "https://cdn.swu-db.com/images/cards/SEC/006.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-007",
@@ -109,7 +133,10 @@
     "title": "I Never Ask Twice",
     "art": "https://cdn.swu-db.com/images/cards/SEC/007.png",
     "cost": 7,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "UNDERWORLD"
+    ]
   },
   {
     "id": "SEC-008",
@@ -125,7 +152,11 @@
     "title": "Doing Everything He Can",
     "art": "https://cdn.swu-db.com/images/cards/SEC/008.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-009",
@@ -141,7 +172,11 @@
     "title": "Forming a Coalition",
     "art": "https://cdn.swu-db.com/images/cards/SEC/009.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-010",
@@ -157,7 +192,11 @@
     "title": "Not Wasting Time",
     "art": "https://cdn.swu-db.com/images/cards/SEC/010.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-011",
@@ -173,7 +212,11 @@
     "title": "Tyrant of Lothal",
     "art": "https://cdn.swu-db.com/images/cards/SEC/011.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-012",
@@ -189,7 +232,10 @@
     "title": "Climb!",
     "art": "https://cdn.swu-db.com/images/cards/SEC/012.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL"
+    ]
   },
   {
     "id": "SEC-013",
@@ -205,7 +251,10 @@
     "title": "Don't You Want to Fight For Real?",
     "art": "https://cdn.swu-db.com/images/cards/SEC/013.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL"
+    ]
   },
   {
     "id": "SEC-014",
@@ -221,7 +270,12 @@
     "title": "Cipher in the Dark",
     "art": "https://cdn.swu-db.com/images/cards/SEC/014.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "IMPERIAL",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-015",
@@ -237,7 +291,11 @@
     "title": "Human-Cyborg Relations",
     "art": "https://cdn.swu-db.com/images/cards/SEC/015.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL",
+      "DROID"
+    ]
   },
   {
     "id": "SEC-016",
@@ -249,11 +307,16 @@
       "cunning",
       "heroism"
     ],
-    "name": "Padmé Amidala",
+    "name": "Padm\u00e9 Amidala",
     "title": "What Do You Have to Hide?",
     "art": "https://cdn.swu-db.com/images/cards/SEC/016.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "NABOO",
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-017",
@@ -265,11 +328,14 @@
       "cunning",
       "heroism"
     ],
-    "name": "Sabé",
+    "name": "Sab\u00e9",
     "title": "Queen's Shadow",
     "art": "https://cdn.swu-db.com/images/cards/SEC/017.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "NABOO"
+    ]
   },
   {
     "id": "SEC-018",
@@ -285,7 +351,10 @@
     "title": "Need a Lift?",
     "art": "https://cdn.swu-db.com/images/cards/SEC/018.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "UNDERWORLD"
+    ]
   },
   {
     "id": "SEC-019",
@@ -405,7 +474,12 @@
     "title": "Grim Harbinger",
     "art": "https://cdn.swu-db.com/images/cards/SEC/027.png",
     "cost": 2,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "REPUBLIC",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-028",
@@ -420,7 +494,11 @@
     "name": "Trayus Acolyte",
     "art": "https://cdn.swu-db.com/images/cards/SEC/028.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "SITH"
+    ]
   },
   {
     "id": "SEC-029",
@@ -436,7 +514,11 @@
     "title": "Inconspicuous Assassin",
     "art": "https://cdn.swu-db.com/images/cards/SEC/029.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "UNDERWORLD",
+      "BOUNTY HUNTER"
+    ]
   },
   {
     "id": "SEC-030",
@@ -451,7 +533,11 @@
     "name": "Death Trooper",
     "art": "https://cdn.swu-db.com/images/cards/SEC/030.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-031",
@@ -467,7 +553,11 @@
     "title": "Escaping Justice",
     "art": "https://cdn.swu-db.com/images/cards/SEC/031.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "SEPARATIST",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-032",
@@ -483,7 +573,12 @@
     "title": "Icon of Authority",
     "art": "https://cdn.swu-db.com/images/cards/SEC/032.png",
     "cost": 4,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "FIRST ORDER",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-033",
@@ -499,7 +594,11 @@
     "title": "Witness to Power",
     "art": "https://cdn.swu-db.com/images/cards/SEC/033.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-034",
@@ -515,7 +614,11 @@
     "title": "Impressed Now?",
     "art": "https://cdn.swu-db.com/images/cards/SEC/034.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "UNDERWORLD",
+      "BOUNTY HUNTER"
+    ]
   },
   {
     "id": "SEC-035",
@@ -531,7 +634,11 @@
     "title": "Lord of Pain",
     "art": "https://cdn.swu-db.com/images/cards/SEC/035.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "SITH"
+    ]
   },
   {
     "id": "SEC-036",
@@ -546,7 +653,12 @@
     "name": "Dogmatic Shock Squad",
     "art": "https://cdn.swu-db.com/images/cards/SEC/036.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "CLONE",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-037",
@@ -561,7 +673,12 @@
     "name": "Cantwell Arrestor Cruiser",
     "art": "https://cdn.swu-db.com/images/cards/SEC/037.png",
     "cost": 7,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "IMPERIAL",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ]
   },
   {
     "id": "SEC-038",
@@ -575,7 +692,10 @@
     ],
     "name": "Condemn",
     "art": "https://cdn.swu-db.com/images/cards/SEC/038.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "CONDITION"
+    ]
   },
   {
     "id": "SEC-039",
@@ -589,7 +709,10 @@
     ],
     "name": "Creditor's Claim",
     "art": "https://cdn.swu-db.com/images/cards/SEC/039.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "SUPPLY"
+    ]
   },
   {
     "id": "SEC-040",
@@ -603,7 +726,10 @@
     ],
     "name": "Emergency Powers",
     "art": "https://cdn.swu-db.com/images/cards/SEC/040.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "LAW"
+    ]
   },
   {
     "id": "SEC-041",
@@ -618,7 +744,11 @@
     "name": "Populist Advisor",
     "art": "https://cdn.swu-db.com/images/cards/SEC/041.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "NEW REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-042",
@@ -634,7 +764,10 @@
     "title": "Lay Low",
     "art": "https://cdn.swu-db.com/images/cards/SEC/042.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE"
+    ]
   },
   {
     "id": "SEC-043",
@@ -649,7 +782,10 @@
     "name": "Chandrilan Sponsor",
     "art": "https://cdn.swu-db.com/images/cards/SEC/043.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-044",
@@ -664,7 +800,11 @@
     "name": "Populist Champion",
     "art": "https://cdn.swu-db.com/images/cards/SEC/044.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "NEW REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-045",
@@ -680,7 +820,11 @@
     "title": "Voice for the Voiceless",
     "art": "https://cdn.swu-db.com/images/cards/SEC/045.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-046",
@@ -696,7 +840,10 @@
     "title": "You'll Never Win",
     "art": "https://cdn.swu-db.com/images/cards/SEC/046.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL"
+    ]
   },
   {
     "id": "SEC-047",
@@ -712,7 +859,12 @@
     "title": "Stately Vessel",
     "art": "https://cdn.swu-db.com/images/cards/SEC/047.png",
     "cost": 5,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "MANDALORIAN",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-048",
@@ -728,7 +880,12 @@
     "title": "Into the Firefight",
     "art": "https://cdn.swu-db.com/images/cards/SEC/048.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "CLONE",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-049",
@@ -743,7 +900,12 @@
     "name": "Jade Squadron Patrol",
     "art": "https://cdn.swu-db.com/images/cards/SEC/049.png",
     "cost": 6,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "RESISTANCE",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "SEC-050",
@@ -759,7 +921,12 @@
     "title": "Securing the Future",
     "art": "https://cdn.swu-db.com/images/cards/SEC/050.png",
     "cost": 7,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "RESISTANCE",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ]
   },
   {
     "id": "SEC-051",
@@ -775,7 +942,10 @@
     "title": "Alone",
     "art": "https://cdn.swu-db.com/images/cards/SEC/051.png",
     "cost": 9,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "MANDALORIAN"
+    ]
   },
   {
     "id": "SEC-052",
@@ -789,7 +959,10 @@
     ],
     "name": "Diplomatic Immunity",
     "art": "https://cdn.swu-db.com/images/cards/SEC/052.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "LAW"
+    ]
   },
   {
     "id": "SEC-053",
@@ -803,7 +976,10 @@
     ],
     "name": "One in a Million",
     "art": "https://cdn.swu-db.com/images/cards/SEC/053.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "GAMBIT"
+    ]
   },
   {
     "id": "SEC-054",
@@ -817,7 +993,10 @@
     ],
     "name": "Exiled from the Force",
     "art": "https://cdn.swu-db.com/images/cards/SEC/054.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "CONDITION"
+    ]
   },
   {
     "id": "SEC-055",
@@ -831,7 +1010,10 @@
     "name": "Dhani Pilgrim",
     "art": "https://cdn.swu-db.com/images/cards/SEC/055.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE"
+    ]
   },
   {
     "id": "SEC-056",
@@ -845,7 +1027,11 @@
     "name": "Escape Pod",
     "art": "https://cdn.swu-db.com/images/cards/SEC/056.png",
     "cost": 1,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-057",
@@ -860,7 +1046,10 @@
     "title": "Cloud City Coordinator",
     "art": "https://cdn.swu-db.com/images/cards/SEC/057.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE"
+    ]
   },
   {
     "id": "SEC-058",
@@ -874,7 +1063,11 @@
     "name": "Lost Jedi",
     "art": "https://cdn.swu-db.com/images/cards/SEC/058.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI"
+    ]
   },
   {
     "id": "SEC-059",
@@ -888,7 +1081,11 @@
     "name": "Senate Warden",
     "art": "https://cdn.swu-db.com/images/cards/SEC/059.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-060",
@@ -902,7 +1099,12 @@
     "name": "Defense Fleet X-Wing",
     "art": "https://cdn.swu-db.com/images/cards/SEC/060.png",
     "cost": 3,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "NEW REPUBLIC",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "SEC-061",
@@ -917,7 +1119,10 @@
     "title": "On the Run",
     "art": "https://cdn.swu-db.com/images/cards/SEC/061.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE"
+    ]
   },
   {
     "id": "SEC-062",
@@ -931,7 +1136,12 @@
     "name": "Bardottan Ornithopter",
     "art": "https://cdn.swu-db.com/images/cards/SEC/062.png",
     "cost": 4,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "FRINGE",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-063",
@@ -945,7 +1155,11 @@
     "name": "Rotunda Senate Guards",
     "art": "https://cdn.swu-db.com/images/cards/SEC/063.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-064",
@@ -959,7 +1173,11 @@
     "name": "Congress of Malastare",
     "art": "https://cdn.swu-db.com/images/cards/SEC/064.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-065",
@@ -974,7 +1192,10 @@
     "title": "Chief Medical Scientist",
     "art": "https://cdn.swu-db.com/images/cards/SEC/065.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "KAMINOAN"
+    ]
   },
   {
     "id": "SEC-066",
@@ -988,7 +1209,11 @@
     "name": "Alderaanian Envoys",
     "art": "https://cdn.swu-db.com/images/cards/SEC/066.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-067",
@@ -1002,7 +1227,12 @@
     "name": "Umbaran Mobile Cannon",
     "art": "https://cdn.swu-db.com/images/cards/SEC/067.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE",
+      "VEHICLE",
+      "WALKER"
+    ]
   },
   {
     "id": "SEC-068",
@@ -1017,7 +1247,11 @@
     "title": "Trust Me",
     "art": "https://cdn.swu-db.com/images/cards/SEC/068.png",
     "cost": 7,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-069",
@@ -1030,7 +1264,10 @@
     ],
     "name": "Nimble Prowess",
     "art": "https://cdn.swu-db.com/images/cards/SEC/069.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "INNATE"
+    ]
   },
   {
     "id": "SEC-070",
@@ -1043,7 +1280,11 @@
     ],
     "name": "Armor of Fortune",
     "art": "https://cdn.swu-db.com/images/cards/SEC/070.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "ITEM",
+      "ARMOR"
+    ]
   },
   {
     "id": "SEC-071",
@@ -1056,7 +1297,10 @@
     ],
     "name": "Disciples' Devotion",
     "art": "https://cdn.swu-db.com/images/cards/SEC/071.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "INNATE"
+    ]
   },
   {
     "id": "SEC-072",
@@ -1069,7 +1313,10 @@
     ],
     "name": "Scour the Archives",
     "art": "https://cdn.swu-db.com/images/cards/SEC/072.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "LEARNED"
+    ]
   },
   {
     "id": "SEC-073",
@@ -1082,7 +1329,11 @@
     ],
     "name": "The Eye of Aldhani",
     "art": "https://cdn.swu-db.com/images/cards/SEC/073.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "INNATE",
+      "TRICK"
+    ]
   },
   {
     "id": "SEC-074",
@@ -1095,7 +1346,10 @@
     ],
     "name": "Relief Request",
     "art": "https://cdn.swu-db.com/images/cards/SEC/074.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "LAW"
+    ]
   },
   {
     "id": "SEC-075",
@@ -1108,7 +1362,10 @@
     ],
     "name": "Knowledge and Defense",
     "art": "https://cdn.swu-db.com/images/cards/SEC/075.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "LEARNED"
+    ]
   },
   {
     "id": "SEC-076",
@@ -1121,7 +1378,10 @@
     ],
     "name": "Charged with Murder",
     "art": "https://cdn.swu-db.com/images/cards/SEC/076.png",
-    "cost": 4
+    "cost": 4,
+    "traits": [
+      "LAW"
+    ]
   },
   {
     "id": "SEC-077",
@@ -1134,7 +1394,10 @@
     ],
     "name": "Retaliation",
     "art": "https://cdn.swu-db.com/images/cards/SEC/077.png",
-    "cost": 5
+    "cost": 5,
+    "traits": [
+      "TACTIC"
+    ]
   },
   {
     "id": "SEC-078",
@@ -1147,7 +1410,10 @@
     ],
     "name": "Hyperspace Disaster",
     "art": "https://cdn.swu-db.com/images/cards/SEC/078.png",
-    "cost": 7
+    "cost": 7,
+    "traits": [
+      "DISASTER"
+    ]
   },
   {
     "id": "SEC-079",
@@ -1162,7 +1428,11 @@
     "name": "Corrupt Politician",
     "art": "https://cdn.swu-db.com/images/cards/SEC/079.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-080",
@@ -1177,7 +1447,12 @@
     "name": "Imperial Dark Trooper",
     "art": "https://cdn.swu-db.com/images/cards/SEC/080.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "DROID",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-081",
@@ -1193,7 +1468,11 @@
     "title": "Healthcare Provider",
     "art": "https://cdn.swu-db.com/images/cards/SEC/081.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-082",
@@ -1209,7 +1488,11 @@
     "title": "I Am the Senate",
     "art": "https://cdn.swu-db.com/images/cards/SEC/082.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-083",
@@ -1224,7 +1507,12 @@
     "name": "ISB Shuttle",
     "art": "https://cdn.swu-db.com/images/cards/SEC/083.png",
     "cost": 3,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "IMPERIAL",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-084",
@@ -1240,7 +1528,11 @@
     "title": "Accomplice to Power",
     "art": "https://cdn.swu-db.com/images/cards/SEC/084.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-085",
@@ -1256,7 +1548,11 @@
     "title": "On Schedule",
     "art": "https://cdn.swu-db.com/images/cards/SEC/085.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-086",
@@ -1271,7 +1567,12 @@
     "name": "Cruel Commandos",
     "art": "https://cdn.swu-db.com/images/cards/SEC/086.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "CLONE",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-087",
@@ -1287,7 +1588,11 @@
     "title": "With Verifiable Data",
     "art": "https://cdn.swu-db.com/images/cards/SEC/087.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-088",
@@ -1303,7 +1608,12 @@
     "title": "Threatening Elegance",
     "art": "https://cdn.swu-db.com/images/cards/SEC/088.png",
     "cost": 7,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "UNDERWORLD",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-089",
@@ -1318,7 +1628,11 @@
     "name": "PreMor Personnel Carrier",
     "art": "https://cdn.swu-db.com/images/cards/SEC/089.png",
     "cost": 8,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-090",
@@ -1334,7 +1648,11 @@
     "title": "I Lose Nothing But Time",
     "art": "https://cdn.swu-db.com/images/cards/SEC/090.png",
     "cost": 9,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-091",
@@ -1348,7 +1666,10 @@
     ],
     "name": "Corporate Warmongering",
     "art": "https://cdn.swu-db.com/images/cards/SEC/091.png",
-    "cost": 4
+    "cost": 4,
+    "traits": [
+      "PLAN"
+    ]
   },
   {
     "id": "SEC-092",
@@ -1362,7 +1683,10 @@
     ],
     "name": "I Am the Senate",
     "art": "https://cdn.swu-db.com/images/cards/SEC/092.png",
-    "cost": 6
+    "cost": 6,
+    "traits": [
+      "LAW"
+    ]
   },
   {
     "id": "SEC-093",
@@ -1378,7 +1702,11 @@
     "title": "Anything I Might Do?",
     "art": "https://cdn.swu-db.com/images/cards/SEC/093.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "DROID"
+    ]
   },
   {
     "id": "SEC-094",
@@ -1394,7 +1722,11 @@
     "title": "Stop This War",
     "art": "https://cdn.swu-db.com/images/cards/SEC/094.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "SEPARATIST",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-095",
@@ -1409,7 +1741,11 @@
     "name": "Theed Security",
     "art": "https://cdn.swu-db.com/images/cards/SEC/095.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "NABOO",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-096",
@@ -1425,7 +1761,12 @@
     "title": "I Learned it From You",
     "art": "https://cdn.swu-db.com/images/cards/SEC/096.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "SEC-097",
@@ -1440,7 +1781,11 @@
     "name": "Beloved Orator",
     "art": "https://cdn.swu-db.com/images/cards/SEC/097.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "NEW REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-098",
@@ -1456,7 +1801,12 @@
     "title": "All Necessary Precautions",
     "art": "https://cdn.swu-db.com/images/cards/SEC/098.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "NABOO",
+      "REPUBLIC",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-099",
@@ -1472,7 +1822,12 @@
     "title": "Fit For A Queen",
     "art": "https://cdn.swu-db.com/images/cards/SEC/099.png",
     "cost": 4,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "NABOO",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-100",
@@ -1487,7 +1842,11 @@
     "name": "Dressellian Commandos",
     "art": "https://cdn.swu-db.com/images/cards/SEC/100.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-101",
@@ -1503,7 +1862,11 @@
     "title": "Championing Her People",
     "art": "https://cdn.swu-db.com/images/cards/SEC/101.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "NABOO",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-102",
@@ -1518,7 +1881,11 @@
     "name": "Renowned Dignitaries",
     "art": "https://cdn.swu-db.com/images/cards/SEC/102.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "NEW REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-103",
@@ -1534,7 +1901,11 @@
     "title": "Clinging to Hope",
     "art": "https://cdn.swu-db.com/images/cards/SEC/103.png",
     "cost": 7,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-104",
@@ -1548,7 +1919,10 @@
     ],
     "name": "Figure of Unity",
     "art": "https://cdn.swu-db.com/images/cards/SEC/104.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "INNATE"
+    ]
   },
   {
     "id": "SEC-105",
@@ -1562,7 +1936,10 @@
     ],
     "name": "Renewed Friendship",
     "art": "https://cdn.swu-db.com/images/cards/SEC/105.png",
-    "cost": 4
+    "cost": 4,
+    "traits": [
+      "INNATE"
+    ]
   },
   {
     "id": "SEC-106",
@@ -1576,7 +1953,10 @@
     ],
     "name": "Dismantle the Conspiracy",
     "art": "https://cdn.swu-db.com/images/cards/SEC/106.png",
-    "cost": 6
+    "cost": 6,
+    "traits": [
+      "TACTIC"
+    ]
   },
   {
     "id": "SEC-107",
@@ -1592,7 +1972,11 @@
     "title": "Civil Servant",
     "art": "https://cdn.swu-db.com/images/cards/SEC/107.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-108",
@@ -1606,7 +1990,11 @@
     "name": "Senator's Aide",
     "art": "https://cdn.swu-db.com/images/cards/SEC/108.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-109",
@@ -1620,7 +2008,12 @@
     "name": "Diplomatic Envoy",
     "art": "https://cdn.swu-db.com/images/cards/SEC/109.png",
     "cost": 2,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "REPUBLIC",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-110",
@@ -1634,7 +2027,10 @@
     "name": "GNK Power Droid",
     "art": "https://cdn.swu-db.com/images/cards/SEC/110.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "DROID"
+    ]
   },
   {
     "id": "SEC-111",
@@ -1649,7 +2045,13 @@
     "title": "Mesa Propose",
     "art": "https://cdn.swu-db.com/images/cards/SEC/111.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "NABOO",
+      "REPUBLIC",
+      "GUNGAN",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-112",
@@ -1664,7 +2066,12 @@
     "title": "Political Power Broker",
     "art": "https://cdn.swu-db.com/images/cards/SEC/112.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "TWI'LEK",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-113",
@@ -1678,7 +2085,12 @@
     "name": "Daro Commando",
     "art": "https://cdn.swu-db.com/images/cards/SEC/113.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "CLONE",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-114",
@@ -1693,7 +2105,10 @@
     "title": "You Answer to Me",
     "art": "https://cdn.swu-db.com/images/cards/SEC/114.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE"
+    ]
   },
   {
     "id": "SEC-115",
@@ -1707,7 +2122,12 @@
     "name": "Taylander Shuttle",
     "art": "https://cdn.swu-db.com/images/cards/SEC/115.png",
     "cost": 3,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "FRINGE",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-116",
@@ -1721,7 +2141,12 @@
     "name": "Nubian Star Skiff",
     "art": "https://cdn.swu-db.com/images/cards/SEC/116.png",
     "cost": 4,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "NABOO",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-117",
@@ -1735,7 +2160,12 @@
     "name": "Consular's Cruiser",
     "art": "https://cdn.swu-db.com/images/cards/SEC/117.png",
     "cost": 5,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "REPUBLIC",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-118",
@@ -1749,7 +2179,11 @@
     "name": "Raxian Assembly",
     "art": "https://cdn.swu-db.com/images/cards/SEC/118.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "SEPARATIST",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-119",
@@ -1764,7 +2198,12 @@
     "title": "Centuries of Wisdom",
     "art": "https://cdn.swu-db.com/images/cards/SEC/119.png",
     "cost": 6,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "JEDI",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-120",
@@ -1778,7 +2217,11 @@
     "name": "Naboo Security Force",
     "art": "https://cdn.swu-db.com/images/cards/SEC/120.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "NABOO",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-121",
@@ -1792,7 +2235,12 @@
     "name": "Shadow Crawler",
     "art": "https://cdn.swu-db.com/images/cards/SEC/121.png",
     "cost": 7,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE",
+      "VEHICLE",
+      "WALKER"
+    ]
   },
   {
     "id": "SEC-122",
@@ -1807,7 +2255,12 @@
     "title": "Droid Control Ship",
     "art": "https://cdn.swu-db.com/images/cards/SEC/122.png",
     "cost": 9,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "SEPARATIST",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ]
   },
   {
     "id": "SEC-123",
@@ -1820,7 +2273,10 @@
     ],
     "name": "Unveiled Might",
     "art": "https://cdn.swu-db.com/images/cards/SEC/123.png",
-    "cost": 4
+    "cost": 4,
+    "traits": [
+      "INNATE"
+    ]
   },
   {
     "id": "SEC-124",
@@ -1833,7 +2289,10 @@
     ],
     "name": "Budget Scheming",
     "art": "https://cdn.swu-db.com/images/cards/SEC/124.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "LAW"
+    ]
   },
   {
     "id": "SEC-125",
@@ -1846,7 +2305,10 @@
     ],
     "name": "Reconnaissance",
     "art": "https://cdn.swu-db.com/images/cards/SEC/125.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "PLAN"
+    ]
   },
   {
     "id": "SEC-126",
@@ -1859,7 +2321,10 @@
     ],
     "name": "Trade Route Taxation",
     "art": "https://cdn.swu-db.com/images/cards/SEC/126.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "LAW"
+    ]
   },
   {
     "id": "SEC-127",
@@ -1872,7 +2337,10 @@
     ],
     "name": "Charged with Corruption",
     "art": "https://cdn.swu-db.com/images/cards/SEC/127.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "LAW"
+    ]
   },
   {
     "id": "SEC-128",
@@ -1885,7 +2353,10 @@
     ],
     "name": "Convene the Senate",
     "art": "https://cdn.swu-db.com/images/cards/SEC/128.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "LAW"
+    ]
   },
   {
     "id": "SEC-129",
@@ -1898,7 +2369,10 @@
     ],
     "name": "With Thunderous Applause",
     "art": "https://cdn.swu-db.com/images/cards/SEC/129.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "PLAN"
+    ]
   },
   {
     "id": "SEC-130",
@@ -1911,7 +2385,10 @@
     ],
     "name": "Ferrix Uprising",
     "art": "https://cdn.swu-db.com/images/cards/SEC/130.png",
-    "cost": 4
+    "cost": 4,
+    "traits": [
+      "TACTIC"
+    ]
   },
   {
     "id": "SEC-131",
@@ -1924,7 +2401,10 @@
     ],
     "name": "Let's Talk",
     "art": "https://cdn.swu-db.com/images/cards/SEC/131.png",
-    "cost": 9
+    "cost": 9,
+    "traits": [
+      "TRICK"
+    ]
   },
   {
     "id": "SEC-132",
@@ -1939,7 +2419,11 @@
     "name": "Imperial Occupier",
     "art": "https://cdn.swu-db.com/images/cards/SEC/132.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-133",
@@ -1955,7 +2439,10 @@
     "title": "Where is He?",
     "art": "https://cdn.swu-db.com/images/cards/SEC/133.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-134",
@@ -1970,7 +2457,12 @@
     "name": "Hunting Assassin Droid",
     "art": "https://cdn.swu-db.com/images/cards/SEC/134.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "UNDERWORLD",
+      "DROID",
+      "BOUNTY HUNTER"
+    ]
   },
   {
     "id": "SEC-135",
@@ -1985,7 +2477,11 @@
     "name": "Muckraker Crab Droid",
     "art": "https://cdn.swu-db.com/images/cards/SEC/135.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "SEPARATIST",
+      "DROID"
+    ]
   },
   {
     "id": "SEC-136",
@@ -2001,7 +2497,10 @@
     "title": "On the Road to Power",
     "art": "https://cdn.swu-db.com/images/cards/SEC/136.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL"
+    ]
   },
   {
     "id": "SEC-137",
@@ -2017,7 +2516,10 @@
     "title": "I Get All Worked Up",
     "art": "https://cdn.swu-db.com/images/cards/SEC/137.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "UNDERWORLD"
+    ]
   },
   {
     "id": "SEC-138",
@@ -2032,7 +2534,12 @@
     "name": "Enforcer Squadron",
     "art": "https://cdn.swu-db.com/images/cards/SEC/138.png",
     "cost": 4,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "REPUBLIC",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "SEC-139",
@@ -2048,7 +2555,11 @@
     "title": "The Weak Deserve to Kneel",
     "art": "https://cdn.swu-db.com/images/cards/SEC/139.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "SEPARATIST",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-140",
@@ -2064,7 +2575,10 @@
     "title": "You Better Hurry",
     "art": "https://cdn.swu-db.com/images/cards/SEC/140.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "UNDERWORLD"
+    ]
   },
   {
     "id": "SEC-141",
@@ -2080,7 +2594,12 @@
     "title": "Marauding Pirate Ship",
     "art": "https://cdn.swu-db.com/images/cards/SEC/141.png",
     "cost": 7,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "UNDERWORLD",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-142",
@@ -2096,7 +2615,12 @@
     "title": "Fleet Killer",
     "art": "https://cdn.swu-db.com/images/cards/SEC/142.png",
     "cost": 8,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "FIRST ORDER",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ]
   },
   {
     "id": "SEC-143",
@@ -2112,7 +2636,11 @@
     "title": "Neutralizing Insurgents",
     "art": "https://cdn.swu-db.com/images/cards/SEC/143.png",
     "cost": 8,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-144",
@@ -2126,7 +2654,10 @@
     ],
     "name": "Tempest Assault",
     "art": "https://cdn.swu-db.com/images/cards/SEC/144.png",
-    "cost": 4
+    "cost": 4,
+    "traits": [
+      "TACTIC"
+    ]
   },
   {
     "id": "SEC-145",
@@ -2140,7 +2671,10 @@
     ],
     "name": "Confidence in Victory",
     "art": "https://cdn.swu-db.com/images/cards/SEC/145.png",
-    "cost": 10
+    "cost": 10,
+    "traits": [
+      "GAMBIT"
+    ]
   },
   {
     "id": "SEC-146",
@@ -2155,7 +2689,11 @@
     "name": "Rebellious Functionary",
     "art": "https://cdn.swu-db.com/images/cards/SEC/146.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-147",
@@ -2171,7 +2709,12 @@
     "title": "War Hero",
     "art": "https://cdn.swu-db.com/images/cards/SEC/147.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL",
+      "DROID",
+      "SPECTRE"
+    ]
   },
   {
     "id": "SEC-148",
@@ -2187,7 +2730,10 @@
     "title": "Freedom is a Pure Idea",
     "art": "https://cdn.swu-db.com/images/cards/SEC/148.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL"
+    ]
   },
   {
     "id": "SEC-149",
@@ -2203,7 +2749,10 @@
     "title": "For Our Survival",
     "art": "https://cdn.swu-db.com/images/cards/SEC/149.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "RESISTANCE"
+    ]
   },
   {
     "id": "SEC-150",
@@ -2218,7 +2767,11 @@
     "name": "Valiant Commando",
     "art": "https://cdn.swu-db.com/images/cards/SEC/150.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-151",
@@ -2234,7 +2787,10 @@
     "title": "I'm Not A Spy",
     "art": "https://cdn.swu-db.com/images/cards/SEC/151.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "RESISTANCE"
+    ]
   },
   {
     "id": "SEC-152",
@@ -2249,7 +2805,12 @@
     "name": "Strike Force X-Wing",
     "art": "https://cdn.swu-db.com/images/cards/SEC/152.png",
     "cost": 4,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "REBEL",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "SEC-153",
@@ -2265,7 +2826,12 @@
     "title": "Countermeasures Armed",
     "art": "https://cdn.swu-db.com/images/cards/SEC/153.png",
     "cost": 5,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "REBEL",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-154",
@@ -2280,7 +2846,11 @@
     "name": "Inner Rim Coalition",
     "art": "https://cdn.swu-db.com/images/cards/SEC/154.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-155",
@@ -2296,7 +2866,11 @@
     "title": "With New Purpose",
     "art": "https://cdn.swu-db.com/images/cards/SEC/155.png",
     "cost": 7,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL",
+      "SPECTRE"
+    ]
   },
   {
     "id": "SEC-156",
@@ -2310,7 +2884,11 @@
     ],
     "name": "Nemik's Manifesto",
     "art": "https://cdn.swu-db.com/images/cards/SEC/156.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "ITEM",
+      "REBEL"
+    ]
   },
   {
     "id": "SEC-157",
@@ -2324,7 +2902,10 @@
     ],
     "name": "One Way Out",
     "art": "https://cdn.swu-db.com/images/cards/SEC/157.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "GAMBIT"
+    ]
   },
   {
     "id": "SEC-158",
@@ -2338,7 +2919,10 @@
     ],
     "name": "Oppression Breeds Rebellion",
     "art": "https://cdn.swu-db.com/images/cards/SEC/158.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "PLAN"
+    ]
   },
   {
     "id": "SEC-159",
@@ -2354,7 +2938,11 @@
     "title": "Undaunted Diplomat",
     "art": "https://cdn.swu-db.com/images/cards/SEC/159.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-160",
@@ -2368,7 +2956,11 @@
     "name": "Reckless Rebel",
     "art": "https://cdn.swu-db.com/images/cards/SEC/160.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL",
+      "TWI'LEK"
+    ]
   },
   {
     "id": "SEC-161",
@@ -2382,7 +2974,12 @@
     "name": "Contraband Starhopper",
     "art": "https://cdn.swu-db.com/images/cards/SEC/161.png",
     "cost": 2,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "UNDERWORLD",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "SEC-162",
@@ -2397,7 +2994,12 @@
     "title": "Filled With Doubt",
     "art": "https://cdn.swu-db.com/images/cards/SEC/162.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "CLONE",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-163",
@@ -2411,7 +3013,11 @@
     "name": "Outer Rim Constable",
     "art": "https://cdn.swu-db.com/images/cards/SEC/163.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-164",
@@ -2425,7 +3031,10 @@
     "name": "Warrior of Clan Ordo",
     "art": "https://cdn.swu-db.com/images/cards/SEC/164.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "MANDALORIAN"
+    ]
   },
   {
     "id": "SEC-165",
@@ -2439,7 +3048,11 @@
     "name": "Academy Disciplinarian",
     "art": "https://cdn.swu-db.com/images/cards/SEC/165.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-166",
@@ -2453,7 +3066,12 @@
     "name": "Republic Aurek Starfighter",
     "art": "https://cdn.swu-db.com/images/cards/SEC/166.png",
     "cost": 3,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "REPUBLIC",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "SEC-167",
@@ -2467,7 +3085,11 @@
     "name": "Coruscant Undercity Police",
     "art": "https://cdn.swu-db.com/images/cards/SEC/167.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-168",
@@ -2482,7 +3104,10 @@
     "title": "Black Sun Bully",
     "art": "https://cdn.swu-db.com/images/cards/SEC/168.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "UNDERWORLD"
+    ]
   },
   {
     "id": "SEC-169",
@@ -2496,7 +3121,12 @@
     "name": "AAT Incinerator",
     "art": "https://cdn.swu-db.com/images/cards/SEC/169.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "VEHICLE",
+      "TANK"
+    ]
   },
   {
     "id": "SEC-170",
@@ -2510,7 +3140,10 @@
     "name": "Corellian Hounds",
     "art": "https://cdn.swu-db.com/images/cards/SEC/170.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "SEC-171",
@@ -2525,7 +3158,12 @@
     "title": "Takes No Prisoners",
     "art": "https://cdn.swu-db.com/images/cards/SEC/171.png",
     "cost": 5,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "UNDERWORLD",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-172",
@@ -2540,7 +3178,10 @@
     "title": "The Struggle Comes First",
     "art": "https://cdn.swu-db.com/images/cards/SEC/172.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL"
+    ]
   },
   {
     "id": "SEC-173",
@@ -2554,7 +3195,12 @@
     "name": "Republic War Walker",
     "art": "https://cdn.swu-db.com/images/cards/SEC/173.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "VEHICLE",
+      "WALKER"
+    ]
   },
   {
     "id": "SEC-174",
@@ -2569,7 +3215,12 @@
     "title": "Breaking the Rules",
     "art": "https://cdn.swu-db.com/images/cards/SEC/174.png",
     "cost": 6,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "REBEL",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "SEC-175",
@@ -2582,7 +3233,10 @@
     ],
     "name": "Ambition's Reward",
     "art": "https://cdn.swu-db.com/images/cards/SEC/175.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "LAW"
+    ]
   },
   {
     "id": "SEC-176",
@@ -2595,7 +3249,10 @@
     ],
     "name": "Sudden Ferocity",
     "art": "https://cdn.swu-db.com/images/cards/SEC/176.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "INNATE"
+    ]
   },
   {
     "id": "SEC-177",
@@ -2608,7 +3265,10 @@
     ],
     "name": "It's Not Over Yet",
     "art": "https://cdn.swu-db.com/images/cards/SEC/177.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "INNATE"
+    ]
   },
   {
     "id": "SEC-178",
@@ -2621,7 +3281,10 @@
     ],
     "name": "Pursue the Lead",
     "art": "https://cdn.swu-db.com/images/cards/SEC/178.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "PLAN"
+    ]
   },
   {
     "id": "SEC-179",
@@ -2634,7 +3297,10 @@
     ],
     "name": "Aggressive Negotiations",
     "art": "https://cdn.swu-db.com/images/cards/SEC/179.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "TACTIC"
+    ]
   },
   {
     "id": "SEC-180",
@@ -2647,7 +3313,10 @@
     ],
     "name": "Let's Call It War",
     "art": "https://cdn.swu-db.com/images/cards/SEC/180.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "TACTIC"
+    ]
   },
   {
     "id": "SEC-181",
@@ -2660,7 +3329,10 @@
     ],
     "name": "Unauthorized Investigation",
     "art": "https://cdn.swu-db.com/images/cards/SEC/181.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "PLAN"
+    ]
   },
   {
     "id": "SEC-182",
@@ -2673,7 +3345,10 @@
     ],
     "name": "Charged with Treason",
     "art": "https://cdn.swu-db.com/images/cards/SEC/182.png",
-    "cost": 4
+    "cost": 4,
+    "traits": [
+      "LAW"
+    ]
   },
   {
     "id": "SEC-183",
@@ -2686,7 +3361,10 @@
     ],
     "name": "Topple the Summit",
     "art": "https://cdn.swu-db.com/images/cards/SEC/183.png",
-    "cost": 5
+    "cost": 5,
+    "traits": [
+      "PLAN"
+    ]
   },
   {
     "id": "SEC-184",
@@ -2701,7 +3379,10 @@
     "name": "ISB Agent",
     "art": "https://cdn.swu-db.com/images/cards/SEC/184.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL"
+    ]
   },
   {
     "id": "SEC-185",
@@ -2716,7 +3397,12 @@
     "name": "Screeching TIE Fighter",
     "art": "https://cdn.swu-db.com/images/cards/SEC/185.png",
     "cost": 1,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "IMPERIAL",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "SEC-186",
@@ -2732,7 +3418,10 @@
     "title": "Information Broker",
     "art": "https://cdn.swu-db.com/images/cards/SEC/186.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "UNDERWORLD"
+    ]
   },
   {
     "id": "SEC-187",
@@ -2748,7 +3437,11 @@
     "title": "Scuttling to Safety",
     "art": "https://cdn.swu-db.com/images/cards/SEC/187.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "SEPARATIST",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-188",
@@ -2764,7 +3457,11 @@
     "title": "Lord of Betrayal",
     "art": "https://cdn.swu-db.com/images/cards/SEC/188.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "SITH"
+    ]
   },
   {
     "id": "SEC-189",
@@ -2779,7 +3476,12 @@
     "name": "Lurking Snub Fighter",
     "art": "https://cdn.swu-db.com/images/cards/SEC/189.png",
     "cost": 3,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "UNDERWORLD",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "SEC-190",
@@ -2795,7 +3497,12 @@
     "title": "Swift and Agile",
     "art": "https://cdn.swu-db.com/images/cards/SEC/190.png",
     "cost": 3,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "SEPARATIST",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "SEC-191",
@@ -2810,7 +3517,11 @@
     "name": "Trade Federation Delegates",
     "art": "https://cdn.swu-db.com/images/cards/SEC/191.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-192",
@@ -2826,7 +3537,11 @@
     "title": "Taking Krennic's Achievement",
     "art": "https://cdn.swu-db.com/images/cards/SEC/192.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-193",
@@ -2842,7 +3557,11 @@
     "title": "Grand Schemer",
     "art": "https://cdn.swu-db.com/images/cards/SEC/193.png",
     "cost": 7,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-194",
@@ -2856,7 +3575,10 @@
     ],
     "name": "Fully Armed and Operational",
     "art": "https://cdn.swu-db.com/images/cards/SEC/194.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "TRICK"
+    ]
   },
   {
     "id": "SEC-195",
@@ -2870,7 +3592,10 @@
     ],
     "name": "Arrest",
     "art": "https://cdn.swu-db.com/images/cards/SEC/195.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "LAW"
+    ]
   },
   {
     "id": "SEC-196",
@@ -2884,7 +3609,10 @@
     ],
     "name": "No One Ever Knew",
     "art": "https://cdn.swu-db.com/images/cards/SEC/196.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "TRICK"
+    ]
   },
   {
     "id": "SEC-197",
@@ -2899,7 +3627,10 @@
     "name": "Furtive Handmaiden",
     "art": "https://cdn.swu-db.com/images/cards/SEC/197.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "NABOO"
+    ]
   },
   {
     "id": "SEC-198",
@@ -2915,7 +3646,11 @@
     "title": "Responding to Catastrophe",
     "art": "https://cdn.swu-db.com/images/cards/SEC/198.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-199",
@@ -2930,7 +3665,12 @@
     "name": "Bravo Squadron Fighter",
     "art": "https://cdn.swu-db.com/images/cards/SEC/199.png",
     "cost": 2,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "NABOO",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "SEC-200",
@@ -2945,7 +3685,11 @@
     "name": "Junior Senator",
     "art": "https://cdn.swu-db.com/images/cards/SEC/200.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-201",
@@ -2961,7 +3705,12 @@
     "title": "Secret Husband",
     "art": "https://cdn.swu-db.com/images/cards/SEC/201.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "SEC-202",
@@ -2976,7 +3725,11 @@
     "name": "Rebel Propagandist",
     "art": "https://cdn.swu-db.com/images/cards/SEC/202.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-203",
@@ -2992,7 +3745,11 @@
     "title": "I Can Get You Inside",
     "art": "https://cdn.swu-db.com/images/cards/SEC/203.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "REBEL"
+    ]
   },
   {
     "id": "SEC-204",
@@ -3008,7 +3765,12 @@
     "title": "Colorful Racer",
     "art": "https://cdn.swu-db.com/images/cards/SEC/204.png",
     "cost": 4,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "RESISTANCE",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "SEC-205",
@@ -3024,7 +3786,12 @@
     "title": "Finding What Doesn't Exist",
     "art": "https://cdn.swu-db.com/images/cards/SEC/205.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "SEC-206",
@@ -3039,7 +3806,12 @@
     "name": "Emissaries from Ryloth",
     "art": "https://cdn.swu-db.com/images/cards/SEC/206.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "TWI'LEK",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-207",
@@ -3055,7 +3827,12 @@
     "title": "I Have An Idea",
     "art": "https://cdn.swu-db.com/images/cards/SEC/207.png",
     "cost": 5,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "REBEL",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ]
   },
   {
     "id": "SEC-208",
@@ -3071,7 +3848,11 @@
     "title": "Extraordinary Tracker",
     "art": "https://cdn.swu-db.com/images/cards/SEC/208.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE",
+      "CLONE"
+    ]
   },
   {
     "id": "SEC-209",
@@ -3087,7 +3868,11 @@
     "title": "Cleaning Up Nevarro",
     "art": "https://cdn.swu-db.com/images/cards/SEC/209.png",
     "cost": 8,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "MANDALORIAN",
+      "BOUNTY HUNTER"
+    ]
   },
   {
     "id": "SEC-210",
@@ -3101,7 +3886,11 @@
     ],
     "name": "Stolen Starpath Unit",
     "art": "https://cdn.swu-db.com/images/cards/SEC/210.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "ITEM",
+      "MODIFICATION"
+    ]
   },
   {
     "id": "SEC-211",
@@ -3115,7 +3904,10 @@
     ],
     "name": "Faith in Your Friends",
     "art": "https://cdn.swu-db.com/images/cards/SEC/211.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "GAMBIT"
+    ]
   },
   {
     "id": "SEC-212",
@@ -3131,7 +3923,12 @@
     "title": "Under New Ownership",
     "art": "https://cdn.swu-db.com/images/cards/SEC/212.png",
     "cost": 4,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "UNDERWORLD",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-213",
@@ -3145,7 +3942,11 @@
     "name": "A-Wing",
     "art": "https://cdn.swu-db.com/images/cards/SEC/213.png",
     "cost": 1,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "SEC-214",
@@ -3159,7 +3960,12 @@
     "name": "Skyhopper Canyon Runner",
     "art": "https://cdn.swu-db.com/images/cards/SEC/214.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE",
+      "VEHICLE",
+      "SPEEDER"
+    ]
   },
   {
     "id": "SEC-215",
@@ -3173,7 +3979,12 @@
     "name": "Emissary's Sheathipede",
     "art": "https://cdn.swu-db.com/images/cards/SEC/215.png",
     "cost": 2,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "SEPARATIST",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-216",
@@ -3187,7 +3998,11 @@
     "name": "Regulations Bureaucrat",
     "art": "https://cdn.swu-db.com/images/cards/SEC/216.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-217",
@@ -3201,7 +4016,12 @@
     "name": "Zenuas Shadow Fighter",
     "art": "https://cdn.swu-db.com/images/cards/SEC/217.png",
     "cost": 2,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "SEPARATIST",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "SEC-218",
@@ -3216,7 +4036,10 @@
     "title": "Business is What Matters",
     "art": "https://cdn.swu-db.com/images/cards/SEC/218.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "UNDERWORLD"
+    ]
   },
   {
     "id": "SEC-219",
@@ -3231,7 +4054,12 @@
     "title": "Cause and Effect",
     "art": "https://cdn.swu-db.com/images/cards/SEC/219.png",
     "cost": 3,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "FRINGE",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-220",
@@ -3245,7 +4073,10 @@
     "name": "Hired Splicer",
     "art": "https://cdn.swu-db.com/images/cards/SEC/220.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE"
+    ]
   },
   {
     "id": "SEC-221",
@@ -3259,7 +4090,10 @@
     "name": "Unruly Astromech",
     "art": "https://cdn.swu-db.com/images/cards/SEC/221.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "DROID"
+    ]
   },
   {
     "id": "SEC-222",
@@ -3273,7 +4107,10 @@
     "name": "Loan Shark",
     "art": "https://cdn.swu-db.com/images/cards/SEC/222.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-223",
@@ -3287,7 +4124,10 @@
     "name": "Duchess's Investigators",
     "art": "https://cdn.swu-db.com/images/cards/SEC/223.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "MANDALORIAN"
+    ]
   },
   {
     "id": "SEC-224",
@@ -3302,7 +4142,10 @@
     "title": "One Path, One Choice",
     "art": "https://cdn.swu-db.com/images/cards/SEC/224.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL"
+    ]
   },
   {
     "id": "SEC-225",
@@ -3317,7 +4160,10 @@
     "title": "Harboring a Secret",
     "art": "https://cdn.swu-db.com/images/cards/SEC/225.png",
     "cost": 7,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "UNDERWORLD"
+    ]
   },
   {
     "id": "SEC-226",
@@ -3330,7 +4176,10 @@
     ],
     "name": "Sneaking Suspicion",
     "art": "https://cdn.swu-db.com/images/cards/SEC/226.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "INNATE"
+    ]
   },
   {
     "id": "SEC-227",
@@ -3343,7 +4192,10 @@
     ],
     "name": "Special Modifications",
     "art": "https://cdn.swu-db.com/images/cards/SEC/227.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "MODIFICATION"
+    ]
   },
   {
     "id": "SEC-228",
@@ -3356,7 +4208,10 @@
     ],
     "name": "Accelerate Our Plans",
     "art": "https://cdn.swu-db.com/images/cards/SEC/228.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "PLAN"
+    ]
   },
   {
     "id": "SEC-229",
@@ -3369,7 +4224,10 @@
     ],
     "name": "Catch Unawares",
     "art": "https://cdn.swu-db.com/images/cards/SEC/229.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "TACTIC"
+    ]
   },
   {
     "id": "SEC-230",
@@ -3382,7 +4240,10 @@
     ],
     "name": "Charged with Espionage",
     "art": "https://cdn.swu-db.com/images/cards/SEC/230.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "LAW"
+    ]
   },
   {
     "id": "SEC-231",
@@ -3395,7 +4256,10 @@
     ],
     "name": "Implicate",
     "art": "https://cdn.swu-db.com/images/cards/SEC/231.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "TRICK"
+    ]
   },
   {
     "id": "SEC-232",
@@ -3408,7 +4272,11 @@
     ],
     "name": "Kreia's Whispers",
     "art": "https://cdn.swu-db.com/images/cards/SEC/232.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "FORCE",
+      "LEARNED"
+    ]
   },
   {
     "id": "SEC-233",
@@ -3421,7 +4289,10 @@
     ],
     "name": "Beguile",
     "art": "https://cdn.swu-db.com/images/cards/SEC/233.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "TRICK"
+    ]
   },
   {
     "id": "SEC-234",
@@ -3434,7 +4305,10 @@
     ],
     "name": "Bog Down in Procedure",
     "art": "https://cdn.swu-db.com/images/cards/SEC/234.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "LAW"
+    ]
   },
   {
     "id": "SEC-235",
@@ -3447,7 +4321,10 @@
     ],
     "name": "The Wrong Ride",
     "art": "https://cdn.swu-db.com/images/cards/SEC/235.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "DISASTER"
+    ]
   },
   {
     "id": "SEC-236",
@@ -3460,7 +4337,10 @@
     ],
     "name": "Undercover Operation",
     "art": "https://cdn.swu-db.com/images/cards/SEC/236.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "TACTIC"
+    ]
   },
   {
     "id": "SEC-237",
@@ -3474,7 +4354,11 @@
     "name": "Supreme Council Aide",
     "art": "https://cdn.swu-db.com/images/cards/SEC/237.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FIRST ORDER",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-238",
@@ -3488,7 +4372,11 @@
     "name": "Sith Assassin",
     "art": "https://cdn.swu-db.com/images/cards/SEC/238.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "SITH"
+    ]
   },
   {
     "id": "SEC-239",
@@ -3502,7 +4390,11 @@
     "name": "Viper Probe Droid",
     "art": "https://cdn.swu-db.com/images/cards/SEC/239.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "DROID"
+    ]
   },
   {
     "id": "SEC-240",
@@ -3516,7 +4408,12 @@
     "name": "Hutt Cartel Starfighter",
     "art": "https://cdn.swu-db.com/images/cards/SEC/240.png",
     "cost": 3,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "UNDERWORLD",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "SEC-241",
@@ -3530,7 +4427,11 @@
     "name": "Political Bully",
     "art": "https://cdn.swu-db.com/images/cards/SEC/241.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-242",
@@ -3545,7 +4446,11 @@
     "title": "False Convert",
     "art": "https://cdn.swu-db.com/images/cards/SEC/242.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "NEW REPUBLIC"
+    ]
   },
   {
     "id": "SEC-243",
@@ -3559,7 +4464,11 @@
     "name": "FN Trooper Corps",
     "art": "https://cdn.swu-db.com/images/cards/SEC/243.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FIRST ORDER",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-244",
@@ -3574,7 +4483,11 @@
     "title": "Lord of Hunger",
     "art": "https://cdn.swu-db.com/images/cards/SEC/244.png",
     "cost": 7,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "SITH"
+    ]
   },
   {
     "id": "SEC-245",
@@ -3587,7 +4500,10 @@
     ],
     "name": "When Has Become Now",
     "art": "https://cdn.swu-db.com/images/cards/SEC/245.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "TRICK"
+    ]
   },
   {
     "id": "SEC-246",
@@ -3600,7 +4516,10 @@
     ],
     "name": "Contempt for Culture",
     "art": "https://cdn.swu-db.com/images/cards/SEC/246.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "INNATE"
+    ]
   },
   {
     "id": "SEC-247",
@@ -3613,7 +4532,10 @@
     ],
     "name": "Evil is Everywhere",
     "art": "https://cdn.swu-db.com/images/cards/SEC/247.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "DISASTER"
+    ]
   },
   {
     "id": "SEC-248",
@@ -3628,7 +4550,11 @@
     "title": "That's Two Lies",
     "art": "https://cdn.swu-db.com/images/cards/SEC/248.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE",
+      "DROID"
+    ]
   },
   {
     "id": "SEC-249",
@@ -3642,7 +4568,11 @@
     "name": "High Command Councilor",
     "art": "https://cdn.swu-db.com/images/cards/SEC/249.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-250",
@@ -3656,7 +4586,11 @@
     "name": "Rebel Pathfinder",
     "art": "https://cdn.swu-db.com/images/cards/SEC/250.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-251",
@@ -3670,7 +4604,11 @@
     "name": "Crait Veteran",
     "art": "https://cdn.swu-db.com/images/cards/SEC/251.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "RESISTANCE",
+      "TROOPER"
+    ]
   },
   {
     "id": "SEC-252",
@@ -3685,7 +4623,10 @@
     "title": "We've Been Sleeping",
     "art": "https://cdn.swu-db.com/images/cards/SEC/252.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL"
+    ]
   },
   {
     "id": "SEC-253",
@@ -3699,7 +4640,10 @@
     "name": "Covert Operative",
     "art": "https://cdn.swu-db.com/images/cards/SEC/253.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL"
+    ]
   },
   {
     "id": "SEC-254",
@@ -3713,7 +4657,12 @@
     "name": "Heroic ARC-170",
     "art": "https://cdn.swu-db.com/images/cards/SEC/254.png",
     "cost": 4,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "REPUBLIC",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "SEC-255",
@@ -3727,7 +4676,12 @@
     "name": "Remote Escort Tank",
     "art": "https://cdn.swu-db.com/images/cards/SEC/255.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "VEHICLE",
+      "TANK"
+    ]
   },
   {
     "id": "SEC-256",
@@ -3740,7 +4694,10 @@
     ],
     "name": "Moral Authority",
     "art": "https://cdn.swu-db.com/images/cards/SEC/256.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "INNATE"
+    ]
   },
   {
     "id": "SEC-257",
@@ -3753,7 +4710,10 @@
     ],
     "name": "Restore Freedom",
     "art": "https://cdn.swu-db.com/images/cards/SEC/257.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "GAMBIT"
+    ]
   },
   {
     "id": "SEC-258",
@@ -3766,7 +4726,10 @@
     ],
     "name": "Grassroots Resistance",
     "art": "https://cdn.swu-db.com/images/cards/SEC/258.png",
-    "cost": 4
+    "cost": 4,
+    "traits": [
+      "TACTIC"
+    ]
   },
   {
     "id": "SEC-259",
@@ -3778,7 +4741,10 @@
     "name": "ASP Laborer",
     "art": "https://cdn.swu-db.com/images/cards/SEC/259.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "DROID"
+    ]
   },
   {
     "id": "SEC-260",
@@ -3790,7 +4756,12 @@
     "name": "Inspector's Shuttle",
     "art": "https://cdn.swu-db.com/images/cards/SEC/260.png",
     "cost": 2,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "REPUBLIC",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "SEC-261",
@@ -3802,7 +4773,11 @@
     "name": "Inspiring Senator",
     "art": "https://cdn.swu-db.com/images/cards/SEC/261.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-262",
@@ -3814,7 +4789,11 @@
     "name": "Ando Commission",
     "art": "https://cdn.swu-db.com/images/cards/SEC/262.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "SEPARATIST",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "SEC-263",
@@ -3826,7 +4805,11 @@
     "name": "Assassin Probe",
     "art": "https://cdn.swu-db.com/images/cards/SEC/263.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "SEPARATIST",
+      "DROID"
+    ]
   },
   {
     "id": "SEC-264",
@@ -3837,6 +4820,9 @@
     "aspects": [],
     "name": "Clandestine Connections",
     "art": "https://cdn.swu-db.com/images/cards/SEC/264.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "SUPPLY"
+    ]
   }
 ]

@@ -13,7 +13,11 @@
     "title": "We're Not Done Yet",
     "art": "https://cdn.swu-db.com/images/cards/LOF/001.png",
     "cost": 7,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "FIRST ORDER"
+    ]
   },
   {
     "id": "LOF-002",
@@ -29,7 +33,11 @@
     "title": "Power Through Magick",
     "art": "https://cdn.swu-db.com/images/cards/LOF/002.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "NIGHT"
+    ]
   },
   {
     "id": "LOF-003",
@@ -45,7 +53,11 @@
     "title": "Fighting For Peace",
     "art": "https://cdn.swu-db.com/images/cards/LOF/003.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-004",
@@ -61,7 +73,13 @@
     "title": "Help Us Survive",
     "art": "https://cdn.swu-db.com/images/cards/LOF/004.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REBEL",
+      "SPECTRE"
+    ]
   },
   {
     "id": "LOF-005",
@@ -77,7 +95,12 @@
     "title": "Following the Call",
     "art": "https://cdn.swu-db.com/images/cards/LOF/005.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "IMPERIAL",
+      "NIGHT"
+    ]
   },
   {
     "id": "LOF-006",
@@ -93,7 +116,12 @@
     "title": "In the Seat of Power",
     "art": "https://cdn.swu-db.com/images/cards/LOF/006.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "FIRST ORDER",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "LOF-007",
@@ -109,7 +137,12 @@
     "title": "Marshal of Starlight",
     "art": "https://cdn.swu-db.com/images/cards/LOF/007.png",
     "cost": 9,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-008",
@@ -125,7 +158,12 @@
     "title": "Courage Makes Heroes",
     "art": "https://cdn.swu-db.com/images/cards/LOF/008.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-009",
@@ -141,7 +179,11 @@
     "title": "Sith Revealed",
     "art": "https://cdn.swu-db.com/images/cards/LOF/009.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "SITH"
+    ]
   },
   {
     "id": "LOF-010",
@@ -157,7 +199,12 @@
     "title": "Seething With Ambition",
     "art": "https://cdn.swu-db.com/images/cards/LOF/010.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "IMPERIAL",
+      "INQUISITOR"
+    ]
   },
   {
     "id": "LOF-011",
@@ -173,7 +220,12 @@
     "title": "Focused Jedi Master",
     "art": "https://cdn.swu-db.com/images/cards/LOF/011.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-012",
@@ -189,7 +241,11 @@
     "title": "Nobody",
     "art": "https://cdn.swu-db.com/images/cards/LOF/012.png",
     "cost": 7,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "RESISTANCE"
+    ]
   },
   {
     "id": "LOF-013",
@@ -205,7 +261,12 @@
     "title": "We Have Become Villains",
     "art": "https://cdn.swu-db.com/images/cards/LOF/013.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-014",
@@ -221,7 +282,12 @@
     "title": "Stories Travel Quickly",
     "art": "https://cdn.swu-db.com/images/cards/LOF/014.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "IMPERIAL",
+      "INQUISITOR"
+    ]
   },
   {
     "id": "LOF-015",
@@ -237,7 +303,11 @@
     "title": "I Can't Keep Hiding",
     "art": "https://cdn.swu-db.com/images/cards/LOF/015.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-016",
@@ -253,7 +323,12 @@
     "title": "Student of the Living Force",
     "art": "https://cdn.swu-db.com/images/cards/LOF/016.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-017",
@@ -268,7 +343,11 @@
     "title": "Scourge of the Old Republic",
     "art": "https://cdn.swu-db.com/images/cards/LOF/017.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "SITH"
+    ]
   },
   {
     "id": "LOF-018",
@@ -283,7 +362,12 @@
     "title": "Tempted by the Dark Side",
     "art": "https://cdn.swu-db.com/images/cards/LOF/018.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-019",
@@ -455,7 +539,11 @@
     "title": "We Don't Like Strangers",
     "art": "https://cdn.swu-db.com/images/cards/LOF/031.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "NIGHT"
+    ]
   },
   {
     "id": "LOF-032",
@@ -470,7 +558,11 @@
     "name": "Magistrate's Scout",
     "art": "https://cdn.swu-db.com/images/cards/LOF/032.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "TROOPER"
+    ]
   },
   {
     "id": "LOF-033",
@@ -485,7 +577,10 @@
     "name": "Nameless Terror",
     "art": "https://cdn.swu-db.com/images/cards/LOF/033.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-034",
@@ -500,7 +595,12 @@
     "name": "Supremacy TIE/sf",
     "art": "https://cdn.swu-db.com/images/cards/LOF/034.png",
     "cost": 3,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "FIRST ORDER",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "LOF-035",
@@ -515,7 +615,11 @@
     "name": "Talzin's Assassin",
     "art": "https://cdn.swu-db.com/images/cards/LOF/035.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "NIGHT"
+    ]
   },
   {
     "id": "LOF-036",
@@ -531,7 +635,11 @@
     "title": "Oldest and Wisest",
     "art": "https://cdn.swu-db.com/images/cards/LOF/036.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "NIGHT"
+    ]
   },
   {
     "id": "LOF-037",
@@ -547,7 +655,12 @@
     "title": "Twilight of the Apprentice",
     "art": "https://cdn.swu-db.com/images/cards/LOF/037.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "IMPERIAL",
+      "SITH"
+    ]
   },
   {
     "id": "LOF-038",
@@ -563,7 +676,12 @@
     "title": "It's Treason, Then",
     "art": "https://cdn.swu-db.com/images/cards/LOF/038.png",
     "cost": 7,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-039",
@@ -579,7 +697,12 @@
     "title": "The Phantom Menace",
     "art": "https://cdn.swu-db.com/images/cards/LOF/039.png",
     "cost": 8,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "SEPARATIST",
+      "SITH"
+    ]
   },
   {
     "id": "LOF-040",
@@ -593,7 +716,12 @@
     ],
     "name": "Kylo Ren's Lightsaber",
     "art": "https://cdn.swu-db.com/images/cards/LOF/040.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "ITEM",
+      "WEAPON",
+      "LIGHTSABER"
+    ]
   },
   {
     "id": "LOF-041",
@@ -607,7 +735,10 @@
     ],
     "name": "Drain Essence",
     "art": "https://cdn.swu-db.com/images/cards/LOF/041.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-042",
@@ -621,7 +752,10 @@
     ],
     "name": "Always Two",
     "art": "https://cdn.swu-db.com/images/cards/LOF/042.png",
-    "cost": 4
+    "cost": 4,
+    "traits": [
+      "SITH"
+    ]
   },
   {
     "id": "LOF-043",
@@ -635,7 +769,10 @@
     ],
     "name": "The Tragedy of Plagueis",
     "art": "https://cdn.swu-db.com/images/cards/LOF/043.png",
-    "cost": 5
+    "cost": 5,
+    "traits": [
+      "LEARNED"
+    ]
   },
   {
     "id": "LOF-044",
@@ -650,7 +787,10 @@
     "name": "Loth-Wolf",
     "art": "https://cdn.swu-db.com/images/cards/LOF/044.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-045",
@@ -666,7 +806,12 @@
     "title": "A Chance to Make Things Right",
     "art": "https://cdn.swu-db.com/images/cards/LOF/045.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-046",
@@ -682,7 +827,13 @@
     "title": "Attuned With Life",
     "art": "https://cdn.swu-db.com/images/cards/LOF/046.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REBEL",
+      "SPECTRE"
+    ]
   },
   {
     "id": "LOF-047",
@@ -698,7 +849,12 @@
     "title": "Stay Close",
     "art": "https://cdn.swu-db.com/images/cards/LOF/047.png",
     "cost": 3,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "FRINGE",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "LOF-048",
@@ -713,7 +869,11 @@
     "name": "Itinerant Warrior",
     "art": "https://cdn.swu-db.com/images/cards/LOF/048.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI"
+    ]
   },
   {
     "id": "LOF-049",
@@ -728,7 +888,11 @@
     "name": "Jedi Guardian",
     "art": "https://cdn.swu-db.com/images/cards/LOF/049.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI"
+    ]
   },
   {
     "id": "LOF-050",
@@ -744,7 +908,12 @@
     "title": "I Don't Believe in Chance",
     "art": "https://cdn.swu-db.com/images/cards/LOF/050.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-051",
@@ -758,7 +927,11 @@
     ],
     "name": "Jedi Holocron",
     "art": "https://cdn.swu-db.com/images/cards/LOF/051.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "JEDI",
+      "ITEM"
+    ]
   },
   {
     "id": "LOF-052",
@@ -772,7 +945,11 @@
     ],
     "name": "Jedi Trials",
     "art": "https://cdn.swu-db.com/images/cards/LOF/052.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "JEDI",
+      "LEARNED"
+    ]
   },
   {
     "id": "LOF-053",
@@ -786,7 +963,12 @@
     ],
     "name": "Heirloom Lightsaber",
     "art": "https://cdn.swu-db.com/images/cards/LOF/053.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "ITEM",
+      "WEAPON",
+      "LIGHTSABER"
+    ]
   },
   {
     "id": "LOF-054",
@@ -800,7 +982,10 @@
     ],
     "name": "Calm in the Storm",
     "art": "https://cdn.swu-db.com/images/cards/LOF/054.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-055",
@@ -816,7 +1001,11 @@
     "title": "Redeem the Future",
     "art": "https://cdn.swu-db.com/images/cards/LOF/055.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-056",
@@ -830,7 +1019,10 @@
     ],
     "name": "Size Matters Not",
     "art": "https://cdn.swu-db.com/images/cards/LOF/056.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-057",
@@ -845,7 +1037,10 @@
     "title": "Devoted Uncle",
     "art": "https://cdn.swu-db.com/images/cards/LOF/057.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-058",
@@ -859,7 +1054,11 @@
     "name": "Guardian of the Whills",
     "art": "https://cdn.swu-db.com/images/cards/LOF/058.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-059",
@@ -873,7 +1072,11 @@
     "name": "Nightsister Warrior",
     "art": "https://cdn.swu-db.com/images/cards/LOF/059.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "NIGHT"
+    ]
   },
   {
     "id": "LOF-060",
@@ -887,7 +1090,13 @@
     "name": "Padawan Starfighter",
     "art": "https://cdn.swu-db.com/images/cards/LOF/060.png",
     "cost": 2,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "JEDI",
+      "REPUBLIC",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "LOF-061",
@@ -901,7 +1110,11 @@
     "name": "Secretive Sage",
     "art": "https://cdn.swu-db.com/images/cards/LOF/061.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-062",
@@ -916,7 +1129,11 @@
     "title": "Accomplished Warrior",
     "art": "https://cdn.swu-db.com/images/cards/LOF/062.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "MANDALORIAN",
+      "TROOPER"
+    ]
   },
   {
     "id": "LOF-063",
@@ -931,7 +1148,10 @@
     "title": "Bogano Brute",
     "art": "https://cdn.swu-db.com/images/cards/LOF/063.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-064",
@@ -945,7 +1165,10 @@
     "name": "Tauntaun",
     "art": "https://cdn.swu-db.com/images/cards/LOF/064.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-065",
@@ -959,7 +1182,10 @@
     "name": "Watto",
     "art": "https://cdn.swu-db.com/images/cards/LOF/065.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-066",
@@ -973,7 +1199,11 @@
     "name": "Awakened Specters",
     "art": "https://cdn.swu-db.com/images/cards/LOF/066.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "NIGHT",
+      "UNDEAD"
+    ]
   },
   {
     "id": "LOF-067",
@@ -984,11 +1214,15 @@
     "aspects": [
       "vigilance"
     ],
-    "name": "Chirrut Îmwe",
+    "name": "Chirrut \u00cemwe",
     "title": "Blind, but not Deaf",
     "art": "https://cdn.swu-db.com/images/cards/LOF/067.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-068",
@@ -1003,7 +1237,10 @@
     "title": "Masquerading Antiquarian",
     "art": "https://cdn.swu-db.com/images/cards/LOF/068.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REBEL"
+    ]
   },
   {
     "id": "LOF-069",
@@ -1017,7 +1254,10 @@
     "name": "Graceful Purrgil",
     "art": "https://cdn.swu-db.com/images/cards/LOF/069.png",
     "cost": 5,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-070",
@@ -1032,7 +1272,12 @@
     "title": "Champion of Mortis",
     "art": "https://cdn.swu-db.com/images/cards/LOF/070.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-071",
@@ -1046,7 +1291,10 @@
     "name": "Grappling Guardian",
     "art": "https://cdn.swu-db.com/images/cards/LOF/071.png",
     "cost": 7,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-072",
@@ -1061,7 +1309,10 @@
     "title": "Eternal",
     "art": "https://cdn.swu-db.com/images/cards/LOF/072.png",
     "cost": 7,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-073",
@@ -1076,7 +1327,11 @@
     "title": "Folklore Awakened",
     "art": "https://cdn.swu-db.com/images/cards/LOF/073.png",
     "cost": 9,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "MANDALORIAN",
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-074",
@@ -1089,7 +1344,10 @@
     ],
     "name": "Bolstered Endurance",
     "art": "https://cdn.swu-db.com/images/cards/LOF/074.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-075",
@@ -1102,7 +1360,10 @@
     ],
     "name": "Cure Wounds",
     "art": "https://cdn.swu-db.com/images/cards/LOF/075.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-076",
@@ -1115,7 +1376,10 @@
     ],
     "name": "Soresu Stance",
     "art": "https://cdn.swu-db.com/images/cards/LOF/076.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "LEARNED"
+    ]
   },
   {
     "id": "LOF-077",
@@ -1128,7 +1392,10 @@
     ],
     "name": "Crushing Blow",
     "art": "https://cdn.swu-db.com/images/cards/LOF/077.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "TACTIC"
+    ]
   },
   {
     "id": "LOF-078",
@@ -1141,7 +1408,10 @@
     ],
     "name": "Whirlwind of Power",
     "art": "https://cdn.swu-db.com/images/cards/LOF/078.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-079",
@@ -1154,7 +1424,10 @@
     ],
     "name": "Shatterpoint",
     "art": "https://cdn.swu-db.com/images/cards/LOF/079.png",
-    "cost": 4
+    "cost": 4,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-080",
@@ -1169,7 +1442,13 @@
     "name": "Exegol Patroller",
     "art": "https://cdn.swu-db.com/images/cards/LOF/080.png",
     "cost": 2,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "FIRST ORDER",
+      "SITH",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "LOF-081",
@@ -1184,7 +1463,11 @@
     "name": "Sith Legionnaire",
     "art": "https://cdn.swu-db.com/images/cards/LOF/081.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "SITH",
+      "TROOPER"
+    ]
   },
   {
     "id": "LOF-082",
@@ -1196,11 +1479,16 @@
       "command",
       "villainy"
     ],
-    "name": "Vaneé",
+    "name": "Vane\u00e9",
     "title": "I Live to Serve",
     "art": "https://cdn.swu-db.com/images/cards/LOF/082.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "SITH",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "LOF-083",
@@ -1216,7 +1504,11 @@
     "title": "Captain of the Guard",
     "art": "https://cdn.swu-db.com/images/cards/LOF/083.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "TROOPER"
+    ]
   },
   {
     "id": "LOF-084",
@@ -1231,7 +1523,10 @@
     "name": "Knight of Ren",
     "art": "https://cdn.swu-db.com/images/cards/LOF/084.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FIRST ORDER"
+    ]
   },
   {
     "id": "LOF-085",
@@ -1246,7 +1541,10 @@
     "name": "Praetorian Guard",
     "art": "https://cdn.swu-db.com/images/cards/LOF/085.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FIRST ORDER"
+    ]
   },
   {
     "id": "LOF-086",
@@ -1261,7 +1559,10 @@
     "name": "Drengir Spawn",
     "art": "https://cdn.swu-db.com/images/cards/LOF/086.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-087",
@@ -1277,7 +1578,12 @@
     "title": "Hunt Together",
     "art": "https://cdn.swu-db.com/images/cards/LOF/087.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "IMPERIAL",
+      "INQUISITOR"
+    ]
   },
   {
     "id": "LOF-088",
@@ -1293,7 +1599,12 @@
     "title": "To Peridea",
     "art": "https://cdn.swu-db.com/images/cards/LOF/088.png",
     "cost": 6,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "IMPERIAL",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "LOF-089",
@@ -1309,7 +1620,12 @@
     "title": "Of Unimaginable Size",
     "art": "https://cdn.swu-db.com/images/cards/LOF/089.png",
     "cost": 12,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "FIRST ORDER",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ]
   },
   {
     "id": "LOF-090",
@@ -1323,7 +1639,12 @@
     ],
     "name": "Inquisitor's Lightsaber",
     "art": "https://cdn.swu-db.com/images/cards/LOF/090.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "ITEM",
+      "WEAPON",
+      "LIGHTSABER"
+    ]
   },
   {
     "id": "LOF-091",
@@ -1337,7 +1658,10 @@
     ],
     "name": "Craving Power",
     "art": "https://cdn.swu-db.com/images/cards/LOF/091.png",
-    "cost": 5
+    "cost": 5,
+    "traits": [
+      "INNATE"
+    ]
   },
   {
     "id": "LOF-092",
@@ -1352,7 +1676,12 @@
     "name": "Point Rain Reclaimer",
     "art": "https://cdn.swu-db.com/images/cards/LOF/092.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "REPUBLIC",
+      "CLONE",
+      "TROOPER"
+    ]
   },
   {
     "id": "LOF-093",
@@ -1368,7 +1697,12 @@
     "title": "Finding Himself",
     "art": "https://cdn.swu-db.com/images/cards/LOF/093.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "WOOKIEE"
+    ]
   },
   {
     "id": "LOF-094",
@@ -1383,7 +1717,11 @@
     "name": "Jedi Consular",
     "art": "https://cdn.swu-db.com/images/cards/LOF/094.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI"
+    ]
   },
   {
     "id": "LOF-095",
@@ -1399,7 +1737,10 @@
     "title": "Secret Keeper",
     "art": "https://cdn.swu-db.com/images/cards/LOF/095.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "RESISTANCE"
+    ]
   },
   {
     "id": "LOF-096",
@@ -1415,7 +1756,12 @@
     "title": "Protective Padawan",
     "art": "https://cdn.swu-db.com/images/cards/LOF/096.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-097",
@@ -1431,7 +1777,12 @@
     "title": "Spiritual Warrior",
     "art": "https://cdn.swu-db.com/images/cards/LOF/097.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-098",
@@ -1447,7 +1798,12 @@
     "title": "Extraordinary",
     "art": "https://cdn.swu-db.com/images/cards/LOF/098.png",
     "cost": 5,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "FORCE",
+      "RESISTANCE",
+      "OFFICIAL"
+    ]
   },
   {
     "id": "LOF-099",
@@ -1462,7 +1818,13 @@
     "name": "Paladin Training Corvette",
     "art": "https://cdn.swu-db.com/images/cards/LOF/099.png",
     "cost": 5,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "JEDI",
+      "REPUBLIC",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ]
   },
   {
     "id": "LOF-100",
@@ -1478,7 +1840,12 @@
     "title": "The Sabered Hand",
     "art": "https://cdn.swu-db.com/images/cards/LOF/100.png",
     "cost": 7,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-101",
@@ -1494,7 +1861,12 @@
     "title": "My Ally is the Force",
     "art": "https://cdn.swu-db.com/images/cards/LOF/101.png",
     "cost": 8,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-102",
@@ -1508,7 +1880,12 @@
     ],
     "name": "Yoda's Lightsaber",
     "art": "https://cdn.swu-db.com/images/cards/LOF/102.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "ITEM",
+      "WEAPON",
+      "LIGHTSABER"
+    ]
   },
   {
     "id": "LOF-103",
@@ -1522,7 +1899,10 @@
     ],
     "name": "Following the Path",
     "art": "https://cdn.swu-db.com/images/cards/LOF/103.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "PLAN"
+    ]
   },
   {
     "id": "LOF-104",
@@ -1536,7 +1916,10 @@
     ],
     "name": "Luminous Beings",
     "art": "https://cdn.swu-db.com/images/cards/LOF/104.png",
-    "cost": 6
+    "cost": 6,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-105",
@@ -1552,7 +1935,12 @@
     "title": "Ancient Councilor",
     "art": "https://cdn.swu-db.com/images/cards/LOF/105.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-106",
@@ -1567,7 +1955,12 @@
     "name": "Acclamator Assault Ship",
     "art": "https://cdn.swu-db.com/images/cards/LOF/106.png",
     "cost": 7,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "REPUBLIC",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ]
   },
   {
     "id": "LOF-107",
@@ -1581,7 +1974,10 @@
     "name": "Village Tender",
     "art": "https://cdn.swu-db.com/images/cards/LOF/107.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "EWOK"
+    ]
   },
   {
     "id": "LOF-108",
@@ -1596,7 +1992,10 @@
     "title": "Loving Rancor Keeper",
     "art": "https://cdn.swu-db.com/images/cards/LOF/108.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "UNDERWORLD"
+    ]
   },
   {
     "id": "LOF-109",
@@ -1610,7 +2009,10 @@
     "name": "Mynock",
     "art": "https://cdn.swu-db.com/images/cards/LOF/109.png",
     "cost": 2,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-110",
@@ -1624,7 +2026,12 @@
     "name": "Hive Defense Wing",
     "art": "https://cdn.swu-db.com/images/cards/LOF/110.png",
     "cost": 3,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "SEPARATIST",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "LOF-111",
@@ -1639,7 +2046,10 @@
     "title": "The Light Guides",
     "art": "https://cdn.swu-db.com/images/cards/LOF/111.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "UNDERWORLD"
+    ]
   },
   {
     "id": "LOF-112",
@@ -1653,7 +2063,11 @@
     "name": "Outer Rim Mystic",
     "art": "https://cdn.swu-db.com/images/cards/LOF/112.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-113",
@@ -1667,7 +2081,11 @@
     "name": "Jedi Temple Guards",
     "art": "https://cdn.swu-db.com/images/cards/LOF/113.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI"
+    ]
   },
   {
     "id": "LOF-114",
@@ -1681,7 +2099,10 @@
     "name": "Kaadu",
     "art": "https://cdn.swu-db.com/images/cards/LOF/114.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-115",
@@ -1695,7 +2116,10 @@
     "name": "Dagoyan Master",
     "art": "https://cdn.swu-db.com/images/cards/LOF/115.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-116",
@@ -1709,7 +2133,10 @@
     "name": "Relic Scavenger",
     "art": "https://cdn.swu-db.com/images/cards/LOF/116.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-117",
@@ -1723,7 +2150,12 @@
     "name": "Sifo-Dyas",
     "art": "https://cdn.swu-db.com/images/cards/LOF/117.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-118",
@@ -1737,7 +2169,10 @@
     "name": "Terentatek",
     "art": "https://cdn.swu-db.com/images/cards/LOF/118.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-119",
@@ -1751,7 +2186,10 @@
     "name": "Hyperspace Wayfarer",
     "art": "https://cdn.swu-db.com/images/cards/LOF/119.png",
     "cost": 6,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-120",
@@ -1765,7 +2203,12 @@
     "name": "Trident Assault Ship",
     "art": "https://cdn.swu-db.com/images/cards/LOF/120.png",
     "cost": 6,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "SEPARATIST",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "LOF-121",
@@ -1780,7 +2223,10 @@
     "title": "Leading the Journey",
     "art": "https://cdn.swu-db.com/images/cards/LOF/121.png",
     "cost": 8,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-122",
@@ -1793,7 +2239,10 @@
     ],
     "name": "Pillio Star Compass",
     "art": "https://cdn.swu-db.com/images/cards/LOF/122.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "ITEM"
+    ]
   },
   {
     "id": "LOF-123",
@@ -1806,7 +2255,10 @@
     ],
     "name": "Directed by the Force",
     "art": "https://cdn.swu-db.com/images/cards/LOF/123.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-124",
@@ -1819,7 +2271,10 @@
     ],
     "name": "Niman Strike",
     "art": "https://cdn.swu-db.com/images/cards/LOF/124.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "LEARNED"
+    ]
   },
   {
     "id": "LOF-125",
@@ -1832,7 +2287,10 @@
     ],
     "name": "The Burden of Masters",
     "art": "https://cdn.swu-db.com/images/cards/LOF/125.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "LEARNED"
+    ]
   },
   {
     "id": "LOF-126",
@@ -1845,7 +2303,10 @@
     ],
     "name": "Overpower",
     "art": "https://cdn.swu-db.com/images/cards/LOF/126.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "INNATE"
+    ]
   },
   {
     "id": "LOF-127",
@@ -1858,7 +2319,10 @@
     ],
     "name": "Rampage",
     "art": "https://cdn.swu-db.com/images/cards/LOF/127.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "INNATE"
+    ]
   },
   {
     "id": "LOF-128",
@@ -1871,7 +2335,10 @@
     ],
     "name": "Protect the Pod",
     "art": "https://cdn.swu-db.com/images/cards/LOF/128.png",
-    "cost": 4
+    "cost": 4,
+    "traits": [
+      "TACTIC"
+    ]
   },
   {
     "id": "LOF-129",
@@ -1886,7 +2353,10 @@
     "name": "Acolyte of the Beyond",
     "art": "https://cdn.swu-db.com/images/cards/LOF/129.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "SITH"
+    ]
   },
   {
     "id": "LOF-130",
@@ -1902,7 +2372,11 @@
     "title": "Exclamation: Die, Meatbag!",
     "art": "https://cdn.swu-db.com/images/cards/LOF/130.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "SITH",
+      "DROID"
+    ]
   },
   {
     "id": "LOF-131",
@@ -1917,7 +2391,13 @@
     "name": "Strikeship",
     "art": "https://cdn.swu-db.com/images/cards/LOF/131.png",
     "cost": 2,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "UNDERWORLD",
+      "VEHICLE",
+      "FIGHTER",
+      "NIHIL"
+    ]
   },
   {
     "id": "LOF-132",
@@ -1933,7 +2413,12 @@
     "title": "You're Right to Be Afraid",
     "art": "https://cdn.swu-db.com/images/cards/LOF/132.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "IMPERIAL",
+      "INQUISITOR"
+    ]
   },
   {
     "id": "LOF-133",
@@ -1948,7 +2433,11 @@
     "name": "Purge Trooper",
     "art": "https://cdn.swu-db.com/images/cards/LOF/133.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "TROOPER"
+    ]
   },
   {
     "id": "LOF-134",
@@ -1963,7 +2452,13 @@
     "name": "Heavy Missile Gunship",
     "art": "https://cdn.swu-db.com/images/cards/LOF/134.png",
     "cost": 4,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "SEPARATIST",
+      "DROID",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "LOF-135",
@@ -1979,7 +2474,13 @@
     "title": "Intimidating Silhouette",
     "art": "https://cdn.swu-db.com/images/cards/LOF/135.png",
     "cost": 4,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "IMPERIAL",
+      "VEHICLE",
+      "TRANSPORT",
+      "INQUISITOR"
+    ]
   },
   {
     "id": "LOF-136",
@@ -1994,7 +2495,10 @@
     "name": "Thralls of the Coven",
     "art": "https://cdn.swu-db.com/images/cards/LOF/136.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "NIGHT"
+    ]
   },
   {
     "id": "LOF-137",
@@ -2010,7 +2514,11 @@
     "title": "Imbued With Hate",
     "art": "https://cdn.swu-db.com/images/cards/LOF/137.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "NIGHT"
+    ]
   },
   {
     "id": "LOF-138",
@@ -2024,7 +2532,11 @@
     ],
     "name": "Sith Holocron",
     "art": "https://cdn.swu-db.com/images/cards/LOF/138.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "SITH",
+      "ITEM"
+    ]
   },
   {
     "id": "LOF-139",
@@ -2038,7 +2550,10 @@
     ],
     "name": "Battle Fury",
     "art": "https://cdn.swu-db.com/images/cards/LOF/139.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "INNATE"
+    ]
   },
   {
     "id": "LOF-140",
@@ -2052,7 +2567,12 @@
     ],
     "name": "Darth Maul's Lightsaber",
     "art": "https://cdn.swu-db.com/images/cards/LOF/140.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "ITEM",
+      "WEAPON",
+      "LIGHTSABER"
+    ]
   },
   {
     "id": "LOF-141",
@@ -2066,7 +2586,10 @@
     ],
     "name": "Death Field",
     "art": "https://cdn.swu-db.com/images/cards/LOF/141.png",
-    "cost": 4
+    "cost": 4,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-142",
@@ -2082,7 +2605,12 @@
     "title": "Stern and Focused",
     "art": "https://cdn.swu-db.com/images/cards/LOF/142.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-143",
@@ -2097,7 +2625,10 @@
     "name": "Attuned Fyrnock",
     "art": "https://cdn.swu-db.com/images/cards/LOF/143.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-144",
@@ -2112,7 +2643,13 @@
     "name": "Jedi Starfighter",
     "art": "https://cdn.swu-db.com/images/cards/LOF/144.png",
     "cost": 2,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "JEDI",
+      "REPUBLIC",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "LOF-145",
@@ -2127,7 +2664,11 @@
     "name": "Jedi Knight",
     "art": "https://cdn.swu-db.com/images/cards/LOF/145.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI"
+    ]
   },
   {
     "id": "LOF-146",
@@ -2143,7 +2684,12 @@
     "title": "We Must Push On",
     "art": "https://cdn.swu-db.com/images/cards/LOF/146.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-147",
@@ -2159,7 +2705,13 @@
     "title": "Good Hunting",
     "art": "https://cdn.swu-db.com/images/cards/LOF/147.png",
     "cost": 5,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "JEDI",
+      "REPUBLIC",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "LOF-148",
@@ -2175,7 +2727,12 @@
     "title": "With Palpatine's Power",
     "art": "https://cdn.swu-db.com/images/cards/LOF/148.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "RESISTANCE"
+    ]
   },
   {
     "id": "LOF-149",
@@ -2191,7 +2748,12 @@
     "title": "Leaping into Action",
     "art": "https://cdn.swu-db.com/images/cards/LOF/149.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-150",
@@ -2207,7 +2769,12 @@
     "title": "Esteemed Blademaster",
     "art": "https://cdn.swu-db.com/images/cards/LOF/150.png",
     "cost": 8,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-151",
@@ -2221,7 +2788,12 @@
     ],
     "name": "Knight's Saber",
     "art": "https://cdn.swu-db.com/images/cards/LOF/151.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "ITEM",
+      "WEAPON",
+      "LIGHTSABER"
+    ]
   },
   {
     "id": "LOF-152",
@@ -2235,7 +2807,10 @@
     ],
     "name": "Focus Determines Reality",
     "art": "https://cdn.swu-db.com/images/cards/LOF/152.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-153",
@@ -2251,7 +2826,10 @@
     "title": "Unyielding Warrior",
     "art": "https://cdn.swu-db.com/images/cards/LOF/153.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "MANDALORIAN"
+    ]
   },
   {
     "id": "LOF-154",
@@ -2265,7 +2843,11 @@
     "name": "Witch of the Mist",
     "art": "https://cdn.swu-db.com/images/cards/LOF/154.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "NIGHT"
+    ]
   },
   {
     "id": "LOF-155",
@@ -2279,7 +2861,10 @@
     "name": "DRK-1 Probe Droid",
     "art": "https://cdn.swu-db.com/images/cards/LOF/155.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "DROID"
+    ]
   },
   {
     "id": "LOF-156",
@@ -2293,7 +2878,11 @@
     "name": "Infused Brawler ",
     "art": "https://cdn.swu-db.com/images/cards/LOF/156.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "NIGHT"
+    ]
   },
   {
     "id": "LOF-157",
@@ -2307,7 +2896,12 @@
     "name": "Cartel Interceptor",
     "art": "https://cdn.swu-db.com/images/cards/LOF/157.png",
     "cost": 3,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "UNDERWORLD",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "LOF-158",
@@ -2321,7 +2915,13 @@
     "name": "Hyena Bomber",
     "art": "https://cdn.swu-db.com/images/cards/LOF/158.png",
     "cost": 3,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "SEPARATIST",
+      "DROID",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "LOF-159",
@@ -2335,7 +2935,11 @@
     "name": "Jedi In Hiding",
     "art": "https://cdn.swu-db.com/images/cards/LOF/159.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI"
+    ]
   },
   {
     "id": "LOF-160",
@@ -2350,7 +2954,11 @@
     "title": "Alone with the Dead",
     "art": "https://cdn.swu-db.com/images/cards/LOF/160.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "NIGHT"
+    ]
   },
   {
     "id": "LOF-161",
@@ -2364,7 +2972,10 @@
     "name": "Tuk'ata",
     "art": "https://cdn.swu-db.com/images/cards/LOF/161.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-162",
@@ -2378,7 +2989,10 @@
     "name": "Hunting Nexu",
     "art": "https://cdn.swu-db.com/images/cards/LOF/162.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-163",
@@ -2393,7 +3007,12 @@
     "title": "Dark Disciple",
     "art": "https://cdn.swu-db.com/images/cards/LOF/163.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-164",
@@ -2407,7 +3026,10 @@
     "name": "Wampa",
     "art": "https://cdn.swu-db.com/images/cards/LOF/164.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-165",
@@ -2422,7 +3044,12 @@
     "title": "Harden Your Heart",
     "art": "https://cdn.swu-db.com/images/cards/LOF/165.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "NIGHT",
+      "BOUNTY HUNTER"
+    ]
   },
   {
     "id": "LOF-166",
@@ -2436,7 +3063,12 @@
     "name": "Blockade Runner",
     "art": "https://cdn.swu-db.com/images/cards/LOF/166.png",
     "cost": 5,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "REBEL",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ]
   },
   {
     "id": "LOF-167",
@@ -2451,7 +3083,12 @@
     "title": "Courageous Warrior",
     "art": "https://cdn.swu-db.com/images/cards/LOF/167.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-168",
@@ -2465,7 +3102,10 @@
     "name": "Ravenous Rathtar",
     "art": "https://cdn.swu-db.com/images/cards/LOF/168.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-169",
@@ -2479,7 +3119,12 @@
     "name": "Invasion Control Ship",
     "art": "https://cdn.swu-db.com/images/cards/LOF/169.png",
     "cost": 7,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "SEPARATIST",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ]
   },
   {
     "id": "LOF-170",
@@ -2494,7 +3139,11 @@
     "title": "Do You Fear the Storm?",
     "art": "https://cdn.swu-db.com/images/cards/LOF/170.png",
     "cost": 8,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-171",
@@ -2507,7 +3156,11 @@
     ],
     "name": "Heavy Blaster Cannon",
     "art": "https://cdn.swu-db.com/images/cards/LOF/171.png",
-    "cost": 4
+    "cost": 4,
+    "traits": [
+      "ITEM",
+      "WEAPON"
+    ]
   },
   {
     "id": "LOF-172",
@@ -2520,7 +3173,10 @@
     ],
     "name": "Sorcerous Blast",
     "art": "https://cdn.swu-db.com/images/cards/LOF/172.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-173",
@@ -2533,7 +3189,10 @@
     ],
     "name": "Unleash Rage",
     "art": "https://cdn.swu-db.com/images/cards/LOF/173.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-174",
@@ -2546,7 +3205,10 @@
     ],
     "name": "Ataru Onslaught",
     "art": "https://cdn.swu-db.com/images/cards/LOF/174.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "LEARNED"
+    ]
   },
   {
     "id": "LOF-175",
@@ -2559,7 +3221,10 @@
     ],
     "name": "Do or Do Not",
     "art": "https://cdn.swu-db.com/images/cards/LOF/175.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-176",
@@ -2572,7 +3237,10 @@
     ],
     "name": "Lightsaber Throw",
     "art": "https://cdn.swu-db.com/images/cards/LOF/176.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "TACTIC"
+    ]
   },
   {
     "id": "LOF-177",
@@ -2585,7 +3253,10 @@
     ],
     "name": "Time of Crisis",
     "art": "https://cdn.swu-db.com/images/cards/LOF/177.png",
-    "cost": 4
+    "cost": 4,
+    "traits": [
+      "DISASTER"
+    ]
   },
   {
     "id": "LOF-178",
@@ -2600,7 +3271,11 @@
     "name": "Adept of Anger",
     "art": "https://cdn.swu-db.com/images/cards/LOF/178.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-179",
@@ -2616,7 +3291,11 @@
     "title": "Patient and Deadly",
     "art": "https://cdn.swu-db.com/images/cards/LOF/179.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "UNDERWORLD",
+      "BOUNTY HUNTER"
+    ]
   },
   {
     "id": "LOF-180",
@@ -2631,7 +3310,11 @@
     "name": "Deceptive Shade",
     "art": "https://cdn.swu-db.com/images/cards/LOF/180.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "SITH",
+      "UNDEAD"
+    ]
   },
   {
     "id": "LOF-181",
@@ -2646,7 +3329,12 @@
     "name": "Banking Clan Shuttle",
     "art": "https://cdn.swu-db.com/images/cards/LOF/181.png",
     "cost": 3,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "SEPARATIST",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "LOF-182",
@@ -2661,7 +3349,12 @@
     "name": "Nihil Marauder",
     "art": "https://cdn.swu-db.com/images/cards/LOF/182.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "UNDERWORLD",
+      "TROOPER",
+      "NIHIL"
+    ]
   },
   {
     "id": "LOF-183",
@@ -2677,7 +3370,11 @@
     "title": "Overeager Apprentice",
     "art": "https://cdn.swu-db.com/images/cards/LOF/183.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-184",
@@ -2693,7 +3390,12 @@
     "title": "Seeking the Holocron",
     "art": "https://cdn.swu-db.com/images/cards/LOF/184.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "IMPERIAL",
+      "INQUISITOR"
+    ]
   },
   {
     "id": "LOF-185",
@@ -2709,7 +3411,11 @@
     "title": "Enigmatic Master",
     "art": "https://cdn.swu-db.com/images/cards/LOF/185.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-186",
@@ -2725,7 +3431,11 @@
     "title": "Eye of the Nihil",
     "art": "https://cdn.swu-db.com/images/cards/LOF/186.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "UNDERWORLD",
+      "NIHIL"
+    ]
   },
   {
     "id": "LOF-187",
@@ -2739,7 +3449,12 @@
     ],
     "name": "Corrupted Saber",
     "art": "https://cdn.swu-db.com/images/cards/LOF/187.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "ITEM",
+      "WEAPON",
+      "LIGHTSABER"
+    ]
   },
   {
     "id": "LOF-188",
@@ -2753,7 +3468,10 @@
     ],
     "name": "As I Have Foreseen",
     "art": "https://cdn.swu-db.com/images/cards/LOF/188.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-189",
@@ -2767,7 +3485,10 @@
     ],
     "name": "Liberated by Darkness",
     "art": "https://cdn.swu-db.com/images/cards/LOF/189.png",
-    "cost": 5
+    "cost": 5,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-190",
@@ -2783,7 +3504,11 @@
     "title": "Force Prodigy",
     "art": "https://cdn.swu-db.com/images/cards/LOF/190.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-191",
@@ -2799,7 +3524,11 @@
     "title": "Beep Boo Boo Bweep",
     "art": "https://cdn.swu-db.com/images/cards/LOF/191.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE",
+      "DROID"
+    ]
   },
   {
     "id": "LOF-192",
@@ -2814,7 +3543,12 @@
     "name": "N-1 Starfighter",
     "art": "https://cdn.swu-db.com/images/cards/LOF/192.png",
     "cost": 2,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "NABOO",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "LOF-193",
@@ -2829,7 +3563,11 @@
     "name": "Youngling Padawan",
     "art": "https://cdn.swu-db.com/images/cards/LOF/193.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI"
+    ]
   },
   {
     "id": "LOF-194",
@@ -2844,7 +3582,12 @@
     "name": "J-Type Nubian Starship",
     "art": "https://cdn.swu-db.com/images/cards/LOF/194.png",
     "cost": 3,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "NABOO",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "LOF-195",
@@ -2860,7 +3603,11 @@
     "title": "Precocious Knight",
     "art": "https://cdn.swu-db.com/images/cards/LOF/195.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI"
+    ]
   },
   {
     "id": "LOF-196",
@@ -2875,7 +3622,11 @@
     "name": "Jedi Sentinel",
     "art": "https://cdn.swu-db.com/images/cards/LOF/196.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI"
+    ]
   },
   {
     "id": "LOF-197",
@@ -2891,7 +3642,13 @@
     "title": "Guided by the Force",
     "art": "https://cdn.swu-db.com/images/cards/LOF/197.png",
     "cost": 5,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "JEDI",
+      "REPUBLIC",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "LOF-198",
@@ -2907,7 +3664,12 @@
     "title": "Where Are We Going?",
     "art": "https://cdn.swu-db.com/images/cards/LOF/198.png",
     "cost": 5,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "FRINGE",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "LOF-199",
@@ -2923,7 +3685,12 @@
     "title": "A Higher Purpose",
     "art": "https://cdn.swu-db.com/images/cards/LOF/199.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-200",
@@ -2939,7 +3706,12 @@
     "title": "The Negotiations will be Short",
     "art": "https://cdn.swu-db.com/images/cards/LOF/200.png",
     "cost": 7,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-201",
@@ -2953,7 +3725,12 @@
     ],
     "name": "Qui-Gon Jinn's Lightsaber",
     "art": "https://cdn.swu-db.com/images/cards/LOF/201.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "ITEM",
+      "WEAPON",
+      "LIGHTSABER"
+    ]
   },
   {
     "id": "LOF-202",
@@ -2967,7 +3744,11 @@
     ],
     "name": "Mind Trick",
     "art": "https://cdn.swu-db.com/images/cards/LOF/202.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "FORCE",
+      "TRICK"
+    ]
   },
   {
     "id": "LOF-203",
@@ -2981,7 +3762,10 @@
     ],
     "name": "Premonition of Doom",
     "art": "https://cdn.swu-db.com/images/cards/LOF/203.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-204",
@@ -2997,7 +3781,11 @@
     "title": "The Findsman",
     "art": "https://cdn.swu-db.com/images/cards/LOF/204.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "BOUNTY HUNTER"
+    ]
   },
   {
     "id": "LOF-205",
@@ -3011,7 +3799,10 @@
     ],
     "name": "Force Speed",
     "art": "https://cdn.swu-db.com/images/cards/LOF/205.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-206",
@@ -3026,7 +3817,10 @@
     "title": "Heyyy!",
     "art": "https://cdn.swu-db.com/images/cards/LOF/206.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "UNDERWORLD"
+    ]
   },
   {
     "id": "LOF-207",
@@ -3040,7 +3834,10 @@
     "name": "Loth-Cat",
     "art": "https://cdn.swu-db.com/images/cards/LOF/207.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-208",
@@ -3054,7 +3851,11 @@
     "name": "Mysterious Hermit",
     "art": "https://cdn.swu-db.com/images/cards/LOF/208.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-209",
@@ -3068,7 +3869,10 @@
     "name": "Tusken Tracker",
     "art": "https://cdn.swu-db.com/images/cards/LOF/209.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "TUSKEN"
+    ]
   },
   {
     "id": "LOF-210",
@@ -3082,7 +3886,10 @@
     "name": "Charging Phillak",
     "art": "https://cdn.swu-db.com/images/cards/LOF/210.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-211",
@@ -3097,7 +3904,11 @@
     "title": "It is Too Late",
     "art": "https://cdn.swu-db.com/images/cards/LOF/211.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI"
+    ]
   },
   {
     "id": "LOF-212",
@@ -3111,7 +3922,10 @@
     "name": "Life Wind Sage",
     "art": "https://cdn.swu-db.com/images/cards/LOF/212.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-213",
@@ -3126,7 +3940,12 @@
     "title": "Doomed Debris",
     "art": "https://cdn.swu-db.com/images/cards/LOF/213.png",
     "cost": 5,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "REPUBLIC",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "LOF-214",
@@ -3140,7 +3959,11 @@
     "name": "Sorcerers of Tund",
     "art": "https://cdn.swu-db.com/images/cards/LOF/214.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-215",
@@ -3153,7 +3976,10 @@
     ],
     "name": "Ascension Cable",
     "art": "https://cdn.swu-db.com/images/cards/LOF/215.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "ITEM"
+    ]
   },
   {
     "id": "LOF-216",
@@ -3166,7 +3992,10 @@
     ],
     "name": "Disturbance in the Force",
     "art": "https://cdn.swu-db.com/images/cards/LOF/216.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-217",
@@ -3179,7 +4008,10 @@
     ],
     "name": "Force Slow",
     "art": "https://cdn.swu-db.com/images/cards/LOF/217.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-218",
@@ -3192,7 +4024,10 @@
     ],
     "name": "Impossible Escape",
     "art": "https://cdn.swu-db.com/images/cards/LOF/218.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-219",
@@ -3205,7 +4040,10 @@
     ],
     "name": "Psychometry",
     "art": "https://cdn.swu-db.com/images/cards/LOF/219.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-220",
@@ -3218,7 +4056,10 @@
     ],
     "name": "Shien Flurry",
     "art": "https://cdn.swu-db.com/images/cards/LOF/220.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "LEARNED"
+    ]
   },
   {
     "id": "LOF-221",
@@ -3231,7 +4072,10 @@
     ],
     "name": "Trust Your Instincts",
     "art": "https://cdn.swu-db.com/images/cards/LOF/221.png",
-    "cost": 1
+    "cost": 1,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-222",
@@ -3244,7 +4088,10 @@
     ],
     "name": "A Precarious Predicament",
     "art": "https://cdn.swu-db.com/images/cards/LOF/222.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "TRICK"
+    ]
   },
   {
     "id": "LOF-223",
@@ -3257,7 +4104,11 @@
     ],
     "name": "Force Illusion",
     "art": "https://cdn.swu-db.com/images/cards/LOF/223.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "FORCE",
+      "TRICK"
+    ]
   },
   {
     "id": "LOF-224",
@@ -3270,7 +4121,10 @@
     ],
     "name": "Pounce",
     "art": "https://cdn.swu-db.com/images/cards/LOF/224.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "TRICK"
+    ]
   },
   {
     "id": "LOF-225",
@@ -3283,7 +4137,10 @@
     ],
     "name": "Three Lessons",
     "art": "https://cdn.swu-db.com/images/cards/LOF/225.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "LEARNED"
+    ]
   },
   {
     "id": "LOF-226",
@@ -3296,7 +4153,11 @@
     ],
     "name": "Tip the Scale",
     "art": "https://cdn.swu-db.com/images/cards/LOF/226.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "FORCE",
+      "TRICK"
+    ]
   },
   {
     "id": "LOF-227",
@@ -3309,7 +4170,10 @@
     ],
     "name": "The Will of the Force",
     "art": "https://cdn.swu-db.com/images/cards/LOF/227.png",
-    "cost": 4
+    "cost": 4,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-228",
@@ -3323,7 +4187,12 @@
     "name": "Forged Starfighter",
     "art": "https://cdn.swu-db.com/images/cards/LOF/228.png",
     "cost": 1,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "SITH",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "LOF-229",
@@ -3338,7 +4207,11 @@
     "title": "I Know Your Story",
     "art": "https://cdn.swu-db.com/images/cards/LOF/229.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "FIRST ORDER"
+    ]
   },
   {
     "id": "LOF-230",
@@ -3352,7 +4225,11 @@
     "name": "Fallen Jedi",
     "art": "https://cdn.swu-db.com/images/cards/LOF/230.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI"
+    ]
   },
   {
     "id": "LOF-231",
@@ -3367,7 +4244,12 @@
     "title": "Servant of Sidious",
     "art": "https://cdn.swu-db.com/images/cards/LOF/231.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "SEPARATIST",
+      "SITH"
+    ]
   },
   {
     "id": "LOF-232",
@@ -3381,7 +4263,12 @@
     "name": "Sandtrooper Cavalry",
     "art": "https://cdn.swu-db.com/images/cards/LOF/232.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "CREATURE",
+      "TROOPER"
+    ]
   },
   {
     "id": "LOF-233",
@@ -3396,7 +4283,12 @@
     "title": "Sith Infiltrator",
     "art": "https://cdn.swu-db.com/images/cards/LOF/233.png",
     "cost": 4,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "SITH",
+      "VEHICLE",
+      "TRANSPORT"
+    ]
   },
   {
     "id": "LOF-234",
@@ -3411,7 +4303,11 @@
     "title": "Covetous Apprentice",
     "art": "https://cdn.swu-db.com/images/cards/LOF/234.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "SITH"
+    ]
   },
   {
     "id": "LOF-235",
@@ -3425,7 +4321,11 @@
     "name": "HK-87 Assassin Droid",
     "art": "https://cdn.swu-db.com/images/cards/LOF/235.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "IMPERIAL",
+      "DROID"
+    ]
   },
   {
     "id": "LOF-236",
@@ -3439,7 +4339,11 @@
     "name": "Army of the Dead",
     "art": "https://cdn.swu-db.com/images/cards/LOF/236.png",
     "cost": 6,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "NIGHT",
+      "UNDEAD"
+    ]
   },
   {
     "id": "LOF-237",
@@ -3454,7 +4358,10 @@
     "title": "Embodiment of Darkness",
     "art": "https://cdn.swu-db.com/images/cards/LOF/237.png",
     "cost": 7,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-238",
@@ -3467,7 +4374,12 @@
     ],
     "name": "Darth Revan's Lightsaber",
     "art": "https://cdn.swu-db.com/images/cards/LOF/238.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "ITEM",
+      "WEAPON",
+      "LIGHTSABER"
+    ]
   },
   {
     "id": "LOF-239",
@@ -3480,7 +4392,10 @@
     ],
     "name": "Consumed by the Dark Side",
     "art": "https://cdn.swu-db.com/images/cards/LOF/239.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-240",
@@ -3493,7 +4408,10 @@
     ],
     "name": "Flight of the Inquisitor",
     "art": "https://cdn.swu-db.com/images/cards/LOF/240.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "TACTIC"
+    ]
   },
   {
     "id": "LOF-241",
@@ -3506,7 +4424,10 @@
     ],
     "name": "In the Shadows",
     "art": "https://cdn.swu-db.com/images/cards/LOF/241.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "PLAN"
+    ]
   },
   {
     "id": "LOF-242",
@@ -3520,7 +4441,11 @@
     "name": "Refugee of The Path",
     "art": "https://cdn.swu-db.com/images/cards/LOF/242.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-243",
@@ -3534,7 +4459,10 @@
     "name": "Caretaker Matron",
     "art": "https://cdn.swu-db.com/images/cards/LOF/243.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-244",
@@ -3548,7 +4476,12 @@
     "name": "Jedi Vector",
     "art": "https://cdn.swu-db.com/images/cards/LOF/244.png",
     "cost": 2,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "JEDI",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "LOF-245",
@@ -3562,7 +4495,10 @@
     "name": "Vulptex",
     "art": "https://cdn.swu-db.com/images/cards/LOF/245.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-246",
@@ -3577,7 +4513,10 @@
     "title": "Mysterious Child",
     "art": "https://cdn.swu-db.com/images/cards/LOF/246.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-247",
@@ -3591,7 +4530,11 @@
     "name": "Gungan Warrior",
     "art": "https://cdn.swu-db.com/images/cards/LOF/247.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "GUNGAN",
+      "TROOPER"
+    ]
   },
   {
     "id": "LOF-248",
@@ -3606,7 +4549,12 @@
     "title": "The Gift of Knowledge",
     "art": "https://cdn.swu-db.com/images/cards/LOF/248.png",
     "cost": 3,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ]
   },
   {
     "id": "LOF-249",
@@ -3621,7 +4569,11 @@
     "title": "A Hero's Beginning",
     "art": "https://cdn.swu-db.com/images/cards/LOF/249.png",
     "cost": 4,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-250",
@@ -3635,7 +4587,12 @@
     "name": "Medical Frigate",
     "art": "https://cdn.swu-db.com/images/cards/LOF/250.png",
     "cost": 4,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "REPUBLIC",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ]
   },
   {
     "id": "LOF-251",
@@ -3649,7 +4606,12 @@
     "name": "Blue Squadron Assault Wing",
     "art": "https://cdn.swu-db.com/images/cards/LOF/251.png",
     "cost": 5,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "REPUBLIC",
+      "VEHICLE",
+      "FIGHTER"
+    ]
   },
   {
     "id": "LOF-252",
@@ -3664,7 +4626,10 @@
     "title": "Embodiment of Light",
     "art": "https://cdn.swu-db.com/images/cards/LOF/252.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-253",
@@ -3678,7 +4643,12 @@
     "name": "Longbeam Cruiser",
     "art": "https://cdn.swu-db.com/images/cards/LOF/253.png",
     "cost": 6,
-    "arena": "space"
+    "arena": "space",
+    "traits": [
+      "REPUBLIC",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ]
   },
   {
     "id": "LOF-254",
@@ -3690,7 +4660,10 @@
     "name": "Porg",
     "art": "https://cdn.swu-db.com/images/cards/LOF/254.png",
     "cost": 0,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-255",
@@ -3702,7 +4675,10 @@
     "name": "Curious Flock",
     "art": "https://cdn.swu-db.com/images/cards/LOF/255.png",
     "cost": 1,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-256",
@@ -3714,7 +4690,11 @@
     "name": "Gifted Urchin",
     "art": "https://cdn.swu-db.com/images/cards/LOF/256.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE",
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-257",
@@ -3726,7 +4706,10 @@
     "name": "Kowakian Monkey-Lizard",
     "art": "https://cdn.swu-db.com/images/cards/LOF/257.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-258",
@@ -3739,7 +4722,10 @@
     "title": "I Should Charge You More",
     "art": "https://cdn.swu-db.com/images/cards/LOF/258.png",
     "cost": 2,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FRINGE"
+    ]
   },
   {
     "id": "LOF-259",
@@ -3751,7 +4737,10 @@
     "name": "Ravening Gundark",
     "art": "https://cdn.swu-db.com/images/cards/LOF/259.png",
     "cost": 5,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "CREATURE"
+    ]
   },
   {
     "id": "LOF-260",
@@ -3764,7 +4753,10 @@
     "title": "Maintaining Balance",
     "art": "https://cdn.swu-db.com/images/cards/LOF/260.png",
     "cost": 8,
-    "arena": "ground"
+    "arena": "ground",
+    "traits": [
+      "FORCE"
+    ]
   },
   {
     "id": "LOF-261",
@@ -3775,7 +4767,12 @@
     "aspects": [],
     "name": "Constructed Lightsaber",
     "art": "https://cdn.swu-db.com/images/cards/LOF/261.png",
-    "cost": 3
+    "cost": 3,
+    "traits": [
+      "ITEM",
+      "WEAPON",
+      "LIGHTSABER"
+    ]
   },
   {
     "id": "LOF-262",
@@ -3786,7 +4783,10 @@
     "aspects": [],
     "name": "Go Into Hiding",
     "art": "https://cdn.swu-db.com/images/cards/LOF/262.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "LEARNED"
+    ]
   },
   {
     "id": "LOF-263",
@@ -3797,7 +4797,10 @@
     "aspects": [],
     "name": "Last Words",
     "art": "https://cdn.swu-db.com/images/cards/LOF/263.png",
-    "cost": 2
+    "cost": 2,
+    "traits": [
+      "LEARNED"
+    ]
   },
   {
     "id": "LOF-264",
@@ -3808,6 +4811,9 @@
     "aspects": [],
     "name": "It's Worse",
     "art": "https://cdn.swu-db.com/images/cards/LOF/264.png",
-    "cost": 7
+    "cost": 7,
+    "traits": [
+      "TRICK"
+    ]
   }
 ]
