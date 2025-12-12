@@ -45,6 +45,12 @@ Enum values:
 - villainy
 - heroism
 
+# Unit arena
+
+Enum values:
+- ground
+- space
+
 # Card
 
 Attributes:
@@ -53,6 +59,7 @@ Attributes:
 - number (number)
 - cost (number)
 - type (Card type)
+- arena (Unit arena, nullable)
 - rarity (Card rarity)
 - aspects (array of Card aspect)
 - name (string)

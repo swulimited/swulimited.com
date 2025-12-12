@@ -12,7 +12,8 @@
     "name": "Chancellor Palpatine",
     "title": "How Liberty Dies",
     "art": "https://cdn.swu-db.com/images/cards/SEC/001.png",
-    "cost": 7
+    "cost": 7,
+    "arena": "ground"
   },
   {
     "id": "SEC-002",
@@ -27,7 +28,8 @@
     "name": "Jabba the Hutt",
     "title": "Wonderful Human Being",
     "art": "https://cdn.swu-db.com/images/cards/SEC/002.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-003",
@@ -42,7 +44,8 @@
     "name": "Lama Su",
     "title": "We Modified Their Genetics",
     "art": "https://cdn.swu-db.com/images/cards/SEC/003.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-004",
@@ -57,7 +60,8 @@
     "name": "Leia Organa",
     "title": "Of A Secret Bloodline",
     "art": "https://cdn.swu-db.com/images/cards/SEC/004.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-005",
@@ -72,7 +76,8 @@
     "name": "Satine Kryze",
     "title": "Standing on Principles",
     "art": "https://cdn.swu-db.com/images/cards/SEC/005.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-006",
@@ -87,7 +92,8 @@
     "name": "Colonel Yularen",
     "title": "This is Why We Plan",
     "art": "https://cdn.swu-db.com/images/cards/SEC/006.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-007",
@@ -102,7 +108,8 @@
     "name": "Dryden Vos",
     "title": "I Never Ask Twice",
     "art": "https://cdn.swu-db.com/images/cards/SEC/007.png",
-    "cost": 7
+    "cost": 7,
+    "arena": "ground"
   },
   {
     "id": "SEC-008",
@@ -117,7 +124,8 @@
     "name": "Bail Organa",
     "title": "Doing Everything He Can",
     "art": "https://cdn.swu-db.com/images/cards/SEC/008.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-009",
@@ -132,7 +140,8 @@
     "name": "Mon Mothma",
     "title": "Forming a Coalition",
     "art": "https://cdn.swu-db.com/images/cards/SEC/009.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-010",
@@ -147,7 +156,8 @@
     "name": "Dedra Meero",
     "title": "Not Wasting Time",
     "art": "https://cdn.swu-db.com/images/cards/SEC/010.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-011",
@@ -162,7 +172,8 @@
     "name": "Governor Pryce",
     "title": "Tyrant of Lothal",
     "art": "https://cdn.swu-db.com/images/cards/SEC/011.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-012",
@@ -177,7 +188,8 @@
     "name": "Cassian Andor",
     "title": "Climb!",
     "art": "https://cdn.swu-db.com/images/cards/SEC/012.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-013",
@@ -192,7 +204,8 @@
     "name": "Luthen Rael",
     "title": "Don't You Want to Fight For Real?",
     "art": "https://cdn.swu-db.com/images/cards/SEC/013.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-014",
@@ -207,7 +220,8 @@
     "name": "Sly Moore",
     "title": "Cipher in the Dark",
     "art": "https://cdn.swu-db.com/images/cards/SEC/014.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-015",
@@ -222,7 +236,8 @@
     "name": "C-3P0",
     "title": "Human-Cyborg Relations",
     "art": "https://cdn.swu-db.com/images/cards/SEC/015.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-016",
@@ -237,7 +252,8 @@
     "name": "Padmé Amidala",
     "title": "What Do You Have to Hide?",
     "art": "https://cdn.swu-db.com/images/cards/SEC/016.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-017",
@@ -252,7 +268,8 @@
     "name": "Sabé",
     "title": "Queen's Shadow",
     "art": "https://cdn.swu-db.com/images/cards/SEC/017.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-018",
@@ -267,7 +284,8 @@
     "name": "DJ",
     "title": "Need a Lift?",
     "art": "https://cdn.swu-db.com/images/cards/SEC/018.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-019",
@@ -386,7 +404,8 @@
     "name": "The Chancellor's Shuttle",
     "title": "Grim Harbinger",
     "art": "https://cdn.swu-db.com/images/cards/SEC/027.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "space"
   },
   {
     "id": "SEC-028",
@@ -400,7 +419,8 @@
     ],
     "name": "Trayus Acolyte",
     "art": "https://cdn.swu-db.com/images/cards/SEC/028.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-029",
@@ -415,7 +435,8 @@
     "name": "Zam Wesell",
     "title": "Inconspicuous Assassin",
     "art": "https://cdn.swu-db.com/images/cards/SEC/029.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-030",
@@ -429,7 +450,8 @@
     ],
     "name": "Death Trooper",
     "art": "https://cdn.swu-db.com/images/cards/SEC/030.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-031",
@@ -444,7 +466,8 @@
     "name": "Nute Gunray",
     "title": "Escaping Justice",
     "art": "https://cdn.swu-db.com/images/cards/SEC/031.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-032",
@@ -459,7 +482,8 @@
     "name": "Kylo Ren's Command Shuttle",
     "title": "Icon of Authority",
     "art": "https://cdn.swu-db.com/images/cards/SEC/032.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "space"
   },
   {
     "id": "SEC-033",
@@ -474,7 +498,8 @@
     "name": "Sly Moore",
     "title": "Witness to Power",
     "art": "https://cdn.swu-db.com/images/cards/SEC/033.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-034",
@@ -489,7 +514,8 @@
     "name": "Cad Bane",
     "title": "Impressed Now?",
     "art": "https://cdn.swu-db.com/images/cards/SEC/034.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-035",
@@ -504,7 +530,8 @@
     "name": "Darth Sion",
     "title": "Lord of Pain",
     "art": "https://cdn.swu-db.com/images/cards/SEC/035.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-036",
@@ -518,7 +545,8 @@
     ],
     "name": "Dogmatic Shock Squad",
     "art": "https://cdn.swu-db.com/images/cards/SEC/036.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-037",
@@ -532,7 +560,8 @@
     ],
     "name": "Cantwell Arrestor Cruiser",
     "art": "https://cdn.swu-db.com/images/cards/SEC/037.png",
-    "cost": 7
+    "cost": 7,
+    "arena": "space"
   },
   {
     "id": "SEC-038",
@@ -588,7 +617,8 @@
     ],
     "name": "Populist Advisor",
     "art": "https://cdn.swu-db.com/images/cards/SEC/041.png",
-    "cost": 1
+    "cost": 1,
+    "arena": "ground"
   },
   {
     "id": "SEC-042",
@@ -603,7 +633,8 @@
     "name": "Cassian Andor",
     "title": "Lay Low",
     "art": "https://cdn.swu-db.com/images/cards/SEC/042.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-043",
@@ -617,7 +648,8 @@
     ],
     "name": "Chandrilan Sponsor",
     "art": "https://cdn.swu-db.com/images/cards/SEC/043.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-044",
@@ -631,7 +663,8 @@
     ],
     "name": "Populist Champion",
     "art": "https://cdn.swu-db.com/images/cards/SEC/044.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-045",
@@ -646,7 +679,8 @@
     "name": "Senator Chuchi",
     "title": "Voice for the Voiceless",
     "art": "https://cdn.swu-db.com/images/cards/SEC/045.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-046",
@@ -661,7 +695,8 @@
     "name": "Galen Erso",
     "title": "You'll Never Win",
     "art": "https://cdn.swu-db.com/images/cards/SEC/046.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-047",
@@ -676,7 +711,8 @@
     "name": "Coronet",
     "title": "Stately Vessel",
     "art": "https://cdn.swu-db.com/images/cards/SEC/047.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "space"
   },
   {
     "id": "SEC-048",
@@ -691,7 +727,8 @@
     "name": "Captain Rex",
     "title": "Into the Firefight",
     "art": "https://cdn.swu-db.com/images/cards/SEC/048.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-049",
@@ -705,7 +742,8 @@
     ],
     "name": "Jade Squadron Patrol",
     "art": "https://cdn.swu-db.com/images/cards/SEC/049.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "space"
   },
   {
     "id": "SEC-050",
@@ -720,7 +758,8 @@
     "name": "Vigil",
     "title": "Securing the Future",
     "art": "https://cdn.swu-db.com/images/cards/SEC/050.png",
-    "cost": 7
+    "cost": 7,
+    "arena": "space"
   },
   {
     "id": "SEC-051",
@@ -735,7 +774,8 @@
     "name": "Bo-Katan Kryze",
     "title": "Alone",
     "art": "https://cdn.swu-db.com/images/cards/SEC/051.png",
-    "cost": 9
+    "cost": 9,
+    "arena": "ground"
   },
   {
     "id": "SEC-052",
@@ -790,7 +830,8 @@
     ],
     "name": "Dhani Pilgrim",
     "art": "https://cdn.swu-db.com/images/cards/SEC/055.png",
-    "cost": 1
+    "cost": 1,
+    "arena": "ground"
   },
   {
     "id": "SEC-056",
@@ -803,7 +844,8 @@
     ],
     "name": "Escape Pod",
     "art": "https://cdn.swu-db.com/images/cards/SEC/056.png",
-    "cost": 1
+    "cost": 1,
+    "arena": "space"
   },
   {
     "id": "SEC-057",
@@ -817,7 +859,8 @@
     "name": "Lobot",
     "title": "Cloud City Coordinator",
     "art": "https://cdn.swu-db.com/images/cards/SEC/057.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-058",
@@ -830,7 +873,8 @@
     ],
     "name": "Lost Jedi",
     "art": "https://cdn.swu-db.com/images/cards/SEC/058.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-059",
@@ -843,7 +887,8 @@
     ],
     "name": "Senate Warden",
     "art": "https://cdn.swu-db.com/images/cards/SEC/059.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-060",
@@ -856,7 +901,8 @@
     ],
     "name": "Defense Fleet X-Wing",
     "art": "https://cdn.swu-db.com/images/cards/SEC/060.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "space"
   },
   {
     "id": "SEC-061",
@@ -870,7 +916,8 @@
     "name": "Willrow Hood",
     "title": "On the Run",
     "art": "https://cdn.swu-db.com/images/cards/SEC/061.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-062",
@@ -883,7 +930,8 @@
     ],
     "name": "Bardottan Ornithopter",
     "art": "https://cdn.swu-db.com/images/cards/SEC/062.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "space"
   },
   {
     "id": "SEC-063",
@@ -896,7 +944,8 @@
     ],
     "name": "Rotunda Senate Guards",
     "art": "https://cdn.swu-db.com/images/cards/SEC/063.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-064",
@@ -909,7 +958,8 @@
     ],
     "name": "Congress of Malastare",
     "art": "https://cdn.swu-db.com/images/cards/SEC/064.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-065",
@@ -923,7 +973,8 @@
     "name": "Nala Se",
     "title": "Chief Medical Scientist",
     "art": "https://cdn.swu-db.com/images/cards/SEC/065.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-066",
@@ -936,7 +987,8 @@
     ],
     "name": "Alderaanian Envoys",
     "art": "https://cdn.swu-db.com/images/cards/SEC/066.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-067",
@@ -949,7 +1001,8 @@
     ],
     "name": "Umbaran Mobile Cannon",
     "art": "https://cdn.swu-db.com/images/cards/SEC/067.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-068",
@@ -963,7 +1016,8 @@
     "name": "Lando Calrissian",
     "title": "Trust Me",
     "art": "https://cdn.swu-db.com/images/cards/SEC/068.png",
-    "cost": 7
+    "cost": 7,
+    "arena": "ground"
   },
   {
     "id": "SEC-069",
@@ -1107,7 +1161,8 @@
     ],
     "name": "Corrupt Politician",
     "art": "https://cdn.swu-db.com/images/cards/SEC/079.png",
-    "cost": 1
+    "cost": 1,
+    "arena": "ground"
   },
   {
     "id": "SEC-080",
@@ -1121,7 +1176,8 @@
     ],
     "name": "Imperial Dark Trooper",
     "art": "https://cdn.swu-db.com/images/cards/SEC/080.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-081",
@@ -1136,7 +1192,8 @@
     "name": "Major Partagaz",
     "title": "Healthcare Provider",
     "art": "https://cdn.swu-db.com/images/cards/SEC/081.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-082",
@@ -1151,7 +1208,8 @@
     "name": "Chancellor Palpatine",
     "title": "I Am the Senate",
     "art": "https://cdn.swu-db.com/images/cards/SEC/082.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-083",
@@ -1165,7 +1223,8 @@
     ],
     "name": "ISB Shuttle",
     "art": "https://cdn.swu-db.com/images/cards/SEC/083.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "space"
   },
   {
     "id": "SEC-084",
@@ -1180,7 +1239,8 @@
     "name": "Mas Amedda",
     "title": "Accomplice to Power",
     "art": "https://cdn.swu-db.com/images/cards/SEC/084.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-085",
@@ -1195,7 +1255,8 @@
     "name": "Vice Admiral Rampart",
     "title": "On Schedule",
     "art": "https://cdn.swu-db.com/images/cards/SEC/085.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-086",
@@ -1209,7 +1270,8 @@
     ],
     "name": "Cruel Commandos",
     "art": "https://cdn.swu-db.com/images/cards/SEC/086.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-087",
@@ -1224,7 +1286,8 @@
     "name": "Dedra Meero",
     "title": "With Verifiable Data",
     "art": "https://cdn.swu-db.com/images/cards/SEC/087.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-088",
@@ -1239,7 +1302,8 @@
     "name": "First Light",
     "title": "Threatening Elegance",
     "art": "https://cdn.swu-db.com/images/cards/SEC/088.png",
-    "cost": 7
+    "cost": 7,
+    "arena": "space"
   },
   {
     "id": "SEC-089",
@@ -1253,7 +1317,8 @@
     ],
     "name": "PreMor Personnel Carrier",
     "art": "https://cdn.swu-db.com/images/cards/SEC/089.png",
-    "cost": 8
+    "cost": 8,
+    "arena": "space"
   },
   {
     "id": "SEC-090",
@@ -1268,7 +1333,8 @@
     "name": "Director Krennic",
     "title": "I Lose Nothing But Time",
     "art": "https://cdn.swu-db.com/images/cards/SEC/090.png",
-    "cost": 9
+    "cost": 9,
+    "arena": "ground"
   },
   {
     "id": "SEC-091",
@@ -1311,7 +1377,8 @@
     "name": "C-3P0",
     "title": "Anything I Might Do?",
     "art": "https://cdn.swu-db.com/images/cards/SEC/093.png",
-    "cost": 1
+    "cost": 1,
+    "arena": "ground"
   },
   {
     "id": "SEC-094",
@@ -1326,7 +1393,8 @@
     "name": "Mina Bonteri",
     "title": "Stop This War",
     "art": "https://cdn.swu-db.com/images/cards/SEC/094.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-095",
@@ -1340,7 +1408,8 @@
     ],
     "name": "Theed Security",
     "art": "https://cdn.swu-db.com/images/cards/SEC/095.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-096",
@@ -1355,7 +1424,8 @@
     "name": "Ahsoka Tano",
     "title": "I Learned it From You",
     "art": "https://cdn.swu-db.com/images/cards/SEC/096.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-097",
@@ -1369,7 +1439,8 @@
     ],
     "name": "Beloved Orator",
     "art": "https://cdn.swu-db.com/images/cards/SEC/097.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-098",
@@ -1384,7 +1455,8 @@
     "name": "Captain Typho",
     "title": "All Necessary Precautions",
     "art": "https://cdn.swu-db.com/images/cards/SEC/098.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-099",
@@ -1399,7 +1471,8 @@
     "name": "Naboo Royal Starship",
     "title": "Fit For A Queen",
     "art": "https://cdn.swu-db.com/images/cards/SEC/099.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "space"
   },
   {
     "id": "SEC-100",
@@ -1413,7 +1486,8 @@
     ],
     "name": "Dressellian Commandos",
     "art": "https://cdn.swu-db.com/images/cards/SEC/100.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-101",
@@ -1428,7 +1502,8 @@
     "name": "Queen Amidala",
     "title": "Championing Her People",
     "art": "https://cdn.swu-db.com/images/cards/SEC/101.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-102",
@@ -1442,7 +1517,8 @@
     ],
     "name": "Renowned Dignitaries",
     "art": "https://cdn.swu-db.com/images/cards/SEC/102.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-103",
@@ -1457,7 +1533,8 @@
     "name": "Mon Mothma",
     "title": "Clinging to Hope",
     "art": "https://cdn.swu-db.com/images/cards/SEC/103.png",
-    "cost": 7
+    "cost": 7,
+    "arena": "ground"
   },
   {
     "id": "SEC-104",
@@ -1514,7 +1591,8 @@
     "name": "Chancellor Valorum",
     "title": "Civil Servant",
     "art": "https://cdn.swu-db.com/images/cards/SEC/107.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-108",
@@ -1527,7 +1605,8 @@
     ],
     "name": "Senator's Aide",
     "art": "https://cdn.swu-db.com/images/cards/SEC/108.png",
-    "cost": 1
+    "cost": 1,
+    "arena": "ground"
   },
   {
     "id": "SEC-109",
@@ -1540,7 +1619,8 @@
     ],
     "name": "Diplomatic Envoy",
     "art": "https://cdn.swu-db.com/images/cards/SEC/109.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "space"
   },
   {
     "id": "SEC-110",
@@ -1553,7 +1633,8 @@
     ],
     "name": "GNK Power Droid",
     "art": "https://cdn.swu-db.com/images/cards/SEC/110.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-111",
@@ -1567,7 +1648,8 @@
     "name": "Jar Jar Binks",
     "title": "Mesa Propose",
     "art": "https://cdn.swu-db.com/images/cards/SEC/111.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-112",
@@ -1581,7 +1663,8 @@
     "name": "Orn Free Taa",
     "title": "Political Power Broker",
     "art": "https://cdn.swu-db.com/images/cards/SEC/112.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-113",
@@ -1594,7 +1677,8 @@
     ],
     "name": "Daro Commando",
     "art": "https://cdn.swu-db.com/images/cards/SEC/113.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-114",
@@ -1608,7 +1692,8 @@
     "name": "Kino Loy",
     "title": "You Answer to Me",
     "art": "https://cdn.swu-db.com/images/cards/SEC/114.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-115",
@@ -1621,7 +1706,8 @@
     ],
     "name": "Taylander Shuttle",
     "art": "https://cdn.swu-db.com/images/cards/SEC/115.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "space"
   },
   {
     "id": "SEC-116",
@@ -1634,7 +1720,8 @@
     ],
     "name": "Nubian Star Skiff",
     "art": "https://cdn.swu-db.com/images/cards/SEC/116.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "space"
   },
   {
     "id": "SEC-117",
@@ -1647,7 +1734,8 @@
     ],
     "name": "Consular's Cruiser",
     "art": "https://cdn.swu-db.com/images/cards/SEC/117.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "space"
   },
   {
     "id": "SEC-118",
@@ -1660,7 +1748,8 @@
     ],
     "name": "Raxian Assembly",
     "art": "https://cdn.swu-db.com/images/cards/SEC/118.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-119",
@@ -1674,7 +1763,8 @@
     "name": "Crucible",
     "title": "Centuries of Wisdom",
     "art": "https://cdn.swu-db.com/images/cards/SEC/119.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "space"
   },
   {
     "id": "SEC-120",
@@ -1687,7 +1777,8 @@
     ],
     "name": "Naboo Security Force",
     "art": "https://cdn.swu-db.com/images/cards/SEC/120.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-121",
@@ -1700,7 +1791,8 @@
     ],
     "name": "Shadow Crawler",
     "art": "https://cdn.swu-db.com/images/cards/SEC/121.png",
-    "cost": 7
+    "cost": 7,
+    "arena": "ground"
   },
   {
     "id": "SEC-122",
@@ -1714,7 +1806,8 @@
     "name": "Vuutun Palaa",
     "title": "Droid Control Ship",
     "art": "https://cdn.swu-db.com/images/cards/SEC/122.png",
-    "cost": 9
+    "cost": 9,
+    "arena": "space"
   },
   {
     "id": "SEC-123",
@@ -1845,7 +1938,8 @@
     ],
     "name": "Imperial Occupier",
     "art": "https://cdn.swu-db.com/images/cards/SEC/132.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-133",
@@ -1860,7 +1954,8 @@
     "name": "Syril Karn",
     "title": "Where is He?",
     "art": "https://cdn.swu-db.com/images/cards/SEC/133.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-134",
@@ -1874,7 +1969,8 @@
     ],
     "name": "Hunting Assassin Droid",
     "art": "https://cdn.swu-db.com/images/cards/SEC/134.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-135",
@@ -1888,7 +1984,8 @@
     ],
     "name": "Muckraker Crab Droid",
     "art": "https://cdn.swu-db.com/images/cards/SEC/135.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-136",
@@ -1903,7 +2000,8 @@
     "name": "Arihnda Pryce",
     "title": "On the Road to Power",
     "art": "https://cdn.swu-db.com/images/cards/SEC/136.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-137",
@@ -1918,7 +2016,8 @@
     "name": "Dryden Vos",
     "title": "I Get All Worked Up",
     "art": "https://cdn.swu-db.com/images/cards/SEC/137.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-138",
@@ -1932,7 +2031,8 @@
     ],
     "name": "Enforcer Squadron",
     "art": "https://cdn.swu-db.com/images/cards/SEC/138.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "space"
   },
   {
     "id": "SEC-139",
@@ -1947,7 +2047,8 @@
     "name": "Miraj Scintel",
     "title": "The Weak Deserve to Kneel",
     "art": "https://cdn.swu-db.com/images/cards/SEC/139.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-140",
@@ -1962,7 +2063,8 @@
     "name": "Hondo Ohnaka",
     "title": "You Better Hurry",
     "art": "https://cdn.swu-db.com/images/cards/SEC/140.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-141",
@@ -1977,7 +2079,8 @@
     "name": "The Galleon",
     "title": "Marauding Pirate Ship",
     "art": "https://cdn.swu-db.com/images/cards/SEC/141.png",
-    "cost": 7
+    "cost": 7,
+    "arena": "space"
   },
   {
     "id": "SEC-142",
@@ -1992,7 +2095,8 @@
     "name": "Fulminatrix",
     "title": "Fleet Killer",
     "art": "https://cdn.swu-db.com/images/cards/SEC/142.png",
-    "cost": 8
+    "cost": 8,
+    "arena": "space"
   },
   {
     "id": "SEC-143",
@@ -2007,7 +2111,8 @@
     "name": "The Elite Squad",
     "title": "Neutralizing Insurgents",
     "art": "https://cdn.swu-db.com/images/cards/SEC/143.png",
-    "cost": 8
+    "cost": 8,
+    "arena": "ground"
   },
   {
     "id": "SEC-144",
@@ -2049,7 +2154,8 @@
     ],
     "name": "Rebellious Functionary",
     "art": "https://cdn.swu-db.com/images/cards/SEC/146.png",
-    "cost": 1
+    "cost": 1,
+    "arena": "ground"
   },
   {
     "id": "SEC-147",
@@ -2064,7 +2170,8 @@
     "name": "Chopper",
     "title": "War Hero",
     "art": "https://cdn.swu-db.com/images/cards/SEC/147.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-148",
@@ -2079,7 +2186,8 @@
     "name": "Karis Nemik",
     "title": "Freedom is a Pure Idea",
     "art": "https://cdn.swu-db.com/images/cards/SEC/148.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-149",
@@ -2094,7 +2202,8 @@
     "name": "Kaydel Connix",
     "title": "For Our Survival",
     "art": "https://cdn.swu-db.com/images/cards/SEC/149.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-150",
@@ -2108,7 +2217,8 @@
     ],
     "name": "Valiant Commando",
     "art": "https://cdn.swu-db.com/images/cards/SEC/150.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-151",
@@ -2123,7 +2233,8 @@
     "name": "Kazuda Xiono",
     "title": "I'm Not A Spy",
     "art": "https://cdn.swu-db.com/images/cards/SEC/151.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-152",
@@ -2137,7 +2248,8 @@
     ],
     "name": "Strike Force X-Wing",
     "art": "https://cdn.swu-db.com/images/cards/SEC/152.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "space"
   },
   {
     "id": "SEC-153",
@@ -2152,7 +2264,8 @@
     "name": "Luthen's Haulcraft",
     "title": "Countermeasures Armed",
     "art": "https://cdn.swu-db.com/images/cards/SEC/153.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "space"
   },
   {
     "id": "SEC-154",
@@ -2166,7 +2279,8 @@
     ],
     "name": "Inner Rim Coalition",
     "art": "https://cdn.swu-db.com/images/cards/SEC/154.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-155",
@@ -2181,7 +2295,8 @@
     "name": "Alexsandr Kallus",
     "title": "With New Purpose",
     "art": "https://cdn.swu-db.com/images/cards/SEC/155.png",
-    "cost": 7
+    "cost": 7,
+    "arena": "ground"
   },
   {
     "id": "SEC-156",
@@ -2238,7 +2353,8 @@
     "name": "Chairman Papanoida",
     "title": "Undaunted Diplomat",
     "art": "https://cdn.swu-db.com/images/cards/SEC/159.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-160",
@@ -2251,7 +2367,8 @@
     ],
     "name": "Reckless Rebel",
     "art": "https://cdn.swu-db.com/images/cards/SEC/160.png",
-    "cost": 1
+    "cost": 1,
+    "arena": "ground"
   },
   {
     "id": "SEC-161",
@@ -2264,7 +2381,8 @@
     ],
     "name": "Contraband Starhopper",
     "art": "https://cdn.swu-db.com/images/cards/SEC/161.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "space"
   },
   {
     "id": "SEC-162",
@@ -2278,7 +2396,8 @@
     "name": "Crosshair",
     "title": "Filled With Doubt",
     "art": "https://cdn.swu-db.com/images/cards/SEC/162.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-163",
@@ -2291,7 +2410,8 @@
     ],
     "name": "Outer Rim Constable",
     "art": "https://cdn.swu-db.com/images/cards/SEC/163.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-164",
@@ -2304,7 +2424,8 @@
     ],
     "name": "Warrior of Clan Ordo",
     "art": "https://cdn.swu-db.com/images/cards/SEC/164.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-165",
@@ -2317,7 +2438,8 @@
     ],
     "name": "Academy Disciplinarian",
     "art": "https://cdn.swu-db.com/images/cards/SEC/165.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-166",
@@ -2330,7 +2452,8 @@
     ],
     "name": "Republic Aurek Starfighter",
     "art": "https://cdn.swu-db.com/images/cards/SEC/166.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "space"
   },
   {
     "id": "SEC-167",
@@ -2343,7 +2466,8 @@
     ],
     "name": "Coruscant Undercity Police",
     "art": "https://cdn.swu-db.com/images/cards/SEC/167.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-168",
@@ -2357,7 +2481,8 @@
     "name": "Ziton Moj",
     "title": "Black Sun Bully",
     "art": "https://cdn.swu-db.com/images/cards/SEC/168.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-169",
@@ -2370,7 +2495,8 @@
     ],
     "name": "AAT Incinerator",
     "art": "https://cdn.swu-db.com/images/cards/SEC/169.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-170",
@@ -2383,7 +2509,8 @@
     ],
     "name": "Corellian Hounds",
     "art": "https://cdn.swu-db.com/images/cards/SEC/170.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-171",
@@ -2397,7 +2524,8 @@
     "name": "Punishing One",
     "title": "Takes No Prisoners",
     "art": "https://cdn.swu-db.com/images/cards/SEC/171.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "space"
   },
   {
     "id": "SEC-172",
@@ -2411,7 +2539,8 @@
     "name": "Cinta Kaz",
     "title": "The Struggle Comes First",
     "art": "https://cdn.swu-db.com/images/cards/SEC/172.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-173",
@@ -2424,7 +2553,8 @@
     ],
     "name": "Republic War Walker",
     "art": "https://cdn.swu-db.com/images/cards/SEC/173.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-174",
@@ -2438,7 +2568,8 @@
     "name": "Saw Gerrera's U-Wing",
     "title": "Breaking the Rules",
     "art": "https://cdn.swu-db.com/images/cards/SEC/174.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "space"
   },
   {
     "id": "SEC-175",
@@ -2569,7 +2700,8 @@
     ],
     "name": "ISB Agent",
     "art": "https://cdn.swu-db.com/images/cards/SEC/184.png",
-    "cost": 1
+    "cost": 1,
+    "arena": "ground"
   },
   {
     "id": "SEC-185",
@@ -2583,7 +2715,8 @@
     ],
     "name": "Screeching TIE Fighter",
     "art": "https://cdn.swu-db.com/images/cards/SEC/185.png",
-    "cost": 1
+    "cost": 1,
+    "arena": "space"
   },
   {
     "id": "SEC-186",
@@ -2598,7 +2731,8 @@
     "name": "Garindan",
     "title": "Information Broker",
     "art": "https://cdn.swu-db.com/images/cards/SEC/186.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-187",
@@ -2613,7 +2747,8 @@
     "name": "General Grievous",
     "title": "Scuttling to Safety",
     "art": "https://cdn.swu-db.com/images/cards/SEC/187.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-188",
@@ -2628,7 +2763,8 @@
     "name": "Darth Traya",
     "title": "Lord of Betrayal",
     "art": "https://cdn.swu-db.com/images/cards/SEC/188.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-189",
@@ -2642,7 +2778,8 @@
     ],
     "name": "Lurking Snub Fighter",
     "art": "https://cdn.swu-db.com/images/cards/SEC/189.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "space"
   },
   {
     "id": "SEC-190",
@@ -2657,7 +2794,8 @@
     "name": "Soulless One",
     "title": "Swift and Agile",
     "art": "https://cdn.swu-db.com/images/cards/SEC/190.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "space"
   },
   {
     "id": "SEC-191",
@@ -2671,7 +2809,8 @@
     ],
     "name": "Trade Federation Delegates",
     "art": "https://cdn.swu-db.com/images/cards/SEC/191.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-192",
@@ -2686,7 +2825,8 @@
     "name": "Grand Moff Tarkin",
     "title": "Taking Krennic's Achievement",
     "art": "https://cdn.swu-db.com/images/cards/SEC/192.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-193",
@@ -2701,7 +2841,8 @@
     "name": "Grand Admiral Thrawn",
     "title": "Grand Schemer",
     "art": "https://cdn.swu-db.com/images/cards/SEC/193.png",
-    "cost": 7
+    "cost": 7,
+    "arena": "ground"
   },
   {
     "id": "SEC-194",
@@ -2757,7 +2898,8 @@
     ],
     "name": "Furtive Handmaiden",
     "art": "https://cdn.swu-db.com/images/cards/SEC/197.png",
-    "cost": 1
+    "cost": 1,
+    "arena": "ground"
   },
   {
     "id": "SEC-198",
@@ -2772,7 +2914,8 @@
     "name": "Bail Organa",
     "title": "Responding to Catastrophe",
     "art": "https://cdn.swu-db.com/images/cards/SEC/198.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-199",
@@ -2786,7 +2929,8 @@
     ],
     "name": "Bravo Squadron Fighter",
     "art": "https://cdn.swu-db.com/images/cards/SEC/199.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "space"
   },
   {
     "id": "SEC-200",
@@ -2800,7 +2944,8 @@
     ],
     "name": "Junior Senator",
     "art": "https://cdn.swu-db.com/images/cards/SEC/200.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-201",
@@ -2815,7 +2960,8 @@
     "name": "Anakin Skywalker",
     "title": "Secret Husband",
     "art": "https://cdn.swu-db.com/images/cards/SEC/201.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-202",
@@ -2829,7 +2975,8 @@
     ],
     "name": "Rebel Propagandist",
     "art": "https://cdn.swu-db.com/images/cards/SEC/202.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-203",
@@ -2844,7 +2991,8 @@
     "name": "Tala Durith",
     "title": "I Can Get You Inside",
     "art": "https://cdn.swu-db.com/images/cards/SEC/203.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-204",
@@ -2859,7 +3007,8 @@
     "name": "Blue Ace",
     "title": "Colorful Racer",
     "art": "https://cdn.swu-db.com/images/cards/SEC/204.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "space"
   },
   {
     "id": "SEC-205",
@@ -2874,7 +3023,8 @@
     "name": "Obi-Wan Kenobi",
     "title": "Finding What Doesn't Exist",
     "art": "https://cdn.swu-db.com/images/cards/SEC/205.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-206",
@@ -2888,7 +3038,8 @@
     ],
     "name": "Emissaries from Ryloth",
     "art": "https://cdn.swu-db.com/images/cards/SEC/206.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-207",
@@ -2903,7 +3054,8 @@
     "name": "Lightmaker",
     "title": "I Have An Idea",
     "art": "https://cdn.swu-db.com/images/cards/SEC/207.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "space"
   },
   {
     "id": "SEC-208",
@@ -2918,7 +3070,8 @@
     "name": "Hunter",
     "title": "Extraordinary Tracker",
     "art": "https://cdn.swu-db.com/images/cards/SEC/208.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-209",
@@ -2933,7 +3086,8 @@
     "name": "The Mandalorian",
     "title": "Cleaning Up Nevarro",
     "art": "https://cdn.swu-db.com/images/cards/SEC/209.png",
-    "cost": 8
+    "cost": 8,
+    "arena": "ground"
   },
   {
     "id": "SEC-210",
@@ -2976,7 +3130,8 @@
     "name": "Libertine",
     "title": "Under New Ownership",
     "art": "https://cdn.swu-db.com/images/cards/SEC/212.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "space"
   },
   {
     "id": "SEC-213",
@@ -2989,7 +3144,8 @@
     ],
     "name": "A-Wing",
     "art": "https://cdn.swu-db.com/images/cards/SEC/213.png",
-    "cost": 1
+    "cost": 1,
+    "arena": "space"
   },
   {
     "id": "SEC-214",
@@ -3002,7 +3158,8 @@
     ],
     "name": "Skyhopper Canyon Runner",
     "art": "https://cdn.swu-db.com/images/cards/SEC/214.png",
-    "cost": 1
+    "cost": 1,
+    "arena": "ground"
   },
   {
     "id": "SEC-215",
@@ -3015,7 +3172,8 @@
     ],
     "name": "Emissary's Sheathipede",
     "art": "https://cdn.swu-db.com/images/cards/SEC/215.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "space"
   },
   {
     "id": "SEC-216",
@@ -3028,7 +3186,8 @@
     ],
     "name": "Regulations Bureaucrat",
     "art": "https://cdn.swu-db.com/images/cards/SEC/216.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-217",
@@ -3041,7 +3200,8 @@
     ],
     "name": "Zenuas Shadow Fighter",
     "art": "https://cdn.swu-db.com/images/cards/SEC/217.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "space"
   },
   {
     "id": "SEC-218",
@@ -3055,7 +3215,8 @@
     "name": "Cikatro Vizago",
     "title": "Business is What Matters",
     "art": "https://cdn.swu-db.com/images/cards/SEC/218.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-219",
@@ -3069,7 +3230,8 @@
     "name": "Ebon Hawk",
     "title": "Cause and Effect",
     "art": "https://cdn.swu-db.com/images/cards/SEC/219.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "space"
   },
   {
     "id": "SEC-220",
@@ -3082,7 +3244,8 @@
     ],
     "name": "Hired Splicer",
     "art": "https://cdn.swu-db.com/images/cards/SEC/220.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-221",
@@ -3095,7 +3258,8 @@
     ],
     "name": "Unruly Astromech",
     "art": "https://cdn.swu-db.com/images/cards/SEC/221.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-222",
@@ -3108,7 +3272,8 @@
     ],
     "name": "Loan Shark",
     "art": "https://cdn.swu-db.com/images/cards/SEC/222.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-223",
@@ -3121,7 +3286,8 @@
     ],
     "name": "Duchess's Investigators",
     "art": "https://cdn.swu-db.com/images/cards/SEC/223.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-224",
@@ -3135,7 +3301,8 @@
     "name": "Vel Sartha",
     "title": "One Path, One Choice",
     "art": "https://cdn.swu-db.com/images/cards/SEC/224.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-225",
@@ -3149,7 +3316,8 @@
     "name": "Synara San",
     "title": "Harboring a Secret",
     "art": "https://cdn.swu-db.com/images/cards/SEC/225.png",
-    "cost": 7
+    "cost": 7,
+    "arena": "ground"
   },
   {
     "id": "SEC-226",
@@ -3305,7 +3473,8 @@
     ],
     "name": "Supreme Council Aide",
     "art": "https://cdn.swu-db.com/images/cards/SEC/237.png",
-    "cost": 1
+    "cost": 1,
+    "arena": "ground"
   },
   {
     "id": "SEC-238",
@@ -3318,7 +3487,8 @@
     ],
     "name": "Sith Assassin",
     "art": "https://cdn.swu-db.com/images/cards/SEC/238.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-239",
@@ -3331,7 +3501,8 @@
     ],
     "name": "Viper Probe Droid",
     "art": "https://cdn.swu-db.com/images/cards/SEC/239.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-240",
@@ -3344,7 +3515,8 @@
     ],
     "name": "Hutt Cartel Starfighter",
     "art": "https://cdn.swu-db.com/images/cards/SEC/240.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "space"
   },
   {
     "id": "SEC-241",
@@ -3357,7 +3529,8 @@
     ],
     "name": "Political Bully",
     "art": "https://cdn.swu-db.com/images/cards/SEC/241.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-242",
@@ -3371,7 +3544,8 @@
     "name": "Elia Kane",
     "title": "False Convert",
     "art": "https://cdn.swu-db.com/images/cards/SEC/242.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-243",
@@ -3384,7 +3558,8 @@
     ],
     "name": "FN Trooper Corps",
     "art": "https://cdn.swu-db.com/images/cards/SEC/243.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-244",
@@ -3398,7 +3573,8 @@
     "name": "Darth Nihilus",
     "title": "Lord of Hunger",
     "art": "https://cdn.swu-db.com/images/cards/SEC/244.png",
-    "cost": 7
+    "cost": 7,
+    "arena": "ground"
   },
   {
     "id": "SEC-245",
@@ -3451,7 +3627,8 @@
     "name": "B2EM0",
     "title": "That's Two Lies",
     "art": "https://cdn.swu-db.com/images/cards/SEC/248.png",
-    "cost": 1
+    "cost": 1,
+    "arena": "ground"
   },
   {
     "id": "SEC-249",
@@ -3464,7 +3641,8 @@
     ],
     "name": "High Command Councilor",
     "art": "https://cdn.swu-db.com/images/cards/SEC/249.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-250",
@@ -3477,7 +3655,8 @@
     ],
     "name": "Rebel Pathfinder",
     "art": "https://cdn.swu-db.com/images/cards/SEC/250.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-251",
@@ -3490,7 +3669,8 @@
     ],
     "name": "Crait Veteran",
     "art": "https://cdn.swu-db.com/images/cards/SEC/251.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-252",
@@ -3504,7 +3684,8 @@
     "name": "Maarva Andor",
     "title": "We've Been Sleeping",
     "art": "https://cdn.swu-db.com/images/cards/SEC/252.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-253",
@@ -3517,7 +3698,8 @@
     ],
     "name": "Covert Operative",
     "art": "https://cdn.swu-db.com/images/cards/SEC/253.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-254",
@@ -3530,7 +3712,8 @@
     ],
     "name": "Heroic ARC-170",
     "art": "https://cdn.swu-db.com/images/cards/SEC/254.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "space"
   },
   {
     "id": "SEC-255",
@@ -3543,7 +3726,8 @@
     ],
     "name": "Remote Escort Tank",
     "art": "https://cdn.swu-db.com/images/cards/SEC/255.png",
-    "cost": 6
+    "cost": 6,
+    "arena": "ground"
   },
   {
     "id": "SEC-256",
@@ -3593,7 +3777,8 @@
     "aspects": [],
     "name": "ASP Laborer",
     "art": "https://cdn.swu-db.com/images/cards/SEC/259.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "ground"
   },
   {
     "id": "SEC-260",
@@ -3604,7 +3789,8 @@
     "aspects": [],
     "name": "Inspector's Shuttle",
     "art": "https://cdn.swu-db.com/images/cards/SEC/260.png",
-    "cost": 2
+    "cost": 2,
+    "arena": "space"
   },
   {
     "id": "SEC-261",
@@ -3615,7 +3801,8 @@
     "aspects": [],
     "name": "Inspiring Senator",
     "art": "https://cdn.swu-db.com/images/cards/SEC/261.png",
-    "cost": 3
+    "cost": 3,
+    "arena": "ground"
   },
   {
     "id": "SEC-262",
@@ -3626,7 +3813,8 @@
     "aspects": [],
     "name": "Ando Commission",
     "art": "https://cdn.swu-db.com/images/cards/SEC/262.png",
-    "cost": 4
+    "cost": 4,
+    "arena": "ground"
   },
   {
     "id": "SEC-263",
@@ -3637,7 +3825,8 @@
     "aspects": [],
     "name": "Assassin Probe",
     "art": "https://cdn.swu-db.com/images/cards/SEC/263.png",
-    "cost": 5
+    "cost": 5,
+    "arena": "ground"
   },
   {
     "id": "SEC-264",
