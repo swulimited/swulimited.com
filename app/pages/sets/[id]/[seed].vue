@@ -268,6 +268,18 @@ const copyDeck = async () => {
   }
 }
 
+const isPoolLinkCopied = ref(false)
+
+const copyPoolLink = async () => {
+  try {
+    await navigator.clipboard.writeText(window.location.href)
+    isPoolLinkCopied.value = true
+    setTimeout(() => isPoolLinkCopied.value = false, 2000)
+  } catch (e) {
+    console.error('Failed to copy pool link', e)
+  }
+}
+
 
 const mouseX = ref(0)
 const mouseY = ref(0)
@@ -320,10 +332,10 @@ onUnmounted(() => {
         class="sticky top-20 max-h-[calc(100vh-5rem)] overflow-y-auto bg-swu-900/50 backdrop-blur-sm rounded-xl border border-swu-primary/20 p-4 shadow-lg custom-scrollbar">
 
 
-        <!-- Reroll Section -->
-        <div class="mb-6">
+        <!-- Reroll & Copy Section -->
+        <div class="mb-6 flex gap-2">
           <button @click="regeneratePool"
-            class="w-full flex items-center justify-center gap-2 py-2.5 px-4 bg-white/5 hover:bg-swu-primary hover:shadow-lg hover:shadow-swu-primary/30 text-gray-300 hover:text-white border border-white/10 hover:border-swu-primary/50 rounded-xl transition-all duration-300 group overflow-hidden relative">
+            class="flex-1 flex items-center justify-center gap-2 py-2.5 px-4 bg-white/5 hover:bg-swu-primary hover:shadow-lg hover:shadow-swu-primary/30 text-gray-300 hover:text-white border border-white/10 hover:border-swu-primary/50 rounded-xl transition-all duration-300 group overflow-hidden relative">
             <span
               class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent translate-x-[-200%] group-hover:animate-[shimmer_1.5s_infinite]"></span>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -332,6 +344,24 @@ onUnmounted(() => {
                 d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
             </svg>
             <span class="font-bold text-sm tracking-wide">New Pool</span>
+          </button>
+
+          <button @click="copyPoolLink"
+            class="flex-1 flex items-center justify-center gap-2 py-2.5 px-4 bg-white/5 hover:bg-swu-primary hover:shadow-lg hover:shadow-swu-primary/30 text-gray-300 hover:text-white border border-white/10 hover:border-swu-primary/50 rounded-xl transition-all duration-300 group overflow-hidden relative"
+            :title="isPoolLinkCopied ? 'Link Copied!' : 'Copy Pool Link'">
+            <span
+              class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent translate-x-[-200%] group-hover:animate-[shimmer_1.5s_infinite]"></span>
+            <svg v-if="!isPoolLinkCopied" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+              stroke-width="1.5" stroke="currentColor"
+              class="w-5 h-5 group-hover:scale-110 transition-transform duration-500">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+            </svg>
+            <svg v-else xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-5 h-5 animate-bounce text-emerald-400">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+            </svg>
+            <span class="font-bold text-sm tracking-wide">{{ isPoolLinkCopied ? 'Copied!' : 'Copy Pool' }}</span>
           </button>
         </div>
 
