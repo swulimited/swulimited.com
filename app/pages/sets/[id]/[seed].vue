@@ -114,38 +114,49 @@ interface Card {
 
 const hoveredCard = ref<Card | null>(null)
 const popupPosition = ref({ top: 0, left: 0, width: 300, height: 420 })
+let hoverTimeout: any
+
+const hidePopup = () => {
+  clearTimeout(hoverTimeout)
+  hoveredCard.value = null
+}
 
 const showPopup = (card: any, event: MouseEvent) => {
   if (window.matchMedia('(hover: none)').matches) return
-  hoveredCard.value = card
-  const el = event.currentTarget as HTMLElement
-  const rect = el.getBoundingClientRect()
 
-  const isLandscape = card.type === 'leader' || card.type === 'base'
-  // Standard card aspect ratio is 2.5:3.5 (width:height). So height = width * (3.5/2.5).
-  // Landscape card aspect ratio is 3.5:2.5 (width:height). So height = width * (2.5/3.5).
-  const ratio = isLandscape ? (2.5 / 3.5) : (3.5 / 2.5) // height / width
-  // Popup width is consistent, height varies
-  const popupWidth = isLandscape ? 450 : 300
-  const popupHeight = popupWidth * ratio
+  clearTimeout(hoverTimeout)
+  const target = event.currentTarget as HTMLElement
 
-  let left = rect.right + 20
-  // Center vertically relative to the card/list item
-  let top = rect.top + (rect.height / 2) - (popupHeight / 2)
+  hoverTimeout = setTimeout(() => {
+    hoveredCard.value = card
+    const rect = target.getBoundingClientRect()
 
-  // Flip to left if not enough space on right
-  if (left + popupWidth > window.innerWidth) {
-    left = rect.left - (popupWidth + 20)
-  }
+    const isLandscape = card.type === 'leader' || card.type === 'base'
+    // Standard card aspect ratio is 2.5:3.5 (width:height). So height = width * (3.5/2.5).
+    // Landscape card aspect ratio is 3.5:2.5 (width:height). So height = width * (2.5/3.5).
+    const ratio = isLandscape ? (2.5 / 3.5) : (3.5 / 2.5) // height / width
+    // Popup width is consistent, height varies
+    const popupWidth = isLandscape ? 450 : 300
+    const popupHeight = popupWidth * ratio
 
-  // Keep within vertical viewport bounds
-  if (top < 10) top = 10
-  if (top + popupHeight > window.innerHeight) top = window.innerHeight - popupHeight - 10
+    let left = rect.right + 20
+    // Center vertically relative to the card/list item
+    let top = rect.top + (rect.height / 2) - (popupHeight / 2)
 
-  // Ensure we don't cover the cursor/element if flipped
-  if (left < 0) left = 20;
+    // Flip to left if not enough space on right
+    if (left + popupWidth > window.innerWidth) {
+      left = rect.left - (popupWidth + 20)
+    }
 
-  popupPosition.value = { top, left, width: popupWidth, height: popupHeight }
+    // Keep within vertical viewport bounds
+    if (top < 10) top = 10
+    if (top + popupHeight > window.innerHeight) top = window.innerHeight - popupHeight - 10
+
+    // Ensure we don't cover the cursor/element if flipped
+    if (left < 0) left = 20;
+
+    popupPosition.value = { top, left, width: popupWidth, height: popupHeight }
+  }, 50)
 
 }
 
@@ -305,7 +316,7 @@ onUnmounted(() => {
 
     <!-- Permanent Sidebar: Leaders & Bases -->
     <aside class="md:w-80 flex-shrink-0 relative mt-4">
-      <div
+      <div @scroll.passive="handleScroll"
         class="sticky top-20 max-h-[calc(100vh-5rem)] overflow-y-auto bg-swu-900/50 backdrop-blur-sm rounded-xl border border-swu-primary/20 p-4 shadow-lg custom-scrollbar">
 
 
@@ -337,8 +348,7 @@ onUnmounted(() => {
                 selectedLeaderId === card.uniqueId
                   ? 'bg-swu-primary/20 text-white border-swu-primary/50 shadow-sm'
                   : 'text-gray-400 hover:bg-white/5 hover:text-white hover:border-white/10'
-              ]" @click="toggleLeader(card.uniqueId)" @mouseenter="showPopup(card, $event)"
-              @mouseleave="hoveredCard = null">
+              ]" @click="toggleLeader(card.uniqueId)" @mouseenter="showPopup(card, $event)" @mouseleave="hidePopup">
               <div class="flex items-center gap-3 overflow-hidden flex-1 min-w-0">
                 <span class="truncate text-sm font-medium">{{ card.name }}</span>
               </div>
@@ -366,8 +376,7 @@ onUnmounted(() => {
                 selectedBaseId === card.uniqueId
                   ? 'bg-swu-primary/20 text-white border-swu-primary/50 shadow-sm'
                   : 'text-gray-400 hover:bg-white/5 hover:text-white hover:border-white/10'
-              ]" @click="toggleBase(card.uniqueId)" @mouseenter="showPopup(card, $event)"
-              @mouseleave="hoveredCard = null">
+              ]" @click="toggleBase(card.uniqueId)" @mouseenter="showPopup(card, $event)" @mouseleave="hidePopup">
               <div class="flex items-center gap-3 overflow-hidden flex-1 min-w-0">
                 <span class="truncate text-sm font-medium">{{ card.name }}</span>
               </div>
@@ -477,8 +486,7 @@ onUnmounted(() => {
                 ? 'opacity-100 shadow-lg scale-[1.02]'
                 : 'opacity-40 grayscale',
               (selectedLeaderId && selectedBaseId) ? 'cursor-pointer' : 'cursor-not-allowed'
-            ]" @mouseenter="showPopup(card, $event)" @mouseleave="hoveredCard = null"
-            @click="toggleCard(card.uniqueId)">
+            ]" @mouseenter="showPopup(card, $event)" @mouseleave="hidePopup" @click="toggleCard(card.uniqueId)">
             <img :src="card.art" :alt="card.name" loading="lazy" class="w-full h-full object-cover" />
           </div>
         </div>
