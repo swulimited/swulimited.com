@@ -69,10 +69,6 @@ const poolCards = computed(() => {
 
   return cards.sort((a, b) => {
     if (sortBy.value === 'cost') {
-      const arenaA = a.arena || 'z'
-      const arenaB = b.arena || 'z'
-      if (arenaA !== arenaB) return arenaA.localeCompare(arenaB)
-
       const costA = a.cost ?? 0
       const costB = b.cost ?? 0
       if (costA !== costB) return costA - costB
