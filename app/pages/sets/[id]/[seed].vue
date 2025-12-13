@@ -610,7 +610,7 @@ onUnmounted(() => {
 
 
         <!-- Reroll & Copy Section -->
-        <div class="mb-6 flex gap-2">
+        <div class="mb-3 flex gap-2">
           <button @click="regeneratePool"
             class="flex-1 flex items-center justify-center gap-2 py-1.5 px-4 bg-white/5 hover:bg-swu-primary hover:shadow-lg hover:shadow-swu-primary/30 text-gray-300 hover:text-white border border-white/10 hover:border-swu-primary/50 rounded-xl transition-all duration-300 group overflow-hidden relative">
             <span
@@ -642,11 +642,63 @@ onUnmounted(() => {
           </button>
         </div>
 
+        <!-- Selected Leader & Base Display -->
+        <Transition
+          enter-active-class="transition-all duration-300 ease-out"
+          enter-from-class="opacity-0 -translate-y-4 scale-95"
+          enter-to-class="opacity-100 translate-y-0 scale-100"
+          leave-active-class="transition-all duration-200 ease-in"
+          leave-from-class="opacity-100 translate-y-0 scale-100"
+          leave-to-class="opacity-0 -translate-y-4 scale-95"
+        >
+          <div v-if="selectedLeader || selectedBase" class="grid grid-cols-2 gap-2">
+            <div class="relative group">
+              <Transition
+                mode="out-in"
+                enter-active-class="transition-all duration-200 ease-out"
+                enter-from-class="opacity-0 scale-95"
+                enter-to-class="opacity-100 scale-100"
+                leave-active-class="transition-all duration-150 ease-in"
+                leave-from-class="opacity-100 scale-100"
+                leave-to-class="opacity-0 scale-95"
+              >
+                <div v-if="selectedLeader" key="leader-img" class="cursor-pointer" @mouseenter="showPopup(selectedLeader, $event)" @mouseleave="hidePopup">
+                  <img :src="selectedLeader.art" :alt="selectedLeader.name" class="w-full h-auto max-h-[250px] object-contain rounded-lg shadow-md border border-swu-primary/30" />
+                </div>
+                <div v-else key="leader-placeholder" class="w-full aspect-[3.5/2.5] max-h-[250px] rounded-lg border-2 border-dashed border-white/10 flex items-center justify-center text-gray-600 text-xs">
+                  Select Leader
+                </div>
+              </Transition>
+            </div>
+            
+            <div class="relative group">
+              <Transition
+                mode="out-in"
+                enter-active-class="transition-all duration-200 ease-out"
+                enter-from-class="opacity-0 scale-95"
+                enter-to-class="opacity-100 scale-100"
+                leave-active-class="transition-all duration-150 ease-in"
+                leave-from-class="opacity-100 scale-100"
+                leave-to-class="opacity-0 scale-95"
+              >
+                <div v-if="selectedBase" key="base-img" class="cursor-pointer" @mouseenter="showPopup(selectedBase, $event)" @mouseleave="hidePopup">
+                  <img :src="selectedBase.art" :alt="selectedBase.name" class="w-full h-auto max-h-[250px] object-contain rounded-lg shadow-md border border-swu-primary/30" />
+                </div>
+                <div v-else key="base-placeholder" class="w-full aspect-[3.5/2.5] max-h-[250px] rounded-lg border-2 border-dashed border-white/10 flex items-center justify-center text-gray-600 text-xs">
+                  Select Base
+                </div>
+              </Transition>
+            </div>
+          </div>
+        </Transition>
+
         <!-- Leaders Section -->
-        <div class="mb-6">
+        <div class="mb-6 mt-6">
           <div class="flex items-center justify-between mb-3 px-1">
             <h3 class="text-xs font-semibold text-swu-primary uppercase tracking-wider">Leaders</h3>
           </div>
+
+
 
           <div v-if="leaders && leaders.length > 0" class="space-y-1">
             <div v-for="card in leaders" :key="card.uniqueId" :data-unique-id="card.uniqueId"
@@ -675,6 +727,8 @@ onUnmounted(() => {
           <div class="flex items-center justify-between mb-3 px-1">
             <h3 class="text-xs font-semibold text-swu-primary uppercase tracking-wider">Bases</h3>
           </div>
+
+
 
           <div v-if="bases && bases.length > 0" class="space-y-1">
             <div v-for="card in bases" :key="card.uniqueId" :data-unique-id="card.uniqueId"
