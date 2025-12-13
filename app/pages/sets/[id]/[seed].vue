@@ -13,19 +13,10 @@ import { Bar, Pie } from 'vue-chartjs'
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement)
 
-interface Card {
-  id: string
+import type { Card as BoosterCard } from '~/utils/booster'
+
+interface Card extends BoosterCard {
   uniqueId: string
-  name: string
-  title?: string
-  art: string
-  aspects: string[]
-  cost?: number
-  number: number
-  type: string
-  rarity: string
-  arena?: string
-  [key: string]: any
 }
 const route = useRoute()
 const router = useRouter()

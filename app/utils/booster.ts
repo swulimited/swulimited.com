@@ -8,6 +8,8 @@ export type CardRarity = 'common' | 'uncommon' | 'rare' | 'legendary' | 'special
 
 export type CardAspect = 'vigilance' | 'command' | 'aggression' | 'cunning' | 'villainy' | 'heroism';
 
+export type UnitArena = 'ground' | 'space';
+
 export interface Card {
     id: string;
     set: CardSet;
@@ -19,6 +21,8 @@ export interface Card {
     title?: string;
     art: string;
     cost?: number;
+    arena?: UnitArena;
+    traits?: string[];
 }
 
 /**
