@@ -643,7 +643,7 @@ onUnmounted(() => {
         </div>
 
         <!-- Selected Leader & Base Display -->
-        <div class="grid grid-cols-2 gap-2 h-28">
+        <div class="grid grid-cols-2 gap-2 h-28 mb-2">
           <div class="relative group flex justify-center items-center h-full">
             <Transition mode="out-in" enter-active-class="transition-all duration-200 ease-out"
               enter-from-class="opacity-0 scale-95" enter-to-class="opacity-100 scale-100"
@@ -682,7 +682,7 @@ onUnmounted(() => {
         </div>
 
         <!-- Leaders Section -->
-        <div class="mb-3 mt-5 md:mt-3">
+        <div class="mb-3 mt- md:mt-3">
           <div class="flex items-center justify-between mb-1 px-1">
             <h3 class="text-xs font-semibold text-swu-primary uppercase tracking-wider">Leaders</h3>
           </div>
