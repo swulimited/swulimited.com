@@ -682,7 +682,7 @@ onUnmounted(() => {
         </div>
 
         <!-- Leaders Section -->
-        <div class="mb-2 mt-4 md:mt-1 lg:mt-3">
+        <div class="mb-3 mt-5 md:mt-3">
           <div class="flex items-center justify-between mb-1 px-1">
             <h3 class="text-xs font-semibold text-swu-primary uppercase tracking-wider">Leaders</h3>
           </div>
