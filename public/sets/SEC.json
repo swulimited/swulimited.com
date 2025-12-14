@@ -307,7 +307,7 @@
       "cunning",
       "heroism"
     ],
-    "name": "Padm\u00e9 Amidala",
+    "name": "Padmé Amidala",
     "title": "What Do You Have to Hide?",
     "art": "https://cdn.swu-db.com/images/cards/SEC/016.png",
     "cost": 6,
@@ -328,7 +328,7 @@
       "cunning",
       "heroism"
     ],
-    "name": "Sab\u00e9",
+    "name": "Sabé",
     "title": "Queen's Shadow",
     "art": "https://cdn.swu-db.com/images/cards/SEC/017.png",
     "cost": 5,
@@ -367,7 +367,8 @@
     ],
     "name": "Rix Road",
     "title": "Ferrix",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/019.png"
+    "art": "https://cdn.swu-db.com/images/cards/SEC/019.png",
+    "hp": 30
   },
   {
     "id": "SEC-020",
@@ -380,7 +381,8 @@
     ],
     "name": "Uscru Entertainment District",
     "title": "Coruscant",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/020.png"
+    "art": "https://cdn.swu-db.com/images/cards/SEC/020.png",
+    "hp": 30
   },
   {
     "id": "SEC-021",
@@ -393,7 +395,8 @@
     ],
     "name": "Republic City",
     "title": "Hosnian Prime",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/021.png"
+    "art": "https://cdn.swu-db.com/images/cards/SEC/021.png",
+    "hp": 30
   },
   {
     "id": "SEC-022",
@@ -406,7 +409,8 @@
     ],
     "name": "Senate Rotunda",
     "title": "Coruscant",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/022.png"
+    "art": "https://cdn.swu-db.com/images/cards/SEC/022.png",
+    "hp": 30
   },
   {
     "id": "SEC-023",
@@ -419,7 +423,8 @@
     ],
     "name": "Imperial Prison Complex",
     "title": "Narona 5",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/023.png"
+    "art": "https://cdn.swu-db.com/images/cards/SEC/023.png",
+    "hp": 30
   },
   {
     "id": "SEC-024",
@@ -432,7 +437,8 @@
     ],
     "name": "Naval Intelligence HQ",
     "title": "Coruscant",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/024.png"
+    "art": "https://cdn.swu-db.com/images/cards/SEC/024.png",
+    "hp": 30
   },
   {
     "id": "SEC-025",
@@ -445,7 +451,8 @@
     ],
     "name": "Amnesty Housing",
     "title": "Coruscant",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/025.png"
+    "art": "https://cdn.swu-db.com/images/cards/SEC/025.png",
+    "hp": 30
   },
   {
     "id": "SEC-026",
@@ -458,7 +465,8 @@
     ],
     "name": "Mount Tantiss",
     "title": "Wayland",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/026.png"
+    "art": "https://cdn.swu-db.com/images/cards/SEC/026.png",
+    "hp": 30
   },
   {
     "id": "SEC-027",

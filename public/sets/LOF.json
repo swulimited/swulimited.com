@@ -380,7 +380,8 @@
     ],
     "name": "Vergence Temple",
     "title": "Lothal",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/019.png"
+    "art": "https://cdn.swu-db.com/images/cards/LOF/019.png",
+    "hp": 25
   },
   {
     "id": "LOF-020",
@@ -393,7 +394,8 @@
     ],
     "name": "Nightsister Lair",
     "title": "Dathomir",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/020.png"
+    "art": "https://cdn.swu-db.com/images/cards/LOF/020.png",
+    "hp": 28
   },
   {
     "id": "LOF-021",
@@ -406,7 +408,8 @@
     ],
     "name": "Shadowed Undercity",
     "title": "Coruscant",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/021.png"
+    "art": "https://cdn.swu-db.com/images/cards/LOF/021.png",
+    "hp": 28
   },
   {
     "id": "LOF-022",
@@ -419,7 +422,8 @@
     ],
     "name": "Mystic Monastery",
     "title": "Mortis",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/022.png"
+    "art": "https://cdn.swu-db.com/images/cards/LOF/022.png",
+    "hp": 25
   },
   {
     "id": "LOF-023",
@@ -432,7 +436,8 @@
     ],
     "name": "Jedi Temple",
     "title": "Coruscant",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/023.png"
+    "art": "https://cdn.swu-db.com/images/cards/LOF/023.png",
+    "hp": 28
   },
   {
     "id": "LOF-024",
@@ -445,7 +450,8 @@
     ],
     "name": "Starlight Temple",
     "title": "Starlight Beacon",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/024.png"
+    "art": "https://cdn.swu-db.com/images/cards/LOF/024.png",
+    "hp": 28
   },
   {
     "id": "LOF-025",
@@ -458,7 +464,8 @@
     ],
     "name": "Temple of Destruction",
     "title": "Malachor",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/025.png"
+    "art": "https://cdn.swu-db.com/images/cards/LOF/025.png",
+    "hp": 25
   },
   {
     "id": "LOF-026",
@@ -471,7 +478,8 @@
     ],
     "name": "Fortress Vader",
     "title": "Mustafar",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/026.png"
+    "art": "https://cdn.swu-db.com/images/cards/LOF/026.png",
+    "hp": 28
   },
   {
     "id": "LOF-027",
@@ -484,7 +492,8 @@
     ],
     "name": "Strangled Cliffs",
     "title": "Dathomir",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/027.png"
+    "art": "https://cdn.swu-db.com/images/cards/LOF/027.png",
+    "hp": 28
   },
   {
     "id": "LOF-028",
@@ -497,7 +506,8 @@
     ],
     "name": "Tomb of Eilram",
     "title": "Zeffo",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/028.png"
+    "art": "https://cdn.swu-db.com/images/cards/LOF/028.png",
+    "hp": 25
   },
   {
     "id": "LOF-029",
@@ -510,7 +520,8 @@
     ],
     "name": "Crystal Caves",
     "title": "Ilum",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/029.png"
+    "art": "https://cdn.swu-db.com/images/cards/LOF/029.png",
+    "hp": 28
   },
   {
     "id": "LOF-030",
@@ -523,7 +534,8 @@
     ],
     "name": "The Holy City",
     "title": "Jedha",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/030.png"
+    "art": "https://cdn.swu-db.com/images/cards/LOF/030.png",
+    "hp": 28
   },
   {
     "id": "LOF-031",
@@ -1214,7 +1226,7 @@
     "aspects": [
       "vigilance"
     ],
-    "name": "Chirrut \u00cemwe",
+    "name": "Chirrut Îmwe",
     "title": "Blind, but not Deaf",
     "art": "https://cdn.swu-db.com/images/cards/LOF/067.png",
     "cost": 4,
@@ -1479,7 +1491,7 @@
       "command",
       "villainy"
     ],
-    "name": "Vane\u00e9",
+    "name": "Vaneé",
     "title": "I Live to Serve",
     "art": "https://cdn.swu-db.com/images/cards/LOF/082.png",
     "cost": 2,
