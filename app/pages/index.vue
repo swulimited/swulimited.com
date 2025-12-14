@@ -8,8 +8,8 @@ useSeoMeta({
 </script>
 
 <template>
-  <div class="flex flex-col items-center justify-center py-2 text-center">
-    <div class="flex flex-row gap-4 md:gap-10 items-center justify-center mt-2">
+  <div class="flex flex-col items-center justify-center text-center">
+    <div class="flex flex-row gap-4 md:gap-10 items-center justify-center mt-4">
       <NuxtLink to="/sets/LOF"
         class="group relative block w-36 md:w-52 transition-transform duration-300 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-swu-primary/50 rounded-xl">
         <img src="/images/LOF-cover.jpg" alt="Legends of the Force"
