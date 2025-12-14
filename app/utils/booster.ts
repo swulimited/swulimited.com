@@ -23,6 +23,7 @@ export interface Card {
     cost?: number;
     arena?: UnitArena;
     traits?: string[];
+    hp?: number;
 }
 
 /**
@@ -224,6 +225,17 @@ export async function generateSealedPool(configStr: string, seed?: string): Prom
     const poolWithoutCommonBases = rawPool.filter(c => !(c.type === 'base' && c.rarity === 'common'));
     const openedCommonBases = rawPool.filter(c => c.type === 'base' && c.rarity === 'common');
 
+    // Helper to get base signature (aspects + hp)
+    const getBaseSignature = (c: Card) => {
+        const aspects = [...(c.aspects || [])].sort().join(',');
+        const hp = c.hp || 0;
+        return `${aspects}|${hp}`;
+    };
+
+    // Track which base signatures are already covered by the opened boosters
+    const coveredBaseSignatures = new Set<string>();
+    openedCommonBases.forEach(c => coveredBaseSignatures.add(getBaseSignature(c)));
+
     // Get all available common bases from ALL used sets
     // This allows you to pick a base provided by any of the sets you opened
     let allSetCommonBases: Card[] = [];
@@ -232,25 +244,42 @@ export async function generateSealedPool(configStr: string, seed?: string): Prom
         allSetCommonBases = [...allSetCommonBases, ...setBases];
     }
 
-    // Combine opened + set bases. Order ensures we process them, but since we dedup by aspect it mostly matters which art we pick first.
-    // We prioritize opened ones simply by order (though functionally identical usually).
-    const baseCandidates = [...openedCommonBases, ...allSetCommonBases];
+    const extraBases: Card[] = [];
 
-    const uniqueCommonBases: Card[] = [];
-    const seenAspects = new Set<string>();
+    // Iterate through all available common bases and add ANY missing signature
+    for (const base of allSetCommonBases) {
+        const signature = getBaseSignature(base);
+        // If we don't have a base with this signature yet, add it
+        // We also check by ID to be absolutely sure we don't re-add a base we already opened
+        const isAlreadyOpened = openedCommonBases.some(opened => opened.id === base.id);
 
-    const getAspectIds = (c: Card) => [...c.aspects].sort().join(',');
-
-    for (const base of baseCandidates) {
-        const aspects = getAspectIds(base);
-        // Only add if we haven't seen this aspect combination for a COMMON base yet
-        if (!seenAspects.has(aspects)) {
-            uniqueCommonBases.push(base);
-            seenAspects.add(aspects);
+        if (!coveredBaseSignatures.has(signature) && !isAlreadyOpened) {
+            extraBases.push(base);
+            coveredBaseSignatures.add(signature);
         }
     }
 
-    return [...poolWithoutCommonBases, ...uniqueCommonBases];
+    // Calculate total boosters opened
+    const totalBoosters = Object.values(config).reduce((sum, val) => sum + val, 0);
+
+    // Count current total bases
+    const rareBasesCount = poolWithoutCommonBases.filter(c => c.type === 'base').length;
+    const totalBases = rareBasesCount + openedCommonBases.length + extraBases.length;
+
+    let finalOpenedCommonBases = openedCommonBases;
+
+    // If we have more bases than boosters, remove duplicates from the opened common bases
+    if (totalBases > totalBoosters) {
+        const uniqueSignatures = new Set<string>();
+        finalOpenedCommonBases = openedCommonBases.filter(base => {
+            const signature = getBaseSignature(base);
+            if (uniqueSignatures.has(signature)) return false;
+            uniqueSignatures.add(signature);
+            return true;
+        });
+    }
+
+    return [...poolWithoutCommonBases, ...finalOpenedCommonBases, ...extraBases];
 }
 
 /**
