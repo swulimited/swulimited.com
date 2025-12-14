@@ -643,58 +643,47 @@ onUnmounted(() => {
         </div>
 
         <!-- Selected Leader & Base Display -->
-        <Transition
-          enter-active-class="transition-all duration-300 ease-out"
-          enter-from-class="opacity-0 -translate-y-4 scale-95"
-          enter-to-class="opacity-100 translate-y-0 scale-100"
-          leave-active-class="transition-all duration-200 ease-in"
-          leave-from-class="opacity-100 translate-y-0 scale-100"
-          leave-to-class="opacity-0 -translate-y-4 scale-95"
-        >
-          <div v-if="selectedLeader || selectedBase" class="grid grid-cols-2 gap-2">
-            <div class="relative group">
-              <Transition
-                mode="out-in"
-                enter-active-class="transition-all duration-200 ease-out"
-                enter-from-class="opacity-0 scale-95"
-                enter-to-class="opacity-100 scale-100"
-                leave-active-class="transition-all duration-150 ease-in"
-                leave-from-class="opacity-100 scale-100"
-                leave-to-class="opacity-0 scale-95"
-              >
-                <div v-if="selectedLeader" key="leader-img" class="cursor-pointer" @mouseenter="showPopup(selectedLeader, $event)" @mouseleave="hidePopup">
-                  <img :src="selectedLeader.art" :alt="selectedLeader.name" class="w-full h-auto max-h-[250px] object-contain rounded-lg shadow-md border border-swu-primary/30" />
-                </div>
-                <div v-else key="leader-placeholder" class="w-full aspect-[3.5/2.5] max-h-[250px] rounded-lg border-2 border-dashed border-white/10 flex items-center justify-center text-gray-600 text-xs">
-                  Select Leader
-                </div>
-              </Transition>
-            </div>
-            
-            <div class="relative group">
-              <Transition
-                mode="out-in"
-                enter-active-class="transition-all duration-200 ease-out"
-                enter-from-class="opacity-0 scale-95"
-                enter-to-class="opacity-100 scale-100"
-                leave-active-class="transition-all duration-150 ease-in"
-                leave-from-class="opacity-100 scale-100"
-                leave-to-class="opacity-0 scale-95"
-              >
-                <div v-if="selectedBase" key="base-img" class="cursor-pointer" @mouseenter="showPopup(selectedBase, $event)" @mouseleave="hidePopup">
-                  <img :src="selectedBase.art" :alt="selectedBase.name" class="w-full h-auto max-h-[250px] object-contain rounded-lg shadow-md border border-swu-primary/30" />
-                </div>
-                <div v-else key="base-placeholder" class="w-full aspect-[3.5/2.5] max-h-[250px] rounded-lg border-2 border-dashed border-white/10 flex items-center justify-center text-gray-600 text-xs">
-                  Select Base
-                </div>
-              </Transition>
-            </div>
+        <div class="grid grid-cols-2 gap-2 h-28">
+          <div class="relative group flex justify-center items-center h-full">
+            <Transition mode="out-in" enter-active-class="transition-all duration-200 ease-out"
+              enter-from-class="opacity-0 scale-95" enter-to-class="opacity-100 scale-100"
+              leave-active-class="transition-all duration-150 ease-in" leave-from-class="opacity-100 scale-100"
+              leave-to-class="opacity-0 scale-95">
+              <div v-if="selectedLeader" key="leader-img"
+                class="cursor-pointer w-full h-full flex justify-center items-center"
+                @mouseenter="showPopup(selectedLeader, $event)" @mouseleave="hidePopup">
+                <img :src="selectedLeader.art" :alt="selectedLeader.name"
+                  class="w-full h-auto max-h-full object-contain rounded-lg shadow-md border border-swu-primary/30" />
+              </div>
+              <div v-else key="leader-placeholder"
+                class="w-full h-auto aspect-[3.5/2.5] max-h-full rounded-lg border-2 border-dashed border-white/10 flex items-center justify-center text-gray-600 text-xs hover:border-white/20 transition-colors">
+                Select Leader
+              </div>
+            </Transition>
           </div>
-        </Transition>
+
+          <div class="relative group flex justify-center items-center h-full">
+            <Transition mode="out-in" enter-active-class="transition-all duration-200 ease-out"
+              enter-from-class="opacity-0 scale-95" enter-to-class="opacity-100 scale-100"
+              leave-active-class="transition-all duration-150 ease-in" leave-from-class="opacity-100 scale-100"
+              leave-to-class="opacity-0 scale-95">
+              <div v-if="selectedBase" key="base-img"
+                class="cursor-pointer w-full h-full flex justify-center items-center"
+                @mouseenter="showPopup(selectedBase, $event)" @mouseleave="hidePopup">
+                <img :src="selectedBase.art" :alt="selectedBase.name"
+                  class="w-full h-auto max-h-full object-contain rounded-lg shadow-md border border-swu-primary/30" />
+              </div>
+              <div v-else key="base-placeholder"
+                class="w-full h-auto aspect-[3.5/2.5] max-h-full rounded-lg border-2 border-dashed border-white/10 flex items-center justify-center text-gray-600 text-xs hover:border-white/20 transition-colors">
+                Select Base
+              </div>
+            </Transition>
+          </div>
+        </div>
 
         <!-- Leaders Section -->
-        <div class="mb-6 mt-6">
-          <div class="flex items-center justify-between mb-3 px-1">
+        <div class="mb-3 mt-3">
+          <div class="flex items-center justify-between mb-1 px-1">
             <h3 class="text-xs font-semibold text-swu-primary uppercase tracking-wider">Leaders</h3>
           </div>
 
@@ -702,7 +691,7 @@ onUnmounted(() => {
 
           <div v-if="leaders && leaders.length > 0" class="space-y-1">
             <div v-for="card in leaders" :key="card.uniqueId" :data-unique-id="card.uniqueId"
-              class="flex items-center justify-between p-2 rounded-lg cursor-pointer transition-all duration-200 border border-transparent"
+              class="flex items-center justify-between p-1.5 rounded-lg cursor-pointer transition-all duration-200 border border-transparent"
               :class="[
                 selectedLeaderId === card.uniqueId
                   ? 'bg-swu-primary/20 text-white border-swu-primary/50 shadow-sm'
@@ -724,7 +713,7 @@ onUnmounted(() => {
 
         <!-- Bases Section -->
         <div>
-          <div class="flex items-center justify-between mb-3 px-1">
+          <div class="flex items-center justify-between mb-1 px-1">
             <h3 class="text-xs font-semibold text-swu-primary uppercase tracking-wider">Bases</h3>
           </div>
 
@@ -732,7 +721,7 @@ onUnmounted(() => {
 
           <div v-if="bases && bases.length > 0" class="space-y-1">
             <div v-for="card in bases" :key="card.uniqueId" :data-unique-id="card.uniqueId"
-              class="flex items-center justify-between p-2 rounded-lg cursor-pointer transition-all duration-200 border border-transparent"
+              class="flex items-center justify-between p-1.5 rounded-lg cursor-pointer transition-all duration-200 border border-transparent"
               :class="[
                 selectedBaseId === card.uniqueId
                   ? 'bg-swu-primary/20 text-white border-swu-primary/50 shadow-sm'
