@@ -274,7 +274,7 @@ const copyDeck = async () => {
   }
 
   try {
-    await navigator.clipboard.writeText(JSON.stringify(exportData, null, 2))
+    await navigator.clipboard.writeText(JSON.stringify(exportData))
     isCopied.value = true
     setTimeout(() => isCopied.value = false, 2000)
   } catch (e) {
