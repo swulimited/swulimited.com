@@ -73,7 +73,7 @@ const startCustomEvent = () => {
               Configure Packs
             </h3>
             
-            <div class="space-y-4">
+            <div class="space-y-2 mb-8">
                  <div v-for="set in availableSets" :key="set.code" class="flex items-center justify-between">
                      <span class="text-gray-300 font-medium text-sm mr-8">{{ set.name }}</span>
                      <div class="flex items-center gap-3 bg-black/40 rounded-lg p-1 border border-white/5">
