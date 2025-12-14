@@ -20,19 +20,19 @@ interface Card extends BoosterCard {
 }
 const route = useRoute()
 const router = useRouter()
-const setId = computed(() => (route.params.id as string).toUpperCase())
+const packConfig = computed(() => (route.params.id as string).toUpperCase())
 
 // 1. Determine the seed from the route param
 // This computed property automatically updates when the route param changes
 const seed = computed(() => route.params.seed as string)
 
 useSeoMeta({
-  robots: () => ['SEC', 'LOF'].includes(setId.value) ? 'noindex, nofollow' : 'index, follow'
+  robots: 'noindex, nofollow'
 })
 
 const { data: rawCards, error, status } = await useAsyncData(
-  `sealed-pool-${setId.value}-${seed.value}`,
-  () => generateSealedPool(setId.value, seed.value),
+  `sealed-pool-${packConfig.value}-${seed.value}`,
+  () => generateSealedPool(packConfig.value, seed.value),
   {
     lazy: true,
     watch: [seed]
@@ -41,7 +41,7 @@ const { data: rawCards, error, status } = await useAsyncData(
 
 const regeneratePool = () => {
   const newSeed = Math.random().toString(36).substring(7)
-  router.push(`/sets/${setId.value}/${newSeed}`)
+  router.push(`/sets/${packConfig.value}/${newSeed}`)
   resetOptions()
 }
 

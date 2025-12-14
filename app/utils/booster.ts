@@ -142,16 +142,63 @@ export function generateBoosterPack(allCards: Card[], rng: seedrandom.PRNG): Car
 }
 
 /**
- * Generates a sealed pool from 6 booster packs.
- * @param setId The set ID (e.g., 'LOF').
- * @param seed Optional seed for reproducible generation.
- * @returns A promise that resolves to a flat list of cards from 6 boosters.
+ * Parses a pack configuration string into a map of Set ID to number of packs.
+ * Formats:
+ * - "LOF" -> { LOF: 6 }
+ * - "LOF-6" -> { LOF: 6 }
+ * - "LOF-3_SEC-3" -> { LOF: 3, SEC: 3 }
  */
-export async function generateSealedPool(setId: string, seed?: string): Promise<Card[]> {
-    const allCards = await fetchSetCards(setId);
+export function parsePackConfig(configStr: string): Record<string, number> {
+    const result: Record<string, number> = {};
+    const parts = configStr.split('_');
 
-    if (allCards.length === 0) {
-        console.warn(`No cards found for set ${setId}, returning empty pool.`);
+    // Legacy/Simple format: "LOF" -> 6 packs
+    const firstPart = parts[0];
+    if (parts.length === 1 && firstPart && !firstPart.includes('-')) {
+        result[firstPart] = 6;
+        return result;
+    }
+
+    for (const part of parts) {
+        const split = part.split('-');
+        if (split.length < 2) continue;
+
+        const set = split[0];
+        const countStr = split[1];
+
+        if (set && countStr) {
+            const count = parseInt(countStr, 10);
+            if (!isNaN(count)) {
+                result[set] = count;
+            }
+        }
+    }
+    return result;
+}
+
+/**
+ * Generates a sealed pool based on a configuration string.
+ * @param configStr The pack configuration (e.g., 'LOF', 'LOF-3_SEC-3').
+ * @param seed Optional seed for reproducible generation.
+ * @returns A promise that resolves to a flat list of cards.
+ */
+export async function generateSealedPool(configStr: string, seed?: string): Promise<Card[]> {
+    const config = parsePackConfig(configStr);
+    const setIds = Object.keys(config);
+
+    // Fetch all required sets
+    const setsCards = new Map<string, Card[]>();
+    for (const setId of setIds) {
+        const cards = await fetchSetCards(setId);
+        if (cards.length > 0) {
+            setsCards.set(setId, cards);
+        } else {
+            console.warn(`No cards found for set ${setId}`);
+        }
+    }
+
+    // If no valid sets found, return empty
+    if (setsCards.size === 0) {
         return [];
     }
 
@@ -160,9 +207,16 @@ export async function generateSealedPool(setId: string, seed?: string): Promise<
     const rng = seedrandom(rngSeed);
 
     const rawPool: Card[] = [];
-    for (let i = 0; i < 6; i++) {
-        const booster = generateBoosterPack(allCards, rng);
-        rawPool.push(...booster);
+
+    // Generate boosters for each set in config
+    for (const [setId, count] of Object.entries(config)) {
+        const setCards = setsCards.get(setId);
+        if (!setCards) continue;
+
+        for (let i = 0; i < count; i++) {
+            const booster = generateBoosterPack(setCards, rng);
+            rawPool.push(...booster);
+        }
     }
 
     // Filter out common bases from the initial pool to handle them separately
@@ -170,8 +224,13 @@ export async function generateSealedPool(setId: string, seed?: string): Promise<
     const poolWithoutCommonBases = rawPool.filter(c => !(c.type === 'base' && c.rarity === 'common'));
     const openedCommonBases = rawPool.filter(c => c.type === 'base' && c.rarity === 'common');
 
-    // Get all available common bases from the set
-    const allSetCommonBases = allCards.filter(c => c.type === 'base' && c.rarity === 'common');
+    // Get all available common bases from ALL used sets
+    // This allows you to pick a base provided by any of the sets you opened
+    let allSetCommonBases: Card[] = [];
+    for (const [setId, cards] of setsCards) {
+        const setBases = cards.filter(c => c.type === 'base' && c.rarity === 'common');
+        allSetCommonBases = [...allSetCommonBases, ...setBases];
+    }
 
     // Combine opened + set bases. Order ensures we process them, but since we dedup by aspect it mostly matters which art we pick first.
     // We prioritize opened ones simply by order (though functionally identical usually).
