@@ -136,7 +136,7 @@ const hidePopup = () => {
 }
 
 const showPopup = (card: any, event: MouseEvent) => {
-  if (window.matchMedia('(hover: none)').matches) return
+  if (window.matchMedia('(hover: none)').matches || window.matchMedia('(pointer: coarse)').matches) return
 
   clearTimeout(hoverTimeout)
   const target = event.currentTarget as HTMLElement
@@ -550,8 +550,8 @@ const traitChartOptions = {
 
 
 
-const mouseX = ref(0)
-const mouseY = ref(0)
+const mouseX = ref(-1000)
+const mouseY = ref(-1000)
 const updateMousePos = (e: MouseEvent) => {
   mouseX.value = e.clientX
   mouseY.value = e.clientY
