@@ -10,6 +10,17 @@ import {
   ArcElement
 } from 'chart.js'
 import { Bar, Pie } from 'vue-chartjs'
+import {
+  ArrowPathIcon,
+  LinkIcon,
+  CheckIcon,
+  ExclamationCircleIcon,
+  ClipboardDocumentIcon,
+  ChartBarIcon,
+  RectangleStackIcon,
+  TrashIcon,
+  XMarkIcon
+} from '@heroicons/vue/24/outline'
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement)
 
@@ -53,6 +64,7 @@ const processedCards = computed<Card[]>(() => {
 })
 
 const sortBy = ref<'number' | 'cost'>('number')
+
 
 const poolCards = computed(() => {
   const cards = processedCards.value
@@ -137,6 +149,11 @@ const hidePopup = () => {
 
 const showPopup = (card: any, event: MouseEvent) => {
   if (window.matchMedia('(hover: none)').matches || window.matchMedia('(pointer: coarse)').matches) return
+
+  if (showDrawDialog.value) {
+    const target = event.currentTarget as HTMLElement
+    if (!target.closest('.draw-dialog-content')) return
+  }
 
   clearTimeout(hoverTimeout)
   const target = event.currentTarget as HTMLElement
@@ -295,6 +312,34 @@ const copyPoolLink = async () => {
 }
 
 const showStats = ref(false)
+const showDrawDialog = ref(false)
+const drawnHand = ref<Card[]>([])
+const revealedCount = ref(0)
+
+let revealInterval: any
+
+const drawHand = () => {
+  clearInterval(revealInterval)
+
+  const deckList = processedCards.value.filter(c => selectedCardIds.value.has(c.uniqueId))
+  const shuffled = [...deckList].sort(() => 0.5 - Math.random())
+  const hand = shuffled.slice(0, 6)
+
+  drawnHand.value = hand
+  revealedCount.value = 0
+  showDrawDialog.value = true
+
+  const tick = () => {
+    if (revealedCount.value < hand.length) {
+      revealedCount.value++
+    } else {
+      clearInterval(revealInterval)
+    }
+  }
+
+  tick()
+  revealInterval = setInterval(tick, 20)
+}
 
 const statsByCostAndType = computed(() => {
   const selected = processedCards.value.filter(c => selectedCardIds.value.has(c.uniqueId))
@@ -580,8 +625,9 @@ const handleScroll = () => {
 }
 
 const handleKeydown = (e: KeyboardEvent) => {
-  if (e.key === 'Escape' && showStats.value) {
-    showStats.value = false
+  if (e.key === 'Escape') {
+    if (showStats.value) showStats.value = false
+    if (showDrawDialog.value) showDrawDialog.value = false
   }
 }
 
@@ -615,11 +661,7 @@ onUnmounted(() => {
             class="flex-1 flex items-center justify-center gap-2 py-1.5 px-4 bg-white/5 hover:bg-swu-primary hover:shadow-lg hover:shadow-swu-primary/30 text-gray-300 hover:text-white border border-white/10 hover:border-swu-primary/50 rounded-xl transition-all duration-300 group overflow-hidden relative">
             <span
               class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent translate-x-[-200%] group-hover:animate-[shimmer_1.5s_infinite]"></span>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-              stroke="currentColor" class="w-4 h-4 group-hover:rotate-180 transition-transform duration-500">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
-            </svg>
+            <ArrowPathIcon class="w-4 h-4 group-hover:rotate-180 transition-transform duration-500" />
             <span class="text-xs tracking-wide">New Pool</span>
           </button>
 
@@ -628,16 +670,9 @@ onUnmounted(() => {
             :title="isPoolLinkCopied ? 'Link Copied!' : 'Copy Pool Link'">
             <span
               class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent translate-x-[-200%] group-hover:animate-[shimmer_1.5s_infinite]"></span>
-            <svg v-if="!isPoolLinkCopied" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-              stroke-width="1.5" stroke="currentColor"
-              class="w-4 h-4 group-hover:scale-110 transition-transform duration-500">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-            </svg>
-            <svg v-else xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-              stroke="currentColor" class="w-4 h-4 animate-bounce text-emerald-400">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-            </svg>
+            <LinkIcon v-if="!isPoolLinkCopied"
+              class="w-4 h-4 group-hover:scale-110 transition-transform duration-500" />
+            <CheckIcon v-else class="w-4 h-4 animate-bounce text-emerald-400" />
             <span class="text-xs tracking-wide">{{ isPoolLinkCopied ? 'Copied!' : 'Copy Pool' }}</span>
           </button>
         </div>
@@ -759,11 +794,7 @@ onUnmounted(() => {
       <!-- Error -->
       <div v-else-if="error" class="text-center py-12">
         <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-red-500/10 text-red-500 mb-4">
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-            stroke="currentColor" class="w-8 h-8">
-            <path stroke-linecap="round" stroke-linejoin="round"
-              d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
-          </svg>
+          <ExclamationCircleIcon class="w-8 h-8" />
         </div>
         <h3 class="text-xl font-bold text-white mb-2">Failed to load cards</h3>
         <p class="text-gray-400">Unable to generate the sealed pool for this set.</p>
@@ -780,15 +811,8 @@ onUnmounted(() => {
             <Transition name="horizontal-slide">
               <button v-if="selectedLeaderId && selectedBaseId && selectedCardIds.size >= 30" @click="copyDeck"
                 class="h-8 flex items-center gap-1.5 px-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg font-bold text-xs transition-all shadow-lg hover:scale-105 active:scale-95">
-                <svg v-if="!isCopied" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                  stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
-                  <path stroke-linecap="round" stroke-linejoin="round"
-                    d="M15.75 17.25v3.375c0 .621-.504 1.125-1.125 1.125h-9.75a1.125 1.125 0 0 1-1.125-1.125V7.875c0-.621.504-1.125 1.125-1.125H6.75a9.06 9.06 0 0 1 1.5.124m7.5 10.376h3.375c.621 0 1.125-.504 1.125-1.125V11.25c0-4.46-3.243-8.161-7.5-8.876a9.06 9.06 0 0 0-1.5-.124H9.375c-.621 0-1.125.504-1.125 1.125v3.5m7.5 10.375H9.375a1.125 1.125 0 0 1-1.125-1.125v-9.25m12 6.625v-1.875a3.375 3.375 0 0 0-3.375-3.375h-1.5" />
-                </svg>
-                <svg v-else xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                  stroke="currentColor" class="w-4 h-4 animate-bounce">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                </svg>
+                <ClipboardDocumentIcon v-if="!isCopied" class="w-4 h-4" />
+                <CheckIcon v-else class="w-4 h-4 animate-bounce" />
                 {{ isCopied ? 'Copied!' : '.json' }}
               </button>
             </Transition>
@@ -802,11 +826,13 @@ onUnmounted(() => {
                 <button @click="showStats = !showStats"
                   class="h-8 w-8 flex items-center justify-center rounded text-gray-400 hover:text-white hover:bg-white/10 transition-colors"
                   :class="{ 'text-swu-primary bg-white/10': showStats }" title="Deck Statistics">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="w-5 h-5">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                      d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
-                  </svg>
+                  <ChartBarIcon class="w-5 h-5" />
+                </button>
+
+                <button v-if="selectedCardIds.size >= 30" @click="drawHand"
+                  class="h-8 w-8 flex items-center justify-center rounded text-gray-400 hover:text-white hover:bg-white/10 transition-colors"
+                  title="Test Opening Hand">
+                  <RectangleStackIcon class="w-5 h-5" />
                 </button>
               </div>
             </Transition>
@@ -829,11 +855,7 @@ onUnmounted(() => {
                 ? 'opacity-50 cursor-not-allowed border-white/5 text-gray-500 bg-white/5'
                 : 'bg-red-500/10 hover:bg-red-500/20 text-red-400 hover:text-red-300 border-red-500/20'"
               title="Reset Selection">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor" class="w-4 h-4">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
-              </svg>
+              <TrashIcon class="w-4 h-4" />
             </button>
 
           </div>
@@ -859,7 +881,7 @@ onUnmounted(() => {
     </div>
 
     <!-- Hover Popup -->
-    <div v-if="hoveredCard" class="fixed z-50 pointer-events-none transition-all duration-150 ease-out"
+    <div v-if="hoveredCard" class="fixed z-[100] pointer-events-none transition-all duration-150 ease-out"
       :style="{ top: `${popupPosition.top}px`, left: `${popupPosition.left}px` }">
       <div
         class="relative shadow-2xl rounded-2xl overflow-hidden border border-swu-primary/30 bg-swu-900 elevation-high">
@@ -877,17 +899,10 @@ onUnmounted(() => {
           class="bg-swu-900 border border-swu-primary/30 rounded-2xl p-6 shadow-2xl w-full max-w-4xl flex flex-col relative elevation-high max-h-[90vh] overflow-y-auto">
           <button @click="showStats = false"
             class="absolute top-4 right-4 text-gray-400 hover:text-white hover:bg-white/10 p-1 rounded-full transition-colors">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-              stroke="currentColor" class="w-6 h-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-            </svg>
+            <XMarkIcon class="w-6 h-6" />
           </button>
           <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-              stroke="currentColor" class="w-6 h-6 text-swu-primary">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
-            </svg>
+            <ChartBarIcon class="w-6 h-6 text-swu-primary" />
             Deck Statistics
           </h3>
           <div class="flex flex-col md:flex-row gap-8">
@@ -937,6 +952,49 @@ onUnmounted(() => {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </Transition>
+
+    <!-- Draw Hand Dialog -->
+    <Transition name="fade">
+      <div v-if="showDrawDialog"
+        class="fixed inset-0 z-[70] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4"
+        @click.self="showDrawDialog = false">
+        <div
+          class="draw-dialog-content bg-swu-900 border border-swu-primary/30 rounded-2xl p-4 shadow-2xl w-full max-w-[900px] flex flex-col relative elevation-high max-h-[90vh] overflow-y-auto">
+          <div class="absolute top-4 right-4 flex items-center gap-2">
+            <button @click="drawHand" title="Redraw Hand"
+              class="p-2 bg-swu-primary hover:bg-swu-primary-light text-white font-bold rounded-xl shadow-lg hover:shadow-swu-primary/25 transition-all transform active:scale-[0.98] flex items-center justify-center gap-2 group">
+              <ArrowPathIcon class="w-4 h-4 group-hover:rotate-180 transition-transform duration-500"
+                stroke-width="2" />
+            </button>
+            <button @click="showDrawDialog = false"
+              class="text-gray-400 hover:text-white hover:bg-white/10 p-1 rounded-full transition-colors">
+              <XMarkIcon class="w-6 h-6" />
+            </button>
+          </div>
+          <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
+            <RectangleStackIcon class="w-6 h-6 text-swu-primary" />
+            Opening Hand
+          </h3>
+
+          <div v-if="drawnHand.length > 0" class="flex flex-wrap justify-center gap-2 mt-4 mb-4 min-h-[300px]">
+            <div v-for="(card, index) in drawnHand" :key="card.uniqueId"
+              class="relative rounded-xl overflow-hidden border border-white/10 shadow-md aspect-[2.5/3.5] bg-swu-900 w-32 md:w-56 flex-shrink-0">
+
+              <Transition name="fade">
+                <div v-if="index < revealedCount" key="image"
+                  class="absolute inset-0 w-full h-full group cursor-pointer" @mouseenter="showPopup(card, $event)"
+                  @mouseleave="hidePopup">
+                  <img :src="card.art" :alt="card.name" class="w-full h-full object-cover" />
+                </div>
+                <div v-else key="skeleton" class="absolute inset-0 w-full h-full bg-swu-800/50 animate-pulse"></div>
+              </Transition>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </Transition>
@@ -1005,5 +1063,26 @@ onUnmounted(() => {
   padding-left: 0 !important;
   padding-right: 0 !important;
   transform: translateX(-10px);
+}
+
+.card-reveal-enter-active,
+.card-reveal-leave-active,
+.card-reveal-move {
+  transition: all 0.3s ease-out;
+}
+
+.card-reveal-enter-from {
+  opacity: 0;
+  transform: translateY(20px) scale(0.9);
+}
+
+.card-reveal-leave-to {
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+/* Ensure leaving items are taken out of flow so move animation works correctly */
+.card-reveal-leave-active {
+  position: absolute;
 }
 </style>
