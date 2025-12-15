@@ -226,10 +226,7 @@ export async function generateSealedPool(configStr: string, seed?: string): Prom
     // Split pool into Bases and Others (with deduplicated leaders)
     for (const c of rawPool) {
         if (c.type === 'leader') {
-            if (!uniqueLeaderIds.has(c.id)) {
-                uniqueLeaderIds.add(c.id);
-                uniqueLeadersAndOthers.push(c);
-            }
+            uniqueLeadersAndOthers.push(c);
         } else if (c.type === 'base') {
             openedBases.push(c);
         } else {

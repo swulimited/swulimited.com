@@ -132,6 +132,19 @@ const leaders = computed(() => {
     .sort((a, b) => a.number - b.number)
 })
 
+const groupedLeaders = computed(() => {
+  const map = new Map<string, { card: Card, count: number }>()
+  for (const card of leaders.value) {
+    const key = card.id
+    if (!map.has(key)) {
+      map.set(key, { card, count: 0 })
+    }
+    const entry = map.get(key)!
+    entry.count++
+  }
+  return Array.from(map.values())
+})
+
 const bases = computed(() => {
   return processedCards.value
     .filter(card => card.type === 'base')
@@ -725,20 +738,24 @@ onUnmounted(() => {
 
 
 
-          <div v-if="leaders && leaders.length > 0" class="space-y-1">
-            <div v-for="card in leaders" :key="card.uniqueId" :data-unique-id="card.uniqueId"
+          <div v-if="groupedLeaders && groupedLeaders.length > 0" class="space-y-1">
+            <div v-for="group in groupedLeaders" :key="group.card.uniqueId" :data-unique-id="group.card.uniqueId"
               class="flex items-center justify-between p-1.5 rounded-lg cursor-pointer transition-all duration-200 border border-transparent"
               :class="[
-                selectedLeaderId === card.uniqueId
+                selectedLeaderId === group.card.uniqueId
                   ? 'bg-swu-primary/20 text-white border-swu-primary/50 shadow-sm'
                   : 'text-gray-400 hover:bg-white/5 hover:text-white hover:border-white/10'
-              ]" @click="toggleLeader(card.uniqueId)" @mouseenter="showPopup(card, $event)" @mouseleave="hidePopup">
+              ]" @click="toggleLeader(group.card.uniqueId)" @mouseenter="showPopup(group.card, $event)"
+              @mouseleave="hidePopup">
               <div class="flex items-center gap-3 overflow-hidden flex-1 min-w-0">
-                <span class="truncate text-sm font-medium">{{ card.name }}</span>
+                <span class="truncate text-sm font-medium">
+                  {{ group.card.name }} <span v-if="group.count > 1" class="text-gray-500 ml-1">x{{ group.count
+                  }}</span>
+                </span>
               </div>
 
               <div class="flex items-center gap-1 flex-shrink-0 ml-2">
-                <div v-for="aspect in card.aspects" :key="aspect" :title="aspect">
+                <div v-for="aspect in group.card.aspects" :key="aspect" :title="aspect">
                   <img :src="`/images/aspect-${aspect}.png`" :alt="aspect" class="w-6 h-6 object-contain" />
                 </div>
               </div>
