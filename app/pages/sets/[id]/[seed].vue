@@ -980,7 +980,7 @@ onUnmounted(() => {
         class="fixed inset-0 z-[70] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4"
         @click.self="showDrawDialog = false">
         <div
-          class="draw-dialog-content bg-swu-900 border border-swu-primary/30 rounded-2xl p-4 shadow-2xl w-full max-w-[900px] flex flex-col relative elevation-high max-h-[90vh] overflow-y-auto">
+          class="draw-dialog-content bg-swu-900 border border-swu-primary/30 rounded-2xl p-4 shadow-2xl w-fit max-w-[95vw] flex flex-col relative elevation-high max-h-[90vh] overflow-y-auto">
           <div class="absolute top-4 right-4 flex items-center gap-2">
             <button @click="drawHand" title="Redraw Hand"
               class="p-2 bg-swu-primary hover:bg-swu-primary-light text-white font-bold rounded-xl shadow-lg hover:shadow-swu-primary/25 transition-all transform active:scale-[0.98] flex items-center justify-center gap-2 group">
@@ -997,9 +997,10 @@ onUnmounted(() => {
             Opening Hand
           </h3>
 
-          <div v-if="drawnHand.length > 0" class="flex flex-wrap justify-center gap-2 mt-4 mb-4 min-h-[300px]">
+          <div v-if="drawnHand.length > 0"
+            class="grid grid-cols-2 md:grid-cols-3 justify-items-center gap-4 mt-4 mb-4 min-h-[300px] mx-auto w-fit">
             <div v-for="(card, index) in drawnHand" :key="card.uniqueId"
-              class="relative rounded-xl overflow-hidden border border-white/10 shadow-md aspect-[2.5/3.5] bg-swu-900 w-32 md:w-56 flex-shrink-0">
+              class="relative rounded-xl overflow-hidden border border-white/10 shadow-md aspect-[2.5/3.5] bg-swu-900 w-32 md:w-48 flex-shrink-0">
 
               <Transition name="fade">
                 <div v-if="index < revealedCount" key="image"
