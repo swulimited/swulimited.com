@@ -811,7 +811,7 @@ onUnmounted(() => {
             <!-- Copy Deck Button -->
             <Transition name="horizontal-slide">
               <button v-if="selectedLeaderId && selectedBaseId && selectedCardIds.size >= 30" @click="copyDeck"
-                class="h-8 flex items-center gap-1.5 px-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg font-bold text-xs transition-all shadow-lg hover:scale-105 active:scale-95">
+                class="h-8 flex items-center gap-1.5 px-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg font-bold text-xs transition-all shadow-lg hover:scale-105 active:scale-95 mr-2">
                 <ClipboardDocumentIcon v-if="!isCopied" class="w-4 h-4" />
                 <CheckIcon v-else class="w-4 h-4 animate-bounce" />
                 {{ isCopied ? 'Copied!' : '.json' }}
