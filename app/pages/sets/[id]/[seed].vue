@@ -19,7 +19,8 @@ import {
   ChartBarIcon,
   RectangleStackIcon,
   TrashIcon,
-  XMarkIcon
+  XMarkIcon,
+  HandRaisedIcon
 } from '@heroicons/vue/24/outline'
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement)
@@ -806,7 +807,7 @@ onUnmounted(() => {
           class="flex flex-wrap items-center justify-end mb-2 gap-4 sticky top-[5rem] z-30 pointer-events-none -mx-2 px-2 md:pt-2 pt-0 md:pb-5 pb-4">
 
           <div
-            class="flex flex-nowrap overflow-x-auto items-center gap-2 pointer-events-auto bg-swu-900/80 backdrop-blur rounded-xl p-2 border border-white/5 shadow-2xl max-w-full custom-scrollbar">
+            class="flex flex-nowrap overflow-x-auto items-center gap-1 pointer-events-auto bg-swu-900/80 backdrop-blur rounded-xl p-2 border border-white/5 shadow-2xl max-w-full custom-scrollbar">
             <!-- Copy Deck Button -->
             <Transition name="horizontal-slide">
               <button v-if="selectedLeaderId && selectedBaseId && selectedCardIds.size >= 30" @click="copyDeck"
@@ -818,7 +819,7 @@ onUnmounted(() => {
             </Transition>
 
             <Transition name="horizontal-slide">
-              <div v-if="selectedLeaderId && selectedBaseId" class="flex items-center gap-2">
+              <div v-if="selectedLeaderId && selectedBaseId" class="flex items-center gap-1">
                 <div class="font-mono font-bold text-xs text-white flex items-center h-8">
                   {{ selectedCardIds.size }}&nbsp;/&nbsp;{{ cards.length }}
                 </div>
@@ -832,7 +833,7 @@ onUnmounted(() => {
                 <button v-if="selectedCardIds.size >= 30" @click="drawHand"
                   class="h-8 w-8 flex items-center justify-center rounded text-gray-400 hover:text-white hover:bg-white/10 transition-colors"
                   title="Test Opening Hand">
-                  <RectangleStackIcon class="w-5 h-5" />
+                  <HandRaisedIcon class="w-5 h-5" />
                 </button>
               </div>
             </Transition>
@@ -975,7 +976,7 @@ onUnmounted(() => {
             </button>
           </div>
           <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
-            <RectangleStackIcon class="w-6 h-6 text-swu-primary" />
+            <HandRaisedIcon class="w-6 h-6 text-swu-primary" />
             Opening Hand
           </h3>
 
