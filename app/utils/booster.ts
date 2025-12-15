@@ -91,7 +91,11 @@ export function generateBoosterPack(allCards: Card[], rng: seedrandom.PRNG): Car
 
     // 1. Leader Slot (1 card)
     const leaders = availableCards.filter(c => c.type === 'leader');
-    addCardsToPack(getUniqueRandomCards(leaders, 1, packCardIds, rng));
+
+    const isRare = rng() < 0.15;
+    const leaderPool = leaders.filter(c => isRare ? c.rarity === 'rare' : c.rarity !== 'rare');
+
+    addCardsToPack(getUniqueRandomCards(leaderPool.length > 0 ? leaderPool : leaders, 1, packCardIds, rng));
 
     // 2. Base Slot (1 card)
     let basePool = availableCards.filter(c => c.type === 'base');
