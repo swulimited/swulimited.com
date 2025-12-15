@@ -850,14 +850,18 @@ onUnmounted(() => {
                   {{ selectedCardIds.size }}&nbsp;/&nbsp;{{ cards.length }}
                 </div>
 
-                <button @click="showStats = !showStats"
-                  class="h-8 w-8 flex items-center justify-center rounded text-gray-400 hover:text-white hover:bg-white/10 transition-colors"
-                  :class="{ 'text-swu-primary bg-white/10': showStats }" title="Deck Statistics">
+                <button @click="showStats = !showStats" :disabled="selectedCardIds.size < 30"
+                  class="h-8 w-8 flex items-center justify-center rounded transition-colors" :class="[
+                    selectedCardIds.size < 30
+                      ? 'text-gray-600 opacity-50 cursor-not-allowed'
+                      : (showStats ? 'text-swu-primary bg-white/10' : 'text-gray-400 hover:text-white hover:bg-white/10')
+                  ]" title="Deck Statistics">
                   <ChartBarIcon class="w-5 h-5" />
                 </button>
 
-                <button v-if="selectedCardIds.size >= 30" @click="drawHand"
-                  class="h-8 w-8 flex items-center justify-center rounded text-gray-400 hover:text-white hover:bg-white/10 transition-colors"
+                <button @click="drawHand" :disabled="selectedCardIds.size < 30"
+                  class="h-8 w-8 flex items-center justify-center rounded transition-colors"
+                  :class="selectedCardIds.size < 30 ? 'text-gray-600 opacity-50 cursor-not-allowed' : 'text-gray-400 hover:text-white hover:bg-white/10'"
                   title="Test Opening Hand">
                   <HandRaisedIcon class="w-5 h-5" />
                 </button>
