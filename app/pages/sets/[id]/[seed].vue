@@ -759,7 +759,7 @@ onUnmounted(() => {
               <div class="flex items-center gap-3 overflow-hidden flex-1 min-w-0">
                 <span class="truncate text-sm font-medium">
                   {{ group.card.name }} <span v-if="group.count > 1" class="text-gray-500 ml-1">x{{ group.count
-                    }}</span>
+                  }}</span>
                 </span>
               </div>
 
@@ -996,9 +996,8 @@ onUnmounted(() => {
           class="draw-dialog-content bg-swu-900 border border-swu-primary/30 rounded-2xl p-4 shadow-2xl w-fit max-w-[95vw] flex flex-col relative elevation-high max-h-[90vh] overflow-y-auto">
           <div class="absolute top-4 right-4 flex items-center gap-2">
             <button @click="drawHand" title="Redraw Hand"
-              class="p-2 bg-swu-primary hover:bg-swu-primary-light text-white font-bold rounded-xl shadow-lg hover:shadow-swu-primary/25 transition-all transform active:scale-[0.98] flex items-center justify-center gap-2 group">
-              <ArrowPathIcon class="w-4 h-4 group-hover:rotate-180 transition-transform duration-500"
-                stroke-width="2" />
+              class="h-8 w-8 flex items-center justify-center rounded transition-colors text-gray-400 hover:text-white hover:bg-white/10 group">
+              <ArrowPathIcon class="w-5 h-5 group-hover:rotate-180 transition-transform duration-500" />
             </button>
             <button @click="showDrawDialog = false"
               class="text-gray-400 hover:text-white hover:bg-white/10 p-1 rounded-full transition-colors">
