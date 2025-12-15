@@ -45,6 +45,11 @@ export async function fetchSetCards(setId: string): Promise<Card[]> {
     }
 }
 
+const EXCLUDED_LEADER_IDS = new Set([
+    'LOF-009', 'LOF-016',
+    'SEC-001', 'SEC-016'
+]);
+
 /**
  * Generates a booster pack ensuring distribution rules.
  * Rules:
@@ -65,19 +70,12 @@ export async function fetchSetCards(setId: string): Promise<Card[]> {
 export function generateBoosterPack(allCards: Card[], rng: seedrandom.PRNG): Card[] {
     const setId = allCards.length > 0 ? allCards[0]?.set : '';
 
-    // Define excluded leaders (Starter Deck leaders)
-    // These should never appear in booster packs.
-    const excludedLeaderIds = new Set([
-        'LOF-009', 'LOF-016',
-        'SEC-001', 'SEC-016'
-    ]);
-
     // Global availability filter
     // 1. Exclude tokens
     // 2. Exclude starter leaders
     const availableCards = allCards.filter(c =>
         c.type !== 'token' &&
-        !excludedLeaderIds.has(c.id)
+        !EXCLUDED_LEADER_IDS.has(c.id)
     );
 
     const pack: Card[] = [];
@@ -220,66 +218,67 @@ export async function generateSealedPool(configStr: string, seed?: string): Prom
         }
     }
 
-    // Filter out common bases from the initial pool to handle them separately
-    // We keep Rare/Legendary bases as they are unique cards
-    const poolWithoutCommonBases = rawPool.filter(c => !(c.type === 'base' && c.rarity === 'common'));
-    const openedCommonBases = rawPool.filter(c => c.type === 'base' && c.rarity === 'common');
+    // Post-process to remove duplicate leaders (keep only one instance of each leader)
+    const uniqueLeaderIds = new Set<string>();
+    const uniqueLeadersAndOthers: Card[] = [];
+    const openedBases: Card[] = [];
 
-    // Helper to get base signature (aspects + hp)
-    const getBaseSignature = (c: Card) => {
-        const aspects = [...(c.aspects || [])].sort().join(',');
-        const hp = c.hp || 0;
-        return `${aspects}|${hp}`;
-    };
+    // Split pool into Bases and Others (with deduplicated leaders)
+    for (const c of rawPool) {
+        if (c.type === 'leader') {
+            if (!uniqueLeaderIds.has(c.id)) {
+                uniqueLeaderIds.add(c.id);
+                uniqueLeadersAndOthers.push(c);
+            }
+        } else if (c.type === 'base') {
+            openedBases.push(c);
+        } else {
+            uniqueLeadersAndOthers.push(c);
+        }
+    }
 
-    // Track which base signatures are already covered by the opened boosters
-    const coveredBaseSignatures = new Set<string>();
-    openedCommonBases.forEach(c => coveredBaseSignatures.add(getBaseSignature(c)));
+    // Base handling logic:
+    // 1. Gather all bases from generation
+    // 2. Gather all common bases from selected sets
+    // 3. Filter final list by signature (Aspects + HP) to remove duplicates and ensure coverage
 
-    // Get all available common bases from ALL used sets
-    // This allows you to pick a base provided by any of the sets you opened
+    // Get all available common bases from used sets
     let allSetCommonBases: Card[] = [];
     for (const [setId, cards] of setsCards) {
         const setBases = cards.filter(c => c.type === 'base' && c.rarity === 'common');
         allSetCommonBases = [...allSetCommonBases, ...setBases];
     }
 
-    const extraBases: Card[] = [];
+    const finalBases: Card[] = [];
+    const coveredBaseSignatures = new Set<string>();
 
-    // Iterate through all available common bases and add ANY missing signature
-    for (const base of allSetCommonBases) {
+    // Helper to get base signature (aspects + hp)
+    // Aspects are sorted to ensure consistency (e.g. "A,B" == "B,A")
+    const getBaseSignature = (c: Card) => {
+        const aspects = [...(c.aspects || [])].sort().join(',');
+        const hp = c.hp || 0;
+        return `${aspects}|${hp}`;
+    };
+
+    // 1. Process opened bases first (prioritize drawn cards)
+    for (const base of openedBases) {
         const signature = getBaseSignature(base);
-        // If we don't have a base with this signature yet, add it
-        // We also check by ID to be absolutely sure we don't re-add a base we already opened
-        const isAlreadyOpened = openedCommonBases.some(opened => opened.id === base.id);
-
-        if (!coveredBaseSignatures.has(signature) && !isAlreadyOpened) {
-            extraBases.push(base);
+        if (!coveredBaseSignatures.has(signature)) {
+            finalBases.push(base);
             coveredBaseSignatures.add(signature);
         }
     }
 
-    // Calculate total boosters opened
-    const totalBoosters = Object.values(config).reduce((sum, val) => sum + val, 0);
-
-    // Count current total bases
-    const rareBasesCount = poolWithoutCommonBases.filter(c => c.type === 'base').length;
-    const totalBases = rareBasesCount + openedCommonBases.length + extraBases.length;
-
-    let finalOpenedCommonBases = openedCommonBases;
-
-    // If we have more bases than boosters, remove duplicates from the opened common bases
-    if (totalBases > totalBoosters) {
-        const uniqueSignatures = new Set<string>();
-        finalOpenedCommonBases = openedCommonBases.filter(base => {
-            const signature = getBaseSignature(base);
-            if (uniqueSignatures.has(signature)) return false;
-            uniqueSignatures.add(signature);
-            return true;
-        });
+    // 2. Verify and add missing common bases
+    for (const base of allSetCommonBases) {
+        const signature = getBaseSignature(base);
+        if (!coveredBaseSignatures.has(signature)) {
+            finalBases.push(base);
+            coveredBaseSignatures.add(signature);
+        }
     }
 
-    return [...poolWithoutCommonBases, ...finalOpenedCommonBases, ...extraBases];
+    return [...uniqueLeadersAndOthers, ...finalBases];
 }
 
 /**
