@@ -645,6 +645,12 @@ const handleKeydown = (e: KeyboardEvent) => {
   }
 }
 
+watch([showStats, showDrawDialog], ([statsOpen, drawOpen]) => {
+  if (typeof document !== 'undefined') {
+    document.body.style.overflow = (statsOpen || drawOpen) ? 'hidden' : ''
+  }
+})
+
 onMounted(() => {
   window.addEventListener('keydown', handleKeydown)
   window.addEventListener('scroll', handleScroll, { passive: true })
@@ -656,6 +662,9 @@ onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll)
   window.removeEventListener('mousemove', updateMousePos)
   clearTimeout(scrollTimeout)
+  if (typeof document !== 'undefined') {
+    document.body.style.overflow = ''
+  }
 })
 
 </script>
@@ -750,7 +759,7 @@ onUnmounted(() => {
               <div class="flex items-center gap-3 overflow-hidden flex-1 min-w-0">
                 <span class="truncate text-sm font-medium">
                   {{ group.card.name }} <span v-if="group.count > 1" class="text-gray-500 ml-1">x{{ group.count
-                  }}</span>
+                    }}</span>
                 </span>
               </div>
 
