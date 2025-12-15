@@ -775,7 +775,7 @@ onUnmounted(() => {
           class="flex flex-wrap items-center justify-end mb-2 gap-4 sticky top-[5rem] z-30 pointer-events-none -mx-2 px-2 md:pt-2 pt-0 md:pb-5 pb-4">
 
           <div
-            class="flex flex-wrap items-center gap-2 pointer-events-auto bg-swu-900/80 backdrop-blur rounded-xl p-2 border border-white/5 shadow-2xl">
+            class="flex flex-nowrap overflow-x-auto items-center gap-2 pointer-events-auto bg-swu-900/80 backdrop-blur rounded-xl p-2 border border-white/5 shadow-2xl max-w-full custom-scrollbar">
             <!-- Copy Deck Button -->
             <Transition name="horizontal-slide">
               <button v-if="selectedLeaderId && selectedBaseId && selectedCardIds.size >= 30" @click="copyDeck"
@@ -796,7 +796,7 @@ onUnmounted(() => {
             <Transition name="horizontal-slide">
               <div v-if="selectedLeaderId && selectedBaseId" class="flex items-center gap-2">
                 <div class="font-mono font-bold text-xs text-white flex items-center h-8">
-                  {{ selectedCardIds.size }} / {{ cards.length }}
+                  {{ selectedCardIds.size }}&nbsp;/&nbsp;{{ cards.length }}
                 </div>
 
                 <button @click="showStats = !showStats"
@@ -961,6 +961,7 @@ onUnmounted(() => {
 /* Custom Scrollbar */
 .custom-scrollbar::-webkit-scrollbar {
   width: 6px;
+  height: 6px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
