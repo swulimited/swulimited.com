@@ -811,9 +811,9 @@ onUnmounted(() => {
       <!-- Loading -->
       <div v-if="status === 'pending'" class="space-y-8">
         <div class="animate-pulse flex flex-col gap-4">
-          <div class="h-8 bg-swu-800 rounded w-1/3"></div>
-          <div class="grid grid-cols-[repeat(auto-fill,minmax(160px,1fr))] gap-4">
-            <div v-for="n in 12" :key="n" class="aspect-[2.5/3.5] bg-swu-800 rounded-lg"></div>
+          <div class="h-16 w-full"></div>
+          <div class="mt-1 grid grid-cols-[repeat(auto-fill,minmax(180px,1fr))] gap-4">
+            <div v-for="n in 12" :key="n" class="aspect-[2.5/3.5] bg-swu-800 rounded-2xl"></div>
           </div>
         </div>
       </div>
