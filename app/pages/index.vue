@@ -11,8 +11,8 @@ useSeoMeta({
 const router = useRouter()
 
 const availableSets = ref([
-  { code: 'LOF', name: 'Legends of Force', count: 3 },
-  { code: 'SEC', name: 'Secrets of Power', count: 3 }
+  { code: 'LOF', name: 'Legends of Force', count: 0 },
+  { code: 'SEC', name: 'Secrets of Power', count: 6 }
 ])
 
 const totalPacks = computed(() => availableSets.value.reduce((acc, s) => acc + s.count, 0))
