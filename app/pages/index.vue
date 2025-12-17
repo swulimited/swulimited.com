@@ -18,8 +18,15 @@ const availableSets = ref([
 const totalPacks = computed(() => availableSets.value.reduce((acc, s) => acc + s.count, 0))
 
 const startCustomEvent = () => {
-  const config = availableSets.value
-    .filter(s => s.count > 0)
+  const activeSets = availableSets.value.filter(s => s.count > 0)
+
+  // If a single set is selected with exactly 6 boosters, redirect to the standard pool URL
+  if (activeSets.length === 1 && activeSets[0].count === 6) {
+    router.push(`/sets/${activeSets[0].code}`)
+    return
+  }
+
+  const config = activeSets
     .map(s => `${s.code}-${s.count}`)
     .join('_')
 
