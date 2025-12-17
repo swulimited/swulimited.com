@@ -17,10 +17,10 @@ import {
   ExclamationCircleIcon,
   ClipboardDocumentIcon,
   ChartBarIcon,
-  RectangleStackIcon,
   TrashIcon,
   XMarkIcon,
-  HandRaisedIcon
+  HandRaisedIcon,
+  FunnelIcon
 } from '@heroicons/vue/24/outline'
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement)
@@ -92,19 +92,21 @@ const poolCards = computed(() => {
 const selectedLeader = computed(() => leaders.value.find(l => l.uniqueId === selectedLeaderId.value))
 const selectedBase = computed(() => bases.value.find(b => b.uniqueId === selectedBaseId.value))
 
+
+
 const cards = computed(() => {
   // Show all cards by default if neither leader nor base is selected
   if (!selectedLeader.value && !selectedBase.value) {
     return poolCards.value
   }
 
-  const allowedAspects = new Set<string>()
-  if (selectedLeader.value?.aspects) {
-    selectedLeader.value.aspects.forEach((a: string) => allowedAspects.add(a))
+  // If filter is disabled AND both leader/base are selected, show all cards
+  // This ensures that if the toggle is hidden (e.g. only leader selected), we default back to filtering
+  if (selectedLeader.value && selectedBase.value && !filterEnabled.value) {
+    return poolCards.value
   }
-  if (selectedBase.value?.aspects) {
-    selectedBase.value.aspects.forEach((a: string) => allowedAspects.add(a))
-  }
+
+
 
   return poolCards.value.filter(card => {
     // Neutral cards (no aspects) are always compatible
@@ -249,11 +251,14 @@ const toggleBase = (uniqueId: string) => {
   }
 }
 
+const filterEnabled = ref(true)
+
 const resetOptions = () => {
   selectedLeaderId.value = null
   selectedBaseId.value = null
   selectedCardIds.value = new Set()
   sortBy.value = 'number'
+  filterEnabled.value = true
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
@@ -854,6 +859,7 @@ onUnmounted(() => {
 
             <Transition name="horizontal-slide">
               <div v-if="selectedLeaderId && selectedBaseId" class="flex items-center gap-1">
+
                 <div class="font-mono font-bold text-xs text-white flex items-center h-8">
                   {{ selectedCardIds.size }}&nbsp;/&nbsp;{{ cards.length }}
                 </div>
@@ -872,6 +878,15 @@ onUnmounted(() => {
                   :class="selectedCardIds.size < 30 ? 'text-gray-600 opacity-50 cursor-not-allowed' : 'text-gray-400 hover:text-white hover:bg-white/10'"
                   title="Test Opening Hand">
                   <HandRaisedIcon class="w-5 h-5" />
+                </button>
+
+                <button @click="filterEnabled = !filterEnabled"
+                  class="h-8 w-8 flex items-center justify-center rounded transition-colors mr-2" :class="[
+                    filterEnabled
+                      ? 'text-swu-primary bg-white/10'
+                      : 'text-gray-400 hover:text-white hover:bg-white/10'
+                  ]" :title="filterEnabled ? 'Disable Aspect Filter' : 'Enable Aspect Filter'">
+                  <FunnelIcon class="w-5 h-5" />
                 </button>
               </div>
             </Transition>
