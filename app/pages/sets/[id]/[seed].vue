@@ -38,7 +38,15 @@ const packConfig = computed(() => (route.params.id as string).toUpperCase())
 // This computed property automatically updates when the route param changes
 const seed = computed(() => route.params.seed as string)
 
+const setName = computed(() => {
+  return packConfig.value
+    .split('_')
+    .map(part => part.split('-')[0])
+    .join(' / ')
+})
+
 useSeoMeta({
+  title: () => `Sealed ${setName.value} - swulimited.com`,
   robots: 'noindex, nofollow'
 })
 
