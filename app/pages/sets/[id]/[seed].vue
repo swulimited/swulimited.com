@@ -41,6 +41,7 @@ const seed = computed(() => route.params.seed as string)
 const setName = computed(() => {
   return packConfig.value
     .split('_')
+    .filter(part => part !== 'SL')
     .map(part => part.split('-')[0])
     .join(' / ')
 })
@@ -772,7 +773,7 @@ onUnmounted(() => {
               <div class="flex items-center gap-3 overflow-hidden flex-1 min-w-0">
                 <span class="truncate text-sm font-medium">
                   {{ group.card.name }} <span v-if="group.count > 1" class="text-gray-500 ml-1">x{{ group.count
-                  }}</span>
+                    }}</span>
                 </span>
               </div>
 

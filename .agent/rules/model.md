@@ -95,7 +95,7 @@ except you will not find a base in this slot.
 You can also find a Special card in the final slot.
 You will never find a Leader in the final slot.
 
-Leaders from the starter decks are excluded from regular booster packs:
+Leaders from the spotlight decks are excluded from regular booster packs:
 - for LOF: LOF-009 and LOF-016
 - for SEC: SEC-001 and SEC-016
-You can never find those leaders in booters packs.
+You can never find those leaders in booters packs, unless you explicitely choose to do so.

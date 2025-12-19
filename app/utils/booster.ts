@@ -181,11 +181,12 @@ export function parsePackConfig(configStr: string): Record<string, number> {
 
 /**
  * Generates a sealed pool based on a configuration string.
- * @param configStr The pack configuration (e.g., 'LOF', 'LOF-3_SEC-3').
+ * @param configStr The pack configuration (e.g., 'LOF', 'LOF-3_SEC-3', 'LOF-6_SL').
  * @param seed Optional seed for reproducible generation.
  * @returns A promise that resolves to a flat list of cards.
  */
 export async function generateSealedPool(configStr: string, seed?: string): Promise<Card[]> {
+    const includeSpotlightLeaders = configStr.split('_').includes('SL');
     const config = parsePackConfig(configStr);
     const setIds = Object.keys(config);
 
@@ -222,7 +223,16 @@ export async function generateSealedPool(configStr: string, seed?: string): Prom
         }
     }
 
+    // If spotlight leaders are included, add them to the pool
+    if (includeSpotlightLeaders) {
+        for (const [setId, cards] of setsCards) {
+            const spotlightLeaders = cards.filter(c => EXCLUDED_LEADER_IDS.has(c.id));
+            rawPool.push(...spotlightLeaders);
+        }
+    }
+
     // Post-process to remove duplicate leaders (keep only one instance of each leader)
+    // We already have a mix of generated boosters and potentially manually added leaders
     const uniqueLeaderIds = new Set<string>();
     const uniqueLeadersAndOthers: Card[] = [];
     const openedBases: Card[] = [];

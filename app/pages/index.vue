@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { AdjustmentsHorizontalIcon, MinusIcon, PlusIcon, ArrowRightIcon } from '@heroicons/vue/24/outline'
+import { AdjustmentsHorizontalIcon, MinusIcon, PlusIcon, ArrowRightIcon, CheckIcon } from '@heroicons/vue/24/outline'
 
 useSeoMeta({
   title: 'swulimited.com',
@@ -15,20 +15,27 @@ const availableSets = ref([
   { code: 'SEC', name: 'Secrets of Power', count: 6 }
 ])
 
+const includeSpotlightLeaders = ref(false)
+
 const totalPacks = computed(() => availableSets.value.reduce((acc, s) => acc + s.count, 0))
 
 const startCustomEvent = () => {
   const activeSets = availableSets.value.filter(s => s.count > 0)
 
-  // If a single set is selected with exactly 6 boosters, redirect to the standard pool URL
-  if (activeSets.length === 1 && activeSets[0].count === 6) {
-    router.push(`/sets/${activeSets[0].code}`)
+  // If a single set is selected with exactly 6 boosters AND spotlight leaders are NOT included, redirect to the standard pool URL
+  const firstSet = activeSets[0]
+  if (activeSets.length === 1 && firstSet && firstSet.count === 6 && !includeSpotlightLeaders.value) {
+    router.push(`/sets/${firstSet.code}`)
     return
   }
 
-  const config = activeSets
+  let config = activeSets
     .map(s => `${s.code}-${s.count}`)
     .join('_')
+
+  if (includeSpotlightLeaders.value) {
+    config += '_SL'
+  }
 
   if (config) {
     router.push(`/sets/${config}`)
@@ -88,20 +95,36 @@ const startCustomEvent = () => {
             Configure Packs
           </h3>
 
-          <div class="space-y-2 mb-8">
-            <div v-for="set in availableSets" :key="set.code" class="flex items-center justify-between w-full">
-              <span class="text-gray-300 font-medium text-sm mr-8">{{ set.name }}</span>
-              <div class="flex items-center gap-3 bg-black/40 rounded-lg p-1 border border-white/5">
-                <button @click="set.count = Math.max(0, set.count - 1)"
-                  class="w-7 h-7 flex items-center justify-center rounded bg-white/5 hover:bg-white/10 text-gray-400 hover:text-white transition-colors">
-                  <MinusIcon class="w-3 h-3" stroke-width="2" />
-                </button>
-                <span class="w-6 text-center font-mono font-bold text-white">{{ set.count }}</span>
-                <button @click="set.count = Math.min(12, set.count + 1)"
-                  class="w-7 h-7 flex items-center justify-center rounded bg-white/5 hover:bg-white/10 text-gray-400 hover:text-white transition-colors">
-                  <PlusIcon class="w-3 h-3" stroke-width="2" />
-                </button>
+          <div class="space-y-4 mb-8">
+            <div class="space-y-2">
+              <div v-for="set in availableSets" :key="set.code" class="flex items-center justify-between w-full">
+                <span class="text-gray-300 font-medium text-sm mr-8">{{ set.name }}</span>
+                <div class="flex items-center gap-3 bg-black/40 rounded-lg p-1 border border-white/5">
+                  <button @click="set.count = Math.max(0, set.count - 1)"
+                    class="w-7 h-7 flex items-center justify-center rounded bg-white/5 hover:bg-white/10 text-gray-400 hover:text-white transition-colors">
+                    <MinusIcon class="w-3 h-3" stroke-width="2" />
+                  </button>
+                  <span class="w-6 text-center font-mono font-bold text-white">{{ set.count }}</span>
+                  <button @click="set.count = Math.min(12, set.count + 1)"
+                    class="w-7 h-7 flex items-center justify-center rounded bg-white/5 hover:bg-white/10 text-gray-400 hover:text-white transition-colors">
+                    <PlusIcon class="w-3 h-3" stroke-width="2" />
+                  </button>
+                </div>
               </div>
+            </div>
+
+            <div class="flex items-center gap-3 pt-3 border-t border-white/10">
+              <label class="flex items-center w-full cursor-pointer group">
+                <div class="relative flex items-center">
+                  <input type="checkbox" v-model="includeSpotlightLeaders"
+                    class="peer h-5 w-5 cursor-pointer appearance-none rounded-md border border-white/10 bg-black/40 checked:border-swu-primary checked:bg-swu-primary transition-all" />
+                  <CheckIcon
+                    class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-3.5 h-3.5 text-white opacity-0 peer-checked:opacity-100 transition-opacity pointer-events-none"
+                    stroke-width="3" />
+                </div>
+                <span class="ml-3 text-sm text-gray-400 group-hover:text-gray-300 transition-colors select-none">Include
+                  Spotlight Leaders</span>
+              </label>
             </div>
           </div>
 
