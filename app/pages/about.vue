@@ -1,49 +1,44 @@
 <template>
   <div class="space-y-8">
     <div class="text-center space-y-4">
-      <h1 class="text-4xl font-bold text-white tracking-tight">About swulimited.com</h1>
+      <h1 class="text-4xl font-bold text-white tracking-tight">{{ $t('about_title') }}</h1>
       <p class="text-slate-400 max-w-2xl mx-auto text-lg">
-        The ultimate tool for Star Wars Unlimited sealed deck practice.
+        {{ $t('about_subtitle') }}
       </p>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
       <div class="bg-swu-900/50 backdrop-blur-sm border border-swu-primary/20 rounded-xl p-6 shadow-lg">
         <h2 class="text-xl font-bold text-swu-primary mb-4">
-          What is this?
+          {{ $t('what_is_this') }}
         </h2>
         <p class="text-slate-300 leading-relaxed">
-          swulimited.com is a fan-made application designed to simulate the sealed format of the Star Wars Unlimited
-          trading card game.
-          It allows players to open virtual booster packs, build decks from a limited pool of cards, and practice their
-          deck-building skills without needing physical cards.
+          {{ $t('what_is_this_text') }}
         </p>
       </div>
 
       <div class="bg-swu-900/50 backdrop-blur-sm border border-swu-primary/20 rounded-xl p-6 shadow-lg">
         <h2 class="text-xl font-bold text-swu-primary mb-4">
-          Community Project
+          {{ $t('community_project') }}
         </h2>
-        <p class="text-slate-300 leading-relaxed">
-          This project is built by <a href="https://github.com/alexandreroman" target="_blank"
-            class="text-swu-primary hover:text-white font-bold transition-colors underline decoration-swu-primary/30 hover:decoration-swu-primary">NotAlex</a>,
-          a Star Wars Unlimited player.
-          My goal is to provide a smooth and beautiful interface for the community to enjoy and improve their game.
-          Feel free to reach out (find me on Discord!) and contribute: <a
-            href="https://github.com/swulimited/swulimited.com" target="_blank"
-            class="text-swu-primary hover:text-white font-bold transition-colors underline decoration-swu-primary/30 hover:decoration-swu-primary">the
-            code is open source</a>!
-        </p>
+        <i18n-t keypath="community_text" tag="p" class="text-slate-300 leading-relaxed">
+          <template #author>
+            <a href="https://github.com/alexandreroman" target="_blank"
+              class="text-swu-primary hover:text-white font-bold transition-colors underline decoration-swu-primary/30 hover:decoration-swu-primary">NotAlex</a>
+          </template>
+          <template #source>
+            <a href="https://github.com/swulimited/swulimited.com" target="_blank"
+              class="text-swu-primary hover:text-white font-bold transition-colors underline decoration-swu-primary/30 hover:decoration-swu-primary">{{
+                $t('community_link') }}</a>
+          </template>
+        </i18n-t>
       </div>
     </div>
 
     <div class="bg-swu-900/50 backdrop-blur-sm border border-swu-primary/20 rounded-xl p-6 shadow-lg max-w-4xl mx-auto">
-      <h2 class="text-xl font-bold text-swu-primary mb-4">Legal Disclaimer</h2>
+      <h2 class="text-xl font-bold text-swu-primary mb-4">{{ $t('legal_disclaimer') }}</h2>
       <p class="text-slate-400 text-sm leading-relaxed">
-        The information presented on this site about Star Wars Unlimited, both literal and graphical, is copyrighted by
-        Fantasy Flight Games and Lucasfilm Ltd.
-        This website is not produced, endorsed, supported, or affiliated with Fantasy Flight Games and/or Lucasfilm Ltd.
-        All card images and symbols are property of their respective owners.
+        {{ $t('disclaimer') }}
       </p>
     </div>
 
@@ -51,10 +46,12 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n()
+
 useSeoMeta({
-  title: 'About swulimited.com',
-  description: 'Learn more about swulimited.com, a fan-made, open-source tool for Star Wars Unlimited sealed deck simulation and practice.',
-  ogTitle: 'About swulimited.com',
-  ogDescription: 'Learn more about swulimited.com, a fan-made, open-source tool for Star Wars Unlimited sealed deck simulation and practice.',
+  title: t('about_meta_title'),
+  description: t('about_meta_desc'),
+  ogTitle: t('about_meta_title'),
+  ogDescription: t('about_meta_desc'),
 })
 </script>

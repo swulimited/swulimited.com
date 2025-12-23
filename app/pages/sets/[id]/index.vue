@@ -19,6 +19,6 @@ onMounted(() => {
 
 <template>
     <div class="flex items-center justify-center min-h-[50vh]">
-        <div class="animate-pulse text-swu-primary">Initializing sealed pool...</div>
+        <div class="animate-pulse text-swu-primary">{{ $t('initializing_pool') }}</div>
     </div>
 </template>

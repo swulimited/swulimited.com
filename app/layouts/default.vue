@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const isMobileMenuOpen = ref(false)
 const route = useRoute()
+const { locale, setLocale } = useI18n()
 
 // Close menu when route changes
 watch(() => route.path, () => {
@@ -44,6 +45,15 @@ watch(() => route.path, () => {
             ]">
               <img src="/images/SEC-logo.png" alt="Secrets of Power" class="h-8 w-auto" />
             </NuxtLink>
+
+            <!-- Language Switcher Desktop -->
+            <div class="flex items-center gap-2 ml-4 border-l border-swu-primary/20 pl-4 h-8">
+              <button @click="setLocale('en')" class="text-xs font-bold transition-colors"
+                :class="locale === 'en' ? 'text-swu-primary' : 'text-slate-500 hover:text-slate-300'">EN</button>
+              <span class="text-slate-600 text-xs">|</span>
+              <button @click="setLocale('fr')" class="text-xs font-bold transition-colors"
+                :class="locale === 'fr' ? 'text-swu-primary' : 'text-slate-500 hover:text-slate-300'">FR</button>
+            </div>
           </nav>
 
           <!-- Mobile Menu Button -->
@@ -84,6 +94,17 @@ watch(() => route.path, () => {
               :class="route.path.includes('/sets/SEC') || (route.params.id as string)?.includes('SEC-') ? 'bg-swu-primary/10 ring-1 ring-swu-primary/50' : ''">
               <img src="/images/SEC-logo.png" alt="Secrets of Power" class="h-8 w-auto" />
             </NuxtLink>
+
+            <!-- Language Switcher Mobile -->
+            <div class="flex items-center gap-4 p-3 border-t border-swu-primary/10 mt-2">
+              <span class="text-sm text-slate-400">Language:</span>
+              <div class="flex items-center gap-3">
+                <button @click="setLocale('en')" class="text-sm font-bold px-2 py-1 rounded"
+                  :class="locale === 'en' ? 'bg-swu-primary/20 text-swu-primary' : 'text-slate-400'">English</button>
+                <button @click="setLocale('fr')" class="text-sm font-bold px-2 py-1 rounded"
+                  :class="locale === 'fr' ? 'bg-swu-primary/20 text-swu-primary' : 'text-slate-400'">Français</button>
+              </div>
+            </div>
           </div>
         </div>
       </transition>
@@ -114,18 +135,14 @@ watch(() => route.path, () => {
       <div class="w-full px-4 flex flex-col md:flex-row justify-between items-center gap-4">
         <div class="flex flex-col gap-2">
           <p class="text-xs text-slate-500">
-            &copy; {{ new Date().getFullYear() }} swulimited.com. Fan-made tool.
+            &copy; {{ new Date().getFullYear() }} swulimited.com. {{ $t('fan_made_tool') }}
           </p>
           <p class="text-xs text-slate-500 max-w-3xl">
-            The information presented on this site about Star Wars Unlimited, both literal and graphical, is copyrighted
-            by Fantasy Flight Games and Lucasfilm Ltd.
-            This website is not produced, endorsed, supported, or affiliated with Fantasy Flight Games and/or Lucasfilm
-            Ltd.
-            All card images and symbols are property of their respective owners.
+            {{ $t('disclaimer') }}
           </p>
         </div>
         <div class="flex gap-4 text-xs text-slate-500">
-          <NuxtLink to="/about" class="hover:text-white transition-colors">About</NuxtLink>
+          <NuxtLink to="/about" class="hover:text-white transition-colors">{{ $t('about') }}</NuxtLink>
         </div>
       </div>
     </footer>

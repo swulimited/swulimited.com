@@ -32,6 +32,7 @@ interface Card extends BoosterCard {
 }
 const route = useRoute()
 const router = useRouter()
+const { t } = useI18n()
 const packConfig = computed(() => (route.params.id as string).toUpperCase())
 
 // 1. Determine the seed from the route param
@@ -47,7 +48,7 @@ const setName = computed(() => {
 })
 
 useSeoMeta({
-  title: () => `Sealed ${setName.value} - swulimited.com`,
+  title: () => t('page_sealed', { set: setName.value }),
   robots: 'noindex, nofollow'
 })
 
@@ -438,22 +439,31 @@ const aspectStats = computed(() => {
 
 const chartData = computed(() => {
   return {
-    labels: ['Cost 0', 'Cost 1', 'Cost 2', 'Cost 3', 'Cost 4', 'Cost 5', 'Cost 6', 'Cost 7+'],
+    labels: [
+      t('cost_x', { cost: 0 }),
+      t('cost_x', { cost: 1 }),
+      t('cost_x', { cost: 2 }),
+      t('cost_x', { cost: 3 }),
+      t('cost_x', { cost: 4 }),
+      t('cost_x', { cost: 5 }),
+      t('cost_x', { cost: 6 }),
+      t('cost_x', { cost: '7+' })
+    ],
     datasets: [
       {
-        label: 'Units',
+        label: t('units'),
         backgroundColor: '#60a5fa',
         data: statsByCostAndType.value.unit,
         stack: 'total'
       },
       {
-        label: 'Events',
+        label: t('events'),
         backgroundColor: '#2563eb',
         data: statsByCostAndType.value.event,
         stack: 'total'
       },
       {
-        label: 'Upgrades',
+        label: t('upgrades'),
         backgroundColor: '#1e3a8a',
         data: statsByCostAndType.value.upgrade,
         stack: 'total'
@@ -464,7 +474,7 @@ const chartData = computed(() => {
 
 const arenaChartData = computed(() => {
   return {
-    labels: ['Ground', 'Space'],
+    labels: [t('ground'), t('space')],
     datasets: [
       {
         backgroundColor: ['#60a5fa', '#1e3a8a'],
@@ -481,7 +491,7 @@ const traitChartData = computed(() => {
     labels: traitStats.value.map(s => s[0]),
     datasets: [
       {
-        label: 'Count',
+        label: t('count'),
         backgroundColor: '#6694ce',
         borderColor: '#6694ce',
         borderWidth: 1,
@@ -699,18 +709,18 @@ onUnmounted(() => {
             <span
               class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent translate-x-[-200%] group-hover:animate-[shimmer_1.5s_infinite]"></span>
             <ArrowPathIcon class="w-4 h-4 group-hover:rotate-180 transition-transform duration-500" />
-            <span class="text-xs tracking-wide">New Pool</span>
+            <span class="text-xs tracking-wide">{{ $t('new_pool') }}</span>
           </button>
 
           <button @click="copyPoolLink"
             class="flex-1 flex items-center justify-center gap-2 py-1.5 px-4 bg-white/5 hover:bg-swu-primary hover:shadow-lg hover:shadow-swu-primary/30 text-gray-300 hover:text-white border border-white/10 hover:border-swu-primary/50 rounded-xl transition-all duration-300 group overflow-hidden relative"
-            :title="isPoolLinkCopied ? 'Link Copied!' : 'Copy Pool Link'">
+            :title="isPoolLinkCopied ? $t('link_copied') : $t('copy_pool_link')">
             <span
               class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent translate-x-[-200%] group-hover:animate-[shimmer_1.5s_infinite]"></span>
             <LinkIcon v-if="!isPoolLinkCopied"
               class="w-4 h-4 group-hover:scale-110 transition-transform duration-500" />
             <CheckIcon v-else class="w-4 h-4 animate-bounce text-emerald-400" />
-            <span class="text-xs tracking-wide">{{ isPoolLinkCopied ? 'Copied!' : 'Copy Pool' }}</span>
+            <span class="text-xs tracking-wide">{{ isPoolLinkCopied ? $t('copied') : $t('copy_pool') }}</span>
           </button>
         </div>
 
@@ -729,7 +739,7 @@ onUnmounted(() => {
               </div>
               <div v-else key="leader-placeholder"
                 class="w-full h-auto aspect-[3.5/2.5] max-h-full rounded-lg border-2 border-dashed border-white/10 flex items-center justify-center text-gray-600 text-xs hover:border-white/20 transition-colors">
-                Select Leader
+                {{ $t('select_leader') }}
               </div>
             </Transition>
           </div>
@@ -747,7 +757,7 @@ onUnmounted(() => {
               </div>
               <div v-else key="base-placeholder"
                 class="w-full h-auto aspect-[3.5/2.5] max-h-full rounded-lg border-2 border-dashed border-white/10 flex items-center justify-center text-gray-600 text-xs hover:border-white/20 transition-colors">
-                Select Base
+                {{ $t('select_base') }}
               </div>
             </Transition>
           </div>
@@ -756,7 +766,7 @@ onUnmounted(() => {
         <!-- Leaders Section -->
         <div class="mb-3 mt-5 md:mt-3">
           <div class="flex items-center justify-between mb-1 px-1">
-            <h3 class="text-xs font-semibold text-swu-primary uppercase tracking-wider">Leaders</h3>
+            <h3 class="text-xs font-semibold text-swu-primary uppercase tracking-wider">{{ $t('leaders') }}</h3>
           </div>
 
 
@@ -778,19 +788,19 @@ onUnmounted(() => {
               </div>
 
               <div class="flex items-center gap-1 flex-shrink-0 ml-2">
-                <div v-for="aspect in group.card.aspects" :key="aspect" :title="aspect">
-                  <img :src="`/images/aspect-${aspect}.png`" :alt="aspect" class="w-6 h-6 object-contain" />
+                <div v-for="aspect in group.card.aspects" :key="aspect" :title="$t(`aspect_${aspect}`)">
+                  <img :src="`/images/aspect-${aspect}.png`" :alt="$t(`aspect_${aspect}`)" class="w-6 h-6 object-contain" />
                 </div>
               </div>
             </div>
           </div>
-          <div v-else class="text-xs text-gray-500 py-4 text-center">No leaders found</div>
+          <div v-else class="text-xs text-gray-500 py-4 text-center">{{ $t('no_leaders') }}</div>
         </div>
 
         <!-- Bases Section -->
         <div>
           <div class="flex items-center justify-between mb-1 px-1">
-            <h3 class="text-xs font-semibold text-swu-primary uppercase tracking-wider">Bases</h3>
+            <h3 class="text-xs font-semibold text-swu-primary uppercase tracking-wider">{{ $t('bases') }}</h3>
           </div>
 
 
@@ -808,13 +818,13 @@ onUnmounted(() => {
               </div>
 
               <div class="flex items-center gap-1 flex-shrink-0 ml-2">
-                <div v-for="aspect in card.aspects" :key="aspect" :title="aspect">
-                  <img :src="`/images/aspect-${aspect}.png`" :alt="aspect" class="w-6 h-6 object-contain" />
+                <div v-for="aspect in card.aspects" :key="aspect" :title="$t(`aspect_${aspect}`)">
+                  <img :src="`/images/aspect-${aspect}.png`" :alt="$t(`aspect_${aspect}`)" class="w-6 h-6 object-contain" />
                 </div>
               </div>
             </div>
           </div>
-          <div v-else class="text-xs text-gray-500 py-4 text-center">No bases found</div>
+          <div v-else class="text-xs text-gray-500 py-4 text-center">{{ $t('no_bases') }}</div>
         </div>
 
       </div>
@@ -837,8 +847,8 @@ onUnmounted(() => {
         <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-red-500/10 text-red-500 mb-4">
           <ExclamationCircleIcon class="w-8 h-8" />
         </div>
-        <h3 class="text-xl font-bold text-white mb-2">Failed to load cards</h3>
-        <p class="text-gray-400">Unable to generate the sealed pool for this set.</p>
+        <h3 class="text-xl font-bold text-white mb-2">{{ $t('failed_load') }}</h3>
+        <p class="text-gray-400">{{ $t('failed_load_text') }}</p>
       </div>
 
       <!-- Cards Deck -->
@@ -854,7 +864,7 @@ onUnmounted(() => {
                 class="h-8 flex items-center gap-1.5 px-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg font-bold text-xs transition-all shadow-lg hover:scale-105 active:scale-95 mr-2">
                 <ClipboardDocumentIcon v-if="!isCopied" class="w-4 h-4" />
                 <CheckIcon v-else class="w-4 h-4 animate-bounce" />
-                {{ isCopied ? 'Copied!' : '.json' }}
+                {{ isCopied ? $t('copied') : '.json' }}
               </button>
             </Transition>
 
@@ -870,14 +880,14 @@ onUnmounted(() => {
                     selectedCardIds.size < 30
                       ? 'text-gray-600 opacity-50 cursor-not-allowed'
                       : (showStats ? 'text-swu-primary bg-white/10' : 'text-gray-400 hover:text-white hover:bg-white/10')
-                  ]" title="Deck Statistics">
+                  ]" :title="$t('deck_stats')">
                   <ChartBarIcon class="w-5 h-5" />
                 </button>
 
                 <button @click="drawHand" :disabled="selectedCardIds.size < 30"
                   class="h-8 w-8 flex items-center justify-center rounded transition-colors"
                   :class="selectedCardIds.size < 30 ? 'text-gray-600 opacity-50 cursor-not-allowed' : 'text-gray-400 hover:text-white hover:bg-white/10'"
-                  title="Test Opening Hand">
+                  :title="$t('test_hand')">
                   <HandRaisedIcon class="w-5 h-5" />
                 </button>
 
@@ -886,7 +896,7 @@ onUnmounted(() => {
                     filterEnabled
                       ? 'text-swu-primary bg-white/10'
                       : 'text-gray-400 hover:text-white hover:bg-white/10'
-                  ]" :title="filterEnabled ? 'Disable Aspect Filter' : 'Enable Aspect Filter'">
+                  ]" :title="filterEnabled ? $t('disable_filter') : $t('enable_filter')">
                   <FunnelIcon class="w-5 h-5" />
                 </button>
               </div>
@@ -896,12 +906,12 @@ onUnmounted(() => {
               <button @click="sortBy = 'number'"
                 class="h-full px-2 rounded-md text-[10px] font-medium transition-colors flex items-center"
                 :class="sortBy === 'number' ? 'bg-swu-primary text-white shadow' : 'text-gray-400 hover:text-gray-300'">
-                NUM
+                {{ $t('sort_num') }}
               </button>
               <button @click="sortBy = 'cost'"
                 class="h-full px-2 rounded-md text-[10px] font-medium transition-colors flex items-center"
                 :class="sortBy === 'cost' ? 'bg-swu-primary text-white shadow' : 'text-gray-400 hover:text-gray-300'">
-                COST
+                {{ $t('sort_cost') }}
               </button>
             </div>
 
@@ -909,7 +919,7 @@ onUnmounted(() => {
               class="h-8 flex items-center px-2 rounded-lg text-xs font-medium transition-colors border" :class="(!selectedLeaderId && !selectedBaseId)
                 ? 'opacity-50 cursor-not-allowed border-white/5 text-gray-500 bg-white/5'
                 : 'bg-red-500/10 hover:bg-red-500/20 text-red-400 hover:text-red-300 border-red-500/20'"
-              title="Reset Selection">
+              :title="$t('reset_selection')">
               <TrashIcon class="w-4 h-4" />
             </button>
 
@@ -930,7 +940,7 @@ onUnmounted(() => {
         </div>
         <div v-else class="text-center text-slate-400 py-20 flex flex-col items-center">
           <div class="mb-4 text-4xl opacity-50">🃏</div>
-          <p class="text-lg">No compatible cards available.</p>
+          <p class="text-lg">{{ $t('no_compatible_cards') }}</p>
         </div>
       </div>
     </div>
@@ -958,12 +968,12 @@ onUnmounted(() => {
           </button>
           <h3 class="text-xl font-bold text-white mb-6 flex items-center gap-2">
             <ChartBarIcon class="w-6 h-6 text-swu-primary" />
-            Deck Statistics
+            {{ $t('deck_stats') }}
           </h3>
           <div class="flex flex-col md:flex-row gap-8">
             <div class="flex-1 flex flex-col min-h-[300px]">
               <h4 class="text-sm font-semibold text-gray-400 mb-4 uppercase tracking-wide text-center flex-shrink-0">
-                Cost Curve</h4>
+                {{ $t('cost_curve') }}</h4>
               <div class="flex-1 relative min-h-0 w-full">
                 <Bar :data="chartData" :options="chartOptions" />
               </div>
@@ -971,7 +981,7 @@ onUnmounted(() => {
 
             <div class="flex-1 flex flex-col min-h-[300px]">
               <h4 class="text-sm font-semibold text-gray-400 mb-4 uppercase tracking-wide text-center flex-shrink-0">
-                Top Traits
+                {{ $t('top_traits') }}
               </h4>
               <div class="flex-1 relative min-h-0 w-full">
                 <Bar :data="traitChartData" :options="traitChartOptions" />
@@ -982,7 +992,7 @@ onUnmounted(() => {
           <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 md:h-[200px]">
             <div class="flex flex-col h-[200px] md:h-full max-h-[200px]">
               <h4 class="text-sm font-semibold text-gray-400 mb-4 uppercase tracking-wide text-center flex-shrink-0">
-                Arena Breakdown
+                {{ $t('arena_breakdown') }}
               </h4>
               <div class="flex-1 relative min-h-0 w-full">
                 <Pie :data="arenaChartData" :options="arenaChartOptions" />
@@ -991,15 +1001,15 @@ onUnmounted(() => {
 
             <div class="flex flex-col h-[200px] md:h-full">
               <h4 class="text-sm font-semibold text-gray-400 mb-4 uppercase tracking-wide text-center flex-shrink-0">
-                Aspects
+                {{ $t('aspects') }}
               </h4>
               <div class="flex-1 relative min-h-0 w-full flex justify-center overflow-y-auto custom-scrollbar">
                 <div class="w-full max-w-xs space-y-2">
                   <div v-for="[aspect, count] in aspectStats" :key="aspect"
                     class="flex items-center justify-between p-2 rounded-lg bg-white/5 border border-white/5 hover:bg-white/10 transition-colors select-none cursor-default">
                     <div class="flex items-center gap-3">
-                      <img :src="`/images/aspect-${aspect}.png`" :alt="aspect" class="w-6 h-6 object-contain" />
-                      <span class="text-sm font-medium capitalize text-gray-200">{{ aspect }}</span>
+                      <img :src="`/images/aspect-${aspect}.png`" :alt="$t(`aspect_${aspect}`)" class="w-6 h-6 object-contain" />
+                      <span class="text-sm font-medium capitalize text-gray-200">{{ $t(`aspect_${aspect}`) }}</span>
                     </div>
                     <span class="text-sm font-bold text-swu-primary">{{ count }}</span>
                   </div>
@@ -1019,7 +1029,7 @@ onUnmounted(() => {
         <div
           class="draw-dialog-content bg-swu-900 border border-swu-primary/30 rounded-2xl p-4 shadow-2xl w-fit max-w-[95vw] flex flex-col relative elevation-high max-h-[90vh] overflow-y-auto">
           <div class="absolute top-4 right-4 flex items-center gap-2">
-            <button @click="drawHand" title="Redraw Hand"
+            <button @click="drawHand" :title="$t('redraw_hand')"
               class="h-8 w-8 flex items-center justify-center rounded transition-colors text-gray-400 hover:text-white hover:bg-white/10 group">
               <ArrowPathIcon class="w-5 h-5 group-hover:rotate-180 transition-transform duration-500" />
             </button>
@@ -1030,7 +1040,7 @@ onUnmounted(() => {
           </div>
           <h3 class="text-xl font-bold text-white mb-4 flex items-center gap-2">
             <HandRaisedIcon class="w-6 h-6 text-swu-primary" />
-            Opening Hand
+            {{ $t('opening_hand') }}
           </h3>
 
           <div v-if="drawnHand.length > 0"

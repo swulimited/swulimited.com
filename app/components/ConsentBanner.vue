@@ -23,11 +23,10 @@
             </div>
             <div class="flex-1">
               <h3 class="text-base font-semibold text-white mb-2 tracking-wide">
-                We have cookies
+                {{ $t('cookies_title') }}
               </h3>
               <p class="text-sm text-slate-400 leading-relaxed">
-                We use cookies to analyze traffic and significantly improve your user experience. 
-                Do you allow us to use cookies to better understand how the app is used?
+                {{ $t('cookies_text') }}
               </p>
             </div>
           </div>
@@ -36,14 +35,14 @@
               @click="decline" 
               class="px-4 py-2 text-xs font-medium text-slate-400 hover:text-white transition-colors uppercase tracking-wider"
             >
-              Decline
+              {{ $t('cookies_decline') }}
             </button>
             <button 
               @click="accept" 
               class="group relative px-5 py-2 text-xs font-bold text-white bg-swu-primary rounded-lg overflow-hidden transition-all hover:bg-swu-primary/90 shadow-lg shadow-swu-primary/20 hover:shadow-swu-primary/40 uppercase tracking-wider"
             >
               <div class="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:animate-shine"></div>
-              Accept
+              {{ $t('cookies_accept') }}
             </button>
           </div>
         </div>
