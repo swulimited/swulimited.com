@@ -47,7 +47,7 @@ watch(() => route.path, () => {
             </NuxtLink>
 
             <!-- Language Switcher Desktop -->
-            <div class="flex items-center gap-2 ml-4 border-l border-swu-primary/20 pl-4 h-8">
+            <div class="flex items-center gap-2 border-l border-swu-primary/20 pl-4 h-8">
               <button @click="setLocale('en')" class="text-xs font-bold transition-colors"
                 :class="locale === 'en' ? 'text-swu-primary' : 'text-slate-500 hover:text-slate-300'">EN</button>
               <span class="text-slate-600 text-xs">|</span>
