@@ -11,12 +11,24 @@
     ],
     "name": "Kylo Ren",
     "title": "We're Not Done Yet",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/001.png",
+    "art": "https://cdn.starwarsunlimited.com//05010001_EN_Kylo_Ren_Leader_ea576c4f57.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
       "FORCE",
       "FIRST ORDER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Kylo Ren",
+        "art": "https://cdn.starwarsunlimited.com//05010001_FR_Kylo_Ren_Leader_6bd9381fee.png",
+        "title": "Nous N'En Avons Pas Terminé",
+        "traits": [
+          "FORCE",
+          "PREMIER ORDRE"
+        ]
+      }
     ]
   },
   {
@@ -31,12 +43,24 @@
     ],
     "name": "Mother Talzin",
     "title": "Power Through Magick",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/002.png",
+    "art": "https://cdn.starwarsunlimited.com//05010002_EN_Mother_Talzin_Leader_7414ce28fa.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "NIGHT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Mère Talzin",
+        "art": "https://cdn.starwarsunlimited.com//05010002_FR_Mere_Talzin_Leader_691a3e726d.png",
+        "title": "Le Pouvoir Grâce À La Magie",
+        "traits": [
+          "FORCE",
+          "NUIT"
+        ]
+      }
     ]
   },
   {
@@ -51,12 +75,24 @@
     ],
     "name": "Ahsoka Tano",
     "title": "Fighting For Peace",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/003.png",
+    "art": "https://cdn.starwarsunlimited.com//05010003_EN_Ahsoka_Tano_Leader_dde85ad968.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "FORCE",
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Ahsoka Tano",
+        "art": "https://cdn.starwarsunlimited.com//05010003_FR_Ahsoka_Tano_Leader_3069fd3452.png",
+        "title": "Se Bat Pour La Paix",
+        "traits": [
+          "FORCE",
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -71,7 +107,7 @@
     ],
     "name": "Kanan Jarrus",
     "title": "Help Us Survive",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/004.png",
+    "art": "https://cdn.starwarsunlimited.com//05010004_EN_Kanan_Jarrus_Leader_11ac922890.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
@@ -79,6 +115,20 @@
       "JEDI",
       "REBEL",
       "SPECTRE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Kanan Jarrus",
+        "art": "https://cdn.starwarsunlimited.com//05010004_FR_Kanan_Jarrus_Leader_343a4a66a4.png",
+        "title": "Nous Aide À Survivre",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "REBELLE",
+          "SPECTRE"
+        ]
+      }
     ]
   },
   {
@@ -93,13 +143,26 @@
     ],
     "name": "Morgan Elsbeth",
     "title": "Following the Call",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/005.png",
+    "art": "https://cdn.starwarsunlimited.com//05010005_EN_Morgan_Elsbeth_Leader_d765f46b93.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "IMPERIAL",
       "NIGHT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Morgan Elsbeth",
+        "art": "https://cdn.starwarsunlimited.com//05010005_FR_Morgan_Elsbeth_Leader_06748f04fc.png",
+        "title": "Répond À L'Appel",
+        "traits": [
+          "FORCE",
+          "IMPÉRIAL",
+          "NUIT"
+        ]
+      }
     ]
   },
   {
@@ -114,13 +177,26 @@
     ],
     "name": "Supreme Leader Snoke",
     "title": "In the Seat of Power",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/006.png",
+    "art": "https://cdn.starwarsunlimited.com//05010006_EN_Supreme_Leader_Snoke_Leader_f1eeb33408.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "FORCE",
       "FIRST ORDER",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Suprême Leader Snoke",
+        "art": "https://cdn.starwarsunlimited.com//05010006_FR_Supreme_Leader_Snoke_Leader_ed6979ef6b.png",
+        "title": "Au Siège Du Pouvoir",
+        "traits": [
+          "FORCE",
+          "PREMIER ORDRE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -135,13 +211,26 @@
     ],
     "name": "Avar Kriss",
     "title": "Marshal of Starlight",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/007.png",
+    "art": "https://cdn.starwarsunlimited.com//05010007_EN_Avar_Kriss_Leader_c8a118926f.png",
     "cost": 9,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Avar Kriss",
+        "art": "https://cdn.starwarsunlimited.com//05010007_FR_Avar_Kriss_Leader_998c160dc5.png",
+        "title": "Marshal Du Flambeau Stellaire",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -156,13 +245,26 @@
     ],
     "name": "Obi-Wan Kenobi",
     "title": "Courage Makes Heroes",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/008.png",
+    "art": "https://cdn.starwarsunlimited.com//05010008_EN_Obi_Wan_Kenobi_Leader_b5fddadbca.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Obi-Wan Kenobi",
+        "art": "https://cdn.starwarsunlimited.com//05010008_FR_Obi_Wan_Kenobi_Leader_f3905fb7fb.png",
+        "title": "Le Courage Révèle Les Héros",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -177,12 +279,24 @@
     ],
     "name": "Darth Maul",
     "title": "Sith Revealed",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/009.png",
+    "art": "https://cdn.starwarsunlimited.com//05010009_EN_Darth_Maul_Leader_5c0d01cadf.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "FORCE",
       "SITH"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dark Maul",
+        "art": "https://cdn.starwarsunlimited.com//05010009_FR_Dark_Maul_Leader_75bd55cb14.png",
+        "title": "Sith Avéré",
+        "traits": [
+          "FORCE",
+          "SITH"
+        ]
+      }
     ]
   },
   {
@@ -197,13 +311,26 @@
     ],
     "name": "Third Sister",
     "title": "Seething With Ambition",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/010.png",
+    "art": "https://cdn.starwarsunlimited.com//05010010_EN_Third_Sister_Leader_f4569d7f40.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "IMPERIAL",
       "INQUISITOR"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "La Troisième Sœur",
+        "art": "https://cdn.starwarsunlimited.com//05010010_FR_La_Troisieme_Soeur_Leader_0af0764946.png",
+        "title": "Déborde D'Ambition",
+        "traits": [
+          "FORCE",
+          "IMPÉRIAL",
+          "INQUISITEUR"
+        ]
+      }
     ]
   },
   {
@@ -218,13 +345,26 @@
     ],
     "name": "Kit Fisto",
     "title": "Focused Jedi Master",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/011.png",
+    "art": "https://cdn.starwarsunlimited.com//05010011_EN_Kit_Fisto_Leader_051f738851.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Kit Fisto",
+        "art": "https://cdn.starwarsunlimited.com//05010011_FR_Kit_Fisto_Leader_ebdeeba629.png",
+        "title": "Maître Jedi Concentré",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -239,12 +379,24 @@
     ],
     "name": "Rey",
     "title": "Nobody",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/012.png",
+    "art": "https://cdn.starwarsunlimited.com//05010012_EN_Rey_Leader_77ea2f86c6.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
       "FORCE",
       "RESISTANCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Rey",
+        "art": "https://cdn.starwarsunlimited.com//05010012_FR_Rey_Leader_7ea0786ec7.png",
+        "title": "Personne",
+        "traits": [
+          "FORCE",
+          "RÉSISTANCE"
+        ]
+      }
     ]
   },
   {
@@ -259,13 +411,26 @@
     ],
     "name": "Barriss Offee",
     "title": "We Have Become Villains",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/013.png",
+    "art": "https://cdn.starwarsunlimited.com//05010013_EN_Barriss_Offee_Leader_a57329112b.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Barriss Offee",
+        "art": "https://cdn.starwarsunlimited.com//05010013_FR_Barriss_Offee_Leader_3c070464ab.png",
+        "title": "Nous Sommes Devenus Méchants",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -280,13 +445,26 @@
     ],
     "name": "Grand Inquisitor",
     "title": "Stories Travel Quickly",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/014.png",
+    "art": "https://cdn.starwarsunlimited.com//05010014_EN_Grand_Inquisitor_Leader_6ae0792724.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "IMPERIAL",
       "INQUISITOR"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Grand Inquisiteur",
+        "art": "https://cdn.starwarsunlimited.com//05010014_FR_Grand_Inquisiteur_Leader_10586d5b59.png",
+        "title": "Les Histoires Circulent Vite",
+        "traits": [
+          "FORCE",
+          "IMPÉRIAL",
+          "INQUISITEUR"
+        ]
+      }
     ]
   },
   {
@@ -301,12 +479,24 @@
     ],
     "name": "Cal Kestis",
     "title": "I Can't Keep Hiding",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/015.png",
+    "art": "https://cdn.starwarsunlimited.com//05010015_EN_Cal_Kestis_Leader_5b949965b2.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "FORCE",
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Cal Kestis",
+        "art": "https://cdn.starwarsunlimited.com//05010015_FR_Cal_Kestis_Leader_9910c4f1bf.png",
+        "title": "Je Ne Peux Pas Rester Caché",
+        "traits": [
+          "FORCE",
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -321,13 +511,26 @@
     ],
     "name": "Qui-Gon Jinn",
     "title": "Student of the Living Force",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/016.png",
+    "art": "https://cdn.starwarsunlimited.com//05010016_EN_Qui_Gon_Jinn_Leader_581f60541f.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Qui-Gon Jinn",
+        "art": "https://cdn.starwarsunlimited.com//05010016_FR_Qui_Gon_Jinn_Leader_cfdb029221.png",
+        "title": "Étudiant De La Force Vivante",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -341,12 +544,24 @@
     ],
     "name": "Darth Revan",
     "title": "Scourge of the Old Republic",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/017.png",
+    "art": "https://cdn.starwarsunlimited.com//05010017_EN_Darth_Revan_Leader_824e4c7b08.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "SITH"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dark Revan",
+        "art": "https://cdn.starwarsunlimited.com//05010017_FR_Dark_Revan_Leader_a1c25b9b26.png",
+        "title": "Fléau De L'Ancienne République",
+        "traits": [
+          "FORCE",
+          "SITH"
+        ]
+      }
     ]
   },
   {
@@ -360,13 +575,26 @@
     ],
     "name": "Anakin Skywalker",
     "title": "Tempted by the Dark Side",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/018.png",
+    "art": "https://cdn.starwarsunlimited.com//05010018_EN_Anakin_Skywalker_Leader_5e9af7f88d.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Anakin Skywalker",
+        "art": "https://cdn.starwarsunlimited.com//05010018_FR_Anakin_Skywalker_Leader_f876d29ae6.png",
+        "title": "Tenté Par Le Côté Obscur",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -380,8 +608,15 @@
     ],
     "name": "Vergence Temple",
     "title": "Lothal",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/019.png",
-    "hp": 25
+    "art": "https://cdn.starwarsunlimited.com//05010019_EN_Vergence_Temple_Base_9b135d875a.png",
+    "hp": 25,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Temple de la Vergence",
+        "art": "https://cdn.starwarsunlimited.com//05010019_FR_Temple_de_la_Vergence_Base_d225023757.png"
+      }
+    ]
   },
   {
     "id": "LOF-020",
@@ -394,8 +629,15 @@
     ],
     "name": "Nightsister Lair",
     "title": "Dathomir",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/020.png",
-    "hp": 28
+    "art": "https://cdn.starwarsunlimited.com//05010020_EN_Nightsister_Lair_Base_8a875307ec.png",
+    "hp": 28,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Repaire des Sœurs de la Nuit",
+        "art": "https://cdn.starwarsunlimited.com//05010020_FR_Repaire_des_Soeurs_de_la_Nuit_Base_54778b6cac.png"
+      }
+    ]
   },
   {
     "id": "LOF-021",
@@ -408,8 +650,15 @@
     ],
     "name": "Shadowed Undercity",
     "title": "Coruscant",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/021.png",
-    "hp": 28
+    "art": "https://cdn.starwarsunlimited.com//05010021_EN_Shadowed_Undercity_Base_9a8016d784.png",
+    "hp": 28,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Cité Souterraine",
+        "art": "https://cdn.starwarsunlimited.com//05010021_FR_Cite_Souterraine_Base_1b0f7ec186.png"
+      }
+    ]
   },
   {
     "id": "LOF-022",
@@ -422,8 +671,15 @@
     ],
     "name": "Mystic Monastery",
     "title": "Mortis",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/022.png",
-    "hp": 25
+    "art": "https://cdn.starwarsunlimited.com//05010022_EN_Mystic_Monastery_Base_abcfceb59e.png",
+    "hp": 25,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Monastère Mystique",
+        "art": "https://cdn.starwarsunlimited.com//05010022_FR_Monastere_Mystique_Base_a0f96c4ec9.png"
+      }
+    ]
   },
   {
     "id": "LOF-023",
@@ -436,8 +692,15 @@
     ],
     "name": "Jedi Temple",
     "title": "Coruscant",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/023.png",
-    "hp": 28
+    "art": "https://cdn.starwarsunlimited.com//05010023_EN_Jedi_Temple_Base_722da43db3.png",
+    "hp": 28,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Temple Jedi",
+        "art": "https://cdn.starwarsunlimited.com//05010023_FR_Temple_Jedi_Base_c5c477b481.png"
+      }
+    ]
   },
   {
     "id": "LOF-024",
@@ -450,8 +713,15 @@
     ],
     "name": "Starlight Temple",
     "title": "Starlight Beacon",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/024.png",
-    "hp": 28
+    "art": "https://cdn.starwarsunlimited.com//05010024_EN_Starlight_Temple_Base_87f20ca919.png",
+    "hp": 28,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Temple du Flambeau Stellaire",
+        "art": "https://cdn.starwarsunlimited.com//05010024_FR_Temple_du_Flambeau_Stellaire_Base_e699c6c21f.png"
+      }
+    ]
   },
   {
     "id": "LOF-025",
@@ -464,8 +734,15 @@
     ],
     "name": "Temple of Destruction",
     "title": "Malachor",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/025.png",
-    "hp": 25
+    "art": "https://cdn.starwarsunlimited.com//05010025_EN_Temple_of_Destruction_Base_3243e94780.png",
+    "hp": 25,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Temple de la Destruction",
+        "art": "https://cdn.starwarsunlimited.com//05010025_FR_Temple_de_la_Destruction_Base_4d92ee458d.png"
+      }
+    ]
   },
   {
     "id": "LOF-026",
@@ -478,8 +755,15 @@
     ],
     "name": "Fortress Vader",
     "title": "Mustafar",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/026.png",
-    "hp": 28
+    "art": "https://cdn.starwarsunlimited.com//05010026_EN_Fortress_Vader_Base_6355e8f79c.png",
+    "hp": 28,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Forteresse de Vador",
+        "art": "https://cdn.starwarsunlimited.com//05010026_FR_Forteresse_de_Vador_Base_4ef0bb81e7.png"
+      }
+    ]
   },
   {
     "id": "LOF-027",
@@ -492,8 +776,15 @@
     ],
     "name": "Strangled Cliffs",
     "title": "Dathomir",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/027.png",
-    "hp": 28
+    "art": "https://cdn.starwarsunlimited.com//05010027_EN_Strangled_Cliffs_Base_1144b7993b.png",
+    "hp": 28,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Falaises Étranglées",
+        "art": "https://cdn.starwarsunlimited.com//05010027_FR_Falaises_Etranglees_Base_d71b6a4163.png"
+      }
+    ]
   },
   {
     "id": "LOF-028",
@@ -506,8 +797,15 @@
     ],
     "name": "Tomb of Eilram",
     "title": "Zeffo",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/028.png",
-    "hp": 25
+    "art": "https://cdn.starwarsunlimited.com//05010028_EN_Tomb_of_Eilram_Base_fa83375468.png",
+    "hp": 25,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Tombeau d'Eilram",
+        "art": "https://cdn.starwarsunlimited.com//05010028_FR_Tombeau_d_Eilram_Base_dd11600cc1.png"
+      }
+    ]
   },
   {
     "id": "LOF-029",
@@ -520,8 +818,15 @@
     ],
     "name": "Crystal Caves",
     "title": "Ilum",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/029.png",
-    "hp": 28
+    "art": "https://cdn.starwarsunlimited.com//05010029_EN_Crystal_Caves_Base_aa0111e018.png",
+    "hp": 28,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Cavernes de Cristal",
+        "art": "https://cdn.starwarsunlimited.com//05010029_FR_Cavernes_de_Cristal_Base_6ac40b60b1.png"
+      }
+    ]
   },
   {
     "id": "LOF-030",
@@ -534,8 +839,15 @@
     ],
     "name": "The Holy City",
     "title": "Jedha",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/030.png",
-    "hp": 28
+    "art": "https://cdn.starwarsunlimited.com//05010030_EN_The_Holy_City_Base_647f348498.png",
+    "hp": 28,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "La Ville Sainte",
+        "art": "https://cdn.starwarsunlimited.com//05010030_FR_La_Ville_Sainte_Base_3c67b2a86c.png"
+      }
+    ]
   },
   {
     "id": "LOF-031",
@@ -549,12 +861,24 @@
     ],
     "name": "Karis",
     "title": "We Don't Like Strangers",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/031.png",
+    "art": "https://cdn.starwarsunlimited.com//05010031_EN_Karis_3146cb30ef.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FORCE",
       "NIGHT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Karis",
+        "art": "https://cdn.starwarsunlimited.com//05010031_FR_Karis_4e09955800.png",
+        "title": "Nous N'Aimons Pas Les Étrangers",
+        "traits": [
+          "FORCE",
+          "NUIT"
+        ]
+      }
     ]
   },
   {
@@ -568,12 +892,23 @@
       "villainy"
     ],
     "name": "Magistrate's Scout",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/032.png",
+    "art": "https://cdn.starwarsunlimited.com//05010032_EN_Magistrate_s_Scout_673e9817c9.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Éclaireur du Magistrat",
+        "art": "https://cdn.starwarsunlimited.com//05010032_FR_Eclaireur_du_Magistrat_eef5a4c3f6.png",
+        "traits": [
+          "IMPÉRIAL",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -587,11 +922,21 @@
       "villainy"
     ],
     "name": "Nameless Terror",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/033.png",
+    "art": "https://cdn.starwarsunlimited.com//05010033_EN_Nameless_Terror_15c4107595.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Terreur Sans Nom",
+        "art": "https://cdn.starwarsunlimited.com//05010033_FR_Terreur_Sans_Nom_cd47262258.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -605,13 +950,25 @@
       "villainy"
     ],
     "name": "Supremacy TIE/sf",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/034.png",
+    "art": "https://cdn.starwarsunlimited.com//05010034_EN_Supremacy_TIE_sf_a931986219.png",
     "cost": 3,
     "arena": "space",
     "traits": [
       "FIRST ORDER",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "TIE/sf de Suprématie",
+        "art": "https://cdn.starwarsunlimited.com//05010034_FR_TIE_sf_de_Suprematie_6c6cb4331f.png",
+        "traits": [
+          "PREMIER ORDRE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -625,12 +982,23 @@
       "villainy"
     ],
     "name": "Talzin's Assassin",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/035.png",
+    "art": "https://cdn.starwarsunlimited.com//05010035_EN_Talzin_s_Assassin_82a65780a2.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "FORCE",
       "NIGHT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Assassin de Talzin",
+        "art": "https://cdn.starwarsunlimited.com//05010035_FR_Assassin_de_Talzin_7546e6b942.png",
+        "traits": [
+          "FORCE",
+          "NUIT"
+        ]
+      }
     ]
   },
   {
@@ -645,12 +1013,24 @@
     ],
     "name": "Old Daka",
     "title": "Oldest and Wisest",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/036.png",
+    "art": "https://cdn.starwarsunlimited.com//05010036_EN_Old_Daka_348919e152.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "NIGHT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vieille Daka",
+        "art": "https://cdn.starwarsunlimited.com//05010036_FR_Vieille_Daka_3a24e34025.png",
+        "title": "La Plus Âgée Et La Plus Sage",
+        "traits": [
+          "FORCE",
+          "NUIT"
+        ]
+      }
     ]
   },
   {
@@ -665,13 +1045,26 @@
     ],
     "name": "Darth Vader",
     "title": "Twilight of the Apprentice",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/037.png",
+    "art": "https://cdn.starwarsunlimited.com//05010037_EN_Darth_Vader_a11d9696b3.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "FORCE",
       "IMPERIAL",
       "SITH"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dark Vador",
+        "art": "https://cdn.starwarsunlimited.com//05010037_FR_Dark_Vador_6f154d8a46.png",
+        "title": "Crépuscule De L'Apprenti",
+        "traits": [
+          "FORCE",
+          "IMPÉRIAL",
+          "SITH"
+        ]
+      }
     ]
   },
   {
@@ -686,13 +1079,26 @@
     ],
     "name": "Pong Krell",
     "title": "It's Treason, Then",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/038.png",
+    "art": "https://cdn.starwarsunlimited.com//05010038_EN_Pong_Krell_becb04f8fb.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Pong Krell",
+        "art": "https://cdn.starwarsunlimited.com//05010038_FR_Pong_Krell_47787ef5cd.png",
+        "title": "L'Heure Est À La Trahison",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -707,13 +1113,26 @@
     ],
     "name": "Darth Sidious",
     "title": "The Phantom Menace",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/039.png",
+    "art": "https://cdn.starwarsunlimited.com//05010039_EN_Darth_Sidious_3636be150e.png",
     "cost": 8,
     "arena": "ground",
     "traits": [
       "FORCE",
       "SEPARATIST",
       "SITH"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dark Sidious",
+        "art": "https://cdn.starwarsunlimited.com//05010039_FR_Dark_Sidious_da0f0b8638.png",
+        "title": "La Menace Fantôme",
+        "traits": [
+          "FORCE",
+          "SÉPARATISTE",
+          "SITH"
+        ]
+      }
     ]
   },
   {
@@ -727,12 +1146,24 @@
       "villainy"
     ],
     "name": "Kylo Ren's Lightsaber",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/040.png",
+    "art": "https://cdn.starwarsunlimited.com//05010040_EN_Kylo_Ren_s_Lightsaber_659a383024.png",
     "cost": 2,
     "traits": [
       "ITEM",
       "WEAPON",
       "LIGHTSABER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sabre Laser de Kylo Ren",
+        "art": "https://cdn.starwarsunlimited.com//05010040_FR_Sabre_Laser_de_Kylo_Ren_3c1c58079f.png",
+        "traits": [
+          "OBJET",
+          "ARME",
+          "SABRE LASER"
+        ]
+      }
     ]
   },
   {
@@ -746,10 +1177,20 @@
       "villainy"
     ],
     "name": "Drain Essence",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/041.png",
+    "art": "https://cdn.starwarsunlimited.com//05010041_EN_Drain_Essence_6c5dc95468.png",
     "cost": 2,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Drain d'Essence",
+        "art": "https://cdn.starwarsunlimited.com//05010041_FR_Drain_d_Essence_f75846fe98.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -763,10 +1204,20 @@
       "villainy"
     ],
     "name": "Always Two",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/042.png",
+    "art": "https://cdn.starwarsunlimited.com//05010042_EN_Always_Two_a606047f95.png",
     "cost": 4,
     "traits": [
       "SITH"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Toujours par Deux",
+        "art": "https://cdn.starwarsunlimited.com//05010042_FR_Toujours_par_Deux_a1fe37ac81.png",
+        "traits": [
+          "SITH"
+        ]
+      }
     ]
   },
   {
@@ -780,10 +1231,20 @@
       "villainy"
     ],
     "name": "The Tragedy of Plagueis",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/043.png",
+    "art": "https://cdn.starwarsunlimited.com//05010043_EN_The_Tragedy_of_Plagueis_ee157991b0.png",
     "cost": 5,
     "traits": [
       "LEARNED"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "La Tragédie de Plagueis",
+        "art": "https://cdn.starwarsunlimited.com//05010043_FR_La_Tragedie_de_Plagueis_940beeec89.png",
+        "traits": [
+          "ACQUIS"
+        ]
+      }
     ]
   },
   {
@@ -797,11 +1258,21 @@
       "heroism"
     ],
     "name": "Loth-Wolf",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/044.png",
+    "art": "https://cdn.starwarsunlimited.com//05010044_EN_Loth_Wolf_278b8954fd.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Loth-Loup",
+        "art": "https://cdn.starwarsunlimited.com//05010044_FR_Loth_Loup_cc19a12cee.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -816,13 +1287,26 @@
     ],
     "name": "Yaddle",
     "title": "A Chance to Make Things Right",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/045.png",
+    "art": "https://cdn.starwarsunlimited.com//05010045_EN_Yaddle_12567582ed.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Yaddle",
+        "art": "https://cdn.starwarsunlimited.com//05010045_FR_Yaddle_631ec9246a.png",
+        "title": "Une Chance De Bien Faire",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -837,7 +1321,7 @@
     ],
     "name": "Ezra Bridger",
     "title": "Attuned With Life",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/046.png",
+    "art": "https://cdn.starwarsunlimited.com//05010046_EN_Ezra_Bridger_49c1a07209.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
@@ -845,6 +1329,20 @@
       "JEDI",
       "REBEL",
       "SPECTRE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Ezra Bridger",
+        "art": "https://cdn.starwarsunlimited.com//05010046_FR_Ezra_Bridger_4586f70442.png",
+        "title": "En Harmonie Avec La Vie",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "REBELLE",
+          "SPECTRE"
+        ]
+      }
     ]
   },
   {
@@ -859,13 +1357,26 @@
     ],
     "name": "T-6 Shuttle 1974",
     "title": "Stay Close",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/047.png",
+    "art": "https://cdn.starwarsunlimited.com//05010047_EN_T_6_Shuttle_1974_5dc9fa6bcb.png",
     "cost": 3,
     "arena": "space",
     "traits": [
       "FRINGE",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Navette T-6 1974",
+        "art": "https://cdn.starwarsunlimited.com//05010047_FR_Navette_T_6_1974_853d6483b4.png",
+        "title": "Reste À Proximité",
+        "traits": [
+          "FRANGE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -879,12 +1390,23 @@
       "heroism"
     ],
     "name": "Itinerant Warrior",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/048.png",
+    "art": "https://cdn.starwarsunlimited.com//05010048_EN_Itinerant_Warrior_8ab3589404.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Guerrière Itinérante",
+        "art": "https://cdn.starwarsunlimited.com//05010048_FR_Guerriere_Itinerante_2607a77327.png",
+        "traits": [
+          "FORCE",
+          "JEDI"
+        ]
+      }
     ]
   },
   {
@@ -898,12 +1420,23 @@
       "heroism"
     ],
     "name": "Jedi Guardian",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/049.png",
+    "art": "https://cdn.starwarsunlimited.com//05010049_EN_Jedi_Guardian_97653b4cb1.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Gardien Jedi",
+        "art": "https://cdn.starwarsunlimited.com//05010049_FR_Gardien_Jedi_803cc38088.png",
+        "traits": [
+          "FORCE",
+          "JEDI"
+        ]
+      }
     ]
   },
   {
@@ -918,13 +1451,26 @@
     ],
     "name": "Plo Koon",
     "title": "I Don't Believe in Chance",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/050.png",
+    "art": "https://cdn.starwarsunlimited.com//05010050_EN_Plo_Koon_537c550bbb.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Plo Koon",
+        "art": "https://cdn.starwarsunlimited.com//05010050_FR_Plo_Koon_3a9341cf54.png",
+        "title": "Je Ne Crois Pas À La Chance",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -938,11 +1484,22 @@
       "heroism"
     ],
     "name": "Jedi Holocron",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/051.png",
+    "art": "https://cdn.starwarsunlimited.com//05010051_EN_Jedi_Holocron_59260eae36.png",
     "cost": 1,
     "traits": [
       "JEDI",
       "ITEM"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Holocron Jedi",
+        "art": "https://cdn.starwarsunlimited.com//05010051_FR_Holocron_Jedi_31577b9ab5.png",
+        "traits": [
+          "JEDI",
+          "OBJET"
+        ]
+      }
     ]
   },
   {
@@ -956,11 +1513,22 @@
       "heroism"
     ],
     "name": "Jedi Trials",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/052.png",
+    "art": "https://cdn.starwarsunlimited.com//05010052_EN_Jedi_Trials_beb31907c7.png",
     "cost": 1,
     "traits": [
       "JEDI",
       "LEARNED"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Épreuves Jedi",
+        "art": "https://cdn.starwarsunlimited.com//05010052_FR_Epreuves_Jedi_7523b181ff.png",
+        "traits": [
+          "JEDI",
+          "ACQUIS"
+        ]
+      }
     ]
   },
   {
@@ -974,12 +1542,24 @@
       "heroism"
     ],
     "name": "Heirloom Lightsaber",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/053.png",
+    "art": "https://cdn.starwarsunlimited.com//05010053_EN_Heirloom_Lightsaber_6eb6512cc3.png",
     "cost": 2,
     "traits": [
       "ITEM",
       "WEAPON",
       "LIGHTSABER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sabre Laser Légué",
+        "art": "https://cdn.starwarsunlimited.com//05010053_FR_Sabre_Laser_Legue_e0dfb8f7f2.png",
+        "traits": [
+          "OBJET",
+          "ARME",
+          "SABRE LASER"
+        ]
+      }
     ]
   },
   {
@@ -993,10 +1573,20 @@
       "heroism"
     ],
     "name": "Calm in the Storm",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/054.png",
+    "art": "https://cdn.starwarsunlimited.com//05010054_EN_Calm_in_the_Storm_dd160bcaf6.png",
     "cost": 2,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Le Calme au Cœur de la Tempête",
+        "art": "https://cdn.starwarsunlimited.com//05010054_FR_Le_Calme_au_Coeur_de_la_Tempete_ed72da6135.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -1011,12 +1601,24 @@
     ],
     "name": "Dume",
     "title": "Redeem the Future",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/055.png",
+    "art": "https://cdn.starwarsunlimited.com//05010055_EN_Dume_c9b5eb7c20.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "FORCE",
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dume",
+        "art": "https://cdn.starwarsunlimited.com//05010055_FR_Dume_2b8feb3abb.png",
+        "title": "Préserver L'Avenir",
+        "traits": [
+          "FORCE",
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -1030,10 +1632,20 @@
       "vigilance"
     ],
     "name": "Size Matters Not",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/056.png",
+    "art": "https://cdn.starwarsunlimited.com//05010056_EN_Size_Matters_Not_c922da65ec.png",
     "cost": 3,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "La Taille Importe Peu",
+        "art": "https://cdn.starwarsunlimited.com//05010056_FR_La_Taille_Importe_Peu_38886947a3.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -1047,11 +1659,22 @@
     ],
     "name": "Owen Lars",
     "title": "Devoted Uncle",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/057.png",
+    "art": "https://cdn.starwarsunlimited.com//05010057_EN_Owen_Lars_14810f3031.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Owen Lars",
+        "art": "https://cdn.starwarsunlimited.com//05010057_FR_Owen_Lars_3d3bfd7f77.png",
+        "title": "Oncle Dévoué",
+        "traits": [
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -1064,12 +1687,23 @@
       "vigilance"
     ],
     "name": "Guardian of the Whills",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/058.png",
+    "art": "https://cdn.starwarsunlimited.com//05010058_EN_Guardian_of_the_Whills_fe4e203173.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FORCE",
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Gardien des Whills",
+        "art": "https://cdn.starwarsunlimited.com//05010058_FR_Gardien_des_Whills_c69a7229c2.png",
+        "traits": [
+          "FORCE",
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -1082,12 +1716,23 @@
       "vigilance"
     ],
     "name": "Nightsister Warrior",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/059.png",
+    "art": "https://cdn.starwarsunlimited.com//05010059_EN_Nightsister_Warrior_c64371ad0c.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FORCE",
       "NIGHT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Guerrière Sœur de la Nuit",
+        "art": "https://cdn.starwarsunlimited.com//05010059_FR_Guerriere_Soeur_de_la_Nuit_23c4ae1e56.png",
+        "traits": [
+          "FORCE",
+          "NUIT"
+        ]
+      }
     ]
   },
   {
@@ -1100,7 +1745,7 @@
       "vigilance"
     ],
     "name": "Padawan Starfighter",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/060.png",
+    "art": "https://cdn.starwarsunlimited.com//05010060_EN_Padawan_Starfighter_9bdb7a0eee.png",
     "cost": 2,
     "arena": "space",
     "traits": [
@@ -1108,6 +1753,19 @@
       "REPUBLIC",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chasseur de Padawan",
+        "art": "https://cdn.starwarsunlimited.com//05010060_FR_Chasseur_de_Padawan_de4960785a.png",
+        "traits": [
+          "JEDI",
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -1120,12 +1778,23 @@
       "vigilance"
     ],
     "name": "Secretive Sage",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/061.png",
+    "art": "https://cdn.starwarsunlimited.com//05010061_EN_Secretive_Sage_90ed7a322e.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FORCE",
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sage Discret",
+        "art": "https://cdn.starwarsunlimited.com//05010061_FR_Sage_Discret_7a9f4db3bf.png",
+        "traits": [
+          "FORCE",
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -1139,12 +1808,24 @@
     ],
     "name": "Axe Woves",
     "title": "Accomplished Warrior",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/062.png",
+    "art": "https://cdn.starwarsunlimited.com//05010062_EN_Axe_Woves_01512860ce.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "MANDALORIAN",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Axe Woves",
+        "art": "https://cdn.starwarsunlimited.com//05010062_FR_Axe_Woves_6434b800ce.png",
+        "title": "Guerrier Accompli",
+        "traits": [
+          "MANDALORIEN",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -1158,11 +1839,22 @@
     ],
     "name": "Oggdo Bogdo",
     "title": "Bogano Brute",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/063.png",
+    "art": "https://cdn.starwarsunlimited.com//05010063_EN_Oggdo_Bogdo_ec0748195f.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Oggdo Bogdo",
+        "art": "https://cdn.starwarsunlimited.com//05010063_FR_Oggdo_Bogdo_022b11161a.png",
+        "title": "Bête Sauvage De Bogano",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -1175,11 +1867,21 @@
       "vigilance"
     ],
     "name": "Tauntaun",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/064.png",
+    "art": "https://cdn.starwarsunlimited.com//05010064_EN_Tauntaun_20dc6e8a95.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Tauntaun",
+        "art": "https://cdn.starwarsunlimited.com//05010064_FR_Tauntaun_b259d44a40.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -1192,11 +1894,22 @@
       "vigilance"
     ],
     "name": "Watto",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/065.png",
+    "art": "https://cdn.starwarsunlimited.com//05010065_EN_Watto_ba8a79f4c5.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Watto",
+        "art": "https://cdn.starwarsunlimited.com//05010065_FR_Watto_adb0d2f6c5.png",
+        "title": "Pas D'Argent, Pas De Pièces, Pas D'Affaire",
+        "traits": [
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -1209,12 +1922,22 @@
       "vigilance"
     ],
     "name": "Awakened Specters",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/066.png",
+    "art": "https://cdn.starwarsunlimited.com//05010066_EN_Awakened_Specters_6e624f6e44.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "NIGHT",
       "UNDEAD"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Spectres Éveillés",
+        "art": "https://cdn.starwarsunlimited.com//05010066_FR_Spectres_Eveilles_7563b76fe0.png",
+        "traits": [
+          "NUIT"
+        ]
+      }
     ]
   },
   {
@@ -1228,12 +1951,24 @@
     ],
     "name": "Chirrut Îmwe",
     "title": "Blind, but not Deaf",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/067.png",
+    "art": "https://cdn.starwarsunlimited.com//05010067_EN_Chirrut_Imwe_6909d177e4.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "FORCE",
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chirrut Îmwe",
+        "art": "https://cdn.starwarsunlimited.com//05010067_FR_Chirrut_Imwe_1d11e61437.png",
+        "title": "Je Suis Aveugle, Pas Sourd",
+        "traits": [
+          "FORCE",
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -1247,11 +1982,22 @@
     ],
     "name": "Luthen Rael",
     "title": "Masquerading Antiquarian",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/068.png",
+    "art": "https://cdn.starwarsunlimited.com//05010068_EN_Luthen_Rael_3e437df8dd.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "REBEL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Luthen Rael",
+        "art": "https://cdn.starwarsunlimited.com//05010068_FR_Luthen_Rael_9cd1827988.png",
+        "title": "Antiquaire Mystifiant",
+        "traits": [
+          "REBELLE"
+        ]
+      }
     ]
   },
   {
@@ -1264,11 +2010,21 @@
       "vigilance"
     ],
     "name": "Graceful Purrgil",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/069.png",
+    "art": "https://cdn.starwarsunlimited.com//05010069_EN_Graceful_Purrgil_5a0a82638f.png",
     "cost": 5,
     "arena": "space",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Purrgil Gracieux",
+        "art": "https://cdn.starwarsunlimited.com//05010069_FR_Purrgil_Gracieux_c9d49acdc3.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -1282,13 +2038,26 @@
     ],
     "name": "Anakin Skywalker",
     "title": "Champion of Mortis",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/070.png",
+    "art": "https://cdn.starwarsunlimited.com//05010070_EN_Anakin_Skywalker_e6a948d85c.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Anakin Skywalker",
+        "art": "https://cdn.starwarsunlimited.com//05010070_FR_Anakin_Skywalker_94c08fbab3.png",
+        "title": "Champion De Mortis",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -1301,11 +2070,21 @@
       "vigilance"
     ],
     "name": "Grappling Guardian",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/071.png",
+    "art": "https://cdn.starwarsunlimited.com//05010071_EN_Grappling_Guardian_6571e3b034.png",
     "cost": 7,
     "arena": "space",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Gardien Combatif",
+        "art": "https://cdn.starwarsunlimited.com//05010071_FR_Gardien_Combatif_6a561b0524.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -1319,11 +2098,22 @@
     ],
     "name": "Priestesses of the Force",
     "title": "Eternal",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/072.png",
+    "art": "https://cdn.starwarsunlimited.com//05010072_EN_Priestesses_of_the_Force_576f0d1e17.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Prêtresses de la Force",
+        "art": "https://cdn.starwarsunlimited.com//05010072_FR_Pretresses_de_la_Force_ba4465787e.png",
+        "title": "Éternelles",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -1337,12 +2127,24 @@
     ],
     "name": "Mythosaur",
     "title": "Folklore Awakened",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/073.png",
+    "art": "https://cdn.starwarsunlimited.com//05010073_EN_Mythosaur_50bb38ea19.png",
     "cost": 9,
     "arena": "ground",
     "traits": [
       "MANDALORIAN",
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Mythosaure",
+        "art": "https://cdn.starwarsunlimited.com//05010073_FR_Mythosaure_75e19cedd6.png",
+        "title": "Folklore Éveillé",
+        "traits": [
+          "MANDALORIEN",
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -1355,10 +2157,20 @@
       "vigilance"
     ],
     "name": "Bolstered Endurance",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/074.png",
+    "art": "https://cdn.starwarsunlimited.com//05010074_EN_Bolstered_Endurance_71a4e4ae5e.png",
     "cost": 1,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Endurance Accrue",
+        "art": "https://cdn.starwarsunlimited.com//05010074_FR_Endurance_Accrue_61f69a9615.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -1371,10 +2183,20 @@
       "vigilance"
     ],
     "name": "Cure Wounds",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/075.png",
+    "art": "https://cdn.starwarsunlimited.com//05010075_EN_Cure_Wounds_a90e28cb3b.png",
     "cost": 1,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Soigner les Blessures",
+        "art": "https://cdn.starwarsunlimited.com//05010075_FR_Soigner_les_Blessures_a60d13a7e8.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -1387,10 +2209,20 @@
       "vigilance"
     ],
     "name": "Soresu Stance",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/076.png",
+    "art": "https://cdn.starwarsunlimited.com//05010076_EN_Soresu_Stance_707af003d4.png",
     "cost": 1,
     "traits": [
       "LEARNED"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Posture Soresu",
+        "art": "https://cdn.starwarsunlimited.com//05010076_FR_Posture_Soresu_fbb497107e.png",
+        "traits": [
+          "ACQUIS"
+        ]
+      }
     ]
   },
   {
@@ -1403,10 +2235,20 @@
       "vigilance"
     ],
     "name": "Crushing Blow",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/077.png",
+    "art": "https://cdn.starwarsunlimited.com//05010077_EN_Crushing_Blow_0cb1324847.png",
     "cost": 3,
     "traits": [
       "TACTIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Coup Écrasant",
+        "art": "https://cdn.starwarsunlimited.com//05010077_FR_Coup_Ecrasant_fca36a4b27.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
     ]
   },
   {
@@ -1419,10 +2261,20 @@
       "vigilance"
     ],
     "name": "Whirlwind of Power",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/078.png",
+    "art": "https://cdn.starwarsunlimited.com//05010078_EN_Whirlwind_of_Power_744a6a61d0.png",
     "cost": 3,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Tourbillon de Puissance",
+        "art": "https://cdn.starwarsunlimited.com//05010078_FR_Tourbillon_de_Puissance_e7272d5bb6.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -1435,10 +2287,20 @@
       "vigilance"
     ],
     "name": "Shatterpoint",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/079.png",
+    "art": "https://cdn.starwarsunlimited.com//05010079_EN_Shatterpoint_d43e6fdfb2.png",
     "cost": 4,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Point de Bascule",
+        "art": "https://cdn.starwarsunlimited.com//05010079_FR_Point_de_Bascule_582e67f0e4.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -1452,7 +2314,7 @@
       "villainy"
     ],
     "name": "Exegol Patroller",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/080.png",
+    "art": "https://cdn.starwarsunlimited.com//05010080_EN_Exegol_Patroller_2ee4dfdebc.png",
     "cost": 2,
     "arena": "space",
     "traits": [
@@ -1460,6 +2322,19 @@
       "SITH",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Patrouilleur d'Exegol",
+        "art": "https://cdn.starwarsunlimited.com//05010080_FR_Patrouilleur_d_Exegol_c673a6ecf0.png",
+        "traits": [
+          "PREMIER ORDRE",
+          "SITH",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -1473,12 +2348,23 @@
       "villainy"
     ],
     "name": "Sith Legionnaire",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/081.png",
+    "art": "https://cdn.starwarsunlimited.com//05010081_EN_Sith_Legionnaire_24b97650db.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "SITH",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Légionnaire Sith",
+        "art": "https://cdn.starwarsunlimited.com//05010081_FR_Legionnaire_Sith_d3175a79af.png",
+        "traits": [
+          "SITH",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -1493,13 +2379,26 @@
     ],
     "name": "Vaneé",
     "title": "I Live to Serve",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/082.png",
+    "art": "https://cdn.starwarsunlimited.com//05010082_EN_Vanee_b28bae41f2.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "SITH",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vaneé",
+        "art": "https://cdn.starwarsunlimited.com//05010082_FR_Vanee_3d09b550cd.png",
+        "title": "Je Vis Pour Servir",
+        "traits": [
+          "IMPÉRIAL",
+          "SITH",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -1514,12 +2413,24 @@
     ],
     "name": "Captain Enoch",
     "title": "Captain of the Guard",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/083.png",
+    "art": "https://cdn.starwarsunlimited.com//05010083_EN_Captain_Enoch_56a44125af.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Capitaine Enoch",
+        "art": "https://cdn.starwarsunlimited.com//05010083_FR_Capitaine_Enoch_5f0041a842.png",
+        "title": "Capitaine De La Garde",
+        "traits": [
+          "IMPÉRIAL",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -1533,11 +2444,21 @@
       "villainy"
     ],
     "name": "Knight of Ren",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/084.png",
+    "art": "https://cdn.starwarsunlimited.com//05010084_EN_Knight_of_Ren_5802478f7c.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FIRST ORDER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chevalier de Ren",
+        "art": "https://cdn.starwarsunlimited.com//05010084_FR_Chevalier_de_Ren_0c310068cc.png",
+        "traits": [
+          "PREMIER ORDRE"
+        ]
+      }
     ]
   },
   {
@@ -1551,11 +2472,21 @@
       "villainy"
     ],
     "name": "Praetorian Guard",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/085.png",
+    "art": "https://cdn.starwarsunlimited.com//05010085_EN_Praetorian_Guard_00b03177f7.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FIRST ORDER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Garde Prétorien",
+        "art": "https://cdn.starwarsunlimited.com//05010085_FR_Garde_Pretorien_ec0172c6ab.png",
+        "traits": [
+          "PREMIER ORDRE"
+        ]
+      }
     ]
   },
   {
@@ -1569,11 +2500,21 @@
       "villainy"
     ],
     "name": "Drengir Spawn",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/086.png",
+    "art": "https://cdn.starwarsunlimited.com//05010086_EN_Drengir_Spawn_e3892cf39b.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Rejeton de Drengir",
+        "art": "https://cdn.starwarsunlimited.com//05010086_FR_Rejeton_de_Drengir_13adde5dd9.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -1588,13 +2529,26 @@
     ],
     "name": "Eighth Brother",
     "title": "Hunt Together",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/087.png",
+    "art": "https://cdn.starwarsunlimited.com//05010087_EN_Eighth_Brother_6ac80f84b8.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "FORCE",
       "IMPERIAL",
       "INQUISITOR"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Le Huitième Frère",
+        "art": "https://cdn.starwarsunlimited.com//05010087_FR_Le_Huitieme_Frere_8ab6e5af9e.png",
+        "title": "Chassons Ensemble",
+        "traits": [
+          "FORCE",
+          "IMPÉRIAL",
+          "INQUISITEUR"
+        ]
+      }
     ]
   },
   {
@@ -1609,13 +2563,26 @@
     ],
     "name": "Eye of Sion",
     "title": "To Peridea",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/088.png",
+    "art": "https://cdn.starwarsunlimited.com//05010088_EN_Eye_of_Sion_1f2bced29c.png",
     "cost": 6,
     "arena": "space",
     "traits": [
       "IMPERIAL",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Œil de Sion",
+        "art": "https://cdn.starwarsunlimited.com//05010088_FR_Oeil_de_Sion_55f3dcbe7f.png",
+        "title": "Vers Peridea",
+        "traits": [
+          "IMPÉRIAL",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -1630,13 +2597,26 @@
     ],
     "name": "Supremacy",
     "title": "Of Unimaginable Size",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/089.png",
+    "art": "https://cdn.starwarsunlimited.com//05010089_EN_Supremacy_20c8156ff6.png",
     "cost": 12,
     "arena": "space",
     "traits": [
       "FIRST ORDER",
       "VEHICLE",
       "CAPITAL SHIP"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Supremacy",
+        "art": "https://cdn.starwarsunlimited.com//05010089_FR_Supremacy_2e74341bd5.png",
+        "title": "D'Une Taille Inimaginable",
+        "traits": [
+          "PREMIER ORDRE",
+          "VÉHICULE",
+          "VAISSEAU CAPITAL"
+        ]
+      }
     ]
   },
   {
@@ -1650,12 +2630,24 @@
       "villainy"
     ],
     "name": "Inquisitor's Lightsaber",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/090.png",
+    "art": "https://cdn.starwarsunlimited.com//05010090_EN_Inquisitor_s_Lightsaber_9434ca176f.png",
     "cost": 2,
     "traits": [
       "ITEM",
       "WEAPON",
       "LIGHTSABER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sabre Laser d'Inquisiteur",
+        "art": "https://cdn.starwarsunlimited.com//05010090_FR_Sabre_Laser_d_Inquisiteur_bbbd0253ca.png",
+        "traits": [
+          "OBJET",
+          "ARME",
+          "SABRE LASER"
+        ]
+      }
     ]
   },
   {
@@ -1669,10 +2661,20 @@
       "villainy"
     ],
     "name": "Craving Power",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/091.png",
+    "art": "https://cdn.starwarsunlimited.com//05010091_EN_Craving_Power_9cf3efe98b.png",
     "cost": 5,
     "traits": [
       "INNATE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Avide de Pouvoir",
+        "art": "https://cdn.starwarsunlimited.com//05010091_FR_Avide_de_Pouvoir_775097a89e.png",
+        "traits": [
+          "INNÉ"
+        ]
+      }
     ]
   },
   {
@@ -1686,13 +2688,25 @@
       "heroism"
     ],
     "name": "Point Rain Reclaimer",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/092.png",
+    "art": "https://cdn.starwarsunlimited.com//05010092_EN_Point_Rain_Reclaimer_846873d838.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "CLONE",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Rescapé de Point Rain",
+        "art": "https://cdn.starwarsunlimited.com//05010092_FR_Rescape_de_Point_Rain_e64871c5dd.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "CLONE",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -1707,13 +2721,26 @@
     ],
     "name": "Gungi",
     "title": "Finding Himself",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/093.png",
+    "art": "https://cdn.starwarsunlimited.com//05010093_EN_Gungi_87bbba5c60.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "WOOKIEE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Gungi",
+        "art": "https://cdn.starwarsunlimited.com//05010093_FR_Gungi_01a71e8e32.png",
+        "title": "S'Est Trouvé",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "WOOKIE"
+        ]
+      }
     ]
   },
   {
@@ -1727,12 +2754,23 @@
       "heroism"
     ],
     "name": "Jedi Consular",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/094.png",
+    "art": "https://cdn.starwarsunlimited.com//05010094_EN_Jedi_Consular_53c27ec07b.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Jedi Consulaire",
+        "art": "https://cdn.starwarsunlimited.com//05010094_FR_Jedi_Consulaire_39fd9e2921.png",
+        "traits": [
+          "FORCE",
+          "JEDI"
+        ]
+      }
     ]
   },
   {
@@ -1747,11 +2785,22 @@
     ],
     "name": "Lor San Tekka",
     "title": "Secret Keeper",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/095.png",
+    "art": "https://cdn.starwarsunlimited.com//05010095_EN_Lor_San_Tekka_d2ebf09e7c.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "RESISTANCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Lor San Tekka",
+        "art": "https://cdn.starwarsunlimited.com//05010095_FR_Lor_San_Tekka_3346d68194.png",
+        "title": "Gardien Du Secret",
+        "traits": [
+          "RÉSISTANCE"
+        ]
+      }
     ]
   },
   {
@@ -1766,13 +2815,26 @@
     ],
     "name": "Obi-Wan Kenobi",
     "title": "Protective Padawan",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/096.png",
+    "art": "https://cdn.starwarsunlimited.com//05010096_EN_Obi_Wan_Kenobi_de3fe0ebd4.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Obi-Wan Kenobi",
+        "art": "https://cdn.starwarsunlimited.com//05010096_FR_Obi_Wan_Kenobi_1db13b0e84.png",
+        "title": "Padawan Protecteur",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -1787,13 +2849,26 @@
     ],
     "name": "Eeth Koth",
     "title": "Spiritual Warrior",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/097.png",
+    "art": "https://cdn.starwarsunlimited.com//05010097_EN_Eeth_Koth_f2c9a996f1.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Eeth Koth",
+        "art": "https://cdn.starwarsunlimited.com//05010097_FR_Eeth_Koth_f01c7857c8.png",
+        "title": "Guerrier Spirituel",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -1808,13 +2883,26 @@
     ],
     "name": "Leia Organa",
     "title": "Extraordinary",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/098.png",
+    "art": "https://cdn.starwarsunlimited.com//05010098_EN_Leia_Organa_33ad116532.png",
     "cost": 5,
     "arena": "space",
     "traits": [
       "FORCE",
       "RESISTANCE",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Leia Organa",
+        "art": "https://cdn.starwarsunlimited.com//05010098_FR_Leia_Organa_b19b5a6a6f.png",
+        "title": "Extraordinaire",
+        "traits": [
+          "FORCE",
+          "RÉSISTANCE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -1828,7 +2916,7 @@
       "heroism"
     ],
     "name": "Paladin Training Corvette",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/099.png",
+    "art": "https://cdn.starwarsunlimited.com//05010099_EN_Paladin_Training_Corvette_0d547b58bf.png",
     "cost": 5,
     "arena": "space",
     "traits": [
@@ -1836,6 +2924,19 @@
       "REPUBLIC",
       "VEHICLE",
       "CAPITAL SHIP"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Corvette d'Entraînement Paladin",
+        "art": "https://cdn.starwarsunlimited.com//05010099_FR_Corvette_d_Entrainement_Paladin_8e36db3edf.png",
+        "traits": [
+          "JEDI",
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "VAISSEAU CAPITAL"
+        ]
+      }
     ]
   },
   {
@@ -1850,13 +2951,26 @@
     ],
     "name": "Kelleran Beq",
     "title": "The Sabered Hand",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/100.png",
+    "art": "https://cdn.starwarsunlimited.com//05010100_EN_Kelleran_Beq_ac1f7a7ce6.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Kelleran Beq",
+        "art": "https://cdn.starwarsunlimited.com//05010100_FR_Kelleran_Beq_4038773774.png",
+        "title": "La Main Sabrée",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -1871,13 +2985,26 @@
     ],
     "name": "Yoda",
     "title": "My Ally is the Force",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/101.png",
+    "art": "https://cdn.starwarsunlimited.com//05010101_EN_Yoda_e0cebba263.png",
     "cost": 8,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Yoda",
+        "art": "https://cdn.starwarsunlimited.com//05010101_FR_Yoda_6ad7c78bcf.png",
+        "title": "Mon Alliée Est La Force",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -1891,12 +3018,24 @@
       "heroism"
     ],
     "name": "Yoda's Lightsaber",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/102.png",
+    "art": "https://cdn.starwarsunlimited.com//05010102_EN_Yoda_s_Lightsaber_7e0c51605e.png",
     "cost": 2,
     "traits": [
       "ITEM",
       "WEAPON",
       "LIGHTSABER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sabre Laser de Yoda",
+        "art": "https://cdn.starwarsunlimited.com//05010102_FR_Sabre_Laser_de_Yoda_c40450ae38.png",
+        "traits": [
+          "OBJET",
+          "ARME",
+          "SABRE LASER"
+        ]
+      }
     ]
   },
   {
@@ -1910,10 +3049,20 @@
       "heroism"
     ],
     "name": "Following the Path",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/103.png",
+    "art": "https://cdn.starwarsunlimited.com//05010103_EN_Following_the_Path_285f98560d.png",
     "cost": 1,
     "traits": [
       "PLAN"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Suivre le Passage",
+        "art": "https://cdn.starwarsunlimited.com//05010103_FR_Suivre_le_Passage_e726ccc9db.png",
+        "traits": [
+          "PLAN"
+        ]
+      }
     ]
   },
   {
@@ -1927,10 +3076,20 @@
       "heroism"
     ],
     "name": "Luminous Beings",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/104.png",
+    "art": "https://cdn.starwarsunlimited.com//05010104_EN_Luminous_Beings_384b3953e6.png",
     "cost": 6,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Êtres de Lumière",
+        "art": "https://cdn.starwarsunlimited.com//05010104_FR_Etres_de_Lumiere_242d685043.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -1945,13 +3104,26 @@
     ],
     "name": "Oppo Rancisis",
     "title": "Ancient Councilor",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/105.png",
+    "art": "https://cdn.starwarsunlimited.com//05010105_EN_Oppo_Rancisis_6abde7b0f6.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Oppo Rancisis",
+        "art": "https://cdn.starwarsunlimited.com//05010105_FR_Oppo_Rancisis_212fbd36b9.png",
+        "title": "Ancien Conseiller",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -1965,13 +3137,25 @@
       "command"
     ],
     "name": "Acclamator Assault Ship",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/106.png",
+    "art": "https://cdn.starwarsunlimited.com//05010106_EN_Acclamator_Assault_Ship_7ebdc568e7.png",
     "cost": 7,
     "arena": "space",
     "traits": [
       "REPUBLIC",
       "VEHICLE",
       "CAPITAL SHIP"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vaisseau d'Assaut Acclamator",
+        "art": "https://cdn.starwarsunlimited.com//05010106_FR_Vaisseau_d_Assaut_Acclamator_38448a4e13.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "VAISSEAU CAPITAL"
+        ]
+      }
     ]
   },
   {
@@ -1984,11 +3168,18 @@
       "command"
     ],
     "name": "Village Tender",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/107.png",
+    "art": "https://cdn.starwarsunlimited.com//05010107_EN_Village_Tender_f21bad5c62.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "EWOK"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Édile du Village",
+        "art": "https://cdn.starwarsunlimited.com//05010107_FR_Edile_du_Village_a95a400330.png"
+      }
     ]
   },
   {
@@ -2002,11 +3193,22 @@
     ],
     "name": "Malakili",
     "title": "Loving Rancor Keeper",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/108.png",
+    "art": "https://cdn.starwarsunlimited.com//05010108_EN_Malakili_5df1272b7d.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "UNDERWORLD"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Malakili",
+        "art": "https://cdn.starwarsunlimited.com//05010108_FR_Malakili_a85f7c29f4.png",
+        "title": "Gardien Émotif Du Rancor",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
     ]
   },
   {
@@ -2019,11 +3221,21 @@
       "command"
     ],
     "name": "Mynock",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/109.png",
+    "art": "https://cdn.starwarsunlimited.com//05010109_EN_Mynock_45e794aad5.png",
     "cost": 2,
     "arena": "space",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Mynock",
+        "art": "https://cdn.starwarsunlimited.com//05010109_FR_Mynock_42c5d773f1.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -2036,13 +3248,25 @@
       "command"
     ],
     "name": "Hive Defense Wing",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/110.png",
+    "art": "https://cdn.starwarsunlimited.com//05010110_EN_Hive_Defense_Wing_3e552182ba.png",
     "cost": 3,
     "arena": "space",
     "traits": [
       "SEPARATIST",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vol Défensif de la Ruche",
+        "art": "https://cdn.starwarsunlimited.com//05010110_FR_Vol_Defensif_de_la_Ruche_ef2884bd6c.png",
+        "traits": [
+          "SÉPARATISTE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -2056,11 +3280,22 @@
     ],
     "name": "Maz Kanata",
     "title": "The Light Guides",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/111.png",
+    "art": "https://cdn.starwarsunlimited.com//05010111_EN_Maz_Kanata_47a5f468b2.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "UNDERWORLD"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Maz Kanata",
+        "art": "https://cdn.starwarsunlimited.com//05010111_FR_Maz_Kanata_f4c4110fcb.png",
+        "title": "Que La Lumière Vous Guide",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
     ]
   },
   {
@@ -2073,12 +3308,23 @@
       "command"
     ],
     "name": "Outer Rim Mystic",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/112.png",
+    "art": "https://cdn.starwarsunlimited.com//05010112_EN_Outer_Rim_Mystic_9ac5185455.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FORCE",
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Mystique de la Bordure Extérieure",
+        "art": "https://cdn.starwarsunlimited.com//05010112_FR_Mystique_de_la_Bordure_Exterieure_3c65a0dff4.png",
+        "traits": [
+          "FORCE",
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -2091,12 +3337,23 @@
       "command"
     ],
     "name": "Jedi Temple Guards",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/113.png",
+    "art": "https://cdn.starwarsunlimited.com//05010113_EN_Jedi_Temple_Guards_a7260fb848.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Gardes du Temple Jedi",
+        "art": "https://cdn.starwarsunlimited.com//05010113_FR_Gardes_du_Temple_Jedi_9a3e5dfb43.png",
+        "traits": [
+          "FORCE",
+          "JEDI"
+        ]
+      }
     ]
   },
   {
@@ -2109,11 +3366,21 @@
       "command"
     ],
     "name": "Kaadu",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/114.png",
+    "art": "https://cdn.starwarsunlimited.com//05010114_EN_Kaadu_7037af8f1f.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Kaadu",
+        "art": "https://cdn.starwarsunlimited.com//05010114_FR_Kaadu_d7a3485125.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -2126,11 +3393,21 @@
       "command"
     ],
     "name": "Dagoyan Master",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/115.png",
+    "art": "https://cdn.starwarsunlimited.com//05010115_EN_Dagoyan_Master_cf39a2be45.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Maître Dagoyan",
+        "art": "https://cdn.starwarsunlimited.com//05010115_FR_Maitre_Dagoyan_d735dace97.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -2143,11 +3420,21 @@
       "command"
     ],
     "name": "Relic Scavenger",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/116.png",
+    "art": "https://cdn.starwarsunlimited.com//05010116_EN_Relic_Scavenger_fb7e62ebb7.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Pilleur de Reliques",
+        "art": "https://cdn.starwarsunlimited.com//05010116_FR_Pilleur_de_Reliques_378b40ff4b.png",
+        "traits": [
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -2160,13 +3447,26 @@
       "command"
     ],
     "name": "Sifo-Dyas",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/117.png",
+    "art": "https://cdn.starwarsunlimited.com//05010117_EN_Sifo_Dyas_b31c35af93.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sifo-Dyas",
+        "art": "https://cdn.starwarsunlimited.com//05010117_FR_Sifo_Dyas_98bc9c3c00.png",
+        "title": "Rassemble Une Armée",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -2179,11 +3479,21 @@
       "command"
     ],
     "name": "Terentatek",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/118.png",
+    "art": "https://cdn.starwarsunlimited.com//05010118_EN_Terentatek_271f03d373.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Terentatek",
+        "art": "https://cdn.starwarsunlimited.com//05010118_FR_Terentatek_f2721a236f.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -2196,11 +3506,21 @@
       "command"
     ],
     "name": "Hyperspace Wayfarer",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/119.png",
+    "art": "https://cdn.starwarsunlimited.com//05010119_EN_Hyperspace_Wayfarer_4ed0951549.png",
     "cost": 6,
     "arena": "space",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Voyageur Hyperspatial",
+        "art": "https://cdn.starwarsunlimited.com//05010119_FR_Voyageur_Hyperspatial_46f7d9bfb5.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -2213,13 +3533,25 @@
       "command"
     ],
     "name": "Trident Assault Ship",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/120.png",
+    "art": "https://cdn.starwarsunlimited.com//05010120_EN_Trident_Assault_Ship_0bd345143f.png",
     "cost": 6,
     "arena": "space",
     "traits": [
       "SEPARATIST",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vaisseau d'Assaut Trident",
+        "art": "https://cdn.starwarsunlimited.com//05010120_FR_Vaisseau_d_Assaut_Trident_21011ac962.png",
+        "traits": [
+          "SÉPARATISTE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -2233,11 +3565,22 @@
     ],
     "name": "The Purrgil King",
     "title": "Leading the Journey",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/121.png",
+    "art": "https://cdn.starwarsunlimited.com//05010121_EN_The_Purrgil_King_a6759a3da8.png",
     "cost": 8,
     "arena": "space",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Le Roi Purrgil",
+        "art": "https://cdn.starwarsunlimited.com//05010121_FR_Le_Roi_Purrgil_5acde426b8.png",
+        "title": "Mène Le Voyage",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -2250,10 +3593,20 @@
       "command"
     ],
     "name": "Pillio Star Compass",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/122.png",
+    "art": "https://cdn.starwarsunlimited.com//05010122_EN_Pillio_Star_Compass_41d2974e17.png",
     "cost": 2,
     "traits": [
       "ITEM"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Boussole Stellaire de Pillio",
+        "art": "https://cdn.starwarsunlimited.com//05010122_FR_Boussole_Stellaire_de_Pillio_887036f937.png",
+        "traits": [
+          "OBJET"
+        ]
+      }
     ]
   },
   {
@@ -2266,10 +3619,20 @@
       "command"
     ],
     "name": "Directed by the Force",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/123.png",
+    "art": "https://cdn.starwarsunlimited.com//05010123_EN_Directed_by_the_Force_ab4700f515.png",
     "cost": 1,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dirigé par la Force",
+        "art": "https://cdn.starwarsunlimited.com//05010123_FR_Dirige_par_la_Force_2807136084.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -2282,10 +3645,20 @@
       "command"
     ],
     "name": "Niman Strike",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/124.png",
+    "art": "https://cdn.starwarsunlimited.com//05010124_EN_Niman_Strike_0058651192.png",
     "cost": 1,
     "traits": [
       "LEARNED"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Frappe Niman",
+        "art": "https://cdn.starwarsunlimited.com//05010124_FR_Frappe_Niman_1790851818.png",
+        "traits": [
+          "ACQUIS"
+        ]
+      }
     ]
   },
   {
@@ -2298,10 +3671,20 @@
       "command"
     ],
     "name": "The Burden of Masters",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/125.png",
+    "art": "https://cdn.starwarsunlimited.com//05010125_EN_The_Burden_of_Masters_58f3e6628f.png",
     "cost": 1,
     "traits": [
       "LEARNED"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Le Fardeau des Maîtres",
+        "art": "https://cdn.starwarsunlimited.com//05010125_FR_Le_Fardeau_des_Maitres_75f6fc1782.png",
+        "traits": [
+          "ACQUIS"
+        ]
+      }
     ]
   },
   {
@@ -2314,10 +3697,20 @@
       "command"
     ],
     "name": "Overpower",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/126.png",
+    "art": "https://cdn.starwarsunlimited.com//05010126_EN_Overpower_26f231adcd.png",
     "cost": 3,
     "traits": [
       "INNATE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Surpuissance",
+        "art": "https://cdn.starwarsunlimited.com//05010126_FR_Surpuissance_1c26376ec9.png",
+        "traits": [
+          "INNÉ"
+        ]
+      }
     ]
   },
   {
@@ -2330,10 +3723,20 @@
       "command"
     ],
     "name": "Rampage",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/127.png",
+    "art": "https://cdn.starwarsunlimited.com//05010127_EN_Rampage_47c5ec86d7.png",
     "cost": 3,
     "traits": [
       "INNATE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Carnage",
+        "art": "https://cdn.starwarsunlimited.com//05010127_FR_Carnage_098f241221.png",
+        "traits": [
+          "INNÉ"
+        ]
+      }
     ]
   },
   {
@@ -2346,10 +3749,20 @@
       "command"
     ],
     "name": "Protect the Pod",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/128.png",
+    "art": "https://cdn.starwarsunlimited.com//05010128_EN_Protect_the_Pod_daf4276129.png",
     "cost": 4,
     "traits": [
       "TACTIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Protéger le Module",
+        "art": "https://cdn.starwarsunlimited.com//05010128_FR_Proteger_le_Module_490ae863ff.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
     ]
   },
   {
@@ -2363,11 +3776,21 @@
       "villainy"
     ],
     "name": "Acolyte of the Beyond",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/129.png",
+    "art": "https://cdn.starwarsunlimited.com//05010129_EN_Acolyte_of_the_Beyond_5244904d76.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "SITH"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Acolyte de l'Au-Delà",
+        "art": "https://cdn.starwarsunlimited.com//05010129_FR_Acolyte_de_l_Au_Dela_8af8d4da2e.png",
+        "traits": [
+          "SITH"
+        ]
+      }
     ]
   },
   {
@@ -2382,12 +3805,24 @@
     ],
     "name": "HK-47",
     "title": "Exclamation: Die, Meatbag!",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/130.png",
+    "art": "https://cdn.starwarsunlimited.com//05010130_EN_HK_47_aeeab57134.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "SITH",
       "DROID"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "HK-47",
+        "art": "https://cdn.starwarsunlimited.com//05010130_FR_HK_47_72c66f41d1.png",
+        "title": "Exclamation : Meurs, Sac À Viande !",
+        "traits": [
+          "SITH",
+          "DROÏDE"
+        ]
+      }
     ]
   },
   {
@@ -2401,7 +3836,7 @@
       "villainy"
     ],
     "name": "Strikeship",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/131.png",
+    "art": "https://cdn.starwarsunlimited.com//05010131_EN_Strikeship_24037e8275.png",
     "cost": 2,
     "arena": "space",
     "traits": [
@@ -2409,6 +3844,18 @@
       "VEHICLE",
       "FIGHTER",
       "NIHIL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Nef de Foudre",
+        "art": "https://cdn.starwarsunlimited.com//05010131_FR_Nef_de_Foudre_dcbc9707d3.png",
+        "traits": [
+          "PÈGRE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -2423,13 +3870,26 @@
     ],
     "name": "Grand Inquisitor",
     "title": "You're Right to Be Afraid",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/132.png",
+    "art": "https://cdn.starwarsunlimited.com//05010132_EN_Grand_Inquisitor_aa4d2afd12.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FORCE",
       "IMPERIAL",
       "INQUISITOR"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Grand Inquisiteur",
+        "art": "https://cdn.starwarsunlimited.com//05010132_FR_Grand_Inquisiteur_bd120896e1.png",
+        "title": "Vous Avez Raison D'Avoir Peur",
+        "traits": [
+          "FORCE",
+          "IMPÉRIAL",
+          "INQUISITEUR"
+        ]
+      }
     ]
   },
   {
@@ -2443,12 +3903,23 @@
       "villainy"
     ],
     "name": "Purge Trooper",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/133.png",
+    "art": "https://cdn.starwarsunlimited.com//05010133_EN_Purge_Trooper_2d358ddb60.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Purge Trooper",
+        "art": "https://cdn.starwarsunlimited.com//05010133_FR_Purge_Trooper_a5c7e17199.png",
+        "traits": [
+          "IMPÉRIAL",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -2462,7 +3933,7 @@
       "villainy"
     ],
     "name": "Heavy Missile Gunship",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/134.png",
+    "art": "https://cdn.starwarsunlimited.com//05010134_EN_Heavy_Missile_Gunship_ac326b60b6.png",
     "cost": 4,
     "arena": "space",
     "traits": [
@@ -2470,6 +3941,19 @@
       "DROID",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Canonnière à Missiles Lourde",
+        "art": "https://cdn.starwarsunlimited.com//05010134_FR_Canonniere_a_Missiles_Lourde_7fd77d6904.png",
+        "traits": [
+          "SÉPARATISTE",
+          "DROÏDE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -2484,7 +3968,7 @@
     ],
     "name": "Scythe",
     "title": "Intimidating Silhouette",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/135.png",
+    "art": "https://cdn.starwarsunlimited.com//05010135_EN_Scythe_a27b71dddf.png",
     "cost": 4,
     "arena": "space",
     "traits": [
@@ -2492,6 +3976,20 @@
       "VEHICLE",
       "TRANSPORT",
       "INQUISITOR"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Scythe",
+        "art": "https://cdn.starwarsunlimited.com//05010135_FR_Scythe_6672886ad6.png",
+        "title": "Silhouette Effrayante",
+        "traits": [
+          "IMPÉRIAL",
+          "VÉHICULE",
+          "TRANSPORT",
+          "INQUISITEUR"
+        ]
+      }
     ]
   },
   {
@@ -2505,11 +4003,21 @@
       "villainy"
     ],
     "name": "Thralls of the Coven",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/136.png",
+    "art": "https://cdn.starwarsunlimited.com//05010136_EN_Thralls_of_the_Coven_d034e96e21.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "NIGHT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Serfs du Couvent",
+        "art": "https://cdn.starwarsunlimited.com//05010136_FR_Serfs_du_Couvent_36efd76236.png",
+        "traits": [
+          "NUIT"
+        ]
+      }
     ]
   },
   {
@@ -2524,12 +4032,24 @@
     ],
     "name": "Savage Opress",
     "title": "Imbued With Hate",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/137.png",
+    "art": "https://cdn.starwarsunlimited.com//05010137_EN_Savage_Opress_397ba5b327.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "FORCE",
       "NIGHT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Savage Opress",
+        "art": "https://cdn.starwarsunlimited.com//05010137_FR_Savage_Opress_bc9bbcf1b1.png",
+        "title": "Plein De Haine",
+        "traits": [
+          "FORCE",
+          "NUIT"
+        ]
+      }
     ]
   },
   {
@@ -2543,11 +4063,22 @@
       "villainy"
     ],
     "name": "Sith Holocron",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/138.png",
+    "art": "https://cdn.starwarsunlimited.com//05010138_EN_Sith_Holocron_c6558ecf1d.png",
     "cost": 1,
     "traits": [
       "SITH",
       "ITEM"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Holocron Sith",
+        "art": "https://cdn.starwarsunlimited.com//05010138_FR_Holocron_Sith_9968ef347b.png",
+        "traits": [
+          "SITH",
+          "OBJET"
+        ]
+      }
     ]
   },
   {
@@ -2561,10 +4092,20 @@
       "villainy"
     ],
     "name": "Battle Fury",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/139.png",
+    "art": "https://cdn.starwarsunlimited.com//05010139_EN_Battle_Fury_22e7163cdf.png",
     "cost": 2,
     "traits": [
       "INNATE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Rage de Vaincre",
+        "art": "https://cdn.starwarsunlimited.com//05010139_FR_Rage_de_Vaincre_8a662ce5a0.png",
+        "traits": [
+          "INNÉ"
+        ]
+      }
     ]
   },
   {
@@ -2578,12 +4119,24 @@
       "villainy"
     ],
     "name": "Darth Maul's Lightsaber",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/140.png",
+    "art": "https://cdn.starwarsunlimited.com//05010140_EN_Darth_Maul_s_Lightsaber_da55e52459.png",
     "cost": 3,
     "traits": [
       "ITEM",
       "WEAPON",
       "LIGHTSABER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sabre Laser de Dark Maul",
+        "art": "https://cdn.starwarsunlimited.com//05010140_FR_Sabre_Laser_de_Dark_Maul_1a2e9d31fe.png",
+        "traits": [
+          "OBJET",
+          "ARME",
+          "SABRE LASER"
+        ]
+      }
     ]
   },
   {
@@ -2597,10 +4150,20 @@
       "villainy"
     ],
     "name": "Death Field",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/141.png",
+    "art": "https://cdn.starwarsunlimited.com//05010141_EN_Death_Field_5a1d8f57a6.png",
     "cost": 4,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Champ Mortel",
+        "art": "https://cdn.starwarsunlimited.com//05010141_FR_Champ_Mortel_09adadd8f7.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -2615,13 +4178,26 @@
     ],
     "name": "Adi Gallia",
     "title": "Stern and Focused",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/142.png",
+    "art": "https://cdn.starwarsunlimited.com//05010142_EN_Adi_Gallia_2861556753.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Adi Gallia",
+        "art": "https://cdn.starwarsunlimited.com//05010142_FR_Adi_Gallia_6c4eea2b94.png",
+        "title": "Sérieuse Et Concentrée",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -2635,11 +4211,21 @@
       "heroism"
     ],
     "name": "Attuned Fyrnock",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/143.png",
+    "art": "https://cdn.starwarsunlimited.com//05010143_EN_Attuned_Fyrnock_e03a53f662.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Fyrnock Apprivoisé",
+        "art": "https://cdn.starwarsunlimited.com//05010143_FR_Fyrnock_Apprivoise_cd99a23a45.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -2653,7 +4239,7 @@
       "heroism"
     ],
     "name": "Jedi Starfighter",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/144.png",
+    "art": "https://cdn.starwarsunlimited.com//05010144_EN_Jedi_Starfighter_67aa4c8564.png",
     "cost": 2,
     "arena": "space",
     "traits": [
@@ -2661,6 +4247,19 @@
       "REPUBLIC",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chasseur Jedi",
+        "art": "https://cdn.starwarsunlimited.com//05010144_FR_Chasseur_Jedi_fa3746eb58.png",
+        "traits": [
+          "JEDI",
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -2674,12 +4273,23 @@
       "heroism"
     ],
     "name": "Jedi Knight",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/145.png",
+    "art": "https://cdn.starwarsunlimited.com//05010145_EN_Jedi_Knight_c09a8a5424.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chevalier Jedi",
+        "art": "https://cdn.starwarsunlimited.com//05010145_FR_Chevalier_Jedi_9fc933c298.png",
+        "traits": [
+          "FORCE",
+          "JEDI"
+        ]
+      }
     ]
   },
   {
@@ -2694,13 +4304,26 @@
     ],
     "name": "Ki-Adi-Mundi",
     "title": "We Must Push On",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/146.png",
+    "art": "https://cdn.starwarsunlimited.com//05010146_EN_Ki_Adi_Mundi_6ccc0ffbf9.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Ki-Adi-Mundi",
+        "art": "https://cdn.starwarsunlimited.com//05010146_FR_Ki_Adi_Mundi_a113da3976.png",
+        "title": "Nous Devons Aller De L'Avant",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -2715,7 +4338,7 @@
     ],
     "name": "Kit Fisto's Aethersprite",
     "title": "Good Hunting",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/147.png",
+    "art": "https://cdn.starwarsunlimited.com//05010147_EN_Kit_Fisto_s_Aethersprite_e2e9218c41.png",
     "cost": 5,
     "arena": "space",
     "traits": [
@@ -2723,6 +4346,20 @@
       "REPUBLIC",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Aethersprite de Kit Fisto",
+        "art": "https://cdn.starwarsunlimited.com//05010147_FR_Aethersprite_de_Kit_Fisto_b51f39ffb1.png",
+        "title": "Bonne Chasse",
+        "traits": [
+          "JEDI",
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -2737,13 +4374,26 @@
     ],
     "name": "Rey",
     "title": "With Palpatine's Power",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/148.png",
+    "art": "https://cdn.starwarsunlimited.com//05010148_EN_Rey_1bbe2eb7bd.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "RESISTANCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Rey",
+        "art": "https://cdn.starwarsunlimited.com//05010148_FR_Rey_b62f71859a.png",
+        "title": "Avec Les Pouvoirs De Palpatine",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉSISTANCE"
+        ]
+      }
     ]
   },
   {
@@ -2758,13 +4408,26 @@
     ],
     "name": "Mace Windu",
     "title": "Leaping into Action",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/149.png",
+    "art": "https://cdn.starwarsunlimited.com//05010149_EN_Mace_Windu_c932ac97a9.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Mace Windu",
+        "art": "https://cdn.starwarsunlimited.com//05010149_FR_Mace_Windu_9e7242f28a.png",
+        "title": "Passe À L'Action",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -2779,13 +4442,26 @@
     ],
     "name": "Cin Drallig",
     "title": "Esteemed Blademaster",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/150.png",
+    "art": "https://cdn.starwarsunlimited.com//05010150_EN_Cin_Drallig_bf9572e0d0.png",
     "cost": 8,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Cin Drallig",
+        "art": "https://cdn.starwarsunlimited.com//05010150_FR_Cin_Drallig_60aeadb927.png",
+        "title": "Épéiste Réputé",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -2799,12 +4475,24 @@
       "heroism"
     ],
     "name": "Knight's Saber",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/151.png",
+    "art": "https://cdn.starwarsunlimited.com//05010151_EN_Knight_s_Saber_5000a90e9f.png",
     "cost": 2,
     "traits": [
       "ITEM",
       "WEAPON",
       "LIGHTSABER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sabre de Chevalier",
+        "art": "https://cdn.starwarsunlimited.com//05010151_FR_Sabre_de_Chevalier_75905a1489.png",
+        "traits": [
+          "OBJET",
+          "ARME",
+          "SABRE LASER"
+        ]
+      }
     ]
   },
   {
@@ -2818,10 +4506,20 @@
       "heroism"
     ],
     "name": "Focus Determines Reality",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/152.png",
+    "art": "https://cdn.starwarsunlimited.com//05010152_EN_Focus_Determines_Reality_e8c2039f37.png",
     "cost": 2,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "L'Attention Détermine la Réalité",
+        "art": "https://cdn.starwarsunlimited.com//05010152_FR_L_Attention_Determine_la_Realite_4a01ecd7c0.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -2836,11 +4534,22 @@
     ],
     "name": "Paz Vizsla",
     "title": "Unyielding Warrior",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/153.png",
+    "art": "https://cdn.starwarsunlimited.com//05010153_EN_Paz_Vizsla_a6396dcaf1.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "MANDALORIAN"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Paz Vizsla",
+        "art": "https://cdn.starwarsunlimited.com//05010153_FR_Paz_Vizsla_81668fe840.png",
+        "title": "Guerrier Inflexible",
+        "traits": [
+          "MANDALORIEN"
+        ]
+      }
     ]
   },
   {
@@ -2853,12 +4562,23 @@
       "aggression"
     ],
     "name": "Witch of the Mist",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/154.png",
+    "art": "https://cdn.starwarsunlimited.com//05010154_EN_Witch_of_the_Mist_390e328707.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "FORCE",
       "NIGHT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sorcière de la Brume",
+        "art": "https://cdn.starwarsunlimited.com//05010154_FR_Sorciere_de_la_Brume_897a35f351.png",
+        "traits": [
+          "FORCE",
+          "NUIT"
+        ]
+      }
     ]
   },
   {
@@ -2871,11 +4591,21 @@
       "aggression"
     ],
     "name": "DRK-1 Probe Droid",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/155.png",
+    "art": "https://cdn.starwarsunlimited.com//05010155_EN_DRK_1_Probe_Droid_be1cf054dc.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "DROID"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Droïde Sonde DRK-1",
+        "art": "https://cdn.starwarsunlimited.com//05010155_FR_Droide_Sonde_DRK_1_086e5dd39a.png",
+        "traits": [
+          "DROÏDE"
+        ]
+      }
     ]
   },
   {
@@ -2888,12 +4618,23 @@
       "aggression"
     ],
     "name": "Infused Brawler ",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/156.png",
+    "art": "https://cdn.starwarsunlimited.com//05010156_EN_Infused_Brawler_981779c15a.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FORCE",
       "NIGHT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Combattant Endoctriné",
+        "art": "https://cdn.starwarsunlimited.com//05010156_FR_Combattant_Endoctrine_1b174df6b3.png",
+        "traits": [
+          "FORCE",
+          "NUIT"
+        ]
+      }
     ]
   },
   {
@@ -2906,13 +4647,25 @@
       "aggression"
     ],
     "name": "Cartel Interceptor",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/157.png",
+    "art": "https://cdn.starwarsunlimited.com//05010157_EN_Cartel_Interceptor_84513ed991.png",
     "cost": 3,
     "arena": "space",
     "traits": [
       "UNDERWORLD",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Intercepteur du Cartel",
+        "art": "https://cdn.starwarsunlimited.com//05010157_FR_Intercepteur_du_Cartel_db2ea1824a.png",
+        "traits": [
+          "PÈGRE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -2925,7 +4678,7 @@
       "aggression"
     ],
     "name": "Hyena Bomber",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/158.png",
+    "art": "https://cdn.starwarsunlimited.com//05010158_EN_Hyena_Bomber_46866aafc4.png",
     "cost": 3,
     "arena": "space",
     "traits": [
@@ -2933,6 +4686,19 @@
       "DROID",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Bombardier Hyena",
+        "art": "https://cdn.starwarsunlimited.com//05010158_FR_Bombardier_Hyena_1c7aca00db.png",
+        "traits": [
+          "SÉPARATISTE",
+          "DROÏDE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -2945,12 +4711,23 @@
       "aggression"
     ],
     "name": "Jedi In Hiding",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/159.png",
+    "art": "https://cdn.starwarsunlimited.com//05010159_EN_Jedi_In_Hiding_71cc7f22f6.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Jedi Clandestin",
+        "art": "https://cdn.starwarsunlimited.com//05010159_FR_Jedi_Clandestin_58762c2727.png",
+        "traits": [
+          "FORCE",
+          "JEDI"
+        ]
+      }
     ]
   },
   {
@@ -2964,12 +4741,24 @@
     ],
     "name": "Merrin",
     "title": "Alone with the Dead",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/160.png",
+    "art": "https://cdn.starwarsunlimited.com//05010160_EN_Merrin_b6812b8b53.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FORCE",
       "NIGHT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Merrin",
+        "art": "https://cdn.starwarsunlimited.com//05010160_FR_Merrin_117a58b740.png",
+        "title": "Seule Avec Les Morts",
+        "traits": [
+          "FORCE",
+          "NUIT"
+        ]
+      }
     ]
   },
   {
@@ -2982,11 +4771,21 @@
       "aggression"
     ],
     "name": "Tuk'ata",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/161.png",
+    "art": "https://cdn.starwarsunlimited.com//05010161_EN_Tuk_ata_ef767fc388.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Tuk'ata",
+        "art": "https://cdn.starwarsunlimited.com//05010161_FR_Tuk_ata_bcbf412426.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -2999,11 +4798,21 @@
       "aggression"
     ],
     "name": "Hunting Nexu",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/162.png",
+    "art": "https://cdn.starwarsunlimited.com//05010162_EN_Hunting_Nexu_d66e40600e.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Nexu en Chasse",
+        "art": "https://cdn.starwarsunlimited.com//05010162_FR_Nexu_en_Chasse_d6bac11542.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -3017,13 +4826,26 @@
     ],
     "name": "Quinlan Vos",
     "title": "Dark Disciple",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/163.png",
+    "art": "https://cdn.starwarsunlimited.com//05010163_EN_Quinlan_Vos_cfd1740cbe.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Quinlan Vos",
+        "art": "https://cdn.starwarsunlimited.com//05010163_FR_Quinlan_Vos_b88f6258ae.png",
+        "title": "Sombre Disciple",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -3036,11 +4858,21 @@
       "aggression"
     ],
     "name": "Wampa",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/164.png",
+    "art": "https://cdn.starwarsunlimited.com//05010164_EN_Wampa_fb7e717737.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Wampa",
+        "art": "https://cdn.starwarsunlimited.com//05010164_FR_Wampa_31bde2b5a4.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -3054,13 +4886,26 @@
     ],
     "name": "Asajj Ventress",
     "title": "Harden Your Heart",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/165.png",
+    "art": "https://cdn.starwarsunlimited.com//05010165_EN_Asajj_Ventress_3ee76ff3ed.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "NIGHT",
       "BOUNTY HUNTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Asajj Ventress",
+        "art": "https://cdn.starwarsunlimited.com//05010165_FR_Asajj_Ventress_7cc0f8be55.png",
+        "title": "Endurcit Votre Cœur",
+        "traits": [
+          "FORCE",
+          "NUIT",
+          "CHASSEUR DE PRIMES"
+        ]
+      }
     ]
   },
   {
@@ -3073,13 +4918,25 @@
       "aggression"
     ],
     "name": "Blockade Runner",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/166.png",
+    "art": "https://cdn.starwarsunlimited.com//05010166_EN_Blockade_Runner_922b25757e.png",
     "cost": 5,
     "arena": "space",
     "traits": [
       "REBEL",
       "VEHICLE",
       "CAPITAL SHIP"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Forceur de Blocus",
+        "art": "https://cdn.starwarsunlimited.com//05010166_FR_Forceur_de_Blocus_e3aa202444.png",
+        "traits": [
+          "REBELLE",
+          "VÉHICULE",
+          "VAISSEAU CAPITAL"
+        ]
+      }
     ]
   },
   {
@@ -3093,13 +4950,26 @@
     ],
     "name": "Saesee Tiin",
     "title": "Courageous Warrior",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/167.png",
+    "art": "https://cdn.starwarsunlimited.com//05010167_EN_Saesee_Tiin_ca1137abbe.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Saesee Tiin",
+        "art": "https://cdn.starwarsunlimited.com//05010167_FR_Saesee_Tiin_d2f34d2aff.png",
+        "title": "Guerrier Valeureux",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -3112,11 +4982,21 @@
       "aggression"
     ],
     "name": "Ravenous Rathtar",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/168.png",
+    "art": "https://cdn.starwarsunlimited.com//05010168_EN_Ravenous_Rathtar_db7821376b.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Rathtar Vorace",
+        "art": "https://cdn.starwarsunlimited.com//05010168_FR_Rathtar_Vorace_0fc7d4a944.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -3129,13 +5009,25 @@
       "aggression"
     ],
     "name": "Invasion Control Ship",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/169.png",
+    "art": "https://cdn.starwarsunlimited.com//05010169_EN_Invasion_Control_Ship_325dc1d656.png",
     "cost": 7,
     "arena": "space",
     "traits": [
       "SEPARATIST",
       "VEHICLE",
       "CAPITAL SHIP"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vaisseau de Contrôle d'Invasion",
+        "art": "https://cdn.starwarsunlimited.com//05010169_FR_Vaisseau_de_Controle_d_Invasion_c4676d2b75.png",
+        "traits": [
+          "SÉPARATISTE",
+          "VÉHICULE",
+          "VAISSEAU CAPITAL"
+        ]
+      }
     ]
   },
   {
@@ -3149,12 +5041,24 @@
     ],
     "name": "Bendu",
     "title": "Do You Fear the Storm?",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/170.png",
+    "art": "https://cdn.starwarsunlimited.com//05010170_EN_Bendu_babe2b0cd3.png",
     "cost": 8,
     "arena": "ground",
     "traits": [
       "FORCE",
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Bendu",
+        "art": "https://cdn.starwarsunlimited.com//05010170_FR_Bendu_55129474de.png",
+        "title": "Avez-Vous Peur De L'Orage ?",
+        "traits": [
+          "FORCE",
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -3167,11 +5071,22 @@
       "aggression"
     ],
     "name": "Heavy Blaster Cannon",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/171.png",
+    "art": "https://cdn.starwarsunlimited.com//05010171_EN_Heavy_Blaster_Cannon_a33ecb7e74.png",
     "cost": 4,
     "traits": [
       "ITEM",
       "WEAPON"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Canon Blaster Lourd",
+        "art": "https://cdn.starwarsunlimited.com//05010171_FR_Canon_Blaster_Lourd_2e47618b5e.png",
+        "traits": [
+          "OBJET",
+          "ARME"
+        ]
+      }
     ]
   },
   {
@@ -3184,10 +5099,20 @@
       "aggression"
     ],
     "name": "Sorcerous Blast",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/172.png",
+    "art": "https://cdn.starwarsunlimited.com//05010172_EN_Sorcerous_Blast_0eb1b5f6dd.png",
     "cost": 1,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Décharge Maléfique",
+        "art": "https://cdn.starwarsunlimited.com//05010172_FR_Decharge_Malefique_15e8a67aff.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -3200,10 +5125,20 @@
       "aggression"
     ],
     "name": "Unleash Rage",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/173.png",
+    "art": "https://cdn.starwarsunlimited.com//05010173_EN_Unleash_Rage_d2ec303256.png",
     "cost": 1,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Rage Déchaînée",
+        "art": "https://cdn.starwarsunlimited.com//05010173_FR_Rage_Dechainee_29a0f2143c.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -3216,10 +5151,20 @@
       "aggression"
     ],
     "name": "Ataru Onslaught",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/174.png",
+    "art": "https://cdn.starwarsunlimited.com//05010174_EN_Ataru_Onslaught_291474e848.png",
     "cost": 2,
     "traits": [
       "LEARNED"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Offensive Ataru",
+        "art": "https://cdn.starwarsunlimited.com//05010174_FR_Offensive_Ataru_788e7b10f7.png",
+        "traits": [
+          "ACQUIS"
+        ]
+      }
     ]
   },
   {
@@ -3232,10 +5177,20 @@
       "aggression"
     ],
     "name": "Do or Do Not",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/175.png",
+    "art": "https://cdn.starwarsunlimited.com//05010175_EN_Do_or_Do_Not_bb44bc0167.png",
     "cost": 2,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Fais ou Ne Le Fais Pas",
+        "art": "https://cdn.starwarsunlimited.com//05010175_FR_Fais_ou_Ne_Le_Fais_Pas_0a2716ed69.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -3248,10 +5203,20 @@
       "aggression"
     ],
     "name": "Lightsaber Throw",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/176.png",
+    "art": "https://cdn.starwarsunlimited.com//05010176_EN_Lightsaber_Throw_dcdd1ef3ad.png",
     "cost": 2,
     "traits": [
       "TACTIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Lancer de Sabre Laser",
+        "art": "https://cdn.starwarsunlimited.com//05010176_FR_Lancer_de_Sabre_Laser_0a8a3ced6e.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
     ]
   },
   {
@@ -3264,10 +5229,20 @@
       "aggression"
     ],
     "name": "Time of Crisis",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/177.png",
+    "art": "https://cdn.starwarsunlimited.com//05010177_EN_Time_of_Crisis_5d28424c08.png",
     "cost": 4,
     "traits": [
       "DISASTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Temps de Crise",
+        "art": "https://cdn.starwarsunlimited.com//05010177_FR_Temps_de_Crise_867b86608f.png",
+        "traits": [
+          "DÉSASTRE"
+        ]
+      }
     ]
   },
   {
@@ -3281,12 +5256,23 @@
       "villainy"
     ],
     "name": "Adept of Anger",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/178.png",
+    "art": "https://cdn.starwarsunlimited.com//05010178_EN_Adept_of_Anger_f4082ef06f.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "FORCE",
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Adepte de la Colère",
+        "art": "https://cdn.starwarsunlimited.com//05010178_FR_Adepte_de_la_Colere_d600d40ab6.png",
+        "traits": [
+          "FORCE",
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -3301,12 +5287,24 @@
     ],
     "name": "Aurra Sing",
     "title": "Patient and Deadly",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/179.png",
+    "art": "https://cdn.starwarsunlimited.com//05010179_EN_Aurra_Sing_fbb3d5f9f1.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "UNDERWORLD",
       "BOUNTY HUNTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Aurra Sing",
+        "art": "https://cdn.starwarsunlimited.com//05010179_FR_Aurra_Sing_0ba9138608.png",
+        "title": "Patiente Et Mortelle",
+        "traits": [
+          "PÈGRE",
+          "CHASSEUR DE PRIMES"
+        ]
+      }
     ]
   },
   {
@@ -3320,12 +5318,22 @@
       "villainy"
     ],
     "name": "Deceptive Shade",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/180.png",
+    "art": "https://cdn.starwarsunlimited.com//05010180_EN_Deceptive_Shade_6bc380eff8.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "SITH",
       "UNDEAD"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Ombre Trompeuse",
+        "art": "https://cdn.starwarsunlimited.com//05010180_FR_Ombre_Trompeuse_ecd8e54760.png",
+        "traits": [
+          "SITH"
+        ]
+      }
     ]
   },
   {
@@ -3339,13 +5347,25 @@
       "villainy"
     ],
     "name": "Banking Clan Shuttle",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/181.png",
+    "art": "https://cdn.starwarsunlimited.com//05010181_EN_Banking_Clan_Shuttle_907930f116.png",
     "cost": 3,
     "arena": "space",
     "traits": [
       "SEPARATIST",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Navette du Clan Bancaire",
+        "art": "https://cdn.starwarsunlimited.com//05010181_FR_Navette_du_Clan_Bancaire_809af7af6d.png",
+        "traits": [
+          "SÉPARATISTE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -3359,13 +5379,24 @@
       "villainy"
     ],
     "name": "Nihil Marauder",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/182.png",
+    "art": "https://cdn.starwarsunlimited.com//05010182_EN_Nihil_Marauder_043d635f6e.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "UNDERWORLD",
       "TROOPER",
       "NIHIL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Maraudeur Nihil",
+        "art": "https://cdn.starwarsunlimited.com//05010182_FR_Maraudeur_Nihil_45b8364f13.png",
+        "traits": [
+          "PÈGRE",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -3380,12 +5411,24 @@
     ],
     "name": "Shin Hati",
     "title": "Overeager Apprentice",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/183.png",
+    "art": "https://cdn.starwarsunlimited.com//05010183_EN_Shin_Hati_0af13a7b2e.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FORCE",
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Shin Hati",
+        "art": "https://cdn.starwarsunlimited.com//05010183_FR_Shin_Hati_1c3b7e03f9.png",
+        "title": "Apprentie Trop Zélée",
+        "traits": [
+          "FORCE",
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -3400,13 +5443,26 @@
     ],
     "name": "Second Sister",
     "title": "Seeking the Holocron",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/184.png",
+    "art": "https://cdn.starwarsunlimited.com//05010184_EN_Second_Sister_605d354f35.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "FORCE",
       "IMPERIAL",
       "INQUISITOR"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "La Deuxième Sœur",
+        "art": "https://cdn.starwarsunlimited.com//05010184_FR_La_Deuxieme_Soeur_2780480341.png",
+        "title": "Cherche L'Holocron",
+        "traits": [
+          "FORCE",
+          "IMPÉRIAL",
+          "INQUISITEUR"
+        ]
+      }
     ]
   },
   {
@@ -3421,12 +5477,24 @@
     ],
     "name": "Baylan Skoll",
     "title": "Enigmatic Master",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/185.png",
+    "art": "https://cdn.starwarsunlimited.com//05010185_EN_Baylan_Skoll_f2962c3f18.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Baylan Skoll",
+        "art": "https://cdn.starwarsunlimited.com//05010185_FR_Baylan_Skoll_754ac265d4.png",
+        "title": "Maître Énigmatique",
+        "traits": [
+          "FORCE",
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -3441,12 +5509,23 @@
     ],
     "name": "Marchion Ro",
     "title": "Eye of the Nihil",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/186.png",
+    "art": "https://cdn.starwarsunlimited.com//05010186_EN_Marchion_Ro_823e516c06.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "UNDERWORLD",
       "NIHIL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Marchion Ro",
+        "art": "https://cdn.starwarsunlimited.com//05010186_FR_Marchion_Ro_278984dd1a.png",
+        "title": "L'Œil Des Nihil",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
     ]
   },
   {
@@ -3460,12 +5539,24 @@
       "villainy"
     ],
     "name": "Corrupted Saber",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/187.png",
+    "art": "https://cdn.starwarsunlimited.com//05010187_EN_Corrupted_Saber_e88fd8ea69.png",
     "cost": 2,
     "traits": [
       "ITEM",
       "WEAPON",
       "LIGHTSABER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sabre Corrompu",
+        "art": "https://cdn.starwarsunlimited.com//05010187_FR_Sabre_Corrompu_1d465c2f19.png",
+        "traits": [
+          "OBJET",
+          "ARME",
+          "SABRE LASER"
+        ]
+      }
     ]
   },
   {
@@ -3479,10 +5570,20 @@
       "villainy"
     ],
     "name": "As I Have Foreseen",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/188.png",
+    "art": "https://cdn.starwarsunlimited.com//05010188_EN_As_I_Have_Foreseen_f2b8cb0a50.png",
     "cost": 1,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Comme Je l'Avais Prévu",
+        "art": "https://cdn.starwarsunlimited.com//05010188_FR_Comme_Je_l_Avais_Prevu_d286e68a92.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -3496,10 +5597,20 @@
       "villainy"
     ],
     "name": "Liberated by Darkness",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/189.png",
+    "art": "https://cdn.starwarsunlimited.com//05010189_EN_Liberated_by_Darkness_12c3685e4d.png",
     "cost": 5,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Libéré par les Ténèbres",
+        "art": "https://cdn.starwarsunlimited.com//05010189_FR_Libere_par_les_Tenebres_e59d183ee9.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -3514,12 +5625,24 @@
     ],
     "name": "Anakin Skywalker",
     "title": "Force Prodigy",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/190.png",
+    "art": "https://cdn.starwarsunlimited.com//05010190_EN_Anakin_Skywalker_41a72f2b82.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "FORCE",
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Anakin Skywalker",
+        "art": "https://cdn.starwarsunlimited.com//05010190_FR_Anakin_Skywalker_5b0de487e5.png",
+        "title": "Prodige De La Force",
+        "traits": [
+          "FORCE",
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -3534,12 +5657,24 @@
     ],
     "name": "BD-1",
     "title": "Beep Boo Boo Bweep",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/191.png",
+    "art": "https://cdn.starwarsunlimited.com//05010191_EN_BD_1_525fdb2846.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "FRINGE",
       "DROID"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "BD-1",
+        "art": "https://cdn.starwarsunlimited.com//05010191_FR_BD_1_a6afd1de77.png",
+        "title": "Beep Boo Boo Bweep",
+        "traits": [
+          "FRANGE",
+          "DROÏDE"
+        ]
+      }
     ]
   },
   {
@@ -3553,13 +5688,25 @@
       "heroism"
     ],
     "name": "N-1 Starfighter",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/192.png",
+    "art": "https://cdn.starwarsunlimited.com//05010192_EN_N_1_Starfighter_e3965be339.png",
     "cost": 2,
     "arena": "space",
     "traits": [
       "NABOO",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chasseur N-1",
+        "art": "https://cdn.starwarsunlimited.com//05010192_FR_Chasseur_N_1_66b35f4b06.png",
+        "traits": [
+          "NABOO",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -3573,12 +5720,23 @@
       "heroism"
     ],
     "name": "Youngling Padawan",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/193.png",
+    "art": "https://cdn.starwarsunlimited.com//05010193_EN_Youngling_Padawan_b463207688.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Jeune Padawan",
+        "art": "https://cdn.starwarsunlimited.com//05010193_FR_Jeune_Padawan_edb89a34fa.png",
+        "traits": [
+          "FORCE",
+          "JEDI"
+        ]
+      }
     ]
   },
   {
@@ -3592,13 +5750,25 @@
       "heroism"
     ],
     "name": "J-Type Nubian Starship",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/194.png",
+    "art": "https://cdn.starwarsunlimited.com//05010194_EN_J_Type_Nubian_Starship_2ab9b56bea.png",
     "cost": 3,
     "arena": "space",
     "traits": [
       "NABOO",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vaisseau Nubian de Type J",
+        "art": "https://cdn.starwarsunlimited.com//05010194_FR_Vaisseau_Nubian_de_Type_J_b6fad4f3bd.png",
+        "traits": [
+          "NABOO",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -3613,12 +5783,24 @@
     ],
     "name": "Vernestra Rwoh",
     "title": "Precocious Knight",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/195.png",
+    "art": "https://cdn.starwarsunlimited.com//05010195_EN_Vernestra_Rwoh_7953332402.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vernestra Rwoh",
+        "art": "https://cdn.starwarsunlimited.com//05010195_FR_Vernestra_Rwoh_03ed052ccb.png",
+        "title": "Chevalier Précoce",
+        "traits": [
+          "FORCE",
+          "JEDI"
+        ]
+      }
     ]
   },
   {
@@ -3632,12 +5814,23 @@
       "heroism"
     ],
     "name": "Jedi Sentinel",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/196.png",
+    "art": "https://cdn.starwarsunlimited.com//05010196_EN_Jedi_Sentinel_f072ea87b0.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sentinelle Jedi",
+        "art": "https://cdn.starwarsunlimited.com//05010196_FR_Sentinelle_Jedi_0039e2d109.png",
+        "traits": [
+          "FORCE",
+          "JEDI"
+        ]
+      }
     ]
   },
   {
@@ -3652,7 +5845,7 @@
     ],
     "name": "Qui-Gon Jinn's Aethersprite",
     "title": "Guided by the Force",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/197.png",
+    "art": "https://cdn.starwarsunlimited.com//05010197_EN_Qui_Gon_Jinn_s_Aethersprite_958d8d79aa.png",
     "cost": 5,
     "arena": "space",
     "traits": [
@@ -3660,6 +5853,20 @@
       "REPUBLIC",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Aethersprite de Qui-Gon Jinn",
+        "art": "https://cdn.starwarsunlimited.com//05010197_FR_Aethersprite_de_Qui_Gon_Jinn_fd493ac5a1.png",
+        "title": "Guidé Par La Force",
+        "traits": [
+          "JEDI",
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -3674,13 +5881,26 @@
     ],
     "name": "Stinger Mantis",
     "title": "Where Are We Going?",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/198.png",
+    "art": "https://cdn.starwarsunlimited.com//05010198_EN_Stinger_Mantis_fd20e83ed6.png",
     "cost": 5,
     "arena": "space",
     "traits": [
       "FRINGE",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Stinger Mantis",
+        "art": "https://cdn.starwarsunlimited.com//05010198_FR_Stinger_Mantis_573198465a.png",
+        "title": "Où Allons-Nous ?",
+        "traits": [
+          "FRANGE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -3695,13 +5915,26 @@
     ],
     "name": "Depa Billaba",
     "title": "A Higher Purpose",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/199.png",
+    "art": "https://cdn.starwarsunlimited.com//05010199_EN_Depa_Billaba_b4d84525b9.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Depa Billaba",
+        "art": "https://cdn.starwarsunlimited.com//05010199_FR_Depa_Billaba_ede8cf591f.png",
+        "title": "Un Objectif Plus Noble",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -3716,13 +5949,26 @@
     ],
     "name": "Qui-Gon Jinn",
     "title": "The Negotiations will be Short",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/200.png",
+    "art": "https://cdn.starwarsunlimited.com//05010200_EN_Qui_Gon_Jinn_8333e1ec5f.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Qui-Gon Jinn",
+        "art": "https://cdn.starwarsunlimited.com//05010200_FR_Qui_Gon_Jinn_4ce23e1d5a.png",
+        "title": "Les Négociations Ne Dureront Pas",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -3736,12 +5982,24 @@
       "heroism"
     ],
     "name": "Qui-Gon Jinn's Lightsaber",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/201.png",
+    "art": "https://cdn.starwarsunlimited.com//05010201_EN_Qui_Gon_Jinn_s_Lightsaber_d7cfd5afb3.png",
     "cost": 2,
     "traits": [
       "ITEM",
       "WEAPON",
       "LIGHTSABER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sabre Laser de Qui-Gon Jinn",
+        "art": "https://cdn.starwarsunlimited.com//05010201_FR_Sabre_Laser_de_Qui_Gon_Jinn_8b9a5fe69c.png",
+        "traits": [
+          "OBJET",
+          "ARME",
+          "SABRE LASER"
+        ]
+      }
     ]
   },
   {
@@ -3755,11 +6013,22 @@
       "heroism"
     ],
     "name": "Mind Trick",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/202.png",
+    "art": "https://cdn.starwarsunlimited.com//05010202_EN_Mind_Trick_1d33fc1c39.png",
     "cost": 2,
     "traits": [
       "FORCE",
       "TRICK"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Ruse Mentale",
+        "art": "https://cdn.starwarsunlimited.com//05010202_FR_Ruse_Mentale_f74ec2d954.png",
+        "traits": [
+          "FORCE",
+          "ASTUCE"
+        ]
+      }
     ]
   },
   {
@@ -3773,10 +6042,20 @@
       "heroism"
     ],
     "name": "Premonition of Doom",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/203.png",
+    "art": "https://cdn.starwarsunlimited.com//05010203_EN_Premonition_of_Doom_c1d09376b9.png",
     "cost": 3,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Prédiction de Malheur",
+        "art": "https://cdn.starwarsunlimited.com//05010203_FR_Prediction_de_Malheur_921e6f4303.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -3791,12 +6070,24 @@
     ],
     "name": "Zuckuss",
     "title": "The Findsman",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/204.png",
+    "art": "https://cdn.starwarsunlimited.com//05010204_EN_Zuckuss_b86b5faf3c.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "BOUNTY HUNTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Zuckuss",
+        "art": "https://cdn.starwarsunlimited.com//05010204_FR_Zuckuss_aaa782e66a.png",
+        "title": "Le Trouveur",
+        "traits": [
+          "FORCE",
+          "CHASSEUR DE PRIMES"
+        ]
+      }
     ]
   },
   {
@@ -3810,10 +6101,20 @@
       "cunning"
     ],
     "name": "Force Speed",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/205.png",
+    "art": "https://cdn.starwarsunlimited.com//05010205_EN_Force_Speed_36ce2b4ae0.png",
     "cost": 1,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vitesse de Force",
+        "art": "https://cdn.starwarsunlimited.com//05010205_FR_Vitesse_de_Force_19681d9066.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -3827,11 +6128,22 @@
     ],
     "name": "Babu Frik",
     "title": "Heyyy!",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/206.png",
+    "art": "https://cdn.starwarsunlimited.com//05010206_EN_Babu_Frik_830c13ab54.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "UNDERWORLD"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Babu Frik",
+        "art": "https://cdn.starwarsunlimited.com//05010206_FR_Babu_Frik_9ea0a0e327.png",
+        "title": "Heyyy !",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
     ]
   },
   {
@@ -3844,11 +6156,21 @@
       "cunning"
     ],
     "name": "Loth-Cat",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/207.png",
+    "art": "https://cdn.starwarsunlimited.com//05010207_EN_Loth_Cat_098b7fa81f.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Loth-Chat",
+        "art": "https://cdn.starwarsunlimited.com//05010207_FR_Loth_Chat_c57967a4f3.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -3861,12 +6183,23 @@
       "cunning"
     ],
     "name": "Mysterious Hermit",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/208.png",
+    "art": "https://cdn.starwarsunlimited.com//05010208_EN_Mysterious_Hermit_c68aa2a2f3.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FORCE",
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Ermite Mystérieux",
+        "art": "https://cdn.starwarsunlimited.com//05010208_FR_Ermite_Mysterieux_cf15bc192d.png",
+        "traits": [
+          "FORCE",
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -3879,11 +6212,18 @@
       "cunning"
     ],
     "name": "Tusken Tracker",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/209.png",
+    "art": "https://cdn.starwarsunlimited.com//05010209_EN_Tusken_Tracker_359841ae6a.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "TUSKEN"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Traqueur Tusken",
+        "art": "https://cdn.starwarsunlimited.com//05010209_FR_Traqueur_Tusken_2a0c1b5c86.png"
+      }
     ]
   },
   {
@@ -3896,11 +6236,21 @@
       "cunning"
     ],
     "name": "Charging Phillak",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/210.png",
+    "art": "https://cdn.starwarsunlimited.com//05010210_EN_Charging_Phillak_172bbb46b5.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Phillak Chargeant",
+        "art": "https://cdn.starwarsunlimited.com//05010210_FR_Phillak_Chargeant_07b7efb1e2.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -3914,12 +6264,24 @@
     ],
     "name": "Dooku",
     "title": "It is Too Late",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/211.png",
+    "art": "https://cdn.starwarsunlimited.com//05010211_EN_Dooku_abdfe6eef4.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dooku",
+        "art": "https://cdn.starwarsunlimited.com//05010211_FR_Dooku_8100a238d5.png",
+        "title": "Il Est Trop Tard",
+        "traits": [
+          "FORCE",
+          "JEDI"
+        ]
+      }
     ]
   },
   {
@@ -3932,11 +6294,21 @@
       "cunning"
     ],
     "name": "Life Wind Sage",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/212.png",
+    "art": "https://cdn.starwarsunlimited.com//05010212_EN_Life_Wind_Sage_0eba82b77b.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sage du Vent de la Vie",
+        "art": "https://cdn.starwarsunlimited.com//05010212_FR_Sage_du_Vent_de_la_Vie_71c1ed0cd4.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -3950,13 +6322,26 @@
     ],
     "name": "The Legacy Run",
     "title": "Doomed Debris",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/213.png",
+    "art": "https://cdn.starwarsunlimited.com//05010213_EN_The_Legacy_Run_2b15d6d4c7.png",
     "cost": 5,
     "arena": "space",
     "traits": [
       "REPUBLIC",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Le Legacy Run",
+        "art": "https://cdn.starwarsunlimited.com//05010213_FR_Le_Legacy_Run_25001fd7d4.png",
+        "title": "Débris Maudits",
+        "traits": [
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -3969,12 +6354,23 @@
       "cunning"
     ],
     "name": "Sorcerers of Tund",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/214.png",
+    "art": "https://cdn.starwarsunlimited.com//05010214_EN_Sorcerers_of_Tund_00996f52f4.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "FORCE",
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sorciers de Tund",
+        "art": "https://cdn.starwarsunlimited.com//05010214_FR_Sorciers_de_Tund_e7b866209e.png",
+        "traits": [
+          "FORCE",
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -3987,10 +6383,20 @@
       "cunning"
     ],
     "name": "Ascension Cable",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/215.png",
+    "art": "https://cdn.starwarsunlimited.com//05010215_EN_Ascension_Cable_c6728e4e52.png",
     "cost": 2,
     "traits": [
       "ITEM"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Câble Ascensionnel",
+        "art": "https://cdn.starwarsunlimited.com//05010215_FR_Cable_Ascensionnel_0998d8685b.png",
+        "traits": [
+          "OBJET"
+        ]
+      }
     ]
   },
   {
@@ -4003,10 +6409,20 @@
       "cunning"
     ],
     "name": "Disturbance in the Force",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/216.png",
+    "art": "https://cdn.starwarsunlimited.com//05010216_EN_Disturbance_in_the_Force_49bf02d286.png",
     "cost": 1,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Perturbation de la Force",
+        "art": "https://cdn.starwarsunlimited.com//05010216_FR_Perturbation_de_la_Force_bb3ecb4507.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -4019,10 +6435,20 @@
       "cunning"
     ],
     "name": "Force Slow",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/217.png",
+    "art": "https://cdn.starwarsunlimited.com//05010217_EN_Force_Slow_4cf970f553.png",
     "cost": 1,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Ralentissement de Force",
+        "art": "https://cdn.starwarsunlimited.com//05010217_FR_Ralentissement_de_Force_4d72b8dad3.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -4035,10 +6461,20 @@
       "cunning"
     ],
     "name": "Impossible Escape",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/218.png",
+    "art": "https://cdn.starwarsunlimited.com//05010218_EN_Impossible_Escape_39fbcb5044.png",
     "cost": 1,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Fuite Impossible",
+        "art": "https://cdn.starwarsunlimited.com//05010218_FR_Fuite_Impossible_affa3a2e6a.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -4051,10 +6487,20 @@
       "cunning"
     ],
     "name": "Psychometry",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/219.png",
+    "art": "https://cdn.starwarsunlimited.com//05010219_EN_Psychometry_97c45e4249.png",
     "cost": 1,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Psychométrie",
+        "art": "https://cdn.starwarsunlimited.com//05010219_FR_Psychometrie_bc3e5ecead.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -4067,10 +6513,20 @@
       "cunning"
     ],
     "name": "Shien Flurry",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/220.png",
+    "art": "https://cdn.starwarsunlimited.com//05010220_EN_Shien_Flurry_c8a86334f8.png",
     "cost": 1,
     "traits": [
       "LEARNED"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Enchaînement Shien",
+        "art": "https://cdn.starwarsunlimited.com//05010220_FR_Enchainement_Shien_ccd25985bf.png",
+        "traits": [
+          "ACQUIS"
+        ]
+      }
     ]
   },
   {
@@ -4083,10 +6539,20 @@
       "cunning"
     ],
     "name": "Trust Your Instincts",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/221.png",
+    "art": "https://cdn.starwarsunlimited.com//05010221_EN_Trust_Your_Instincts_6023709a72.png",
     "cost": 1,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Fie-Toi à Ton Instinct",
+        "art": "https://cdn.starwarsunlimited.com//05010221_FR_Fie_Toi_a_Ton_Instinct_2922a00b0e.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -4099,10 +6565,20 @@
       "cunning"
     ],
     "name": "A Precarious Predicament",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/222.png",
+    "art": "https://cdn.starwarsunlimited.com//05010222_EN_A_Precarious_Predicament_757ce66893.png",
     "cost": 2,
     "traits": [
       "TRICK"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Une Situation Précaire",
+        "art": "https://cdn.starwarsunlimited.com//05010222_FR_Une_Situation_Precaire_36e522c899.png",
+        "traits": [
+          "ASTUCE"
+        ]
+      }
     ]
   },
   {
@@ -4115,11 +6591,22 @@
       "cunning"
     ],
     "name": "Force Illusion",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/223.png",
+    "art": "https://cdn.starwarsunlimited.com//05010223_EN_Force_Illusion_1984d4b45b.png",
     "cost": 2,
     "traits": [
       "FORCE",
       "TRICK"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Illusion de Force",
+        "art": "https://cdn.starwarsunlimited.com//05010223_FR_Illusion_de_Force_ab22d21160.png",
+        "traits": [
+          "FORCE",
+          "ASTUCE"
+        ]
+      }
     ]
   },
   {
@@ -4132,10 +6619,20 @@
       "cunning"
     ],
     "name": "Pounce",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/224.png",
+    "art": "https://cdn.starwarsunlimited.com//05010224_EN_Pounce_f2f8b703d9.png",
     "cost": 2,
     "traits": [
       "TRICK"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Bondir",
+        "art": "https://cdn.starwarsunlimited.com//05010224_FR_Bondir_22438da1d5.png",
+        "traits": [
+          "ASTUCE"
+        ]
+      }
     ]
   },
   {
@@ -4148,10 +6645,20 @@
       "cunning"
     ],
     "name": "Three Lessons",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/225.png",
+    "art": "https://cdn.starwarsunlimited.com//05010225_EN_Three_Lessons_dcfd2e835f.png",
     "cost": 2,
     "traits": [
       "LEARNED"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Trois Leçons",
+        "art": "https://cdn.starwarsunlimited.com//05010225_FR_Trois_Lecons_b7e7bb134b.png",
+        "traits": [
+          "ACQUIS"
+        ]
+      }
     ]
   },
   {
@@ -4164,11 +6671,22 @@
       "cunning"
     ],
     "name": "Tip the Scale",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/226.png",
+    "art": "https://cdn.starwarsunlimited.com//05010226_EN_Tip_the_Scale_732c3b4cff.png",
     "cost": 2,
     "traits": [
       "FORCE",
       "TRICK"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Faire Pencher la Balance",
+        "art": "https://cdn.starwarsunlimited.com//05010226_FR_Faire_Pencher_la_Balance_48105bc311.png",
+        "traits": [
+          "FORCE",
+          "ASTUCE"
+        ]
+      }
     ]
   },
   {
@@ -4181,10 +6699,20 @@
       "cunning"
     ],
     "name": "The Will of the Force",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/227.png",
+    "art": "https://cdn.starwarsunlimited.com//05010227_EN_The_Will_of_the_Force_96009bc886.png",
     "cost": 4,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "La Volonté de la Force",
+        "art": "https://cdn.starwarsunlimited.com//05010227_FR_La_Volonte_de_la_Force_8f76e85102.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -4197,13 +6725,25 @@
       "villainy"
     ],
     "name": "Forged Starfighter",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/228.png",
+    "art": "https://cdn.starwarsunlimited.com//05010228_EN_Forged_Starfighter_f86c46e8a2.png",
     "cost": 1,
     "arena": "space",
     "traits": [
       "SITH",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chasseur de la Forge",
+        "art": "https://cdn.starwarsunlimited.com//05010228_FR_Chasseur_de_la_Forge_0525184fe6.png",
+        "traits": [
+          "SITH",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -4217,12 +6757,24 @@
     ],
     "name": "Kylo Ren",
     "title": "I Know Your Story",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/229.png",
+    "art": "https://cdn.starwarsunlimited.com//05010229_EN_Kylo_Ren_dee0ceb0f4.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FORCE",
       "FIRST ORDER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Kylo Ren",
+        "art": "https://cdn.starwarsunlimited.com//05010229_FR_Kylo_Ren_ad12d738ea.png",
+        "title": "Je Connais Ton Histoire",
+        "traits": [
+          "FORCE",
+          "PREMIER ORDRE"
+        ]
+      }
     ]
   },
   {
@@ -4235,12 +6787,23 @@
       "villainy"
     ],
     "name": "Fallen Jedi",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/230.png",
+    "art": "https://cdn.starwarsunlimited.com//05010230_EN_Fallen_Jedi_281d365e4b.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Jedi Déchu",
+        "art": "https://cdn.starwarsunlimited.com//05010230_FR_Jedi_Dechu_6574ac19e9.png",
+        "traits": [
+          "FORCE",
+          "JEDI"
+        ]
+      }
     ]
   },
   {
@@ -4254,13 +6817,26 @@
     ],
     "name": "Darth Tyranus",
     "title": "Servant of Sidious",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/231.png",
+    "art": "https://cdn.starwarsunlimited.com//05010231_EN_Darth_Tyranus_92d493741d.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "FORCE",
       "SEPARATIST",
       "SITH"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dark Tyranus",
+        "art": "https://cdn.starwarsunlimited.com//05010231_FR_Dark_Tyranus_f5588742bc.png",
+        "title": "Serviteur De Sidious",
+        "traits": [
+          "FORCE",
+          "SÉPARATISTE",
+          "SITH"
+        ]
+      }
     ]
   },
   {
@@ -4273,13 +6849,25 @@
       "villainy"
     ],
     "name": "Sandtrooper Cavalry",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/232.png",
+    "art": "https://cdn.starwarsunlimited.com//05010232_EN_Sandtrooper_Cavalry_56d463d1ce.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "CREATURE",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Cavalier Sandtrooper",
+        "art": "https://cdn.starwarsunlimited.com//05010232_FR_Cavalier_Sandtrooper_2ee52c9d6f.png",
+        "traits": [
+          "IMPÉRIAL",
+          "CRÉATURE",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -4293,13 +6881,26 @@
     ],
     "name": "Scimitar",
     "title": "Sith Infiltrator",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/233.png",
+    "art": "https://cdn.starwarsunlimited.com//05010233_EN_Scimitar_9853b6a7f2.png",
     "cost": 4,
     "arena": "space",
     "traits": [
       "SITH",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Scimitar",
+        "art": "https://cdn.starwarsunlimited.com//05010233_FR_Scimitar_8db7c0e6b3.png",
+        "title": "Infiltrateur Sith",
+        "traits": [
+          "SITH",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -4313,12 +6914,24 @@
     ],
     "name": "Darth Malak",
     "title": "Covetous Apprentice",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/234.png",
+    "art": "https://cdn.starwarsunlimited.com//05010234_EN_Darth_Malak_766fc73685.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "SITH"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dark Malak",
+        "art": "https://cdn.starwarsunlimited.com//05010234_FR_Dark_Malak_15beed2b38.png",
+        "title": "Apprenti Envieux",
+        "traits": [
+          "FORCE",
+          "SITH"
+        ]
+      }
     ]
   },
   {
@@ -4331,12 +6944,23 @@
       "villainy"
     ],
     "name": "HK-87 Assassin Droid",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/235.png",
+    "art": "https://cdn.starwarsunlimited.com//05010235_EN_HK_87_Assassin_Droid_405a918906.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "DROID"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Droïde Assassin HK-87",
+        "art": "https://cdn.starwarsunlimited.com//05010235_FR_Droide_Assassin_HK_87_a0ff79f082.png",
+        "traits": [
+          "IMPÉRIAL",
+          "DROÏDE"
+        ]
+      }
     ]
   },
   {
@@ -4349,12 +6973,22 @@
       "villainy"
     ],
     "name": "Army of the Dead",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/236.png",
+    "art": "https://cdn.starwarsunlimited.com//05010236_EN_Army_of_the_Dead_f80584967d.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "NIGHT",
       "UNDEAD"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Armée des Morts",
+        "art": "https://cdn.starwarsunlimited.com//05010236_FR_Armee_des_Morts_f8eb6f563d.png",
+        "traits": [
+          "NUIT"
+        ]
+      }
     ]
   },
   {
@@ -4368,11 +7002,22 @@
     ],
     "name": "The Son",
     "title": "Embodiment of Darkness",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/237.png",
+    "art": "https://cdn.starwarsunlimited.com//05010237_EN_The_Son_8a65cb7573.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Le Fils",
+        "art": "https://cdn.starwarsunlimited.com//05010237_FR_Le_Fils_8e51d3e677.png",
+        "title": "Incarnation Des Ténèbres",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -4385,12 +7030,24 @@
       "villainy"
     ],
     "name": "Darth Revan's Lightsaber",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/238.png",
+    "art": "https://cdn.starwarsunlimited.com//05010238_EN_Darth_Revan_s_Lightsabers_662cd34069.png",
     "cost": 2,
     "traits": [
       "ITEM",
       "WEAPON",
       "LIGHTSABER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sabres Laser de Dark Revan",
+        "art": "https://cdn.starwarsunlimited.com//05010238_FR_Sabres_Laser_de_Dark_Revan_6d32aefb3d.png",
+        "traits": [
+          "OBJET",
+          "ARME",
+          "SABRE LASER"
+        ]
+      }
     ]
   },
   {
@@ -4403,10 +7060,20 @@
       "villainy"
     ],
     "name": "Consumed by the Dark Side",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/239.png",
+    "art": "https://cdn.starwarsunlimited.com//05010239_EN_Consumed_by_the_Dark_Side_3ead6a2df3.png",
     "cost": 2,
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Consumé par le Côté Obscur",
+        "art": "https://cdn.starwarsunlimited.com//05010239_FR_Consume_par_le_Cote_Obscur_f40e7218a6.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -4419,10 +7086,20 @@
       "villainy"
     ],
     "name": "Flight of the Inquisitor",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/240.png",
+    "art": "https://cdn.starwarsunlimited.com//05010240_EN_Flight_of_the_Inquisitor_bc6aab565c.png",
     "cost": 2,
     "traits": [
       "TACTIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Envol de l'Inquisiteur",
+        "art": "https://cdn.starwarsunlimited.com//05010240_FR_Envol_de_l_Inquisiteur_fdc6e05d3c.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
     ]
   },
   {
@@ -4435,10 +7112,20 @@
       "villainy"
     ],
     "name": "In the Shadows",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/241.png",
+    "art": "https://cdn.starwarsunlimited.com//05010241_EN_In_the_Shadows_cb08d2201f.png",
     "cost": 2,
     "traits": [
       "PLAN"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dans l'Ombre",
+        "art": "https://cdn.starwarsunlimited.com//05010241_FR_Dans_l_Ombre_2f16f05ee2.png",
+        "traits": [
+          "PLAN"
+        ]
+      }
     ]
   },
   {
@@ -4451,12 +7138,23 @@
       "heroism"
     ],
     "name": "Refugee of The Path",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/242.png",
+    "art": "https://cdn.starwarsunlimited.com//05010242_EN_Refugee_of_The_Path_05883d81c2.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "FORCE",
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Réfugié du Passage",
+        "art": "https://cdn.starwarsunlimited.com//05010242_FR_Refugie_du_Passage_c9bf43112f.png",
+        "traits": [
+          "FORCE",
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -4469,11 +7167,21 @@
       "heroism"
     ],
     "name": "Caretaker Matron",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/243.png",
+    "art": "https://cdn.starwarsunlimited.com//05010243_EN_Caretaker_Matron_0e9c7ec8ae.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Matriarche Gardienne",
+        "art": "https://cdn.starwarsunlimited.com//05010243_FR_Matriarche_Gardienne_a157e652e3.png",
+        "traits": [
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -4486,13 +7194,25 @@
       "heroism"
     ],
     "name": "Jedi Vector",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/244.png",
+    "art": "https://cdn.starwarsunlimited.com//05010244_EN_Jedi_Vector_f840414a5f.png",
     "cost": 2,
     "arena": "space",
     "traits": [
       "JEDI",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vector Jedi",
+        "art": "https://cdn.starwarsunlimited.com//05010244_FR_Vector_Jedi_4d630bde38.png",
+        "traits": [
+          "JEDI",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -4505,11 +7225,21 @@
       "heroism"
     ],
     "name": "Vulptex",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/245.png",
+    "art": "https://cdn.starwarsunlimited.com//05010245_EN_Vulptex_4c37969f34.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vulptex",
+        "art": "https://cdn.starwarsunlimited.com//05010245_FR_Vulptex_0389d69cb6.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -4523,11 +7253,22 @@
     ],
     "name": "Grogu",
     "title": "Mysterious Child",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/246.png",
+    "art": "https://cdn.starwarsunlimited.com//05010246_EN_Grogu_1b0fcc2fe7.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Grogu",
+        "art": "https://cdn.starwarsunlimited.com//05010246_FR_Grogu_b8b5a3d6fe.png",
+        "title": "Enfant Mystérieux",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -4540,12 +7281,23 @@
       "heroism"
     ],
     "name": "Gungan Warrior",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/247.png",
+    "art": "https://cdn.starwarsunlimited.com//05010247_EN_Gungan_Warrior_7fd47fc071.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "GUNGAN",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Guerrier Gungan",
+        "art": "https://cdn.starwarsunlimited.com//05010247_FR_Guerrier_Gungan_4df8a1c9c0.png",
+        "traits": [
+          "GUNGAN",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -4559,13 +7311,26 @@
     ],
     "name": "Jocasta Nu",
     "title": "The Gift of Knowledge",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/248.png",
+    "art": "https://cdn.starwarsunlimited.com//05010248_EN_Jocasta_Nu_e0d8f21d9e.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Jocasta Nu",
+        "art": "https://cdn.starwarsunlimited.com//05010248_FR_Jocasta_Nu_a57ee93019.png",
+        "title": "Le Don De Connaissance",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -4579,12 +7344,24 @@
     ],
     "name": "Luke Skywalker",
     "title": "A Hero's Beginning",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/249.png",
+    "art": "https://cdn.starwarsunlimited.com//05010249_EN_Luke_Skywalker_2b1cc9261a.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "FORCE",
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Luke Skywalker",
+        "art": "https://cdn.starwarsunlimited.com//05010249_FR_Luke_Skywalker_96c26de15b.png",
+        "title": "La Genèse D'Un Héros",
+        "traits": [
+          "FORCE",
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -4597,13 +7374,25 @@
       "heroism"
     ],
     "name": "Medical Frigate",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/250.png",
+    "art": "https://cdn.starwarsunlimited.com//05010250_EN_Medical_Frigate_4658472c80.png",
     "cost": 4,
     "arena": "space",
     "traits": [
       "REPUBLIC",
       "VEHICLE",
       "CAPITAL SHIP"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Frégate Médicale",
+        "art": "https://cdn.starwarsunlimited.com//05010250_FR_Fregate_Medicale_6ceb0546ff.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "VAISSEAU CAPITAL"
+        ]
+      }
     ]
   },
   {
@@ -4616,13 +7405,25 @@
       "heroism"
     ],
     "name": "Blue Squadron Assault Wing",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/251.png",
+    "art": "https://cdn.starwarsunlimited.com//05010251_EN_Blue_Squadron_Assault_Wing_eaa4246ad1.png",
     "cost": 5,
     "arena": "space",
     "traits": [
       "REPUBLIC",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Groupe d'Assaut de l'Escadron Blue",
+        "art": "https://cdn.starwarsunlimited.com//05010251_FR_Groupe_d_Assaut_de_l_Escadron_Blue_77a570462f.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -4636,11 +7437,22 @@
     ],
     "name": "The Daughter",
     "title": "Embodiment of Light",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/252.png",
+    "art": "https://cdn.starwarsunlimited.com//05010252_EN_The_Daughter_4b019c8e04.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "La Fille",
+        "art": "https://cdn.starwarsunlimited.com//05010252_FR_La_Fille_ae2841658d.png",
+        "title": "Incarnation De La Lumière",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -4653,13 +7465,25 @@
       "heroism"
     ],
     "name": "Longbeam Cruiser",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/253.png",
+    "art": "https://cdn.starwarsunlimited.com//05010253_EN_Longbeam_Cruiser_b7fcac2856.png",
     "cost": 6,
     "arena": "space",
     "traits": [
       "REPUBLIC",
       "VEHICLE",
       "CAPITAL SHIP"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Croiseur Longbeam",
+        "art": "https://cdn.starwarsunlimited.com//05010253_FR_Croiseur_Longbeam_88ca72d422.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "VAISSEAU CAPITAL"
+        ]
+      }
     ]
   },
   {
@@ -4670,11 +7494,21 @@
     "rarity": "common",
     "aspects": [],
     "name": "Porg",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/254.png",
+    "art": "https://cdn.starwarsunlimited.com//05010254_EN_Porg_09929911ce.png",
     "cost": 0,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Porg",
+        "art": "https://cdn.starwarsunlimited.com//05010254_FR_Porg_9c4a4b0603.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -4685,11 +7519,21 @@
     "rarity": "common",
     "aspects": [],
     "name": "Curious Flock",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/255.png",
+    "art": "https://cdn.starwarsunlimited.com//05010255_EN_Curious_Flock_50c071a964.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Couvée Curieuse",
+        "art": "https://cdn.starwarsunlimited.com//05010255_FR_Couvee_Curieuse_61e89ff239.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -4700,12 +7544,23 @@
     "rarity": "common",
     "aspects": [],
     "name": "Gifted Urchin",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/256.png",
+    "art": "https://cdn.starwarsunlimited.com//05010256_EN_Gifted_Urchin_2b71b2678f.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FORCE",
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Gamine Talentueuse",
+        "art": "https://cdn.starwarsunlimited.com//05010256_FR_Gamine_Talentueuse_ba6a30e4d4.png",
+        "traits": [
+          "FORCE",
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -4716,11 +7571,21 @@
     "rarity": "common",
     "aspects": [],
     "name": "Kowakian Monkey-Lizard",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/257.png",
+    "art": "https://cdn.starwarsunlimited.com//05010257_EN_Kowakian_Monkey_Lizard_d47b1e9ae4.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Singe-Lézard Kowakien",
+        "art": "https://cdn.starwarsunlimited.com//05010257_FR_Singe_Lezard_Kowakien_f6072e5a02.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -4732,11 +7597,22 @@
     "aspects": [],
     "name": "Peli Motto",
     "title": "I Should Charge You More",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/258.png",
+    "art": "https://cdn.starwarsunlimited.com//05010258_EN_Peli_Motto_7107c41435.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Peli Motto",
+        "art": "https://cdn.starwarsunlimited.com//05010258_FR_Peli_Motto_7a1b2e855a.png",
+        "title": "Je Devrais Te Facturer Plus",
+        "traits": [
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -4747,11 +7623,21 @@
     "rarity": "common",
     "aspects": [],
     "name": "Ravening Gundark",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/259.png",
+    "art": "https://cdn.starwarsunlimited.com//05010259_EN_Ravening_Gundark_ff4c4abf4a.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Gundark Vorace",
+        "art": "https://cdn.starwarsunlimited.com//05010259_FR_Gundark_Vorace_9c22ab2f8e.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -4763,11 +7649,22 @@
     "aspects": [],
     "name": "The Father",
     "title": "Maintaining Balance",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/260.png",
+    "art": "https://cdn.starwarsunlimited.com//05010260_EN_The_Father_577ed29e3e.png",
     "cost": 8,
     "arena": "ground",
     "traits": [
       "FORCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Le Père",
+        "art": "https://cdn.starwarsunlimited.com//05010260_FR_Le_Pere_91c07eae2a.png",
+        "title": "Maintien L'Équilibre",
+        "traits": [
+          "FORCE"
+        ]
+      }
     ]
   },
   {
@@ -4778,12 +7675,24 @@
     "rarity": "legendary",
     "aspects": [],
     "name": "Constructed Lightsaber",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/261.png",
+    "art": "https://cdn.starwarsunlimited.com//05010261_EN_Constructed_Lightsaber_5ecf1c91b7.png",
     "cost": 3,
     "traits": [
       "ITEM",
       "WEAPON",
       "LIGHTSABER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sabre Laser Assemblé",
+        "art": "https://cdn.starwarsunlimited.com//05010261_FR_Sabre_Laser_Assemble_3e4bcedc70.png",
+        "traits": [
+          "OBJET",
+          "ARME",
+          "SABRE LASER"
+        ]
+      }
     ]
   },
   {
@@ -4794,10 +7703,20 @@
     "rarity": "common",
     "aspects": [],
     "name": "Go Into Hiding",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/262.png",
+    "art": "https://cdn.starwarsunlimited.com//05010262_EN_Go_Into_Hiding_24a0f728eb.png",
     "cost": 2,
     "traits": [
       "LEARNED"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Entrer en Clandestinité",
+        "art": "https://cdn.starwarsunlimited.com//05010262_FR_Entrer_en_Clandestinite_8b736bbf06.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
     ]
   },
   {
@@ -4808,10 +7727,20 @@
     "rarity": "common",
     "aspects": [],
     "name": "Last Words",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/263.png",
+    "art": "https://cdn.starwarsunlimited.com//05010263_EN_Last_Words_ce8b7ad90f.png",
     "cost": 2,
     "traits": [
       "LEARNED"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Derniers Mots",
+        "art": "https://cdn.starwarsunlimited.com//05010263_FR_Derniers_Mots_156732819f.png",
+        "traits": [
+          "ACQUIS"
+        ]
+      }
     ]
   },
   {
@@ -4822,10 +7751,20 @@
     "rarity": "common",
     "aspects": [],
     "name": "It's Worse",
-    "art": "https://cdn.swu-db.com/images/cards/LOF/264.png",
+    "art": "https://cdn.starwarsunlimited.com//05010264_EN_It_s_Worse_068d53f35e.png",
     "cost": 7,
     "traits": [
       "TRICK"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "C'est Pire !",
+        "art": "https://cdn.starwarsunlimited.com//05010264_FR_C_est_Pire_e5779a2d6b.png",
+        "traits": [
+          "ASTUCE"
+        ]
+      }
     ]
   }
 ]

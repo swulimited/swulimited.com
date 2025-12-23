@@ -24,6 +24,15 @@ export interface Card {
     arena?: UnitArena;
     traits?: string[];
     hp?: number;
+    localization?: CardLocalization[];
+}
+
+export interface CardLocalization {
+    locale: string;
+    name: string;
+    title?: string;
+    art: string;
+    traits?: string[];
 }
 
 /**

@@ -99,3 +99,12 @@ Leaders from the spotlight decks are excluded from regular booster packs:
 - for LOF: LOF-009 and LOF-016
 - for SEC: SEC-001 and SEC-016
 You can never find those leaders in booters packs, unless you explicitely choose to do so.
+
+# Card database
+
+The card database is available online with the following REST API:
+https://admin.starwarsunlimited.com/api/cards
+
+This API has a page attribute: add "?pagination[page]=_PAGE_" to view card data from a given page.
+
+Use the artFront attribute only for card images.

@@ -11,12 +11,24 @@
     ],
     "name": "Chancellor Palpatine",
     "title": "How Liberty Dies",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/001.png",
+    "art": "https://cdn.starwarsunlimited.com//06010001_EN_Chancellor_Palpatine_Leader_0e56401e65.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chancelier Palpatine",
+        "art": "https://cdn.starwarsunlimited.com//06010001_FR_Chancelier_Palpatine_Leader_b0515b77ee.png",
+        "title": "C'Est Ainsi Que S'Éteint La Liberté",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -31,12 +43,24 @@
     ],
     "name": "Jabba the Hutt",
     "title": "Wonderful Human Being",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/002.png",
+    "art": "https://cdn.starwarsunlimited.com//06010002_EN_Jabba_the_Hutt_Leader_6496a3c116.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "UNDERWORLD",
       "HUTT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Jabba le Hutt",
+        "art": "https://cdn.starwarsunlimited.com//06010002_FR_Jabba_le_Hutt_Leader_50c825fa00.png",
+        "title": "Humaniste Invertébré",
+        "traits": [
+          "PÈGRE",
+          "HUTT"
+        ]
+      }
     ]
   },
   {
@@ -51,12 +75,24 @@
     ],
     "name": "Lama Su",
     "title": "We Modified Their Genetics",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/003.png",
+    "art": "https://cdn.starwarsunlimited.com//06010003_EN_Lama_Su_Leader_1e34d63b12.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "KAMINOAN",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Lama Su",
+        "art": "https://cdn.starwarsunlimited.com//06010003_FR_Lama_Su_Leader_230b8bc5a7.png",
+        "title": "Nous Avons Modifié Leur Génome",
+        "traits": [
+          "KAMINOEN",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -71,12 +107,24 @@
     ],
     "name": "Leia Organa",
     "title": "Of A Secret Bloodline",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/004.png",
+    "art": "https://cdn.starwarsunlimited.com//06010004_EN_Leia_Organa_Leader_f353f36b61.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "NEW REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Leia Organa",
+        "art": "https://cdn.starwarsunlimited.com//06010004_FR_Leia_Organa_Leader_db1bc1668a.png",
+        "title": "D'Une Lignée Cachée",
+        "traits": [
+          "NOUVELLE RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -91,12 +139,24 @@
     ],
     "name": "Satine Kryze",
     "title": "Standing on Principles",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/005.png",
+    "art": "https://cdn.starwarsunlimited.com//06010005_EN_Satine_Kryze_Leader_27cad3ba03.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "MANDALORIAN",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Satine Kryze",
+        "art": "https://cdn.starwarsunlimited.com//06010005_FR_Satine_Kryze_Leader_0370c0ff1e.png",
+        "title": "Reste Sur Ses Principes",
+        "traits": [
+          "MANDALORIEN",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -111,12 +171,24 @@
     ],
     "name": "Colonel Yularen",
     "title": "This is Why We Plan",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/006.png",
+    "art": "https://cdn.starwarsunlimited.com//06010006_EN_Colonel_Yularen_Leader_4c79ee347a.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Colonel Yularen",
+        "art": "https://cdn.starwarsunlimited.com//06010006_FR_Colonel_Yularen_Leader_70392fbe3a.png",
+        "title": "C'Est Pour Ça Que Nous Planifions",
+        "traits": [
+          "IMPÉRIAL",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -131,11 +203,22 @@
     ],
     "name": "Dryden Vos",
     "title": "I Never Ask Twice",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/007.png",
+    "art": "https://cdn.starwarsunlimited.com//06010007_EN_Dryden_Vos_Leader_8df1c6048d.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
       "UNDERWORLD"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dryden Vos",
+        "art": "https://cdn.starwarsunlimited.com//06010007_FR_Dryden_Vos_Leader_845cb31be1.png",
+        "title": "Je Ne Demande Jamais Deux Fois",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
     ]
   },
   {
@@ -150,12 +233,24 @@
     ],
     "name": "Bail Organa",
     "title": "Doing Everything He Can",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/008.png",
+    "art": "https://cdn.starwarsunlimited.com//06010008_EN_Bail_Organa_Leader_2b4539f7da.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Bail Organa",
+        "art": "https://cdn.starwarsunlimited.com//06010008_FR_Bail_Organa_Leader_0d006ef944.png",
+        "title": "Fait Tout Ce Qu'Il Peut",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -170,12 +265,24 @@
     ],
     "name": "Mon Mothma",
     "title": "Forming a Coalition",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/009.png",
+    "art": "https://cdn.starwarsunlimited.com//06010009_EN_Mon_Mothma_Leader_b23010a745.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Mon Mothma",
+        "art": "https://cdn.starwarsunlimited.com//06010009_FR_Mon_Mothma_Leader_9011fedf9b.png",
+        "title": "Monte Une Coalition",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -190,12 +297,24 @@
     ],
     "name": "Dedra Meero",
     "title": "Not Wasting Time",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/010.png",
+    "art": "https://cdn.starwarsunlimited.com//06010010_EN_Dedra_Meero_Leader_1d096ff93b.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dedra Meero",
+        "art": "https://cdn.starwarsunlimited.com//06010010_FR_Dedra_Meero_Leader_cc332ddb14.png",
+        "title": "Ne Perd Pas De Temps",
+        "traits": [
+          "IMPÉRIAL",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -210,12 +329,24 @@
     ],
     "name": "Governor Pryce",
     "title": "Tyrant of Lothal",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/011.png",
+    "art": "https://cdn.starwarsunlimited.com//06010011_EN_Governor_Pryce_Leader_02b3384dd0.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Gouverneur Pryce",
+        "art": "https://cdn.starwarsunlimited.com//06010011_FR_Gouverneur_Pryce_Leader_7d48d268fd.png",
+        "title": "Tyran De Lothal",
+        "traits": [
+          "IMPÉRIAL",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -230,11 +361,22 @@
     ],
     "name": "Cassian Andor",
     "title": "Climb!",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/012.png",
+    "art": "https://cdn.starwarsunlimited.com//06010012_EN_Cassian_Andor_Leader_e6239f096c.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "REBEL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Cassian Andor",
+        "art": "https://cdn.starwarsunlimited.com//06010012_FR_Cassian_Andor_Leader_9b5abebf47.png",
+        "title": "Grimpe !",
+        "traits": [
+          "REBELLE"
+        ]
+      }
     ]
   },
   {
@@ -249,11 +391,22 @@
     ],
     "name": "Luthen Rael",
     "title": "Don't You Want to Fight For Real?",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/013.png",
+    "art": "https://cdn.starwarsunlimited.com//06010013_EN_Luthen_Rael_Leader_c511129bd1.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "REBEL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Luthen Rael",
+        "art": "https://cdn.starwarsunlimited.com//06010013_FR_Luthen_Rael_Leader_55925dbeac.png",
+        "title": "Ne Veux-Tu Pas Te Battre Pour De Vrai ?",
+        "traits": [
+          "REBELLE"
+        ]
+      }
     ]
   },
   {
@@ -268,13 +421,26 @@
     ],
     "name": "Sly Moore",
     "title": "Cipher in the Dark",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/014.png",
+    "art": "https://cdn.starwarsunlimited.com//06010014_EN_Sly_Moore_Leader_c8885f09c6.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "IMPERIAL",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sly Moore",
+        "art": "https://cdn.starwarsunlimited.com//06010014_FR_Sly_Moore_Leader_262cb0b149.png",
+        "title": "Cryptage Dans L'Ombre",
+        "traits": [
+          "FORCE",
+          "IMPÉRIAL",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -289,12 +455,24 @@
     ],
     "name": "C-3P0",
     "title": "Human-Cyborg Relations",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/015.png",
+    "art": "https://cdn.starwarsunlimited.com//06010015_EN_C_3_PO_Leader_c917c62a55.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "REBEL",
       "DROID"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "C-3PO",
+        "art": "https://cdn.starwarsunlimited.com//06010015_FR_C_3_PO_Leader_4267085d11.png",
+        "title": "Relations Humain-Cyborg",
+        "traits": [
+          "REBELLE",
+          "DROÏDE"
+        ]
+      }
     ]
   },
   {
@@ -309,13 +487,26 @@
     ],
     "name": "Padmé Amidala",
     "title": "What Do You Have to Hide?",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/016.png",
+    "art": "https://cdn.starwarsunlimited.com//06010016_EN_Padme_Amidala_Leader_4f0f22a1f3.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "NABOO",
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Padmé Amidala",
+        "art": "https://cdn.starwarsunlimited.com//06010016_FR_Padme_Amidala_Leader_56a736df39.png",
+        "title": "Qu'Avez-Vous À Cacher ?",
+        "traits": [
+          "NABOO",
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -330,11 +521,22 @@
     ],
     "name": "Sabé",
     "title": "Queen's Shadow",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/017.png",
+    "art": "https://cdn.starwarsunlimited.com//06010017_EN_Sabe_Leader_774d52837d.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "NABOO"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sabé",
+        "art": "https://cdn.starwarsunlimited.com//06010017_FR_Sabe_Leader_d7d03f2a67.png",
+        "title": "L'Ombre De La Reine",
+        "traits": [
+          "NABOO"
+        ]
+      }
     ]
   },
   {
@@ -349,11 +551,22 @@
     ],
     "name": "DJ",
     "title": "Need a Lift?",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/018.png",
+    "art": "https://cdn.starwarsunlimited.com//06010018_EN_DJ_Leader_528bd59d36.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "UNDERWORLD"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "DJ",
+        "art": "https://cdn.starwarsunlimited.com//06010018_FR_DJ_Leader_b090b070bb.png",
+        "title": "Je Vous Dépose ?",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
     ]
   },
   {
@@ -367,8 +580,15 @@
     ],
     "name": "Rix Road",
     "title": "Ferrix",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/019.png",
-    "hp": 30
+    "art": "https://cdn.starwarsunlimited.com//06010019_EN_Rix_Road_Base_73bf131fdb.png",
+    "hp": 30,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Rix Road",
+        "art": "https://cdn.starwarsunlimited.com//06010019_FR_Rix_Road_Base_5ac80dc00f.png"
+      }
+    ]
   },
   {
     "id": "SEC-020",
@@ -381,8 +601,15 @@
     ],
     "name": "Uscru Entertainment District",
     "title": "Coruscant",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/020.png",
-    "hp": 30
+    "art": "https://cdn.starwarsunlimited.com//06010020_EN_Uscru_Entertainment_District_Base_34d910b9b7.png",
+    "hp": 30,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Quartier des Divertissements Uscru",
+        "art": "https://cdn.starwarsunlimited.com//06010020_FR_Quartier_des_Divertissements_Uscru_Base_74d1ea7568.png"
+      }
+    ]
   },
   {
     "id": "SEC-021",
@@ -395,8 +622,15 @@
     ],
     "name": "Republic City",
     "title": "Hosnian Prime",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/021.png",
-    "hp": 30
+    "art": "https://cdn.starwarsunlimited.com//06010021_EN_Republic_City_Base_988233fe95.png",
+    "hp": 30,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Republic City",
+        "art": "https://cdn.starwarsunlimited.com//06010021_FR_Republic_City_Base_3dd22b4361.png"
+      }
+    ]
   },
   {
     "id": "SEC-022",
@@ -409,8 +643,15 @@
     ],
     "name": "Senate Rotunda",
     "title": "Coruscant",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/022.png",
-    "hp": 30
+    "art": "https://cdn.starwarsunlimited.com//06010022_EN_Senate_Rotunda_Base_0fc4dd77d1.png",
+    "hp": 30,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Rotonde du Sénat",
+        "art": "https://cdn.starwarsunlimited.com//06010022_FR_Rotonde_du_Senat_Base_d64e660deb.png"
+      }
+    ]
   },
   {
     "id": "SEC-023",
@@ -423,8 +664,15 @@
     ],
     "name": "Imperial Prison Complex",
     "title": "Narona 5",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/023.png",
-    "hp": 30
+    "art": "https://cdn.starwarsunlimited.com//06010023_EN_Imperial_Prison_Complex_Base_73981b541f.png",
+    "hp": 30,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Complexe Pénitencier Impérial",
+        "art": "https://cdn.starwarsunlimited.com//06010023_FR_Complexe_Penitencier_Imperial_Base_44ae9bc386.png"
+      }
+    ]
   },
   {
     "id": "SEC-024",
@@ -437,8 +685,15 @@
     ],
     "name": "Naval Intelligence HQ",
     "title": "Coruscant",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/024.png",
-    "hp": 30
+    "art": "https://cdn.starwarsunlimited.com//06010024_EN_Naval_Intelligence_HQ_Base_e3675b88dc.png",
+    "hp": 30,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "QG du Renseignement Naval",
+        "art": "https://cdn.starwarsunlimited.com//06010024_FR_QG_du_Renseignement_Naval_Base_dbb12a81da.png"
+      }
+    ]
   },
   {
     "id": "SEC-025",
@@ -451,8 +706,15 @@
     ],
     "name": "Amnesty Housing",
     "title": "Coruscant",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/025.png",
-    "hp": 30
+    "art": "https://cdn.starwarsunlimited.com//06010025_EN_Amnesty_Housing_Base_03a9e44dd0.png",
+    "hp": 30,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Logement d'Amnistie",
+        "art": "https://cdn.starwarsunlimited.com//06010025_FR_Logement_d_Amnistie_Base_8f33c23bbd.png"
+      }
+    ]
   },
   {
     "id": "SEC-026",
@@ -465,8 +727,15 @@
     ],
     "name": "Mount Tantiss",
     "title": "Wayland",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/026.png",
-    "hp": 30
+    "art": "https://cdn.starwarsunlimited.com//06010026_EN_Mount_Tantiss_Base_28c88d7fc1.png",
+    "hp": 30,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Mont Tantiss",
+        "art": "https://cdn.starwarsunlimited.com//06010026_FR_Mont_Tantiss_Base_fc82cf183f.png"
+      }
+    ]
   },
   {
     "id": "SEC-027",
@@ -480,13 +749,26 @@
     ],
     "name": "The Chancellor's Shuttle",
     "title": "Grim Harbinger",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/027.png",
+    "art": "https://cdn.starwarsunlimited.com//06010027_EN_The_Chancellor_s_Shuttle_d28c3a68b6.png",
     "cost": 2,
     "arena": "space",
     "traits": [
       "REPUBLIC",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "La Navette du Chancelier",
+        "art": "https://cdn.starwarsunlimited.com//06010027_FR_La_Navette_du_Chancelier_05ab4a8a82.png",
+        "title": "Sinistre Présage",
+        "traits": [
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -500,12 +782,23 @@
       "villainy"
     ],
     "name": "Trayus Acolyte",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/028.png",
+    "art": "https://cdn.starwarsunlimited.com//06010028_EN_Trayus_Acolyte_bbbcbfddc0.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FORCE",
       "SITH"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Acolyte Trayus",
+        "art": "https://cdn.starwarsunlimited.com//06010028_FR_Acolyte_Trayus_84beff83e4.png",
+        "traits": [
+          "FORCE",
+          "SITH"
+        ]
+      }
     ]
   },
   {
@@ -520,12 +813,24 @@
     ],
     "name": "Zam Wesell",
     "title": "Inconspicuous Assassin",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/029.png",
+    "art": "https://cdn.starwarsunlimited.com//06010029_EN_Zam_Wesell_ee5dcabcc2.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "UNDERWORLD",
       "BOUNTY HUNTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Zam Wesell",
+        "art": "https://cdn.starwarsunlimited.com//06010029_FR_Zam_Wesell_cadd175466.png",
+        "title": "Assassin Discrète",
+        "traits": [
+          "PÈGRE",
+          "CHASSEUR DE PRIMES"
+        ]
+      }
     ]
   },
   {
@@ -539,12 +844,23 @@
       "villainy"
     ],
     "name": "Death Trooper",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/030.png",
+    "art": "https://cdn.starwarsunlimited.com//06010030_EN_Death_Trooper_194970ccb0.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Death Trooper",
+        "art": "https://cdn.starwarsunlimited.com//06010030_FR_Death_Trooper_22eb51d4d3.png",
+        "traits": [
+          "IMPÉRIAL",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -559,12 +875,24 @@
     ],
     "name": "Nute Gunray",
     "title": "Escaping Justice",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/031.png",
+    "art": "https://cdn.starwarsunlimited.com//06010031_EN_Nute_Gunray_bfe2fff26f.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "SEPARATIST",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Nute Gunray",
+        "art": "https://cdn.starwarsunlimited.com//06010031_FR_Nute_Gunray_147afc3b5f.png",
+        "title": "Échappe À La Justice",
+        "traits": [
+          "SÉPARATISTE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -579,13 +907,26 @@
     ],
     "name": "Kylo Ren's Command Shuttle",
     "title": "Icon of Authority",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/032.png",
+    "art": "https://cdn.starwarsunlimited.com//06010032_EN_Kylo_Ren_s_Command_Shuttle_5f5f422c3c.png",
     "cost": 4,
     "arena": "space",
     "traits": [
       "FIRST ORDER",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Navette de Commandement de Kylo Ren",
+        "art": "https://cdn.starwarsunlimited.com//06010032_FR_Navette_de_Commandement_de_Kylo_Ren_3d59ebcd72.png",
+        "title": "Symbole D'Autorité",
+        "traits": [
+          "PREMIER ORDRE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -600,12 +941,24 @@
     ],
     "name": "Sly Moore",
     "title": "Witness to Power",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/033.png",
+    "art": "https://cdn.starwarsunlimited.com//06010033_EN_Sly_Moore_fa43bf79c1.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sly Moore",
+        "art": "https://cdn.starwarsunlimited.com//06010033_FR_Sly_Moore_e4dd10f99f.png",
+        "title": "Témoin Du Pouvoir",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -620,12 +973,24 @@
     ],
     "name": "Cad Bane",
     "title": "Impressed Now?",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/034.png",
+    "art": "https://cdn.starwarsunlimited.com//06010034_EN_Cad_Bane_d934b6e91c.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "UNDERWORLD",
       "BOUNTY HUNTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Cad Bane",
+        "art": "https://cdn.starwarsunlimited.com//06010034_FR_Cad_Bane_bfe945887f.png",
+        "title": "Impressionné Maintenant ?",
+        "traits": [
+          "PÈGRE",
+          "CHASSEUR DE PRIMES"
+        ]
+      }
     ]
   },
   {
@@ -640,12 +1005,24 @@
     ],
     "name": "Darth Sion",
     "title": "Lord of Pain",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/035.png",
+    "art": "https://cdn.starwarsunlimited.com//06010035_EN_Darth_Sion_520eab6bb2.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FORCE",
       "SITH"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dark Sion",
+        "art": "https://cdn.starwarsunlimited.com//06010035_FR_Dark_Sion_3fde5cefc8.png",
+        "title": "Seigneur De La Douleur",
+        "traits": [
+          "FORCE",
+          "SITH"
+        ]
+      }
     ]
   },
   {
@@ -659,13 +1036,25 @@
       "villainy"
     ],
     "name": "Dogmatic Shock Squad",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/036.png",
+    "art": "https://cdn.starwarsunlimited.com//06010036_EN_Dogmatic_Shock_Squad_02e7c32b0e.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "CLONE",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Escouade de Choc Dogmatique",
+        "art": "https://cdn.starwarsunlimited.com//06010036_FR_Escouade_de_Choc_Dogmatique_da39d16f95.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "CLONE",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -679,13 +1068,25 @@
       "villainy"
     ],
     "name": "Cantwell Arrestor Cruiser",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/037.png",
+    "art": "https://cdn.starwarsunlimited.com//06010037_EN_Cantwell_Arrestor_Cruiser_c111ec7924.png",
     "cost": 7,
     "arena": "space",
     "traits": [
       "IMPERIAL",
       "VEHICLE",
       "CAPITAL SHIP"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Croiseur Arrestor Cantwell",
+        "art": "https://cdn.starwarsunlimited.com//06010037_FR_Croiseur_Arrestor_Cantwell_c5198a4eda.png",
+        "traits": [
+          "IMPÉRIAL",
+          "VÉHICULE",
+          "VAISSEAU CAPITAL"
+        ]
+      }
     ]
   },
   {
@@ -699,10 +1100,20 @@
       "villainy"
     ],
     "name": "Condemn",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/038.png",
+    "art": "https://cdn.starwarsunlimited.com//06010038_EN_Condemn_3fcd162061.png",
     "cost": 3,
     "traits": [
       "CONDITION"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Condamner",
+        "art": "https://cdn.starwarsunlimited.com//06010038_FR_Condamner_fd9b6adbf9.png",
+        "traits": [
+          "CONDITION"
+        ]
+      }
     ]
   },
   {
@@ -716,10 +1127,20 @@
       "villainy"
     ],
     "name": "Creditor's Claim",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/039.png",
+    "art": "https://cdn.starwarsunlimited.com//06010039_EN_Creditor_s_Claim_072052ff5e.png",
     "cost": 3,
     "traits": [
       "SUPPLY"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Droits du Créancier",
+        "art": "https://cdn.starwarsunlimited.com//06010039_FR_Droits_du_Creancier_8ea365e615.png",
+        "traits": [
+          "RÉSERVE"
+        ]
+      }
     ]
   },
   {
@@ -733,10 +1154,20 @@
       "villainy"
     ],
     "name": "Emergency Powers",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/040.png",
+    "art": "https://cdn.starwarsunlimited.com//06010040_EN_Emergency_Powers_2fbbef573f.png",
     "cost": 1,
     "traits": [
       "LAW"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Pouvoirs d'Exception",
+        "art": "https://cdn.starwarsunlimited.com//06010040_FR_Pouvoirs_d_Exception_d2d6e724aa.png",
+        "traits": [
+          "LOI"
+        ]
+      }
     ]
   },
   {
@@ -750,12 +1181,23 @@
       "heroism"
     ],
     "name": "Populist Advisor",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/041.png",
+    "art": "https://cdn.starwarsunlimited.com//06010041_EN_Populist_Advisor_466f34507c.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "NEW REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Conseiller Populiste",
+        "art": "https://cdn.starwarsunlimited.com//06010041_FR_Conseiller_Populiste_a055a48fd5.png",
+        "traits": [
+          "NOUVELLE RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -770,11 +1212,22 @@
     ],
     "name": "Cassian Andor",
     "title": "Lay Low",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/042.png",
+    "art": "https://cdn.starwarsunlimited.com//06010042_EN_Cassian_Andor_a0389fe762.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Cassian Andor",
+        "art": "https://cdn.starwarsunlimited.com//06010042_FR_Cassian_Andor_ba9af05281.png",
+        "title": "Faire Profil-Bas",
+        "traits": [
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -788,11 +1241,21 @@
       "heroism"
     ],
     "name": "Chandrilan Sponsor",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/043.png",
+    "art": "https://cdn.starwarsunlimited.com//06010043_EN_Chandrilan_Sponsor_bf0861e999.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sponsor Chandrilan",
+        "art": "https://cdn.starwarsunlimited.com//06010043_FR_Sponsor_Chandrilan_5b5c1b2ae4.png",
+        "traits": [
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -806,12 +1269,23 @@
       "heroism"
     ],
     "name": "Populist Champion",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/044.png",
+    "art": "https://cdn.starwarsunlimited.com//06010044_EN_Populist_Champion_011e6b5aa0.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "NEW REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Champion Populiste",
+        "art": "https://cdn.starwarsunlimited.com//06010044_FR_Champion_Populiste_d366b90273.png",
+        "traits": [
+          "NOUVELLE RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -826,12 +1300,24 @@
     ],
     "name": "Senator Chuchi",
     "title": "Voice for the Voiceless",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/045.png",
+    "art": "https://cdn.starwarsunlimited.com//06010045_EN_Senator_Chuchi_749029c200.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sénatrice Chuchi",
+        "art": "https://cdn.starwarsunlimited.com//06010045_FR_Senatrice_Chuchi_5aa7412d2b.png",
+        "title": "Porte-Parole Des Sans-Voix",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -846,11 +1332,22 @@
     ],
     "name": "Galen Erso",
     "title": "You'll Never Win",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/046.png",
+    "art": "https://cdn.starwarsunlimited.com//06010046_EN_Galen_Erso_fa3b063d30.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "IMPERIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Galen Erso",
+        "art": "https://cdn.starwarsunlimited.com//06010046_FR_Galen_Erso_da02686266.png",
+        "title": "Vous Ne Gagnerez Jamais",
+        "traits": [
+          "IMPÉRIAL"
+        ]
+      }
     ]
   },
   {
@@ -865,13 +1362,26 @@
     ],
     "name": "Coronet",
     "title": "Stately Vessel",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/047.png",
+    "art": "https://cdn.starwarsunlimited.com//06010047_EN_Coronet_45368d3012.png",
     "cost": 5,
     "arena": "space",
     "traits": [
       "MANDALORIAN",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Coronet",
+        "art": "https://cdn.starwarsunlimited.com//06010047_FR_Coronet_451c75d884.png",
+        "title": "Navire Majestueux",
+        "traits": [
+          "MANDALORIEN",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -886,13 +1396,26 @@
     ],
     "name": "Captain Rex",
     "title": "Into the Firefight",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/048.png",
+    "art": "https://cdn.starwarsunlimited.com//06010048_EN_Captain_Rex_74eb09fa54.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "CLONE",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Capitaine Rex",
+        "art": "https://cdn.starwarsunlimited.com//06010048_FR_Capitaine_Rex_1e2fea4a77.png",
+        "title": "Dans Un Échange De Tirs",
+        "traits": [
+          "RÉPUBLIQUE",
+          "CLONE",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -906,13 +1429,25 @@
       "heroism"
     ],
     "name": "Jade Squadron Patrol",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/049.png",
+    "art": "https://cdn.starwarsunlimited.com//06010049_EN_Jade_Squadron_Patrol_5e49674f50.png",
     "cost": 6,
     "arena": "space",
     "traits": [
       "RESISTANCE",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Patrouille de l'Escadron Jade",
+        "art": "https://cdn.starwarsunlimited.com//06010049_FR_Patrouille_de_l_Escadron_Jade_cb20e633af.png",
+        "traits": [
+          "RÉSISTANCE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -927,13 +1462,26 @@
     ],
     "name": "Vigil",
     "title": "Securing the Future",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/050.png",
+    "art": "https://cdn.starwarsunlimited.com//06010050_EN_Vigil_d95384de47.png",
     "cost": 7,
     "arena": "space",
     "traits": [
       "RESISTANCE",
       "VEHICLE",
       "CAPITAL SHIP"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vigil",
+        "art": "https://cdn.starwarsunlimited.com//06010050_FR_Vigil_b7f70026b9.png",
+        "title": "Assurer L'Avenir",
+        "traits": [
+          "RÉSISTANCE",
+          "VÉHICULE",
+          "VAISSEAU CAPITAL"
+        ]
+      }
     ]
   },
   {
@@ -948,11 +1496,22 @@
     ],
     "name": "Bo-Katan Kryze",
     "title": "Alone",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/051.png",
+    "art": "https://cdn.starwarsunlimited.com//06010051_EN_Bo_Katan_Kryze_f1a5544d8b.png",
     "cost": 9,
     "arena": "ground",
     "traits": [
       "MANDALORIAN"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Bo-Katan Kryze",
+        "art": "https://cdn.starwarsunlimited.com//06010051_FR_Bo_Katan_Kryze_c1f8db1109.png",
+        "title": "Seule",
+        "traits": [
+          "MANDALORIEN"
+        ]
+      }
     ]
   },
   {
@@ -966,10 +1525,20 @@
       "heroism"
     ],
     "name": "Diplomatic Immunity",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/052.png",
+    "art": "https://cdn.starwarsunlimited.com//06010052_EN_Diplomatic_Immunity_78fc0aaba8.png",
     "cost": 2,
     "traits": [
       "LAW"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Immunité Diplomatique",
+        "art": "https://cdn.starwarsunlimited.com//06010052_FR_Immunite_Diplomatique_94c749b210.png",
+        "traits": [
+          "LOI"
+        ]
+      }
     ]
   },
   {
@@ -983,10 +1552,20 @@
       "heroism"
     ],
     "name": "One in a Million",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/053.png",
+    "art": "https://cdn.starwarsunlimited.com//06010053_EN_One_in_a_Million_450388a08a.png",
     "cost": 1,
     "traits": [
       "GAMBIT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Droit dans le Mille",
+        "art": "https://cdn.starwarsunlimited.com//06010053_FR_Droit_dans_le_Mille_227d0e779d.png",
+        "traits": [
+          "GAMBIT"
+        ]
+      }
     ]
   },
   {
@@ -1000,10 +1579,20 @@
       "vigilance"
     ],
     "name": "Exiled from the Force",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/054.png",
+    "art": "https://cdn.starwarsunlimited.com//06010054_EN_Exiled_from_the_Force_daba91d174.png",
     "cost": 1,
     "traits": [
       "CONDITION"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Exilé de la Force",
+        "art": "https://cdn.starwarsunlimited.com//06010054_FR_Exile_de_la_Force_11a0e77b81.png",
+        "traits": [
+          "CONDITION"
+        ]
+      }
     ]
   },
   {
@@ -1016,11 +1605,21 @@
       "vigilance"
     ],
     "name": "Dhani Pilgrim",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/055.png",
+    "art": "https://cdn.starwarsunlimited.com//06010055_EN_Dhani_Pilgrim_69154b8875.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Pèlerine Dhani",
+        "art": "https://cdn.starwarsunlimited.com//06010055_FR_Pelerine_Dhani_a4f1e13cc3.png",
+        "traits": [
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -1033,12 +1632,23 @@
       "vigilance"
     ],
     "name": "Escape Pod",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/056.png",
+    "art": "https://cdn.starwarsunlimited.com//06010056_EN_Escape_Pod_1698517558.png",
     "cost": 1,
     "arena": "space",
     "traits": [
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Capsule de Sauvetage",
+        "art": "https://cdn.starwarsunlimited.com//06010056_FR_Capsule_de_Sauvetage_fcb3a6cdf3.png",
+        "traits": [
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -1052,11 +1662,22 @@
     ],
     "name": "Lobot",
     "title": "Cloud City Coordinator",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/057.png",
+    "art": "https://cdn.starwarsunlimited.com//06010057_EN_Lobot_c8a50cd16c.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Lobot",
+        "art": "https://cdn.starwarsunlimited.com//06010057_FR_Lobot_114829a2bd.png",
+        "title": "Coordinateur De La Cité Des Nuages",
+        "traits": [
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -1069,12 +1690,23 @@
       "vigilance"
     ],
     "name": "Lost Jedi",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/058.png",
+    "art": "https://cdn.starwarsunlimited.com//06010058_EN_Lost_Jedi_45a5656787.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Jedi Perdu",
+        "art": "https://cdn.starwarsunlimited.com//06010058_FR_Jedi_Perdu_4e57eb3bd3.png",
+        "traits": [
+          "FORCE",
+          "JEDI"
+        ]
+      }
     ]
   },
   {
@@ -1087,12 +1719,23 @@
       "vigilance"
     ],
     "name": "Senate Warden",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/059.png",
+    "art": "https://cdn.starwarsunlimited.com//06010059_EN_Senate_Warden_515c24b8b5.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Gardien du Sénat",
+        "art": "https://cdn.starwarsunlimited.com//06010059_FR_Gardien_du_Senat_b1eeb92fbd.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -1105,13 +1748,25 @@
       "vigilance"
     ],
     "name": "Defense Fleet X-Wing",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/060.png",
+    "art": "https://cdn.starwarsunlimited.com//06010060_EN_Defense_Fleet_X_Wing_90829eaf7c.png",
     "cost": 3,
     "arena": "space",
     "traits": [
       "NEW REPUBLIC",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "X-Wing de la Flotte de Défense",
+        "art": "https://cdn.starwarsunlimited.com//06010060_FR_X_Wing_de_la_Flotte_de_Defense_e508b194f9.png",
+        "traits": [
+          "NOUVELLE RÉPUBLIQUE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -1125,11 +1780,22 @@
     ],
     "name": "Willrow Hood",
     "title": "On the Run",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/061.png",
+    "art": "https://cdn.starwarsunlimited.com//06010061_EN_Willrow_Hood_b65af8ee62.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Willrow Hood",
+        "art": "https://cdn.starwarsunlimited.com//06010061_FR_Willrow_Hood_30b953cc99.png",
+        "title": "En Fuite",
+        "traits": [
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -1142,13 +1808,25 @@
       "vigilance"
     ],
     "name": "Bardottan Ornithopter",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/062.png",
+    "art": "https://cdn.starwarsunlimited.com//06010062_EN_Bardottan_Ornithopter_c1075b960b.png",
     "cost": 4,
     "arena": "space",
     "traits": [
       "FRINGE",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Ornithoptère Bardottan",
+        "art": "https://cdn.starwarsunlimited.com//06010062_FR_Ornithoptere_Bardottan_dfa7b23366.png",
+        "traits": [
+          "FRANGE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -1161,12 +1839,23 @@
       "vigilance"
     ],
     "name": "Rotunda Senate Guards",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/063.png",
+    "art": "https://cdn.starwarsunlimited.com//06010063_EN_Rotunda_Senate_Guards_1a85319570.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Gardes de la Rotonde du Sénat",
+        "art": "https://cdn.starwarsunlimited.com//06010063_FR_Gardes_de_la_Rotonde_du_Senat_966fd78d34.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -1179,12 +1868,23 @@
       "vigilance"
     ],
     "name": "Congress of Malastare",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/064.png",
+    "art": "https://cdn.starwarsunlimited.com//06010064_EN_Congress_of_Malastare_8d24f99a48.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Congrès de Malastare",
+        "art": "https://cdn.starwarsunlimited.com//06010064_FR_Congres_de_Malastare_fbb112088a.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -1198,11 +1898,22 @@
     ],
     "name": "Nala Se",
     "title": "Chief Medical Scientist",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/065.png",
+    "art": "https://cdn.starwarsunlimited.com//06010065_EN_Nala_Se_4fad7fb47e.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "KAMINOAN"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Nala Se",
+        "art": "https://cdn.starwarsunlimited.com//06010065_FR_Nala_Se_a075f348be.png",
+        "title": "Chef Médical Scientifique",
+        "traits": [
+          "KAMINOEN"
+        ]
+      }
     ]
   },
   {
@@ -1215,12 +1926,23 @@
       "vigilance"
     ],
     "name": "Alderaanian Envoys",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/066.png",
+    "art": "https://cdn.starwarsunlimited.com//06010066_EN_Alderaanian_Envoys_bc5af10e96.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Émissaires Alderaaniens",
+        "art": "https://cdn.starwarsunlimited.com//06010066_FR_Emissaires_Alderaaniens_b16c57b9a1.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -1233,13 +1955,25 @@
       "vigilance"
     ],
     "name": "Umbaran Mobile Cannon",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/067.png",
+    "art": "https://cdn.starwarsunlimited.com//06010067_EN_Umbaran_Mobile_Cannon_6dfe7d4ecf.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "FRINGE",
       "VEHICLE",
       "WALKER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Canon Mobile Umbaran",
+        "art": "https://cdn.starwarsunlimited.com//06010067_FR_Canon_Mobile_Umbaran_10a5d7fa64.png",
+        "traits": [
+          "FRANGE",
+          "VÉHICULE",
+          "MARCHEUR"
+        ]
+      }
     ]
   },
   {
@@ -1253,12 +1987,24 @@
     ],
     "name": "Lando Calrissian",
     "title": "Trust Me",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/068.png",
+    "art": "https://cdn.starwarsunlimited.com//06010068_EN_Lando_Calrissian_7e1d1e1ee7.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
       "FRINGE",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Lando Calrissian",
+        "art": "https://cdn.starwarsunlimited.com//06010068_FR_Lando_Calrissian_8fdccaba67.png",
+        "title": "Fais-Moi Confiance",
+        "traits": [
+          "FRANGE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -1271,10 +2017,20 @@
       "vigilance"
     ],
     "name": "Nimble Prowess",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/069.png",
+    "art": "https://cdn.starwarsunlimited.com//06010069_EN_Nimble_Prowess_20ea9f03ee.png",
     "cost": 1,
     "traits": [
       "INNATE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Prouesse d'Agilité",
+        "art": "https://cdn.starwarsunlimited.com//06010069_FR_Prouesse_d_Agilite_05c6261253.png",
+        "traits": [
+          "INNÉ"
+        ]
+      }
     ]
   },
   {
@@ -1287,11 +2043,22 @@
       "vigilance"
     ],
     "name": "Armor of Fortune",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/070.png",
+    "art": "https://cdn.starwarsunlimited.com//06010070_EN_Armor_of_Fortune_df95dc71a3.png",
     "cost": 2,
     "traits": [
       "ITEM",
       "ARMOR"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Armure de Fortune",
+        "art": "https://cdn.starwarsunlimited.com//06010070_FR_Armure_de_Fortune_ee2b0b972e.png",
+        "traits": [
+          "OBJET",
+          "ARMURE"
+        ]
+      }
     ]
   },
   {
@@ -1304,10 +2071,20 @@
       "vigilance"
     ],
     "name": "Disciples' Devotion",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/071.png",
+    "art": "https://cdn.starwarsunlimited.com//06010071_EN_Disciples_Devotion_fefb5247ff.png",
     "cost": 3,
     "traits": [
       "INNATE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dévotion des Disciples",
+        "art": "https://cdn.starwarsunlimited.com//06010071_FR_Devotion_des_Disciples_00bbd4f6ec.png",
+        "traits": [
+          "INNÉ"
+        ]
+      }
     ]
   },
   {
@@ -1320,10 +2097,20 @@
       "vigilance"
     ],
     "name": "Scour the Archives",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/072.png",
+    "art": "https://cdn.starwarsunlimited.com//06010072_EN_Scour_the_Archives_4c13389093.png",
     "cost": 1,
     "traits": [
       "LEARNED"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Parcourir les Archives",
+        "art": "https://cdn.starwarsunlimited.com//06010072_FR_Parcourir_les_Archives_e748fb5b44.png",
+        "traits": [
+          "ACQUIS"
+        ]
+      }
     ]
   },
   {
@@ -1336,11 +2123,22 @@
       "vigilance"
     ],
     "name": "The Eye of Aldhani",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/073.png",
+    "art": "https://cdn.starwarsunlimited.com//06010073_EN_The_Eye_of_Aldhani_98a8f94ddb.png",
     "cost": 1,
     "traits": [
       "INNATE",
       "TRICK"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "L'Œil d'Aldhani",
+        "art": "https://cdn.starwarsunlimited.com//06010073_FR_L_Oeil_d_Aldhani_e941516448.png",
+        "traits": [
+          "INNÉ",
+          "ASTUCE"
+        ]
+      }
     ]
   },
   {
@@ -1353,10 +2151,20 @@
       "vigilance"
     ],
     "name": "Relief Request",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/074.png",
+    "art": "https://cdn.starwarsunlimited.com//06010074_EN_Relief_Request_42aa5eab38.png",
     "cost": 2,
     "traits": [
       "LAW"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Requête Humanitaire",
+        "art": "https://cdn.starwarsunlimited.com//06010074_FR_Requete_Humanitaire_3909b6e24c.png",
+        "traits": [
+          "LOI"
+        ]
+      }
     ]
   },
   {
@@ -1369,10 +2177,20 @@
       "vigilance"
     ],
     "name": "Knowledge and Defense",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/075.png",
+    "art": "https://cdn.starwarsunlimited.com//06010075_EN_Knowledge_and_Defense_05e4ceea24.png",
     "cost": 3,
     "traits": [
       "LEARNED"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Savoir et Défense",
+        "art": "https://cdn.starwarsunlimited.com//06010075_FR_Savoir_et_Defense_fcfbc01498.png",
+        "traits": [
+          "ACQUIS"
+        ]
+      }
     ]
   },
   {
@@ -1385,10 +2203,20 @@
       "vigilance"
     ],
     "name": "Charged with Murder",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/076.png",
+    "art": "https://cdn.starwarsunlimited.com//06010076_EN_Charged_with_Murder_6ca4daef58.png",
     "cost": 4,
     "traits": [
       "LAW"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Accusée de Meurtre",
+        "art": "https://cdn.starwarsunlimited.com//06010076_FR_Accusee_de_Meurtre_d76252d053.png",
+        "traits": [
+          "LOI"
+        ]
+      }
     ]
   },
   {
@@ -1401,10 +2229,20 @@
       "vigilance"
     ],
     "name": "Retaliation",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/077.png",
+    "art": "https://cdn.starwarsunlimited.com//06010077_EN_Retaliation_24619eb70e.png",
     "cost": 5,
     "traits": [
       "TACTIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Représailles",
+        "art": "https://cdn.starwarsunlimited.com//06010077_FR_Represailles_a940904aac.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
     ]
   },
   {
@@ -1417,10 +2255,20 @@
       "vigilance"
     ],
     "name": "Hyperspace Disaster",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/078.png",
+    "art": "https://cdn.starwarsunlimited.com//06010078_EN_Hyperspace_Disaster_dfd5df1749.png",
     "cost": 7,
     "traits": [
       "DISASTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Désastre Hyperspatial",
+        "art": "https://cdn.starwarsunlimited.com//06010078_FR_Desastre_Hyperspatial_841c4ade53.png",
+        "traits": [
+          "DÉSASTRE"
+        ]
+      }
     ]
   },
   {
@@ -1434,12 +2282,23 @@
       "villainy"
     ],
     "name": "Corrupt Politician",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/079.png",
+    "art": "https://cdn.starwarsunlimited.com//06010079_EN_Corrupt_Politician_f3e5ff8f44.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Politicien Corrompu",
+        "art": "https://cdn.starwarsunlimited.com//06010079_FR_Politicien_Corrompu_588b175f2c.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -1453,13 +2312,25 @@
       "villainy"
     ],
     "name": "Imperial Dark Trooper",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/080.png",
+    "art": "https://cdn.starwarsunlimited.com//06010080_EN_Imperial_Dark_Trooper_de4f5d0781.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "DROID",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dark Trooper Impérial",
+        "art": "https://cdn.starwarsunlimited.com//06010080_FR_Dark_Trooper_Imperial_5215641236.png",
+        "traits": [
+          "IMPÉRIAL",
+          "DROÏDE",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -1474,12 +2345,24 @@
     ],
     "name": "Major Partagaz",
     "title": "Healthcare Provider",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/081.png",
+    "art": "https://cdn.starwarsunlimited.com//06010081_EN_Major_Partagaz_1c17181e82.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Major Partagaz",
+        "art": "https://cdn.starwarsunlimited.com//06010081_FR_Major_Partagaz_bac4ecb4f3.png",
+        "title": "Professionnel De Santé",
+        "traits": [
+          "IMPÉRIAL",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -1494,12 +2377,24 @@
     ],
     "name": "Chancellor Palpatine",
     "title": "I Am the Senate",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/082.png",
+    "art": "https://cdn.starwarsunlimited.com//06010082_EN_Chancellor_Palpatine_78bb91b75c.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chancelier Palpatine",
+        "art": "https://cdn.starwarsunlimited.com//06010082_FR_Chancelier_Palpatine_a49de21faf.png",
+        "title": "Le Sénat C'Est Moi",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -1513,13 +2408,25 @@
       "villainy"
     ],
     "name": "ISB Shuttle",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/083.png",
+    "art": "https://cdn.starwarsunlimited.com//06010083_EN_ISB_Shuttle_3803a81f62.png",
     "cost": 3,
     "arena": "space",
     "traits": [
       "IMPERIAL",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Navette du BSI",
+        "art": "https://cdn.starwarsunlimited.com//06010083_FR_Navette_du_BSI_6771de45e2.png",
+        "traits": [
+          "IMPÉRIAL",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -1534,12 +2441,24 @@
     ],
     "name": "Mas Amedda",
     "title": "Accomplice to Power",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/084.png",
+    "art": "https://cdn.starwarsunlimited.com//06010084_EN_Mas_Amedda_afaa3942e1.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Mas Amedda",
+        "art": "https://cdn.starwarsunlimited.com//06010084_FR_Mas_Amedda_56e963b267.png",
+        "title": "Complice Du Pouvoir",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -1554,12 +2473,24 @@
     ],
     "name": "Vice Admiral Rampart",
     "title": "On Schedule",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/085.png",
+    "art": "https://cdn.starwarsunlimited.com//06010085_EN_Vice_Admiral_Rampart_9c40ebf296.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vice-Amiral Rampart",
+        "art": "https://cdn.starwarsunlimited.com//06010085_FR_Vice_Amiral_Rampart_3c292d85ae.png",
+        "title": "Dans Les Temps",
+        "traits": [
+          "IMPÉRIAL",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -1573,13 +2504,25 @@
       "villainy"
     ],
     "name": "Cruel Commandos",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/086.png",
+    "art": "https://cdn.starwarsunlimited.com//06010086_EN_Cruel_Commandos_fb157e5aaf.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "CLONE",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Commandos Cruels",
+        "art": "https://cdn.starwarsunlimited.com//06010086_FR_Commandos_Cruels_0ff9402976.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "CLONE",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -1594,12 +2537,24 @@
     ],
     "name": "Dedra Meero",
     "title": "With Verifiable Data",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/087.png",
+    "art": "https://cdn.starwarsunlimited.com//06010087_EN_Dedra_Meero_45dd64e532.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dedra Meero",
+        "art": "https://cdn.starwarsunlimited.com//06010087_FR_Dedra_Meero_14f5e5a102.png",
+        "title": "Avec Des Données Vérifiables",
+        "traits": [
+          "IMPÉRIAL",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -1614,13 +2569,26 @@
     ],
     "name": "First Light",
     "title": "Threatening Elegance",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/088.png",
+    "art": "https://cdn.starwarsunlimited.com//06010088_EN_First_Light_38f56ccb61.png",
     "cost": 7,
     "arena": "space",
     "traits": [
       "UNDERWORLD",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "First Light",
+        "art": "https://cdn.starwarsunlimited.com//06010088_FR_First_Light_fe9c596571.png",
+        "title": "Menace Élégante",
+        "traits": [
+          "PÈGRE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -1634,12 +2602,23 @@
       "villainy"
     ],
     "name": "PreMor Personnel Carrier",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/089.png",
+    "art": "https://cdn.starwarsunlimited.com//06010089_EN_Pre_Mor_Personnel_Carrier_5757174595.png",
     "cost": 8,
     "arena": "space",
     "traits": [
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Transport de Troupes de PreMor",
+        "art": "https://cdn.starwarsunlimited.com//06010089_FR_Transport_de_Troupes_de_Pre_Mor_4fb7f53888.png",
+        "traits": [
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -1654,12 +2633,24 @@
     ],
     "name": "Director Krennic",
     "title": "I Lose Nothing But Time",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/090.png",
+    "art": "https://cdn.starwarsunlimited.com//06010090_EN_Director_Krennic_938687c941.png",
     "cost": 9,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Directeur Krennic",
+        "art": "https://cdn.starwarsunlimited.com//06010090_FR_Directeur_Krennic_460592421d.png",
+        "title": "Vous M'Aurez Seulement Fait Perdre Du Temps",
+        "traits": [
+          "IMPÉRIAL",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -1673,10 +2664,20 @@
       "villainy"
     ],
     "name": "Corporate Warmongering",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/091.png",
+    "art": "https://cdn.starwarsunlimited.com//06010091_EN_Corporate_Warmongering_0eec013733.png",
     "cost": 4,
     "traits": [
       "PLAN"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Militarisme Corporatiste",
+        "art": "https://cdn.starwarsunlimited.com//06010091_FR_Militarisme_Corporatiste_0fcae39636.png",
+        "traits": [
+          "PLAN"
+        ]
+      }
     ]
   },
   {
@@ -1690,10 +2691,20 @@
       "villainy"
     ],
     "name": "I Am the Senate",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/092.png",
+    "art": "https://cdn.starwarsunlimited.com//06010092_EN_I_Am_the_Senate_5545070cfb.png",
     "cost": 6,
     "traits": [
       "LAW"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Le Sénat c'Est Moi",
+        "art": "https://cdn.starwarsunlimited.com//06010092_FR_Le_Senat_c_Est_Moi_cf413b0612.png",
+        "traits": [
+          "LOI"
+        ]
+      }
     ]
   },
   {
@@ -1708,12 +2719,24 @@
     ],
     "name": "C-3P0",
     "title": "Anything I Might Do?",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/093.png",
+    "art": "https://cdn.starwarsunlimited.com//06010093_EN_C_3_PO_6d0307fec2.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "DROID"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "C-3PO",
+        "art": "https://cdn.starwarsunlimited.com//06010093_FR_C_3_PO_ba009dab6f.png",
+        "title": "Puis-Je Faire Quelque Chose ?",
+        "traits": [
+          "RÉPUBLIQUE",
+          "DROÏDE"
+        ]
+      }
     ]
   },
   {
@@ -1728,12 +2751,24 @@
     ],
     "name": "Mina Bonteri",
     "title": "Stop This War",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/094.png",
+    "art": "https://cdn.starwarsunlimited.com//06010094_EN_Mina_Bonteri_21445a4749.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "SEPARATIST",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Mina Bonteri",
+        "art": "https://cdn.starwarsunlimited.com//06010094_FR_Mina_Bonteri_5f850e2abb.png",
+        "title": "Arrêtez Cette Guerre !",
+        "traits": [
+          "SÉPARATISTE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -1747,12 +2782,23 @@
       "heroism"
     ],
     "name": "Theed Security",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/095.png",
+    "art": "https://cdn.starwarsunlimited.com//06010095_EN_Theed_Security_ec8ebbd6b8.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "NABOO",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sécurité de Theed",
+        "art": "https://cdn.starwarsunlimited.com//06010095_FR_Securite_de_Theed_fdb753bbf5.png",
+        "traits": [
+          "NABOO",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -1767,13 +2813,26 @@
     ],
     "name": "Ahsoka Tano",
     "title": "I Learned it From You",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/096.png",
+    "art": "https://cdn.starwarsunlimited.com//06010096_EN_Ahsoka_Tano_47f312976a.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Ahsoka Tano",
+        "art": "https://cdn.starwarsunlimited.com//06010096_FR_Ahsoka_Tano_9e6a3f6c29.png",
+        "title": "Je L'Ai Appris De Toi",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -1787,12 +2846,23 @@
       "heroism"
     ],
     "name": "Beloved Orator",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/097.png",
+    "art": "https://cdn.starwarsunlimited.com//06010097_EN_Beloved_Orator_96a1e88cc3.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "NEW REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Orateur Bien-Aimé",
+        "art": "https://cdn.starwarsunlimited.com//06010097_FR_Orateur_Bien_Aime_9f0933cb05.png",
+        "traits": [
+          "NOUVELLE RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -1807,13 +2877,26 @@
     ],
     "name": "Captain Typho",
     "title": "All Necessary Precautions",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/098.png",
+    "art": "https://cdn.starwarsunlimited.com//06010098_EN_Captain_Typho_fc1f0d15ea.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "NABOO",
       "REPUBLIC",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Capitaine Typho",
+        "art": "https://cdn.starwarsunlimited.com//06010098_FR_Capitaine_Typho_d62ae27c0e.png",
+        "title": "Toutes Les Précautions Nécessaires",
+        "traits": [
+          "NABOO",
+          "RÉPUBLIQUE",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -1828,13 +2911,26 @@
     ],
     "name": "Naboo Royal Starship",
     "title": "Fit For A Queen",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/099.png",
+    "art": "https://cdn.starwarsunlimited.com//06010099_EN_Naboo_Royal_Starship_f07e00b5e3.png",
     "cost": 4,
     "arena": "space",
     "traits": [
       "NABOO",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Nef Royale Naboo",
+        "art": "https://cdn.starwarsunlimited.com//06010099_FR_Nef_Royale_Naboo_e78b241e6f.png",
+        "title": "Aménagée Pour Une Reine",
+        "traits": [
+          "NABOO",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -1848,12 +2944,23 @@
       "heroism"
     ],
     "name": "Dressellian Commandos",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/100.png",
+    "art": "https://cdn.starwarsunlimited.com//06010100_EN_Dressellian_Commandos_11581b6f84.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "REBEL",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Commandos Dresselliens",
+        "art": "https://cdn.starwarsunlimited.com//06010100_FR_Commandos_Dresselliens_9b271b6154.png",
+        "traits": [
+          "REBELLE",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -1868,12 +2975,24 @@
     ],
     "name": "Queen Amidala",
     "title": "Championing Her People",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/101.png",
+    "art": "https://cdn.starwarsunlimited.com//06010101_EN_Queen_Amidala_2750936c4b.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "NABOO",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Reine Amidala",
+        "art": "https://cdn.starwarsunlimited.com//06010101_FR_Reine_Amidala_700a95d9a9.png",
+        "title": "Défend Son Peuple",
+        "traits": [
+          "NABOO",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -1887,12 +3006,23 @@
       "heroism"
     ],
     "name": "Renowned Dignitaries",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/102.png",
+    "art": "https://cdn.starwarsunlimited.com//06010102_EN_Renowned_Dignitaries_24331323bd.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "NEW REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dignitaires Renommés",
+        "art": "https://cdn.starwarsunlimited.com//06010102_FR_Dignitaires_Renommes_8781c95d66.png",
+        "traits": [
+          "NOUVELLE RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -1907,12 +3037,24 @@
     ],
     "name": "Mon Mothma",
     "title": "Clinging to Hope",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/103.png",
+    "art": "https://cdn.starwarsunlimited.com//06010103_EN_Mon_Mothma_2ec0020704.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
       "REBEL",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Mon Mothma",
+        "art": "https://cdn.starwarsunlimited.com//06010103_FR_Mon_Mothma_837c8b7cb4.png",
+        "title": "S'Accroche À L'Espoir",
+        "traits": [
+          "REBELLE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -1926,10 +3068,20 @@
       "heroism"
     ],
     "name": "Figure of Unity",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/104.png",
+    "art": "https://cdn.starwarsunlimited.com//06010104_EN_Figure_of_Unity_60c34df264.png",
     "cost": 3,
     "traits": [
       "INNATE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Symbole d'Unité",
+        "art": "https://cdn.starwarsunlimited.com//06010104_FR_Symbole_d_Unite_a86f23e517.png",
+        "traits": [
+          "INNÉ"
+        ]
+      }
     ]
   },
   {
@@ -1943,10 +3095,20 @@
       "heroism"
     ],
     "name": "Renewed Friendship",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/105.png",
+    "art": "https://cdn.starwarsunlimited.com//06010105_EN_Renewed_Friendship_e0070a3138.png",
     "cost": 4,
     "traits": [
       "INNATE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Amitié Renouvelée",
+        "art": "https://cdn.starwarsunlimited.com//06010105_FR_Amitie_Renouvelee_eb780977ce.png",
+        "traits": [
+          "INNÉ"
+        ]
+      }
     ]
   },
   {
@@ -1960,10 +3122,20 @@
       "heroism"
     ],
     "name": "Dismantle the Conspiracy",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/106.png",
+    "art": "https://cdn.starwarsunlimited.com//06010106_EN_Dismantle_the_Conspiracy_8178690cfd.png",
     "cost": 6,
     "traits": [
       "TACTIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Démanteler la Conspiration",
+        "art": "https://cdn.starwarsunlimited.com//06010106_FR_Demanteler_la_Conspiration_d80c1c52c0.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
     ]
   },
   {
@@ -1978,12 +3150,24 @@
     ],
     "name": "Chancellor Valorum",
     "title": "Civil Servant",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/107.png",
+    "art": "https://cdn.starwarsunlimited.com//06010107_EN_Chancellor_Valorum_474e31b6f8.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chancelier Valorum",
+        "art": "https://cdn.starwarsunlimited.com//06010107_FR_Chancelier_Valorum_4e419a0d55.png",
+        "title": "Fonctionnaire",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -1996,12 +3180,23 @@
       "command"
     ],
     "name": "Senator's Aide",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/108.png",
+    "art": "https://cdn.starwarsunlimited.com//06010108_EN_Senator_s_Aide_fbeffda4ed.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Assistante Sénatoriale",
+        "art": "https://cdn.starwarsunlimited.com//06010108_FR_Assistante_Senatoriale_6f4083933c.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -2014,13 +3209,25 @@
       "command"
     ],
     "name": "Diplomatic Envoy",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/109.png",
+    "art": "https://cdn.starwarsunlimited.com//06010109_EN_Diplomatic_Envoy_2dddbe2dce.png",
     "cost": 2,
     "arena": "space",
     "traits": [
       "REPUBLIC",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Envoyé Diplomatique",
+        "art": "https://cdn.starwarsunlimited.com//06010109_FR_Envoye_Diplomatique_75b791820f.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -2033,11 +3240,21 @@
       "command"
     ],
     "name": "GNK Power Droid",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/110.png",
+    "art": "https://cdn.starwarsunlimited.com//06010110_EN_GNK_Power_Droid_b711d38a86.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "DROID"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Droïde d'Alimentation GNK",
+        "art": "https://cdn.starwarsunlimited.com//06010110_FR_Droide_d_Alimentation_GNK_d79c901bb0.png",
+        "traits": [
+          "DROÏDE"
+        ]
+      }
     ]
   },
   {
@@ -2051,7 +3268,7 @@
     ],
     "name": "Jar Jar Binks",
     "title": "Mesa Propose",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/111.png",
+    "art": "https://cdn.starwarsunlimited.com//06010111_EN_Jar_Jar_Binks_1c64d7e9ce.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
@@ -2059,6 +3276,20 @@
       "REPUBLIC",
       "GUNGAN",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Jar Jar Binks",
+        "art": "https://cdn.starwarsunlimited.com//06010111_FR_Jar_Jar_Binks_82463e787d.png",
+        "title": "Missa Propose…",
+        "traits": [
+          "NABOO",
+          "RÉPUBLIQUE",
+          "GUNGAN",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -2072,13 +3303,26 @@
     ],
     "name": "Orn Free Taa",
     "title": "Political Power Broker",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/112.png",
+    "art": "https://cdn.starwarsunlimited.com//06010112_EN_Orn_Free_Taa_67cb3f699b.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "TWI'LEK",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Orn Free Taa",
+        "art": "https://cdn.starwarsunlimited.com//06010112_FR_Orn_Free_Taa_79420d8ee6.png",
+        "title": "Courtier En Pouvoir Politique",
+        "traits": [
+          "RÉPUBLIQUE",
+          "TWI'LEK",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -2091,13 +3335,25 @@
       "command"
     ],
     "name": "Daro Commando",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/113.png",
+    "art": "https://cdn.starwarsunlimited.com//06010113_EN_Daro_Commando_6453c96919.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "CLONE",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Commando de Daro",
+        "art": "https://cdn.starwarsunlimited.com//06010113_FR_Commando_de_Daro_6fd698ab46.png",
+        "traits": [
+          "IMPÉRIAL",
+          "CLONE",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -2111,11 +3367,22 @@
     ],
     "name": "Kino Loy",
     "title": "You Answer to Me",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/114.png",
+    "art": "https://cdn.starwarsunlimited.com//06010114_EN_Kino_Loy_003fe4e89c.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Kino Loy",
+        "art": "https://cdn.starwarsunlimited.com//06010114_FR_Kino_Loy_28f7036608.png",
+        "title": "Tu Auras À Faire À Moi",
+        "traits": [
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -2128,13 +3395,25 @@
       "command"
     ],
     "name": "Taylander Shuttle",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/115.png",
+    "art": "https://cdn.starwarsunlimited.com//06010115_EN_Taylander_Shuttle_ffae3aaee4.png",
     "cost": 3,
     "arena": "space",
     "traits": [
       "FRINGE",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Navette Taylander",
+        "art": "https://cdn.starwarsunlimited.com//06010115_FR_Navette_Taylander_7e503a0f5f.png",
+        "traits": [
+          "FRANGE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -2147,13 +3426,25 @@
       "command"
     ],
     "name": "Nubian Star Skiff",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/116.png",
+    "art": "https://cdn.starwarsunlimited.com//06010116_EN_Nubian_Star_Skiff_961dc6c1df.png",
     "cost": 4,
     "arena": "space",
     "traits": [
       "NABOO",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Esquif Stellaire Nubienne",
+        "art": "https://cdn.starwarsunlimited.com//06010116_FR_Esquif_Stellaire_Nubienne_42cd499e1b.png",
+        "traits": [
+          "NABOO",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -2166,13 +3457,25 @@
       "command"
     ],
     "name": "Consular's Cruiser",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/117.png",
+    "art": "https://cdn.starwarsunlimited.com//06010117_EN_Consular_s_Cruiser_5e2c28408c.png",
     "cost": 5,
     "arena": "space",
     "traits": [
       "REPUBLIC",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Croiseur Consulaire",
+        "art": "https://cdn.starwarsunlimited.com//06010117_FR_Croiseur_Consulaire_33780e6951.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -2185,12 +3488,23 @@
       "command"
     ],
     "name": "Raxian Assembly",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/118.png",
+    "art": "https://cdn.starwarsunlimited.com//06010118_EN_Raxian_Assembly_f7b56a1542.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "SEPARATIST",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Assemblée Raxienne",
+        "art": "https://cdn.starwarsunlimited.com//06010118_FR_Assemblee_Raxienne_af011792cc.png",
+        "traits": [
+          "SÉPARATISTE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -2204,13 +3518,26 @@
     ],
     "name": "Crucible",
     "title": "Centuries of Wisdom",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/119.png",
+    "art": "https://cdn.starwarsunlimited.com//06010119_EN_Crucible_45a015957c.png",
     "cost": 6,
     "arena": "space",
     "traits": [
       "JEDI",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Crucible",
+        "art": "https://cdn.starwarsunlimited.com//06010119_FR_Crucible_40dc201327.png",
+        "title": "Des Siècles De Sagesse",
+        "traits": [
+          "JEDI",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -2223,12 +3550,23 @@
       "command"
     ],
     "name": "Naboo Security Force",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/120.png",
+    "art": "https://cdn.starwarsunlimited.com//06010120_EN_Naboo_Security_Force_bdb467d9e2.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "NABOO",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Force de Sécurité Naboo",
+        "art": "https://cdn.starwarsunlimited.com//06010120_FR_Force_de_Securite_Naboo_786b881f18.png",
+        "traits": [
+          "NABOO",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -2241,13 +3579,25 @@
       "command"
     ],
     "name": "Shadow Crawler",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/121.png",
+    "art": "https://cdn.starwarsunlimited.com//06010121_EN_Shadow_Crawler_50a9bdb97d.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
       "FRINGE",
       "VEHICLE",
       "WALKER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Rampeur des Ombres",
+        "art": "https://cdn.starwarsunlimited.com//06010121_FR_Rampeur_des_Ombres_0cffe3e0f2.png",
+        "traits": [
+          "FRANGE",
+          "VÉHICULE",
+          "MARCHEUR"
+        ]
+      }
     ]
   },
   {
@@ -2261,13 +3611,26 @@
     ],
     "name": "Vuutun Palaa",
     "title": "Droid Control Ship",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/122.png",
+    "art": "https://cdn.starwarsunlimited.com//06010122_EN_Vuutun_Palaa_f3dd10300c.png",
     "cost": 9,
     "arena": "space",
     "traits": [
       "SEPARATIST",
       "VEHICLE",
       "CAPITAL SHIP"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vuutun Palaa",
+        "art": "https://cdn.starwarsunlimited.com//06010122_FR_Vuutun_Palaa_4febf153ce.png",
+        "title": "Vaisseau De Contrôle Droïde",
+        "traits": [
+          "SÉPARATISTE",
+          "VÉHICULE",
+          "VAISSEAU CAPITAL"
+        ]
+      }
     ]
   },
   {
@@ -2280,10 +3643,20 @@
       "command"
     ],
     "name": "Unveiled Might",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/123.png",
+    "art": "https://cdn.starwarsunlimited.com//06010123_EN_Unveiled_Might_331f8c3125.png",
     "cost": 4,
     "traits": [
       "INNATE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Montrer sa Puissance",
+        "art": "https://cdn.starwarsunlimited.com//06010123_FR_Montrer_sa_Puissance_3377be2f18.png",
+        "traits": [
+          "INNÉ"
+        ]
+      }
     ]
   },
   {
@@ -2296,10 +3669,20 @@
       "command"
     ],
     "name": "Budget Scheming",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/124.png",
+    "art": "https://cdn.starwarsunlimited.com//06010124_EN_Budget_Scheming_d75721d52c.png",
     "cost": 2,
     "traits": [
       "LAW"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Magouille Budgétaire",
+        "art": "https://cdn.starwarsunlimited.com//06010124_FR_Magouille_Budgetaire_48abd52adc.png",
+        "traits": [
+          "LOI"
+        ]
+      }
     ]
   },
   {
@@ -2312,10 +3695,20 @@
       "command"
     ],
     "name": "Reconnaissance",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/125.png",
+    "art": "https://cdn.starwarsunlimited.com//06010125_EN_Reconnaissance_d310fe36ac.png",
     "cost": 2,
     "traits": [
       "PLAN"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Reconnaissance",
+        "art": "https://cdn.starwarsunlimited.com//06010125_FR_Reconnaissance_d686886169.png",
+        "traits": [
+          "PLAN"
+        ]
+      }
     ]
   },
   {
@@ -2328,10 +3721,20 @@
       "command"
     ],
     "name": "Trade Route Taxation",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/126.png",
+    "art": "https://cdn.starwarsunlimited.com//06010126_EN_Trade_Route_Taxation_f449983f2a.png",
     "cost": 2,
     "traits": [
       "LAW"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Taxation des Routes Commerciales",
+        "art": "https://cdn.starwarsunlimited.com//06010126_FR_Taxation_des_Routes_Commerciales_2384e5c666.png",
+        "traits": [
+          "LOI"
+        ]
+      }
     ]
   },
   {
@@ -2344,10 +3747,20 @@
       "command"
     ],
     "name": "Charged with Corruption",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/127.png",
+    "art": "https://cdn.starwarsunlimited.com//06010127_EN_Charged_with_Corruption_3cc7f1a9d6.png",
     "cost": 3,
     "traits": [
       "LAW"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Accusé de Corruption",
+        "art": "https://cdn.starwarsunlimited.com//06010127_FR_Accuse_de_Corruption_590eb45395.png",
+        "traits": [
+          "LOI"
+        ]
+      }
     ]
   },
   {
@@ -2360,10 +3773,20 @@
       "command"
     ],
     "name": "Convene the Senate",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/128.png",
+    "art": "https://cdn.starwarsunlimited.com//06010128_EN_Convene_the_Senate_0dd20175e6.png",
     "cost": 3,
     "traits": [
       "LAW"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Convoquer le Sénat",
+        "art": "https://cdn.starwarsunlimited.com//06010128_FR_Convoquer_le_Senat_cf2947dd95.png",
+        "traits": [
+          "LOI"
+        ]
+      }
     ]
   },
   {
@@ -2376,10 +3799,20 @@
       "command"
     ],
     "name": "With Thunderous Applause",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/129.png",
+    "art": "https://cdn.starwarsunlimited.com//06010129_EN_With_Thunderous_Applause_aac44710c5.png",
     "cost": 3,
     "traits": [
       "PLAN"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sous une Pluie d'Applaudissements",
+        "art": "https://cdn.starwarsunlimited.com//06010129_FR_Sous_une_Pluie_d_Applaudissements_ad6e140ccf.png",
+        "traits": [
+          "PLAN"
+        ]
+      }
     ]
   },
   {
@@ -2392,10 +3825,20 @@
       "command"
     ],
     "name": "Ferrix Uprising",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/130.png",
+    "art": "https://cdn.starwarsunlimited.com//06010130_EN_Ferrix_Uprising_e6e7e70f99.png",
     "cost": 4,
     "traits": [
       "TACTIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Soulèvement de Ferrix",
+        "art": "https://cdn.starwarsunlimited.com//06010130_FR_Soulevement_de_Ferrix_3a2e78f000.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
     ]
   },
   {
@@ -2408,10 +3851,20 @@
       "command"
     ],
     "name": "Let's Talk",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/131.png",
+    "art": "https://cdn.starwarsunlimited.com//06010131_EN_Let_s_Talk_1c3539cf57.png",
     "cost": 9,
     "traits": [
       "TRICK"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Parlons-En",
+        "art": "https://cdn.starwarsunlimited.com//06010131_FR_Parlons_En_14e5803913.png",
+        "traits": [
+          "ASTUCE"
+        ]
+      }
     ]
   },
   {
@@ -2425,12 +3878,23 @@
       "villainy"
     ],
     "name": "Imperial Occupier",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/132.png",
+    "art": "https://cdn.starwarsunlimited.com//06010132_EN_Imperial_Occupier_e658a446bf.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Occupant Impérial",
+        "art": "https://cdn.starwarsunlimited.com//06010132_FR_Occupant_Imperial_10cde0afd4.png",
+        "traits": [
+          "IMPÉRIAL",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -2445,11 +3909,22 @@
     ],
     "name": "Syril Karn",
     "title": "Where is He?",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/133.png",
+    "art": "https://cdn.starwarsunlimited.com//06010133_EN_Syril_Karn_b50ff0f727.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Syril Karn",
+        "art": "https://cdn.starwarsunlimited.com//06010133_FR_Syril_Karn_4483e41daf.png",
+        "title": "Où Est-Il ?",
+        "traits": [
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -2463,13 +3938,25 @@
       "villainy"
     ],
     "name": "Hunting Assassin Droid",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/134.png",
+    "art": "https://cdn.starwarsunlimited.com//06010134_EN_Hunting_Assassin_Droid_d220104c04.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "UNDERWORLD",
       "DROID",
       "BOUNTY HUNTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Droïde Assassin en Chasse",
+        "art": "https://cdn.starwarsunlimited.com//06010134_FR_Droide_Assassin_en_Chasse_88e48cad3f.png",
+        "traits": [
+          "PÈGRE",
+          "DROÏDE",
+          "CHASSEUR DE PRIMES"
+        ]
+      }
     ]
   },
   {
@@ -2483,12 +3970,23 @@
       "villainy"
     ],
     "name": "Muckraker Crab Droid",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/135.png",
+    "art": "https://cdn.starwarsunlimited.com//06010135_EN_Muckraker_Crab_Droid_2f80196226.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "SEPARATIST",
       "DROID"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Droïde Crabe Muckraker",
+        "art": "https://cdn.starwarsunlimited.com//06010135_FR_Droide_Crabe_Muckraker_ef7e744d12.png",
+        "traits": [
+          "SÉPARATISTE",
+          "DROÏDE"
+        ]
+      }
     ]
   },
   {
@@ -2503,11 +4001,22 @@
     ],
     "name": "Arihnda Pryce",
     "title": "On the Road to Power",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/136.png",
+    "art": "https://cdn.starwarsunlimited.com//06010136_EN_Arihnda_Pryce_275f19c4a5.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "IMPERIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Arihnda Pryce",
+        "art": "https://cdn.starwarsunlimited.com//06010136_FR_Arihnda_Pryce_fddf48f54f.png",
+        "title": "Sur La Route Du Pouvoir",
+        "traits": [
+          "IMPÉRIAL"
+        ]
+      }
     ]
   },
   {
@@ -2522,11 +4031,22 @@
     ],
     "name": "Dryden Vos",
     "title": "I Get All Worked Up",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/137.png",
+    "art": "https://cdn.starwarsunlimited.com//06010137_EN_Dryden_Vos_2ca289884c.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "UNDERWORLD"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dryden Vos",
+        "art": "https://cdn.starwarsunlimited.com//06010137_FR_Dryden_Vos_6a693fd105.png",
+        "title": "Je M'Emporte Facilement",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
     ]
   },
   {
@@ -2540,13 +4060,25 @@
       "villainy"
     ],
     "name": "Enforcer Squadron",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/138.png",
+    "art": "https://cdn.starwarsunlimited.com//06010138_EN_Enforcer_Squadron_30025a3bf2.png",
     "cost": 4,
     "arena": "space",
     "traits": [
       "REPUBLIC",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Escadron d'Exécuteurs",
+        "art": "https://cdn.starwarsunlimited.com//06010138_FR_Escadron_d_Executeurs_ce4a20c3f9.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -2561,12 +4093,24 @@
     ],
     "name": "Miraj Scintel",
     "title": "The Weak Deserve to Kneel",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/139.png",
+    "art": "https://cdn.starwarsunlimited.com//06010139_EN_Miraj_Scintel_a4603bf9a6.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "SEPARATIST",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Miraj Scintel",
+        "art": "https://cdn.starwarsunlimited.com//06010139_FR_Miraj_Scintel_8993c479d4.png",
+        "title": "Les Faibles Devraient S'Agenouiller",
+        "traits": [
+          "SÉPARATISTE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -2581,11 +4125,22 @@
     ],
     "name": "Hondo Ohnaka",
     "title": "You Better Hurry",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/140.png",
+    "art": "https://cdn.starwarsunlimited.com//06010140_EN_Hondo_Ohnaka_1a9b471d60.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "UNDERWORLD"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Hondo Ohnaka",
+        "art": "https://cdn.starwarsunlimited.com//06010140_FR_Hondo_Ohnaka_82674c09c6.png",
+        "title": "Tu Ferais Mieux De Te Grouiller",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
     ]
   },
   {
@@ -2600,13 +4155,26 @@
     ],
     "name": "The Galleon",
     "title": "Marauding Pirate Ship",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/141.png",
+    "art": "https://cdn.starwarsunlimited.com//06010141_EN_The_Galleon_ce720397c7.png",
     "cost": 7,
     "arena": "space",
     "traits": [
       "UNDERWORLD",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Le Galleon",
+        "art": "https://cdn.starwarsunlimited.com//06010141_FR_Le_Galleon_3252c1b4b0.png",
+        "title": "Vaisseau Pirate En Maraude",
+        "traits": [
+          "PÈGRE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -2621,13 +4189,26 @@
     ],
     "name": "Fulminatrix",
     "title": "Fleet Killer",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/142.png",
+    "art": "https://cdn.starwarsunlimited.com//06010142_EN_Fulminatrix_a8364fe544.png",
     "cost": 8,
     "arena": "space",
     "traits": [
       "FIRST ORDER",
       "VEHICLE",
       "CAPITAL SHIP"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Fulminatrix",
+        "art": "https://cdn.starwarsunlimited.com//06010142_FR_Fulminatrix_84e03f51fe.png",
+        "title": "Tueur De Flotte",
+        "traits": [
+          "PREMIER ORDRE",
+          "VÉHICULE",
+          "VAISSEAU CAPITAL"
+        ]
+      }
     ]
   },
   {
@@ -2642,12 +4223,24 @@
     ],
     "name": "The Elite Squad",
     "title": "Neutralizing Insurgents",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/143.png",
+    "art": "https://cdn.starwarsunlimited.com//06010143_EN_The_Elite_Squad_e550b3aa7c.png",
     "cost": 8,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "L'Escouade d'Élite",
+        "art": "https://cdn.starwarsunlimited.com//06010143_FR_L_Escouade_d_Elite_d4708afc30.png",
+        "title": "Neutralise Les Insurgés",
+        "traits": [
+          "IMPÉRIAL",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -2661,10 +4254,20 @@
       "villainy"
     ],
     "name": "Tempest Assault",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/144.png",
+    "art": "https://cdn.starwarsunlimited.com//06010144_EN_Tempest_Assault_08f15917cf.png",
     "cost": 4,
     "traits": [
       "TACTIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Assaut Tempêtueux",
+        "art": "https://cdn.starwarsunlimited.com//06010144_FR_Assaut_Tempetueux_4d014ecae9.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
     ]
   },
   {
@@ -2678,10 +4281,20 @@
       "villainy"
     ],
     "name": "Confidence in Victory",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/145.png",
+    "art": "https://cdn.starwarsunlimited.com//06010145_EN_Confidence_in_Victory_9f44fc3312.png",
     "cost": 10,
     "traits": [
       "GAMBIT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Confiant en la Victoire",
+        "art": "https://cdn.starwarsunlimited.com//06010145_FR_Confiant_en_la_Victoire_e39b140382.png",
+        "traits": [
+          "GAMBIT"
+        ]
+      }
     ]
   },
   {
@@ -2695,12 +4308,23 @@
       "heroism"
     ],
     "name": "Rebellious Functionary",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/146.png",
+    "art": "https://cdn.starwarsunlimited.com//06010146_EN_Rebellious_Functionary_bd8495a80d.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "REBEL",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Fonctionnaire Rebelle",
+        "art": "https://cdn.starwarsunlimited.com//06010146_FR_Fonctionnaire_Rebelle_a9e4357f70.png",
+        "traits": [
+          "REBELLE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -2715,13 +4339,26 @@
     ],
     "name": "Chopper",
     "title": "War Hero",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/147.png",
+    "art": "https://cdn.starwarsunlimited.com//06010147_EN_Chopper_bc5f7039c1.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "REBEL",
       "DROID",
       "SPECTRE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chopper",
+        "art": "https://cdn.starwarsunlimited.com//06010147_FR_Chopper_38e7d23c12.png",
+        "title": "Héros De Guerre",
+        "traits": [
+          "REBELLE",
+          "DROÏDE",
+          "SPECTRE"
+        ]
+      }
     ]
   },
   {
@@ -2736,11 +4373,22 @@
     ],
     "name": "Karis Nemik",
     "title": "Freedom is a Pure Idea",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/148.png",
+    "art": "https://cdn.starwarsunlimited.com//06010148_EN_Karis_Nemik_9559a05022.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "REBEL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Karis Nemik",
+        "art": "https://cdn.starwarsunlimited.com//06010148_FR_Karis_Nemik_9a7337e5c9.png",
+        "title": "La Liberté Est Une Idée Pure",
+        "traits": [
+          "REBELLE"
+        ]
+      }
     ]
   },
   {
@@ -2755,11 +4403,22 @@
     ],
     "name": "Kaydel Connix",
     "title": "For Our Survival",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/149.png",
+    "art": "https://cdn.starwarsunlimited.com//06010149_EN_Kaydel_Connix_d711100801.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "RESISTANCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Kaydel Connix",
+        "art": "https://cdn.starwarsunlimited.com//06010149_FR_Kaydel_Connix_d4d76db7fb.png",
+        "title": "Pour Notre Survie",
+        "traits": [
+          "RÉSISTANCE"
+        ]
+      }
     ]
   },
   {
@@ -2773,12 +4432,23 @@
       "heroism"
     ],
     "name": "Valiant Commando",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/150.png",
+    "art": "https://cdn.starwarsunlimited.com//06010150_EN_Valiant_Commando_6f203d0fa1.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "REBEL",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vaillant Commando",
+        "art": "https://cdn.starwarsunlimited.com//06010150_FR_Vaillant_Commando_50e54ea551.png",
+        "traits": [
+          "REBELLE",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -2793,11 +4463,22 @@
     ],
     "name": "Kazuda Xiono",
     "title": "I'm Not A Spy",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/151.png",
+    "art": "https://cdn.starwarsunlimited.com//06010151_EN_Kazuda_Xiono_9386e5aa04.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "RESISTANCE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Kazuda Xiono",
+        "art": "https://cdn.starwarsunlimited.com//06010151_FR_Kazuda_Xiono_13ff6f0b6e.png",
+        "title": "Je Ne Suis Pas Un Espion",
+        "traits": [
+          "RÉSISTANCE"
+        ]
+      }
     ]
   },
   {
@@ -2811,13 +4492,25 @@
       "heroism"
     ],
     "name": "Strike Force X-Wing",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/152.png",
+    "art": "https://cdn.starwarsunlimited.com//06010152_EN_Strike_Force_X_Wing_19e24176b8.png",
     "cost": 4,
     "arena": "space",
     "traits": [
       "REBEL",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "X-Wing de la Force d'Assaut",
+        "art": "https://cdn.starwarsunlimited.com//06010152_FR_X_Wing_de_la_Force_d_Assaut_5cb5fb2f1e.png",
+        "traits": [
+          "REBELLE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -2832,13 +4525,26 @@
     ],
     "name": "Luthen's Haulcraft",
     "title": "Countermeasures Armed",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/153.png",
+    "art": "https://cdn.starwarsunlimited.com//06010153_EN_Luthen_s_Haulcraft_5d71205539.png",
     "cost": 5,
     "arena": "space",
     "traits": [
       "REBEL",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Transport de Luthen",
+        "art": "https://cdn.starwarsunlimited.com//06010153_FR_Transport_de_Luthen_b79b64b71c.png",
+        "title": "Équipé De Contre-Mesures",
+        "traits": [
+          "REBELLE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -2852,12 +4558,23 @@
       "heroism"
     ],
     "name": "Inner Rim Coalition",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/154.png",
+    "art": "https://cdn.starwarsunlimited.com//06010154_EN_Inner_Rim_Coalition_f73ba6e725.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Coalition de la Bordure Intérieure",
+        "art": "https://cdn.starwarsunlimited.com//06010154_FR_Coalition_de_la_Bordure_Interieure_b094d16c13.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -2872,12 +4589,24 @@
     ],
     "name": "Alexsandr Kallus",
     "title": "With New Purpose",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/155.png",
+    "art": "https://cdn.starwarsunlimited.com//06010155_EN_Alexsandr_Kallus_51ac2be41a.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
       "REBEL",
       "SPECTRE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Alexsandr Kallus",
+        "art": "https://cdn.starwarsunlimited.com//06010155_FR_Alexsandr_Kallus_92ff546614.png",
+        "title": "De Nouveaux Engagements",
+        "traits": [
+          "REBELLE",
+          "SPECTRE"
+        ]
+      }
     ]
   },
   {
@@ -2891,11 +4620,22 @@
       "heroism"
     ],
     "name": "Nemik's Manifesto",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/156.png",
+    "art": "https://cdn.starwarsunlimited.com//06010156_EN_Nemik_s_Manifesto_bd5026c4e1.png",
     "cost": 1,
     "traits": [
       "ITEM",
       "REBEL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Manifeste de Nemik",
+        "art": "https://cdn.starwarsunlimited.com//06010156_FR_Manifeste_de_Nemik_ec4bf4df8e.png",
+        "traits": [
+          "OBJET",
+          "REBELLE"
+        ]
+      }
     ]
   },
   {
@@ -2909,10 +4649,20 @@
       "heroism"
     ],
     "name": "One Way Out",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/157.png",
+    "art": "https://cdn.starwarsunlimited.com//06010157_EN_One_Way_Out_f360e5d527.png",
     "cost": 1,
     "traits": [
       "GAMBIT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Une Seule Issue",
+        "art": "https://cdn.starwarsunlimited.com//06010157_FR_Une_Seule_Issue_59ec507d3d.png",
+        "traits": [
+          "GAMBIT"
+        ]
+      }
     ]
   },
   {
@@ -2926,10 +4676,20 @@
       "heroism"
     ],
     "name": "Oppression Breeds Rebellion",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/158.png",
+    "art": "https://cdn.starwarsunlimited.com//06010158_EN_Oppression_Breeds_Rebellion_8852865c2f.png",
     "cost": 3,
     "traits": [
       "PLAN"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "L'Oppression Nourrit la Rébellion",
+        "art": "https://cdn.starwarsunlimited.com//06010158_FR_L_Oppression_Nourrit_la_Rebellion_5315cc1b75.png",
+        "traits": [
+          "PLAN"
+        ]
+      }
     ]
   },
   {
@@ -2944,12 +4704,24 @@
     ],
     "name": "Chairman Papanoida",
     "title": "Undaunted Diplomat",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/159.png",
+    "art": "https://cdn.starwarsunlimited.com//06010159_EN_Chairman_Papanoida_e7f4bdc7d6.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Président Papanoida",
+        "art": "https://cdn.starwarsunlimited.com//06010159_FR_President_Papanoida_ac87194073.png",
+        "title": "Diplomate Imperturbable",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -2962,12 +4734,23 @@
       "aggression"
     ],
     "name": "Reckless Rebel",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/160.png",
+    "art": "https://cdn.starwarsunlimited.com//06010160_EN_Reckless_Rebel_2b2a265a1f.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "REBEL",
       "TWI'LEK"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Rebelle Téméraire",
+        "art": "https://cdn.starwarsunlimited.com//06010160_FR_Rebelle_Temeraire_9697290ec2.png",
+        "traits": [
+          "REBELLE",
+          "TWI'LEK"
+        ]
+      }
     ]
   },
   {
@@ -2980,13 +4763,25 @@
       "aggression"
     ],
     "name": "Contraband Starhopper",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/161.png",
+    "art": "https://cdn.starwarsunlimited.com//06010161_EN_Contraband_Starhopper_f3ed0d1a2d.png",
     "cost": 2,
     "arena": "space",
     "traits": [
       "UNDERWORLD",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Starhopper de Contrebande",
+        "art": "https://cdn.starwarsunlimited.com//06010161_FR_Starhopper_de_Contrebande_458869580d.png",
+        "traits": [
+          "PÈGRE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -3000,13 +4795,26 @@
     ],
     "name": "Crosshair",
     "title": "Filled With Doubt",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/162.png",
+    "art": "https://cdn.starwarsunlimited.com//06010162_EN_Crosshair_122ecab8e1.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "CLONE",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Crosshair",
+        "art": "https://cdn.starwarsunlimited.com//06010162_FR_Crosshair_b11bd27940.png",
+        "title": "Plein De Doutes",
+        "traits": [
+          "IMPÉRIAL",
+          "CLONE",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -3019,12 +4827,23 @@
       "aggression"
     ],
     "name": "Outer Rim Constable",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/163.png",
+    "art": "https://cdn.starwarsunlimited.com//06010163_EN_Outer_Rim_Constable_4658bee68c.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FRINGE",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Connétable de la Bordure Extérieure",
+        "art": "https://cdn.starwarsunlimited.com//06010163_FR_Connetable_de_la_Bordure_Exterieure_90af9dba86.png",
+        "traits": [
+          "FRANGE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -3037,11 +4856,21 @@
       "aggression"
     ],
     "name": "Warrior of Clan Ordo",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/164.png",
+    "art": "https://cdn.starwarsunlimited.com//06010164_EN_Warrior_of_Clan_Ordo_db091e2000.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "MANDALORIAN"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Guerrier du Clan Ordo",
+        "art": "https://cdn.starwarsunlimited.com//06010164_FR_Guerrier_du_Clan_Ordo_93ffdc412d.png",
+        "traits": [
+          "MANDALORIEN"
+        ]
+      }
     ]
   },
   {
@@ -3054,12 +4883,23 @@
       "aggression"
     ],
     "name": "Academy Disciplinarian",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/165.png",
+    "art": "https://cdn.starwarsunlimited.com//06010165_EN_Academy_Disciplinarian_3e8a3dfeb5.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Disciplinaire de l'Académie",
+        "art": "https://cdn.starwarsunlimited.com//06010165_FR_Disciplinaire_de_l_Academie_a788995a0c.png",
+        "traits": [
+          "IMPÉRIAL",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -3072,13 +4912,25 @@
       "aggression"
     ],
     "name": "Republic Aurek Starfighter",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/166.png",
+    "art": "https://cdn.starwarsunlimited.com//06010166_EN_Republic_Aurek_Starfighter_cb9c44a23f.png",
     "cost": 3,
     "arena": "space",
     "traits": [
       "REPUBLIC",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chasseur Aurek de la République",
+        "art": "https://cdn.starwarsunlimited.com//06010166_FR_Chasseur_Aurek_de_la_Republique_e6067263b3.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -3091,12 +4943,23 @@
       "aggression"
     ],
     "name": "Coruscant Undercity Police",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/167.png",
+    "art": "https://cdn.starwarsunlimited.com//06010167_EN_Coruscant_Undercity_Police_5d8a3ee4bd.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Police de la Ville Basse de Coruscant",
+        "art": "https://cdn.starwarsunlimited.com//06010167_FR_Police_de_la_Ville_Basse_de_Coruscant_5aa3b2304f.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -3110,11 +4973,22 @@
     ],
     "name": "Ziton Moj",
     "title": "Black Sun Bully",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/168.png",
+    "art": "https://cdn.starwarsunlimited.com//06010168_EN_Ziton_Moj_0ce35a72ce.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "UNDERWORLD"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Ziton Moj",
+        "art": "https://cdn.starwarsunlimited.com//06010168_FR_Ziton_Moj_7718374400.png",
+        "title": "Brute Du Soleil Noir",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
     ]
   },
   {
@@ -3127,13 +5001,25 @@
       "aggression"
     ],
     "name": "AAT Incinerator",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/169.png",
+    "art": "https://cdn.starwarsunlimited.com//06010169_EN_AAT_Incinerator_0523ee5889.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "VEHICLE",
       "TANK"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "CAB Incinérateur",
+        "art": "https://cdn.starwarsunlimited.com//06010169_FR_CAB_Incinerateur_3e69aee80f.png",
+        "traits": [
+          "IMPÉRIAL",
+          "VÉHICULE",
+          "TANK"
+        ]
+      }
     ]
   },
   {
@@ -3146,11 +5032,21 @@
       "aggression"
     ],
     "name": "Corellian Hounds",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/170.png",
+    "art": "https://cdn.starwarsunlimited.com//06010170_EN_Corellian_Hounds_2f4919b907.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "CREATURE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Limiers Corelliens",
+        "art": "https://cdn.starwarsunlimited.com//06010170_FR_Limiers_Corelliens_2b79ed62c9.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
     ]
   },
   {
@@ -3164,13 +5060,26 @@
     ],
     "name": "Punishing One",
     "title": "Takes No Prisoners",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/171.png",
+    "art": "https://cdn.starwarsunlimited.com//06010171_EN_Punishing_One_e0ac068832.png",
     "cost": 5,
     "arena": "space",
     "traits": [
       "UNDERWORLD",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Punishing One",
+        "art": "https://cdn.starwarsunlimited.com//06010171_FR_Punishing_One_a6cb423926.png",
+        "title": "Ne Fait Pas De Prisonniers",
+        "traits": [
+          "PÈGRE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -3184,11 +5093,22 @@
     ],
     "name": "Cinta Kaz",
     "title": "The Struggle Comes First",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/172.png",
+    "art": "https://cdn.starwarsunlimited.com//06010172_EN_Cinta_Kaz_538a4bdfc9.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "REBEL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Cinta Kaz",
+        "art": "https://cdn.starwarsunlimited.com//06010172_FR_Cinta_Kaz_c6cffc831f.png",
+        "title": "La Lutte Avant Tout",
+        "traits": [
+          "REBELLE"
+        ]
+      }
     ]
   },
   {
@@ -3201,13 +5121,25 @@
       "aggression"
     ],
     "name": "Republic War Walker",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/173.png",
+    "art": "https://cdn.starwarsunlimited.com//06010173_EN_Republic_War_Walker_8aecc0973c.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "VEHICLE",
       "WALKER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Marcheur de Guerre de la République",
+        "art": "https://cdn.starwarsunlimited.com//06010173_FR_Marcheur_de_Guerre_de_la_Republique_bc930a213a.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "MARCHEUR"
+        ]
+      }
     ]
   },
   {
@@ -3221,13 +5153,26 @@
     ],
     "name": "Saw Gerrera's U-Wing",
     "title": "Breaking the Rules",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/174.png",
+    "art": "https://cdn.starwarsunlimited.com//06010174_EN_Saw_Gerrera_s_U_Wing_6ad2b556c9.png",
     "cost": 6,
     "arena": "space",
     "traits": [
       "REBEL",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "U-Wing de Saw Gerrera",
+        "art": "https://cdn.starwarsunlimited.com//06010174_FR_U_Wing_de_Saw_Gerrera_0e68a24bba.png",
+        "title": "Enfreint Les Règles",
+        "traits": [
+          "REBELLE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -3240,10 +5185,20 @@
       "aggression"
     ],
     "name": "Ambition's Reward",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/175.png",
+    "art": "https://cdn.starwarsunlimited.com//06010175_EN_Ambition_s_Reward_186d0f96fe.png",
     "cost": 2,
     "traits": [
       "LAW"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Récompenser l'Ambition",
+        "art": "https://cdn.starwarsunlimited.com//06010175_FR_Recompenser_l_Ambition_f273778cdd.png",
+        "traits": [
+          "LOI"
+        ]
+      }
     ]
   },
   {
@@ -3256,10 +5211,20 @@
       "aggression"
     ],
     "name": "Sudden Ferocity",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/176.png",
+    "art": "https://cdn.starwarsunlimited.com//06010176_EN_Sudden_Ferocity_106ca0f8ca.png",
     "cost": 3,
     "traits": [
       "INNATE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Férocité Soudaine",
+        "art": "https://cdn.starwarsunlimited.com//06010176_FR_Ferocite_Soudaine_0c439eae47.png",
+        "traits": [
+          "INNÉ"
+        ]
+      }
     ]
   },
   {
@@ -3272,10 +5237,20 @@
       "aggression"
     ],
     "name": "It's Not Over Yet",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/177.png",
+    "art": "https://cdn.starwarsunlimited.com//06010177_EN_It_s_Not_Over_Yet_4d7b2e7f7f.png",
     "cost": 2,
     "traits": [
       "INNATE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Tout n'Est pas Encore Fini",
+        "art": "https://cdn.starwarsunlimited.com//06010177_FR_Tout_n_Est_pas_Encore_Fini_ce6410d3cc.png",
+        "traits": [
+          "INNÉ"
+        ]
+      }
     ]
   },
   {
@@ -3288,10 +5263,20 @@
       "aggression"
     ],
     "name": "Pursue the Lead",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/178.png",
+    "art": "https://cdn.starwarsunlimited.com//06010178_EN_Pursue_the_Lead_d0c7fc5ca2.png",
     "cost": 2,
     "traits": [
       "PLAN"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Suivre la Piste",
+        "art": "https://cdn.starwarsunlimited.com//06010178_FR_Suivre_la_Piste_8504669e3b.png",
+        "traits": [
+          "PLAN"
+        ]
+      }
     ]
   },
   {
@@ -3304,10 +5289,20 @@
       "aggression"
     ],
     "name": "Aggressive Negotiations",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/179.png",
+    "art": "https://cdn.starwarsunlimited.com//06010179_EN_Aggressive_Negotiations_5558764af0.png",
     "cost": 3,
     "traits": [
       "TACTIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Négociations Agressives",
+        "art": "https://cdn.starwarsunlimited.com//06010179_FR_Negociations_Agressives_b760932ea6.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
     ]
   },
   {
@@ -3320,10 +5315,20 @@
       "aggression"
     ],
     "name": "Let's Call It War",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/180.png",
+    "art": "https://cdn.starwarsunlimited.com//06010180_EN_Let_s_Call_It_War_bb3506b253.png",
     "cost": 3,
     "traits": [
       "TACTIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Appelons ça une Guerre",
+        "art": "https://cdn.starwarsunlimited.com//06010180_FR_Appelons_ca_une_Guerre_4d914a3d26.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
     ]
   },
   {
@@ -3336,10 +5341,20 @@
       "aggression"
     ],
     "name": "Unauthorized Investigation",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/181.png",
+    "art": "https://cdn.starwarsunlimited.com//06010181_EN_Unauthorized_Investigation_f29859b320.png",
     "cost": 3,
     "traits": [
       "PLAN"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Investigation Illégale",
+        "art": "https://cdn.starwarsunlimited.com//06010181_FR_Investigation_Illegale_ba8c191707.png",
+        "traits": [
+          "PLAN"
+        ]
+      }
     ]
   },
   {
@@ -3352,10 +5367,20 @@
       "aggression"
     ],
     "name": "Charged with Treason",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/182.png",
+    "art": "https://cdn.starwarsunlimited.com//06010182_EN_Charged_with_Treason_0e241f58ac.png",
     "cost": 4,
     "traits": [
       "LAW"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Accusé de Trahison",
+        "art": "https://cdn.starwarsunlimited.com//06010182_FR_Accuse_de_Trahison_5fcd12b3fd.png",
+        "traits": [
+          "LOI"
+        ]
+      }
     ]
   },
   {
@@ -3368,10 +5393,20 @@
       "aggression"
     ],
     "name": "Topple the Summit",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/183.png",
+    "art": "https://cdn.starwarsunlimited.com//06010183_EN_Topple_the_Summit_9f198b6a2c.png",
     "cost": 5,
     "traits": [
       "PLAN"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Renverser le Sommet",
+        "art": "https://cdn.starwarsunlimited.com//06010183_FR_Renverser_le_Sommet_7d20dcfa3f.png",
+        "traits": [
+          "PLAN"
+        ]
+      }
     ]
   },
   {
@@ -3385,11 +5420,21 @@
       "villainy"
     ],
     "name": "ISB Agent",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/184.png",
+    "art": "https://cdn.starwarsunlimited.com//06010184_EN_ISB_Agent_9ec7f2cd2e.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "IMPERIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Agent du BSI",
+        "art": "https://cdn.starwarsunlimited.com//06010184_FR_Agent_du_BSI_7c71f461d7.png",
+        "traits": [
+          "IMPÉRIAL"
+        ]
+      }
     ]
   },
   {
@@ -3403,13 +5448,25 @@
       "villainy"
     ],
     "name": "Screeching TIE Fighter",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/185.png",
+    "art": "https://cdn.starwarsunlimited.com//06010185_EN_Screeching_TIE_Fighter_5ec0a08a0b.png",
     "cost": 1,
     "arena": "space",
     "traits": [
       "IMPERIAL",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chasseur TIE Strident",
+        "art": "https://cdn.starwarsunlimited.com//06010185_FR_Chasseur_TIE_Strident_e5fc3ffdc2.png",
+        "traits": [
+          "IMPÉRIAL",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -3424,11 +5481,22 @@
     ],
     "name": "Garindan",
     "title": "Information Broker",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/186.png",
+    "art": "https://cdn.starwarsunlimited.com//06010186_EN_Garindan_edda853da6.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "UNDERWORLD"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Garindan",
+        "art": "https://cdn.starwarsunlimited.com//06010186_FR_Garindan_4e8fa1672d.png",
+        "title": "Courtier En Informations",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
     ]
   },
   {
@@ -3443,12 +5511,24 @@
     ],
     "name": "General Grievous",
     "title": "Scuttling to Safety",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/187.png",
+    "art": "https://cdn.starwarsunlimited.com//06010187_EN_General_Grievous_da06589e3b.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "SEPARATIST",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Général Grievous",
+        "art": "https://cdn.starwarsunlimited.com//06010187_FR_General_Grievous_2e34bb1fe7.png",
+        "title": "Clopine En Sécurité",
+        "traits": [
+          "SÉPARATISTE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -3463,12 +5543,24 @@
     ],
     "name": "Darth Traya",
     "title": "Lord of Betrayal",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/188.png",
+    "art": "https://cdn.starwarsunlimited.com//06010188_EN_Darth_Traya_0619ce926c.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FORCE",
       "SITH"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dark Traya",
+        "art": "https://cdn.starwarsunlimited.com//06010188_FR_Dark_Traya_00c52f5819.png",
+        "title": "Seigneur De La Trahison",
+        "traits": [
+          "FORCE",
+          "SITH"
+        ]
+      }
     ]
   },
   {
@@ -3482,13 +5574,25 @@
       "villainy"
     ],
     "name": "Lurking Snub Fighter",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/189.png",
+    "art": "https://cdn.starwarsunlimited.com//06010189_EN_Lurking_Snub_Fighter_970b3e1685.png",
     "cost": 3,
     "arena": "space",
     "traits": [
       "UNDERWORLD",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chasseur Snub Rôdant",
+        "art": "https://cdn.starwarsunlimited.com//06010189_FR_Chasseur_Snub_Rodant_bd533ae812.png",
+        "traits": [
+          "PÈGRE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -3503,13 +5607,26 @@
     ],
     "name": "Soulless One",
     "title": "Swift and Agile",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/190.png",
+    "art": "https://cdn.starwarsunlimited.com//06010190_EN_Soulless_One_0075e79d03.png",
     "cost": 3,
     "arena": "space",
     "traits": [
       "SEPARATIST",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Soulless One",
+        "art": "https://cdn.starwarsunlimited.com//06010190_FR_Soulless_One_8ba19125ef.png",
+        "title": "Rapide Et Agile",
+        "traits": [
+          "SÉPARATISTE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -3523,12 +5640,23 @@
       "villainy"
     ],
     "name": "Trade Federation Delegates",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/191.png",
+    "art": "https://cdn.starwarsunlimited.com//06010191_EN_Trade_Federation_Delegates_91a21c680b.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Délégués de la Fédération du Commerce",
+        "art": "https://cdn.starwarsunlimited.com//06010191_FR_Delegues_de_la_Federation_du_Commerce_8e7d691216.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -3543,12 +5671,24 @@
     ],
     "name": "Grand Moff Tarkin",
     "title": "Taking Krennic's Achievement",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/192.png",
+    "art": "https://cdn.starwarsunlimited.com//06010192_EN_Grand_Moff_Tarkin_751e5bbb3f.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Grand Moff Tarkin",
+        "art": "https://cdn.starwarsunlimited.com//06010192_FR_Grand_Moff_Tarkin_20d3949be7.png",
+        "title": "S'Approprie La Réalisation De Krennic",
+        "traits": [
+          "IMPÉRIAL",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -3563,12 +5703,24 @@
     ],
     "name": "Grand Admiral Thrawn",
     "title": "Grand Schemer",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/193.png",
+    "art": "https://cdn.starwarsunlimited.com//06010193_EN_Grand_Admiral_Thrawn_613e37090a.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Grand Amiral Thrawn",
+        "art": "https://cdn.starwarsunlimited.com//06010193_FR_Grand_Amiral_Thrawn_cb55a4b430.png",
+        "title": "Grand Conspirateur",
+        "traits": [
+          "IMPÉRIAL",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -3582,10 +5734,20 @@
       "villainy"
     ],
     "name": "Fully Armed and Operational",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/194.png",
+    "art": "https://cdn.starwarsunlimited.com//06010194_EN_Fully_Armed_and_Operational_d3f2ca0078.png",
     "cost": 1,
     "traits": [
       "TRICK"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Armée et Pleinement Opérationnelle",
+        "art": "https://cdn.starwarsunlimited.com//06010194_FR_Armee_et_Pleinement_Operationnelle_a7b1f3af46.png",
+        "traits": [
+          "ASTUCE"
+        ]
+      }
     ]
   },
   {
@@ -3599,10 +5761,20 @@
       "villainy"
     ],
     "name": "Arrest",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/195.png",
+    "art": "https://cdn.starwarsunlimited.com//06010195_EN_Arrest_0e7dda6632.png",
     "cost": 2,
     "traits": [
       "LAW"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Arrestation",
+        "art": "https://cdn.starwarsunlimited.com//06010195_FR_Arrestation_d2e8a23021.png",
+        "traits": [
+          "LOI"
+        ]
+      }
     ]
   },
   {
@@ -3616,10 +5788,20 @@
       "villainy"
     ],
     "name": "No One Ever Knew",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/196.png",
+    "art": "https://cdn.starwarsunlimited.com//06010196_EN_No_One_Ever_Knew_e53b53492b.png",
     "cost": 2,
     "traits": [
       "TRICK"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Personne n'a Jamais Su",
+        "art": "https://cdn.starwarsunlimited.com//06010196_FR_Personne_n_a_Jamais_Su_19a35d65ba.png",
+        "traits": [
+          "ASTUCE"
+        ]
+      }
     ]
   },
   {
@@ -3633,11 +5815,21 @@
       "heroism"
     ],
     "name": "Furtive Handmaiden",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/197.png",
+    "art": "https://cdn.starwarsunlimited.com//06010197_EN_Furtive_Handmaiden_b1f58ae55a.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "NABOO"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Servante Discrète",
+        "art": "https://cdn.starwarsunlimited.com//06010197_FR_Servante_Discrete_09b17ad5ce.png",
+        "traits": [
+          "NABOO"
+        ]
+      }
     ]
   },
   {
@@ -3652,12 +5844,24 @@
     ],
     "name": "Bail Organa",
     "title": "Responding to Catastrophe",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/198.png",
+    "art": "https://cdn.starwarsunlimited.com//06010198_EN_Bail_Organa_cab0386ad1.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Bail Organa",
+        "art": "https://cdn.starwarsunlimited.com//06010198_FR_Bail_Organa_0877e6ddf8.png",
+        "title": "Réagit Face À La Catastrophe",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -3671,13 +5875,25 @@
       "heroism"
     ],
     "name": "Bravo Squadron Fighter",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/199.png",
+    "art": "https://cdn.starwarsunlimited.com//06010199_EN_Bravo_Squadron_Fighter_6f725530df.png",
     "cost": 2,
     "arena": "space",
     "traits": [
       "NABOO",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chasseur de l'Escadron Bravo",
+        "art": "https://cdn.starwarsunlimited.com//06010199_FR_Chasseur_de_l_Escadron_Bravo_1d9f615339.png",
+        "traits": [
+          "NABOO",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -3691,12 +5907,23 @@
       "heroism"
     ],
     "name": "Junior Senator",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/200.png",
+    "art": "https://cdn.starwarsunlimited.com//06010200_EN_Junior_Senator_a712009db5.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Jeune Sénateur",
+        "art": "https://cdn.starwarsunlimited.com//06010200_FR_Jeune_Senateur_cf8b0195d3.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -3711,13 +5938,26 @@
     ],
     "name": "Anakin Skywalker",
     "title": "Secret Husband",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/201.png",
+    "art": "https://cdn.starwarsunlimited.com//06010201_EN_Anakin_Skywalker_2a1c8ab691.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Anakin Skywalker",
+        "art": "https://cdn.starwarsunlimited.com//06010201_FR_Anakin_Skywalker_64eed918ab.png",
+        "title": "Marié En Secret",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -3731,12 +5971,23 @@
       "heroism"
     ],
     "name": "Rebel Propagandist",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/202.png",
+    "art": "https://cdn.starwarsunlimited.com//06010202_EN_Rebel_Propagandist_2e62ef636b.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "REBEL",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Propagandiste Rebelle",
+        "art": "https://cdn.starwarsunlimited.com//06010202_FR_Propagandiste_Rebelle_f5d6b2414a.png",
+        "traits": [
+          "REBELLE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -3751,12 +6002,24 @@
     ],
     "name": "Tala Durith",
     "title": "I Can Get You Inside",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/203.png",
+    "art": "https://cdn.starwarsunlimited.com//06010203_EN_Tala_Durith_461586179a.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "REBEL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Tala Durith",
+        "art": "https://cdn.starwarsunlimited.com//06010203_FR_Tala_Durith_eb24fde193.png",
+        "title": "Je Peux Vous Faire Entrer",
+        "traits": [
+          "IMPÉRIAL",
+          "REBELLE"
+        ]
+      }
     ]
   },
   {
@@ -3771,13 +6034,26 @@
     ],
     "name": "Blue Ace",
     "title": "Colorful Racer",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/204.png",
+    "art": "https://cdn.starwarsunlimited.com//06010204_EN_Blue_Ace_ab6849d37f.png",
     "cost": 4,
     "arena": "space",
     "traits": [
       "RESISTANCE",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "L'As Bleu",
+        "art": "https://cdn.starwarsunlimited.com//06010204_FR_L_As_Bleu_f3ec9dbb24.png",
+        "title": "Concurrent Haut En Couleurs",
+        "traits": [
+          "RÉSISTANCE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -3792,13 +6068,26 @@
     ],
     "name": "Obi-Wan Kenobi",
     "title": "Finding What Doesn't Exist",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/205.png",
+    "art": "https://cdn.starwarsunlimited.com//06010205_EN_Obi_Wan_Kenobi_1f3237cef3.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "FORCE",
       "JEDI",
       "REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Obi-Wan Kenobi",
+        "art": "https://cdn.starwarsunlimited.com//06010205_FR_Obi_Wan_Kenobi_6cbd228c7d.png",
+        "title": "Trouve Ce Qui N'Existe Pas",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -3812,13 +6101,25 @@
       "heroism"
     ],
     "name": "Emissaries from Ryloth",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/206.png",
+    "art": "https://cdn.starwarsunlimited.com//06010206_EN_Emissaries_from_Ryloth_a79468a804.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "TWI'LEK",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Émissaires de Ryloth",
+        "art": "https://cdn.starwarsunlimited.com//06010206_FR_Emissaires_de_Ryloth_ba566fcb5b.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "TWI'LEK",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -3833,13 +6134,26 @@
     ],
     "name": "Lightmaker",
     "title": "I Have An Idea",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/207.png",
+    "art": "https://cdn.starwarsunlimited.com//06010207_EN_Lightmaker_b72e4c0d93.png",
     "cost": 5,
     "arena": "space",
     "traits": [
       "REBEL",
       "VEHICLE",
       "CAPITAL SHIP"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Lightmaker",
+        "art": "https://cdn.starwarsunlimited.com//06010207_FR_Lightmaker_6b3c16a061.png",
+        "title": "J'Ai Une Idée",
+        "traits": [
+          "REBELLE",
+          "VÉHICULE",
+          "VAISSEAU CAPITAL"
+        ]
+      }
     ]
   },
   {
@@ -3854,12 +6168,24 @@
     ],
     "name": "Hunter",
     "title": "Extraordinary Tracker",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/208.png",
+    "art": "https://cdn.starwarsunlimited.com//06010208_EN_Hunter_d169cac804.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "FRINGE",
       "CLONE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Hunter",
+        "art": "https://cdn.starwarsunlimited.com//06010208_FR_Hunter_b4b95d8b0b.png",
+        "title": "Pisteur Exceptionnel",
+        "traits": [
+          "FRANGE",
+          "CLONE"
+        ]
+      }
     ]
   },
   {
@@ -3874,12 +6200,24 @@
     ],
     "name": "The Mandalorian",
     "title": "Cleaning Up Nevarro",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/209.png",
+    "art": "https://cdn.starwarsunlimited.com//06010209_EN_The_Mandalorian_8fbac7ec35.png",
     "cost": 8,
     "arena": "ground",
     "traits": [
       "MANDALORIAN",
       "BOUNTY HUNTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Le Mandalorien",
+        "art": "https://cdn.starwarsunlimited.com//06010209_FR_Le_Mandalorien_3e9e6513cc.png",
+        "title": "Fait Le Ménage Sur Nevarro",
+        "traits": [
+          "MANDALORIEN",
+          "CHASSEUR DE PRIMES"
+        ]
+      }
     ]
   },
   {
@@ -3893,11 +6231,22 @@
       "heroism"
     ],
     "name": "Stolen Starpath Unit",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/210.png",
+    "art": "https://cdn.starwarsunlimited.com//06010210_EN_Stolen_Starpath_Unit_373e6b1ea8.png",
     "cost": 1,
     "traits": [
       "ITEM",
       "MODIFICATION"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Module Starpath Volé",
+        "art": "https://cdn.starwarsunlimited.com//06010210_FR_Module_Starpath_Vole_1762443d4f.png",
+        "traits": [
+          "OBJET",
+          "MODIFICATION"
+        ]
+      }
     ]
   },
   {
@@ -3911,10 +6260,20 @@
       "heroism"
     ],
     "name": "Faith in Your Friends",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/211.png",
+    "art": "https://cdn.starwarsunlimited.com//06010211_EN_Faith_in_Your_Friends_e427ca6592.png",
     "cost": 2,
     "traits": [
       "GAMBIT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Avoir Foi en Ses amis",
+        "art": "https://cdn.starwarsunlimited.com//06010211_FR_Avoir_Foi_en_Ses_amis_3666ce1488.png",
+        "traits": [
+          "GAMBIT"
+        ]
+      }
     ]
   },
   {
@@ -3929,13 +6288,26 @@
     ],
     "name": "Libertine",
     "title": "Under New Ownership",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/212.png",
+    "art": "https://cdn.starwarsunlimited.com//06010212_EN_Libertine_f56f2623c9.png",
     "cost": 4,
     "arena": "space",
     "traits": [
       "UNDERWORLD",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Libertine",
+        "art": "https://cdn.starwarsunlimited.com//06010212_FR_Libertine_542065e59a.png",
+        "title": "Avec Son Nouveau Propriétaire",
+        "traits": [
+          "PÈGRE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -3948,12 +6320,23 @@
       "cunning"
     ],
     "name": "A-Wing",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/213.png",
+    "art": "https://cdn.starwarsunlimited.com//06010213_EN_A_Wing_9da8550206.png",
     "cost": 1,
     "arena": "space",
     "traits": [
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "A-Wing",
+        "art": "https://cdn.starwarsunlimited.com//06010213_FR_A_Wing_e08521d29f.png",
+        "traits": [
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -3966,13 +6349,25 @@
       "cunning"
     ],
     "name": "Skyhopper Canyon Runner",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/214.png",
+    "art": "https://cdn.starwarsunlimited.com//06010214_EN_Skyhopper_Canyon_Runner_14256381fa.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "FRINGE",
       "VEHICLE",
       "SPEEDER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Skyhopper Arpenteur de Canyons",
+        "art": "https://cdn.starwarsunlimited.com//06010214_FR_Skyhopper_Arpenteur_de_Canyons_89b63aa88d.png",
+        "traits": [
+          "FRANGE",
+          "VÉHICULE",
+          "SPEEDER"
+        ]
+      }
     ]
   },
   {
@@ -3985,13 +6380,25 @@
       "cunning"
     ],
     "name": "Emissary's Sheathipede",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/215.png",
+    "art": "https://cdn.starwarsunlimited.com//06010215_EN_Emissary_s_Sheathipede_a926ef0ccb.png",
     "cost": 2,
     "arena": "space",
     "traits": [
       "SEPARATIST",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sheathipede de l'Émissaire",
+        "art": "https://cdn.starwarsunlimited.com//06010215_FR_Sheathipede_de_l_Emissaire_8da863b534.png",
+        "traits": [
+          "SÉPARATISTE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -4004,12 +6411,23 @@
       "cunning"
     ],
     "name": "Regulations Bureaucrat",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/216.png",
+    "art": "https://cdn.starwarsunlimited.com//06010216_EN_Regulations_Bureaucrat_cf3c53e348.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Bureaucrate de la Régulation",
+        "art": "https://cdn.starwarsunlimited.com//06010216_FR_Bureaucrate_de_la_Regulation_17a40cddef.png",
+        "traits": [
+          "IMPÉRIAL",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -4022,13 +6440,25 @@
       "cunning"
     ],
     "name": "Zenuas Shadow Fighter",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/217.png",
+    "art": "https://cdn.starwarsunlimited.com//06010217_EN_Zenuas_Shadow_Fighter_3d2f2fd8f6.png",
     "cost": 2,
     "arena": "space",
     "traits": [
       "SEPARATIST",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chasseur Zenuas Discret",
+        "art": "https://cdn.starwarsunlimited.com//06010217_FR_Chasseur_Zenuas_Discret_e7885ba542.png",
+        "traits": [
+          "SÉPARATISTE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -4042,11 +6472,22 @@
     ],
     "name": "Cikatro Vizago",
     "title": "Business is What Matters",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/218.png",
+    "art": "https://cdn.starwarsunlimited.com//06010218_EN_Cikatro_Vizago_1c08f6cb95.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "UNDERWORLD"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Cikatro Vizago",
+        "art": "https://cdn.starwarsunlimited.com//06010218_FR_Cikatro_Vizago_c4716b0a19.png",
+        "title": "Le Business, C'Est Ça Qui Est Important",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
     ]
   },
   {
@@ -4060,13 +6501,26 @@
     ],
     "name": "Ebon Hawk",
     "title": "Cause and Effect",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/219.png",
+    "art": "https://cdn.starwarsunlimited.com//06010219_EN_Ebon_Hawk_e4da33f527.png",
     "cost": 3,
     "arena": "space",
     "traits": [
       "FRINGE",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Ebon Hawk",
+        "art": "https://cdn.starwarsunlimited.com//06010219_FR_Ebon_Hawk_8988be7cd3.png",
+        "title": "Cause À Effet",
+        "traits": [
+          "FRANGE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -4079,11 +6533,21 @@
       "cunning"
     ],
     "name": "Hired Splicer",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/220.png",
+    "art": "https://cdn.starwarsunlimited.com//06010220_EN_Hired_Slicer_2e55ee3509.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "FRINGE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Hacker Embauché",
+        "art": "https://cdn.starwarsunlimited.com//06010220_FR_Hacker_Embauche_a8d02da69b.png",
+        "traits": [
+          "FRANGE"
+        ]
+      }
     ]
   },
   {
@@ -4096,11 +6560,21 @@
       "cunning"
     ],
     "name": "Unruly Astromech",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/221.png",
+    "art": "https://cdn.starwarsunlimited.com//06010221_EN_Unruly_Astromech_66d8f6b64b.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "DROID"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Astromech Indiscipliné",
+        "art": "https://cdn.starwarsunlimited.com//06010221_FR_Astromech_Indiscipline_fe1107d11d.png",
+        "traits": [
+          "DROÏDE"
+        ]
+      }
     ]
   },
   {
@@ -4113,11 +6587,21 @@
       "cunning"
     ],
     "name": "Loan Shark",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/222.png",
+    "art": "https://cdn.starwarsunlimited.com//06010222_EN_Loan_Shark_dc6983f8bd.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Usurier",
+        "art": "https://cdn.starwarsunlimited.com//06010222_FR_Usurier_ad239a40f5.png",
+        "traits": [
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -4130,11 +6614,21 @@
       "cunning"
     ],
     "name": "Duchess's Investigators",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/223.png",
+    "art": "https://cdn.starwarsunlimited.com//06010223_EN_Duchess_s_Investigators_ad6e510974.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "MANDALORIAN"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Enquêteurs de la Duchesse",
+        "art": "https://cdn.starwarsunlimited.com//06010223_FR_Enqueteurs_de_la_Duchesse_d18a38ec8c.png",
+        "traits": [
+          "MANDALORIEN"
+        ]
+      }
     ]
   },
   {
@@ -4148,11 +6642,22 @@
     ],
     "name": "Vel Sartha",
     "title": "One Path, One Choice",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/224.png",
+    "art": "https://cdn.starwarsunlimited.com//06010224_EN_Vel_Sartha_df1eb8b14f.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "REBEL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vel Sartha",
+        "art": "https://cdn.starwarsunlimited.com//06010224_FR_Vel_Sartha_56cc61655d.png",
+        "title": "Un Chemin, Un Choix",
+        "traits": [
+          "REBELLE"
+        ]
+      }
     ]
   },
   {
@@ -4166,11 +6671,22 @@
     ],
     "name": "Synara San",
     "title": "Harboring a Secret",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/225.png",
+    "art": "https://cdn.starwarsunlimited.com//06010225_EN_Synara_San_6cf6baa055.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
       "UNDERWORLD"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Synara San",
+        "art": "https://cdn.starwarsunlimited.com//06010225_FR_Synara_San_5405608ce4.png",
+        "title": "Cache Un Secret",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
     ]
   },
   {
@@ -4183,10 +6699,20 @@
       "cunning"
     ],
     "name": "Sneaking Suspicion",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/226.png",
+    "art": "https://cdn.starwarsunlimited.com//06010226_EN_Sneaking_Suspicion_df652ab0a0.png",
     "cost": 2,
     "traits": [
       "INNATE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Soupçon Persistant",
+        "art": "https://cdn.starwarsunlimited.com//06010226_FR_Soupcon_Persistant_4359e007d9.png",
+        "traits": [
+          "INNÉ"
+        ]
+      }
     ]
   },
   {
@@ -4199,10 +6725,20 @@
       "cunning"
     ],
     "name": "Special Modifications",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/227.png",
+    "art": "https://cdn.starwarsunlimited.com//06010227_EN_Special_Modifications_cc4477d0b6.png",
     "cost": 2,
     "traits": [
       "MODIFICATION"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Modifications Spéciales",
+        "art": "https://cdn.starwarsunlimited.com//06010227_FR_Modifications_Speciales_818bec8fe8.png",
+        "traits": [
+          "MODIFICATION"
+        ]
+      }
     ]
   },
   {
@@ -4215,10 +6751,20 @@
       "cunning"
     ],
     "name": "Accelerate Our Plans",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/228.png",
+    "art": "https://cdn.starwarsunlimited.com//06010228_EN_Accelerate_Our_Plans_e23b82f72e.png",
     "cost": 1,
     "traits": [
       "PLAN"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Accélérez nos Plans",
+        "art": "https://cdn.starwarsunlimited.com//06010228_FR_Accelerez_nos_Plans_38ff613ec8.png",
+        "traits": [
+          "PLAN"
+        ]
+      }
     ]
   },
   {
@@ -4231,10 +6777,20 @@
       "cunning"
     ],
     "name": "Catch Unawares",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/229.png",
+    "art": "https://cdn.starwarsunlimited.com//06010229_EN_Catch_Unawares_8191ff4b9c.png",
     "cost": 2,
     "traits": [
       "TACTIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Prendre de Court",
+        "art": "https://cdn.starwarsunlimited.com//06010229_FR_Prendre_de_Court_74459cd948.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
     ]
   },
   {
@@ -4247,10 +6803,20 @@
       "cunning"
     ],
     "name": "Charged with Espionage",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/230.png",
+    "art": "https://cdn.starwarsunlimited.com//06010230_EN_Charged_with_Espionage_82cc9f8ae2.png",
     "cost": 2,
     "traits": [
       "LAW"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Accusé d'Espionnage",
+        "art": "https://cdn.starwarsunlimited.com//06010230_FR_Accuse_d_Espionnage_3b04de06d8.png",
+        "traits": [
+          "LOI"
+        ]
+      }
     ]
   },
   {
@@ -4263,10 +6829,20 @@
       "cunning"
     ],
     "name": "Implicate",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/231.png",
+    "art": "https://cdn.starwarsunlimited.com//06010231_EN_Implicate_878b81ea37.png",
     "cost": 2,
     "traits": [
       "TRICK"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Incriminer",
+        "art": "https://cdn.starwarsunlimited.com//06010231_FR_Incriminer_05eed8d64f.png",
+        "traits": [
+          "ASTUCE"
+        ]
+      }
     ]
   },
   {
@@ -4279,11 +6855,22 @@
       "cunning"
     ],
     "name": "Kreia's Whispers",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/232.png",
+    "art": "https://cdn.starwarsunlimited.com//06010232_EN_Kreia_s_Whispers_115b631a2e.png",
     "cost": 2,
     "traits": [
       "FORCE",
       "LEARNED"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Murmures de Kreia",
+        "art": "https://cdn.starwarsunlimited.com//06010232_FR_Murmures_de_Kreia_766d27a91a.png",
+        "traits": [
+          "FORCE",
+          "ACQUIS"
+        ]
+      }
     ]
   },
   {
@@ -4296,10 +6883,20 @@
       "cunning"
     ],
     "name": "Beguile",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/233.png",
+    "art": "https://cdn.starwarsunlimited.com//06010233_EN_Beguile_b444c3d787.png",
     "cost": 3,
     "traits": [
       "TRICK"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Séduire",
+        "art": "https://cdn.starwarsunlimited.com//06010233_FR_Seduire_0834a48b8a.png",
+        "traits": [
+          "ASTUCE"
+        ]
+      }
     ]
   },
   {
@@ -4312,10 +6909,20 @@
       "cunning"
     ],
     "name": "Bog Down in Procedure",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/234.png",
+    "art": "https://cdn.starwarsunlimited.com//06010234_EN_Bog_Down_in_Procedure_a97aa917e6.png",
     "cost": 3,
     "traits": [
       "LAW"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Crouler sous les Procédures",
+        "art": "https://cdn.starwarsunlimited.com//06010234_FR_Crouler_sous_les_Procedures_5cdaa1f4ad.png",
+        "traits": [
+          "LOI"
+        ]
+      }
     ]
   },
   {
@@ -4328,10 +6935,20 @@
       "cunning"
     ],
     "name": "The Wrong Ride",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/235.png",
+    "art": "https://cdn.starwarsunlimited.com//06010235_EN_The_Wrong_Ride_b1176a94a9.png",
     "cost": 3,
     "traits": [
       "DISASTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Faire Fausse Route",
+        "art": "https://cdn.starwarsunlimited.com//06010235_FR_Faire_Fausse_Route_ef1aa3ff77.png",
+        "traits": [
+          "DÉSASTRE"
+        ]
+      }
     ]
   },
   {
@@ -4344,10 +6961,20 @@
       "cunning"
     ],
     "name": "Undercover Operation",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/236.png",
+    "art": "https://cdn.starwarsunlimited.com//06010236_EN_Undercover_Operation_ba2052a75e.png",
     "cost": 3,
     "traits": [
       "TACTIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Opération sous Couverture",
+        "art": "https://cdn.starwarsunlimited.com//06010236_FR_Operation_sous_Couverture_0a93c386f4.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
     ]
   },
   {
@@ -4360,12 +6987,23 @@
       "villainy"
     ],
     "name": "Supreme Council Aide",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/237.png",
+    "art": "https://cdn.starwarsunlimited.com//06010237_EN_Supreme_Council_Aide_03ad46ee86.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "FIRST ORDER",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Assistante du Conseil Suprême",
+        "art": "https://cdn.starwarsunlimited.com//06010237_FR_Assistante_du_Conseil_Supreme_a1aa5dedfd.png",
+        "traits": [
+          "PREMIER ORDRE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -4378,12 +7016,23 @@
       "villainy"
     ],
     "name": "Sith Assassin",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/238.png",
+    "art": "https://cdn.starwarsunlimited.com//06010238_EN_Sith_Assassin_e64675ba90.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "FORCE",
       "SITH"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Assassin Sith",
+        "art": "https://cdn.starwarsunlimited.com//06010238_FR_Assassin_Sith_d98cf9ffd9.png",
+        "traits": [
+          "FORCE",
+          "SITH"
+        ]
+      }
     ]
   },
   {
@@ -4396,12 +7045,23 @@
       "villainy"
     ],
     "name": "Viper Probe Droid",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/239.png",
+    "art": "https://cdn.starwarsunlimited.com//06010239_EN_Viper_Probe_Droid_83c08d09c8.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "DROID"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Droïde Sonde Viper",
+        "art": "https://cdn.starwarsunlimited.com//06010239_FR_Droide_Sonde_Viper_d15352c840.png",
+        "traits": [
+          "IMPÉRIAL",
+          "DROÏDE"
+        ]
+      }
     ]
   },
   {
@@ -4414,13 +7074,25 @@
       "villainy"
     ],
     "name": "Hutt Cartel Starfighter",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/240.png",
+    "art": "https://cdn.starwarsunlimited.com//06010240_EN_Hutt_Cartel_Starfighter_b93c559b66.png",
     "cost": 3,
     "arena": "space",
     "traits": [
       "UNDERWORLD",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chasseur du Cartel Hutt",
+        "art": "https://cdn.starwarsunlimited.com//06010240_FR_Chasseur_du_Cartel_Hutt_232b43cf02.png",
+        "traits": [
+          "PÈGRE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -4433,12 +7105,23 @@
       "villainy"
     ],
     "name": "Political Bully",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/241.png",
+    "art": "https://cdn.starwarsunlimited.com//06010241_EN_Political_Bully_7458343f39.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Persécuteur Politique",
+        "art": "https://cdn.starwarsunlimited.com//06010241_FR_Persecuteur_Politique_a29a596da9.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -4452,12 +7135,24 @@
     ],
     "name": "Elia Kane",
     "title": "False Convert",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/242.png",
+    "art": "https://cdn.starwarsunlimited.com//06010242_EN_Elia_Kane_3053751da0.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "IMPERIAL",
       "NEW REPUBLIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Elia Kane",
+        "art": "https://cdn.starwarsunlimited.com//06010242_FR_Elia_Kane_01d6fd8096.png",
+        "title": "Fausse Convertie",
+        "traits": [
+          "IMPÉRIAL",
+          "NOUVELLE RÉPUBLIQUE"
+        ]
+      }
     ]
   },
   {
@@ -4470,12 +7165,23 @@
       "villainy"
     ],
     "name": "FN Trooper Corps",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/243.png",
+    "art": "https://cdn.starwarsunlimited.com//06010243_EN_FN_Trooper_Corps_5c6631bfc6.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "FIRST ORDER",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Soldats du Corps FN",
+        "art": "https://cdn.starwarsunlimited.com//06010243_FR_Soldats_du_Corps_FN_3c05cf05c4.png",
+        "traits": [
+          "PREMIER ORDRE",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -4489,12 +7195,24 @@
     ],
     "name": "Darth Nihilus",
     "title": "Lord of Hunger",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/244.png",
+    "art": "https://cdn.starwarsunlimited.com//06010244_EN_Darth_Nihilus_4fbdd6104e.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
       "FORCE",
       "SITH"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dark Nihilus",
+        "art": "https://cdn.starwarsunlimited.com//06010244_FR_Dark_Nihilus_bc1f7c2e54.png",
+        "title": "Seigneur De La Faim",
+        "traits": [
+          "FORCE",
+          "SITH"
+        ]
+      }
     ]
   },
   {
@@ -4507,10 +7225,20 @@
       "villainy"
     ],
     "name": "When Has Become Now",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/245.png",
+    "art": "https://cdn.starwarsunlimited.com//06010245_EN_When_Has_Become_Now_93e17409dd.png",
     "cost": 1,
     "traits": [
       "TRICK"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Il Est Grand Temps",
+        "art": "https://cdn.starwarsunlimited.com//06010245_FR_Il_Est_Grand_Temps_4e72b6bc4c.png",
+        "traits": [
+          "ASTUCE"
+        ]
+      }
     ]
   },
   {
@@ -4523,10 +7251,20 @@
       "villainy"
     ],
     "name": "Contempt for Culture",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/246.png",
+    "art": "https://cdn.starwarsunlimited.com//06010246_EN_Contempt_for_Culture_3ef53f6a26.png",
     "cost": 2,
     "traits": [
       "INNATE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Mépris de la Culture",
+        "art": "https://cdn.starwarsunlimited.com//06010246_FR_Mepris_de_la_Culture_d1d7ccecde.png",
+        "traits": [
+          "INNÉ"
+        ]
+      }
     ]
   },
   {
@@ -4539,10 +7277,20 @@
       "villainy"
     ],
     "name": "Evil is Everywhere",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/247.png",
+    "art": "https://cdn.starwarsunlimited.com//06010247_EN_Evil_is_Everywhere_2bb9f5e409.png",
     "cost": 3,
     "traits": [
       "DISASTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Le Mal Est Partout",
+        "art": "https://cdn.starwarsunlimited.com//06010247_FR_Le_Mal_Est_Partout_7c826fd82f.png",
+        "traits": [
+          "DÉSASTRE"
+        ]
+      }
     ]
   },
   {
@@ -4556,12 +7304,24 @@
     ],
     "name": "B2EM0",
     "title": "That's Two Lies",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/248.png",
+    "art": "https://cdn.starwarsunlimited.com//06010248_EN_B2_EMO_f2ac301fe3.png",
     "cost": 1,
     "arena": "ground",
     "traits": [
       "FRINGE",
       "DROID"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "B2EMO",
+        "art": "https://cdn.starwarsunlimited.com//06010248_FR_B2_EMO_599f82d758.png",
+        "title": "Ce Sont Deux Mensonges",
+        "traits": [
+          "FRANGE",
+          "DROÏDE"
+        ]
+      }
     ]
   },
   {
@@ -4574,12 +7334,23 @@
       "heroism"
     ],
     "name": "High Command Councilor",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/249.png",
+    "art": "https://cdn.starwarsunlimited.com//06010249_EN_High_Command_Councilor_1c202f030c.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "REBEL",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Conseiller du Haut Commandement",
+        "art": "https://cdn.starwarsunlimited.com//06010249_FR_Conseiller_du_Haut_Commandement_bb6e6b0ca1.png",
+        "traits": [
+          "REBELLE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -4592,12 +7363,23 @@
       "heroism"
     ],
     "name": "Rebel Pathfinder",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/250.png",
+    "art": "https://cdn.starwarsunlimited.com//06010250_EN_Rebel_Pathfinder_9467863bbd.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "REBEL",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Arpenteur Rebelle",
+        "art": "https://cdn.starwarsunlimited.com//06010250_FR_Arpenteur_Rebelle_b92d09f97f.png",
+        "traits": [
+          "REBELLE",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -4610,12 +7392,23 @@
       "heroism"
     ],
     "name": "Crait Veteran",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/251.png",
+    "art": "https://cdn.starwarsunlimited.com//06010251_EN_Crait_Veteran_156e21926e.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "RESISTANCE",
       "TROOPER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vétéran de Crait",
+        "art": "https://cdn.starwarsunlimited.com//06010251_FR_Veteran_de_Crait_0fe3a7b246.png",
+        "traits": [
+          "RÉSISTANCE",
+          "SOLDAT"
+        ]
+      }
     ]
   },
   {
@@ -4629,11 +7422,22 @@
     ],
     "name": "Maarva Andor",
     "title": "We've Been Sleeping",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/252.png",
+    "art": "https://cdn.starwarsunlimited.com//06010252_EN_Maarva_Andor_d3bff81acb.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "REBEL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Maarva Andor",
+        "art": "https://cdn.starwarsunlimited.com//06010252_FR_Maarva_Andor_b0c06523d5.png",
+        "title": "Nous Nous Sommes Endormis",
+        "traits": [
+          "REBELLE"
+        ]
+      }
     ]
   },
   {
@@ -4646,11 +7450,21 @@
       "heroism"
     ],
     "name": "Covert Operative",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/253.png",
+    "art": "https://cdn.starwarsunlimited.com//06010253_EN_Covert_Operative_6ef10fcd61.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "REBEL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Agent Infiltré",
+        "art": "https://cdn.starwarsunlimited.com//06010253_FR_Agent_Infiltre_929b219fea.png",
+        "traits": [
+          "REBELLE"
+        ]
+      }
     ]
   },
   {
@@ -4663,13 +7477,25 @@
       "heroism"
     ],
     "name": "Heroic ARC-170",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/254.png",
+    "art": "https://cdn.starwarsunlimited.com//06010254_EN_Heroic_ARC_170_e26be11fe2.png",
     "cost": 4,
     "arena": "space",
     "traits": [
       "REPUBLIC",
       "VEHICLE",
       "FIGHTER"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "ARC-170 Héroïque",
+        "art": "https://cdn.starwarsunlimited.com//06010254_FR_ARC_170_Heroique_493d256e8c.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
     ]
   },
   {
@@ -4682,13 +7508,25 @@
       "heroism"
     ],
     "name": "Remote Escort Tank",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/255.png",
+    "art": "https://cdn.starwarsunlimited.com//06010255_EN_Remote_Escort_Tank_cb9d3a2cb7.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "VEHICLE",
       "TANK"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Tank d'Escorte Isolé",
+        "art": "https://cdn.starwarsunlimited.com//06010255_FR_Tank_d_Escorte_Isole_2c4bb0945e.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "TANK"
+        ]
+      }
     ]
   },
   {
@@ -4701,10 +7539,20 @@
       "heroism"
     ],
     "name": "Moral Authority",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/256.png",
+    "art": "https://cdn.starwarsunlimited.com//06010256_EN_Moral_Authority_764b5965f8.png",
     "cost": 3,
     "traits": [
       "INNATE"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Autorité Morale",
+        "art": "https://cdn.starwarsunlimited.com//06010256_FR_Autorite_Morale_130485f7cc.png",
+        "traits": [
+          "INNÉ"
+        ]
+      }
     ]
   },
   {
@@ -4717,10 +7565,20 @@
       "heroism"
     ],
     "name": "Restore Freedom",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/257.png",
+    "art": "https://cdn.starwarsunlimited.com//06010257_EN_Restore_Freedom_16e8fc35ca.png",
     "cost": 2,
     "traits": [
       "GAMBIT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Restaurer la Liberté",
+        "art": "https://cdn.starwarsunlimited.com//06010257_FR_Restaurer_la_Liberte_875cbabc81.png",
+        "traits": [
+          "GAMBIT"
+        ]
+      }
     ]
   },
   {
@@ -4733,10 +7591,20 @@
       "heroism"
     ],
     "name": "Grassroots Resistance",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/258.png",
+    "art": "https://cdn.starwarsunlimited.com//06010258_EN_Grassroots_Resistance_decd35da48.png",
     "cost": 4,
     "traits": [
       "TACTIC"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Résistance Communautaire",
+        "art": "https://cdn.starwarsunlimited.com//06010258_FR_Resistance_Communautaire_fb4e766b7c.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
     ]
   },
   {
@@ -4747,11 +7615,21 @@
     "rarity": "common",
     "aspects": [],
     "name": "ASP Laborer",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/259.png",
+    "art": "https://cdn.starwarsunlimited.com//06010259_EN_ASP_Laborer_bd4dc2dd73.png",
     "cost": 2,
     "arena": "ground",
     "traits": [
       "DROID"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Ouvrier ASP",
+        "art": "https://cdn.starwarsunlimited.com//06010259_FR_Ouvrier_ASP_1084bc253b.png",
+        "traits": [
+          "DROÏDE"
+        ]
+      }
     ]
   },
   {
@@ -4762,13 +7640,25 @@
     "rarity": "common",
     "aspects": [],
     "name": "Inspector's Shuttle",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/260.png",
+    "art": "https://cdn.starwarsunlimited.com//06010260_EN_Inspector_s_Shuttle_94b6dcaeee.png",
     "cost": 2,
     "arena": "space",
     "traits": [
       "REPUBLIC",
       "VEHICLE",
       "TRANSPORT"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Navette de l'Inspecteur",
+        "art": "https://cdn.starwarsunlimited.com//06010260_FR_Navette_de_l_Inspecteur_8e7d4bf7c9.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
     ]
   },
   {
@@ -4779,12 +7669,23 @@
     "rarity": "common",
     "aspects": [],
     "name": "Inspiring Senator",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/261.png",
+    "art": "https://cdn.starwarsunlimited.com//06010261_EN_Inspiring_Senator_f1bd384b1f.png",
     "cost": 3,
     "arena": "ground",
     "traits": [
       "REPUBLIC",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sénatrice Inspirante",
+        "art": "https://cdn.starwarsunlimited.com//06010261_FR_Senatrice_Inspirante_85a000b25b.png",
+        "traits": [
+          "RÉPUBLIQUE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -4795,12 +7696,23 @@
     "rarity": "common",
     "aspects": [],
     "name": "Ando Commission",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/262.png",
+    "art": "https://cdn.starwarsunlimited.com//06010262_EN_Ando_Commission_a20791c2db.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
       "SEPARATIST",
       "OFFICIAL"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Commission d'Ando",
+        "art": "https://cdn.starwarsunlimited.com//06010262_FR_Commission_d_Ando_085bd3b660.png",
+        "traits": [
+          "SÉPARATISTE",
+          "OFFICIEL"
+        ]
+      }
     ]
   },
   {
@@ -4811,12 +7723,23 @@
     "rarity": "common",
     "aspects": [],
     "name": "Assassin Probe",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/263.png",
+    "art": "https://cdn.starwarsunlimited.com//06010263_EN_Assassin_Probe_faaf89d6c3.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
       "SEPARATIST",
       "DROID"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sonde Assassin",
+        "art": "https://cdn.starwarsunlimited.com//06010263_FR_Sonde_Assassin_e5a03d24f8.png",
+        "traits": [
+          "SÉPARATISTE",
+          "DROÏDE"
+        ]
+      }
     ]
   },
   {
@@ -4827,10 +7750,20 @@
     "rarity": "common",
     "aspects": [],
     "name": "Clandestine Connections",
-    "art": "https://cdn.swu-db.com/images/cards/SEC/264.png",
+    "art": "https://cdn.starwarsunlimited.com//06010264_EN_Clandestine_Connections_5fb4f7ad39.png",
     "cost": 2,
     "traits": [
       "SUPPLY"
+    ],
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Connexions Clandestines",
+        "art": "https://cdn.starwarsunlimited.com//06010264_FR_Connexions_Clandestines_1bd3463305.png",
+        "traits": [
+          "RÉSERVE"
+        ]
+      }
     ]
   }
 ]

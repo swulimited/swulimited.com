@@ -32,7 +32,37 @@ interface Card extends BoosterCard {
 }
 const route = useRoute()
 const router = useRouter()
-const { t } = useI18n()
+const { t, locale } = useI18n()
+
+const getCardArt = (card: Card | BoosterCard) => {
+  if (card.localization) {
+    const loc = card.localization.find(l => l.locale === locale.value)
+    if (loc && loc.art) {
+      return loc.art
+    }
+  }
+  return card.art
+}
+
+const getCardName = (card: Card | BoosterCard) => {
+  if (card.localization) {
+    const loc = card.localization.find(l => l.locale === locale.value)
+    if (loc && loc.name) {
+      return loc.name
+    }
+  }
+  return card.name
+}
+
+const getCardTraits = (card: Card | BoosterCard) => {
+  if (card.localization) {
+    const loc = card.localization.find(l => l.locale === locale.value)
+    if (loc && loc.traits) {
+      return loc.traits
+    }
+  }
+  return card.traits
+}
 const packConfig = computed(() => (route.params.id as string).toUpperCase())
 
 // 1. Determine the seed from the route param
@@ -409,8 +439,9 @@ const traitStats = computed(() => {
   const traits = new Map<string, number>()
 
   selected.forEach(card => {
-    if (card.traits) {
-      card.traits.forEach((trait: string) => {
+    const cardTraits = getCardTraits(card)
+    if (cardTraits) {
+      cardTraits.forEach((trait: string) => {
         traits.set(trait, (traits.get(trait) || 0) + 1)
       })
     }
@@ -734,7 +765,7 @@ onUnmounted(() => {
               <div v-if="selectedLeader" key="leader-img"
                 class="cursor-pointer w-full h-full flex justify-center items-center"
                 @mouseenter="showPopup(selectedLeader, $event)" @mouseleave="hidePopup">
-                <img :src="selectedLeader.art" :alt="selectedLeader.name"
+                <img :src="getCardArt(selectedLeader)" :alt="getCardName(selectedLeader)"
                   class="w-full h-auto max-h-full object-contain rounded-lg shadow-md border border-swu-primary/30" />
               </div>
               <div v-else key="leader-placeholder"
@@ -752,7 +783,7 @@ onUnmounted(() => {
               <div v-if="selectedBase" key="base-img"
                 class="cursor-pointer w-full h-full flex justify-center items-center"
                 @mouseenter="showPopup(selectedBase, $event)" @mouseleave="hidePopup">
-                <img :src="selectedBase.art" :alt="selectedBase.name"
+                <img :src="getCardArt(selectedBase)" :alt="getCardName(selectedBase)"
                   class="w-full h-auto max-h-full object-contain rounded-lg shadow-md border border-swu-primary/30" />
               </div>
               <div v-else key="base-placeholder"
@@ -782,14 +813,15 @@ onUnmounted(() => {
               @mouseleave="hidePopup">
               <div class="flex items-center gap-3 overflow-hidden flex-1 min-w-0">
                 <span class="truncate text-sm font-medium">
-                  {{ group.card.name }} <span v-if="group.count > 1" class="text-gray-500 ml-1">x{{ group.count
-                    }}</span>
+                  {{ getCardName(group.card) }} <span v-if="group.count > 1" class="text-gray-500 ml-1">x{{ group.count
+                  }}</span>
                 </span>
               </div>
 
               <div class="flex items-center gap-1 flex-shrink-0 ml-2">
                 <div v-for="aspect in group.card.aspects" :key="aspect" :title="$t(`aspect_${aspect}`)">
-                  <img :src="`/images/aspect-${aspect}.png`" :alt="$t(`aspect_${aspect}`)" class="w-6 h-6 object-contain" />
+                  <img :src="`/images/aspect-${aspect}.png`" :alt="$t(`aspect_${aspect}`)"
+                    class="w-6 h-6 object-contain" />
                 </div>
               </div>
             </div>
@@ -814,12 +846,13 @@ onUnmounted(() => {
                   : 'text-gray-400 hover:bg-white/5 hover:text-white hover:border-white/10'
               ]" @click="toggleBase(card.uniqueId)" @mouseenter="showPopup(card, $event)" @mouseleave="hidePopup">
               <div class="flex items-center gap-3 overflow-hidden flex-1 min-w-0">
-                <span class="truncate text-sm font-medium">{{ card.name }}</span>
+                <span class="truncate text-sm font-medium">{{ getCardName(card) }}</span>
               </div>
 
               <div class="flex items-center gap-1 flex-shrink-0 ml-2">
                 <div v-for="aspect in card.aspects" :key="aspect" :title="$t(`aspect_${aspect}`)">
-                  <img :src="`/images/aspect-${aspect}.png`" :alt="$t(`aspect_${aspect}`)" class="w-6 h-6 object-contain" />
+                  <img :src="`/images/aspect-${aspect}.png`" :alt="$t(`aspect_${aspect}`)"
+                    class="w-6 h-6 object-contain" />
                 </div>
               </div>
             </div>
@@ -935,7 +968,7 @@ onUnmounted(() => {
                 : 'opacity-40 grayscale',
               (selectedLeaderId && selectedBaseId) ? 'cursor-pointer' : 'cursor-not-allowed'
             ]" @mouseenter="showPopup(card, $event)" @mouseleave="hidePopup" @click="toggleCard(card.uniqueId)">
-            <img :src="card.art" :alt="card.name" loading="lazy" class="w-full h-full object-cover" />
+            <img :src="getCardArt(card)" :alt="getCardName(card)" loading="lazy" class="w-full h-full object-cover" />
           </div>
         </div>
         <div v-else class="text-center text-slate-400 py-20 flex flex-col items-center">
@@ -950,7 +983,7 @@ onUnmounted(() => {
       :style="{ top: `${popupPosition.top}px`, left: `${popupPosition.left}px` }">
       <div
         class="relative shadow-2xl rounded-2xl overflow-hidden border border-swu-primary/30 bg-swu-900 elevation-high">
-        <img :src="hoveredCard.art" :alt="hoveredCard.name" class="object-contain"
+        <img :src="getCardArt(hoveredCard)" :alt="getCardName(hoveredCard)" class="object-contain"
           :style="{ width: `${popupPosition.width}px`, height: `${popupPosition.height}px` }" />
       </div>
     </div>
@@ -1008,7 +1041,8 @@ onUnmounted(() => {
                   <div v-for="[aspect, count] in aspectStats" :key="aspect"
                     class="flex items-center justify-between p-2 rounded-lg bg-white/5 border border-white/5 hover:bg-white/10 transition-colors select-none cursor-default">
                     <div class="flex items-center gap-3">
-                      <img :src="`/images/aspect-${aspect}.png`" :alt="$t(`aspect_${aspect}`)" class="w-6 h-6 object-contain" />
+                      <img :src="`/images/aspect-${aspect}.png`" :alt="$t(`aspect_${aspect}`)"
+                        class="w-6 h-6 object-contain" />
                       <span class="text-sm font-medium capitalize text-gray-200">{{ $t(`aspect_${aspect}`) }}</span>
                     </div>
                     <span class="text-sm font-bold text-swu-primary">{{ count }}</span>
@@ -1052,7 +1086,7 @@ onUnmounted(() => {
                 <div v-if="index < revealedCount" key="image"
                   class="absolute inset-0 w-full h-full group cursor-pointer" @mouseenter="showPopup(card, $event)"
                   @mouseleave="hidePopup">
-                  <img :src="card.art" :alt="card.name" class="w-full h-full object-cover" />
+                  <img :src="getCardArt(card)" :alt="getCardName(card)" class="w-full h-full object-cover" />
                 </div>
                 <div v-else key="skeleton" class="absolute inset-0 w-full h-full bg-swu-800/50 animate-pulse"></div>
               </Transition>
