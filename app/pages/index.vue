@@ -63,7 +63,7 @@ const startCustomEvent = () => {
               class="relative w-full h-auto rounded-xl shadow-2xl border border-white/10" />
             <div
               class="absolute inset-x-0 -bottom-8 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <span class="text-swu-primary font-bold text-sm tracking-widest uppercase">{{ $t('open_6_packs') }}</span>
+              <span class="text-swu-primary font-bold text-xs tracking-widest uppercase">{{ $t('open_6_packs') }}</span>
             </div>
           </NuxtLink>
 
@@ -76,7 +76,7 @@ const startCustomEvent = () => {
               class="relative w-full h-auto rounded-xl shadow-2xl border border-white/10" />
             <div
               class="absolute inset-x-0 -bottom-8 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <span class="text-swu-accent font-bold text-sm tracking-widest uppercase">{{ $t('open_6_packs') }}</span>
+              <span class="text-swu-accent font-bold text-xs tracking-widest uppercase">{{ $t('open_6_packs') }}</span>
             </div>
           </NuxtLink>
         </div>
@@ -124,7 +124,8 @@ const startCustomEvent = () => {
                     class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-3.5 h-3.5 text-white opacity-0 peer-checked:opacity-100 transition-opacity pointer-events-none"
                     stroke-width="3" />
                 </div>
-                <span class="ml-3 text-sm text-gray-400 group-hover:text-gray-300 transition-colors select-none">{{ $t('include_spotlight_leaders') }}</span>
+                <span class="ml-3 text-sm text-gray-400 group-hover:text-gray-300 transition-colors select-none">{{
+                  $t('include_spotlight_leaders') }}</span>
               </label>
             </div>
           </div>
