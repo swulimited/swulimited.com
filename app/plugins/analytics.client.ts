@@ -1,16 +1,25 @@
 export default defineNuxtPlugin(() => {
     const config = useRuntimeConfig()
     const measurementId = config.public.googleAnalyticsId
+    const router = useRouter()
 
-    const gtag = (...args: any[]) => {
+    // Standard gtag implementation
+    const gtag = function (...args: any[]) {
         if (!import.meta.client) return
+
+        // Check consent
         const consent = localStorage.getItem('cookie_consent')
         if (consent !== 'true') return
 
         window.dataLayer = window.dataLayer || []
-        window.dataLayer.push(args)
+        window.dataLayer.push(arguments)
     }
 
+    // Initialize globally if in client
+    if (import.meta.client) {
+        window.dataLayer = window.dataLayer || []
+        window.gtag = gtag as any
+    }
 
     const enableAnalytics = () => {
         if (!measurementId || measurementId === 'G-MEASUREMENT_ID') {
@@ -18,29 +27,49 @@ export default defineNuxtPlugin(() => {
             return
         }
 
-        if (document.getElementById('ga-script')) return
+        if (document.getElementById('ga-script')) {
+            // If already loaded, just make sure we trigger a config for current page
+            gtag("config", measurementId, {
+                page_path: router.currentRoute.value.fullPath,
+                page_title: document.title
+            })
+            return
+        }
 
-        window.dataLayer = window.dataLayer || [];
-        gtag("js", new Date());
-        gtag("config", measurementId);
+        // Initialize and load script
+        gtag("js", new Date())
+        gtag("config", measurementId, {
+            page_path: router.currentRoute.value.fullPath,
+            page_title: document.title
+        })
 
-        useHead({
-            script: [
-                {
-                    id: 'ga-script',
-                    src: `https://www.googletagmanager.com/gtag/js?id=${measurementId}`,
-                    async: true,
-                },
-            ],
-        });
+        const script = document.createElement('script')
+        script.id = 'ga-script'
+        script.async = true
+        script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`
+        document.head.appendChild(script)
+
         console.log('Google Analytics initialized with ID:', measurementId)
     }
 
+    // Handle initial load
     if (import.meta.client) {
         const consent = localStorage.getItem('cookie_consent')
         if (consent === 'true') {
             enableAnalytics()
         }
+
+        // Track route changes
+        router.afterEach(async (to) => {
+            await nextTick()
+            const consent = localStorage.getItem('cookie_consent')
+            if (consent === 'true') {
+                gtag('config', measurementId, {
+                    page_path: to.fullPath,
+                    page_title: document.title
+                })
+            }
+        })
     }
 
     return {
