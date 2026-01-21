@@ -9,6 +9,11 @@ watch(() => route.path, () => {
 })
 
 const { $trackEvent } = useNuxtApp()
+
+const changeLanguage = (newLocale: 'en' | 'fr') => {
+  setLocale(newLocale)
+  $trackEvent('change_language', { lang: newLocale })
+}
 </script>
 
 <template>
@@ -54,10 +59,10 @@ const { $trackEvent } = useNuxtApp()
 
             <!-- Language Switcher Desktop -->
             <div class="flex items-center gap-2 border-l border-swu-primary/20 pl-4 h-8">
-              <button @click="setLocale('en')" class="text-xs font-bold transition-colors"
+              <button @click="changeLanguage('en')" class="text-xs font-bold transition-colors"
                 :class="locale === 'en' ? 'text-swu-primary' : 'text-slate-500 hover:text-slate-300'">EN</button>
               <span class="text-slate-600 text-xs">|</span>
-              <button @click="setLocale('fr')" class="text-xs font-bold transition-colors"
+              <button @click="changeLanguage('fr')" class="text-xs font-bold transition-colors"
                 :class="locale === 'fr' ? 'text-swu-primary' : 'text-slate-500 hover:text-slate-300'">FR</button>
             </div>
           </nav>
@@ -107,9 +112,9 @@ const { $trackEvent } = useNuxtApp()
             <div class="flex items-center gap-4 p-3 border-t border-swu-primary/10 mt-2">
               <span class="text-sm text-slate-400">Language:</span>
               <div class="flex items-center gap-3">
-                <button @click="setLocale('en')" class="text-sm font-bold px-2 py-1 rounded"
+                <button @click="changeLanguage('en')" class="text-sm font-bold px-2 py-1 rounded"
                   :class="locale === 'en' ? 'bg-swu-primary/20 text-swu-primary' : 'text-slate-400'">English</button>
-                <button @click="setLocale('fr')" class="text-sm font-bold px-2 py-1 rounded"
+                <button @click="changeLanguage('fr')" class="text-sm font-bold px-2 py-1 rounded"
                   :class="locale === 'fr' ? 'bg-swu-primary/20 text-swu-primary' : 'text-slate-400'">Français</button>
               </div>
             </div>
