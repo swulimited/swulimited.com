@@ -33,6 +33,7 @@ interface Card extends BoosterCard {
 const route = useRoute()
 const router = useRouter()
 const { t, locale } = useI18n()
+const { $trackEvent } = useNuxtApp()
 
 const getCardArt = (card: Card | BoosterCard) => {
   if (card.localization) {
@@ -92,6 +93,7 @@ const { data: rawCards, error, status } = await useAsyncData(
 )
 
 const regeneratePool = () => {
+  $trackEvent('new_pool', { type: 'reroll', set: packConfig.value })
   const newSeed = Math.random().toString(36).substring(7)
   router.push(`/sets/${packConfig.value}/${newSeed}`)
   resetOptions()
@@ -313,6 +315,7 @@ watch(cards, (newCards) => {
 const isCopied = ref(false)
 
 const copyDeck = async () => {
+  $trackEvent('copy_deck')
   if (!selectedLeader.value || !selectedBase.value) return
 
   const deckName = `${selectedLeader.value.name} - ${selectedBase.value.name}`
@@ -361,6 +364,7 @@ const copyDeck = async () => {
 const isPoolLinkCopied = ref(false)
 
 const copyPoolLink = async () => {
+  $trackEvent('copy_pool')
   try {
     await navigator.clipboard.writeText(window.location.href)
     isPoolLinkCopied.value = true

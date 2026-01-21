@@ -11,6 +11,7 @@ useSeoMeta({
 })
 
 const router = useRouter()
+const { $trackEvent } = useNuxtApp()
 
 const availableSets = ref([
   { code: 'LOF', count: 0 },
@@ -22,6 +23,7 @@ const includeSpotlightLeaders = ref(false)
 const totalPacks = computed(() => availableSets.value.reduce((acc, s) => acc + s.count, 0))
 
 const startCustomEvent = () => {
+  $trackEvent('new_pool', { type: 'custom' })
   const activeSets = availableSets.value.filter(s => s.count > 0)
 
   // If a single set is selected with exactly 6 boosters AND spotlight leaders are NOT included, redirect to the standard pool URL
@@ -55,6 +57,7 @@ const startCustomEvent = () => {
         <h2 class="text-sm font-bold text-gray-500 uppercase tracking-widest mb-8">{{ $t('std_pool') }}</h2>
         <div class="grid grid-cols-2 gap-4 sm:flex sm:flex-row sm:gap-6 md:gap-8 items-center justify-center">
           <NuxtLink to="/sets/LOF"
+            @click="$trackEvent('new_pool', { type: 'standard', set: 'LOF' })"
             class="group relative block w-full sm:w-28 md:w-40 transition-all duration-300 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-swu-primary/50 rounded-xl">
             <div
               class="absolute -inset-0.5 bg-swu-primary rounded-xl opacity-0 group-hover:opacity-75 blur transition duration-300">
@@ -68,6 +71,7 @@ const startCustomEvent = () => {
           </NuxtLink>
 
           <NuxtLink to="/sets/SEC"
+            @click="$trackEvent('new_pool', { type: 'standard', set: 'SEC' })"
             class="group relative block w-full sm:w-28 md:w-40 transition-all duration-300 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-swu-accent/50 rounded-xl">
             <div
               class="absolute -inset-0.5 bg-swu-accent rounded-xl opacity-0 group-hover:opacity-75 blur transition duration-300">

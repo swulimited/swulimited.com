@@ -7,6 +7,8 @@ const { locale, setLocale } = useI18n()
 watch(() => route.path, () => {
   isMobileMenuOpen.value = false
 })
+
+const { $trackEvent } = useNuxtApp()
 </script>
 
 <template>
@@ -31,14 +33,18 @@ watch(() => route.path, () => {
           <!-- Desktop Navigation -->
           <nav class="hidden md:flex gap-4 items-center">
 
-            <NuxtLink to="/sets/LOF" class="rounded-md px-2 py-1 transition-all duration-300" :class="[
+            <NuxtLink to="/sets/LOF"
+              @click="$trackEvent('new_pool', { type: 'standard', set: 'LOF', location: 'header' })"
+              class="rounded-md px-2 py-1 transition-all duration-300" :class="[
               route.path.includes('/sets/LOF') || (route.params.id as string)?.includes('LOF-')
                 ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
                 : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
             ]">
               <img src="/images/LOF-logo.png" alt="Legends of the Force" class="h-8 w-auto" />
             </NuxtLink>
-            <NuxtLink to="/sets/SEC" class="rounded-md px-2 py-1 transition-all duration-300" :class="[
+            <NuxtLink to="/sets/SEC"
+              @click="$trackEvent('new_pool', { type: 'standard', set: 'SEC', location: 'header' })"
+              class="rounded-md px-2 py-1 transition-all duration-300" :class="[
               route.path.includes('/sets/SEC') || (route.params.id as string)?.includes('SEC-')
                 ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
                 : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
@@ -85,11 +91,13 @@ watch(() => route.path, () => {
         <div v-if="isMobileMenuOpen" class="md:hidden border-t border-swu-primary/10 bg-swu-950/95 backdrop-blur-xl">
           <div class="space-y-1 px-4 pb-3 pt-2">
             <NuxtLink to="/sets/LOF"
+              @click="$trackEvent('new_pool', { type: 'standard', set: 'LOF', location: 'header_mobile' })"
               class="flex items-center gap-3 p-3 rounded-lg hover:bg-swu-primary/10 transition-colors"
               :class="route.path.includes('/sets/LOF') || (route.params.id as string)?.includes('LOF-') ? 'bg-swu-primary/10 ring-1 ring-swu-primary/50' : ''">
               <img src="/images/LOF-logo.png" alt="Legends of the Force" class="h-8 w-auto" />
             </NuxtLink>
             <NuxtLink to="/sets/SEC"
+              @click="$trackEvent('new_pool', { type: 'standard', set: 'SEC', location: 'header_mobile' })"
               class="flex items-center gap-3 p-3 rounded-lg hover:bg-swu-primary/10 transition-colors"
               :class="route.path.includes('/sets/SEC') || (route.params.id as string)?.includes('SEC-') ? 'bg-swu-primary/10 ring-1 ring-swu-primary/50' : ''">
               <img src="/images/SEC-logo.png" alt="Secrets of Power" class="h-8 w-auto" />

@@ -2,6 +2,16 @@ export default defineNuxtPlugin(() => {
     const config = useRuntimeConfig()
     const measurementId = config.public.googleAnalyticsId
 
+    const gtag = (...args: any[]) => {
+        if (!import.meta.client) return
+        const consent = localStorage.getItem('cookie_consent')
+        if (consent !== 'true') return
+
+        window.dataLayer = window.dataLayer || []
+        window.dataLayer.push(args)
+    }
+
+
     const enableAnalytics = () => {
         if (!measurementId || measurementId === 'G-MEASUREMENT_ID') {
             console.warn('Google Analytics Measurement ID not set or is placeholder.')
@@ -10,21 +20,16 @@ export default defineNuxtPlugin(() => {
 
         if (document.getElementById('ga-script')) return
 
-        const { googleAnalyticsId } = useRuntimeConfig().public;
-        function gtag() {
-            window.dataLayer.push(arguments);
-        }
-
         window.dataLayer = window.dataLayer || [];
-
         gtag("js", new Date());
-        gtag("config", googleAnalyticsId);
+        gtag("config", measurementId);
 
         useHead({
             script: [
                 {
-                src: `https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`,
-                async: true,
+                    id: 'ga-script',
+                    src: `https://www.googletagmanager.com/gtag/js?id=${measurementId}`,
+                    async: true,
                 },
             ],
         });
@@ -40,7 +45,10 @@ export default defineNuxtPlugin(() => {
 
     return {
         provide: {
-            enableAnalytics
+            enableAnalytics,
+            trackEvent: (name: string, params?: any) => {
+                gtag('event', name, params)
+            }
         }
     }
 })
@@ -51,3 +59,4 @@ declare global {
         gtag: (...args: any[]) => void
     }
 }
+
