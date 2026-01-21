@@ -734,7 +734,7 @@ onUnmounted(() => {
     <!-- Permanent Sidebar: Leaders & Bases -->
     <aside class="md:w-80 flex-shrink-0 relative mt-5">
       <div @scroll.passive="handleScroll"
-        class="sticky top-[5.5rem] max-h-[calc(100vh-5.5rem)] overflow-y-auto bg-swu-900/50 backdrop-blur-sm rounded-xl border border-swu-primary/20 p-4 shadow-lg custom-scrollbar">
+        class="md:sticky md:top-[5.5rem] md:max-h-[calc(100vh-5.5rem)] md:overflow-y-auto bg-swu-900/50 backdrop-blur-sm rounded-xl border border-swu-primary/20 p-4 shadow-lg custom-scrollbar">
 
 
         <!-- Reroll & Copy Section -->
