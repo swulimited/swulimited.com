@@ -93,7 +93,7 @@ const { data: rawCards, error, status } = await useAsyncData(
 )
 
 const regeneratePool = () => {
-  $trackEvent('new_pool', { type: 'reroll', set: packConfig.value })
+  $trackEvent('new_pool', { pool: 'reroll', set: packConfig.value })
   const newSeed = Math.random().toString(36).substring(7)
   router.push(`/sets/${packConfig.value}/${newSeed}`)
   resetOptions()
