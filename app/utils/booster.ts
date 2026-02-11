@@ -1,6 +1,6 @@
 import seedrandom from 'seedrandom';
 
-export type CardSet = 'LOF' | 'SEC';
+export type CardSet = 'LOF' | 'SEC' | 'LAW';
 
 export type CardType = 'leader' | 'base' | 'unit' | 'upgrade' | 'event' | 'token';
 
@@ -56,7 +56,8 @@ export async function fetchSetCards(setId: string): Promise<Card[]> {
 
 const EXCLUDED_LEADER_IDS = new Set([
     'LOF-009', 'LOF-016',
-    'SEC-001', 'SEC-016'
+    'SEC-001', 'SEC-016',
+    'LAW-010', 'LAW-015'
 ]);
 
 /**
@@ -84,6 +85,7 @@ export function generateBoosterPack(allCards: Card[], rng: seedrandom.PRNG): Car
     // 2. Exclude starter leaders
     const availableCards = allCards.filter(c =>
         c.type !== 'token' &&
+        !(c.type === 'leader' && c.rarity === 'special') &&
         !EXCLUDED_LEADER_IDS.has(c.id)
     );
 

@@ -15,6 +15,15 @@ skip this attribute instead of setting the value to `null`.
 Enum values:
 - LOF
 - SEC
+- LAW
+
+Each set has a fixed number of cards:
+- LOF: 264 cards
+- SEC: 264 cards
+- LAW: 264 cards
+
+When retrieving cards from a set don't consider ids higher than the number of cards.
+For example, don't add LAW-774 to the database because the id is higher than 264.
 
 # Card type
 
@@ -98,6 +107,7 @@ You will never find a Leader in the final slot.
 Leaders from the spotlight decks are excluded from regular booster packs:
 - for LOF: LOF-009 and LOF-016
 - for SEC: SEC-001 and SEC-016
+- for LAW: LAW-010 and LAW-015
 You can never find those leaders in booters packs, unless you explicitely choose to do so.
 
 # Card database
