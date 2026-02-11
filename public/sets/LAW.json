@@ -1,0 +1,4558 @@
+[
+  {
+    "id": "LAW-001",
+    "set": "LAW",
+    "number": 1,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "aggression"
+    ],
+    "name": "Saw Gerrera",
+    "title": "Bring Down the Empire",
+    "traits": [
+      "REBEL"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010001_EN_Saw_Gerrera_Leader_0c35c7027d.png",
+    "cost": 6,
+    "hp": 7,
+    "arena": "ground",
+    "power": 4
+  },
+  {
+    "id": "LAW-003",
+    "set": "LAW",
+    "number": 3,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Agent Kallus",
+    "title": "Reconsider Your Allegiance",
+    "traits": [
+      "IMPERIAL",
+      "TROOPER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010003_EN_Agent_Kallus_Leader_670494a334.png",
+    "cost": 5,
+    "hp": 6,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Agent Kallus",
+        "title": "Reconsidérez Votre Allégeance",
+        "art": "https://cdn.starwarsunlimited.com//card_07010003_FR_Agent_Kallus_Leader_d71a559103.png",
+        "traits": [
+          "IMPÉRIAL",
+          "SOLDAT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-005",
+    "set": "LAW",
+    "number": 5,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Jyn Erso",
+    "title": "Time to Fight",
+    "traits": [
+      "REBEL"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010005_EN_Jyn_Erso_Leader_3e6b635e8f.png",
+    "cost": 5,
+    "hp": 6,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Jyn Erso",
+        "title": "L'Heure De Se Battre",
+        "art": "https://cdn.starwarsunlimited.com//card_07010005_FR_Jyn_Erso_Leader_f53d0ddb05.png",
+        "traits": [
+          "REBELLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-006",
+    "set": "LAW",
+    "number": 6,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Vel Sartha",
+    "title": "Aldhani Insurgent",
+    "traits": [
+      "REBEL"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010006_EN_Vel_Sartha_Leader_5de37f2898.png",
+    "cost": 6,
+    "hp": 7,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vel Sartha",
+        "title": "Insurgée D'Aldhani<Return>",
+        "art": "https://cdn.starwarsunlimited.com//card_07010006_FR_Vel_Sartha_Leader_bec7fbb73a.png",
+        "traits": [
+          "REBELLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-008",
+    "set": "LAW",
+    "number": 8,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Director Krennic",
+    "title": "Amidst My Achievement",
+    "traits": [
+      "IMPERIAL",
+      "OFFICIAL"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010008_EN_Director_Krennic_Leader_c2ef2c962c.png",
+    "cost": 7,
+    "hp": 9,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Directeur Krennic",
+        "title": "Au Milieu De Sa Réussite",
+        "art": "https://cdn.starwarsunlimited.com//card_07010008_FR_Directeur_Krennic_Leader_8571e35ebf.png",
+        "traits": [
+          "IMPÉRIAL",
+          "OFFICIEL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-009",
+    "set": "LAW",
+    "number": 9,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Hera Syndulla",
+    "title": "Not Fighting Alone",
+    "traits": [
+      "REBEL",
+      "TWI'LEK",
+      "SPECTRE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010009_EN_Hera_Syndulla_Leader_d39524ea47.png",
+    "cost": 5,
+    "hp": 6,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Hera Syndulla",
+        "title": "Ne Se Bat Pas Seule",
+        "art": "https://cdn.starwarsunlimited.com//card_07010009_FR_Hera_Syndulla_Leader_df66bc5ed4.png",
+        "traits": [
+          "REBELLE",
+          "TWI'LEK",
+          "SPECTRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-010",
+    "set": "LAW",
+    "number": 10,
+    "type": "leader",
+    "rarity": "special",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Leia Organa",
+    "title": "Someone Who Loves You",
+    "traits": [
+      "REBEL"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010010_EN_Leia_Organa_Leader_59b292c609.png",
+    "cost": 5,
+    "hp": 2,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Leia Organa",
+        "title": "Quelqu'Un Qui Vous Aime",
+        "art": "https://cdn.starwarsunlimited.com//card_07010010_FR_Leia_Organa_Leader_cd7dd8f4b0.png",
+        "traits": [
+          "REBELLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-011",
+    "set": "LAW",
+    "number": 11,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Darth Vader",
+    "title": "Unstoppable",
+    "traits": [
+      "FORCE",
+      "IMPERIAL",
+      "SITH"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010011_EN_Darth_Vader_Leader_efb1dc8609.png",
+    "cost": 7,
+    "hp": 8,
+    "arena": "ground",
+    "power": 6,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dark Vador",
+        "title": "Inarrêtable",
+        "art": "https://cdn.starwarsunlimited.com//card_07010011_FR_Dark_Vador_Leader_36b74203a8.png",
+        "traits": [
+          "FORCE",
+          "IMPÉRIAL",
+          "SITH"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-012",
+    "set": "LAW",
+    "number": 12,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Sebulba",
+    "title": "Especially Dangerous Dug",
+    "traits": [
+      "FRINGE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010012_EN_Sebulba_Leader_34385b6c3f.png",
+    "cost": 4,
+    "hp": 5,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sebulba",
+        "title": "Dug Particulièrement Dangereux",
+        "art": "https://cdn.starwarsunlimited.com//card_07010012_FR_Sebulba_Leader_defbd9369a.png",
+        "traits": [
+          "FRANGE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-014",
+    "set": "LAW",
+    "number": 14,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Enfys Nest",
+    "title": "Until We Can Go No Higher",
+    "traits": [
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010014_EN_Enfys_Nest_Leader_b8ba9f5f03.png",
+    "cost": 5,
+    "hp": 7,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Enfys Nest",
+        "title": "Ne Plus Pouvoir Aller Plus Haut",
+        "art": "https://cdn.starwarsunlimited.com//card_07010014_FR_Enfys_Nest_Leader_607a0af75c.png",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-015",
+    "set": "LAW",
+    "number": 15,
+    "type": "leader",
+    "rarity": "special",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Jabba the Hutt",
+    "title": "Crime Boss",
+    "traits": [
+      "UNDERWORLD",
+      "HUTT"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010015_EN_Jabba_the_Hutt_Leader_31571c871f.png",
+    "cost": 6,
+    "hp": 9,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Jabba le Hutt",
+        "title": "Parrain Du Crime",
+        "art": "https://cdn.starwarsunlimited.com//card_07010015_FR_Jabba_le_Hutt_Leader_c929a6c76f.png",
+        "traits": [
+          "PÈGRE",
+          "HUTT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-016",
+    "set": "LAW",
+    "number": 16,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "The Client",
+    "title": "Please Lower Your Blaster",
+    "traits": [
+      "IMPERIAL",
+      "OFFICIAL"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010016_EN_The_Client_Leader_53c179d22e.png",
+    "cost": 5,
+    "hp": 4,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Le Client",
+        "title": "S'Il Vous Plait, Baissez Votre Blaster",
+        "art": "https://cdn.starwarsunlimited.com//card_07010016_FR_Le_Client_Leader_a8b10bba8d.png",
+        "traits": [
+          "IMPÉRIAL",
+          "OFFICIEL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-017",
+    "set": "LAW",
+    "number": 17,
+    "type": "leader",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Han Solo",
+    "title": "I Got a Really Good Feeling",
+    "traits": [
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010017_EN_Han_Solo_Leader_3b3eb2cf07.png",
+    "cost": 5,
+    "hp": 5,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Han Solo",
+        "title": "J'Ai Un Vraiment Bon Pressentiment",
+        "art": "https://cdn.starwarsunlimited.com//card_07010017_FR_Han_Solo_Leader_1ae63f336f.png",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-018",
+    "set": "LAW",
+    "number": 18,
+    "type": "leader",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Lando Calrissian",
+    "title": "Full Sabacc",
+    "traits": [
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010018_EN_Lando_Calrissian_Leader_6d754de495.png",
+    "cost": 6,
+    "hp": 7,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Lando Calrissian",
+        "title": "« Full Sabacc »",
+        "art": "https://cdn.starwarsunlimited.com//card_07010018_FR_Lando_Calrissian_Leader_fe418bf516.png",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-019",
+    "set": "LAW",
+    "number": 19,
+    "type": "base",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Alliance Outpost",
+    "art": "https://cdn.starwarsunlimited.com//card_07010019_EN_Alliance_Outpost_Base_c7a5172a6f.png",
+    "hp": 26,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Avant-Poste de l'Alliance",
+        "art": "https://cdn.starwarsunlimited.com//card_07010019_FR_Avant_Poste_de_l_Alliance_Base_0ca02dd331.png",
+        "traits": []
+      }
+    ]
+  },
+  {
+    "id": "LAW-020",
+    "set": "LAW",
+    "number": 20,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Daimyo's Palace",
+    "art": "https://cdn.starwarsunlimited.com//card_07010020_EN_Daimyo_s_Palace_Base_7ebc724de9.png",
+    "hp": 27,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Palais du Daimyo",
+        "art": "https://cdn.starwarsunlimited.com//card_07010020_FR_Palais_du_Daimyo_Base_9bf4544f90.png",
+        "traits": []
+      }
+    ]
+  },
+  {
+    "id": "LAW-022",
+    "set": "LAW",
+    "number": 22,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Aldhani Garrison",
+    "art": "https://cdn.starwarsunlimited.com//card_07010022_EN_Aldhani_Garrison_Base_25519c6486.png",
+    "hp": 27,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Garnison d'Aldhani",
+        "art": "https://cdn.starwarsunlimited.com//card_07010022_FR_Garnison_d_Aldhani_Base_a2ba5bae35.png",
+        "traits": []
+      }
+    ]
+  },
+  {
+    "id": "LAW-023",
+    "set": "LAW",
+    "number": 23,
+    "type": "base",
+    "rarity": "special",
+    "aspects": [
+      "command"
+    ],
+    "name": "Great Pit of Carkoon",
+    "art": "https://cdn.starwarsunlimited.com//card_07010023_EN_Great_Pit_of_Carkoon_Base_c276398f2e.png",
+    "hp": 27,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Grande Fosse de Carkoon",
+        "art": "https://cdn.starwarsunlimited.com//card_07010023_FR_Grande_Fosse_de_Carkoon_Base_11e9be4b45.png",
+        "traits": []
+      }
+    ]
+  },
+  {
+    "id": "LAW-026",
+    "set": "LAW",
+    "number": 26,
+    "type": "base",
+    "rarity": "rare",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Shipbreaking Yard",
+    "art": "https://cdn.starwarsunlimited.com//card_07010026_EN_Shipbreaking_Yard_Base_8cd9e2115d.png",
+    "hp": 26,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Site de Démantèlement Naval",
+        "art": "https://cdn.starwarsunlimited.com//card_07010026_FR_Site_de_Demantelement_Naval_Base_1fb92f9171.png",
+        "traits": []
+      }
+    ]
+  },
+  {
+    "id": "LAW-027",
+    "set": "LAW",
+    "number": 27,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Stygeon Spire",
+    "art": "https://cdn.starwarsunlimited.com//card_07010027_EN_Stygeon_Spire_Base_79696b49ed.png",
+    "hp": 27,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Cime de Stygeon",
+        "art": "https://cdn.starwarsunlimited.com//card_07010027_FR_Cime_de_Stygeon_Base_ca4f55ce9c.png",
+        "traits": []
+      }
+    ]
+  },
+  {
+    "id": "LAW-028",
+    "set": "LAW",
+    "number": 28,
+    "type": "base",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Canto Bight",
+    "art": "https://cdn.starwarsunlimited.com//card_07010028_EN_Canto_Bight_Base_43b4a4b873.png",
+    "hp": 27,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Canto Bight",
+        "art": "https://cdn.starwarsunlimited.com//card_07010028_FR_Canto_Bight_Base_bb696b39f7.png",
+        "traits": []
+      }
+    ]
+  },
+  {
+    "id": "LAW-029",
+    "set": "LAW",
+    "number": 29,
+    "type": "base",
+    "rarity": "rare",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Citadel Research Center",
+    "art": "https://cdn.starwarsunlimited.com//card_07010029_EN_Citadel_Research_Center_Base_172e257b14.png",
+    "hp": 26,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Centre de Recherche de la Citadelle",
+        "art": "https://cdn.starwarsunlimited.com//card_07010029_FR_Centre_de_Recherche_de_la_Citadelle_Base_4c855c2ef2.png",
+        "traits": []
+      }
+    ]
+  },
+  {
+    "id": "LAW-034",
+    "set": "LAW",
+    "number": 34,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "vigilance",
+      "command",
+      "heroism"
+    ],
+    "name": "Chewbacca",
+    "title": "Mighty Rescuer",
+    "traits": [
+      "REBEL",
+      "WOOKIEE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010034_EN_Chewbacca_d5964288a4.png",
+    "cost": 4,
+    "hp": 4,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chewbacca",
+        "title": "Puissant Sauveteur",
+        "art": "https://cdn.starwarsunlimited.com//card_07010034_FR_Chewbacca_9d810460f6.png",
+        "traits": [
+          "REBELLE",
+          "WOOKIE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-035",
+    "set": "LAW",
+    "number": 35,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "command",
+      "heroism"
+    ],
+    "name": "Ezra Bridger",
+    "title": "Spectre Six",
+    "traits": [
+      "FORCE",
+      "REBEL",
+      "SPECTRE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010035_EN_Ezra_Bridger_075cf74ff2.png",
+    "cost": 4,
+    "hp": 5,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Ezra Bridger",
+        "title": "Spectre Six",
+        "art": "https://cdn.starwarsunlimited.com//card_07010035_FR_Ezra_Bridger_4ecde192ed.png",
+        "traits": [
+          "FORCE",
+          "REBELLE",
+          "SPECTRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-036",
+    "set": "LAW",
+    "number": 36,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "vigilance",
+      "command",
+      "heroism"
+    ],
+    "name": "Obi-Wan Kenobi",
+    "title": "Protector of Felucia",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010036_EN_Obi_Wan_Kenobi_21e3aa8861.png",
+    "cost": 7,
+    "hp": 7,
+    "arena": "ground",
+    "power": 7,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Obi-Wan Kenobi",
+        "title": "Protecteur De Felucia",
+        "art": "https://cdn.starwarsunlimited.com//card_07010036_FR_Obi_Wan_Kenobi_a5b4a01a6b.png",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-037",
+    "set": "LAW",
+    "number": 37,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "vigilance",
+      "command"
+    ],
+    "name": "Han Solo",
+    "title": "Hibernation Sick",
+    "traits": [
+      "REBEL"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010037_EN_Han_Solo_48b1d62cb6.png",
+    "cost": 1,
+    "hp": 1,
+    "arena": "ground",
+    "power": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Han Solo",
+        "title": "Mal De L'Hibernation",
+        "art": "https://cdn.starwarsunlimited.com//card_07010037_FR_Han_Solo_fb55fecc39.png",
+        "traits": [
+          "REBELLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-038",
+    "set": "LAW",
+    "number": 38,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "command"
+    ],
+    "name": "Lepi Lookout",
+    "traits": [
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010038_EN_Lepi_Lookout_47f628744f.png",
+    "cost": 2,
+    "hp": 1,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Guetteur Lepi",
+        "art": "https://cdn.starwarsunlimited.com//card_07010038_FR_Guetteur_Lepi_412ede0941.png",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-039",
+    "set": "LAW",
+    "number": 39,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "command"
+    ],
+    "name": "Latts Razzi",
+    "title": "Deadly Whipmaster",
+    "traits": [
+      "UNDERWORLD",
+      "BOUNTY HUNTER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010039_EN_Latts_Razzi_5c772f4108.png",
+    "cost": 3,
+    "hp": 1,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Latts Razzi",
+        "title": "Maîtrise Mortelle Du Fouet",
+        "art": "https://cdn.starwarsunlimited.com//card_07010039_FR_Latts_Razzi_0dd1006c3b.png",
+        "traits": [
+          "PÈGRE",
+          "CHASSEUR DE PRIMES"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-040",
+    "set": "LAW",
+    "number": 40,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "command"
+    ],
+    "name": "Taramyn Barcona",
+    "title": "Eyes Front!",
+    "traits": [
+      "REBEL",
+      "TROOPER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010040_EN_Taramyn_Barcona_41ae3c2b49.png",
+    "cost": 5,
+    "hp": 6,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Taramyn Barcona",
+        "title": "Regard Droit Devant !",
+        "art": "https://cdn.starwarsunlimited.com//card_07010040_FR_Taramyn_Barcona_227816025f.png",
+        "traits": [
+          "REBELLE",
+          "SOLDAT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-041",
+    "set": "LAW",
+    "number": 41,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "command"
+    ],
+    "name": "Nothing Left to Fear",
+    "traits": [
+      "INNATE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010041_EN_Nothing_Left_to_Fear_2a93d9f04d.png",
+    "cost": 5,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Plus Aucune Raison d'Avoir Peur",
+        "art": "https://cdn.starwarsunlimited.com//card_07010041_FR_Plus_Aucune_Raison_d_Avoir_Peur_c26e628d7f.png",
+        "traits": [
+          "INNÉ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-043",
+    "set": "LAW",
+    "number": 43,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "aggression",
+      "villainy"
+    ],
+    "name": "Shadow Cloaking",
+    "traits": [
+      "TACTIC"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010043_EN_Shadow_Cloaking_98dc9a7de6.png",
+    "cost": 5,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dissimulation dans les Ombres",
+        "art": "https://cdn.starwarsunlimited.com//card_07010043_FR_Dissimulation_dans_les_Ombres_2f31ea43ab.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-044",
+    "set": "LAW",
+    "number": 44,
+    "type": "event",
+    "rarity": "legendary",
+    "aspects": [
+      "vigilance",
+      "aggression",
+      "villainy"
+    ],
+    "name": "Single Reactor Ignition",
+    "traits": [
+      "DISASTER",
+      "TACTIC"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010044_EN_Single_Reactor_Ignition_d8ce922f55.png",
+    "cost": 8,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Allumage Primaire du Réacteur",
+        "art": "https://cdn.starwarsunlimited.com//card_07010044_FR_Allumage_Primaire_du_Reacteur_33dc1c7c52.png",
+        "traits": [
+          "DÉSASTRE",
+          "TACTIQUE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-045",
+    "set": "LAW",
+    "number": 45,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "aggression",
+      "heroism"
+    ],
+    "name": "Zeb Orellios",
+    "title": "Spectre Four",
+    "traits": [
+      "REBEL",
+      "SPECTRE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010045_EN_Zeb_Orellios_b2908901c4.png",
+    "cost": 5,
+    "hp": 4,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Zeb Orellios",
+        "title": "Spectre Quatre",
+        "art": "https://cdn.starwarsunlimited.com//card_07010045_FR_Zeb_Orellios_06ffa304d6.png",
+        "traits": [
+          "REBELLE",
+          "SPECTRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-046",
+    "set": "LAW",
+    "number": 46,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "aggression",
+      "heroism"
+    ],
+    "name": "Chirrut Îmwe",
+    "title": "I Don't Need Luck",
+    "traits": [
+      "FORCE",
+      "REBEL"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010046_EN_Chirrut_Imwe_741c6f0508.png",
+    "cost": 6,
+    "hp": 6,
+    "arena": "ground",
+    "power": 8,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chirrut Îmwe",
+        "title": "Je N'Ai Pas Besoin De Chance",
+        "art": "https://cdn.starwarsunlimited.com//card_07010046_FR_Chirrut_Imwe_9eb3df8e30.png",
+        "traits": [
+          "FORCE",
+          "REBELLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-047",
+    "set": "LAW",
+    "number": 47,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "aggression",
+      "heroism"
+    ],
+    "name": "Baze Malbus",
+    "title": "Good Luck",
+    "traits": [
+      "REBEL"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010047_EN_Baze_Malbus_69151ef857.png",
+    "cost": 7,
+    "hp": 8,
+    "arena": "ground",
+    "power": 6,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Baze Malbus",
+        "title": "Bonne Chance",
+        "art": "https://cdn.starwarsunlimited.com//card_07010047_FR_Baze_Malbus_74311b8fb9.png",
+        "traits": [
+          "REBELLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-048",
+    "set": "LAW",
+    "number": 48,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "aggression"
+    ],
+    "name": "Chio Fain",
+    "title": "Four-Armed Slicer",
+    "traits": [
+      "UNDERWORLD",
+      "BOUNTY HUNTER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010048_EN_Chio_Fain_53775d7718.png",
+    "cost": 2,
+    "hp": 4,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chio Fain",
+        "title": "Pirate Informatique À Quatre Bras",
+        "art": "https://cdn.starwarsunlimited.com//card_07010048_FR_Chio_Fain_6d8b044615.png",
+        "traits": [
+          "PÈGRE",
+          "CHASSEUR DE PRIMES"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-051",
+    "set": "LAW",
+    "number": 51,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "aggression"
+    ],
+    "name": "Beilert Valance",
+    "title": "Target: Vader",
+    "traits": [
+      "UNDERWORLD",
+      "BOUNTY HUNTER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010051_EN_Beilert_Valance_1ec3de5631.png",
+    "cost": 5,
+    "hp": 6,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Beilert Valance",
+        "title": "Cible : Vador",
+        "art": "https://cdn.starwarsunlimited.com//card_07010051_FR_Beilert_Valance_f4d9c16f7d.png",
+        "traits": [
+          "PÈGRE",
+          "CHASSEUR DE PRIMES"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-052",
+    "set": "LAW",
+    "number": 52,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "vigilance",
+      "aggression"
+    ],
+    "name": "The Mandalorian",
+    "title": "Let's See the Puck",
+    "traits": [
+      "MANDALORIAN",
+      "BOUNTY HUNTER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010052_EN_The_Mandalorian_6f8dd46b91.png",
+    "cost": 6,
+    "hp": 5,
+    "arena": "ground",
+    "power": 6,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Le Mandalorien",
+        "title": "Fais Voir Le Palet",
+        "art": "https://cdn.starwarsunlimited.com//card_07010052_FR_Le_Mandalorien_dc705db11b.png",
+        "traits": [
+          "MANDALORIEN",
+          "CHASSEUR DE PRIMES"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-053",
+    "set": "LAW",
+    "number": 53,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "aggression",
+      "villainy"
+    ],
+    "name": "Dengar",
+    "title": "Take Your Shot",
+    "traits": [
+      "UNDERWORLD",
+      "BOUNTY HUNTER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010053_EN_Dengar_1a438ea03d.png",
+    "cost": 3,
+    "hp": 3,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dengar",
+        "title": "Tentez Votre Chance",
+        "art": "https://cdn.starwarsunlimited.com//card_07010053_FR_Dengar_a33b7f6fa2.png",
+        "traits": [
+          "PÈGRE",
+          "CHASSEUR DE PRIMES"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-054",
+    "set": "LAW",
+    "number": 54,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "command",
+      "aggression",
+      "villainy"
+    ],
+    "name": "Maul",
+    "title": "Master of the Shadow Collective",
+    "traits": [
+      "FORCE",
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010054_EN_Maul_ed1aea8d6a.png",
+    "cost": 7,
+    "hp": 8,
+    "arena": "ground",
+    "power": 6,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Maul",
+        "title": "Maître Du Collectif Des Ombres",
+        "art": "https://cdn.starwarsunlimited.com//card_07010054_FR_Maul_0e08bab7d8.png",
+        "traits": [
+          "FORCE",
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-055",
+    "set": "LAW",
+    "number": 55,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "aggression",
+      "heroism"
+    ],
+    "name": "Chopper",
+    "title": "Spectre Three",
+    "traits": [
+      "REBEL",
+      "DROID",
+      "SPECTRE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010055_EN_Chopper_d46250b673.png",
+    "cost": 2,
+    "hp": 2,
+    "arena": "ground",
+    "power": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chopper",
+        "title": "Spectre Trois",
+        "art": "https://cdn.starwarsunlimited.com//card_07010055_FR_Chopper_c329f0de6e.png",
+        "traits": [
+          "REBELLE",
+          "DROÏDE",
+          "SPECTRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-056",
+    "set": "LAW",
+    "number": 56,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "aggression",
+      "heroism"
+    ],
+    "name": "Cassian Andor",
+    "title": "Everything For the Rebellion",
+    "traits": [
+      "REBEL"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010056_EN_Cassian_Andor_d5001486bc.png",
+    "cost": 4,
+    "hp": 4,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Cassian Andor",
+        "title": "Tout Pour La Rébellion",
+        "art": "https://cdn.starwarsunlimited.com//card_07010056_FR_Cassian_Andor_6abff99f53.png",
+        "traits": [
+          "REBELLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-057",
+    "set": "LAW",
+    "number": 57,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "aggression"
+    ],
+    "name": "Benthic “Two Tubes”",
+    "title": "The War Has Just Begun",
+    "traits": [
+      "UNDERWORLD",
+      "TROOPER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010057_EN_Benthic_Two_Tubes_3f974de35f.png",
+    "cost": 2,
+    "hp": 2,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Benthic “Deux-Tubes“",
+        "title": "La Guerre Vient Juste De Débuter",
+        "art": "https://cdn.starwarsunlimited.com//card_07010057_FR_Benthic_Deux_Tubes_8d49c1464e.png",
+        "traits": [
+          "PÈGRE",
+          "SOLDAT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-065",
+    "set": "LAW",
+    "number": 65,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "cunning",
+      "villainy"
+    ],
+    "name": "4-LOM",
+    "title": "Devious",
+    "traits": [
+      "UNDERWORLD",
+      "DROID",
+      "BOUNTY HUNTER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010065_EN_4_LOM_257846ebe4.png",
+    "cost": 5,
+    "hp": 5,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "4-LOM",
+        "title": "Sournois",
+        "art": "https://cdn.starwarsunlimited.com//card_07010065_FR_4_LOM_85acd5c94e.png",
+        "traits": [
+          "PÈGRE",
+          "DROÏDE",
+          "CHASSEUR DE PRIMES"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-067",
+    "set": "LAW",
+    "number": 67,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "cunning",
+      "heroism"
+    ],
+    "name": "Jyn Erso",
+    "title": "Take the Next Chance",
+    "traits": [
+      "REBEL"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010067_EN_Jyn_Erso_580ca21b67.png",
+    "cost": 2,
+    "hp": 2,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Jyn Erso",
+        "title": "Saisir Sa Chance",
+        "art": "https://cdn.starwarsunlimited.com//card_07010067_FR_Jyn_Erso_ea67168c61.png",
+        "traits": [
+          "REBELLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-068",
+    "set": "LAW",
+    "number": 68,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "cunning",
+      "heroism"
+    ],
+    "name": "Millennium Falcon",
+    "title": "Dodging Patrols",
+    "traits": [
+      "REBEL",
+      "VEHICLE",
+      "TRANSPORT"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010068_EN_Millennium_Falcon_18a6ea8be1.png",
+    "cost": 3,
+    "hp": 5,
+    "arena": "space",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Faucon Millenium",
+        "title": "Esquive Les Patrouilles",
+        "art": "https://cdn.starwarsunlimited.com//card_07010068_FR_Faucon_Millenium_1137c653cf.png",
+        "traits": [
+          "REBELLE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-069",
+    "set": "LAW",
+    "number": 69,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "cunning",
+      "heroism"
+    ],
+    "name": "The Ghost",
+    "title": "Home of the Spectres",
+    "traits": [
+      "REBEL",
+      "VEHICLE",
+      "TRANSPORT",
+      "SPECTRE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010069_EN_The_Ghost_2122085cc5.png",
+    "cost": 6,
+    "hp": 4,
+    "arena": "space",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Ghost",
+        "title": "Demeure Des Spectres",
+        "art": "https://cdn.starwarsunlimited.com//card_07010069_FR_Ghost_cbd0dbb5a7.png",
+        "traits": [
+          "REBELLE",
+          "VÉHICULE",
+          "TRANSPORT",
+          "SPECTRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-071",
+    "set": "LAW",
+    "number": 71,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "cunning"
+    ],
+    "name": "The Max Rebo Band",
+    "title": "Jatz-Wailers",
+    "traits": [
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010071_EN_The_Max_Rebo_Band_e3314923c7.png",
+    "cost": 3,
+    "hp": 5,
+    "arena": "ground",
+    "power": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Le Max Rebo Band",
+        "title": "Pleureuses De Jatz",
+        "art": "https://cdn.starwarsunlimited.com//card_07010071_FR_Le_Max_Rebo_Band_1bf4f41cd9.png",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-072",
+    "set": "LAW",
+    "number": 72,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "command",
+      "cunning"
+    ],
+    "name": "Max Rebo",
+    "title": "Encore!",
+    "traits": [
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010072_EN_Max_Rebo_3fe52fe6b1.png",
+    "cost": 4,
+    "hp": 7,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Max Rebo",
+        "title": "Encore !",
+        "art": "https://cdn.starwarsunlimited.com//card_07010072_FR_Max_Rebo_d4a92fad2a.png",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-073",
+    "set": "LAW",
+    "number": 73,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "cunning"
+    ],
+    "name": "Patient Hunter",
+    "traits": [
+      "BOUNTY HUNTER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010073_EN_Patient_Hunter_a6f58db5a0.png",
+    "cost": 4,
+    "hp": 3,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chasseur Patient",
+        "art": "https://cdn.starwarsunlimited.com//card_07010073_FR_Chasseur_Patient_7cbe2226b8.png",
+        "traits": [
+          "CHASSEUR DE PRIMES"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-075",
+    "set": "LAW",
+    "number": 75,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "cunning",
+      "villainy"
+    ],
+    "name": "Interrogation Droid",
+    "traits": [
+      "IMPERIAL",
+      "DROID"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010075_EN_Interrogation_Droid_c785037871.png",
+    "cost": 2,
+    "hp": 1,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Droïde d'Interrogatoire",
+        "art": "https://cdn.starwarsunlimited.com//card_07010075_FR_Droide_d_Interrogatoire_18c2b81797.png",
+        "traits": [
+          "IMPÉRIAL",
+          "DROÏDE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-076",
+    "set": "LAW",
+    "number": 76,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "cunning",
+      "villainy"
+    ],
+    "name": "Vult Skerris's Defender",
+    "title": "Secret Project",
+    "traits": [
+      "IMPERIAL",
+      "VEHICLE",
+      "FIGHTER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010076_EN_Vult_Skerris_s_Defender_53b5675eb5.png",
+    "cost": 3,
+    "hp": 3,
+    "arena": "space",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Defender de Vult Skerris",
+        "title": "Projet Secret",
+        "art": "https://cdn.starwarsunlimited.com//card_07010076_FR_Defender_de_Vult_Skerris_a84326deca.png",
+        "traits": [
+          "IMPÉRIAL",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-077",
+    "set": "LAW",
+    "number": 77,
+    "type": "upgrade",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "cunning",
+      "villainy"
+    ],
+    "name": "Shadow of Stygeon Prime",
+    "traits": [
+      "CONDITION"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010077_EN_Shadow_of_Stygeon_Prime_9459132a29.png",
+    "cost": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Ombre de Stygeon Prime",
+        "art": "https://cdn.starwarsunlimited.com//card_07010077_FR_Ombre_de_Stygeon_Prime_d003893c55.png",
+        "traits": [
+          "CONDITION"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-078",
+    "set": "LAW",
+    "number": 78,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "cunning",
+      "heroism"
+    ],
+    "name": "Sabine Wren",
+    "title": "Spectre Five",
+    "traits": [
+      "MANDALORIAN",
+      "REBEL",
+      "SPECTRE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010078_EN_Sabine_Wren_5353d45268.png",
+    "cost": 3,
+    "hp": 3,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sabine Wren",
+        "title": "Spectre Cinq",
+        "art": "https://cdn.starwarsunlimited.com//card_07010078_FR_Sabine_Wren_4528a894e5.png",
+        "traits": [
+          "MANDALORIEN",
+          "REBELLE",
+          "SPECTRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-080",
+    "set": "LAW",
+    "number": 80,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "aggression",
+      "cunning",
+      "heroism"
+    ],
+    "name": "Luke Skywalker",
+    "title": "Profit or Be Destroyed",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REBEL"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010080_EN_Luke_Skywalker_d020bddb01.png",
+    "cost": 7,
+    "hp": 7,
+    "arena": "ground",
+    "power": 9,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Luke Skywalker",
+        "title": "En Tirer Avantage, Ou Bien Être Détruit",
+        "art": "https://cdn.starwarsunlimited.com//card_07010080_FR_Luke_Skywalker_d60d52bcdd.png",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "REBELLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-081",
+    "set": "LAW",
+    "number": 81,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "cunning"
+    ],
+    "name": "Sullustan Sapper",
+    "traits": [
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010081_EN_Sullustan_Sapper_021572fbc1.png",
+    "cost": 3,
+    "hp": 2,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Sapeur Sullustéen",
+        "art": "https://cdn.starwarsunlimited.com//card_07010081_FR_Sapeur_Sullusteen_e3f4f0da7d.png",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-082",
+    "set": "LAW",
+    "number": 82,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "cunning"
+    ],
+    "name": "Urrr'k",
+    "title": "Elite Sharpshooter",
+    "traits": [
+      "REBEL",
+      "TUSKEN",
+      "BOUNTY HUNTER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010082_EN_Urrr_k_2375b91c98.png",
+    "cost": 4,
+    "hp": 4,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Urrr'k",
+        "title": "Tireur D'Élite D'Exception",
+        "art": "https://cdn.starwarsunlimited.com//card_07010082_FR_Urrr_k_ea8fe14182.png",
+        "traits": [
+          "REBELLE",
+          "TUSKEN",
+          "CHASSEUR DE PRIMES"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-085",
+    "set": "LAW",
+    "number": 85,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "cunning"
+    ],
+    "name": "You Hold This",
+    "traits": [
+      "TRICK"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010085_EN_You_Hold_This_5994efb8f0.png",
+    "cost": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Tenez-Moi Ça",
+        "art": "https://cdn.starwarsunlimited.com//card_07010085_FR_Tenez_Moi_Ca_b7fc9572da.png",
+        "traits": [
+          "ASTUCE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-087",
+    "set": "LAW",
+    "number": 87,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Jango Fett",
+    "title": "Wily Mercenary",
+    "traits": [
+      "UNDERWORLD",
+      "BOUNTY HUNTER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010087_EN_Jango_Fett_c85963e779.png",
+    "cost": 6,
+    "hp": 5,
+    "arena": "ground",
+    "power": 6,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Jango Fett",
+        "title": "Mercenaire Astucieux",
+        "art": "https://cdn.starwarsunlimited.com//card_07010087_FR_Jango_Fett_6345061061.png",
+        "traits": [
+          "PÈGRE",
+          "CHASSEUR DE PRIMES"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-088",
+    "set": "LAW",
+    "number": 88,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Anakin Skywalker",
+    "title": "Prescient Podracer",
+    "traits": [
+      "FORCE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010088_EN_Anakin_Skywalker_37dfb5e8aa.png",
+    "cost": 2,
+    "hp": 4,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Anakin Skywalker",
+        "title": "Pilote De Module Clairvoyant",
+        "art": "https://cdn.starwarsunlimited.com//card_07010088_FR_Anakin_Skywalker_b096a822ab.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-089",
+    "set": "LAW",
+    "number": 89,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Kanan Jarrus",
+    "title": "Spectre One",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REBEL",
+      "SPECTRE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010089_EN_Kanan_Jarrus_8f419460a1.png",
+    "cost": 4,
+    "hp": 4,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Kanan Jarrus",
+        "title": "Spectre Un",
+        "art": "https://cdn.starwarsunlimited.com//card_07010089_FR_Kanan_Jarrus_f7824ffb12.png",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "REBELLE",
+          "SPECTRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-090",
+    "set": "LAW",
+    "number": 90,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "vigilance"
+    ],
+    "name": "Toydarian Technician",
+    "traits": [
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010090_EN_Toydarian_Technician_cd99d7863c.png",
+    "cost": 2,
+    "hp": 3,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Technicien Toydarien",
+        "art": "https://cdn.starwarsunlimited.com//card_07010090_FR_Technicien_Toydarien_f637e1a3bd.png",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-093",
+    "set": "LAW",
+    "number": 93,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "vigilance"
+    ],
+    "name": "Rio Durant",
+    "title": "Beckett's Right Hands",
+    "traits": [
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010093_EN_Rio_Durant_cd9c054c46.png",
+    "cost": 4,
+    "hp": 5,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Rio Durant",
+        "title": "Main Droite De Beckett",
+        "art": "https://cdn.starwarsunlimited.com//card_07010093_FR_Rio_Durant_c9ef2fdaa0.png",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-094",
+    "set": "LAW",
+    "number": 94,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "cunning",
+      "vigilance"
+    ],
+    "name": "Hondo Ohnaka",
+    "title": "Plays By His Own Rules",
+    "traits": [
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010094_EN_Hondo_Ohnaka_659bba9bf0.png",
+    "cost": 5,
+    "hp": 7,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Hondo Ohnaka",
+        "title": "Joue Avec Ses Propres Règles",
+        "art": "https://cdn.starwarsunlimited.com//card_07010094_FR_Hondo_Ohnaka_b450783fa2.png",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-095",
+    "set": "LAW",
+    "number": 95,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "vigilance"
+    ],
+    "name": "Finn",
+    "title": "Looking Closer",
+    "traits": [
+      "RESISTANCE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010095_EN_Finn_b23b909b29.png",
+    "cost": 6,
+    "hp": 5,
+    "arena": "ground",
+    "power": 6,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Finn",
+        "title": "Regarde De Plus Près",
+        "art": "https://cdn.starwarsunlimited.com//card_07010095_FR_Finn_172b1547e6.png",
+        "traits": [
+          "RÉSISTANCE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-101",
+    "set": "LAW",
+    "number": 101,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "vigilance",
+      "villainy"
+    ],
+    "name": "Lawbringer",
+    "title": "Shadow Over Lothal",
+    "traits": [
+      "IMPERIAL",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010101_EN_Lawbringer_6acbf254f3.png",
+    "cost": 8,
+    "hp": 7,
+    "arena": "space",
+    "power": 7,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Lawbringer",
+        "title": "Une Ombre Sur Lothal",
+        "art": "https://cdn.starwarsunlimited.com//card_07010101_FR_Lawbringer_2e06a2fe76.png",
+        "traits": [
+          "IMPÉRIAL",
+          "VÉHICULE",
+          "VAISSEAU CAPITAL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-104",
+    "set": "LAW",
+    "number": 104,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Bodhi Rook",
+    "title": "Creating a Diversion",
+    "traits": [
+      "REBEL"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010104_EN_Bodhi_Rook_a5eeb8261a.png",
+    "cost": 2,
+    "hp": 4,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Bodhi Rook",
+        "title": "Crée Une Diversion",
+        "art": "https://cdn.starwarsunlimited.com//card_07010104_FR_Bodhi_Rook_1e4939b78f.png",
+        "traits": [
+          "REBELLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-105",
+    "set": "LAW",
+    "number": 105,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Cinta Kaz",
+    "title": "Stone Cold and Fearless",
+    "traits": [
+      "REBEL"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010105_EN_Cinta_Kaz_91107997eb.png",
+    "cost": 3,
+    "hp": 5,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Cinta Kaz",
+        "title": "Impassible Et Téméraire",
+        "art": "https://cdn.starwarsunlimited.com//card_07010105_FR_Cinta_Kaz_3160836a7e.png",
+        "traits": [
+          "REBELLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-106",
+    "set": "LAW",
+    "number": 106,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Defiant Scrapper",
+    "traits": [
+      "FRINGE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010106_EN_Defiant_Scrapper_d086f43806.png",
+    "cost": 3,
+    "hp": 4,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Ferrailleuse Provocatrice",
+        "art": "https://cdn.starwarsunlimited.com//card_07010106_FR_Ferrailleuse_Provocatrice_fd11195d41.png",
+        "traits": [
+          "FRANGE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-108",
+    "set": "LAW",
+    "number": 108,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Lando Calrissian",
+    "title": "Eyes Open",
+    "traits": [
+      "REBEL",
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010108_EN_Lando_Calrissian_93f63db128.png",
+    "cost": 5,
+    "hp": 5,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Lando Calrissian",
+        "title": "Les Yeux Ouverts",
+        "art": "https://cdn.starwarsunlimited.com//card_07010108_FR_Lando_Calrissian_c6dd071a2c.png",
+        "traits": [
+          "REBELLE",
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-109",
+    "set": "LAW",
+    "number": 109,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Tantive IV",
+    "title": "Carrying Hope",
+    "traits": [
+      "REBEL",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010109_EN_Tantive_IV_4804e3aa7a.png",
+    "cost": 7,
+    "hp": 8,
+    "arena": "space",
+    "power": 5,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Tantive IV",
+        "title": "Porteur D'Espoir",
+        "art": "https://cdn.starwarsunlimited.com//card_07010109_FR_Tantive_IV_48d28dada9.png",
+        "traits": [
+          "REBELLE",
+          "VÉHICULE",
+          "VAISSEAU CAPITAL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-111",
+    "set": "LAW",
+    "number": 111,
+    "type": "upgrade",
+    "rarity": "special",
+    "aspects": [
+      "vigilance",
+      "heroism"
+    ],
+    "name": "Leia's Disguise",
+    "traits": [
+      "ITEM",
+      "ARMOR"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010111_EN_Leia_s_Disguise_5f89d9054f.png",
+    "cost": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Déguisement de Leia",
+        "art": "https://cdn.starwarsunlimited.com//card_07010111_FR_Deguisement_de_Leia_3254c213ed.png",
+        "traits": [
+          "OBJET",
+          "ARMURE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-116",
+    "set": "LAW",
+    "number": 116,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Rodian Bondsman",
+    "traits": [
+      "BOUNTY HUNTER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010116_EN_Rodian_Bondsman_69698154e3.png",
+    "cost": 2,
+    "hp": 3,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Garant Rodien",
+        "art": "https://cdn.starwarsunlimited.com//card_07010116_FR_Garant_Rodien_56858f22a9.png",
+        "traits": [
+          "CHASSEUR DE PRIMES"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-117",
+    "set": "LAW",
+    "number": 117,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Conveyex Security Captain",
+    "traits": [
+      "IMPERIAL",
+      "TROOPER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010117_EN_Conveyex_Security_Captain_19eb9a0f56.png",
+    "cost": 3,
+    "hp": 4,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Capitaine de la Sécurité du Conveyex",
+        "art": "https://cdn.starwarsunlimited.com//card_07010117_FR_Capitaine_de_la_Securite_du_Conveyex_dfa38e18d4.png",
+        "traits": [
+          "IMPÉRIAL",
+          "SOLDAT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-119",
+    "set": "LAW",
+    "number": 119,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Rogue One",
+    "title": "At Any Cost",
+    "traits": [
+      "REBEL",
+      "VEHICLE",
+      "TRANSPORT"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010119_EN_Rogue_One_8e28271f7b.png",
+    "cost": 3,
+    "hp": 3,
+    "arena": "space",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Rogue One",
+        "title": "À N'Importe Quel Prix",
+        "art": "https://cdn.starwarsunlimited.com//card_07010119_FR_Rogue_One_83db8d7246.png",
+        "traits": [
+          "REBELLE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-127",
+    "set": "LAW",
+    "number": 127,
+    "type": "upgrade",
+    "rarity": "common",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Kill Switch",
+    "traits": [
+      "CONDITION"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010127_EN_Kill_Switch_ee22d364f5.png",
+    "cost": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Coupe Circuit",
+        "art": "https://cdn.starwarsunlimited.com//card_07010127_FR_Coupe_Circuit_5a2b617a45.png",
+        "traits": [
+          "CONDITION"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-130",
+    "set": "LAW",
+    "number": 130,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "Betrayed Trust",
+    "traits": [
+      "TRICK"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010130_EN_Betrayed_Trust_724ef87c94.png",
+    "cost": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Confiance Trahie",
+        "art": "https://cdn.starwarsunlimited.com//card_07010130_FR_Confiance_Trahie_7c053e4e3d.png",
+        "traits": [
+          "ASTUCE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-132",
+    "set": "LAW",
+    "number": 132,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "vigilance"
+    ],
+    "name": "The Tree Remembers",
+    "traits": [
+      "TACTIC"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010132_EN_The_Tree_Remembers_aa6c9f0afd.png",
+    "cost": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "L'Arbre se Souvient",
+        "art": "https://cdn.starwarsunlimited.com//card_07010132_FR_L_Arbre_se_Souvient_0d34d2d486.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-134",
+    "set": "LAW",
+    "number": 134,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Bib Fortuna",
+    "title": "Die Wanna Wanga?",
+    "traits": [
+      "UNDERWORLD",
+      "TWI'LEK"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010134_EN_Bib_Fortuna_ab11dd78e8.png",
+    "cost": 2,
+    "hp": 2,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Bib Fortuna",
+        "title": "Die Wanna Wanga ?",
+        "art": "https://cdn.starwarsunlimited.com//card_07010134_FR_Bib_Fortuna_1f28795282.png",
+        "traits": [
+          "PÈGRE",
+          "TWI'LEK"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-136",
+    "set": "LAW",
+    "number": 136,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Syndicate Spice Runner",
+    "traits": [
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010136_EN_Syndicate_Spice_Runner_700e70f887.png",
+    "cost": 2,
+    "hp": 2,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Trafiquant d'Épices du Syndicat",
+        "art": "https://cdn.starwarsunlimited.com//card_07010136_FR_Trafiquant_d_Epices_du_Syndicat_b114c7bb9a.png",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-139",
+    "set": "LAW",
+    "number": 139,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Admiral Motti",
+    "title": "Chain of Command",
+    "traits": [
+      "IMPERIAL",
+      "OFFICIAL"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010139_EN_Admiral_Motti_0b3138b54c.png",
+    "cost": 5,
+    "hp": 5,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Amiral Motti",
+        "title": "Chaîne De Commandement",
+        "art": "https://cdn.starwarsunlimited.com//card_07010139_FR_Amiral_Motti_363a726723.png",
+        "traits": [
+          "IMPÉRIAL",
+          "OFFICIEL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-140",
+    "set": "LAW",
+    "number": 140,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "command",
+      "villainy"
+    ],
+    "name": "Intimidator",
+    "title": "Citadel Overwatch",
+    "traits": [
+      "IMPERIAL",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010140_EN_Intimidator_f443d9766f.png",
+    "cost": 11,
+    "hp": 11,
+    "arena": "space",
+    "power": 11,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Intimidator",
+        "title": "Surveillance De La Citadelle",
+        "art": "https://cdn.starwarsunlimited.com//card_07010140_FR_Intimidator_4ef57d9543.png",
+        "traits": [
+          "IMPÉRIAL",
+          "VÉHICULE",
+          "VAISSEAU CAPITAL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-142",
+    "set": "LAW",
+    "number": 142,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Scarif Lieutenant",
+    "traits": [
+      "REBEL",
+      "TROOPER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010142_EN_Scarif_Lieutenant_39f3cbb71e.png",
+    "cost": 1,
+    "hp": 1,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Lieutenant sur Scarif",
+        "art": "https://cdn.starwarsunlimited.com//card_07010142_FR_Lieutenant_sur_Scarif_9f09e6ef5f.png",
+        "traits": [
+          "REBELLE",
+          "SOLDAT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-144",
+    "set": "LAW",
+    "number": 144,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Phantom",
+    "title": "Spectre Shuttle",
+    "traits": [
+      "REBEL",
+      "VEHICLE",
+      "TRANSPORT",
+      "SPECTRE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010144_EN_Phantom_b744376092.png",
+    "cost": 2,
+    "hp": 2,
+    "arena": "space",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Phantom",
+        "title": "Navette Des Spectres",
+        "art": "https://cdn.starwarsunlimited.com//card_07010144_FR_Phantom_ab63f12cb2.png",
+        "traits": [
+          "REBELLE",
+          "VÉHICULE",
+          "TRANSPORT",
+          "SPECTRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-145",
+    "set": "LAW",
+    "number": 145,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "R2-D2",
+    "title": "Part of the Plan",
+    "traits": [
+      "REBEL",
+      "DROID"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010145_EN_R2_D2_bbaffead45.png",
+    "cost": 2,
+    "hp": 3,
+    "arena": "ground",
+    "power": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "R2-D2",
+        "title": "Fait Partie Du Plan",
+        "art": "https://cdn.starwarsunlimited.com//card_07010145_FR_R2_D2_8ee3bbd7db.png",
+        "traits": [
+          "REBELLE",
+          "DROÏDE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-146",
+    "set": "LAW",
+    "number": 146,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Massassi Group Marines",
+    "traits": [
+      "REBEL",
+      "TROOPER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010146_EN_Massassi_Group_Marines_dd1f247e93.png",
+    "cost": 3,
+    "hp": 4,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Marines du Groupe Massassi",
+        "art": "https://cdn.starwarsunlimited.com//card_07010146_FR_Marines_du_Groupe_Massassi_09324842ed.png",
+        "traits": [
+          "REBELLE",
+          "SOLDAT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-147",
+    "set": "LAW",
+    "number": 147,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Jaunty Light Freighter",
+    "traits": [
+      "VEHICLE",
+      "TRANSPORT"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010147_EN_Jaunty_Light_Freighter_6667aa58b3.png",
+    "cost": 4,
+    "hp": 1,
+    "arena": "space",
+    "power": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Cargo Léger Élégant",
+        "art": "https://cdn.starwarsunlimited.com//card_07010147_FR_Cargo_Leger_Elegant_fb4e3bb225.png",
+        "traits": [
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-149",
+    "set": "LAW",
+    "number": 149,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Rey",
+    "title": "Skywalker",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "RESISTANCE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010149_EN_Rey_e17dd083c3.png",
+    "cost": 8,
+    "hp": 9,
+    "arena": "ground",
+    "power": 9,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Rey",
+        "title": "Skywalker",
+        "art": "https://cdn.starwarsunlimited.com//card_07010149_FR_Rey_2216cd5b25.png",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉSISTANCE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-150",
+    "set": "LAW",
+    "number": 150,
+    "type": "upgrade",
+    "rarity": "rare",
+    "aspects": [
+      "command",
+      "heroism"
+    ],
+    "name": "Fulcrum",
+    "traits": [
+      "REBEL"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010150_EN_Fulcrum_adf8cd758f.png",
+    "cost": 5,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Fulcrum",
+        "art": "https://cdn.starwarsunlimited.com//card_07010150_FR_Fulcrum_f0c80866f0.png",
+        "traits": [
+          "REBELLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-152",
+    "set": "LAW",
+    "number": 152,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command"
+    ],
+    "name": "C-3PO",
+    "title": "Translation Protocol",
+    "traits": [
+      "REBEL",
+      "UNDERWORLD",
+      "DROID"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010152_EN_C_3_PO_c2420591d9.png",
+    "cost": 2,
+    "hp": 4,
+    "arena": "ground",
+    "power": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "C-3PO",
+        "title": "Protocole De Traduction",
+        "art": "https://cdn.starwarsunlimited.com//card_07010152_FR_C_3_PO_8528a633fd.png",
+        "traits": [
+          "REBELLE",
+          "PÈGRE",
+          "DROÏDE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-154",
+    "set": "LAW",
+    "number": 154,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Partisan Infantry",
+    "traits": [
+      "REBEL",
+      "TROOPER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010154_EN_Partisan_Infantry_1bf58ede3b.png",
+    "cost": 2,
+    "hp": 3,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Infanterie Partisane",
+        "art": "https://cdn.starwarsunlimited.com//card_07010154_FR_Infanterie_Partisane_2e41a8a59a.png",
+        "traits": [
+          "REBELLE",
+          "SOLDAT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-158",
+    "set": "LAW",
+    "number": 158,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "command"
+    ],
+    "name": "Khetanna",
+    "title": "Upon the Dune Sea",
+    "traits": [
+      "UNDERWORLD",
+      "VEHICLE",
+      "SPEEDER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010158_EN_Khetanna_881c9ea255.png",
+    "cost": 3,
+    "hp": 4,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Khetanna",
+        "title": "Sur La Mer De Dunes",
+        "art": "https://cdn.starwarsunlimited.com//card_07010158_FR_Khetanna_38c5773fb4.png",
+        "traits": [
+          "PÈGRE",
+          "VÉHICULE",
+          "SPEEDER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-159",
+    "set": "LAW",
+    "number": 159,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Expendable Mercenary",
+    "traits": [
+      "UNDERWORLD",
+      "BOUNTY HUNTER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010159_EN_Expendable_Mercenary_38a0e515cc.png",
+    "cost": 4,
+    "hp": 3,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Mercenaire Sacrifiable",
+        "art": "https://cdn.starwarsunlimited.com//card_07010159_FR_Mercenaire_Sacrifiable_7334e91d51.png",
+        "traits": [
+          "PÈGRE",
+          "CHASSEUR DE PRIMES"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-163",
+    "set": "LAW",
+    "number": 163,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "command"
+    ],
+    "name": "The Sarlacc of Carkoon",
+    "title": "Horror of the Dune Sea",
+    "traits": [
+      "CREATURE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010163_EN_The_Sarlacc_of_Carkoon_aa7579742b.png",
+    "cost": 8,
+    "hp": 9,
+    "arena": "ground",
+    "power": 8,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Le Sarlacc de Carkoon",
+        "title": "Horreur De La Mer De Dunes",
+        "art": "https://cdn.starwarsunlimited.com//card_07010163_FR_Le_Sarlacc_de_Carkoon_092d3753b4.png",
+        "traits": [
+          "CRÉATURE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-165",
+    "set": "LAW",
+    "number": 165,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Combat Exercise",
+    "traits": [
+      "LEARNED"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010165_EN_Combat_Exercise_604134a8fc.png",
+    "cost": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Exercice de Combat",
+        "art": "https://cdn.starwarsunlimited.com//card_07010165_FR_Exercice_de_Combat_b61d19752d.png",
+        "traits": [
+          "ACQUIS"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-166",
+    "set": "LAW",
+    "number": 166,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Putting a Team Together",
+    "traits": [
+      "PLAN"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010166_EN_Putting_a_Team_Together_5d6af6b287.png",
+    "cost": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Monter une Équipe",
+        "art": "https://cdn.starwarsunlimited.com//card_07010166_FR_Monter_une_Equipe_779b1b44ab.png",
+        "traits": [
+          "PLAN"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-167",
+    "set": "LAW",
+    "number": 167,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Common Cause",
+    "traits": [
+      "INNATE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010167_EN_Common_Cause_6d6cf178f1.png",
+    "cost": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Cause Commune",
+        "art": "https://cdn.starwarsunlimited.com//card_07010167_FR_Cause_Commune_209bacfeff.png",
+        "traits": [
+          "INNÉ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-168",
+    "set": "LAW",
+    "number": 168,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "command"
+    ],
+    "name": "Haymaker",
+    "traits": [
+      "TACTIC"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010168_EN_Haymaker_037ced62d3.png",
+    "cost": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Uppercut Magistral",
+        "art": "https://cdn.starwarsunlimited.com//card_07010168_FR_Uppercut_Magistral_e843660563.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-169",
+    "set": "LAW",
+    "number": 169,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "command"
+    ],
+    "name": "Payroll Heist",
+    "traits": [
+      "PLAN"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010169_EN_Payroll_Heist_d5f8fc6779.png",
+    "cost": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Braquage des Salaires",
+        "art": "https://cdn.starwarsunlimited.com//card_07010169_FR_Braquage_des_Salaires_48e108a042.png",
+        "traits": [
+          "PLAN"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-170",
+    "set": "LAW",
+    "number": 170,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "command"
+    ],
+    "name": "Double-Cross",
+    "traits": [
+      "TRICK"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010170_EN_Double_Cross_d82d587843.png",
+    "cost": 6,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Double Jeu",
+        "art": "https://cdn.starwarsunlimited.com//card_07010170_FR_Double_Jeu_9612fa9029.png",
+        "traits": [
+          "ASTUCE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-171",
+    "set": "LAW",
+    "number": 171,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "command"
+    ],
+    "name": "Stockpile",
+    "traits": [
+      "SUPPLY"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010171_EN_Stockpile_29e353ef2e.png",
+    "cost": 6,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Accumulation",
+        "art": "https://cdn.starwarsunlimited.com//card_07010171_FR_Accumulation_4ac1f7b4ed.png",
+        "traits": [
+          "RÉSERVE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-173",
+    "set": "LAW",
+    "number": 173,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "BT-1",
+    "title": "Blastomech",
+    "traits": [
+      "UNDERWORLD",
+      "DROID"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010173_EN_BT_1_9bda84578c.png",
+    "cost": 2,
+    "hp": 4,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "BT-1",
+        "title": "Blastomech",
+        "art": "https://cdn.starwarsunlimited.com//card_07010173_FR_BT_1_9015a55eea.png",
+        "traits": [
+          "PÈGRE",
+          "DROÏDE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-174",
+    "set": "LAW",
+    "number": 174,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "0-0-0",
+    "title": "Translation and Torture",
+    "traits": [
+      "UNDERWORLD",
+      "DROID"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010174_EN_0_0_0_245e81e744.png",
+    "cost": 3,
+    "hp": 4,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "0-0-0",
+        "title": "Traduction Et Torture",
+        "art": "https://cdn.starwarsunlimited.com//card_07010174_FR_0_0_0_2b2f97bc68.png",
+        "traits": [
+          "PÈGRE",
+          "DROÏDE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-176",
+    "set": "LAW",
+    "number": 176,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Sebulba's Podracer",
+    "title": "Taking the Lead",
+    "traits": [
+      "VEHICLE",
+      "SPEEDER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010176_EN_Sebulba_s_Podracer_109e09eea6.png",
+    "cost": 3,
+    "hp": 3,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Module de Course de Sebulba",
+        "title": "Prend La Tête",
+        "art": "https://cdn.starwarsunlimited.com//card_07010176_FR_Module_de_Course_de_Sebulba_4e5e3d0f3d.png",
+        "traits": [
+          "VÉHICULE",
+          "SPEEDER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-178",
+    "set": "LAW",
+    "number": 178,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Persecutor",
+    "title": "Fire Over Scarif",
+    "traits": [
+      "IMPERIAL",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010178_EN_Persecutor_df017a5040.png",
+    "cost": 9,
+    "hp": 7,
+    "arena": "space",
+    "power": 9,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Persecutor",
+        "title": "Fait Feu Sur Scarif",
+        "art": "https://cdn.starwarsunlimited.com//card_07010178_FR_Persecutor_0d934d407a.png",
+        "traits": [
+          "IMPÉRIAL",
+          "VÉHICULE",
+          "VAISSEAU CAPITAL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-179",
+    "set": "LAW",
+    "number": 179,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "villainy"
+    ],
+    "name": "Fear and Dead Men",
+    "traits": [
+      "TACTIC"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010179_EN_Fear_and_Dead_Men_8e1b87aa52.png",
+    "cost": 7,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "De Peur et d'Hommes Morts",
+        "art": "https://cdn.starwarsunlimited.com//card_07010179_FR_De_Peur_et_d_Hommes_Morts_dff5211c51.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-181",
+    "set": "LAW",
+    "number": 181,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Cloud-Rider Veteran",
+    "traits": [
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010181_EN_Cloud_Rider_Veteran_715f10a648.png",
+    "cost": 2,
+    "hp": 4,
+    "arena": "ground",
+    "power": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Cloud-Rider Vétéran",
+        "art": "https://cdn.starwarsunlimited.com//card_07010181_FR_Cloud_Rider_Veteran_1fc850712a.png",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-182",
+    "set": "LAW",
+    "number": 182,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Weazel",
+    "title": "Fighting Back",
+    "traits": [
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010182_EN_Weazel_658782f1d7.png",
+    "cost": 2,
+    "hp": 3,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Weazel",
+        "title": "Se Défend",
+        "art": "https://cdn.starwarsunlimited.com//card_07010182_FR_Weazel_4e05f93a01.png",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-184",
+    "set": "LAW",
+    "number": 184,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Aerie",
+    "title": "Cloud-Rider Dropship",
+    "traits": [
+      "UNDERWORLD",
+      "VEHICLE",
+      "TRANSPORT"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010184_EN_Aerie_b95c93d025.png",
+    "cost": 6,
+    "hp": 7,
+    "arena": "space",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Aerie",
+        "title": "Vaisseau De Transport Des Cloud-Riders",
+        "art": "https://cdn.starwarsunlimited.com//card_07010184_FR_Aerie_c75fe625f1.png",
+        "traits": [
+          "PÈGRE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-185",
+    "set": "LAW",
+    "number": 185,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Ben Solo",
+    "title": "Facing the Light",
+    "traits": [
+      "FORCE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010185_EN_Ben_Solo_5c3069c8e4.png",
+    "cost": 9,
+    "hp": 8,
+    "arena": "ground",
+    "power": 8,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Ben Solo",
+        "title": "Face À La Lumière",
+        "art": "https://cdn.starwarsunlimited.com//card_07010185_FR_Ben_Solo_891f9c2b91.png",
+        "traits": [
+          "FORCE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-186",
+    "set": "LAW",
+    "number": 186,
+    "type": "upgrade",
+    "rarity": "rare",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "Enfys Nest's Helmet",
+    "traits": [
+      "ITEM",
+      "ARMOR"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010186_EN_Enfys_Nest_s_Helmet_b9002e5ba4.png",
+    "cost": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Casque d'Enfys Nest",
+        "art": "https://cdn.starwarsunlimited.com//card_07010186_FR_Casque_d_Enfys_Nest_de65ef5de1.png",
+        "traits": [
+          "OBJET",
+          "ARMURE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-187",
+    "set": "LAW",
+    "number": 187,
+    "type": "upgrade",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression",
+      "heroism"
+    ],
+    "name": "“Staccato Lightning” Repeater",
+    "traits": [
+      "ITEM",
+      "WEAPON"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010187_EN_Staccato_Lightning_Repeater_6d89b77a86.png",
+    "cost": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Canon à Répétition « Éclairs Staccato »",
+        "art": "https://cdn.starwarsunlimited.com//card_07010187_FR_Canon_a_Repetition_Eclairs_Staccato_ed86368ff3.png",
+        "traits": [
+          "OBJET",
+          "ARME"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-201",
+    "set": "LAW",
+    "number": 201,
+    "type": "upgrade",
+    "rarity": "rare",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Thermal Detonator",
+    "traits": [
+      "ITEM",
+      "WEAPON"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010201_EN_Thermal_Detonator_c3de39cd52.png",
+    "cost": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Détonateur Thermique",
+        "art": "https://cdn.starwarsunlimited.com//card_07010201_FR_Detonateur_Thermique_531a29e443.png",
+        "traits": [
+          "OBJET",
+          "ARME"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-206",
+    "set": "LAW",
+    "number": 206,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "That's a Rock",
+    "traits": [
+      "GAMBIT"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010206_EN_That_s_a_Rock_ac514bb22a.png",
+    "cost": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "C'est un Caillou",
+        "art": "https://cdn.starwarsunlimited.com//card_07010206_FR_C_est_un_Caillou_a479482b9c.png",
+        "traits": [
+          "GAMBIT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-207",
+    "set": "LAW",
+    "number": 207,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "aggression"
+    ],
+    "name": "Attack From All Sides",
+    "traits": [
+      "TACTIC"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010207_EN_Attack_From_All_Sides_be6cebf461.png",
+    "cost": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Attaquer de Tous les Côtés",
+        "art": "https://cdn.starwarsunlimited.com//card_07010207_FR_Attaquer_de_Tous_les_Cotes_6c11338288.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-210",
+    "set": "LAW",
+    "number": 210,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Salacious Crumb",
+    "title": "Cackling Companion",
+    "traits": [
+      "UNDERWORLD",
+      "CREATURE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010210_EN_Salacious_Crumb_778624bde0.png",
+    "cost": 1,
+    "hp": 2,
+    "arena": "ground",
+    "power": 0,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Salacious Crumb",
+        "title": "Compagnon Caquetant",
+        "art": "https://cdn.starwarsunlimited.com//card_07010210_FR_Salacious_Crumb_548134a509.png",
+        "traits": [
+          "PÈGRE",
+          "CRÉATURE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-211",
+    "set": "LAW",
+    "number": 211,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Black Sun Patroller",
+    "traits": [
+      "UNDERWORLD",
+      "VEHICLE",
+      "FIGHTER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010211_EN_Black_Sun_Patroller_615116ab4f.png",
+    "cost": 2,
+    "hp": 2,
+    "arena": "space",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Patrouilleur du Soleil Noir",
+        "art": "https://cdn.starwarsunlimited.com//card_07010211_FR_Patrouilleur_du_Soleil_Noir_0b4e6d4067.png",
+        "traits": [
+          "PÈGRE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-212",
+    "set": "LAW",
+    "number": 212,
+    "type": "unit",
+    "rarity": "special",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Malakili",
+    "title": "Keeper of the Menagerie",
+    "traits": [
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010212_EN_Malakili_c60c1499ee.png",
+    "cost": 2,
+    "hp": 4,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Malakili",
+        "title": "Gardien De La Ménagerie",
+        "art": "https://cdn.starwarsunlimited.com//card_07010212_FR_Malakili_b13654fcb3.png",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-214",
+    "set": "LAW",
+    "number": 214,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Boba Fett",
+    "title": "For a Price",
+    "traits": [
+      "UNDERWORLD",
+      "BOUNTY HUNTER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010214_EN_Boba_Fett_34cf2cf618.png",
+    "cost": 5,
+    "hp": 5,
+    "arena": "ground",
+    "power": 6,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Boba Fett",
+        "title": "Moyennant Finances",
+        "art": "https://cdn.starwarsunlimited.com//card_07010214_FR_Boba_Fett_a2821ad5c7.png",
+        "traits": [
+          "PÈGRE",
+          "CHASSEUR DE PRIMES"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-215",
+    "set": "LAW",
+    "number": 215,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Vermillion",
+    "title": "Qi'ra's Auction House",
+    "traits": [
+      "UNDERWORLD",
+      "VEHICLE",
+      "CAPITAL SHIP"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010215_EN_Vermillion_624b650a28.png",
+    "cost": 6,
+    "hp": 7,
+    "arena": "space",
+    "power": 5,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vermillion",
+        "title": "Salle Des Ventes De Qi'Ra",
+        "art": "https://cdn.starwarsunlimited.com//card_07010215_FR_Vermillion_9f601620a4.png",
+        "traits": [
+          "PÈGRE",
+          "VÉHICULE",
+          "VAISSEAU CAPITAL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-216",
+    "set": "LAW",
+    "number": 216,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "villainy"
+    ],
+    "name": "Jabba's Rancor",
+    "title": "Snack Time!",
+    "traits": [
+      "UNDERWORLD",
+      "CREATURE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010216_EN_Jabba_s_Rancor_ff2348c72c.png",
+    "cost": 7,
+    "hp": 7,
+    "arena": "ground",
+    "power": 7,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Rancor de Jabba",
+        "title": "L'Heure Du Goûter !",
+        "art": "https://cdn.starwarsunlimited.com//card_07010216_FR_Rancor_de_Jabba_a6597ad6d3.png",
+        "traits": [
+          "PÈGRE",
+          "CRÉATURE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-219",
+    "set": "LAW",
+    "number": 219,
+    "type": "unit",
+    "rarity": "legendary",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Anakin's Podracer",
+    "title": "So Wizard!",
+    "traits": [
+      "VEHICLE",
+      "SPEEDER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010219_EN_Anakin_s_Podracer_03691e902b.png",
+    "cost": 3,
+    "hp": 2,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Module de Course d'Anakin",
+        "title": "Trop Génial !",
+        "art": "https://cdn.starwarsunlimited.com//card_07010219_FR_Module_de_Course_d_Anakin_97c1a1506c.png",
+        "traits": [
+          "VÉHICULE",
+          "SPEEDER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-221",
+    "set": "LAW",
+    "number": 221,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Lieutenant Gorn",
+    "title": "I Deserve Worse",
+    "traits": [
+      "IMPERIAL",
+      "REBEL"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010221_EN_Lieutenant_Gorn_b48afb7753.png",
+    "cost": 3,
+    "hp": 4,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Lieutenant Gorn",
+        "title": "Je Mérite Pire",
+        "art": "https://cdn.starwarsunlimited.com//card_07010221_FR_Lieutenant_Gorn_95b96407a2.png",
+        "traits": [
+          "IMPÉRIAL",
+          "REBELLE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-223",
+    "set": "LAW",
+    "number": 223,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Rose Tico",
+    "title": "Now It's Worth It",
+    "traits": [
+      "RESISTANCE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010223_EN_Rose_Tico_d180fbe307.png",
+    "cost": 5,
+    "hp": 5,
+    "arena": "ground",
+    "power": 5,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Rose Tico",
+        "title": "Maintenant Ça En Valait La Peine",
+        "art": "https://cdn.starwarsunlimited.com//card_07010223_FR_Rose_Tico_3192d1000e.png",
+        "traits": [
+          "RÉSISTANCE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-225",
+    "set": "LAW",
+    "number": 225,
+    "type": "upgrade",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Han's Golden Dice",
+    "traits": [
+      "ITEM"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010225_EN_Han_s_Golden_Dice_4b6d03915b.png",
+    "cost": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Dés Dorés de Han",
+        "art": "https://cdn.starwarsunlimited.com//card_07010225_FR_Des_Dores_de_Han_f6b0598625.png",
+        "traits": [
+          "OBJET"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-226",
+    "set": "LAW",
+    "number": 226,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning",
+      "heroism"
+    ],
+    "name": "Secret Battle of Pretend",
+    "traits": [
+      "TRICK"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010226_EN_Secret_Battle_of_Pretend_847ba04071.png",
+    "cost": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Fausse Bagarre",
+        "art": "https://cdn.starwarsunlimited.com//card_07010226_FR_Fausse_Bagarre_07d4414460.png",
+        "traits": [
+          "ASTUCE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-229",
+    "set": "LAW",
+    "number": 229,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "The Master Codebreaker",
+    "title": "High Stakes",
+    "traits": [
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010229_EN_The_Master_Codebreaker_7b2228a734.png",
+    "cost": 2,
+    "hp": 4,
+    "arena": "ground",
+    "power": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Le Maître du Décryptage",
+        "title": "Hauts Enjeux",
+        "art": "https://cdn.starwarsunlimited.com//card_07010229_FR_Le_Maitre_du_Decryptage_8226fde160.png",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-231",
+    "set": "LAW",
+    "number": 231,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Weequay Pirate",
+    "traits": [
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010231_EN_Weequay_Pirate_a79e5eb394.png",
+    "cost": 2,
+    "hp": 3,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Pirate Weequay",
+        "art": "https://cdn.starwarsunlimited.com//card_07010231_FR_Pirate_Weequay_70d6c53327.png",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-232",
+    "set": "LAW",
+    "number": 232,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Champion's KT9 Podracer",
+    "traits": [
+      "VEHICLE",
+      "SPEEDER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010232_EN_Champion_s_KT_9_Podracer_87ee86d693.png",
+    "cost": 3,
+    "hp": 3,
+    "arena": "ground",
+    "power": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Module de course KT9 du Champion",
+        "art": "https://cdn.starwarsunlimited.com//card_07010232_FR_Module_de_course_KT_9_du_Champion_aa6941c3b4.png",
+        "traits": [
+          "VÉHICULE",
+          "SPEEDER"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-233",
+    "set": "LAW",
+    "number": 233,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Galen Erso",
+    "title": "Destroying His Creation",
+    "traits": [
+      "IMPERIAL"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010233_EN_Galen_Erso_e9a5703f8f.png",
+    "cost": 3,
+    "hp": 5,
+    "arena": "ground",
+    "power": 0,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Galen Erso",
+        "title": "Détruit Sa Création",
+        "art": "https://cdn.starwarsunlimited.com//card_07010233_FR_Galen_Erso_c705106803.png",
+        "traits": [
+          "IMPÉRIAL"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-235",
+    "set": "LAW",
+    "number": 235,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Lady Proxima",
+    "title": "Where's the Money?",
+    "traits": [
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010235_EN_Lady_Proxima_7f6e3e6e16.png",
+    "cost": 3,
+    "hp": 5,
+    "arena": "ground",
+    "power": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Lady Proxima",
+        "title": "Où Est Mon Argent ?",
+        "art": "https://cdn.starwarsunlimited.com//card_07010235_FR_Lady_Proxima_c71a31222b.png",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-236",
+    "set": "LAW",
+    "number": 236,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Bix Caleen",
+    "title": "Selling Scrap",
+    "traits": [
+      "FRINGE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010236_EN_Bix_Caleen_bcfd8fac1d.png",
+    "cost": 4,
+    "hp": 5,
+    "arena": "ground",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Bix Caleen",
+        "title": "Vend De La Ferraille",
+        "art": "https://cdn.starwarsunlimited.com//card_07010236_FR_Bix_Caleen_290ba3da62.png",
+        "traits": [
+          "FRANGE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-237",
+    "set": "LAW",
+    "number": 237,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Qui-Gon Jinn",
+    "title": "Influencing Chance",
+    "traits": [
+      "FORCE",
+      "JEDI",
+      "REPUBLIC"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010237_EN_Qui_Gon_Jinn_facc6edc1e.png",
+    "cost": 4,
+    "hp": 5,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Qui-Gon Jinn",
+        "title": "Influence La Chance",
+        "art": "https://cdn.starwarsunlimited.com//card_07010237_FR_Qui_Gon_Jinn_25669d0e76.png",
+        "traits": [
+          "FORCE",
+          "JEDI",
+          "RÉPUBLIQUE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-238",
+    "set": "LAW",
+    "number": 238,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Scavenging Sandcrawler",
+    "traits": [
+      "VEHICLE",
+      "TRANSPORT"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010238_EN_Scavenging_Sandcrawler_cdc4aa1974.png",
+    "cost": 4,
+    "hp": 7,
+    "arena": "ground",
+    "power": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Char des Sables Récupérateur",
+        "art": "https://cdn.starwarsunlimited.com//card_07010238_FR_Char_des_Sables_Recuperateur_39ed68c3fa.png",
+        "traits": [
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-241",
+    "set": "LAW",
+    "number": 241,
+    "type": "unit",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "The Blade Wing",
+    "title": "The Secret of Shantipole",
+    "traits": [
+      "REBEL",
+      "VEHICLE",
+      "FIGHTER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010241_EN_The_Blade_Wing_ae01bfed94.png",
+    "cost": 6,
+    "hp": 3,
+    "arena": "space",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Le Blade Wing",
+        "title": "Le Secret De Shantipole",
+        "art": "https://cdn.starwarsunlimited.com//card_07010241_FR_Le_Blade_Wing_c784e40725.png",
+        "traits": [
+          "REBELLE",
+          "VÉHICULE",
+          "CHASSEUR"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-242",
+    "set": "LAW",
+    "number": 242,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Improvise",
+    "traits": [
+      "GAMBIT"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010242_EN_Improvise_7d8c7817de.png",
+    "cost": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Improviser",
+        "art": "https://cdn.starwarsunlimited.com//card_07010242_FR_Improviser_669df7f420.png",
+        "traits": [
+          "GAMBIT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-243",
+    "set": "LAW",
+    "number": 243,
+    "type": "event",
+    "rarity": "uncommon",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Transmission Jamming",
+    "traits": [
+      "TACTIC"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010243_EN_Transmission_Jamming_c5f16234de.png",
+    "cost": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Brouillage des Transmissions",
+        "art": "https://cdn.starwarsunlimited.com//card_07010243_FR_Brouillage_des_Transmissions_804fa6a143.png",
+        "traits": [
+          "TACTIQUE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-244",
+    "set": "LAW",
+    "number": 244,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Unmarked Credits",
+    "traits": [
+      "SUPPLY"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010244_EN_Unmarked_Credits_da87cb6f26.png",
+    "cost": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Crédits Non Identifiables",
+        "art": "https://cdn.starwarsunlimited.com//card_07010244_FR_Credits_Non_Identifiables_47aa75a025.png",
+        "traits": [
+          "RÉSERVE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-246",
+    "set": "LAW",
+    "number": 246,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "The Axe Forgets",
+    "traits": [
+      "GAMBIT"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010246_EN_The_Axe_Forgets_395eb79580.png",
+    "cost": 2,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "La Hache Oublie",
+        "art": "https://cdn.starwarsunlimited.com//card_07010246_FR_La_Hache_Oublie_ae4565bc7f.png",
+        "traits": [
+          "GAMBIT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-247",
+    "set": "LAW",
+    "number": 247,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [
+      "cunning"
+    ],
+    "name": "Backed by the Hutts",
+    "traits": [
+      "SUPPLY"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010247_EN_Backed_by_the_Hutts_eba26cc12a.png",
+    "cost": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Soutenu par les Hutts",
+        "art": "https://cdn.starwarsunlimited.com//card_07010247_FR_Soutenu_par_les_Hutts_f4b7ce8248.png",
+        "traits": [
+          "RÉSERVE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-249",
+    "set": "LAW",
+    "number": 249,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Black Sun Cabalist",
+    "traits": [
+      "UNDERWORLD"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010249_EN_Black_Sun_Cabalist_9c2c0f282a.png",
+    "cost": 2,
+    "hp": 3,
+    "arena": "ground",
+    "power": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Cabaliste du Soleil Noir",
+        "art": "https://cdn.starwarsunlimited.com//card_07010249_FR_Cabaliste_du_Soleil_Noir_e32ef118bf.png",
+        "traits": [
+          "PÈGRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-250",
+    "set": "LAW",
+    "number": 250,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Callous Bounty Hunter",
+    "traits": [
+      "UNDERWORLD",
+      "BOUNTY HUNTER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010250_EN_Callous_Bounty_Hunter_2ea8abc822.png",
+    "cost": 3,
+    "hp": 4,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Chasseur de Primes Insensible",
+        "art": "https://cdn.starwarsunlimited.com//card_07010250_FR_Chasseur_de_Primes_Insensible_131c7bcda0.png",
+        "traits": [
+          "PÈGRE",
+          "CHASSEUR DE PRIMES"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-252",
+    "set": "LAW",
+    "number": 252,
+    "type": "unit",
+    "rarity": "rare",
+    "aspects": [
+      "villainy"
+    ],
+    "name": "Fett's Firespray",
+    "title": "In Pursuit",
+    "traits": [
+      "UNDERWORLD",
+      "VEHICLE",
+      "TRANSPORT"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010252_EN_Fett_s_Firespray_2d96cda17e.png",
+    "cost": 6,
+    "hp": 6,
+    "arena": "space",
+    "power": 4,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Firespray de Fett",
+        "title": "En Poursuite",
+        "art": "https://cdn.starwarsunlimited.com//card_07010252_FR_Firespray_de_Fett_3fad4503b3.png",
+        "traits": [
+          "PÈGRE",
+          "VÉHICULE",
+          "TRANSPORT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-254",
+    "set": "LAW",
+    "number": 254,
+    "type": "unit",
+    "rarity": "common",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Stalwart Fleet Trooper",
+    "traits": [
+      "REBEL",
+      "TROOPER"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010254_EN_Stalwart_Fleet_Trooper_32d6ede656.png",
+    "cost": 3,
+    "hp": 3,
+    "arena": "ground",
+    "power": 3,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Vaillant Soldat de la Flotte",
+        "art": "https://cdn.starwarsunlimited.com//card_07010254_FR_Vaillant_Soldat_de_la_Flotte_6540b48655.png",
+        "traits": [
+          "REBELLE",
+          "SOLDAT"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-256",
+    "set": "LAW",
+    "number": 256,
+    "type": "event",
+    "rarity": "rare",
+    "aspects": [
+      "heroism"
+    ],
+    "name": "Fire Across the Galaxy",
+    "traits": [
+      "SPECTRE"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010256_EN_Fire_Across_the_Galaxy_07d281ca33.png",
+    "cost": 6,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "Galaxie en Flammes",
+        "art": "https://cdn.starwarsunlimited.com//card_07010256_FR_Galaxie_en_Flammes_4d21cb37f6.png",
+        "traits": [
+          "SPECTRE"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "LAW-264",
+    "set": "LAW",
+    "number": 264,
+    "type": "event",
+    "rarity": "common",
+    "aspects": [],
+    "name": "From a Certain Point of View",
+    "traits": [
+      "LEARNED"
+    ],
+    "art": "https://cdn.starwarsunlimited.com//card_07010264_EN_From_a_Certain_Point_of_View_c96f31da5f.png",
+    "cost": 1,
+    "localization": [
+      {
+        "locale": "fr",
+        "name": "D'un Certain Point de Vue",
+        "art": "https://cdn.starwarsunlimited.com//card_07010264_FR_D_un_Certain_Point_de_Vue_156681cd47.png",
+        "traits": [
+          "ACQUIS"
+        ]
+      }
+    ]
+  }
+]

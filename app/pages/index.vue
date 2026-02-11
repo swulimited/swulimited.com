@@ -15,7 +15,8 @@ const { $trackEvent } = useNuxtApp()
 
 const availableSets = ref([
   { code: 'LOF', count: 0 },
-  { code: 'SEC', count: 6 }
+  { code: 'SEC', count: 6 },
+  { code: 'LAW', count: 0 }
 ])
 
 const includeSpotlightLeaders = ref(false)
@@ -81,6 +82,20 @@ const startCustomEvent = () => {
             <div
               class="absolute inset-x-0 -bottom-8 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <span class="text-swu-accent font-bold text-xs tracking-widest uppercase">{{ $t('open_6_packs') }}</span>
+            </div>
+          </NuxtLink>
+
+          <NuxtLink to="/sets/LAW"
+            @click="$trackEvent('new_pool', { pool: 'standard', set: 'LAW' })"
+            class="group relative block w-full sm:w-28 md:w-40 transition-all duration-300 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-yellow-500/50 rounded-xl">
+            <div
+              class="absolute -inset-0.5 bg-yellow-500 rounded-xl opacity-0 group-hover:opacity-75 blur transition duration-300">
+            </div>
+            <img src="/images/LAW-cover.jpg" alt="A Lawless Time"
+              class="relative w-full h-auto rounded-xl shadow-2xl border border-white/10" />
+            <div
+              class="absolute inset-x-0 -bottom-8 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <span class="text-yellow-500 font-bold text-xs tracking-widest uppercase">{{ $t('open_6_packs') }}</span>
             </div>
           </NuxtLink>
         </div>
