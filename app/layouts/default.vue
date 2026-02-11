@@ -94,23 +94,31 @@ const changeLanguage = (newLocale: 'en' | 'fr') => {
         leave-active-class="transition duration-150 ease-in" leave-from-class="transform translate-y-0 opacity-100"
         leave-to-class="transform -translate-y-2 opacity-0">
         <div v-if="isMobileMenuOpen" class="md:hidden border-t border-swu-primary/10 bg-swu-950/95 backdrop-blur-xl">
-          <div class="space-y-1 px-4 pb-3 pt-2">
-            <NuxtLink to="/sets/LOF"
-              @click="$trackEvent('new_pool', { pool: 'standard', set: 'LOF', location: 'header_mobile' })"
-              class="flex items-center gap-3 p-3 rounded-lg hover:bg-swu-primary/10 transition-colors"
-              :class="route.path.includes('/sets/LOF') || (route.params.id as string)?.includes('LOF-') ? 'bg-swu-primary/10 ring-1 ring-swu-primary/50' : ''">
-              <img src="/images/LOF-logo.png" alt="Legends of the Force" class="h-8 w-auto" />
-            </NuxtLink>
-            <NuxtLink to="/sets/SEC"
-              @click="$trackEvent('new_pool', { pool: 'standard', set: 'SEC', location: 'header_mobile' })"
-              class="flex items-center gap-3 p-3 rounded-lg hover:bg-swu-primary/10 transition-colors"
-              :class="route.path.includes('/sets/SEC') || (route.params.id as string)?.includes('SEC-') ? 'bg-swu-primary/10 ring-1 ring-swu-primary/50' : ''">
-              <img src="/images/SEC-logo.png" alt="Secrets of Power" class="h-8 w-auto" />
-            </NuxtLink>
+          <div class="px-4 pb-3 pt-2">
+            <!-- Extensions Mobile -->
+            <div class="flex flex-wrap items-center justify-center gap-2 mb-2">
+              <NuxtLink to="/sets/LOF"
+                @click="$trackEvent('new_pool', { pool: 'standard', set: 'LOF', location: 'header_mobile' })"
+                class="rounded-md px-2 py-1 transition-all duration-300" :class="[
+                  route.path.includes('/sets/LOF') || (route.params.id as string)?.includes('LOF-')
+                    ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
+                    : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
+                ]">
+                <img src="/images/LOF-logo.png" alt="Legends of the Force" class="h-8 w-auto" />
+              </NuxtLink>
+              <NuxtLink to="/sets/SEC"
+                @click="$trackEvent('new_pool', { pool: 'standard', set: 'SEC', location: 'header_mobile' })"
+                class="rounded-md px-2 py-1 transition-all duration-300" :class="[
+                  route.path.includes('/sets/SEC') || (route.params.id as string)?.includes('SEC-')
+                    ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
+                    : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
+                ]">
+                <img src="/images/SEC-logo.png" alt="Secrets of Power" class="h-8 w-auto" />
+              </NuxtLink>
+            </div>
 
             <!-- Language Switcher Mobile -->
-            <div class="flex items-center gap-4 p-3 border-t border-swu-primary/10 mt-2">
-              <span class="text-sm text-slate-400">Language:</span>
+            <div class="flex items-center justify-center gap-4 p-3 border-t border-swu-primary/10">
               <div class="flex items-center gap-3">
                 <button @click="changeLanguage('en')" class="text-sm font-bold px-2 py-1 rounded"
                   :class="locale === 'en' ? 'bg-swu-primary/20 text-swu-primary' : 'text-slate-400'">English</button>
