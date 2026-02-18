@@ -706,7 +706,16 @@ const handleKeydown = (e: KeyboardEvent) => {
 
 watch([showStats, showDrawDialog], ([statsOpen, drawOpen]) => {
   if (typeof document !== 'undefined') {
-    document.body.style.overflow = (statsOpen || drawOpen) ? 'hidden' : ''
+    if (statsOpen || drawOpen) {
+      const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth
+      document.body.style.paddingRight = `${scrollbarWidth}px`
+      document.body.style.overflow = 'hidden'
+      document.body.style.backgroundColor = '#020617' // swu-950
+    } else {
+      document.body.style.overflow = ''
+      document.body.style.paddingRight = ''
+      document.body.style.backgroundColor = ''
+    }
   }
 })
 
@@ -723,6 +732,8 @@ onUnmounted(() => {
   clearTimeout(scrollTimeout)
   if (typeof document !== 'undefined') {
     document.body.style.overflow = ''
+    document.body.style.paddingRight = ''
+    document.body.style.backgroundColor = ''
   }
 })
 
