@@ -68,5 +68,17 @@
     "aspect_aggression": "Agression",
     "aspect_cunning": "Ruse",
     "aspect_villainy": "Villainie",
-    "aspect_heroism": "Héroisme"
+    "aspect_heroism": "Héroisme",
+    "aspect_neutral": "Neutre",
+    "filter_title": "Options de filtre",
+    "filter_mode_auto": "Automatique",
+    "filter_mode_custom": "Personnalisé",
+    "filter_aspects": "Aspects",
+    "filter_traits": "Traits",
+    "filter_costs": "Coûts",
+    "apply_filter": "Appliquer le filtre",
+    "select_all": "Tout sélectionner",
+    "deselect_all": "Tout désélectionner",
+    "filter_change_confirmation": "Changer les options de filtre entraîne la réinitialisation des cartes actuellement sélectionnées. Confirmer ?",
+    "cards_count": "{count} cartes"
 }

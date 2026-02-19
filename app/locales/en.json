@@ -68,5 +68,17 @@
     "aspect_aggression": "Aggression",
     "aspect_cunning": "Cunning",
     "aspect_villainy": "Villainy",
-    "aspect_heroism": "Heroism"
+    "aspect_heroism": "Heroism",
+    "aspect_neutral": "Neutral",
+    "filter_title": "Filter Options",
+    "filter_mode_auto": "Automatic",
+    "filter_mode_custom": "Custom",
+    "filter_aspects": "Aspects",
+    "filter_traits": "Traits",
+    "filter_costs": "Costs",
+    "apply_filter": "Apply Filter",
+    "select_all": "Select All",
+    "deselect_all": "Deselect All",
+    "filter_change_confirmation": "Changing filter options will reset the currently selected cards. Confirm?",
+    "cards_count": "{count} cards"
 }

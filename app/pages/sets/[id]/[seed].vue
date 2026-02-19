@@ -20,7 +20,8 @@ import {
   TrashIcon,
   XMarkIcon,
   HandRaisedIcon,
-  FunnelIcon
+  FunnelIcon,
+  InformationCircleIcon
 } from '@heroicons/vue/24/outline'
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement)
@@ -134,14 +135,44 @@ const cards = computed(() => {
     return poolCards.value
   }
 
-  // If filter is disabled AND both leader/base are selected, show all cards
-  // This ensures that if the toggle is hidden (e.g. only leader selected), we default back to filtering
-  if (selectedLeader.value && selectedBase.value && !filterEnabled.value) {
-    return poolCards.value
+  // Custom filtering mode
+  if (filterMode.value === 'custom') {
+    return poolCards.value.filter(card => {
+      // 1. Aspects Filter
+      if (customFilter.aspects.size > 0) {
+        // If "neutral" is selected, we match cards with no aspects
+        const isNeutral = !card.aspects || card.aspects.length === 0
+        if (isNeutral) {
+            if (!customFilter.aspects.has('neutral')) return false
+        } else {
+            // For card with aspects, check if ALL aspects are in the selection to match "deckbuilding-like" strictness
+            // or at least properly exclude out-of-aspect cards when filtering by deck colors.
+            const match = card.aspects.every(a => customFilter.aspects.has(a))
+            if (!match) return false
+        }
+      } else {
+        // If no aspects selected, nothing should be shown (strict mode requested)
+        return false
+      }
+
+      // 2. Costs Filter
+      if (customFilter.costs.size > 0) {
+        let cost = card.cost ?? 0
+        if (cost > 9) cost = 9
+        if (!customFilter.costs.has(cost)) return false
+      } else {
+         // If no costs selected, nothing should be shown
+         return false
+      }
+
+
+
+      return true
+    })
   }
 
-
-
+  // Auto filtering mode (Default)
+  // Filters cards based on Leader and Base aspects
   return poolCards.value.filter(card => {
     // Neutral cards (no aspects) are always compatible
     if (!card.aspects || card.aspects.length === 0) return true
@@ -273,6 +304,7 @@ const toggleLeader = (uniqueId: string) => {
   } else {
     selectedLeaderId.value = uniqueId
   }
+  filterMode.value = 'auto'
 }
 
 const selectedBaseId = ref<string | null>(null)
@@ -283,16 +315,225 @@ const toggleBase = (uniqueId: string) => {
   } else {
     selectedBaseId.value = uniqueId
   }
+  filterMode.value = 'auto'
 }
 
-const filterEnabled = ref(true)
+// Filter State
+const showFilterDialog = ref(false)
+const filterMode = ref<'auto' | 'custom'>('auto')
+
+const customFilter = reactive({
+  aspects: new Set<string>(),
+  traits: new Set<string>(),
+  costs: new Set<number>()
+})
+
+// Draft state for data entry in dialog
+const draftFilterMode = ref<'auto' | 'custom'>('auto')
+const draftCustomFilter = reactive({
+  aspects: new Set<string>(),
+  traits: new Set<string>(),
+  // traits: new Set<string>(), // Removed
+  costs: new Set<number>()
+})
+
+const aspectOptions = ['vigilance', 'command', 'aggression', 'cunning', 'villainy', 'heroism', 'neutral']
+
+// const availableTraits = computed(() => { // Removed
+//   const set = new Set<string>()
+//   poolCards.value.forEach(card => {
+//     const traits = getCardTraits(card)
+//     if (traits) {
+//       traits.forEach(t => set.add(t))
+//     }
+//   })
+//   return Array.from(set).sort()
+// })
+
+const openFilterDialog = () => {
+  // Init draft with current state
+  draftFilterMode.value = filterMode.value
+  draftCustomFilter.aspects = new Set(customFilter.aspects)
+  // draftCustomFilter.traits = new Set(customFilter.traits) // Removed
+  draftCustomFilter.costs = new Set(customFilter.costs)
+  showFilterDialog.value = true
+}
+
+const switchToCustomMode = () => {
+  draftFilterMode.value = 'custom'
+  
+  // If the actual applied filter is Auto, we seed the Custom draft with Auto settings
+  if (filterMode.value === 'auto') {
+      const newAspects = new Set<string>()
+      newAspects.add('neutral')
+      
+      if (selectedLeader.value?.aspects) {
+        selectedLeader.value.aspects.forEach((a: string) => newAspects.add(a))
+      }
+      if (selectedBase.value?.aspects) {
+        selectedBase.value.aspects.forEach((a: string) => newAspects.add(a))
+      }
+      
+      draftCustomFilter.aspects = newAspects
+      
+      // Select all costs [0-9]
+      draftCustomFilter.costs = new Set([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+      
+      // Select all available traits // Removed
+      // draftCustomFilter.traits = new Set(availableTraits.value) // Removed
+  }
+}
+
+
+const applyFilter = () => {
+    if (selectedCardIds.value.size > 0 && confirm(t('filter_change_confirmation'))) {
+        selectedCardIds.value = new Set()
+    } else if (selectedCardIds.value.size > 0) {
+        return
+    }
+
+  filterMode.value = draftFilterMode.value
+  customFilter.aspects = new Set(draftCustomFilter.aspects)
+  // customFilter.traits = new Set(draftCustomFilter.traits) // Removed
+  customFilter.costs = new Set(draftCustomFilter.costs)
+  showFilterDialog.value = false
+}
+
+// Helpers for draft manipulation
+const toggleDraftAspect = (aspect: string) => {
+  if (draftCustomFilter.aspects.has(aspect)) {
+    draftCustomFilter.aspects.delete(aspect)
+  } else {
+    draftCustomFilter.aspects.add(aspect)
+  }
+}
+
+const toggleDraftCost = (cost: number) => {
+  if (draftCustomFilter.costs.has(cost)) {
+    draftCustomFilter.costs.delete(cost)
+  } else {
+    draftCustomFilter.costs.add(cost)
+  }
+}
+
+// const toggleDraftTrait = (trait: string) => { // Removed
+//   if (draftCustomFilter.traits.has(trait)) {
+//     draftCustomFilter.traits.delete(trait)
+//   } else {
+//     draftCustomFilter.traits.add(trait)
+//   }
+// }
+
+// const draftAllTraits = () => { // Removed
+//     availableTraits.value.forEach(t => draftCustomFilter.traits.add(t))
+// }
+
+// const draftNoTraits = () => { // Removed
+//     draftCustomFilter.traits.clear()
+// }
+
+// Compute the number of cards that would match the draft filter
+const draftFilteredCardsCount = computed(() => {
+  // If no leader or base, we can't really filter in auto mode correctly, but defaulting to full pool
+  if (!selectedLeader.value && !selectedBase.value) {
+     return poolCards.value.length
+  }
+
+  // Custom filtering mode logic (replicated for draft state)
+  if (draftFilterMode.value === 'custom') {
+    return poolCards.value.filter(card => {
+      // 1. Aspects
+      // 1. Aspects
+      if (draftCustomFilter.aspects.size > 0) {
+        // If neutral is selected in filter, we allow cards with NO aspects to pass.
+        // OR cards that have matching aspects.
+        // BUT strict intersection is too harsh if we want to mimic "Deckbuilding rules" manually.
+        // HOWEVER, the user asked for: "number of cards filtered should be the same".
+        // In "Auto" mode, we check efficient deckbuilding rules (do we have enough aspect icons?).
+        // In "Custom" mode, the user selects aspects like "Vigilance", "Command". 
+        // If a card is Double Vigilance, and user selects Vigilance, should it match? Yes.
+        // The previous logic was: card has aspect X, is X in filter?
+        
+        const isNeutral = !card.aspects || card.aspects.length === 0
+        if (isNeutral) {
+            if (!draftCustomFilter.aspects.has('neutral')) return false
+        } else {
+            // Updated logic to match more closely what a user might expect:
+            // If I filter "Vigilance", I want to see all Vigilance cards.
+            // Even double vigilance.
+            // The previous logic `card.aspects.some(a => draftCustomFilter.aspects.has(a))` works for this.
+            
+            // Wait, let's look at the "Auto" initialization. 
+            // We initialize the filter with: Neutral + Leader Aspects + Base Aspects.
+            // Say Leader = Vigilance, Base = Command.
+            // Filter = {Neutral, Vigilance, Command}.
+            // A card with "Vigilance" matches.
+            // A card with "Vigilance, Command" matches (both present).
+            // A card with "Aggression" does NOT match.
+            // A card with "Vigilance, Aggression" (out of aspect) DOES match in this logic because it has Vigilance!
+            
+            // BUT in "Auto" mode logic (lines 183+):
+            // We check if we have *enough* icons.
+            // If card needs Vigilance + Aggression, and we only have Vigilance + Command...
+            // It fails strictly in Auto mode because of the missing Aggression.
+            
+            // But in Custom mode, the logic `some` returns TRUE because it has Vigilance.
+            // So Custom mode is PERMISSIVE (OR) on aspects, while Auto mode is RESTRICTIVE (AND/Count) on deckbuilding.
+            
+            // To make the counts match when initialized from Auto:
+            // The card MUST NOT have any aspect that is NOT in the filter set.
+            // (Strict subset check, essentially).
+            
+            // Let's change the logic to: Every aspect of the card must be present in the filter.
+            const match = card.aspects.every(a => draftCustomFilter.aspects.has(a))
+            if (!match) return false
+        }
+      } else {
+        return false
+      }
+      // 2. Costs
+      if (draftCustomFilter.costs.size > 0) {
+        let cost = card.cost ?? 0
+        if (cost > 9) cost = 9
+        if (!draftCustomFilter.costs.has(cost)) return false
+      } else {
+        return false
+      }
+
+      return true
+    }).length
+  }
+
+  // Auto filtering mode logic
+  return poolCards.value.filter(card => {
+    if (!card.aspects || card.aspects.length === 0) return true
+    const needed = new Map<string, number>()
+    for (const a of card.aspects) {
+      needed.set(a, (needed.get(a) || 0) + 1)
+    }
+    const available = new Map<string, number>()
+    if (selectedLeader.value?.aspects) {
+      selectedLeader.value.aspects.forEach((a: string) => available.set(a, (available.get(a) || 0) + 1))
+    }
+    if (selectedBase.value?.aspects) {
+      selectedBase.value.aspects.forEach((a: string) => available.set(a, (available.get(a) || 0) + 1))
+    }
+    for (const [aspect, count] of needed) {
+      if ((available.get(aspect) || 0) < count) return false
+    }
+    return true
+  }).length
+})
 
 const resetOptions = () => {
   selectedLeaderId.value = null
   selectedBaseId.value = null
   selectedCardIds.value = new Set()
   sortBy.value = 'number'
-  filterEnabled.value = true
+  filterMode.value = 'auto'
+  customFilter.aspects.clear()
+  customFilter.traits.clear()
+  customFilter.costs.clear()
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
@@ -701,12 +942,13 @@ const handleKeydown = (e: KeyboardEvent) => {
   if (e.key === 'Escape') {
     if (showStats.value) showStats.value = false
     if (showDrawDialog.value) showDrawDialog.value = false
+    if (showFilterDialog.value) showFilterDialog.value = false
   }
 }
 
-watch([showStats, showDrawDialog], ([statsOpen, drawOpen]) => {
+watch([showStats, showDrawDialog, showFilterDialog], ([statsOpen, drawOpen, filterOpen]) => {
   if (typeof document !== 'undefined') {
-    if (statsOpen || drawOpen) {
+    if (statsOpen || drawOpen || filterOpen) {
       const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth
       document.body.style.paddingRight = `${scrollbarWidth}px`
       document.body.style.overflow = 'hidden'
@@ -939,12 +1181,9 @@ onUnmounted(() => {
                   <HandRaisedIcon class="w-5 h-5" />
                 </button>
 
-                <button @click="filterEnabled = !filterEnabled"
-                  class="h-8 w-8 flex items-center justify-center rounded transition-colors mr-2" :class="[
-                    filterEnabled
-                      ? 'text-swu-primary bg-white/10'
-                      : 'text-gray-400 hover:text-white hover:bg-white/10'
-                  ]" :title="filterEnabled ? $t('disable_filter') : $t('enable_filter')">
+                <button @click="openFilterDialog"
+                  class="h-8 w-8 flex items-center justify-center rounded transition-colors mr-2 text-gray-400 hover:text-white hover:bg-white/10"
+                  :title="$t('filter_title')">
                   <FunnelIcon class="w-5 h-5" />
                 </button>
               </div>
@@ -1109,6 +1348,99 @@ onUnmounted(() => {
           </div>
 
 
+        </div>
+      </div>
+    </Transition>
+    <!-- Filter Dialog -->
+    <Transition name="fade">
+      <div v-if="showFilterDialog"
+        class="fixed inset-0 z-[70] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4"
+        @click.self="showFilterDialog = false">
+        <div
+          class="bg-swu-900 border border-swu-primary/30 rounded-2xl p-6 shadow-2xl w-full max-w-lg md:max-w-xl flex flex-col relative elevation-high h-[600px] lg:h-[500px] max-h-[90vh]">
+          
+          <div class="flex items-center justify-between mb-6">
+            <h3 class="text-xl font-bold text-white flex items-center gap-2">
+              <FunnelIcon class="w-6 h-6 text-swu-primary" />
+              {{ $t('filter_title') }}
+            </h3>
+            <button @click="showFilterDialog = false"
+              class="text-gray-400 hover:text-white hover:bg-white/10 p-1 rounded-full transition-colors">
+              <XMarkIcon class="w-6 h-6" />
+            </button>
+          </div>
+
+          <div class="flex-1 overflow-y-auto flex flex-col custom-scrollbar pr-2 space-y-6">
+            <!-- Mode Switcher -->
+            <div class="flex items-center bg-white/5 rounded-lg p-1">
+              <button class="flex-1 py-2 px-3 rounded-md text-sm font-medium transition-all"
+                :class="draftFilterMode === 'auto' ? 'bg-swu-primary text-white shadow' : 'text-gray-400 hover:text-white'"
+                @click="draftFilterMode = 'auto'">
+                {{ $t('filter_mode_auto') }}
+              </button>
+              <button class="flex-1 py-2 px-3 rounded-md text-sm font-medium transition-all"
+                :class="draftFilterMode === 'custom' ? 'bg-swu-primary text-white shadow' : 'text-gray-400 hover:text-white'"
+                @click="switchToCustomMode">
+                {{ $t('filter_mode_custom') }}
+              </button>
+            </div>
+
+            <!-- Custom Filters -->
+            <div v-if="draftFilterMode === 'custom'" class="flex flex-col flex-1 min-h-0 space-y-6 animate-pulse-fade">
+              
+              <!-- Aspects -->
+              <div class="flex-shrink-0">
+                <h4 class="text-sm font-semibold text-gray-400 mb-3 uppercase tracking-wide">{{ $t('filter_aspects') }}</h4>
+                <div class="grid grid-cols-4 lg:flex lg:flex-wrap gap-3">
+                    <div v-for="aspect in aspectOptions" :key="aspect"
+                        class="cursor-pointer p-2 rounded-lg border transition-all duration-200 flex justify-center items-center"
+                        :class="draftCustomFilter.aspects.has(aspect) ? 'bg-swu-primary/20 border-swu-primary' : 'bg-transparent border-white/10 hover:border-white/30'"
+                        @click="toggleDraftAspect(aspect)">
+                        <img v-if="aspect !== 'neutral'" :src="`/images/aspect-${aspect}.png`" :alt="aspect" class="w-8 h-8 opacity-90" :class="{ 'grayscale opacity-50': !draftCustomFilter.aspects.has(aspect) }" />
+                        <span v-else class="w-8 h-8 flex items-center justify-center font-bold text-gray-400 bg-white/10 rounded-full text-xs transition-colors" :class="{ 'text-white bg-swu-primary': draftCustomFilter.aspects.has(aspect) }">
+                          N
+                        </span>
+                    </div>
+                </div>
+              </div>
+
+               <!-- Costs -->
+              <div class="flex-shrink-0">
+                <h4 class="text-sm font-semibold text-gray-400 mb-3 uppercase tracking-wide">{{ $t('filter_costs') }}</h4>
+                 <div class="grid grid-cols-5 lg:flex lg:flex-nowrap gap-2">
+                    <button v-for="cost in [0,1,2,3,4,5,6,7,8,9]" :key="cost"
+                        class="w-10 h-10 rounded-lg font-bold font-mono transition-colors border"
+                        :class="draftCustomFilter.costs.has(cost) 
+                            ? 'bg-swu-primary text-white border-swu-primary' 
+                            : 'bg-white/5 text-gray-400 border-white/10 hover:bg-white/10'"
+                        @click="toggleDraftCost(cost)">
+                        {{ cost === 9 ? '9+' : cost }}
+                    </button>
+                 </div>
+              </div>
+
+
+
+            </div>
+            
+            <div v-else class="py-8 text-center text-gray-400 bg-white/5 rounded-xl border border-dashed border-white/10 px-4">
+                <p class="flex items-start justify-center gap-2">
+                    <InformationCircleIcon class="w-5 h-5 text-gray-500 flex-shrink-0 mt-0.5" />
+                    <span class="text-left">Affiche uniquement les cartes compatibles avec le Leader et la Base sélectionnés.</span>
+                </p>
+            </div>
+
+          </div>
+
+          <div class="mt-6 pt-4 border-t border-white/10 flex justify-between items-center gap-4">
+             <div class="text-sm text-gray-400 font-medium">
+               {{ $t('cards_count', { count: draftFilteredCardsCount }) }}
+             </div>
+             <button @click="applyFilter" :disabled="draftFilteredCardsCount === 0"
+                class="bg-swu-primary hover:bg-swu-primary/90 text-white font-bold py-2 px-6 rounded-xl shadow-lg shadow-swu-primary/20 transition-all active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed disabled:shadow-none disabled:active:scale-100">
+                {{ $t('apply_filter') }}
+             </button>
+          </div>
         </div>
       </div>
     </Transition>
