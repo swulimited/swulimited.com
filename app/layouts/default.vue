@@ -41,31 +41,29 @@ const changeLanguage = (newLocale: 'en' | 'fr') => {
             <NuxtLink to="/sets/LOF"
               @click="$trackEvent('new_pool', { pool: 'standard', set: 'LOF', location: 'header' })"
               class="rounded-md px-2 py-1 transition-all duration-300" :class="[
-              route.path.includes('/sets/LOF') || (route.params.id as string)?.includes('LOF-')
-                ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
-                : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
-            ]">
+                route.path.includes('/sets/LOF') || (route.params.id as string)?.includes('LOF-')
+                  ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
+                  : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
+              ]">
               <img src="/images/LOF-logo.png" alt="Legends of the Force" class="h-8 w-auto" />
             </NuxtLink>
             <NuxtLink to="/sets/SEC"
               @click="$trackEvent('new_pool', { pool: 'standard', set: 'SEC', location: 'header' })"
               class="rounded-md px-2 py-1 transition-all duration-300" :class="[
-              route.path.includes('/sets/SEC') || (route.params.id as string)?.includes('SEC-')
-                ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
-                : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
-            ]">
+                route.path.includes('/sets/SEC') || (route.params.id as string)?.includes('SEC-')
+                  ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
+                  : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
+              ]">
               <img src="/images/SEC-logo.png" alt="Secrets of Power" class="h-8 w-auto" />
             </NuxtLink>
             <NuxtLink to="/sets/LAW"
               @click="$trackEvent('new_pool', { pool: 'standard', set: 'LAW', location: 'header' })"
               class="rounded-md px-2 py-1 transition-all duration-300 relative group" :class="[
-              route.path.includes('/sets/LAW') || (route.params.id as string)?.includes('LAW-')
-                ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
-                : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
-            ]">
-              <div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
-                <span class="text-white/90 text-[0.5rem] font-black tracking-widest uppercase -rotate-12 drop-shadow-md border border-white/80 px-1 py-px rounded bg-black/40 backdrop-blur-sm">PREVIEW</span>
-              </div>
+                route.path.includes('/sets/LAW') || (route.params.id as string)?.includes('LAW-')
+                  ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
+                  : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
+              ]">
+
               <img src="/images/LAW-logo.png" alt="A Lawless Time" class="h-8 w-auto" />
             </NuxtLink>
 
@@ -134,9 +132,7 @@ const changeLanguage = (newLocale: 'en' | 'fr') => {
                     ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
                     : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
                 ]">
-                <div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
-                  <span class="text-white/90 text-[0.4rem] font-black tracking-widest uppercase -rotate-12 drop-shadow-md border border-white/80 px-0.5 py-px rounded bg-black/40 backdrop-blur-sm">PREVIEW</span>
-                </div>
+
                 <img src="/images/LAW-logo.png" alt="A Lawless Time" class="h-6 w-auto" />
               </NuxtLink>
             </div>

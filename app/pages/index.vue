@@ -57,11 +57,10 @@ const startCustomEvent = () => {
       <div class="flex flex-col items-center">
         <h2 class="text-sm font-bold text-gray-500 uppercase tracking-widest mb-8">{{ $t('std_pool') }}</h2>
         <div class="grid grid-cols-2 gap-4 sm:flex sm:flex-row sm:gap-6 md:gap-8 items-center justify-center">
-          <NuxtLink to="/sets/LOF"
-            @click="$trackEvent('new_pool', { pool: 'standard', set: 'LOF' })"
-            class="group relative block w-full sm:w-28 md:w-40 transition-all duration-300 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-swu-primary/50 rounded-xl">
+          <NuxtLink to="/sets/LOF" @click="$trackEvent('new_pool', { pool: 'standard', set: 'LOF' })"
+            class="group relative block w-full sm:w-28 md:w-40 transition-all duration-300 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-swu-accent/50 rounded-xl">
             <div
-              class="absolute -inset-0.5 bg-swu-primary rounded-xl opacity-0 group-hover:opacity-75 blur transition duration-300">
+              class="absolute -inset-0.5 bg-swu-accent rounded-xl opacity-0 group-hover:opacity-75 blur transition duration-300">
             </div>
             <img src="/images/LOF-cover.jpg" alt="Legends of the Force"
               class="relative w-full h-auto rounded-xl shadow-2xl border border-white/10" />
@@ -71,8 +70,7 @@ const startCustomEvent = () => {
             </div>
           </NuxtLink>
 
-          <NuxtLink to="/sets/SEC"
-            @click="$trackEvent('new_pool', { pool: 'standard', set: 'SEC' })"
+          <NuxtLink to="/sets/SEC" @click="$trackEvent('new_pool', { pool: 'standard', set: 'SEC' })"
             class="group relative block w-full sm:w-28 md:w-40 transition-all duration-300 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-swu-accent/50 rounded-xl">
             <div
               class="absolute -inset-0.5 bg-swu-accent rounded-xl opacity-0 group-hover:opacity-75 blur transition duration-300">
@@ -81,24 +79,22 @@ const startCustomEvent = () => {
               class="relative w-full h-auto rounded-xl shadow-2xl border border-white/10" />
             <div
               class="absolute inset-x-0 -bottom-8 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <span class="text-swu-accent font-bold text-xs tracking-widest uppercase">{{ $t('open_6_packs') }}</span>
+              <span class="text-swu-primary font-bold text-xs tracking-widest uppercase">{{ $t('open_6_packs') }}</span>
             </div>
           </NuxtLink>
 
-          <NuxtLink to="/sets/LAW"
-            @click="$trackEvent('new_pool', { pool: 'standard', set: 'LAW' })"
-            class="group relative block w-full sm:w-28 md:w-40 transition-all duration-300 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-yellow-500/50 rounded-xl">
+          <NuxtLink to="/sets/LAW" @click="$trackEvent('new_pool', { pool: 'standard', set: 'LAW' })"
+            class="group relative block w-full sm:w-28 md:w-40 transition-all duration-300 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-swu-accent/50 rounded-xl">
             <div
-              class="absolute -inset-0.5 bg-yellow-500 rounded-xl opacity-0 group-hover:opacity-75 blur transition duration-300">
+              class="absolute -inset-0.5 bg-swu-accent rounded-xl opacity-0 group-hover:opacity-75 blur transition duration-300">
             </div>
-            <div class="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
-              <span class="text-white/90 text-lg font-black tracking-widest uppercase -rotate-12 drop-shadow-md border-2 border-white/80 px-2 py-0.5 rounded bg-black/40 backdrop-blur-sm">PREVIEW</span>
-            </div>
+
             <img src="/images/LAW-cover.jpg" alt="A Lawless Time"
               class="relative w-full h-auto rounded-xl shadow-2xl border border-white/10" />
             <div
               class="absolute inset-x-0 -bottom-8 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-              <span class="text-yellow-500 font-bold text-xs tracking-widest uppercase">{{ $t('open_6_packs') }}</span>
+              <span class="text-swu-primary font-bold text-xs tracking-widest uppercase">{{ $t('open_6_packs')
+              }}</span>
             </div>
           </NuxtLink>
         </div>
