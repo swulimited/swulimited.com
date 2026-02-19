@@ -49,7 +49,7 @@ export default defineNuxtPlugin(() => {
         script.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`
         document.head.appendChild(script)
 
-        console.log('Google Analytics initialized with ID:', measurementId)
+
     }
 
     // Handle initial load

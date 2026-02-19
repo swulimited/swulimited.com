@@ -54,8 +54,6 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
-
 const isOpen = ref(false)
 const nuxtApp = useNuxtApp()
 

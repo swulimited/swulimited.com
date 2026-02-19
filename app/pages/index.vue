@@ -155,7 +155,6 @@ const startCustomEvent = () => {
           </button>
         </div>
       </div>
-
     </div>
   </div>
 </template>

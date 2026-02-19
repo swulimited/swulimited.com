@@ -244,7 +244,7 @@ export async function generateSealedPool(configStr: string, seed?: string): Prom
 
     // Post-process to remove duplicate leaders (keep only one instance of each leader)
     // We already have a mix of generated boosters and potentially manually added leaders
-    const uniqueLeaderIds = new Set<string>();
+
     const uniqueLeadersAndOthers: Card[] = [];
     const openedBases: Card[] = [];
 

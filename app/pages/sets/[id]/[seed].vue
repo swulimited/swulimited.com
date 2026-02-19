@@ -324,7 +324,6 @@ const filterMode = ref<'auto' | 'custom'>('auto')
 
 const customFilter = reactive({
   aspects: new Set<string>(),
-  traits: new Set<string>(),
   costs: new Set<number>()
 })
 
@@ -332,29 +331,17 @@ const customFilter = reactive({
 const draftFilterMode = ref<'auto' | 'custom'>('auto')
 const draftCustomFilter = reactive({
   aspects: new Set<string>(),
-  traits: new Set<string>(),
-  // traits: new Set<string>(), // Removed
   costs: new Set<number>()
 })
 
 const aspectOptions = ['vigilance', 'command', 'aggression', 'cunning', 'villainy', 'heroism', 'neutral']
 
-// const availableTraits = computed(() => { // Removed
-//   const set = new Set<string>()
-//   poolCards.value.forEach(card => {
-//     const traits = getCardTraits(card)
-//     if (traits) {
-//       traits.forEach(t => set.add(t))
-//     }
-//   })
-//   return Array.from(set).sort()
-// })
+
 
 const openFilterDialog = () => {
   // Init draft with current state
   draftFilterMode.value = filterMode.value
   draftCustomFilter.aspects = new Set(customFilter.aspects)
-  // draftCustomFilter.traits = new Set(customFilter.traits) // Removed
   draftCustomFilter.costs = new Set(customFilter.costs)
   showFilterDialog.value = true
 }
@@ -378,9 +365,6 @@ const switchToCustomMode = () => {
       
       // Select all costs [0-9]
       draftCustomFilter.costs = new Set([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-      
-      // Select all available traits // Removed
-      // draftCustomFilter.traits = new Set(availableTraits.value) // Removed
   }
 }
 
@@ -394,7 +378,6 @@ const applyFilter = () => {
 
   filterMode.value = draftFilterMode.value
   customFilter.aspects = new Set(draftCustomFilter.aspects)
-  // customFilter.traits = new Set(draftCustomFilter.traits) // Removed
   customFilter.costs = new Set(draftCustomFilter.costs)
   showFilterDialog.value = false
 }
@@ -416,21 +399,7 @@ const toggleDraftCost = (cost: number) => {
   }
 }
 
-// const toggleDraftTrait = (trait: string) => { // Removed
-//   if (draftCustomFilter.traits.has(trait)) {
-//     draftCustomFilter.traits.delete(trait)
-//   } else {
-//     draftCustomFilter.traits.add(trait)
-//   }
-// }
 
-// const draftAllTraits = () => { // Removed
-//     availableTraits.value.forEach(t => draftCustomFilter.traits.add(t))
-// }
-
-// const draftNoTraits = () => { // Removed
-//     draftCustomFilter.traits.clear()
-// }
 
 // Compute the number of cards that would match the draft filter
 const draftFilteredCardsCount = computed(() => {
@@ -443,48 +412,13 @@ const draftFilteredCardsCount = computed(() => {
   if (draftFilterMode.value === 'custom') {
     return poolCards.value.filter(card => {
       // 1. Aspects
-      // 1. Aspects
       if (draftCustomFilter.aspects.size > 0) {
-        // If neutral is selected in filter, we allow cards with NO aspects to pass.
-        // OR cards that have matching aspects.
-        // BUT strict intersection is too harsh if we want to mimic "Deckbuilding rules" manually.
-        // HOWEVER, the user asked for: "number of cards filtered should be the same".
-        // In "Auto" mode, we check efficient deckbuilding rules (do we have enough aspect icons?).
-        // In "Custom" mode, the user selects aspects like "Vigilance", "Command". 
-        // If a card is Double Vigilance, and user selects Vigilance, should it match? Yes.
-        // The previous logic was: card has aspect X, is X in filter?
-        
+        // In Custom mode, we enforce a strict subset check:
+        // Every aspect of the card must be present in the filter.
         const isNeutral = !card.aspects || card.aspects.length === 0
         if (isNeutral) {
             if (!draftCustomFilter.aspects.has('neutral')) return false
         } else {
-            // Updated logic to match more closely what a user might expect:
-            // If I filter "Vigilance", I want to see all Vigilance cards.
-            // Even double vigilance.
-            // The previous logic `card.aspects.some(a => draftCustomFilter.aspects.has(a))` works for this.
-            
-            // Wait, let's look at the "Auto" initialization. 
-            // We initialize the filter with: Neutral + Leader Aspects + Base Aspects.
-            // Say Leader = Vigilance, Base = Command.
-            // Filter = {Neutral, Vigilance, Command}.
-            // A card with "Vigilance" matches.
-            // A card with "Vigilance, Command" matches (both present).
-            // A card with "Aggression" does NOT match.
-            // A card with "Vigilance, Aggression" (out of aspect) DOES match in this logic because it has Vigilance!
-            
-            // BUT in "Auto" mode logic (lines 183+):
-            // We check if we have *enough* icons.
-            // If card needs Vigilance + Aggression, and we only have Vigilance + Command...
-            // It fails strictly in Auto mode because of the missing Aggression.
-            
-            // But in Custom mode, the logic `some` returns TRUE because it has Vigilance.
-            // So Custom mode is PERMISSIVE (OR) on aspects, while Auto mode is RESTRICTIVE (AND/Count) on deckbuilding.
-            
-            // To make the counts match when initialized from Auto:
-            // The card MUST NOT have any aspect that is NOT in the filter set.
-            // (Strict subset check, essentially).
-            
-            // Let's change the logic to: Every aspect of the card must be present in the filter.
             const match = card.aspects.every(a => draftCustomFilter.aspects.has(a))
             if (!match) return false
         }
@@ -532,7 +466,6 @@ const resetOptions = () => {
   sortBy.value = 'number'
   filterMode.value = 'auto'
   customFilter.aspects.clear()
-  customFilter.traits.clear()
   customFilter.costs.clear()
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
@@ -1058,7 +991,6 @@ onUnmounted(() => {
           </div>
 
 
-
           <div v-if="groupedLeaders && groupedLeaders.length > 0" class="space-y-1">
             <div v-for="group in groupedLeaders" :key="group.card.uniqueId" :data-unique-id="group.card.uniqueId"
               class="flex items-center justify-between p-1.5 rounded-lg cursor-pointer transition-all duration-200 border border-transparent"
@@ -1091,7 +1023,6 @@ onUnmounted(() => {
           <div class="flex items-center justify-between mb-1 px-1">
             <h3 class="text-xs font-semibold text-swu-primary uppercase tracking-wider">{{ $t('bases') }}</h3>
           </div>
-
 
 
           <div v-if="bases && bases.length > 0" class="space-y-1">
@@ -1420,7 +1351,6 @@ onUnmounted(() => {
               </div>
 
 
-
             </div>
             
             <div v-else class="py-8 text-center text-gray-400 bg-white/5 rounded-xl border border-dashed border-white/10 px-4">
@@ -1483,10 +1413,7 @@ onUnmounted(() => {
 }
 
 
-
 @media (hover: hover) {
-
-
   .deck-card-hover-scale:hover {
     transform: scale(1.05);
   }
@@ -1511,24 +1438,5 @@ onUnmounted(() => {
   transform: translateX(-10px);
 }
 
-.card-reveal-enter-active,
-.card-reveal-leave-active,
-.card-reveal-move {
-  transition: all 0.3s ease-out;
-}
 
-.card-reveal-enter-from {
-  opacity: 0;
-  transform: translateY(20px) scale(0.9);
-}
-
-.card-reveal-leave-to {
-  opacity: 0;
-  transform: scale(0.95);
-}
-
-/* Ensure leaving items are taken out of flow so move animation works correctly */
-.card-reveal-leave-active {
-  position: absolute;
-}
 </style>
