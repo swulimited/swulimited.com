@@ -25,6 +25,8 @@ Each set has a fixed number of cards:
 When retrieving cards from a set don't consider ids higher than the number of cards.
 For example, don't add LAW-774 to the database because the id is higher than 264.
 
+Don't include tokens in the database.
+
 # Card type
 
 Enum values:
