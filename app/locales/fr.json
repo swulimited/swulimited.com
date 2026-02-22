@@ -81,6 +81,7 @@
     "deselect_all": "Tout désélectionner",
     "filter_change_confirmation": "Changer les options de filtre entraîne la réinitialisation des cartes actuellement sélectionnées. Confirmer ?",
     "filter_auto_desc": "Affiche uniquement les cartes compatibles avec le Leader et la Base sélectionnés.",
+    "filter_additional_traits": "Traits hors aspect",
     "cards_count": "{count} cartes",
     "hide_sidebar": "Masquer",
     "show_sidebar": "Afficher"
