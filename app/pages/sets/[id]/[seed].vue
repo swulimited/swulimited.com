@@ -40,35 +40,17 @@ const { $trackEvent } = useNuxtApp()
 
 const isSidebarOpen = ref(true)
 
-const getCardArt = (card: Card | BoosterCard) => {
+const getLocalValue = (card: Card | BoosterCard, key: keyof BoosterCard) => {
   if (card.localization) {
-    const loc = card.localization.find(l => l.locale === locale.value)
-    if (loc && loc.art) {
-      return loc.art
-    }
+    const loc = card.localization.find((l: any) => l.locale === locale.value)
+    if (loc && (loc as any)[key] !== undefined) return (loc as any)[key]
   }
-  return card.art
+  return (card as any)[key]
 }
 
-const getCardName = (card: Card | BoosterCard) => {
-  if (card.localization) {
-    const loc = card.localization.find(l => l.locale === locale.value)
-    if (loc && loc.name) {
-      return loc.name
-    }
-  }
-  return card.name
-}
-
-const getCardTraits = (card: Card | BoosterCard) => {
-  if (card.localization) {
-    const loc = card.localization.find(l => l.locale === locale.value)
-    if (loc && loc.traits) {
-      return loc.traits
-    }
-  }
-  return card.traits
-}
+const getCardArt = (card: Card | BoosterCard) => getLocalValue(card, 'art') as string
+const getCardName = (card: Card | BoosterCard) => getLocalValue(card, 'name') as string
+const getCardTraits = (card: Card | BoosterCard) => getLocalValue(card, 'traits') as string[]
 const packConfig = computed(() => (route.params.id as string).toUpperCase())
 
 // 1. Determine the seed from the route param
@@ -133,59 +115,36 @@ const selectedBase = computed(() => bases.value.find(b => b.uniqueId === selecte
 
 
 
-const cards = computed(() => {
-  // Show all cards by default if neither leader nor base is selected
-  if (!selectedLeader.value && !selectedBase.value) {
-    return poolCards.value
-  }
-
-  // Custom filtering mode
-  if (filterMode.value === 'custom') {
+const getFilteredCards = (mode: string, filterState: any) => {
+  if (mode === 'custom') {
     return poolCards.value.filter(card => {
-      // 1. Aspects & Traits Filter
       let aspectMatch = false
-      if (customFilter.aspects.size > 0) {
-        // If "neutral" is selected, we match cards with no aspects
+      if (filterState.aspects.size > 0) {
         const isNeutral = !card.aspects || card.aspects.length === 0
         if (isNeutral) {
-            aspectMatch = customFilter.aspects.has('neutral')
+          aspectMatch = filterState.aspects.has('neutral')
         } else {
-            // For card with aspects, check if ALL aspects are in the selection to match "deckbuilding-like" strictness
-            // or at least properly exclude out-of-aspect cards when filtering by deck colors.
-            aspectMatch = card.aspects.every(a => customFilter.aspects.has(a))
+          aspectMatch = card.aspects.every(a => filterState.aspects.has(a))
         }
       }
 
       let traitMatch = false
-      if (customFilter.traits.size > 0) {
+      if (filterState.traits.size > 0) {
         const cTraits = getCardTraits(card) || []
-        traitMatch = cTraits.some((t: string) => customFilter.traits.has(t))
+        traitMatch = cTraits.some((t: string) => filterState.traits.has(t))
       }
 
-      if (customFilter.aspects.size === 0 && customFilter.traits.size === 0) return false
+      if (filterState.aspects.size === 0 && filterState.traits.size === 0) return false
       if (!aspectMatch && !traitMatch) return false
-
-      // 2. Costs Filter
-      if (customFilter.costs.size > 0) {
-        let cost = card.cost ?? 0
-        if (cost > 9) cost = 9
-        if (!customFilter.costs.has(cost)) return false
-      } else {
-         // If no costs selected, nothing should be shown
-         return false
-      }
 
       return true
     })
   }
 
-  // Auto filtering mode (Default)
-  // Filters cards based on Leader and Base aspects
+  // Auto mode
   return poolCards.value.filter(card => {
-    // Neutral cards (no aspects) are always compatible
     if (!card.aspects || card.aspects.length === 0) return true
 
-    // Check if we have enough aspect icons for the card
     const needed = new Map<string, number>()
     for (const a of card.aspects) {
       needed.set(a, (needed.get(a) || 0) + 1)
@@ -201,12 +160,20 @@ const cards = computed(() => {
 
     for (const [aspect, count] of needed) {
       if ((available.get(aspect) || 0) < count) {
-        return false // Not enough icons of this aspect
+        return false
       }
     }
 
     return true
   })
+}
+
+const cards = computed(() => {
+  if (!selectedLeader.value && !selectedBase.value) {
+    return poolCards.value
+  }
+
+  return getFilteredCards(filterMode.value, customFilter)
 })
 
 const leaders = computed(() => {
@@ -291,6 +258,7 @@ const showPopup = (card: any, event: MouseEvent) => {
 
 
 const selectedCardIds = ref<Set<string>>(new Set())
+const selectedCards = computed(() => processedCards.value.filter(c => selectedCardIds.value.has(c.uniqueId)))
 
 const toggleCard = (uniqueId: string) => {
   if (!selectedLeaderId.value || !selectedBaseId.value) return
@@ -307,22 +275,14 @@ const toggleCard = (uniqueId: string) => {
 const selectedLeaderId = ref<string | null>(null)
 
 const toggleLeader = (uniqueId: string) => {
-  if (selectedLeaderId.value === uniqueId) {
-    selectedLeaderId.value = null
-  } else {
-    selectedLeaderId.value = uniqueId
-  }
+  selectedLeaderId.value = selectedLeaderId.value === uniqueId ? null : uniqueId
   filterMode.value = 'auto'
 }
 
 const selectedBaseId = ref<string | null>(null)
 
 const toggleBase = (uniqueId: string) => {
-  if (selectedBaseId.value === uniqueId) {
-    selectedBaseId.value = null
-  } else {
-    selectedBaseId.value = uniqueId
-  }
+  selectedBaseId.value = selectedBaseId.value === uniqueId ? null : uniqueId
   filterMode.value = 'auto'
 }
 
@@ -332,7 +292,6 @@ const filterMode = ref<'auto' | 'custom'>('auto')
 
 const customFilter = reactive({
   aspects: new Set<string>(),
-  costs: new Set<number>(),
   traits: new Set<string>()
 })
 
@@ -340,7 +299,6 @@ const customFilter = reactive({
 const draftFilterMode = ref<'auto' | 'custom'>('auto')
 const draftCustomFilter = reactive({
   aspects: new Set<string>(),
-  costs: new Set<number>(),
   traits: new Set<string>()
 })
 
@@ -365,7 +323,6 @@ const openFilterDialog = () => {
   // Init draft with current state
   draftFilterMode.value = filterMode.value
   draftCustomFilter.aspects = new Set(customFilter.aspects)
-  draftCustomFilter.costs = new Set(customFilter.costs)
   draftCustomFilter.traits = new Set(customFilter.traits)
   showFilterDialog.value = true
 }
@@ -373,10 +330,8 @@ const openFilterDialog = () => {
 const switchToCustomMode = () => {
   draftFilterMode.value = 'custom'
   
-  // If the actual applied filter is Auto, we seed the Custom draft with Auto settings
   if (filterMode.value === 'auto') {
-      const newAspects = new Set<string>()
-      newAspects.add('neutral')
+      const newAspects = new Set<string>(['neutral'])
       
       if (selectedLeader.value?.aspects) {
         selectedLeader.value.aspects.forEach((a: string) => newAspects.add(a))
@@ -386,10 +341,7 @@ const switchToCustomMode = () => {
       }
       
       draftCustomFilter.aspects = newAspects
-      
-      // Select all costs [0-9]
-      draftCustomFilter.costs = new Set([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-      draftCustomFilter.traits = new Set()
+      draftCustomFilter.traits.clear()
   }
 }
 
@@ -401,7 +353,6 @@ const applyFilter = () => {
     const areSetsEqual = (a: Set<any>, b: Set<any>) => a.size === b.size && Array.from(a).every(value => b.has(value));
     filterChanged = 
       !areSetsEqual(customFilter.aspects, draftCustomFilter.aspects) ||
-      !areSetsEqual(customFilter.costs, draftCustomFilter.costs) ||
       !areSetsEqual(customFilter.traits, draftCustomFilter.traits);
   }
 
@@ -433,7 +384,6 @@ const applyFilter = () => {
 
   filterMode.value = draftFilterMode.value;
   customFilter.aspects = new Set(draftCustomFilter.aspects);
-  customFilter.costs = new Set(draftCustomFilter.costs);
   customFilter.traits = new Set(draftCustomFilter.traits);
   showFilterDialog.value = false;
 }
@@ -444,14 +394,6 @@ const toggleDraftAspect = (aspect: string) => {
     draftCustomFilter.aspects.delete(aspect)
   } else {
     draftCustomFilter.aspects.add(aspect)
-  }
-}
-
-const toggleDraftCost = (cost: number) => {
-  if (draftCustomFilter.costs.has(cost)) {
-    draftCustomFilter.costs.delete(cost)
-  } else {
-    draftCustomFilter.costs.add(cost)
   }
 }
 
@@ -476,80 +418,21 @@ const availableTraits = computed(() => {
 
 
 
-// Compute the number of cards that would match the draft filter
 const draftFilteredCardsCount = computed(() => {
-  // If no leader or base, we can't really filter in auto mode correctly, but defaulting to full pool
   if (!selectedLeader.value && !selectedBase.value) {
      return poolCards.value.length
   }
 
-  // Custom filtering mode logic (replicated for draft state)
-  if (draftFilterMode.value === 'custom') {
-    return poolCards.value.filter(card => {
-      // 1. Aspects & Traits
-      let aspectMatch = false
-      if (draftCustomFilter.aspects.size > 0) {
-        // In Custom mode, we enforce a strict subset check:
-        // Every aspect of the card must be present in the filter.
-        const isNeutral = !card.aspects || card.aspects.length === 0
-        if (isNeutral) {
-            aspectMatch = draftCustomFilter.aspects.has('neutral')
-        } else {
-            aspectMatch = card.aspects.every(a => draftCustomFilter.aspects.has(a))
-        }
-      }
-
-      let traitMatch = false
-      if (draftCustomFilter.traits.size > 0) {
-        const cTraits = getCardTraits(card) || []
-        traitMatch = cTraits.some((t: string) => draftCustomFilter.traits.has(t))
-      }
-
-      if (draftCustomFilter.aspects.size === 0 && draftCustomFilter.traits.size === 0) return false
-      if (!aspectMatch && !traitMatch) return false
-
-      // 2. Costs
-      if (draftCustomFilter.costs.size > 0) {
-        let cost = card.cost ?? 0
-        if (cost > 9) cost = 9
-        if (!draftCustomFilter.costs.has(cost)) return false
-      } else {
-        return false
-      }
-
-      return true
-    }).length
-  }
-
-  // Auto filtering mode logic
-  return poolCards.value.filter(card => {
-    if (!card.aspects || card.aspects.length === 0) return true
-    const needed = new Map<string, number>()
-    for (const a of card.aspects) {
-      needed.set(a, (needed.get(a) || 0) + 1)
-    }
-    const available = new Map<string, number>()
-    if (selectedLeader.value?.aspects) {
-      selectedLeader.value.aspects.forEach((a: string) => available.set(a, (available.get(a) || 0) + 1))
-    }
-    if (selectedBase.value?.aspects) {
-      selectedBase.value.aspects.forEach((a: string) => available.set(a, (available.get(a) || 0) + 1))
-    }
-    for (const [aspect, count] of needed) {
-      if ((available.get(aspect) || 0) < count) return false
-    }
-    return true
-  }).length
+  return getFilteredCards(draftFilterMode.value, draftCustomFilter).length
 })
 
-const resetOptions = () => {
+function resetOptions() {
   selectedLeaderId.value = null
   selectedBaseId.value = null
   selectedCardIds.value = new Set()
   sortBy.value = 'number'
   filterMode.value = 'auto'
   customFilter.aspects.clear()
-  customFilter.costs.clear()
   customFilter.traits.clear()
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
@@ -565,9 +448,7 @@ watch([selectedLeaderId, selectedBaseId], ([newLeader, newBase]) => {
 
 // Watch for changes in the displayed card list (initial load or filter change)
 watch(cards, (newCards) => {
-  const newSet = new Set<string>()
-  newCards.forEach(card => newSet.add(card.uniqueId))
-  selectedCardIds.value = newSet
+  selectedCardIds.value = new Set(newCards.map(c => c.uniqueId))
 }, { immediate: true })
 
 const isCopied = ref(false)
@@ -590,10 +471,7 @@ const copyDeck = async () => {
     cardCounts.set(id, (cardCounts.get(id) || 0) + 1)
   }
 
-  const deck = []
-  for (const [id, count] of cardCounts) {
-    deck.push({ id, count })
-  }
+  const deck = Array.from(cardCounts, ([id, count]) => ({ id, count }))
 
   const sideboardList = processedCards.value.filter(c =>
     !selectedCardIds.value.has(c.uniqueId) &&
@@ -607,10 +485,7 @@ const copyDeck = async () => {
     sideboardCounts.set(id, (sideboardCounts.get(id) || 0) + 1)
   }
 
-  const sideboard = []
-  for (const [id, count] of sideboardCounts) {
-    sideboard.push({ id, count })
-  }
+  const sideboard = Array.from(sideboardCounts, ([id, count]) => ({ id, count }))
 
   const exportData = {
     metadata: {
@@ -660,53 +535,39 @@ let revealInterval: any
 const drawHand = () => {
   clearInterval(revealInterval)
 
-  const deckList = processedCards.value.filter(c => selectedCardIds.value.has(c.uniqueId))
-  const shuffled = [...deckList].sort(() => 0.5 - Math.random())
+  const shuffled = [...selectedCards.value].sort(() => 0.5 - Math.random())
   const hand = shuffled.slice(0, 6)
 
   drawnHand.value = hand
   revealedCount.value = 0
   showDrawDialog.value = true
 
-  const tick = () => {
-    if (revealedCount.value < hand.length) {
-      revealedCount.value++
-    } else {
-      clearInterval(revealInterval)
-    }
-  }
-
-  tick()
-  revealInterval = setInterval(tick, 20)
+  revealInterval = setInterval(() => {
+    if (revealedCount.value < hand.length) revealedCount.value++
+    else clearInterval(revealInterval)
+  }, 20)
 }
 
 const statsByCostAndType = computed(() => {
-  const selected = processedCards.value.filter(c => selectedCardIds.value.has(c.uniqueId))
   const data = {
     unit: Array(8).fill(0),
     event: Array(8).fill(0),
     upgrade: Array(8).fill(0)
   }
 
-  selected.forEach(card => {
-    let cost = card.cost ?? 0
-    if (cost > 7) cost = 7
+  selectedCards.value.forEach(card => {
+    const cost = Math.min(card.cost ?? 0, 7)
 
-    if (card.type === 'unit') {
-      data.unit[cost]++
-    } else if (card.type === 'event') {
-      data.event[cost]++
-    } else if (card.type === 'upgrade') {
-      data.upgrade[cost]++
-    }
+    if (card.type === 'unit') data.unit[cost]++
+    else if (card.type === 'event') data.event[cost]++
+    else if (card.type === 'upgrade') data.upgrade[cost]++
   })
 
   return data
 })
 
 const arenaStats = computed(() => {
-  const selected = processedCards.value.filter(c => selectedCardIds.value.has(c.uniqueId))
-  const units = selected.filter(c => c.type === 'unit')
+  const units = selectedCards.value.filter(c => c.type === 'unit')
 
   const space = units.filter(u => u.arena === 'space').length
   const ground = units.filter(u => u.arena === 'ground').length
@@ -715,10 +576,9 @@ const arenaStats = computed(() => {
 })
 
 const traitStats = computed(() => {
-  const selected = processedCards.value.filter(c => selectedCardIds.value.has(c.uniqueId))
   const traits = new Map<string, number>()
 
-  selected.forEach(card => {
+  selectedCards.value.forEach(card => {
     const cardTraits = getCardTraits(card)
     if (cardTraits) {
       cardTraits.forEach((trait: string) => {
@@ -734,10 +594,9 @@ const traitStats = computed(() => {
 })
 
 const aspectStats = computed(() => {
-  const selected = processedCards.value.filter(c => selectedCardIds.value.has(c.uniqueId))
   const aspects = new Map<string, number>()
 
-  selected.forEach(card => {
+  selectedCards.value.forEach(card => {
     if (card.aspects) {
       card.aspects.forEach((aspect: string) => {
         aspects.set(aspect, (aspects.get(aspect) || 0) + 1)
@@ -750,16 +609,7 @@ const aspectStats = computed(() => {
 
 const chartData = computed(() => {
   return {
-    labels: [
-      t('cost_x', { cost: 0 }),
-      t('cost_x', { cost: 1 }),
-      t('cost_x', { cost: 2 }),
-      t('cost_x', { cost: 3 }),
-      t('cost_x', { cost: 4 }),
-      t('cost_x', { cost: 5 }),
-      t('cost_x', { cost: 6 }),
-      t('cost_x', { cost: '7+' })
-    ],
+    labels: Array.from({ length: 8 }, (_, i) => t('cost_x', { cost: i === 7 ? '7+' : i })),
     datasets: [
       {
         label: t('units'),
@@ -975,9 +825,9 @@ const handleScroll = () => {
 
 const handleKeydown = (e: KeyboardEvent) => {
   if (e.key === 'Escape') {
-    if (showStats.value) showStats.value = false
-    if (showDrawDialog.value) showDrawDialog.value = false
-    if (showFilterDialog.value) showFilterDialog.value = false
+    showStats.value = false
+    showDrawDialog.value = false
+    showFilterDialog.value = false
   }
 }
 
@@ -1061,10 +911,7 @@ onUnmounted(() => {
         <!-- Selected Leader & Base Display -->
         <div class="grid grid-cols-2 gap-2 md:h-28 mb-2">
           <div class="relative group flex justify-center items-center h-full">
-            <Transition mode="out-in" enter-active-class="transition-all duration-200 ease-out"
-              enter-from-class="opacity-0 scale-95" enter-to-class="opacity-100 scale-100"
-              leave-active-class="transition-all duration-150 ease-in" leave-from-class="opacity-100 scale-100"
-              leave-to-class="opacity-0 scale-95">
+            <Transition name="pop-in" mode="out-in">
               <div v-if="selectedLeader" key="leader-img"
                 class="cursor-pointer w-full h-full flex justify-center items-center"
                 @mouseenter="showPopup(selectedLeader, $event)" @mouseleave="hidePopup">
@@ -1079,10 +926,7 @@ onUnmounted(() => {
           </div>
 
           <div class="relative group flex justify-center items-center h-full">
-            <Transition mode="out-in" enter-active-class="transition-all duration-200 ease-out"
-              enter-from-class="opacity-0 scale-95" enter-to-class="opacity-100 scale-100"
-              leave-active-class="transition-all duration-150 ease-in" leave-from-class="opacity-100 scale-100"
-              leave-to-class="opacity-0 scale-95">
+            <Transition name="pop-in" mode="out-in">
               <div v-if="selectedBase" key="base-img"
                 class="cursor-pointer w-full h-full flex justify-center items-center"
                 @mouseenter="showPopup(selectedBase, $event)" @mouseleave="hidePopup">
@@ -1104,7 +948,7 @@ onUnmounted(() => {
           </div>
 
 
-          <div v-if="groupedLeaders && groupedLeaders.length > 0" class="space-y-1">
+          <div v-if="groupedLeaders.length > 0" class="space-y-1">
             <div v-for="group in groupedLeaders" :key="group.card.uniqueId" :data-unique-id="group.card.uniqueId"
               class="flex items-center justify-between p-1.5 rounded-lg cursor-pointer transition-all duration-200 border border-transparent"
               :class="[
@@ -1138,7 +982,7 @@ onUnmounted(() => {
           </div>
 
 
-          <div v-if="bases && bases.length > 0" class="space-y-1">
+          <div v-if="bases.length > 0" class="space-y-1">
             <div v-for="card in bases" :key="card.uniqueId" :data-unique-id="card.uniqueId"
               class="flex items-center justify-between p-1.5 rounded-lg cursor-pointer transition-all duration-200 border border-transparent"
               :class="[
@@ -1516,6 +1360,23 @@ onUnmounted(() => {
 </template>
 
 <style scoped>
+.pop-in-enter-active {
+  transition: all 0.2s ease-out;
+}
+.pop-in-leave-active {
+  transition: all 0.15s ease-in;
+}
+.pop-in-enter-from,
+.pop-in-leave-to {
+  opacity: 0;
+  transform: scale(0.95);
+}
+.pop-in-enter-to,
+.pop-in-leave-from {
+  opacity: 1;
+  transform: scale(1);
+}
+
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.2s ease;
