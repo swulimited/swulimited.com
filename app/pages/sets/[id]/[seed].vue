@@ -117,7 +117,7 @@ const selectedBase = computed(() => bases.value.find(b => b.uniqueId === selecte
 
 
 
-const getFilteredCards = (mode: string, filterState: any) => {
+const getFilteredCards = (mode: 'auto' | 'custom', filterState: { aspects: Set<string>, traits: Set<string> }, currentLeader: any, currentBase: any) => {
   if (mode === 'custom') {
     return poolCards.value.filter(card => {
       let aspectMatch = false
@@ -126,7 +126,7 @@ const getFilteredCards = (mode: string, filterState: any) => {
         if (isNeutral) {
           aspectMatch = filterState.aspects.has('neutral')
         } else {
-          aspectMatch = card.aspects.every(a => filterState.aspects.has(a))
+          aspectMatch = card.aspects.every(a => filterState.aspects.has((a || '').toLowerCase().trim()))
         }
       }
 
@@ -137,32 +137,59 @@ const getFilteredCards = (mode: string, filterState: any) => {
       }
 
       if (filterState.aspects.size === 0 && filterState.traits.size === 0) return false
-      if (!aspectMatch && !traitMatch) return false
-
-      return true
+      return aspectMatch || traitMatch
     })
   }
 
-  // Auto mode
+  // Auto mode logic
+  // If nothing is selected, show every card in the pool
+  if (!currentLeader && !currentBase) return poolCards.value
+
+  // Gather all aspects from selections
+  const availableSet = new Map<string, number>()
+  if (currentLeader && currentLeader.aspects) {
+    currentLeader.aspects.forEach((a: string) => {
+      const key = (a || '').toLowerCase().trim()
+      if (key) availableSet.set(key, (availableSet.get(key) || 0) + 1)
+    })
+  }
+  if (currentBase && currentBase.aspects) {
+    currentBase.aspects.forEach((a: string) => {
+      const key = (a || '').toLowerCase().trim()
+      if (key) availableSet.set(key, (availableSet.get(key) || 0) + 1)
+    })
+  }
+
   return poolCards.value.filter(card => {
-    if (!card.aspects || card.aspects.length === 0) return true
+    // Neutral cards are always compatible
+    const cardAspects = card.aspects || []
+    if (cardAspects.length === 0) return true
 
+    // Count required aspects for the card
     const needed = new Map<string, number>()
-    for (const a of card.aspects) {
-      needed.set(a, (needed.get(a) || 0) + 1)
+    cardAspects.forEach((a: string) => {
+      const key = (a || '').toLowerCase().trim()
+      if (key) needed.set(key, (needed.get(key) || 0) + 1)
+    })
+
+    // Case 1: Both leader and base are selected - strict "no penalty" matching
+    if (currentLeader && currentBase) {
+      for (const [aspect, count] of needed) {
+        if ((availableSet.get(aspect) || 0) < count) return false
+      }
+      return true
     }
 
-    const available = new Map<string, number>()
-    if (selectedLeader.value?.aspects) {
-      selectedLeader.value.aspects.forEach((a: string) => available.set(a, (available.get(a) || 0) + 1))
-    }
-    if (selectedBase.value?.aspects) {
-      selectedBase.value.aspects.forEach((a: string) => available.set(a, (available.get(a) || 0) + 1))
-    }
-
+    // Case 2: Only one is selected - filter only what's definitely incompatible
     for (const [aspect, count] of needed) {
-      if ((available.get(aspect) || 0) < count) {
-        return false
+      const isAffiliation = aspect === 'villainy' || aspect === 'heroism'
+      
+      if (currentLeader) {
+        // Leader check: Affiliation MUST match if present. 
+        if (isAffiliation && (availableSet.get(aspect) || 0) < count) return false
+      } else if (currentBase) {
+        // Base check: Color MUST match if present.
+        if (!isAffiliation && availableSet.has(aspect) && (availableSet.get(aspect) || 0) < count) return false
       }
     }
 
@@ -171,11 +198,7 @@ const getFilteredCards = (mode: string, filterState: any) => {
 }
 
 const cards = computed(() => {
-  if (!selectedLeader.value && !selectedBase.value) {
-    return poolCards.value
-  }
-
-  return getFilteredCards(filterMode.value, customFilter)
+  return getFilteredCards(filterMode.value, customFilter, selectedLeader.value, selectedBase.value)
 })
 
 const leaders = computed(() => {
@@ -307,10 +330,10 @@ const draftCustomFilter = reactive({
 const aspectOptions = ['vigilance', 'command', 'aggression', 'cunning', 'villainy', 'heroism', 'neutral']
 
 const sortedSelectedAspects = computed(() => {
-  if (!selectedLeader.value || !selectedBase.value) return []
+  if (!selectedLeader.value && !selectedBase.value) return []
   const aspects = [
-    ...(selectedLeader.value.aspects || []),
-    ...(selectedBase.value.aspects || [])
+    ...(selectedLeader.value?.aspects || []),
+    ...(selectedBase.value?.aspects || [])
   ]
   return aspects.sort((a, b) => {
     const indexA = aspectOptions.indexOf(a)
@@ -343,7 +366,6 @@ const switchToCustomMode = () => {
       }
       
       draftCustomFilter.aspects = newAspects
-      draftCustomFilter.traits.clear()
   }
 }
 
@@ -425,7 +447,7 @@ const draftFilteredCardsCount = computed(() => {
      return poolCards.value.length
   }
 
-  return getFilteredCards(draftFilterMode.value, draftCustomFilter).length
+  return getFilteredCards(draftFilterMode.value, draftCustomFilter, selectedLeader.value, selectedBase.value).length
 })
 
 function resetOptions() {
