@@ -138,22 +138,28 @@ const cards = computed(() => {
   // Custom filtering mode
   if (filterMode.value === 'custom') {
     return poolCards.value.filter(card => {
-      // 1. Aspects Filter
+      // 1. Aspects & Traits Filter
+      let aspectMatch = false
       if (customFilter.aspects.size > 0) {
         // If "neutral" is selected, we match cards with no aspects
         const isNeutral = !card.aspects || card.aspects.length === 0
         if (isNeutral) {
-            if (!customFilter.aspects.has('neutral')) return false
+            aspectMatch = customFilter.aspects.has('neutral')
         } else {
             // For card with aspects, check if ALL aspects are in the selection to match "deckbuilding-like" strictness
             // or at least properly exclude out-of-aspect cards when filtering by deck colors.
-            const match = card.aspects.every(a => customFilter.aspects.has(a))
-            if (!match) return false
+            aspectMatch = card.aspects.every(a => customFilter.aspects.has(a))
         }
-      } else {
-        // If no aspects selected, nothing should be shown (strict mode requested)
-        return false
       }
+
+      let traitMatch = false
+      if (customFilter.traits.size > 0) {
+        const cTraits = getCardTraits(card) || []
+        traitMatch = cTraits.some((t: string) => customFilter.traits.has(t))
+      }
+
+      if (customFilter.aspects.size === 0 && customFilter.traits.size === 0) return false
+      if (!aspectMatch && !traitMatch) return false
 
       // 2. Costs Filter
       if (customFilter.costs.size > 0) {
@@ -164,8 +170,6 @@ const cards = computed(() => {
          // If no costs selected, nothing should be shown
          return false
       }
-
-
 
       return true
     })
@@ -324,14 +328,16 @@ const filterMode = ref<'auto' | 'custom'>('auto')
 
 const customFilter = reactive({
   aspects: new Set<string>(),
-  costs: new Set<number>()
+  costs: new Set<number>(),
+  traits: new Set<string>()
 })
 
 // Draft state for data entry in dialog
 const draftFilterMode = ref<'auto' | 'custom'>('auto')
 const draftCustomFilter = reactive({
   aspects: new Set<string>(),
-  costs: new Set<number>()
+  costs: new Set<number>(),
+  traits: new Set<string>()
 })
 
 const aspectOptions = ['vigilance', 'command', 'aggression', 'cunning', 'villainy', 'heroism', 'neutral']
@@ -343,6 +349,7 @@ const openFilterDialog = () => {
   draftFilterMode.value = filterMode.value
   draftCustomFilter.aspects = new Set(customFilter.aspects)
   draftCustomFilter.costs = new Set(customFilter.costs)
+  draftCustomFilter.traits = new Set(customFilter.traits)
   showFilterDialog.value = true
 }
 
@@ -365,6 +372,7 @@ const switchToCustomMode = () => {
       
       // Select all costs [0-9]
       draftCustomFilter.costs = new Set([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
+      draftCustomFilter.traits = new Set()
   }
 }
 
@@ -379,6 +387,7 @@ const applyFilter = () => {
   filterMode.value = draftFilterMode.value
   customFilter.aspects = new Set(draftCustomFilter.aspects)
   customFilter.costs = new Set(draftCustomFilter.costs)
+  customFilter.traits = new Set(draftCustomFilter.traits)
   showFilterDialog.value = false
 }
 
@@ -399,6 +408,25 @@ const toggleDraftCost = (cost: number) => {
   }
 }
 
+const toggleDraftTrait = (trait: string) => {
+  if (draftCustomFilter.traits.has(trait)) {
+    draftCustomFilter.traits.delete(trait)
+  } else {
+    draftCustomFilter.traits.add(trait)
+  }
+}
+
+const availableTraits = computed(() => {
+  const traits = new Set<string>()
+  poolCards.value.forEach(card => {
+    const cardTraits = getCardTraits(card)
+    if (cardTraits) {
+      cardTraits.forEach((t: string) => traits.add(t))
+    }
+  })
+  return Array.from(traits).sort()
+})
+
 
 
 // Compute the number of cards that would match the draft filter
@@ -411,20 +439,28 @@ const draftFilteredCardsCount = computed(() => {
   // Custom filtering mode logic (replicated for draft state)
   if (draftFilterMode.value === 'custom') {
     return poolCards.value.filter(card => {
-      // 1. Aspects
+      // 1. Aspects & Traits
+      let aspectMatch = false
       if (draftCustomFilter.aspects.size > 0) {
         // In Custom mode, we enforce a strict subset check:
         // Every aspect of the card must be present in the filter.
         const isNeutral = !card.aspects || card.aspects.length === 0
         if (isNeutral) {
-            if (!draftCustomFilter.aspects.has('neutral')) return false
+            aspectMatch = draftCustomFilter.aspects.has('neutral')
         } else {
-            const match = card.aspects.every(a => draftCustomFilter.aspects.has(a))
-            if (!match) return false
+            aspectMatch = card.aspects.every(a => draftCustomFilter.aspects.has(a))
         }
-      } else {
-        return false
       }
+
+      let traitMatch = false
+      if (draftCustomFilter.traits.size > 0) {
+        const cTraits = getCardTraits(card) || []
+        traitMatch = cTraits.some((t: string) => draftCustomFilter.traits.has(t))
+      }
+
+      if (draftCustomFilter.aspects.size === 0 && draftCustomFilter.traits.size === 0) return false
+      if (!aspectMatch && !traitMatch) return false
+
       // 2. Costs
       if (draftCustomFilter.costs.size > 0) {
         let cost = card.cost ?? 0
@@ -467,6 +503,7 @@ const resetOptions = () => {
   filterMode.value = 'auto'
   customFilter.aspects.clear()
   customFilter.costs.clear()
+  customFilter.traits.clear()
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
@@ -1306,7 +1343,7 @@ onUnmounted(() => {
         class="fixed inset-0 z-[70] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4"
         @click.self="showFilterDialog = false">
         <div
-          class="bg-swu-900 border border-swu-primary/30 rounded-2xl p-6 shadow-2xl w-full max-w-lg md:max-w-xl flex flex-col relative elevation-high h-[600px] lg:h-[500px] max-h-[90vh]">
+          class="bg-swu-900 border border-swu-primary/30 rounded-2xl p-6 shadow-2xl w-full max-w-lg md:max-w-xl flex flex-col relative elevation-high max-h-[90vh]">
           
           <div class="flex items-center justify-between mb-6">
             <h3 class="text-xl font-bold text-white flex items-center gap-2">
@@ -1368,13 +1405,27 @@ onUnmounted(() => {
                  </div>
               </div>
 
+              <!-- Traits -->
+              <div v-if="availableTraits.length > 0" class="flex-shrink-0">
+                <h4 class="text-sm font-semibold text-gray-400 mb-3 uppercase tracking-wide">{{ $t('filter_additional_traits') }}</h4>
+                <div class="flex flex-wrap gap-2">
+                    <button v-for="trait in availableTraits" :key="trait"
+                        class="px-3 py-1.5 rounded-lg text-xs font-medium transition-colors border"
+                        :class="draftCustomFilter.traits.has(trait) 
+                            ? 'bg-swu-primary text-white border-swu-primary shadow-md' 
+                            : 'bg-white/5 text-gray-400 border-white/10 hover:bg-white/10'"
+                        @click="toggleDraftTrait(trait)">
+                        {{ trait }}
+                    </button>
+                </div>
+              </div>
 
             </div>
             
             <div v-else class="py-8 text-center text-gray-400 bg-white/5 rounded-xl border border-dashed border-white/10 px-4">
                 <p class="flex items-start justify-center gap-2">
                     <InformationCircleIcon class="w-5 h-5 text-gray-500 flex-shrink-0 mt-0.5" />
-                    <span class="text-left">Affiche uniquement les cartes compatibles avec le Leader et la Base sélectionnés.</span>
+                    <span class="text-left">{{ $t('filter_auto_desc') }}</span>
                 </p>
             </div>
 

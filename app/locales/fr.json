@@ -80,5 +80,7 @@
     "select_all": "Tout sélectionner",
     "deselect_all": "Tout désélectionner",
     "filter_change_confirmation": "Changer les options de filtre entraîne la réinitialisation des cartes actuellement sélectionnées. Confirmer ?",
+    "filter_auto_desc": "Affiche uniquement les cartes compatibles avec le Leader et la Base sélectionnés.",
+    "filter_additional_traits": "Traits hors aspects",
     "cards_count": "{count} cartes"
 }

@@ -80,5 +80,7 @@
     "select_all": "Select All",
     "deselect_all": "Deselect All",
     "filter_change_confirmation": "Changing filter options will reset the currently selected cards. Confirm?",
+    "filter_auto_desc": "Shows only cards compatible with the selected Leader and Base.",
+    "filter_additional_traits": "Out-of-aspect traits",
     "cards_count": "{count} cards"
 }
