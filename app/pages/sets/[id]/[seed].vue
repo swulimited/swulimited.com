@@ -511,6 +511,23 @@ const copyDeck = async () => {
     deck.push({ id, count })
   }
 
+  const sideboardList = processedCards.value.filter(c =>
+    !selectedCardIds.value.has(c.uniqueId) &&
+    c.type !== 'leader' &&
+    c.type !== 'base'
+  )
+
+  const sideboardCounts = new Map<string, number>()
+  for (const card of sideboardList) {
+    const id = card.id.replace('-', '_')
+    sideboardCounts.set(id, (sideboardCounts.get(id) || 0) + 1)
+  }
+
+  const sideboard = []
+  for (const [id, count] of sideboardCounts) {
+    sideboard.push({ id, count })
+  }
+
   const exportData = {
     metadata: {
       name: deckName
@@ -523,7 +540,8 @@ const copyDeck = async () => {
       id: baseId,
       count: 1
     },
-    deck: deck
+    deck: deck,
+    sideboard: sideboard
   }
 
   try {

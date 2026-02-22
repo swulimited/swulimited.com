@@ -35,7 +35,30 @@ Here's an example:
       "id": "SHD_174",
       "count": 1
     }
+  ],
+  "sideboard": [
+    {
+      "id": "SHD_172",
+      "count": 2
+    },
+    {
+      "id": "SEC_101",
+      "count": 2
+    },
+    {
+      "id": "SEC_180",
+      "count": 3
+    },
+    {
+      "id": "SHD_078",
+      "count": 2
+    },
+    {
+      "id": "LOF_128",
+      "count": 1
+    }
   ]
+
 }
 ```
 
@@ -43,3 +66,5 @@ The name of the deck is set using this pattern: <leader name> - <base name>.
 
 When exporting the deck, the selected leader / base / cards are turned into this JSON structure.
 This structure is then copied to the clipboard.
+
+The sideboard attribute includes every cards left from the pool, except leaders and bases.
