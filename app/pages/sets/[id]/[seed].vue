@@ -21,7 +21,9 @@ import {
   XMarkIcon,
   HandRaisedIcon,
   FunnelIcon,
-  InformationCircleIcon
+  InformationCircleIcon,
+  ChevronLeftIcon,
+  ChevronRightIcon
 } from '@heroicons/vue/24/outline'
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement)
@@ -35,6 +37,8 @@ const route = useRoute()
 const router = useRouter()
 const { t, locale } = useI18n()
 const { $trackEvent } = useNuxtApp()
+
+const isSidebarOpen = ref(true)
 
 const getCardArt = (card: Card | BoosterCard) => {
   if (card.localization) {
@@ -341,6 +345,19 @@ const draftCustomFilter = reactive({
 })
 
 const aspectOptions = ['vigilance', 'command', 'aggression', 'cunning', 'villainy', 'heroism', 'neutral']
+
+const sortedSelectedAspects = computed(() => {
+  if (!selectedLeader.value || !selectedBase.value) return []
+  const aspects = [
+    ...(selectedLeader.value.aspects || []),
+    ...(selectedBase.value.aspects || [])
+  ]
+  return aspects.sort((a, b) => {
+    const indexA = aspectOptions.indexOf(a)
+    const indexB = aspectOptions.indexOf(b)
+    return indexA - indexB
+  })
+})
 
 
 
@@ -970,16 +987,27 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="flex flex-col md:flex-row gap-6 min-h-[calc(100vh-8rem)] -mt-8 pt-1">
+  <div class="flex flex-col md:flex-row min-h-[calc(100vh-8rem)] -mt-8 pt-1 transition-[gap] duration-300" :class="isSidebarOpen ? 'gap-6' : 'gap-0'">
 
     <!-- Permanent Sidebar: Leaders & Bases -->
-    <aside class="md:w-80 flex-shrink-0 relative mt-5">
-      <div @scroll.passive="handleScroll"
+    <aside 
+      class="flex-shrink-0 relative transition-[width,height,margin] duration-300 z-40"
+      :class="isSidebarOpen ? 'md:w-80 w-full mt-5' : 'w-0 h-0 md:h-auto overflow-visible'"
+    >
+      <div v-show="isSidebarOpen" @scroll.passive="handleScroll"
         class="md:sticky md:top-[5.5rem] md:max-h-[calc(100vh-5.5rem)] md:overflow-y-auto bg-swu-900/50 backdrop-blur-sm rounded-xl border border-swu-primary/20 p-4 shadow-lg custom-scrollbar">
 
+        <!-- Close button inside the sidebar container at top right -->
+        <button 
+          @click="isSidebarOpen = false"
+          :title="$t('hide_sidebar')"
+          class="hidden lg:block absolute top-2 right-2 bg-swu-900 border border-swu-primary/50 text-swu-primary hover:text-white hover:bg-swu-primary p-1 rounded-full shadow z-10 transition-colors"
+        >
+          <ChevronLeftIcon class="w-4 h-4 lg:w-5 lg:h-5" />
+        </button>
 
         <!-- Reroll & Copy Section -->
-        <div class="mb-3 flex gap-2">
+        <div class="mb-3 lg:mt-10 flex gap-2">
           <button @click="regeneratePool"
             class="flex-1 flex items-center justify-center gap-2 py-1.5 px-4 bg-white/5 hover:bg-swu-primary hover:shadow-lg hover:shadow-swu-primary/30 text-gray-300 hover:text-white border border-white/10 hover:border-swu-primary/50 rounded-xl transition-all duration-300 group overflow-hidden relative">
             <span
@@ -1130,10 +1158,34 @@ onUnmounted(() => {
       <!-- Cards Deck -->
       <div v-else>
         <div
-          class="flex flex-wrap items-center justify-end mb-2 gap-4 sticky top-[5rem] z-30 pointer-events-none -mx-2 px-2 md:pt-2 pt-0 md:pb-5 pb-4">
+          class="flex flex-wrap items-center justify-between mb-2 gap-4 sticky top-[5rem] z-30 pointer-events-none -mx-2 px-2 md:pt-2 pt-0 md:pb-5 pb-4">
+
+          <!-- Collapsed Toggle Button & Leader/Base -->
+          <Transition name="slide-right">
+            <div v-show="!isSidebarOpen" class="flex items-center gap-3 w-max select-none pointer-events-auto">
+              <button 
+                @click="isSidebarOpen = true"
+                :title="$t('show_sidebar')"
+                class="hidden lg:flex bg-swu-900 border border-swu-primary/50 text-swu-primary hover:text-white hover:bg-swu-primary p-2 rounded-full shadow-lg transition-all items-center justify-center hover:scale-110 flex-shrink-0"
+              >
+                <ChevronRightIcon class="w-5 h-5" />
+              </button>
+              <div v-if="selectedLeader && selectedBase" class="bg-swu-900/80 backdrop-blur-sm border border-white/5 shadow-2xl rounded-xl h-[50px] px-4 flex items-center gap-2 text-sm font-bold text-gray-300">
+                 <span class="cursor-pointer hover:text-white transition-colors" @mouseenter="showPopup(selectedLeader, $event)" @mouseleave="hidePopup">{{ getCardName(selectedLeader) }}</span>
+                 <span class="text-white/20">|</span>
+                 <span class="cursor-pointer hover:text-white transition-colors" @mouseenter="showPopup(selectedBase, $event)" @mouseleave="hidePopup">{{ getCardName(selectedBase) }}</span>
+                 <span v-if="sortedSelectedAspects.length > 0" class="text-white/20">|</span>
+                 <div v-if="sortedSelectedAspects.length > 0" class="flex items-center gap-1">
+                   <div v-for="(aspect, index) in sortedSelectedAspects" :key="`${aspect}-${index}`" :title="$t(`aspect_${aspect}`)">
+                     <img :src="`/images/aspect-${aspect}.png`" :alt="$t(`aspect_${aspect}`)" class="w-5 h-5 object-contain" />
+                   </div>
+                 </div>
+              </div>
+            </div>
+          </Transition>
 
           <div
-            class="flex flex-nowrap overflow-x-auto items-center gap-1 pointer-events-auto bg-swu-900/80 backdrop-blur rounded-xl p-2 border border-white/5 shadow-2xl max-w-full custom-scrollbar">
+            class="flex flex-nowrap overflow-x-auto items-center gap-1 pointer-events-auto bg-swu-900/80 backdrop-blur rounded-xl p-2 border border-white/5 shadow-2xl max-w-full custom-scrollbar ml-auto">
             <!-- Copy Deck Button -->
             <Transition name="horizontal-slide">
               <button v-if="selectedLeaderId && selectedBaseId && selectedCardIds.size >= 30" @click="copyDeck"
@@ -1145,14 +1197,14 @@ onUnmounted(() => {
             </Transition>
 
             <Transition name="horizontal-slide">
-              <div v-if="selectedLeaderId && selectedBaseId" class="flex items-center gap-1">
+              <div v-if="selectedLeaderId && selectedBaseId" class="flex items-center gap-1 h-8">
 
-                <div class="font-mono font-bold text-xs text-white flex items-center h-8">
+                <div class="font-mono font-bold text-xs text-white flex items-center h-8 flex-shrink-0">
                   {{ selectedCardIds.size }}&nbsp;/&nbsp;{{ cards.length }}
                 </div>
 
                 <button @click="showStats = !showStats" :disabled="selectedCardIds.size < 30"
-                  class="h-8 w-8 flex items-center justify-center rounded transition-colors" :class="[
+                  class="h-8 w-8 flex-shrink-0 flex items-center justify-center rounded transition-colors" :class="[
                     selectedCardIds.size < 30
                       ? 'text-gray-600 opacity-50 cursor-not-allowed'
                       : (showStats ? 'text-swu-primary bg-white/10' : 'text-gray-400 hover:text-white hover:bg-white/10')
@@ -1161,14 +1213,14 @@ onUnmounted(() => {
                 </button>
 
                 <button @click="drawHand" :disabled="selectedCardIds.size < 30"
-                  class="h-8 w-8 flex items-center justify-center rounded transition-colors"
+                  class="h-8 w-8 flex-shrink-0 flex items-center justify-center rounded transition-colors"
                   :class="selectedCardIds.size < 30 ? 'text-gray-600 opacity-50 cursor-not-allowed' : 'text-gray-400 hover:text-white hover:bg-white/10'"
                   :title="$t('test_hand')">
                   <HandRaisedIcon class="w-5 h-5" />
                 </button>
 
                 <button @click="openFilterDialog"
-                  class="h-8 w-8 flex items-center justify-center rounded transition-colors mr-2 text-gray-400 hover:text-white hover:bg-white/10"
+                  class="h-8 w-8 flex-shrink-0 flex items-center justify-center rounded transition-colors mr-2 text-gray-400 hover:text-white hover:bg-white/10"
                   :title="$t('filter_title')">
                   <FunnelIcon class="w-5 h-5" />
                 </button>
@@ -1507,5 +1559,15 @@ onUnmounted(() => {
   transform: translateX(-10px);
 }
 
+.slide-right-enter-active,
+.slide-right-leave-active {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.slide-right-enter-from,
+.slide-right-leave-to {
+  transform: translateX(-30px);
+  opacity: 0;
+}
 
 </style>
