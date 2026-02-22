@@ -1,8 +1,17 @@
 <script setup lang="ts">
 import {
-  Chart as ChartJS
-} from 'chart.js/auto'
+  Chart as ChartJS,
+  Title,
+  Tooltip,
+  Legend,
+  BarElement,
+  CategoryScale,
+  LinearScale,
+  ArcElement
+} from 'chart.js'
 import { Bar, Pie } from 'vue-chartjs'
+
+ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement)
 import {
   ArrowPathIcon,
   LinkIcon,
@@ -1195,8 +1204,8 @@ onUnmounted(() => {
               <h4 class="text-sm font-semibold text-gray-400 mb-4 uppercase tracking-wide text-center flex-shrink-0">
                 {{ $t('aspects') }}
               </h4>
-              <div class="flex-1 relative min-h-0 w-full flex justify-center overflow-y-auto custom-scrollbar">
-                <div class="w-full max-w-xs space-y-2">
+              <div class="flex-1 relative min-h-0 w-full flex justify-center">
+                <div class="w-full max-w-xs space-y-2 max-h-[142px] overflow-y-auto custom-scrollbar pr-2">
                   <div v-for="[aspect, count] in aspectStats" :key="aspect"
                     class="flex items-center justify-between p-2 rounded-lg bg-white/5 border border-white/5 hover:bg-white/10 transition-colors select-none cursor-default">
                     <div class="flex items-center gap-3">
