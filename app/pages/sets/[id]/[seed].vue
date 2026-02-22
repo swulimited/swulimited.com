@@ -1,14 +1,7 @@
 <script setup lang="ts">
 import {
-  Chart as ChartJS,
-  Title,
-  Tooltip,
-  Legend,
-  BarElement,
-  CategoryScale,
-  LinearScale,
-  ArcElement
-} from 'chart.js'
+  Chart as ChartJS
+} from 'chart.js/auto'
 import { Bar, Pie } from 'vue-chartjs'
 import {
   ArrowPathIcon,
@@ -26,7 +19,7 @@ import {
   ChevronRightIcon
 } from '@heroicons/vue/24/outline'
 
-ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend, ArcElement)
+
 
 import type { Card as BoosterCard } from '~/utils/booster'
 
