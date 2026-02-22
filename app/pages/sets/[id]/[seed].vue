@@ -395,17 +395,47 @@ const switchToCustomMode = () => {
 
 
 const applyFilter = () => {
-    if (selectedCardIds.value.size > 0 && confirm(t('filter_change_confirmation'))) {
-        selectedCardIds.value = new Set()
-    } else if (selectedCardIds.value.size > 0) {
-        return
-    }
+  let filterChanged = filterMode.value !== draftFilterMode.value;
 
-  filterMode.value = draftFilterMode.value
-  customFilter.aspects = new Set(draftCustomFilter.aspects)
-  customFilter.costs = new Set(draftCustomFilter.costs)
-  customFilter.traits = new Set(draftCustomFilter.traits)
-  showFilterDialog.value = false
+  if (!filterChanged && filterMode.value === 'custom') {
+    const areSetsEqual = (a: Set<any>, b: Set<any>) => a.size === b.size && Array.from(a).every(value => b.has(value));
+    filterChanged = 
+      !areSetsEqual(customFilter.aspects, draftCustomFilter.aspects) ||
+      !areSetsEqual(customFilter.costs, draftCustomFilter.costs) ||
+      !areSetsEqual(customFilter.traits, draftCustomFilter.traits);
+  }
+
+  if (!filterChanged) {
+      showFilterDialog.value = false;
+      return;
+  }
+
+  // Only ask for confirmation if the user has started manually unchecking cards from their current view.
+  // If their selected cards length is equal to all currently displayed cards, they haven't customized the deck.
+  const isDeckStarted = selectedCardIds.value.size > 0 && selectedCardIds.value.size < cards.value.length;
+
+  if (isDeckStarted) {
+      // Native window.confirm is prone to being permanently disabled by users via browser settings
+      // (e.g. "Prevent this page from creating dialogs"). To avoid a silent deadlock where false is returned 
+      // instantly forever, we use a time-check. If it returns false instantly (e.g. <50ms), it means it was blocked.
+      const startTime = Date.now();
+      const res = window.confirm(t('filter_change_confirmation'));
+      const isAutoBlocked = !res && (Date.now() - startTime) < 50;
+
+      if (res || isAutoBlocked) {
+          selectedCardIds.value = new Set();
+      } else {
+          return; // Stay open, user aborted the wipe manually
+      }
+  } else {
+      selectedCardIds.value = new Set(); // Reset silently 
+  }
+
+  filterMode.value = draftFilterMode.value;
+  customFilter.aspects = new Set(draftCustomFilter.aspects);
+  customFilter.costs = new Set(draftCustomFilter.costs);
+  customFilter.traits = new Set(draftCustomFilter.traits);
+  showFilterDialog.value = false;
 }
 
 // Helpers for draft manipulation
@@ -1001,13 +1031,13 @@ onUnmounted(() => {
         <button 
           @click="isSidebarOpen = false"
           :title="$t('hide_sidebar')"
-          class="hidden lg:block absolute top-2 right-2 bg-swu-900 border border-swu-primary/50 text-swu-primary hover:text-white hover:bg-swu-primary p-1 rounded-full shadow z-10 transition-colors"
+          class="hidden md:block absolute top-2 right-2 bg-swu-900 border border-swu-primary/50 text-swu-primary hover:text-white hover:bg-swu-primary p-1 rounded-full shadow z-10 transition-colors"
         >
-          <ChevronLeftIcon class="w-4 h-4 lg:w-5 lg:h-5" />
+          <ChevronLeftIcon class="w-4 h-4 md:w-5 md:h-5" />
         </button>
 
         <!-- Reroll & Copy Section -->
-        <div class="mb-3 lg:mt-10 flex gap-2">
+        <div class="mb-3 md:mt-10 flex gap-2">
           <button @click="regeneratePool"
             class="flex-1 flex items-center justify-center gap-2 py-1.5 px-4 bg-white/5 hover:bg-swu-primary hover:shadow-lg hover:shadow-swu-primary/30 text-gray-300 hover:text-white border border-white/10 hover:border-swu-primary/50 rounded-xl transition-all duration-300 group overflow-hidden relative">
             <span
@@ -1029,7 +1059,7 @@ onUnmounted(() => {
         </div>
 
         <!-- Selected Leader & Base Display -->
-        <div class="grid grid-cols-2 gap-2 h-28 mb-2">
+        <div class="grid grid-cols-2 gap-2 md:h-28 mb-2">
           <div class="relative group flex justify-center items-center h-full">
             <Transition mode="out-in" enter-active-class="transition-all duration-200 ease-out"
               enter-from-class="opacity-0 scale-95" enter-to-class="opacity-100 scale-100"
@@ -1166,7 +1196,7 @@ onUnmounted(() => {
               <button 
                 @click="isSidebarOpen = true"
                 :title="$t('show_sidebar')"
-                class="hidden lg:flex bg-swu-900 border border-swu-primary/50 text-swu-primary hover:text-white hover:bg-swu-primary p-2 rounded-full shadow-lg transition-all items-center justify-center hover:scale-110 flex-shrink-0"
+                class="flex bg-swu-900 border border-swu-primary/50 text-swu-primary hover:text-white hover:bg-swu-primary p-2 rounded-full shadow-lg transition-all items-center justify-center hover:scale-110 flex-shrink-0"
               >
                 <ChevronRightIcon class="w-5 h-5" />
               </button>
@@ -1487,7 +1517,7 @@ onUnmounted(() => {
              <div class="text-sm text-gray-400 font-medium">
                {{ $t('cards_count', { count: draftFilteredCardsCount }) }}
              </div>
-             <button @click="applyFilter" :disabled="draftFilteredCardsCount === 0"
+             <button @click="applyFilter"
                 class="bg-swu-primary hover:bg-swu-primary/90 text-white font-bold py-2 px-6 rounded-xl shadow-lg shadow-swu-primary/20 transition-all active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed disabled:shadow-none disabled:active:scale-100">
                 {{ $t('apply_filter') }}
              </button>
