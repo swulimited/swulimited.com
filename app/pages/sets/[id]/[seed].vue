@@ -1472,20 +1472,7 @@ onUnmounted(() => {
                 </div>
               </div>
 
-               <!-- Costs -->
-              <div class="flex-shrink-0">
-                <h4 class="text-sm font-semibold text-gray-400 mb-3 uppercase tracking-wide">{{ $t('filter_costs') }}</h4>
-                 <div class="grid grid-cols-5 lg:flex lg:flex-nowrap gap-2">
-                    <button v-for="cost in [0,1,2,3,4,5,6,7,8,9]" :key="cost"
-                        class="w-10 h-10 rounded-lg font-bold font-mono transition-colors border"
-                        :class="draftCustomFilter.costs.has(cost) 
-                            ? 'bg-swu-primary text-white border-swu-primary' 
-                            : 'bg-white/5 text-gray-400 border-white/10 hover:bg-white/10'"
-                        @click="toggleDraftCost(cost)">
-                        {{ cost === 9 ? '9+' : cost }}
-                    </button>
-                 </div>
-              </div>
+
 
               <!-- Traits -->
               <div v-if="availableTraits.length > 0" class="flex-shrink-0">
