@@ -377,7 +377,13 @@ const openFilterDialog = () => {
   showFilterDialog.value = true
 }
 
+const switchToAutoMode = () => {
+  $trackEvent('filter_type_selected', { type: 'auto' })
+  draftFilterMode.value = 'auto'
+}
+
 const switchToCustomMode = () => {
+  $trackEvent('filter_type_selected', { type: 'custom' })
   draftFilterMode.value = 'custom'
   
   if (filterMode.value === 'auto') {
@@ -1341,7 +1347,7 @@ onUnmounted(() => {
             <div class="flex items-center bg-white/5 rounded-lg p-1">
               <button class="flex-1 py-2 px-3 rounded-md text-sm font-medium transition-all"
                 :class="draftFilterMode === 'auto' ? 'bg-swu-primary text-white shadow' : 'text-gray-400 hover:text-white'"
-                @click="draftFilterMode = 'auto'">
+                @click="switchToAutoMode">
                 {{ $t('filter_mode_auto') }}
               </button>
               <button class="flex-1 py-2 px-3 rounded-md text-sm font-medium transition-all"
