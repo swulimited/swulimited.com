@@ -38,28 +38,28 @@ const changeLanguage = (newLocale: 'en' | 'fr') => {
           <!-- Desktop Navigation -->
           <nav class="hidden md:flex gap-4 items-center">
 
-            <NuxtLink to="/sets/LOF"
+            <NuxtLink to="/sealed/LOF"
               @click="$trackEvent('new_pool', { pool: 'standard', set: 'LOF', location: 'header' })"
               class="rounded-md px-2 py-1 transition-all duration-300" :class="[
-                route.path.includes('/sets/LOF') || (route.params.id as string)?.includes('LOF-')
+                route.path.includes('/sealed/LOF') || (route.params.id as string)?.includes('LOF-')
                   ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
                   : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
               ]">
               <img src="/images/LOF-logo.png" alt="Legends of the Force" class="h-8 w-auto" />
             </NuxtLink>
-            <NuxtLink to="/sets/SEC"
+            <NuxtLink to="/sealed/SEC"
               @click="$trackEvent('new_pool', { pool: 'standard', set: 'SEC', location: 'header' })"
               class="rounded-md px-2 py-1 transition-all duration-300" :class="[
-                route.path.includes('/sets/SEC') || (route.params.id as string)?.includes('SEC-')
+                route.path.includes('/sealed/SEC') || (route.params.id as string)?.includes('SEC-')
                   ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
                   : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
               ]">
               <img src="/images/SEC-logo.png" alt="Secrets of Power" class="h-8 w-auto" />
             </NuxtLink>
-            <NuxtLink to="/sets/LAW"
+            <NuxtLink to="/sealed/LAW"
               @click="$trackEvent('new_pool', { pool: 'standard', set: 'LAW', location: 'header' })"
               class="rounded-md px-2 py-1 transition-all duration-300 relative group" :class="[
-                route.path.includes('/sets/LAW') || (route.params.id as string)?.includes('LAW-')
+                route.path.includes('/sealed/LAW') || (route.params.id as string)?.includes('LAW-')
                   ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
                   : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
               ]">
@@ -107,28 +107,28 @@ const changeLanguage = (newLocale: 'en' | 'fr') => {
           <div class="px-4 pb-3 pt-2">
             <!-- Extensions Mobile -->
             <div class="flex flex-nowrap items-center justify-center gap-1 mb-2">
-              <NuxtLink to="/sets/LOF"
+              <NuxtLink to="/sealed/LOF"
                 @click="$trackEvent('new_pool', { pool: 'standard', set: 'LOF', location: 'header_mobile' })"
                 class="rounded-md px-1 py-1 transition-all duration-300" :class="[
-                  route.path.includes('/sets/LOF') || (route.params.id as string)?.includes('LOF-')
+                  route.path.includes('/sealed/LOF') || (route.params.id as string)?.includes('LOF-')
                     ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
                     : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
                 ]">
                 <img src="/images/LOF-logo.png" alt="Legends of the Force" class="h-6 w-auto" />
               </NuxtLink>
-              <NuxtLink to="/sets/SEC"
+              <NuxtLink to="/sealed/SEC"
                 @click="$trackEvent('new_pool', { pool: 'standard', set: 'SEC', location: 'header_mobile' })"
                 class="rounded-md px-1 py-1 transition-all duration-300" :class="[
-                  route.path.includes('/sets/SEC') || (route.params.id as string)?.includes('SEC-')
+                  route.path.includes('/sealed/SEC') || (route.params.id as string)?.includes('SEC-')
                     ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
                     : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
                 ]">
                 <img src="/images/SEC-logo.png" alt="Secrets of Power" class="h-6 w-auto" />
               </NuxtLink>
-              <NuxtLink to="/sets/LAW"
+              <NuxtLink to="/sealed/LAW"
                 @click="$trackEvent('new_pool', { pool: 'standard', set: 'LAW', location: 'header_mobile' })"
                 class="rounded-md px-1 py-1 transition-all duration-300 relative group" :class="[
-                  route.path.includes('/sets/LAW') || (route.params.id as string)?.includes('LAW-')
+                  route.path.includes('/sealed/LAW') || (route.params.id as string)?.includes('LAW-')
                     ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
                     : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
                 ]">
