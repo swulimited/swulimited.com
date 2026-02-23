@@ -112,8 +112,8 @@ export function generateBoosterPack(allCards: Card[], rng: seedrandom.PRNG): Car
 
     // 2. Base Slot (1 card)
     let basePool = availableCards.filter(c => c.type === 'base');
-    // Special Rule for LOF: Base slot only contains Common Bases
-    if (setId === 'LOF') {
+    // Special Rule for LOF and LAW: Base slot only contains Common Bases
+    if (setId === 'LOF' || setId === 'LAW') {
         basePool = basePool.filter(c => c.rarity === 'common');
     }
     addCardsToPack(getUniqueRandomCards(basePool, 1, packCardIds, rng));
@@ -137,8 +137,8 @@ export function generateBoosterPack(allCards: Card[], rng: seedrandom.PRNG): Car
     // 5. Rare/Legendary Slot (1 card)
     let rareLegPool = standardPool.filter(c => c.rarity === 'rare' || c.rarity === 'legendary');
 
-    // Special Rule for LOF: Rare Bases can appear in the Rare/Legendary slot
-    if (setId === 'LOF') {
+    // Special Rule for LOF and LAW: Rare Bases can appear in the Rare/Legendary slot
+    if (setId === 'LOF' || setId === 'LAW') {
         const rareBases = availableCards.filter(c =>
             c.type === 'base' &&
             (c.rarity === 'rare' || c.rarity === 'legendary')

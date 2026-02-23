@@ -99,8 +99,8 @@ That leaves 14 cards remaining that are pulled from the pool of “standard” (
 Outside of the cards that are exclusive to starter decks, the cards in this game are divided into four rarities: Common, Uncommon, Rare, and Legendary. In each booster pack, you will find 9 Common cards, 3 Uncommon cards, and 1 Rare or Legendary card.
 
 There are special rules for some sets:
-- in LOF there is no rare base in the base slot, only common bases
-- in LOF you may find a rare base in the rare/legendary slot
+- in LOF and LAW there is no rare base in the base slot, only common bases
+- in LOF and LAW you may find a rare base in the rare/legendary slot
 
 The final card in a pack can be of any rarity,
 except you will not find a base in this slot.
