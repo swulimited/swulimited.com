@@ -27,8 +27,14 @@
         "traits": [
           "RÉPUBLIQUE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -155,8 +161,14 @@
         "traits": [
           "MANDALORIEN",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -217,8 +229,16 @@
         "title": "Je Ne Demande Jamais Deux Fois",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "EMBUSCADE",
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH",
+      "OVERWHELM"
     ]
   },
   {
@@ -313,8 +333,14 @@
         "traits": [
           "IMPÉRIAL",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -375,8 +401,14 @@
         "title": "Grimpe !",
         "traits": [
           "REBELLE"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -535,8 +567,14 @@
         "title": "L'Ombre De La Reine",
         "traits": [
           "NABOO"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -565,8 +603,14 @@
         "title": "Je Vous Dépose ?",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -767,8 +811,14 @@
           "RÉPUBLIQUE",
           "VÉHICULE",
           "TRANSPORT"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -829,8 +879,14 @@
         "traits": [
           "PÈGRE",
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "TÉNACITÉ"
         ]
       }
+    ],
+    "keywords": [
+      "GRIT"
     ]
   },
   {
@@ -891,8 +947,16 @@
         "traits": [
           "SÉPARATISTE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "TÉNACITÉ",
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "GRIT",
+      "SENTINEL"
     ]
   },
   {
@@ -925,8 +989,14 @@
           "PREMIER ORDRE",
           "VÉHICULE",
           "TRANSPORT"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -957,8 +1027,14 @@
         "traits": [
           "RÉPUBLIQUE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -989,8 +1065,14 @@
         "traits": [
           "PÈGRE",
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -1053,8 +1135,16 @@
           "RÉPUBLIQUE",
           "CLONE",
           "SOLDAT"
+        ],
+        "keywords": [
+          "SENTINELLE",
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL",
+      "PLOT"
     ]
   },
   {
@@ -1196,8 +1286,14 @@
         "traits": [
           "NOUVELLE RÉPUBLIQUE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -1254,8 +1350,14 @@
         "art": "https://cdn.starwarsunlimited.com//06010043_FR_Sponsor_Chandrilan_5b5c1b2ae4.png",
         "traits": [
           "OFFICIEL"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -1316,8 +1418,14 @@
         "traits": [
           "RÉPUBLIQUE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -1346,8 +1454,14 @@
         "title": "Vous Ne Gagnerez Jamais",
         "traits": [
           "IMPÉRIAL"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -1380,8 +1494,14 @@
           "MANDALORIEN",
           "VÉHICULE",
           "TRANSPORT"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -1414,8 +1534,14 @@
           "RÉPUBLIQUE",
           "CLONE",
           "SOLDAT"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -1446,8 +1572,14 @@
           "RÉSISTANCE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -1480,8 +1612,14 @@
           "RÉSISTANCE",
           "VÉHICULE",
           "VAISSEAU CAPITAL"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -1564,8 +1702,14 @@
         "art": "https://cdn.starwarsunlimited.com//06010053_FR_Droit_dans_le_Mille_227d0e779d.png",
         "traits": [
           "GAMBIT"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -1591,8 +1735,14 @@
         "art": "https://cdn.starwarsunlimited.com//06010054_FR_Exile_de_la_Force_11a0e77b81.png",
         "traits": [
           "CONDITION"
+        ],
+        "keywords": [
+          "TÉNACITÉ"
         ]
       }
+    ],
+    "keywords": [
+      "GRIT"
     ]
   },
   {
@@ -1676,8 +1826,16 @@
         "title": "Coordinateur De La Cité Des Nuages",
         "traits": [
           "FRANGE"
+        ],
+        "keywords": [
+          "SENTINELLE",
+          "TÉNACITÉ"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL",
+      "GRIT"
     ]
   },
   {
@@ -1705,8 +1863,14 @@
         "traits": [
           "FORCE",
           "JEDI"
+        ],
+        "keywords": [
+          "TÉNACITÉ"
         ]
       }
+    ],
+    "keywords": [
+      "GRIT"
     ]
   },
   {
@@ -1765,8 +1929,14 @@
           "NOUVELLE RÉPUBLIQUE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -1854,8 +2024,14 @@
         "traits": [
           "RÉPUBLIQUE",
           "SOLDAT"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -1941,8 +2117,14 @@
         "traits": [
           "RÉPUBLIQUE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -2003,8 +2185,14 @@
         "traits": [
           "FRANGE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "TÉNACITÉ"
         ]
       }
+    ],
+    "keywords": [
+      "GRIT"
     ]
   },
   {
@@ -2057,8 +2245,14 @@
         "traits": [
           "OBJET",
           "ARMURE"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -2083,8 +2277,14 @@
         "art": "https://cdn.starwarsunlimited.com//06010071_FR_Devotion_des_Disciples_00bbd4f6ec.png",
         "traits": [
           "INNÉ"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -2297,8 +2497,14 @@
         "traits": [
           "RÉPUBLIQUE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -2361,8 +2567,14 @@
         "traits": [
           "IMPÉRIAL",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -2393,8 +2605,16 @@
         "traits": [
           "RÉPUBLIQUE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "SENTINELLE",
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL",
+      "PLOT"
     ]
   },
   {
@@ -2457,8 +2677,14 @@
         "traits": [
           "RÉPUBLIQUE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -2521,8 +2747,16 @@
           "RÉPUBLIQUE",
           "CLONE",
           "SOLDAT"
+        ],
+        "keywords": [
+          "SENTINELLE",
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL",
+      "OVERWHELM"
     ]
   },
   {
@@ -2553,8 +2787,14 @@
         "traits": [
           "IMPÉRIAL",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -2587,8 +2827,16 @@
           "PÈGRE",
           "VÉHICULE",
           "TRANSPORT"
+        ],
+        "keywords": [
+          "EMBUSCADE",
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH",
+      "PLOT"
     ]
   },
   {
@@ -2617,8 +2865,14 @@
         "traits": [
           "VÉHICULE",
           "TRANSPORT"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -2649,8 +2903,14 @@
         "traits": [
           "IMPÉRIAL",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -2767,8 +3027,14 @@
         "traits": [
           "SÉPARATISTE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -2895,8 +3161,14 @@
           "NABOO",
           "RÉPUBLIQUE",
           "SOLDAT"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -2929,8 +3201,18 @@
           "NABOO",
           "VÉHICULE",
           "TRANSPORT"
+        ],
+        "keywords": [
+          "RAID",
+          "DÉBORDEMENT",
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "RAID",
+      "OVERWHELM",
+      "PLOT"
     ]
   },
   {
@@ -2959,8 +3241,16 @@
         "traits": [
           "REBELLE",
           "SOLDAT"
+        ],
+        "keywords": [
+          "EMBUSCADE",
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH",
+      "PLOT"
     ]
   },
   {
@@ -3021,8 +3311,14 @@
         "traits": [
           "NOUVELLE RÉPUBLIQUE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -3053,8 +3349,14 @@
         "traits": [
           "REBELLE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -3080,8 +3382,18 @@
         "art": "https://cdn.starwarsunlimited.com//06010104_FR_Symbole_d_Unite_a86f23e517.png",
         "traits": [
           "INNÉ"
+        ],
+        "keywords": [
+          "DÉBORDEMENT",
+          "RAID",
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM",
+      "RAID",
+      "RESTORE"
     ]
   },
   {
@@ -3226,8 +3538,14 @@
           "RÉPUBLIQUE",
           "VÉHICULE",
           "TRANSPORT"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -3288,8 +3606,14 @@
           "RÉPUBLIQUE",
           "GUNGAN",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -3352,8 +3676,14 @@
           "IMPÉRIAL",
           "CLONE",
           "SOLDAT"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -3443,8 +3773,14 @@
           "NABOO",
           "VÉHICULE",
           "TRANSPORT"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -3474,8 +3810,14 @@
           "RÉPUBLIQUE",
           "VÉHICULE",
           "TRANSPORT"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -3565,8 +3907,14 @@
         "traits": [
           "NABOO",
           "SOLDAT"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -3596,8 +3944,14 @@
           "FRANGE",
           "VÉHICULE",
           "MARCHEUR"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -3655,8 +4009,14 @@
         "art": "https://cdn.starwarsunlimited.com//06010123_FR_Montrer_sa_Puissance_3377be2f18.png",
         "traits": [
           "INNÉ"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -3733,8 +4093,14 @@
         "art": "https://cdn.starwarsunlimited.com//06010126_FR_Taxation_des_Routes_Commerciales_2384e5c666.png",
         "traits": [
           "LOI"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -3955,8 +4321,14 @@
           "PÈGRE",
           "DROÏDE",
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -4077,8 +4449,14 @@
           "RÉPUBLIQUE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -4109,8 +4487,14 @@
         "traits": [
           "SÉPARATISTE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -4139,8 +4523,16 @@
         "title": "Tu Ferais Mieux De Te Grouiller",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "RAID",
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "RAID",
+      "PLOT"
     ]
   },
   {
@@ -4239,8 +4631,14 @@
         "traits": [
           "IMPÉRIAL",
           "SOLDAT"
+        ],
+        "keywords": [
+          "TÉNACITÉ"
         ]
       }
+    ],
+    "keywords": [
+      "GRIT"
     ]
   },
   {
@@ -4323,8 +4721,14 @@
         "traits": [
           "REBELLE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -4387,8 +4791,14 @@
         "title": "La Liberté Est Une Idée Pure",
         "traits": [
           "REBELLE"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -4417,8 +4827,14 @@
         "title": "Pour Notre Survie",
         "traits": [
           "RÉSISTANCE"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -4477,8 +4893,14 @@
         "title": "Je Ne Suis Pas Un Espion",
         "traits": [
           "RÉSISTANCE"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -4509,8 +4931,14 @@
           "REBELLE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -4605,8 +5033,14 @@
         "traits": [
           "REBELLE",
           "SPECTRE"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -4661,8 +5095,14 @@
         "art": "https://cdn.starwarsunlimited.com//06010157_FR_Une_Seule_Issue_59ec507d3d.png",
         "traits": [
           "GAMBIT"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -4749,8 +5189,14 @@
         "traits": [
           "REBELLE",
           "TWI'LEK"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -4929,8 +5375,14 @@
           "RÉPUBLIQUE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "TÉNACITÉ"
         ]
       }
+    ],
+    "keywords": [
+      "GRIT"
     ]
   },
   {
@@ -5078,8 +5530,14 @@
           "PÈGRE",
           "VÉHICULE",
           "TRANSPORT"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -5107,8 +5565,14 @@
         "title": "La Lutte Avant Tout",
         "traits": [
           "REBELLE"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -5138,8 +5602,14 @@
           "RÉPUBLIQUE",
           "VÉHICULE",
           "MARCHEUR"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -5171,8 +5641,14 @@
           "REBELLE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -5223,8 +5699,14 @@
         "art": "https://cdn.starwarsunlimited.com//06010176_FR_Ferocite_Soudaine_0c439eae47.png",
         "traits": [
           "INNÉ"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -5405,8 +5887,14 @@
         "art": "https://cdn.starwarsunlimited.com//06010183_FR_Renverser_le_Sommet_7d20dcfa3f.png",
         "traits": [
           "PLAN"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -5495,8 +5983,14 @@
         "title": "Courtier En Informations",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -5527,8 +6021,14 @@
         "traits": [
           "SÉPARATISTE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -5591,8 +6091,14 @@
           "PÈGRE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -5746,8 +6252,16 @@
         "art": "https://cdn.starwarsunlimited.com//06010194_FR_Armee_et_Pleinement_Operationnelle_a7b1f3af46.png",
         "traits": [
           "ASTUCE"
+        ],
+        "keywords": [
+          "EMBUSCADE",
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH",
+      "PLOT"
     ]
   },
   {
@@ -5892,8 +6406,14 @@
           "NABOO",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -5956,8 +6476,16 @@
           "FORCE",
           "JEDI",
           "RÉPUBLIQUE"
+        ],
+        "keywords": [
+          "CAMOUFLAGE",
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN",
+      "RAID"
     ]
   },
   {
@@ -5986,8 +6514,14 @@
         "traits": [
           "REBELLE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -6018,8 +6552,16 @@
         "traits": [
           "IMPÉRIAL",
           "REBELLE"
+        ],
+        "keywords": [
+          "CAMOUFLAGE",
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN",
+      "PLOT"
     ]
   },
   {
@@ -6052,8 +6594,14 @@
           "RÉSISTANCE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -6152,8 +6700,14 @@
           "REBELLE",
           "VÉHICULE",
           "VAISSEAU CAPITAL"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -6184,8 +6738,14 @@
         "traits": [
           "FRANGE",
           "CLONE"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -6216,8 +6776,14 @@
         "traits": [
           "MANDALORIEN",
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -6335,8 +6901,14 @@
         "traits": [
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -6457,8 +7029,14 @@
           "SÉPARATISTE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -6573,8 +7151,14 @@
         "art": "https://cdn.starwarsunlimited.com//06010221_FR_Astromech_Indiscipline_fe1107d11d.png",
         "traits": [
           "DROÏDE"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -6600,8 +7184,16 @@
         "art": "https://cdn.starwarsunlimited.com//06010222_FR_Usurier_ad239a40f5.png",
         "traits": [
           "OFFICIEL"
+        ],
+        "keywords": [
+          "EMBUSCADE",
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH",
+      "RAID"
     ]
   },
   {
@@ -6656,8 +7248,14 @@
         "title": "Un Chemin, Un Choix",
         "traits": [
           "REBELLE"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -6685,8 +7283,14 @@
         "title": "Cache Un Secret",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -6711,8 +7315,14 @@
         "art": "https://cdn.starwarsunlimited.com//06010226_FR_Soupcon_Persistant_4359e007d9.png",
         "traits": [
           "INNÉ"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -6841,8 +7451,14 @@
         "art": "https://cdn.starwarsunlimited.com//06010231_FR_Incriminer_05eed8d64f.png",
         "traits": [
           "ASTUCE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -6947,8 +7563,14 @@
         "art": "https://cdn.starwarsunlimited.com//06010235_FR_Faire_Fausse_Route_ef1aa3ff77.png",
         "traits": [
           "DÉSASTRE"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -7031,8 +7653,14 @@
         "traits": [
           "FORCE",
           "SITH"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -7151,8 +7779,14 @@
         "traits": [
           "IMPÉRIAL",
           "NOUVELLE RÉPUBLIQUE"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -7180,8 +7814,14 @@
         "traits": [
           "PREMIER ORDRE",
           "SOLDAT"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -7237,8 +7877,14 @@
         "art": "https://cdn.starwarsunlimited.com//06010245_FR_Il_Est_Grand_Temps_4e72b6bc4c.png",
         "traits": [
           "ASTUCE"
+        ],
+        "keywords": [
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "PLOT"
     ]
   },
   {
@@ -7320,8 +7966,16 @@
         "traits": [
           "FRANGE",
           "DROÏDE"
+        ],
+        "keywords": [
+          "RESTAURATION",
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE",
+      "SENTINEL"
     ]
   },
   {
@@ -7349,8 +8003,14 @@
         "traits": [
           "REBELLE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -7378,8 +8038,14 @@
         "traits": [
           "REBELLE",
           "SOLDAT"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -7525,8 +8191,16 @@
           "RÉPUBLIQUE",
           "VÉHICULE",
           "TANK"
+        ],
+        "keywords": [
+          "SENTINELLE",
+          "COMPLOT"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL",
+      "PLOT"
     ]
   },
   {
@@ -7628,8 +8302,14 @@
         "art": "https://cdn.starwarsunlimited.com//06010259_FR_Ouvrier_ASP_1084bc253b.png",
         "traits": [
           "DROÏDE"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -7711,8 +8391,14 @@
         "traits": [
           "SÉPARATISTE",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {

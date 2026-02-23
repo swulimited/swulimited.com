@@ -27,8 +27,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010001_FR_Saw_Gerrera_Leader_a80aef4961.png",
         "traits": [
           "REBELLE"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -225,8 +231,14 @@
         "traits": [
           "PÈGRE",
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -295,8 +307,14 @@
           "REBELLE",
           "TWI'LEK",
           "SPECTRE"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -327,8 +345,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010010_FR_Leia_Organa_Leader_cd7dd8f4b0.png",
         "traits": [
           "REBELLE"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -395,8 +419,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010012_FR_Sebulba_Leader_defbd9369a.png",
         "traits": [
           "FRANGE"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -495,8 +525,14 @@
         "traits": [
           "PÈGRE",
           "HUTT"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -529,8 +565,14 @@
         "traits": [
           "IMPÉRIAL",
           "OFFICIEL"
+        ],
+        "keywords": [
+          "BOUCLIER"
         ]
       }
+    ],
+    "keywords": [
+      "SHIELDED"
     ]
   },
   {
@@ -561,8 +603,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010017_FR_Han_Solo_Leader_1ae63f336f.png",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -987,8 +1035,16 @@
         "traits": [
           "PÈGRE",
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "BOUCLIER",
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "SHIELDED",
+      "OVERWHELM"
     ]
   },
   {
@@ -1059,8 +1115,14 @@
         "traits": [
           "REBELLE",
           "WOOKIE"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -1096,8 +1158,14 @@
           "FORCE",
           "REBELLE",
           "SPECTRE"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -1133,8 +1201,14 @@
           "FORCE",
           "JEDI",
           "RÉPUBLIQUE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -1165,8 +1239,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010037_FR_Han_Solo_fb55fecc39.png",
         "traits": [
           "REBELLE"
+        ],
+        "keywords": [
+          "BOUCLIER"
         ]
       }
+    ],
+    "keywords": [
+      "SHIELDED"
     ]
   },
   {
@@ -1197,8 +1277,16 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010038_FR_Guetteur_Lepi_412ede0941.png",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "BOUCLIER",
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "SHIELDED",
+      "OVERWHELM"
     ]
   },
   {
@@ -1334,8 +1422,14 @@
           "PÈGRE",
           "DROÏDE",
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "BOUCLIER"
         ]
       }
+    ],
+    "keywords": [
+      "SHIELDED"
     ]
   },
   {
@@ -1437,8 +1531,14 @@
         "traits": [
           "REBELLE",
           "SPECTRE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -1472,8 +1572,14 @@
         "traits": [
           "FORCE",
           "REBELLE"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -1505,8 +1611,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010047_FR_Baze_Malbus_74311b8fb9.png",
         "traits": [
           "REBELLE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -1571,8 +1683,16 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010049_FR_Brute_Bith_36e5a339ac.png",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "SENTINELLE",
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL",
+      "SABOTEUR"
     ]
   },
   {
@@ -1605,8 +1725,16 @@
         "traits": [
           "PÈGRE",
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "RAID",
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RAID",
+      "RESTORE"
     ]
   },
   {
@@ -1743,8 +1871,14 @@
         "traits": [
           "FORCE",
           "PÈGRE"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -1780,8 +1914,14 @@
           "REBELLE",
           "DROÏDE",
           "SPECTRE"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -1949,8 +2089,16 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010060_FR_Sous_Traitant_Quarren_60edba7e43.png",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "SENTINELLE",
+          "TÉNACITÉ"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL",
+      "GRIT"
     ]
   },
   {
@@ -2055,8 +2203,14 @@
         "traits": [
           "PÈGRE",
           "DROÏDE"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -2090,8 +2244,14 @@
         "traits": [
           "PÈGRE",
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -2301,8 +2461,16 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010070_FR_Casseur_Devaronien_f48e753cd2.png",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "RESTAURATION",
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE",
+      "SABOTEUR"
     ]
   },
   {
@@ -2571,8 +2739,14 @@
           "MANDALORIEN",
           "REBELLE",
           "SPECTRE"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -2606,8 +2780,14 @@
         "traits": [
           "REBELLE",
           "DROÏDE"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -2675,8 +2855,16 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010081_FR_Sapeur_Sullusteen_e3f4f0da7d.png",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "EMBUSCADE",
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH",
+      "OVERWHELM"
     ]
   },
   {
@@ -2711,8 +2899,16 @@
           "REBELLE",
           "TUSKEN",
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "CAMOUFLAGE",
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN",
+      "RAID"
     ]
   },
   {
@@ -2783,8 +2979,16 @@
           "PÈGRE",
           "WOOKIE",
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "EMBUSCADE",
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH",
+      "OVERWHELM"
     ]
   },
   {
@@ -2850,8 +3054,16 @@
         "traits": [
           "FORCE",
           "SITH"
+        ],
+        "keywords": [
+          "EMBUSCADE",
+          "TÉNACITÉ"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH",
+      "GRIT"
     ]
   },
   {
@@ -2885,8 +3097,14 @@
         "traits": [
           "PÈGRE",
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "BOUCLIER"
         ]
       }
+    ],
+    "keywords": [
+      "SHIELDED"
     ]
   },
   {
@@ -2957,8 +3175,14 @@
           "JEDI",
           "REBELLE",
           "SPECTRE"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -2989,8 +3213,16 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010090_FR_Technicien_Toydarien_f637e1a3bd.png",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "RAID",
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RAID",
+      "RESTORE"
     ]
   },
   {
@@ -3053,8 +3285,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010092_FR_Troig_a_Deux_Tetes_bffbdd1c98.png",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -3085,8 +3323,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010093_FR_Rio_Durant_c9ef2fdaa0.png",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "BOUCLIER"
         ]
       }
+    ],
+    "keywords": [
+      "SHIELDED"
     ]
   },
   {
@@ -3149,8 +3393,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010095_FR_Finn_172b1547e6.png",
         "traits": [
           "RÉSISTANCE"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -3321,8 +3571,14 @@
           "IMPÉRIAL",
           "VÉHICULE",
           "VAISSEAU CAPITAL"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -3453,8 +3709,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010104_FR_Bodhi_Rook_1e4939b78f.png",
         "traits": [
           "REBELLE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -3485,8 +3747,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010105_FR_Cinta_Kaz_3160836a7e.png",
         "traits": [
           "REBELLE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -3583,8 +3851,14 @@
         "traits": [
           "REBELLE",
           "PÈGRE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -3619,8 +3893,14 @@
           "REBELLE",
           "VÉHICULE",
           "VAISSEAU CAPITAL"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -3786,8 +4066,14 @@
           "IMPÉRIAL",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -3916,8 +4202,16 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010118_FR_Tourelle_Laser_Droide_d50144b284.png",
         "traits": [
           "DROÏDE"
+        ],
+        "keywords": [
+          "SENTINELLE",
+          "BOUCLIER"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL",
+      "SHIELDED"
     ]
   },
   {
@@ -3984,8 +4278,14 @@
         "traits": [
           "PÈGRE",
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -4015,8 +4315,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010121_FR_Securite_de_Canto_Bight_6c34940975.png",
         "traits": [
           "FRANGE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -4050,8 +4356,14 @@
           "PÈGRE",
           "VÉHICULE",
           "TRANSPORT"
+        ],
+        "keywords": [
+          "BOUCLIER"
         ]
       }
+    ],
+    "keywords": [
+      "SHIELDED"
     ]
   },
   {
@@ -4083,8 +4395,14 @@
         "traits": [
           "PÈGRE",
           "SOLDAT"
+        ],
+        "keywords": [
+          "TÉNACITÉ"
         ]
       }
+    ],
+    "keywords": [
+      "GRIT"
     ]
   },
   {
@@ -4242,8 +4560,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010128_FR_Force_Voilee_e80897b9cc.png",
         "traits": [
           "INNÉ"
+        ],
+        "keywords": [
+          "TÉNACITÉ"
         ]
       }
+    ],
+    "keywords": [
+      "GRIT"
     ]
   },
   {
@@ -4467,8 +4791,14 @@
           "PÈGRE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -4911,8 +5241,14 @@
           "PÈGRE",
           "VÉHICULE",
           "TRANSPORT"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -5080,8 +5416,14 @@
         "traits": [
           "DROÏDE",
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -5113,8 +5455,14 @@
         "traits": [
           "REBELLE",
           "SOLDAT"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -5309,8 +5657,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010160_FR_Chasseurs_Caches_8011ede23e.png",
         "traits": [
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -5379,8 +5733,14 @@
           "IMPÉRIAL",
           "VÉHICULE",
           "MARCHEUR"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -5698,8 +6058,14 @@
         "traits": [
           "PÈGRE",
           "NIHIL"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -5870,8 +6236,14 @@
         "traits": [
           "PÈGRE",
           "SOLDAT"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -6036,8 +6408,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010182_FR_Weazel_4e05f93a01.png",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -6140,8 +6518,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010185_FR_Ben_Solo_891f9c2b91.png",
         "traits": [
           "FORCE"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -6239,8 +6623,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010188_FR_Survivant_de_Savareen_9f15cd2d94.png",
         "traits": [
           "FRANGE"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -6307,8 +6697,14 @@
         "traits": [
           "PÈGRE",
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -6400,8 +6796,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010193_FR_Tireur_d_Elite_de_la_Bordure_Mediane_d3eb23ec29.png",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -6495,8 +6897,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010196_FR_Traqueurs_Acharnes_5c3deaf909.png",
         "traits": [
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -6592,8 +7000,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010199_FR_Bandits_du_Gang_Ohnaka_6a18f6da79.png",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -6689,8 +7103,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010202_FR_Debuter_les_Festivites_d84f7eb562.png",
         "traits": [
           "PLAN"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -6782,8 +7202,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010205_FR_Aveugler_avec_ses_Reacteurs_d2c9aa4e6d.png",
         "traits": [
           "GAMBIT"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -6909,8 +7335,14 @@
         "traits": [
           "PÈGRE",
           "NIHIL"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -6943,8 +7375,14 @@
         "traits": [
           "PÈGRE",
           "CRÉATURE"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -6979,8 +7417,14 @@
           "PÈGRE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "BOUCLIER"
         ]
       }
+    ],
+    "keywords": [
+      "SHIELDED"
     ]
   },
   {
@@ -7149,8 +7593,14 @@
         "traits": [
           "PÈGRE",
           "CRÉATURE"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -7213,8 +7663,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010218_FR_Pickpocket_Habile_63ea92dd22.png",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -7247,8 +7703,14 @@
         "traits": [
           "VÉHICULE",
           "SPEEDER"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -7281,8 +7743,16 @@
         "traits": [
           "WOOKIE",
           "SOLDAT"
+        ],
+        "keywords": [
+          "CAMOUFLAGE",
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN",
+      "RAID"
     ]
   },
   {
@@ -7351,8 +7821,14 @@
           "REBELLE",
           "VÉHICULE",
           "TRANSPORT"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -7419,8 +7895,14 @@
           "REBELLE",
           "VÉHICULE",
           "VAISSEAU CAPITAL"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -7615,8 +8097,14 @@
           "PÈGRE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -7646,8 +8134,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010231_FR_Pirate_Weequay_70d6c53327.png",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -7710,8 +8204,16 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010233_FR_Galen_Erso_c705106803.png",
         "traits": [
           "IMPÉRIAL"
+        ],
+        "keywords": [
+          "RAID",
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "RAID",
+      "SABOTEUR"
     ]
   },
   {
@@ -7741,8 +8243,16 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010234_FR_Elite_des_Kage_d6279b53b7.png",
         "traits": [
           "FRANGE"
+        ],
+        "keywords": [
+          "RAID",
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "RAID",
+      "SABOTEUR"
     ]
   },
   {
@@ -7838,8 +8348,14 @@
           "FORCE",
           "JEDI",
           "RÉPUBLIQUE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -7902,8 +8418,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010239_FR_Equipe_d_Embuscade_de_la_Guilde_8fe34b5b2d.png",
         "traits": [
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -7935,8 +8457,14 @@
         "traits": [
           "FRANGE",
           "CRÉATURE"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -8251,8 +8779,14 @@
         "traits": [
           "PÈGRE",
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -8282,8 +8816,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010251_FR_Assaillants_du_Night_Wind_28fea739ad.png",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -8317,8 +8857,14 @@
           "PÈGRE",
           "VÉHICULE",
           "TRANSPORT"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -8385,8 +8931,14 @@
         "traits": [
           "REBELLE",
           "SOLDAT"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -8418,8 +8970,14 @@
         "traits": [
           "VÉHICULE",
           "SPEEDER"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -8540,8 +9098,14 @@
           "PÈGRE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -8569,8 +9133,14 @@
         "art": "https://cdn.starwarsunlimited.com//card_07010260_FR_Traqueur_Chevronne_bc74d0c5f1.png",
         "traits": [
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -8660,8 +9230,14 @@
           "PÈGRE",
           "VÉHICULE",
           "TRANSPORT"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {

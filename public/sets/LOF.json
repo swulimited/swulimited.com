@@ -27,8 +27,14 @@
         "traits": [
           "FORCE",
           "PREMIER ORDRE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -91,8 +97,14 @@
         "traits": [
           "FORCE",
           "FRANGE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -127,8 +139,14 @@
           "JEDI",
           "REBELLE",
           "SPECTRE"
+        ],
+        "keywords": [
+          "BOUCLIER"
         ]
       }
+    ],
+    "keywords": [
+      "SHIELDED"
     ]
   },
   {
@@ -229,8 +247,14 @@
           "FORCE",
           "JEDI",
           "RÉPUBLIQUE"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -329,8 +353,14 @@
           "FORCE",
           "IMPÉRIAL",
           "INQUISITEUR"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -363,8 +393,14 @@
           "FORCE",
           "JEDI",
           "RÉPUBLIQUE"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -463,8 +499,14 @@
           "FORCE",
           "IMPÉRIAL",
           "INQUISITEUR"
+        ],
+        "keywords": [
+          "BOUCLIER"
         ]
       }
+    ],
+    "keywords": [
+      "SHIELDED"
     ]
   },
   {
@@ -560,8 +602,14 @@
         "traits": [
           "FORCE",
           "SITH"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -907,8 +955,14 @@
         "traits": [
           "IMPÉRIAL",
           "SOLDAT"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -967,8 +1021,14 @@
           "PREMIER ORDRE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -1097,8 +1157,14 @@
           "FORCE",
           "JEDI",
           "RÉPUBLIQUE"
+        ],
+        "keywords": [
+          "TÉNACITÉ"
         ]
       }
+    ],
+    "keywords": [
+      "GRIT"
     ]
   },
   {
@@ -1131,8 +1197,14 @@
           "FORCE",
           "SÉPARATISTE",
           "SITH"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -1271,8 +1343,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010044_FR_Loth_Loup_cc19a12cee.png",
         "traits": [
           "CRÉATURE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -1305,8 +1383,14 @@
           "FORCE",
           "JEDI",
           "RÉPUBLIQUE"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -1405,8 +1489,14 @@
         "traits": [
           "FORCE",
           "JEDI"
+        ],
+        "keywords": [
+          "BOUCLIER"
         ]
       }
+    ],
+    "keywords": [
+      "SHIELDED"
     ]
   },
   {
@@ -1469,8 +1559,14 @@
           "FORCE",
           "JEDI",
           "RÉPUBLIQUE"
+        ],
+        "keywords": [
+          "TÉNACITÉ"
         ]
       }
+    ],
+    "keywords": [
+      "GRIT"
     ]
   },
   {
@@ -1558,8 +1654,14 @@
           "OBJET",
           "ARME",
           "SABRE LASER"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -1673,8 +1775,14 @@
         "title": "Oncle Dévoué",
         "traits": [
           "FRANGE"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -1793,8 +1901,14 @@
         "traits": [
           "FORCE",
           "FRANGE"
+        ],
+        "keywords": [
+          "BOUCLIER"
         ]
       }
+    ],
+    "keywords": [
+      "SHIELDED"
     ]
   },
   {
@@ -1824,8 +1938,14 @@
         "traits": [
           "MANDALORIEN",
           "SOLDAT"
+        ],
+        "keywords": [
+          "BOUCLIER"
         ]
       }
+    ],
+    "keywords": [
+      "SHIELDED"
     ]
   },
   {
@@ -1967,8 +2087,14 @@
         "traits": [
           "FORCE",
           "FRANGE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -2023,8 +2149,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010069_FR_Purrgil_Gracieux_c9d49acdc3.png",
         "traits": [
           "CRÉATURE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -2143,8 +2275,14 @@
         "traits": [
           "MANDALORIEN",
           "CRÉATURE"
+        ],
+        "keywords": [
+          "BOUCLIER"
         ]
       }
+    ],
+    "keywords": [
+      "SHIELDED"
     ]
   },
   {
@@ -2333,8 +2471,14 @@
           "SITH",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -2485,8 +2629,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010085_FR_Garde_Pretorien_ec0172c6ab.png",
         "traits": [
           "PREMIER ORDRE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -2513,8 +2663,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010086_FR_Rejeton_de_Drengir_13adde5dd9.png",
         "traits": [
           "CRÉATURE"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -2547,8 +2703,14 @@
           "FORCE",
           "IMPÉRIAL",
           "INQUISITEUR"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -2581,8 +2743,20 @@
           "IMPÉRIAL",
           "VÉHICULE",
           "TRANSPORT"
+        ],
+        "keywords": [
+          "CAMOUFLAGE",
+          "EMBUSCADE",
+          "DÉBORDEMENT",
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN",
+      "AMBUSH",
+      "OVERWHELM",
+      "RESTORE"
     ]
   },
   {
@@ -2615,8 +2789,14 @@
           "PREMIER ORDRE",
           "VÉHICULE",
           "VAISSEAU CAPITAL"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -2833,8 +3013,14 @@
           "FORCE",
           "JEDI",
           "RÉPUBLIQUE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -3122,8 +3308,30 @@
           "FORCE",
           "JEDI",
           "RÉPUBLIQUE"
+        ],
+        "keywords": [
+          "EMBUSCADE",
+          "TÉNACITÉ",
+          "CAMOUFLAGE",
+          "DÉBORDEMENT",
+          "SABOTEUR",
+          "SENTINELLE",
+          "BOUCLIER",
+          "RAID",
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH",
+      "GRIT",
+      "HIDDEN",
+      "OVERWHELM",
+      "SABOTEUR",
+      "SENTINEL",
+      "SHIELDED",
+      "RAID",
+      "RESTORE"
     ]
   },
   {
@@ -3178,8 +3386,16 @@
       {
         "locale": "fr",
         "name": "Édile du Village",
-        "art": "https://cdn.starwarsunlimited.com//05010107_FR_Edile_du_Village_a95a400330.png"
+        "art": "https://cdn.starwarsunlimited.com//05010107_FR_Edile_du_Village_a95a400330.png",
+        "keywords": [
+          "CAMOUFLAGE",
+          "RESTAURATION"
+        ]
       }
+    ],
+    "keywords": [
+      "HIDDEN",
+      "RESTORE"
     ]
   },
   {
@@ -3234,8 +3450,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010109_FR_Mynock_42c5d773f1.png",
         "traits": [
           "CRÉATURE"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -3265,8 +3487,14 @@
           "SÉPARATISTE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -3352,8 +3580,16 @@
         "traits": [
           "FORCE",
           "JEDI"
+        ],
+        "keywords": [
+          "EMBUSCADE",
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH",
+      "RESTORE"
     ]
   },
   {
@@ -3379,8 +3615,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010114_FR_Kaadu_d7a3485125.png",
         "traits": [
           "CRÉATURE"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -3433,8 +3675,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010116_FR_Pilleur_de_Reliques_378b40ff4b.png",
         "traits": [
           "FRANGE"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -3492,8 +3740,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010118_FR_Terentatek_f2721a236f.png",
         "traits": [
           "CRÉATURE"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -3550,8 +3804,14 @@
           "SÉPARATISTE",
           "VÉHICULE",
           "TRANSPORT"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -3579,8 +3839,14 @@
         "title": "Mène Le Voyage",
         "traits": [
           "CRÉATURE"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -3709,8 +3975,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010126_FR_Surpuissance_1c26376ec9.png",
         "traits": [
           "INNÉ"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -3854,8 +4126,16 @@
           "PÈGRE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "RAID",
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "RAID",
+      "OVERWHELM"
     ]
   },
   {
@@ -3888,8 +4168,16 @@
           "FORCE",
           "IMPÉRIAL",
           "INQUISITEUR"
+        ],
+        "keywords": [
+          "CAMOUFLAGE",
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN",
+      "RAID"
     ]
   },
   {
@@ -4016,8 +4304,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010136_FR_Serfs_du_Couvent_36efd76236.png",
         "traits": [
           "NUIT"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -4048,8 +4342,14 @@
         "traits": [
           "FORCE",
           "NUIT"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -4135,8 +4435,14 @@
           "OBJET",
           "ARME",
           "SABRE LASER"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -4224,8 +4530,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010143_FR_Fyrnock_Apprivoise_cd99a23a45.png",
         "traits": [
           "CRÉATURE"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -4358,8 +4670,14 @@
           "RÉPUBLIQUE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -4426,8 +4744,14 @@
           "FORCE",
           "JEDI",
           "RÉPUBLIQUE"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -4518,8 +4842,16 @@
         "art": "https://cdn.starwarsunlimited.com//05010152_FR_L_Attention_Determine_la_Realite_4a01ecd7c0.png",
         "traits": [
           "FORCE"
+        ],
+        "keywords": [
+          "RAID",
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "RAID",
+      "SABOTEUR"
     ]
   },
   {
@@ -4577,8 +4909,14 @@
         "traits": [
           "FORCE",
           "NUIT"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -4664,8 +5002,14 @@
           "PÈGRE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -4726,8 +5070,14 @@
         "traits": [
           "FORCE",
           "JEDI"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -4784,8 +5134,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010161_FR_Tuk_ata_bcbf412426.png",
         "traits": [
           "CRÉATURE"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -4811,8 +5167,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010162_FR_Nexu_en_Chasse_d6bac11542.png",
         "traits": [
           "CRÉATURE"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -4871,8 +5233,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010164_FR_Wampa_31bde2b5a4.png",
         "traits": [
           "CRÉATURE"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -4935,8 +5303,14 @@
           "REBELLE",
           "VÉHICULE",
           "VAISSEAU CAPITAL"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -5026,8 +5400,14 @@
           "SÉPARATISTE",
           "VÉHICULE",
           "VAISSEAU CAPITAL"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -5303,8 +5683,16 @@
         "traits": [
           "PÈGRE",
           "CHASSEUR DE PRIMES"
+        ],
+        "keywords": [
+          "CAMOUFLAGE",
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN",
+      "RAID"
     ]
   },
   {
@@ -5332,8 +5720,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010180_FR_Ombre_Trompeuse_ecd8e54760.png",
         "traits": [
           "SITH"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -5364,8 +5758,14 @@
           "SÉPARATISTE",
           "VÉHICULE",
           "TRANSPORT"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -5395,8 +5795,14 @@
         "traits": [
           "PÈGRE",
           "SOLDAT"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -5427,8 +5833,16 @@
         "traits": [
           "FORCE",
           "FRANGE"
+        ],
+        "keywords": [
+          "CAMOUFLAGE",
+          "BOUCLIER"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN",
+      "SHIELDED"
     ]
   },
   {
@@ -5493,8 +5907,14 @@
         "traits": [
           "FORCE",
           "FRANGE"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -5524,8 +5944,14 @@
         "title": "L'Œil Des Nihil",
         "traits": [
           "PÈGRE"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -5641,8 +6067,16 @@
         "traits": [
           "FORCE",
           "FRANGE"
+        ],
+        "keywords": [
+          "CAMOUFLAGE",
+          "BOUCLIER"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN",
+      "SHIELDED"
     ]
   },
   {
@@ -5673,8 +6107,16 @@
         "traits": [
           "FRANGE",
           "DROÏDE"
+        ],
+        "keywords": [
+          "CAMOUFLAGE",
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN",
+      "SABOTEUR"
     ]
   },
   {
@@ -5829,8 +6271,14 @@
         "traits": [
           "FORCE",
           "JEDI"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -5933,8 +6381,16 @@
           "FORCE",
           "JEDI",
           "RÉPUBLIQUE"
+        ],
+        "keywords": [
+          "EMBUSCADE",
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH",
+      "SABOTEUR"
     ]
   },
   {
@@ -5967,8 +6423,14 @@
           "FORCE",
           "JEDI",
           "RÉPUBLIQUE"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -6198,8 +6660,14 @@
         "traits": [
           "FORCE",
           "FRANGE"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -6222,8 +6690,16 @@
       {
         "locale": "fr",
         "name": "Traqueur Tusken",
-        "art": "https://cdn.starwarsunlimited.com//05010209_FR_Traqueur_Tusken_2a0c1b5c86.png"
+        "art": "https://cdn.starwarsunlimited.com//05010209_FR_Traqueur_Tusken_2a0c1b5c86.png",
+        "keywords": [
+          "RAID",
+          "CAMOUFLAGE"
+        ]
       }
+    ],
+    "keywords": [
+      "RAID",
+      "HIDDEN"
     ]
   },
   {
@@ -6249,8 +6725,16 @@
         "art": "https://cdn.starwarsunlimited.com//05010210_FR_Phillak_Chargeant_07b7efb1e2.png",
         "traits": [
           "CRÉATURE"
+        ],
+        "keywords": [
+          "EMBUSCADE",
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH",
+      "HIDDEN"
     ]
   },
   {
@@ -6280,8 +6764,14 @@
         "traits": [
           "FORCE",
           "JEDI"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -6307,8 +6797,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010212_FR_Sage_du_Vent_de_la_Vie_71c1ed0cd4.png",
         "traits": [
           "FORCE"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -6369,8 +6865,14 @@
         "traits": [
           "FORCE",
           "FRANGE"
+        ],
+        "keywords": [
+          "BOUCLIER"
         ]
       }
+    ],
+    "keywords": [
+      "SHIELDED"
     ]
   },
   {
@@ -6395,8 +6897,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010215_FR_Cable_Ascensionnel_0998d8685b.png",
         "traits": [
           "OBJET"
+        ],
+        "keywords": [
+          "SABOTEUR"
         ]
       }
+    ],
+    "keywords": [
+      "SABOTEUR"
     ]
   },
   {
@@ -6525,8 +7033,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010220_FR_Enchainement_Shien_ccd25985bf.png",
         "traits": [
           "ACQUIS"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -6605,8 +7119,14 @@
         "traits": [
           "FORCE",
           "ASTUCE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -6657,8 +7177,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010225_FR_Trois_Lecons_b7e7bb134b.png",
         "traits": [
           "ACQUIS"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -6742,8 +7268,16 @@
           "SITH",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "CAMOUFLAGE",
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN",
+      "RAID"
     ]
   },
   {
@@ -6773,8 +7307,14 @@
         "traits": [
           "FORCE",
           "PREMIER ORDRE"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -6835,8 +7375,16 @@
           "FORCE",
           "SÉPARATISTE",
           "SITH"
+        ],
+        "keywords": [
+          "BOUCLIER",
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "SHIELDED",
+      "AMBUSH"
     ]
   },
   {
@@ -6866,8 +7414,14 @@
           "IMPÉRIAL",
           "CRÉATURE",
           "SOLDAT"
+        ],
+        "keywords": [
+          "TÉNACITÉ"
         ]
       }
+    ],
+    "keywords": [
+      "GRIT"
     ]
   },
   {
@@ -6930,8 +7484,14 @@
         "traits": [
           "FORCE",
           "SITH"
+        ],
+        "keywords": [
+          "DÉBORDEMENT"
         ]
       }
+    ],
+    "keywords": [
+      "OVERWHELM"
     ]
   },
   {
@@ -7046,8 +7606,14 @@
           "OBJET",
           "ARME",
           "SABRE LASER"
+        ],
+        "keywords": [
+          "TÉNACITÉ"
         ]
       }
+    ],
+    "keywords": [
+      "GRIT"
     ]
   },
   {
@@ -7124,8 +7690,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010241_FR_Dans_l_Ombre_2f16f05ee2.png",
         "traits": [
           "PLAN"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -7153,8 +7725,14 @@
         "traits": [
           "FORCE",
           "FRANGE"
+        ],
+        "keywords": [
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "SENTINEL"
     ]
   },
   {
@@ -7238,8 +7816,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010245_FR_Vulptex_0389d69cb6.png",
         "traits": [
           "CRÉATURE"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -7267,8 +7851,14 @@
         "title": "Enfant Mystérieux",
         "traits": [
           "FORCE"
+        ],
+        "keywords": [
+          "CAMOUFLAGE"
         ]
       }
+    ],
+    "keywords": [
+      "HIDDEN"
     ]
   },
   {
@@ -7296,8 +7886,16 @@
         "traits": [
           "GUNGAN",
           "SOLDAT"
+        ],
+        "keywords": [
+          "BOUCLIER",
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "SHIELDED",
+      "RESTORE"
     ]
   },
   {
@@ -7422,8 +8020,14 @@
           "RÉPUBLIQUE",
           "VÉHICULE",
           "CHASSEUR"
+        ],
+        "keywords": [
+          "RAID"
         ]
       }
+    ],
+    "keywords": [
+      "RAID"
     ]
   },
   {
@@ -7482,8 +8086,14 @@
           "RÉPUBLIQUE",
           "VÉHICULE",
           "VAISSEAU CAPITAL"
+        ],
+        "keywords": [
+          "RESTAURATION"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE"
     ]
   },
   {
@@ -7584,8 +8194,14 @@
         "art": "https://cdn.starwarsunlimited.com//05010257_FR_Singe_Lezard_Kowakien_f6072e5a02.png",
         "traits": [
           "CRÉATURE"
+        ],
+        "keywords": [
+          "EMBUSCADE"
         ]
       }
+    ],
+    "keywords": [
+      "AMBUSH"
     ]
   },
   {
@@ -7691,8 +8307,18 @@
           "OBJET",
           "ARME",
           "SABRE LASER"
+        ],
+        "keywords": [
+          "RESTAURATION",
+          "RAID",
+          "SENTINELLE"
         ]
       }
+    ],
+    "keywords": [
+      "RESTORE",
+      "RAID",
+      "SENTINEL"
     ]
   },
   {

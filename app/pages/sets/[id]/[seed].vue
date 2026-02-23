@@ -53,6 +53,7 @@ const getLocalValue = (card: Card | BoosterCard, key: keyof BoosterCard) => {
 const getCardArt = (card: Card | BoosterCard) => getLocalValue(card, 'art') as string
 const getCardName = (card: Card | BoosterCard) => getLocalValue(card, 'name') as string
 const getCardTraits = (card: Card | BoosterCard) => getLocalValue(card, 'traits') as string[]
+const getCardKeywords = (card: Card | BoosterCard) => getLocalValue(card, 'keywords') as string[]
 const packConfig = computed(() => (route.params.id as string).toUpperCase())
 
 // 1. Determine the seed from the route param
@@ -95,7 +96,7 @@ const processedCards = computed<Card[]>(() => {
   }))
 })
 
-const sortBy = ref<'number' | 'cost'>('number')
+const sortBy = ref<'number' | 'cost' | 'keyword'>('number')
 
 
 const poolCards = computed(() => {
@@ -104,6 +105,30 @@ const poolCards = computed(() => {
 
   return cards.sort((a, b) => {
     if (sortBy.value === 'cost') {
+      const costA = a.cost ?? 0
+      const costB = b.cost ?? 0
+      if (costA !== costB) return costA - costB
+    } else if (sortBy.value === 'keyword') {
+      const kwA = (getCardKeywords(a) || [])[0] || 'zzzzzz'
+      const kwB = (getCardKeywords(b) || [])[0] || 'zzzzzz'
+      if (kwA !== kwB) return kwA.localeCompare(kwB)
+
+      const aspectOrder = ['vigilance', 'command', 'aggression', 'cunning', 'villainy', 'heroism', 'neutral']
+      const getAspectScore = (cardAspects: string[]) => {
+          if (!cardAspects || cardAspects.length === 0) return '99'
+          return cardAspects
+            .map(a => {
+              const idx = aspectOrder.indexOf(a)
+              return idx === -1 ? 99 : idx
+            })
+            .sort((x, y) => x - y)
+            .map(idx => idx.toString().padStart(2, '0'))
+            .join(',')
+      }
+      const aspectA = getAspectScore(a.aspects || [])
+      const aspectB = getAspectScore(b.aspects || [])
+      if (aspectA !== aspectB) return aspectA.localeCompare(aspectB)
+
       const costA = a.cost ?? 0
       const costB = b.cost ?? 0
       if (costA !== costB) return costA - costB
@@ -1135,6 +1160,11 @@ onUnmounted(() => {
                 class="h-full px-2 rounded-md text-[10px] font-medium transition-colors flex items-center"
                 :class="sortBy === 'cost' ? 'bg-swu-primary text-white shadow' : 'text-gray-400 hover:text-gray-300'">
                 {{ $t('sort_cost') }}
+              </button>
+              <button @click="sortBy = 'keyword'"
+                class="h-full px-2 rounded-md text-[10px] font-medium transition-colors flex items-center"
+                :class="sortBy === 'keyword' ? 'bg-swu-primary text-white shadow' : 'text-gray-400 hover:text-gray-300'">
+                {{ $t('sort_keyword') }}
               </button>
             </div>
 

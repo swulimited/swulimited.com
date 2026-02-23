@@ -23,6 +23,7 @@ export interface Card {
     cost?: number;
     arena?: UnitArena;
     traits?: string[];
+    keywords?: string[];
     hp?: number;
     localization?: CardLocalization[];
 }
@@ -33,6 +34,7 @@ export interface CardLocalization {
     title?: string;
     art: string;
     traits?: string[];
+    keywords?: string[];
 }
 
 /**
