@@ -273,8 +273,8 @@ export async function generateSealedPool(configStr: string, seed?: string): Prom
         allSetCommonBases = [...allSetCommonBases, ...setBases];
     }
 
-    const finalBases: Card[] = [];
-    const coveredBaseSignatures = new Set<string>();
+    const finalBases: Card[] = [...openedBases];
+    const openedBasesIds = new Set(openedBases.map(b => b.id));
 
     // Helper to get base signature (aspects + hp)
     // Aspects are sorted to ensure consistency (e.g. "A,B" == "B,A")
@@ -284,25 +284,40 @@ export async function generateSealedPool(configStr: string, seed?: string): Prom
         return `${aspects}|${hp}`;
     };
 
-    // 1. Process opened bases first (prioritize drawn cards)
-    for (const base of openedBases) {
-        const signature = getBaseSignature(base);
-        if (!coveredBaseSignatures.has(signature)) {
-            finalBases.push(base);
-            coveredBaseSignatures.add(signature);
-        }
-    }
+    const coveredBaseSignatures = new Set(
+        openedBases.filter(b => b.rarity === 'common').map(getBaseSignature)
+    );
 
-    // 2. Verify and add missing common bases
+    // Verify and add missing common bases
     for (const base of allSetCommonBases) {
+        if (openedBasesIds.has(base.id)) {
+            continue;
+        }
+
         const signature = getBaseSignature(base);
-        if (!coveredBaseSignatures.has(signature)) {
-            finalBases.push(base);
-            coveredBaseSignatures.add(signature);
+        if (coveredBaseSignatures.has(signature)) {
+            continue;
+        }
+
+        finalBases.push(base);
+        openedBasesIds.add(base.id);
+        coveredBaseSignatures.add(signature);
+    }
+
+    const uniqueFinalBases: Card[] = [];
+    const seenBaseIds = new Set<string>();
+    const seenBaseSignatures = new Set<string>();
+
+    for (const base of finalBases) {
+        const signature = getBaseSignature(base);
+        if (!seenBaseIds.has(base.id) && !seenBaseSignatures.has(signature)) {
+            uniqueFinalBases.push(base);
+            seenBaseIds.add(base.id);
+            seenBaseSignatures.add(signature);
         }
     }
 
-    return [...uniqueLeadersAndOthers, ...finalBases];
+    return [...uniqueLeadersAndOthers, ...uniqueFinalBases];
 }
 
 /**

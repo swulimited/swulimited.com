@@ -113,6 +113,14 @@ Leaders from the spotlight decks are excluded from regular booster packs:
 - for LAW: LAW-010 and LAW-015
 You can never find those leaders in booters packs, unless you explicitely choose to do so.
 
+# Common Bases in Sealed format
+
+When generating booster packs for a sealed event, make sure you include every common bases from the selected sets:
+add those bases only if they were not included the generation phase.
+
+Also consider the health points and the aspects when adding missing common bases: if there is already an other common base
+with the same health points and the same aspects, there is no need to add another base with the same health points and aspects.
+
 # Card database
 
 The card database is available online with the following REST API:
