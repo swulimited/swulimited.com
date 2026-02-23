@@ -102,8 +102,7 @@ There are special rules for some sets:
 - in LOF and LAW there is no rare base in the base slot, only common bases
 - in LOF and LAW you may find a rare base in the rare/legendary slot
 
-The final card in a pack can be of any rarity,
-except you will not find a base in this slot.
+The final card in a pack can be of any rarity.
 You can also find a Special card in the final slot.
 You will never find a Leader in the final slot.
 
@@ -120,6 +119,9 @@ add those bases only if they were not included the generation phase.
 
 Also consider the health points and the aspects when adding missing common bases: if there is already an other common base
 with the same health points and the same aspects, there is no need to add another base with the same health points and aspects.
+
+Special rule for LAW: the card LAW-023 (special) should not be taken into consideration for deduplication. Do not consider this
+card when matching health points / aspects with common bases.
 
 # Card database
 

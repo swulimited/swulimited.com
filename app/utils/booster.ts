@@ -141,7 +141,7 @@ export function generateBoosterPack(allCards: Card[], rng: seedrandom.PRNG): Car
     if (setId === 'LOF' || setId === 'LAW') {
         const rareBases = availableCards.filter(c =>
             c.type === 'base' &&
-            (c.rarity === 'rare' || c.rarity === 'legendary')
+            (c.rarity === 'rare' || c.rarity === 'legendary' || c.id === 'LAW-023')
         );
         rareLegPool = [...rareLegPool, ...rareBases];
     }
@@ -149,9 +149,9 @@ export function generateBoosterPack(allCards: Card[], rng: seedrandom.PRNG): Car
 
     // 6. Foil / Wildcard Slot (1 card)
     // Can be any rarity (including Special).
-    // Rule: "Except you will not find a base or leader in this slot"
+    // Rule: "You will never find a Leader in the final slot."
     // Also implicit: no excluded leaders (handled by availableCards), no tokens.
-    const foilPool = availableCards.filter(c => c.type !== 'base' && c.type !== 'leader');
+    const foilPool = availableCards.filter(c => c.type !== 'leader');
     addCardsToPack(getUniqueRandomCards(foilPool, 1, packCardIds, rng));
 
     return pack;
@@ -309,6 +309,14 @@ export async function generateSealedPool(configStr: string, seed?: string): Prom
     const seenBaseSignatures = new Set<string>();
 
     for (const base of finalBases) {
+        if (base.id === 'LAW-023') {
+            if (!seenBaseIds.has(base.id)) {
+                uniqueFinalBases.push(base);
+                seenBaseIds.add(base.id);
+            }
+            continue;
+        }
+
         const signature = getBaseSignature(base);
         if (!seenBaseIds.has(base.id) && !seenBaseSignatures.has(signature)) {
             uniqueFinalBases.push(base);
