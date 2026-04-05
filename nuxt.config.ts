@@ -29,6 +29,16 @@ export default defineNuxtConfig({
       ]
     }
   },
+  vite: {
+    optimizeDeps: {
+      include: [
+        'chart.js',
+        'vue-chartjs',
+        '@heroicons/vue/24/outline',
+        'seedrandom',
+      ]
+    }
+  },
   runtimeConfig: {
     public: {
       googleAnalyticsId: 'G-WWBPWFQLPX'
