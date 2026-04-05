@@ -15,6 +15,7 @@
       "REBEL"
     ],
     "art": "https://cdn.starwarsunlimited.com//card_07010001_EN_Saw_Gerrera_Leader_0c35c7027d.png",
+    "artBack": "https://cdn.starwarsunlimited.com//07010001_EN_Saw_Gerrera_Leader_Unit_5d9e5ffd11.png",
     "cost": 6,
     "hp": 7,
     "power": 4,
@@ -25,6 +26,7 @@
         "name": "Saw Gerrera",
         "title": "Fait Tomber L'Empire",
         "art": "https://cdn.starwarsunlimited.com//card_07010001_FR_Saw_Gerrera_Leader_a80aef4961.png",
+        "artBack": "https://cdn.starwarsunlimited.com//07010001_FR_Saw_Gerrera_Leader_Unit_03c1d288f4.png",
         "traits": [
           "REBELLE"
         ],
@@ -53,6 +55,7 @@
       "UNDERWORLD"
     ],
     "art": "https://cdn.starwarsunlimited.com//card_07010002_EN_Tobias_Beckett_Leader_7301fe8ae1.png",
+    "artBack": "https://cdn.starwarsunlimited.com//07010002_EN_Tobias_Beckett_Leader_Unit_d5aae14882.png",
     "cost": 5,
     "hp": 6,
     "power": 4,
@@ -63,6 +66,7 @@
         "name": "Tobias Beckett",
         "title": "Les Gens Sont Prévisibles",
         "art": "https://cdn.starwarsunlimited.com//card_07010002_FR_Tobias_Beckett_Leader_e3e7b5a457.png",
+        "artBack": "https://cdn.starwarsunlimited.com//07010002_FR_Tobias_Beckett_Leader_Unit_979346a586.png",
         "traits": [
           "PÈGRE"
         ]
@@ -86,6 +90,7 @@
       "TROOPER"
     ],
     "art": "https://cdn.starwarsunlimited.com//card_07010003_EN_Agent_Kallus_Leader_670494a334.png",
+    "artBack": "https://cdn.starwarsunlimited.com//07010003_EN_Agent_Kallus_Leader_Unit_8919472b42.png",
     "cost": 5,
     "hp": 6,
     "power": 3,
@@ -96,6 +101,7 @@
         "name": "Agent Kallus",
         "title": "Reconsidérez Votre Allégeance",
         "art": "https://cdn.starwarsunlimited.com//card_07010003_FR_Agent_Kallus_Leader_d71a559103.png",
+        "artBack": "https://cdn.starwarsunlimited.com//07010003_FR_Agent_Kallus_Leader_Unit_b87fda920f.png",
         "traits": [
           "IMPÉRIAL",
           "SOLDAT"
@@ -120,6 +126,7 @@
       "BOUNTY HUNTER"
     ],
     "art": "https://cdn.starwarsunlimited.com//card_07010004_EN_Aurra_Sing_Leader_4325d04af4.png",
+    "artBack": "https://cdn.starwarsunlimited.com//07010004_EN_Aurra_Sing_Leader_Unit_6d786e1ce0.png",
     "cost": 7,
     "hp": 7,
     "power": 3,
@@ -130,6 +137,7 @@
         "name": "Aurra Sing",
         "title": "Assassin",
         "art": "https://cdn.starwarsunlimited.com//card_07010004_FR_Aurra_Sing_Leader_9abb4b183a.png",
+        "artBack": "https://cdn.starwarsunlimited.com//07010004_FR_Aurra_Sing_Leader_Unit_78b183f52d.png",
         "traits": [
           "PÈGRE",
           "CHASSEUR DE PRIMES"
@@ -153,6 +161,7 @@
       "REBEL"
     ],
     "art": "https://cdn.starwarsunlimited.com//card_07010005_EN_Jyn_Erso_Leader_3e6b635e8f.png",
+    "artBack": "https://cdn.starwarsunlimited.com//07010005_EN_Jyn_Erso_Leader_Unit_3c271d744b.png",
     "cost": 5,
     "hp": 6,
     "power": 3,
@@ -163,6 +172,7 @@
         "name": "Jyn Erso",
         "title": "L'Heure De Se Battre",
         "art": "https://cdn.starwarsunlimited.com//card_07010005_FR_Jyn_Erso_Leader_f53d0ddb05.png",
+        "artBack": "https://cdn.starwarsunlimited.com//07010005_FR_Jyn_Erso_Leader_Unit_0a93f691a1.png",
         "traits": [
           "REBELLE"
         ]
@@ -185,6 +195,7 @@
       "REBEL"
     ],
     "art": "https://cdn.starwarsunlimited.com//card_07010006_EN_Vel_Sartha_Leader_5de37f2898.png",
+    "artBack": "https://cdn.starwarsunlimited.com//07010006_EN_Vel_Sartha_Leader_Unit_ff3fa73090.png",
     "cost": 6,
     "hp": 7,
     "power": 4,
@@ -195,6 +206,7 @@
         "name": "Vel Sartha",
         "title": "Insurgée D'Aldhani<Return>",
         "art": "https://cdn.starwarsunlimited.com//card_07010006_FR_Vel_Sartha_Leader_bec7fbb73a.png",
+        "artBack": "https://cdn.starwarsunlimited.com//07010006_FR_Vel_Sartha_Leader_Unit_d3d7dec88d.png",
         "traits": [
           "REBELLE"
         ]
@@ -218,6 +230,7 @@
       "BOUNTY HUNTER"
     ],
     "art": "https://cdn.starwarsunlimited.com//card_07010007_EN_Boba_Fett_Leader_3fe60c239d.png",
+    "artBack": "https://cdn.starwarsunlimited.com//07010007_EN_Boba_Fett_Leader_Unit_0103aa6f10.png",
     "cost": 5,
     "hp": 6,
     "power": 3,
@@ -228,6 +241,7 @@
         "name": "Boba Fett",
         "title": "Commandant De La Griffe De Krayt",
         "art": "https://cdn.starwarsunlimited.com//card_07010007_FR_Boba_Fett_Leader_f0884af06b.png",
+        "artBack": "https://cdn.starwarsunlimited.com//07010007_FR_Boba_Fett_Leader_Unit_b3549f441e.png",
         "traits": [
           "PÈGRE",
           "CHASSEUR DE PRIMES"
@@ -258,6 +272,7 @@
       "OFFICIAL"
     ],
     "art": "https://cdn.starwarsunlimited.com//card_07010008_EN_Director_Krennic_Leader_c2ef2c962c.png",
+    "artBack": "https://cdn.starwarsunlimited.com//07010008_EN_Director_Krennic_Leader_Unit_c5ba26f46a.png",
     "cost": 7,
     "hp": 9,
     "power": 4,
@@ -268,6 +283,7 @@
         "name": "Directeur Krennic",
         "title": "Au Milieu De Sa Réussite",
         "art": "https://cdn.starwarsunlimited.com//card_07010008_FR_Directeur_Krennic_Leader_8571e35ebf.png",
+        "artBack": "https://cdn.starwarsunlimited.com//07010008_FR_Directeur_Krennic_Leader_Unit_4c42c64ddc.png",
         "traits": [
           "IMPÉRIAL",
           "OFFICIEL"
@@ -293,6 +309,7 @@
       "SPECTRE"
     ],
     "art": "https://cdn.starwarsunlimited.com//card_07010009_EN_Hera_Syndulla_Leader_d39524ea47.png",
+    "artBack": "https://cdn.starwarsunlimited.com//07010009_EN_Hera_Syndulla_Leader_Unit_c7ed47e3ae.png",
     "cost": 5,
     "hp": 6,
     "power": 3,
@@ -303,6 +320,7 @@
         "name": "Hera Syndulla",
         "title": "Ne Se Bat Pas Seule",
         "art": "https://cdn.starwarsunlimited.com//card_07010009_FR_Hera_Syndulla_Leader_df66bc5ed4.png",
+        "artBack": "https://cdn.starwarsunlimited.com//07010009_FR_Hera_Syndulla_Leader_Unit_115106528c.png",
         "traits": [
           "REBELLE",
           "TWI'LEK",
@@ -333,6 +351,7 @@
       "REBEL"
     ],
     "art": "https://cdn.starwarsunlimited.com//card_07010010_EN_Leia_Organa_Leader_59b292c609.png",
+    "artBack": "https://cdn.starwarsunlimited.com//07010010_EN_Leia_Organa_Leader_Unit_3bc93f8b87.png",
     "cost": 5,
     "hp": 2,
     "power": 2,
@@ -343,6 +362,7 @@
         "name": "Leia Organa",
         "title": "Quelqu'Un Qui Vous Aime",
         "art": "https://cdn.starwarsunlimited.com//card_07010010_FR_Leia_Organa_Leader_cd7dd8f4b0.png",
+        "artBack": "https://cdn.starwarsunlimited.com//07010010_FR_Leia_Organa_Leader_Unit_218bd4602f.png",
         "traits": [
           "REBELLE"
         ],
@@ -373,6 +393,7 @@
       "SITH"
     ],
     "art": "https://cdn.starwarsunlimited.com//card_07010011_EN_Darth_Vader_Leader_efb1dc8609.png",
+    "artBack": "https://cdn.starwarsunlimited.com//07010011_EN_Darth_Vader_Leader_Unit_4749bed0b5.png",
     "cost": 7,
     "hp": 8,
     "power": 6,
@@ -383,6 +404,7 @@
         "name": "Dark Vador",
         "title": "Inarrêtable",
         "art": "https://cdn.starwarsunlimited.com//card_07010011_FR_Dark_Vador_Leader_36b74203a8.png",
+        "artBack": "https://cdn.starwarsunlimited.com//07010011_FR_Dark_Vador_Leader_Unit_1e922cfe3f.png",
         "traits": [
           "FORCE",
           "IMPÉRIAL",
@@ -407,6 +429,7 @@
       "FRINGE"
     ],
     "art": "https://cdn.starwarsunlimited.com//card_07010012_EN_Sebulba_Leader_34385b6c3f.png",
+    "artBack": "https://cdn.starwarsunlimited.com//07010012_EN_Sebulba_Leader_Unit_721212f842.png",
     "cost": 4,
     "hp": 5,
     "power": 2,
@@ -417,6 +440,7 @@
         "name": "Sebulba",
         "title": "Dug Particulièrement Dangereux",
         "art": "https://cdn.starwarsunlimited.com//card_07010012_FR_Sebulba_Leader_defbd9369a.png",
+        "artBack": "https://cdn.starwarsunlimited.com//07010012_FR_Sebulba_Leader_Unit_9cbf40b67f.png",
         "traits": [
           "FRANGE"
         ],
@@ -446,6 +470,7 @@
       "WOOKIEE"
     ],
     "art": "https://cdn.starwarsunlimited.com//card_07010013_EN_Chewbacca_Leader_77969636a0.png",
+    "artBack": "https://cdn.starwarsunlimited.com//07010013_EN_Chewbacca_Leader_Unit_dd910492fb.png",
     "cost": 4,
     "hp": 6,
     "power": 5,
@@ -456,6 +481,7 @@
         "name": "Chewbacca",
         "title": "Héros De Kessel",
         "art": "https://cdn.starwarsunlimited.com//card_07010013_FR_Chewbacca_Leader_38f00c37e8.png",
+        "artBack": "https://cdn.starwarsunlimited.com//07010013_FR_Chewbacca_Leader_Unit_5d9a0ebe57.png",
         "traits": [
           "PÈGRE",
           "WOOKIE"
@@ -479,6 +505,7 @@
       "UNDERWORLD"
     ],
     "art": "https://cdn.starwarsunlimited.com//card_07010014_EN_Enfys_Nest_Leader_b8ba9f5f03.png",
+    "artBack": "https://cdn.starwarsunlimited.com//07010014_EN_Enfys_Nest_Leader_Unit_59cf55fe23.png",
     "cost": 5,
     "hp": 7,
     "power": 3,
@@ -489,6 +516,7 @@
         "name": "Enfys Nest",
         "title": "Ne Plus Pouvoir Aller Plus Haut",
         "art": "https://cdn.starwarsunlimited.com//card_07010014_FR_Enfys_Nest_Leader_607a0af75c.png",
+        "artBack": "https://cdn.starwarsunlimited.com//07010014_FR_Enfys_Nest_Leader_Unit_4120986a8e.png",
         "traits": [
           "PÈGRE"
         ]
@@ -512,6 +540,7 @@
       "HUTT"
     ],
     "art": "https://cdn.starwarsunlimited.com//card_07010015_EN_Jabba_the_Hutt_Leader_31571c871f.png",
+    "artBack": "https://cdn.starwarsunlimited.com//07010015_EN_Jabba_the_Hutt_Leader_Unit_5d809b5149.png",
     "cost": 6,
     "hp": 9,
     "power": 3,
@@ -522,6 +551,7 @@
         "name": "Jabba le Hutt",
         "title": "Parrain Du Crime",
         "art": "https://cdn.starwarsunlimited.com//card_07010015_FR_Jabba_le_Hutt_Leader_c929a6c76f.png",
+        "artBack": "https://cdn.starwarsunlimited.com//07010015_FR_Jabba_le_Hutt_Leader_Unit_2d87881b39.png",
         "traits": [
           "PÈGRE",
           "HUTT"
@@ -552,6 +582,7 @@
       "OFFICIAL"
     ],
     "art": "https://cdn.starwarsunlimited.com//card_07010016_EN_The_Client_Leader_53c179d22e.png",
+    "artBack": "https://cdn.starwarsunlimited.com//07010016_EN_The_Client_Leader_Unit_851023466d.png",
     "cost": 5,
     "hp": 4,
     "power": 4,
@@ -562,6 +593,7 @@
         "name": "Le Client",
         "title": "S'Il Vous Plait, Baissez Votre Blaster",
         "art": "https://cdn.starwarsunlimited.com//card_07010016_FR_Le_Client_Leader_a8b10bba8d.png",
+        "artBack": "https://cdn.starwarsunlimited.com//07010016_FR_Le_Client_Leader_Unit_4349d76123.png",
         "traits": [
           "IMPÉRIAL",
           "OFFICIEL"
@@ -591,6 +623,7 @@
       "UNDERWORLD"
     ],
     "art": "https://cdn.starwarsunlimited.com//card_07010017_EN_Han_Solo_Leader_3b3eb2cf07.png",
+    "artBack": "https://cdn.starwarsunlimited.com//07010017_EN_Han_Solo_Leader_Unit_378b185cf7.png",
     "cost": 5,
     "hp": 5,
     "power": 4,
@@ -601,6 +634,7 @@
         "name": "Han Solo",
         "title": "J'Ai Un Vraiment Bon Pressentiment",
         "art": "https://cdn.starwarsunlimited.com//card_07010017_FR_Han_Solo_Leader_1ae63f336f.png",
+        "artBack": "https://cdn.starwarsunlimited.com//07010017_FR_Han_Solo_Leader_Unit_5ac2d69c5b.png",
         "traits": [
           "PÈGRE"
         ],
@@ -629,6 +663,7 @@
       "UNDERWORLD"
     ],
     "art": "https://cdn.starwarsunlimited.com//card_07010018_EN_Lando_Calrissian_Leader_6d754de495.png",
+    "artBack": "https://cdn.starwarsunlimited.com//07010018_EN_Lando_Calrissian_Leader_Unit_2fed1416c8.png",
     "cost": 6,
     "hp": 7,
     "power": 4,
@@ -639,6 +674,7 @@
         "name": "Lando Calrissian",
         "title": "« Full Sabacc »",
         "art": "https://cdn.starwarsunlimited.com//card_07010018_FR_Lando_Calrissian_Leader_fe418bf516.png",
+        "artBack": "https://cdn.starwarsunlimited.com//07010018_FR_Lando_Calrissian_Leader_Unit_83c16e3584.png",
         "traits": [
           "PÈGRE"
         ]

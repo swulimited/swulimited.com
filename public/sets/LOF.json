@@ -12,6 +12,7 @@
     "name": "Kylo Ren",
     "title": "We're Not Done Yet",
     "art": "https://cdn.starwarsunlimited.com//05010001_EN_Kylo_Ren_Leader_ea576c4f57.png",
+    "artBack": "https://cdn.starwarsunlimited.com//05010001_EN_Kylo_Ren_Leader_Unit_d911b778e4.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
@@ -23,6 +24,7 @@
         "locale": "fr",
         "name": "Kylo Ren",
         "art": "https://cdn.starwarsunlimited.com//05010001_FR_Kylo_Ren_Leader_6bd9381fee.png",
+        "artBack": "https://cdn.starwarsunlimited.com//05010001_FR_Kylo_Ren_Leader_Unit_ecbc7a8b48.png",
         "title": "Nous N'En Avons Pas Terminé",
         "traits": [
           "FORCE",
@@ -50,6 +52,7 @@
     "name": "Mother Talzin",
     "title": "Power Through Magick",
     "art": "https://cdn.starwarsunlimited.com//05010002_EN_Mother_Talzin_Leader_7414ce28fa.png",
+    "artBack": "https://cdn.starwarsunlimited.com//05010002_EN_Mother_Talzin_Leader_Unit_32fd8db633.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
@@ -61,6 +64,7 @@
         "locale": "fr",
         "name": "Mère Talzin",
         "art": "https://cdn.starwarsunlimited.com//05010002_FR_Mere_Talzin_Leader_691a3e726d.png",
+        "artBack": "https://cdn.starwarsunlimited.com//05010002_FR_Mere_Talzin_Leader_Unit_4f3745dc8b.png",
         "title": "Le Pouvoir Grâce À La Magie",
         "traits": [
           "FORCE",
@@ -82,6 +86,7 @@
     "name": "Ahsoka Tano",
     "title": "Fighting For Peace",
     "art": "https://cdn.starwarsunlimited.com//05010003_EN_Ahsoka_Tano_Leader_dde85ad968.png",
+    "artBack": "https://cdn.starwarsunlimited.com//05010003_EN_Ahsoka_Tano_Leader_Unit_1a61e6df76.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
@@ -93,6 +98,7 @@
         "locale": "fr",
         "name": "Ahsoka Tano",
         "art": "https://cdn.starwarsunlimited.com//05010003_FR_Ahsoka_Tano_Leader_3069fd3452.png",
+        "artBack": "https://cdn.starwarsunlimited.com//05010003_FR_Ahsoka_Tano_Leader_Unit_9e6d7987e7.png",
         "title": "Se Bat Pour La Paix",
         "traits": [
           "FORCE",
@@ -120,6 +126,7 @@
     "name": "Kanan Jarrus",
     "title": "Help Us Survive",
     "art": "https://cdn.starwarsunlimited.com//05010004_EN_Kanan_Jarrus_Leader_11ac922890.png",
+    "artBack": "https://cdn.starwarsunlimited.com//05010004_EN_Kanan_Jarrus_Leader_Unit_fadc48bab2.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
@@ -133,6 +140,7 @@
         "locale": "fr",
         "name": "Kanan Jarrus",
         "art": "https://cdn.starwarsunlimited.com//05010004_FR_Kanan_Jarrus_Leader_343a4a66a4.png",
+        "artBack": "https://cdn.starwarsunlimited.com//05010004_FR_Kanan_Jarrus_Leader_Unit_bfa17dffc6.png",
         "title": "Nous Aide À Survivre",
         "traits": [
           "FORCE",
@@ -162,6 +170,7 @@
     "name": "Morgan Elsbeth",
     "title": "Following the Call",
     "art": "https://cdn.starwarsunlimited.com//05010005_EN_Morgan_Elsbeth_Leader_d765f46b93.png",
+    "artBack": "https://cdn.starwarsunlimited.com//05010005_EN_Morgan_Elsbeth_Leader_Unit_b70416cfea.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
@@ -174,6 +183,7 @@
         "locale": "fr",
         "name": "Morgan Elsbeth",
         "art": "https://cdn.starwarsunlimited.com//05010005_FR_Morgan_Elsbeth_Leader_06748f04fc.png",
+        "artBack": "https://cdn.starwarsunlimited.com//05010005_FR_Morgan_Elsbeth_Leader_Unit_4b30ec4f05.png",
         "title": "Répond À L'Appel",
         "traits": [
           "FORCE",
@@ -196,6 +206,7 @@
     "name": "Supreme Leader Snoke",
     "title": "In the Seat of Power",
     "art": "https://cdn.starwarsunlimited.com//05010006_EN_Supreme_Leader_Snoke_Leader_f1eeb33408.png",
+    "artBack": "https://cdn.starwarsunlimited.com//05010006_EN_Supreme_Leader_Snoke_Leader_Unit_e8f5e7c3f6.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
@@ -208,6 +219,7 @@
         "locale": "fr",
         "name": "Suprême Leader Snoke",
         "art": "https://cdn.starwarsunlimited.com//05010006_FR_Supreme_Leader_Snoke_Leader_ed6979ef6b.png",
+        "artBack": "https://cdn.starwarsunlimited.com//05010006_FR_Supreme_Leader_Snoke_Leader_Unit_54045b11f2.png",
         "title": "Au Siège Du Pouvoir",
         "traits": [
           "FORCE",
@@ -230,6 +242,7 @@
     "name": "Avar Kriss",
     "title": "Marshal of Starlight",
     "art": "https://cdn.starwarsunlimited.com//05010007_EN_Avar_Kriss_Leader_c8a118926f.png",
+    "artBack": "https://cdn.starwarsunlimited.com//05010007_EN_Avar_Kriss_Leader_Unit_e6dc0d1cee.png",
     "cost": 9,
     "arena": "ground",
     "traits": [
@@ -242,6 +255,7 @@
         "locale": "fr",
         "name": "Avar Kriss",
         "art": "https://cdn.starwarsunlimited.com//05010007_FR_Avar_Kriss_Leader_998c160dc5.png",
+        "artBack": "https://cdn.starwarsunlimited.com//05010007_FR_Avar_Kriss_Leader_Unit_ab30ef7490.png",
         "title": "Marshal Du Flambeau Stellaire",
         "traits": [
           "FORCE",
@@ -270,6 +284,7 @@
     "name": "Obi-Wan Kenobi",
     "title": "Courage Makes Heroes",
     "art": "https://cdn.starwarsunlimited.com//05010008_EN_Obi_Wan_Kenobi_Leader_b5fddadbca.png",
+    "artBack": "https://cdn.starwarsunlimited.com//05010008_EN_Obi_Wan_Kenobi_Leader_Unit_d12b136775.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
@@ -282,6 +297,7 @@
         "locale": "fr",
         "name": "Obi-Wan Kenobi",
         "art": "https://cdn.starwarsunlimited.com//05010008_FR_Obi_Wan_Kenobi_Leader_f3905fb7fb.png",
+        "artBack": "https://cdn.starwarsunlimited.com//05010008_FR_Obi_Wan_Kenobi_Leader_Unit_35e3dd8f5e.png",
         "title": "Le Courage Révèle Les Héros",
         "traits": [
           "FORCE",
@@ -304,6 +320,7 @@
     "name": "Darth Maul",
     "title": "Sith Revealed",
     "art": "https://cdn.starwarsunlimited.com//05010009_EN_Darth_Maul_Leader_5c0d01cadf.png",
+    "artBack": "https://cdn.starwarsunlimited.com//05010009_EN_Darth_Maul_Leader_Unit_b2072f156c.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
@@ -315,6 +332,7 @@
         "locale": "fr",
         "name": "Dark Maul",
         "art": "https://cdn.starwarsunlimited.com//05010009_FR_Dark_Maul_Leader_75bd55cb14.png",
+        "artBack": "https://cdn.starwarsunlimited.com//05010009_FR_Dark_Maul_Leader_Unit_a6fa0346b4.png",
         "title": "Sith Avéré",
         "traits": [
           "FORCE",
@@ -336,6 +354,7 @@
     "name": "Third Sister",
     "title": "Seething With Ambition",
     "art": "https://cdn.starwarsunlimited.com//05010010_EN_Third_Sister_Leader_f4569d7f40.png",
+    "artBack": "https://cdn.starwarsunlimited.com//05010010_EN_Third_Sister_Leader_Unit_5387ca4af6.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
@@ -348,6 +367,7 @@
         "locale": "fr",
         "name": "La Troisième Sœur",
         "art": "https://cdn.starwarsunlimited.com//05010010_FR_La_Troisieme_Soeur_Leader_0af0764946.png",
+        "artBack": "https://cdn.starwarsunlimited.com//05010010_FR_La_Troisieme_Soeur_Leader_Unit_10b38ce84e.png",
         "title": "Déborde D'Ambition",
         "traits": [
           "FORCE",
@@ -376,6 +396,7 @@
     "name": "Kit Fisto",
     "title": "Focused Jedi Master",
     "art": "https://cdn.starwarsunlimited.com//05010011_EN_Kit_Fisto_Leader_051f738851.png",
+    "artBack": "https://cdn.starwarsunlimited.com//05010011_EN_Kit_Fisto_Leader_Unit_90e2d4d83e.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
@@ -388,6 +409,7 @@
         "locale": "fr",
         "name": "Kit Fisto",
         "art": "https://cdn.starwarsunlimited.com//05010011_FR_Kit_Fisto_Leader_ebdeeba629.png",
+        "artBack": "https://cdn.starwarsunlimited.com//05010011_FR_Kit_Fisto_Leader_Unit_b315e77818.png",
         "title": "Maître Jedi Concentré",
         "traits": [
           "FORCE",
@@ -416,6 +438,7 @@
     "name": "Rey",
     "title": "Nobody",
     "art": "https://cdn.starwarsunlimited.com//05010012_EN_Rey_Leader_77ea2f86c6.png",
+    "artBack": "https://cdn.starwarsunlimited.com//05010012_EN_Rey_Leader_Unit_9d589c1981.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
@@ -427,6 +450,7 @@
         "locale": "fr",
         "name": "Rey",
         "art": "https://cdn.starwarsunlimited.com//05010012_FR_Rey_Leader_7ea0786ec7.png",
+        "artBack": "https://cdn.starwarsunlimited.com//05010012_FR_Rey_Leader_Unit_e3beccab5f.png",
         "title": "Personne",
         "traits": [
           "FORCE",
@@ -448,6 +472,7 @@
     "name": "Barriss Offee",
     "title": "We Have Become Villains",
     "art": "https://cdn.starwarsunlimited.com//05010013_EN_Barriss_Offee_Leader_a57329112b.png",
+    "artBack": "https://cdn.starwarsunlimited.com//05010013_EN_Barriss_Offee_Leader_Unit_20f7c21d8b.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
@@ -460,6 +485,7 @@
         "locale": "fr",
         "name": "Barriss Offee",
         "art": "https://cdn.starwarsunlimited.com//05010013_FR_Barriss_Offee_Leader_3c070464ab.png",
+        "artBack": "https://cdn.starwarsunlimited.com//05010013_FR_Barriss_Offee_Leader_Unit_f54ff18542.png",
         "title": "Nous Sommes Devenus Méchants",
         "traits": [
           "FORCE",
@@ -482,6 +508,7 @@
     "name": "Grand Inquisitor",
     "title": "Stories Travel Quickly",
     "art": "https://cdn.starwarsunlimited.com//05010014_EN_Grand_Inquisitor_Leader_6ae0792724.png",
+    "artBack": "https://cdn.starwarsunlimited.com//05010014_EN_Grand_Inquisitor_Leader_Unit_5b24706856.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
@@ -494,6 +521,7 @@
         "locale": "fr",
         "name": "Grand Inquisiteur",
         "art": "https://cdn.starwarsunlimited.com//05010014_FR_Grand_Inquisiteur_Leader_10586d5b59.png",
+        "artBack": "https://cdn.starwarsunlimited.com//05010014_FR_Grand_Inquisiteur_Leader_Unit_9e645c591d.png",
         "title": "Les Histoires Circulent Vite",
         "traits": [
           "FORCE",
@@ -522,6 +550,7 @@
     "name": "Cal Kestis",
     "title": "I Can't Keep Hiding",
     "art": "https://cdn.starwarsunlimited.com//05010015_EN_Cal_Kestis_Leader_5b949965b2.png",
+    "artBack": "https://cdn.starwarsunlimited.com//05010015_EN_Cal_Kestis_Leader_Unit_bf3545c5e0.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
@@ -533,6 +562,7 @@
         "locale": "fr",
         "name": "Cal Kestis",
         "art": "https://cdn.starwarsunlimited.com//05010015_FR_Cal_Kestis_Leader_9910c4f1bf.png",
+        "artBack": "https://cdn.starwarsunlimited.com//05010015_FR_Cal_Kestis_Leader_Unit_f881aae0de.png",
         "title": "Je Ne Peux Pas Rester Caché",
         "traits": [
           "FORCE",
@@ -554,6 +584,7 @@
     "name": "Qui-Gon Jinn",
     "title": "Student of the Living Force",
     "art": "https://cdn.starwarsunlimited.com//05010016_EN_Qui_Gon_Jinn_Leader_581f60541f.png",
+    "artBack": "https://cdn.starwarsunlimited.com//05010016_EN_Qui_Gon_Jinn_Leader_Unit_6def6570f5.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
@@ -566,6 +597,7 @@
         "locale": "fr",
         "name": "Qui-Gon Jinn",
         "art": "https://cdn.starwarsunlimited.com//05010016_FR_Qui_Gon_Jinn_Leader_cfdb029221.png",
+        "artBack": "https://cdn.starwarsunlimited.com//05010016_FR_Qui_Gon_Jinn_Leader_Unit_813b66ff32.png",
         "title": "Étudiant De La Force Vivante",
         "traits": [
           "FORCE",
@@ -587,6 +619,7 @@
     "name": "Darth Revan",
     "title": "Scourge of the Old Republic",
     "art": "https://cdn.starwarsunlimited.com//05010017_EN_Darth_Revan_Leader_824e4c7b08.png",
+    "artBack": "https://cdn.starwarsunlimited.com//05010017_EN_Darth_Revan_Leader_Unit_754e979196.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
@@ -598,6 +631,7 @@
         "locale": "fr",
         "name": "Dark Revan",
         "art": "https://cdn.starwarsunlimited.com//05010017_FR_Dark_Revan_Leader_a1c25b9b26.png",
+        "artBack": "https://cdn.starwarsunlimited.com//05010017_FR_Dark_Revan_Leader_Unit_5f42b979e3.png",
         "title": "Fléau De L'Ancienne République",
         "traits": [
           "FORCE",
@@ -624,6 +658,7 @@
     "name": "Anakin Skywalker",
     "title": "Tempted by the Dark Side",
     "art": "https://cdn.starwarsunlimited.com//05010018_EN_Anakin_Skywalker_Leader_5e9af7f88d.png",
+    "artBack": "https://cdn.starwarsunlimited.com//05010018_EN_Anakin_Skywalker_Leader_Unit_7d9f8bcb9b.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
@@ -636,6 +671,7 @@
         "locale": "fr",
         "name": "Anakin Skywalker",
         "art": "https://cdn.starwarsunlimited.com//05010018_FR_Anakin_Skywalker_Leader_f876d29ae6.png",
+        "artBack": "https://cdn.starwarsunlimited.com//05010018_FR_Anakin_Skywalker_Leader_Unit_b338c4bbce.png",
         "title": "Tenté Par Le Côté Obscur",
         "traits": [
           "FORCE",

@@ -12,6 +12,7 @@
     "name": "Chancellor Palpatine",
     "title": "How Liberty Dies",
     "art": "https://cdn.starwarsunlimited.com//06010001_EN_Chancellor_Palpatine_Leader_0e56401e65.png",
+    "artBack": "https://cdn.starwarsunlimited.com//06010001_EN_Chancellor_Palpatine_Leader_Unit_f5c367b02f.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
@@ -23,6 +24,7 @@
         "locale": "fr",
         "name": "Chancelier Palpatine",
         "art": "https://cdn.starwarsunlimited.com//06010001_FR_Chancelier_Palpatine_Leader_b0515b77ee.png",
+        "artBack": "https://cdn.starwarsunlimited.com//06010001_FR_Chancelier_Palpatine_Leader_Unit_57cac39ba5.png",
         "title": "C'Est Ainsi Que S'Éteint La Liberté",
         "traits": [
           "RÉPUBLIQUE",
@@ -50,6 +52,7 @@
     "name": "Jabba the Hutt",
     "title": "Wonderful Human Being",
     "art": "https://cdn.starwarsunlimited.com//06010002_EN_Jabba_the_Hutt_Leader_6496a3c116.png",
+    "artBack": "https://cdn.starwarsunlimited.com//06010002_EN_Jabba_the_Hutt_Leader_Unit_2e858481f2.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
@@ -61,6 +64,7 @@
         "locale": "fr",
         "name": "Jabba le Hutt",
         "art": "https://cdn.starwarsunlimited.com//06010002_FR_Jabba_le_Hutt_Leader_50c825fa00.png",
+        "artBack": "https://cdn.starwarsunlimited.com//06010002_FR_Jabba_le_Hutt_Leader_Unit_afeabb7248.png",
         "title": "Humaniste Invertébré",
         "traits": [
           "PÈGRE",
@@ -82,6 +86,7 @@
     "name": "Lama Su",
     "title": "We Modified Their Genetics",
     "art": "https://cdn.starwarsunlimited.com//06010003_EN_Lama_Su_Leader_1e34d63b12.png",
+    "artBack": "https://cdn.starwarsunlimited.com//06010003_EN_Lama_Su_Leader_Unit_a87e6816bb.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
@@ -93,6 +98,7 @@
         "locale": "fr",
         "name": "Lama Su",
         "art": "https://cdn.starwarsunlimited.com//06010003_FR_Lama_Su_Leader_230b8bc5a7.png",
+        "artBack": "https://cdn.starwarsunlimited.com//06010003_FR_Lama_Su_Leader_Unit_5dca5faf20.png",
         "title": "Nous Avons Modifié Leur Génome",
         "traits": [
           "KAMINOEN",
@@ -114,6 +120,7 @@
     "name": "Leia Organa",
     "title": "Of A Secret Bloodline",
     "art": "https://cdn.starwarsunlimited.com//06010004_EN_Leia_Organa_Leader_f353f36b61.png",
+    "artBack": "https://cdn.starwarsunlimited.com//06010004_EN_Leia_Organa_Leader_Unit_16d74ada4d.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
@@ -125,6 +132,7 @@
         "locale": "fr",
         "name": "Leia Organa",
         "art": "https://cdn.starwarsunlimited.com//06010004_FR_Leia_Organa_Leader_db1bc1668a.png",
+        "artBack": "https://cdn.starwarsunlimited.com//06010004_FR_Leia_Organa_Leader_Unit_bd418c1ac5.png",
         "title": "D'Une Lignée Cachée",
         "traits": [
           "NOUVELLE RÉPUBLIQUE",
@@ -146,6 +154,7 @@
     "name": "Satine Kryze",
     "title": "Standing on Principles",
     "art": "https://cdn.starwarsunlimited.com//06010005_EN_Satine_Kryze_Leader_27cad3ba03.png",
+    "artBack": "https://cdn.starwarsunlimited.com//06010005_EN_Satine_Kryze_Leader_Unit_1cd07cdf58.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
@@ -157,6 +166,7 @@
         "locale": "fr",
         "name": "Satine Kryze",
         "art": "https://cdn.starwarsunlimited.com//06010005_FR_Satine_Kryze_Leader_0370c0ff1e.png",
+        "artBack": "https://cdn.starwarsunlimited.com//06010005_FR_Satine_Kryze_Leader_Unit_8c56349d3e.png",
         "title": "Reste Sur Ses Principes",
         "traits": [
           "MANDALORIEN",
@@ -184,6 +194,7 @@
     "name": "Colonel Yularen",
     "title": "This is Why We Plan",
     "art": "https://cdn.starwarsunlimited.com//06010006_EN_Colonel_Yularen_Leader_4c79ee347a.png",
+    "artBack": "https://cdn.starwarsunlimited.com//06010006_EN_Colonel_Yularen_Leader_Unit_523be3a8a0.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
@@ -195,6 +206,7 @@
         "locale": "fr",
         "name": "Colonel Yularen",
         "art": "https://cdn.starwarsunlimited.com//06010006_FR_Colonel_Yularen_Leader_70392fbe3a.png",
+        "artBack": "https://cdn.starwarsunlimited.com//06010006_FR_Colonel_Yularen_Leader_Unit_3b3b78d2f5.png",
         "title": "C'Est Pour Ça Que Nous Planifions",
         "traits": [
           "IMPÉRIAL",
@@ -216,6 +228,7 @@
     "name": "Dryden Vos",
     "title": "I Never Ask Twice",
     "art": "https://cdn.starwarsunlimited.com//06010007_EN_Dryden_Vos_Leader_8df1c6048d.png",
+    "artBack": "https://cdn.starwarsunlimited.com//06010007_EN_Dryden_Vos_Leader_Unit_a3744dcd82.png",
     "cost": 7,
     "arena": "ground",
     "traits": [
@@ -226,6 +239,7 @@
         "locale": "fr",
         "name": "Dryden Vos",
         "art": "https://cdn.starwarsunlimited.com//06010007_FR_Dryden_Vos_Leader_845cb31be1.png",
+        "artBack": "https://cdn.starwarsunlimited.com//06010007_FR_Dryden_Vos_Leader_Unit_7439c55be0.png",
         "title": "Je Ne Demande Jamais Deux Fois",
         "traits": [
           "PÈGRE"
@@ -254,6 +268,7 @@
     "name": "Bail Organa",
     "title": "Doing Everything He Can",
     "art": "https://cdn.starwarsunlimited.com//06010008_EN_Bail_Organa_Leader_2b4539f7da.png",
+    "artBack": "https://cdn.starwarsunlimited.com//06010008_EN_Bail_Organa_Leader_Unit_60d8f28991.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
@@ -265,6 +280,7 @@
         "locale": "fr",
         "name": "Bail Organa",
         "art": "https://cdn.starwarsunlimited.com//06010008_FR_Bail_Organa_Leader_0d006ef944.png",
+        "artBack": "https://cdn.starwarsunlimited.com//06010008_FR_Bail_Organa_Leader_Unit_00b527d949.png",
         "title": "Fait Tout Ce Qu'Il Peut",
         "traits": [
           "RÉPUBLIQUE",
@@ -286,6 +302,7 @@
     "name": "Mon Mothma",
     "title": "Forming a Coalition",
     "art": "https://cdn.starwarsunlimited.com//06010009_EN_Mon_Mothma_Leader_b23010a745.png",
+    "artBack": "https://cdn.starwarsunlimited.com//06010009_EN_Mon_Mothma_Leader_Unit_f7972830df.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
@@ -297,6 +314,7 @@
         "locale": "fr",
         "name": "Mon Mothma",
         "art": "https://cdn.starwarsunlimited.com//06010009_FR_Mon_Mothma_Leader_9011fedf9b.png",
+        "artBack": "https://cdn.starwarsunlimited.com//06010009_FR_Mon_Mothma_Leader_Unit_24525a141b.png",
         "title": "Monte Une Coalition",
         "traits": [
           "RÉPUBLIQUE",
@@ -318,6 +336,7 @@
     "name": "Dedra Meero",
     "title": "Not Wasting Time",
     "art": "https://cdn.starwarsunlimited.com//06010010_EN_Dedra_Meero_Leader_1d096ff93b.png",
+    "artBack": "https://cdn.starwarsunlimited.com//06010010_EN_Dedra_Meero_Leader_Unit_df8a422de0.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
@@ -329,6 +348,7 @@
         "locale": "fr",
         "name": "Dedra Meero",
         "art": "https://cdn.starwarsunlimited.com//06010010_FR_Dedra_Meero_Leader_cc332ddb14.png",
+        "artBack": "https://cdn.starwarsunlimited.com//06010010_FR_Dedra_Meero_Leader_Unit_960a99823a.png",
         "title": "Ne Perd Pas De Temps",
         "traits": [
           "IMPÉRIAL",
@@ -356,6 +376,7 @@
     "name": "Governor Pryce",
     "title": "Tyrant of Lothal",
     "art": "https://cdn.starwarsunlimited.com//06010011_EN_Governor_Pryce_Leader_02b3384dd0.png",
+    "artBack": "https://cdn.starwarsunlimited.com//06010011_EN_Governor_Pryce_Leader_Unit_08c3deb618.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
@@ -367,6 +388,7 @@
         "locale": "fr",
         "name": "Gouverneur Pryce",
         "art": "https://cdn.starwarsunlimited.com//06010011_FR_Gouverneur_Pryce_Leader_7d48d268fd.png",
+        "artBack": "https://cdn.starwarsunlimited.com//06010011_FR_Gouverneur_Pryce_Leader_Unit_c4f7b16675.png",
         "title": "Tyran De Lothal",
         "traits": [
           "IMPÉRIAL",
@@ -388,6 +410,7 @@
     "name": "Cassian Andor",
     "title": "Climb!",
     "art": "https://cdn.starwarsunlimited.com//06010012_EN_Cassian_Andor_Leader_e6239f096c.png",
+    "artBack": "https://cdn.starwarsunlimited.com//06010012_EN_Cassian_Andor_Leader_Unit_a056b2ecd9.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
@@ -398,6 +421,7 @@
         "locale": "fr",
         "name": "Cassian Andor",
         "art": "https://cdn.starwarsunlimited.com//06010012_FR_Cassian_Andor_Leader_9b5abebf47.png",
+        "artBack": "https://cdn.starwarsunlimited.com//06010012_FR_Cassian_Andor_Leader_Unit_33a8243a7f.png",
         "title": "Grimpe !",
         "traits": [
           "REBELLE"
@@ -424,6 +448,7 @@
     "name": "Luthen Rael",
     "title": "Don't You Want to Fight For Real?",
     "art": "https://cdn.starwarsunlimited.com//06010013_EN_Luthen_Rael_Leader_c511129bd1.png",
+    "artBack": "https://cdn.starwarsunlimited.com//06010013_EN_Luthen_Rael_Leader_Unit_e4ce8e34a9.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
@@ -434,6 +459,7 @@
         "locale": "fr",
         "name": "Luthen Rael",
         "art": "https://cdn.starwarsunlimited.com//06010013_FR_Luthen_Rael_Leader_55925dbeac.png",
+        "artBack": "https://cdn.starwarsunlimited.com//06010013_FR_Luthen_Rael_Leader_Unit_a5b025939c.png",
         "title": "Ne Veux-Tu Pas Te Battre Pour De Vrai ?",
         "traits": [
           "REBELLE"
@@ -454,6 +480,7 @@
     "name": "Sly Moore",
     "title": "Cipher in the Dark",
     "art": "https://cdn.starwarsunlimited.com//06010014_EN_Sly_Moore_Leader_c8885f09c6.png",
+    "artBack": "https://cdn.starwarsunlimited.com//06010014_EN_Sly_Moore_Leader_Unit_039c73c1ec.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
@@ -466,6 +493,7 @@
         "locale": "fr",
         "name": "Sly Moore",
         "art": "https://cdn.starwarsunlimited.com//06010014_FR_Sly_Moore_Leader_262cb0b149.png",
+        "artBack": "https://cdn.starwarsunlimited.com//06010014_FR_Sly_Moore_Leader_Unit_2b11a5cfd7.png",
         "title": "Cryptage Dans L'Ombre",
         "traits": [
           "FORCE",
@@ -488,6 +516,7 @@
     "name": "C-3P0",
     "title": "Human-Cyborg Relations",
     "art": "https://cdn.starwarsunlimited.com//06010015_EN_C_3_PO_Leader_c917c62a55.png",
+    "artBack": "https://cdn.starwarsunlimited.com//06010015_EN_C_3_PO_Leader_Unit_10f829443e.png",
     "cost": 4,
     "arena": "ground",
     "traits": [
@@ -499,6 +528,7 @@
         "locale": "fr",
         "name": "C-3PO",
         "art": "https://cdn.starwarsunlimited.com//06010015_FR_C_3_PO_Leader_4267085d11.png",
+        "artBack": "https://cdn.starwarsunlimited.com//06010015_FR_C_3_PO_Leader_Unit_268d18ad7c.png",
         "title": "Relations Humain-Cyborg",
         "traits": [
           "REBELLE",
@@ -520,6 +550,7 @@
     "name": "Padmé Amidala",
     "title": "What Do You Have to Hide?",
     "art": "https://cdn.starwarsunlimited.com//06010016_EN_Padme_Amidala_Leader_4f0f22a1f3.png",
+    "artBack": "https://cdn.starwarsunlimited.com//06010016_EN_Padme_Amidala_Leader_Unit_9efccff9d9.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
@@ -532,6 +563,7 @@
         "locale": "fr",
         "name": "Padmé Amidala",
         "art": "https://cdn.starwarsunlimited.com//06010016_FR_Padme_Amidala_Leader_56a736df39.png",
+        "artBack": "https://cdn.starwarsunlimited.com//06010016_FR_Padme_Amidala_Leader_Unit_b4e0f8cefd.png",
         "title": "Qu'Avez-Vous À Cacher ?",
         "traits": [
           "NABOO",
@@ -554,6 +586,7 @@
     "name": "Sabé",
     "title": "Queen's Shadow",
     "art": "https://cdn.starwarsunlimited.com//06010017_EN_Sabe_Leader_774d52837d.png",
+    "artBack": "https://cdn.starwarsunlimited.com//06010017_EN_Sabe_Leader_Unit_869886e963.png",
     "cost": 5,
     "arena": "ground",
     "traits": [
@@ -564,6 +597,7 @@
         "locale": "fr",
         "name": "Sabé",
         "art": "https://cdn.starwarsunlimited.com//06010017_FR_Sabe_Leader_d7d03f2a67.png",
+        "artBack": "https://cdn.starwarsunlimited.com//06010017_FR_Sabe_Leader_Unit_4e5d2b79fc.png",
         "title": "L'Ombre De La Reine",
         "traits": [
           "NABOO"
@@ -590,6 +624,7 @@
     "name": "DJ",
     "title": "Need a Lift?",
     "art": "https://cdn.starwarsunlimited.com//06010018_EN_DJ_Leader_528bd59d36.png",
+    "artBack": "https://cdn.starwarsunlimited.com//06010018_EN_DJ_Leader_Unit_977ba2254b.png",
     "cost": 6,
     "arena": "ground",
     "traits": [
@@ -600,6 +635,7 @@
         "locale": "fr",
         "name": "DJ",
         "art": "https://cdn.starwarsunlimited.com//06010018_FR_DJ_Leader_b090b070bb.png",
+        "artBack": "https://cdn.starwarsunlimited.com//06010018_FR_DJ_Leader_Unit_a3866a055b.png",
         "title": "Je Vous Dépose ?",
         "traits": [
           "PÈGRE"

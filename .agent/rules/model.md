@@ -78,6 +78,7 @@ Attributes:
 - traits (array of string, null if empty)
 - keywords (array of string, null if empty)
 - art (string)
+- artBack (string, nullable, only for leaders)
 
 A card belongs to a card set.
 

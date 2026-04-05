@@ -20,6 +20,7 @@ export interface Card {
     name: string;
     title?: string;
     art: string;
+    artBack?: string;
     cost?: number;
     arena?: UnitArena;
     traits?: string[];
@@ -33,6 +34,7 @@ export interface CardLocalization {
     name: string;
     title?: string;
     art: string;
+    artBack?: string;
     traits?: string[];
     keywords?: string[];
 }
