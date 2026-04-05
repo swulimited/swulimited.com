@@ -51,6 +51,7 @@ const getLocalValue = (card: Card | BoosterCard, key: keyof BoosterCard) => {
 }
 
 const getCardArt = (card: Card | BoosterCard) => getLocalValue(card, 'art') as string
+const getCardArtBack = (card: Card | BoosterCard) => getLocalValue(card, 'artBack') as string | undefined
 const getCardName = (card: Card | BoosterCard) => getLocalValue(card, 'name') as string
 const getCardTraits = (card: Card | BoosterCard) => getLocalValue(card, 'traits') as string[]
 const getCardKeywords = (card: Card | BoosterCard) => getLocalValue(card, 'keywords') as string[]
@@ -254,6 +255,7 @@ const bases = computed(() => {
 
 const hoveredCard = ref<Card | null>(null)
 const popupPosition = ref({ top: 0, left: 0, width: 300, height: 420 })
+const ctrlPressed = ref(false)
 let hoverTimeout: any
 
 const hidePopup = () => {
@@ -879,11 +881,16 @@ const handleScroll = () => {
 }
 
 const handleKeydown = (e: KeyboardEvent) => {
+  if (e.key === 'Control') ctrlPressed.value = true
   if (e.key === 'Escape') {
     showStats.value = false
     showDrawDialog.value = false
     showFilterDialog.value = false
   }
+}
+
+const handleKeyup = (e: KeyboardEvent) => {
+  if (e.key === 'Control') ctrlPressed.value = false
 }
 
 watch([showStats, showDrawDialog, showFilterDialog], ([statsOpen, drawOpen, filterOpen]) => {
@@ -903,12 +910,14 @@ watch([showStats, showDrawDialog, showFilterDialog], ([statsOpen, drawOpen, filt
 
 onMounted(() => {
   window.addEventListener('keydown', handleKeydown)
+  window.addEventListener('keyup', handleKeyup)
   window.addEventListener('scroll', handleScroll, { passive: true })
   window.addEventListener('mousemove', updateMousePos, { passive: true })
 })
 
 onUnmounted(() => {
   window.removeEventListener('keydown', handleKeydown)
+  window.removeEventListener('keyup', handleKeyup)
   window.removeEventListener('scroll', handleScroll)
   window.removeEventListener('mousemove', updateMousePos)
   clearTimeout(scrollTimeout)
@@ -1209,7 +1218,10 @@ onUnmounted(() => {
       :style="{ top: `${popupPosition.top}px`, left: `${popupPosition.left}px` }">
       <div
         class="relative shadow-2xl rounded-2xl overflow-hidden border border-swu-primary/30 bg-swu-900 elevation-high">
-        <img :src="getCardArt(hoveredCard)" :alt="getCardName(hoveredCard)" class="object-contain"
+        <img v-if="ctrlPressed && hoveredCard.type === 'leader' && getCardArtBack(hoveredCard)"
+          :src="getCardArtBack(hoveredCard)!" :alt="getCardName(hoveredCard)" class="object-contain"
+          :style="{ width: '300px', height: `${300 * 3.5 / 2.5}px` }" />
+        <img v-else :src="getCardArt(hoveredCard)" :alt="getCardName(hoveredCard)" class="object-contain"
           :style="{ width: `${popupPosition.width}px`, height: `${popupPosition.height}px` }" />
       </div>
     </div>
