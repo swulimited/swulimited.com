@@ -1,6 +1,6 @@
 import seedrandom from 'seedrandom';
 
-export type CardSet = 'LOF' | 'SEC' | 'LAW';
+export type CardSet = 'LOF' | 'SEC' | 'LAW' | 'ASH';
 
 export type CardType = 'leader' | 'base' | 'unit' | 'upgrade' | 'event' | 'token';
 
@@ -61,7 +61,8 @@ export async function fetchSetCards(setId: string): Promise<Card[]> {
 const EXCLUDED_LEADER_IDS = new Set([
     'LOF-009', 'LOF-016',
     'SEC-001', 'SEC-016',
-    'LAW-010', 'LAW-015'
+    'LAW-010', 'LAW-015',
+    'ASH-005', 'ASH-015'
 ]);
 
 /**

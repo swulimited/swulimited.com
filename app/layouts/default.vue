@@ -66,6 +66,16 @@ const changeLanguage = (newLocale: 'en' | 'fr') => {
 
               <img src="/images/LAW-logo.png" alt="A Lawless Time" class="h-8 w-auto" />
             </NuxtLink>
+            <NuxtLink to="/sealed/ASH"
+              @click="$trackEvent('new_pool', { pool: 'standard', set: 'ASH', location: 'header' })"
+              class="rounded-md px-2 py-1 transition-all duration-300 relative group" :class="[
+                route.path.includes('/sealed/ASH') || (route.params.id as string)?.includes('ASH-')
+                  ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
+                  : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
+              ]">
+
+              <img src="/images/ASH-logo.png" alt="Ashes of the Empire" class="h-8 w-auto" />
+            </NuxtLink>
 
             <!-- Language Switcher Desktop -->
             <div class="flex items-center gap-2 border-l border-swu-primary/20 pl-4 h-8">
@@ -134,6 +144,16 @@ const changeLanguage = (newLocale: 'en' | 'fr') => {
                 ]">
 
                 <img src="/images/LAW-logo.png" alt="A Lawless Time" class="h-6 w-auto" />
+              </NuxtLink>
+              <NuxtLink to="/sealed/ASH"
+                @click="$trackEvent('new_pool', { pool: 'standard', set: 'ASH', location: 'header_mobile' })"
+                class="rounded-md px-1 py-1 transition-all duration-300 relative group" :class="[
+                  route.path.includes('/sealed/ASH') || (route.params.id as string)?.includes('ASH-')
+                    ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
+                    : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
+                ]">
+
+                <img src="/images/ASH-logo.png" alt="Ashes of the Empire" class="h-6 w-auto" />
               </NuxtLink>
             </div>
 

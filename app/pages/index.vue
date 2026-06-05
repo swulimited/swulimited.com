@@ -16,7 +16,8 @@ const { $trackEvent } = useNuxtApp()
 const availableSets = ref([
   { code: 'LOF', count: 0 },
   { code: 'SEC', count: 0 },
-  { code: 'LAW', count: 6 }
+  { code: 'LAW', count: 0 },
+  { code: 'ASH', count: 6 }
 ])
 
 const includeSpotlightLeaders = ref(true)
@@ -90,6 +91,21 @@ const startCustomEvent = () => {
             </div>
 
             <img src="/images/LAW-cover.jpg" alt="A Lawless Time"
+              class="relative w-full h-auto rounded-xl shadow-2xl border border-white/10" />
+            <div
+              class="absolute inset-x-0 -bottom-8 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              <span class="text-swu-primary font-bold text-xs tracking-widest uppercase">{{ $t('open_6_packs')
+              }}</span>
+            </div>
+          </NuxtLink>
+
+          <NuxtLink to="/sealed/ASH" @click="$trackEvent('new_pool', { pool: 'standard', set: 'ASH' })"
+            class="group relative block w-full sm:w-28 md:w-40 transition-all duration-300 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-swu-accent/50 rounded-xl">
+            <div
+              class="absolute -inset-0.5 bg-swu-accent rounded-xl opacity-0 group-hover:opacity-75 blur transition duration-300">
+            </div>
+
+            <img src="/images/ASH-cover.jpg" alt="Ashes of the Empire"
               class="relative w-full h-auto rounded-xl shadow-2xl border border-white/10" />
             <div
               class="absolute inset-x-0 -bottom-8 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
