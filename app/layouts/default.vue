@@ -15,7 +15,7 @@ const changeLanguage = (newLocale: 'en' | 'fr') => {
     class="min-h-screen bg-swu-950 text-slate-200 flex flex-col font-sans selection:bg-swu-primary selection:text-white">
     <!-- Navigation Bar -->
     <header
-      class="sticky top-0 z-40 w-full backdrop-blur-lg bg-swu-950/80 border-b border-swu-primary/20 shadow-lg shadow-swu-900/50">
+      class="sticky top-0 z-50 w-full backdrop-blur-lg bg-swu-950/80 border-b border-swu-primary/20 shadow-lg shadow-swu-900/50">
       <div class="w-full px-6">
         <div class="flex h-16 items-center justify-between">
           <!-- Logo Section -->
