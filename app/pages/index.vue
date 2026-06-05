@@ -57,9 +57,9 @@ const startCustomEvent = () => {
       <!-- Standard Sets Column -->
       <div class="flex flex-col items-center">
         <h2 class="text-sm font-bold text-gray-500 uppercase tracking-widest mb-8">{{ $t('std_pool') }}</h2>
-        <div class="grid grid-cols-2 gap-4 sm:flex sm:flex-row sm:gap-6 md:gap-8 items-center justify-center">
+        <div class="grid grid-cols-2 gap-4 sm:gap-6 md:flex md:flex-row md:gap-8 items-center justify-center justify-items-center">
           <NuxtLink to="/sealed/LOF" @click="$trackEvent('new_pool', { pool: 'standard', set: 'LOF' })"
-            class="group relative block w-full sm:w-28 md:w-40 transition-all duration-300 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-swu-accent/50 rounded-xl">
+            class="group relative block w-full max-w-[180px] sm:w-36 md:w-40 transition-all duration-300 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-swu-accent/50 rounded-xl">
             <div
               class="absolute -inset-0.5 bg-swu-accent rounded-xl opacity-0 group-hover:opacity-75 blur transition duration-300">
             </div>
@@ -72,7 +72,7 @@ const startCustomEvent = () => {
           </NuxtLink>
 
           <NuxtLink to="/sealed/SEC" @click="$trackEvent('new_pool', { pool: 'standard', set: 'SEC' })"
-            class="group relative block w-full sm:w-28 md:w-40 transition-all duration-300 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-swu-accent/50 rounded-xl">
+            class="group relative block w-full max-w-[180px] sm:w-36 md:w-40 transition-all duration-300 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-swu-accent/50 rounded-xl">
             <div
               class="absolute -inset-0.5 bg-swu-accent rounded-xl opacity-0 group-hover:opacity-75 blur transition duration-300">
             </div>
@@ -85,7 +85,7 @@ const startCustomEvent = () => {
           </NuxtLink>
 
           <NuxtLink to="/sealed/LAW" @click="$trackEvent('new_pool', { pool: 'standard', set: 'LAW' })"
-            class="group relative block w-full sm:w-28 md:w-40 transition-all duration-300 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-swu-accent/50 rounded-xl">
+            class="group relative block w-full max-w-[180px] sm:w-36 md:w-40 transition-all duration-300 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-swu-accent/50 rounded-xl">
             <div
               class="absolute -inset-0.5 bg-swu-accent rounded-xl opacity-0 group-hover:opacity-75 blur transition duration-300">
             </div>
@@ -100,7 +100,7 @@ const startCustomEvent = () => {
           </NuxtLink>
 
           <NuxtLink to="/sealed/ASH" @click="$trackEvent('new_pool', { pool: 'standard', set: 'ASH' })"
-            class="group relative block w-full sm:w-28 md:w-40 transition-all duration-300 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-swu-accent/50 rounded-xl">
+            class="group relative block w-full max-w-[180px] sm:w-36 md:w-40 transition-all duration-300 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-swu-accent/50 rounded-xl">
             <div
               class="absolute -inset-0.5 bg-swu-accent rounded-xl opacity-0 group-hover:opacity-75 blur transition duration-300">
             </div>
