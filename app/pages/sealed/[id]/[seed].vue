@@ -1486,7 +1486,9 @@ onUnmounted(() => {
 
 @media (hover: hover) {
   .deck-card-hover-scale:hover {
-    transform: scale(1.05);
+    transform: scale(1.15) !important;
+    z-index: 10;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.5), 0 8px 10px -6px rgb(0 0 0 / 0.5);
   }
 }
 
