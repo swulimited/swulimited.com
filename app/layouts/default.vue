@@ -1,12 +1,6 @@
 <script setup lang="ts">
-const isMobileMenuOpen = ref(false)
 const route = useRoute()
 const { locale, setLocale } = useI18n()
-
-// Close menu when route changes
-watch(() => route.path, () => {
-  isMobileMenuOpen.value = false
-})
 
 const { $trackEvent } = useNuxtApp()
 
@@ -35,140 +29,16 @@ const changeLanguage = (newLocale: 'en' | 'fr') => {
 
           </div>
 
-          <!-- Desktop Navigation -->
-          <nav class="hidden md:flex gap-4 items-center">
-
-            <NuxtLink to="/sealed/LOF"
-              @click="$trackEvent('new_pool', { pool: 'standard', set: 'LOF', location: 'header' })"
-              class="rounded-md px-2 py-1 transition-all duration-300" :class="[
-                route.path.includes('/sealed/LOF') || (route.params.id as string)?.includes('LOF-')
-                  ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
-                  : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
-              ]">
-              <img src="/images/LOF-logo.png" alt="Legends of the Force" class="h-8 w-auto" />
-            </NuxtLink>
-            <NuxtLink to="/sealed/SEC"
-              @click="$trackEvent('new_pool', { pool: 'standard', set: 'SEC', location: 'header' })"
-              class="rounded-md px-2 py-1 transition-all duration-300" :class="[
-                route.path.includes('/sealed/SEC') || (route.params.id as string)?.includes('SEC-')
-                  ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
-                  : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
-              ]">
-              <img src="/images/SEC-logo.png" alt="Secrets of Power" class="h-8 w-auto" />
-            </NuxtLink>
-            <NuxtLink to="/sealed/LAW"
-              @click="$trackEvent('new_pool', { pool: 'standard', set: 'LAW', location: 'header' })"
-              class="rounded-md px-2 py-1 transition-all duration-300 relative group" :class="[
-                route.path.includes('/sealed/LAW') || (route.params.id as string)?.includes('LAW-')
-                  ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
-                  : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
-              ]">
-
-              <img src="/images/LAW-logo.png" alt="A Lawless Time" class="h-8 w-auto" />
-            </NuxtLink>
-            <NuxtLink to="/sealed/ASH"
-              @click="$trackEvent('new_pool', { pool: 'standard', set: 'ASH', location: 'header' })"
-              class="rounded-md px-2 py-1 transition-all duration-300 relative group" :class="[
-                route.path.includes('/sealed/ASH') || (route.params.id as string)?.includes('ASH-')
-                  ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
-                  : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
-              ]">
-
-              <img src="/images/ASH-logo.png" alt="Ashes of the Empire" class="h-8 w-auto" />
-            </NuxtLink>
-
-            <!-- Language Switcher Desktop -->
-            <div class="flex items-center gap-2 border-l border-swu-primary/20 pl-4 h-8">
-              <button @click="changeLanguage('en')" class="text-xs font-bold transition-colors"
-                :class="locale === 'en' ? 'text-swu-primary' : 'text-slate-500 hover:text-slate-300'">EN</button>
-              <span class="text-slate-600 text-xs">|</span>
-              <button @click="changeLanguage('fr')" class="text-xs font-bold transition-colors"
-                :class="locale === 'fr' ? 'text-swu-primary' : 'text-slate-500 hover:text-slate-300'">FR</button>
-            </div>
-          </nav>
-
-          <!-- Mobile Menu Button -->
-          <div class="flex ml-auto md:hidden">
-            <button type="button"
-              class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-slate-400 hover:text-white transition-colors"
-              @click="isMobileMenuOpen = !isMobileMenuOpen">
-              <span class="sr-only">Toggle main menu</span>
-              <!-- Hamburger Icon -->
-              <svg v-if="!isMobileMenuOpen" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor" aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-              </svg>
-              <!-- Close Icon -->
-              <svg v-else class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
+          <!-- Language Switcher -->
+          <div class="flex items-center gap-2">
+            <button @click="changeLanguage('en')" class="text-xs font-bold transition-colors"
+              :class="locale === 'en' ? 'text-swu-primary' : 'text-slate-500 hover:text-slate-300'">EN</button>
+            <span class="text-slate-600 text-xs">|</span>
+            <button @click="changeLanguage('fr')" class="text-xs font-bold transition-colors"
+              :class="locale === 'fr' ? 'text-swu-primary' : 'text-slate-500 hover:text-slate-300'">FR</button>
           </div>
         </div>
       </div>
-
-      <!-- Mobile Menu Dropdown -->
-      <transition enter-active-class="transition duration-200 ease-out"
-        enter-from-class="transform -translate-y-2 opacity-0" enter-to-class="transform translate-y-0 opacity-100"
-        leave-active-class="transition duration-150 ease-in" leave-from-class="transform translate-y-0 opacity-100"
-        leave-to-class="transform -translate-y-2 opacity-0">
-        <div v-if="isMobileMenuOpen" class="md:hidden border-t border-swu-primary/10 bg-swu-950/95 backdrop-blur-xl">
-          <div class="px-4 pb-3 pt-2">
-            <!-- Extensions Mobile -->
-            <div class="flex flex-nowrap items-center justify-center gap-1 mb-2">
-              <NuxtLink to="/sealed/LOF"
-                @click="$trackEvent('new_pool', { pool: 'standard', set: 'LOF', location: 'header_mobile' })"
-                class="rounded-md px-1 py-1 transition-all duration-300" :class="[
-                  route.path.includes('/sealed/LOF') || (route.params.id as string)?.includes('LOF-')
-                    ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
-                    : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
-                ]">
-                <img src="/images/LOF-logo.png" alt="Legends of the Force" class="h-6 w-auto" />
-              </NuxtLink>
-              <NuxtLink to="/sealed/SEC"
-                @click="$trackEvent('new_pool', { pool: 'standard', set: 'SEC', location: 'header_mobile' })"
-                class="rounded-md px-1 py-1 transition-all duration-300" :class="[
-                  route.path.includes('/sealed/SEC') || (route.params.id as string)?.includes('SEC-')
-                    ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
-                    : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
-                ]">
-                <img src="/images/SEC-logo.png" alt="Secrets of Power" class="h-6 w-auto" />
-              </NuxtLink>
-              <NuxtLink to="/sealed/LAW"
-                @click="$trackEvent('new_pool', { pool: 'standard', set: 'LAW', location: 'header_mobile' })"
-                class="rounded-md px-1 py-1 transition-all duration-300 relative group" :class="[
-                  route.path.includes('/sealed/LAW') || (route.params.id as string)?.includes('LAW-')
-                    ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
-                    : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
-                ]">
-
-                <img src="/images/LAW-logo.png" alt="A Lawless Time" class="h-6 w-auto" />
-              </NuxtLink>
-              <NuxtLink to="/sealed/ASH"
-                @click="$trackEvent('new_pool', { pool: 'standard', set: 'ASH', location: 'header_mobile' })"
-                class="rounded-md px-1 py-1 transition-all duration-300 relative group" :class="[
-                  route.path.includes('/sealed/ASH') || (route.params.id as string)?.includes('ASH-')
-                    ? 'opacity-100 grayscale-0 bg-swu-primary/10 ring-2 ring-swu-primary'
-                    : 'opacity-60 grayscale hover:grayscale-0 hover:opacity-100 hover:bg-swu-primary/10'
-                ]">
-
-                <img src="/images/ASH-logo.png" alt="Ashes of the Empire" class="h-6 w-auto" />
-              </NuxtLink>
-            </div>
-
-            <!-- Language Switcher Mobile -->
-            <div class="flex items-center justify-center gap-4 p-3 border-t border-swu-primary/10">
-              <div class="flex items-center gap-3">
-                <button @click="changeLanguage('en')" class="text-sm font-bold px-2 py-1 rounded"
-                  :class="locale === 'en' ? 'bg-swu-primary/20 text-swu-primary' : 'text-slate-400'">English</button>
-                <button @click="changeLanguage('fr')" class="text-sm font-bold px-2 py-1 rounded"
-                  :class="locale === 'fr' ? 'bg-swu-primary/20 text-swu-primary' : 'text-slate-400'">Français</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </transition>
     </header>
 
     <!-- Main Content Area -->
